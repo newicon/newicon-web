@@ -1,0 +1,23 @@
+/* ------------------------------------------------------------ *\
+	Subscribe
+\* ------------------------------------------------------------ */
+
+.subscribe { text-align: center; }
+
+.subscribe .subscribe_content { padding: 102px 40px 45px; }
+
+.subscribe .subscribe_content h2 { font-size: 36px; }
+
+.subscribe .subscribe_title { margin-bottom: 69px; font-family: $font-Helvetica; font-weight: 700; line-height: 1.35; letter-spacing: 0; color: $black2; }
+
+.subscribe .btn { border-radius: 3px; }
+
+/* Mobile */
+
+$breakpoint-mobile {
+	.subscribe .subscribe_content { padding: 45px 0; }
+
+	.subscribe .subscribe_content h2 { font-size: 27px; }
+
+	.subscribe .subscribe_title { margin-bottom: 40px; }
+}

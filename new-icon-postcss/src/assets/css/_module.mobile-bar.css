@@ -1,0 +1,11 @@
+/* ------------------------------------------------------------ *\
+	Mobile Bar
+\* ------------------------------------------------------------ */
+
+.mobile-bar { position: fixed; bottom: 0; left: 0; z-index: 10; width: 100%; display: none; padding: 16px 0; background-color: $blue21; }
+
+/* Mobile */
+
+$breakpoint-mobile {
+	.mobile-bar { display: block; }
+}

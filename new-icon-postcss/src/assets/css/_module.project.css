@@ -1,0 +1,110 @@
+/* ------------------------------------------------------------ *\
+	Project
+\* ------------------------------------------------------------ */
+
+.project { padding: 146px 0 0; }
+
+.project .project_group { padding: 41px 0; }
+
+.project .project_group-gray { background: linear-gradient(to bottom, rgba(242, 242, 242, 1) 0%, rgba(242, 243, 245, 1) 100%); }
+
+.project .project_group-gray2 { background-color: $gray10; }
+
+.project .project_group-spacing1 { margin-top: -226px; padding: 92px 0; }
+
+.project .project_group-spacing2 { padding: 111px 0 18px; }
+
+.project .project_group-spacing3 { padding: 190px 0 0; }
+
+.project .project_group-spacing4 { padding: 15px 0; }
+
+.project .project_group-spacing5 { padding: 56px 0 140px; }
+
+.project .project_group-spacing6 { padding: 41px 0 0; }
+
+.project .project_group-spacing7 { padding: 203px 0 101px; }
+
+.project .project_group-spacing8 { padding: 160px 0 41px; }
+
+.project .project_inner { display: flex; justify-content: flex-end; padding: 0 68px; margin: 0 -58px; }
+
+.project .project_content { flex: 0 0 70%; max-width: 70%; padding: 0 58px; }
+
+.project .project_aside { flex: 0 0 30%; max-width: 30%; padding: 3px 58px; }
+
+.project .project_entry { padding-right: 24px; font-size: 22px; color: $gray11; line-height: 1.4; }
+
+.project .project_entry h1,
+.project .project_entry h2,
+.project .project_entry h3,
+.project .project_entry h4,
+.project .project_entry h5,
+.project .project_entry h6 { margin-bottom: 58px; font-weight: 700; letter-spacing: 0; color: $blue4; }
+
+.project .project_entry h2 { font-size: 44px; }
+
+.project .project_entry p + p { margin-top: 30px; }
+
+.project .project_image { text-align: center; }
+
+.project .project_image-secondary { text-align: right; }
+
+.project .project_image-tertiary img { display: inline-block; margin-left: -70px; }
+
+.project .project_entry-spacing1 h1,
+.project .project_entry-spacing1 h2,
+.project .project_entry-spacing1 h3,
+.project .project_entry-spacing1 h4,
+.project .project_entry-spacing1 h5,
+.project .project_entry-spacing1 h6 { margin-bottom: 38px; }
+
+.project .project_entry-spacing2 h1,
+.project .project_entry-spacing2 h2,
+.project .project_entry-spacing2 h3,
+.project .project_entry-spacing2 h4,
+.project .project_entry-spacing2 h5,
+.project .project_entry-spacing2 h6 { margin-bottom: 32px; }
+
+/* Tablet Portrait */
+
+$breakpoint-tablet-portrait {
+	.project .project_inner { padding: 0; margin: 0 -30px; }
+
+	.project .project_content { flex: 0 0 65%; max-width: 65%; padding: 0 30px; }
+
+	.project .project_aside { flex: 0 0 35%; max-width: 35%; padding: 3px 30px; }
+}
+
+/* Mobile */
+
+$breakpoint-mobile {
+	.project { padding: 50px 0 0; }
+
+	.project .project_inner { display: block; margin: 0; }
+
+	.project .project_content { max-width: 100%; padding: 0; }
+
+	.project .project_aside { max-width: 100%; padding: 0; margin-bottom: 40px; }
+
+	.project .project_entry { padding-right: 0; font-size: 18px; }
+
+	.project .project_entry h1,
+	.project .project_entry h2,
+	.project .project_entry h3,
+	.project .project_entry h4,
+	.project .project_entry h5,
+	.project .project_entry h6 { margin-bottom: 40px; }
+
+	.project .project_entry h2 { font-size: 33px; }
+
+	.project .project_group-spacing1 { margin-top: 0; padding: 0 0 50px; }
+
+	.project .project_group-spacing2,
+	.project .project_group-spacing3,
+	.project .project_group-spacing5,
+	.project .project_group-spacing6,
+	.project .project_group-spacing7,
+	.project .project_group-spacing8 { padding: 50px 0; }
+
+	.project .project_image-tertiary img { margin-left: 0; }
+}

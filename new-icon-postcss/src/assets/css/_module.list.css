@@ -1,0 +1,334 @@
+/* ------------------------------------------------------------ *\
+	List
+\* ------------------------------------------------------------ */
+
+[class^="list-"] { list-style: none outside none; }
+
+/* ------------------------------------------------------------ *\
+	List Links
+\* ------------------------------------------------------------ */
+
+.list-links { padding: 0; margin: 0; list-style-type: none; font-weight: 800; font-size: 12px; color: $white; text-transform: uppercase; }
+
+.list-links li + li { margin-top: 13px; }
+
+/* Tablet Portrait */
+
+$breakpoint-tablet-portrait {
+	.list-links { font-size: 9px; }
+}
+
+/* ------------------------------------------------------------ *\
+	List Links Secondary
+\* ------------------------------------------------------------ */
+
+.list-links-secondary { padding: 0; margin: 0; list-style-type: none; font-weight: 400; font-size: 15px; color: $gray3; }
+
+.list-links-secondary li + li { margin-top: 11px; }
+
+.list-links-secondary a { text-decoration: none; -webkit-transition: color .4s; -o-transition: color .4s; transition: color .4s; }
+
+.list-links-secondary a:hover { color: $blue3; }
+
+/* ------------------------------------------------------------ *\
+	List Contacts
+\* ------------------------------------------------------------ */
+
+.list-contacts { padding: 0; margin: 0; list-style-type: none; font-size: 18px; color: $blue5; }
+
+.list-contacts h5 { margin-bottom: 4px; font-weight: 700; color: $white; }
+
+.list-contacts li + li { margin-top: 32px; }
+
+.list-contacts a { font-weight: 300; text-decoration: none; -webkit-transition: color .4s; -o-transition: color .4s; transition: color .4s; }
+
+.list-contacts a:hover { color: $blue3; }
+
+/* Tablet Portrait */
+
+$breakpoint-tablet-portrait {
+	.list-contacts { display: flex; flex-wrap: wrap; font-size: 26px; }
+
+	.list-contacts li { flex: 0 0 50%; max-width: 50%; }
+
+	.list-contacts li + li { margin-top: 0; }
+
+	.list-contacts h5 { margin-bottom: 0; font-weight: 700; font-size: inherit; line-height: 1.2; }
+}
+
+/* Mobile */
+
+$breakpoint-mobile {
+	.list-contacts { font-size: 22px; }
+}
+
+$breakpoint-mobile-portrait {
+	.list-contacts { font-size: 17px; }
+
+	.list-contacts h5 { line-height: 1; }
+}
+
+$breakpoint-mobile-small {
+	.list-contacts { display: block; }
+
+	.list-contacts li { display: block; max-width: 100%; }
+
+	.list-contacts li + li { margin-top: 20px; }
+}
+
+/* ------------------------------------------------------------ *\
+	List Radios
+\* ------------------------------------------------------------ */
+
+.list-radios { display: -webkit-box; display: -ms-flexbox; display: flex; padding: 0; margin: 0 -24px; list-style-type: none; }
+
+.list-radios li { margin: 0 24px; }
+
+/* Mobile */
+
+$breakpoint-mobile {
+	.list-radios { margin: 0 -17px; }
+
+	.list-radios li { margin: 0 17px; }
+}
+
+$breakpoint-mobile-portrait {
+	.list-radios { margin: 0 -10px; }
+
+	.list-radios li { margin: 0 10px; }
+}
+
+/* ------------------------------------------------------------ *\
+	List Brands
+\* ------------------------------------------------------------ */
+
+.list-brands { display: flex; flex-wrap: wrap; padding: 0; margin: 0; list-style-type: none; }
+
+.list-brands li { flex: 0 0 33.33%; max-width: 33.33%; height: 180px; display: flex; justify-content: center; align-items: center; border: 1px solid rgba(26, 68, 160, .2); border-top: 0; }
+
+.list-brands li:nth-child(3n + 1) { border-left: 0; }
+
+.list-brands li:nth-child(3n + 3) { border-right: 0; }
+
+.list-brands li:nth-last-child(-n+3) { border-bottom: 0; }
+
+/* ------------------------------------------------------------ *\
+	List Filters
+\* ------------------------------------------------------------ */
+
+.listFilters { display: flex; padding: 0; margin: 0; list-style-type: none; }
+
+.listFilters li a { position: relative; display: inline-block; min-width: 187px; padding: 27px 15px; margin-bottom: 30px; border-radius: 4px; background-color: $gray14; font-weight: 800; font-size: 14px; line-height: 1.2; color: $gray11; text-align: center; text-decoration: none; transition: background .4s, color .4s, box-shadow .4s; }
+
+.listFilters li a:after { content: ''; position: absolute; top: 100%; left: 50%; width: 0; height: 0; z-index: -5; margin-top: -1px; border-style: solid; border-width: 10px 11px 0 11px; border-color: $blue3 transparent transparent transparent; transform: translate(-50%, -100%); transition: transform .3s ease; }
+
+.listFilters li.current a,
+.listFilters li a:hover { background-color: $blue3; color: $white; box-shadow: 0 12px 18px 0 rgba(0, 0, 0, .11); }
+
+.listFilters li.current a:after,
+.listFilters li a:hover:after { transform: translate(-50%, 0); }
+
+.listFilters-dark li a { background-color: $blue12; }
+
+/* Mobile */
+
+$breakpoint-mobile {
+	.listFilters li a { min-width: 0; padding: 20px 15px; box-shadow: none; }
+
+	.listFilters .current,
+	.listFilters a:hover { box-shadow: none; }
+}
+
+/* ------------------------------------------------------------ *\
+	List Project Details
+\* ------------------------------------------------------------ */
+
+.listProjectDetails { padding: 0; margin: 0; list-style-type: none; font-weight: 700; font-size: 14px; line-height: 1.4; color: $blue2; }
+
+.listProjectDetails li h1,
+.listProjectDetails li h2,
+.listProjectDetails li h3,
+.listProjectDetails li h4,
+.listProjectDetails li h5,
+.listProjectDetails li h6 { margin-bottom: 9px; font-family: $font-Volkhov; font-style: italic; font-weight: 400; color: $gray13; }
+
+.listProjectDetails li + li { margin-top: 33px; }
+
+/* ------------------------------------------------------------ *\
+	List Options
+\* ------------------------------------------------------------ */
+
+.listOptions { padding: 0; margin: 0; list-style-type: none; }
+
+.listOptions li:after { content: ''; display: table; line-height: 0; clear: both; }
+
+.listOptions li + li { margin-top: 41px; }
+
+.listOptions li h1,
+.listOptions li h2,
+.listOptions li h3 { margin-bottom: 8px; color: $black; }
+
+.listOptions li h4,
+.listOptions li h5,
+.listOptions li h6 { font-family: $font-Volkhov; font-weight: 400; font-style: italic; }
+
+.listOptions li h3 { font-size: 24px; }
+
+.listOptions li h5 { font-size: 18px; }
+
+.listOptions li img { float: left; margin: 0 25px 20px 0; }
+
+/* ------------------------------------------------------------ *\
+	List Activities
+\* ------------------------------------------------------------ */
+
+.listActivities { padding: 0; margin: 0; list-style-type: none; font-size: 16px; }
+
+.listActivities li + li { margin-top: 40px; }
+
+.listActivities h1,
+.listActivities h2,
+.listActivities h3,
+.listActivities h4,
+.listActivities h5,
+.listActivities h6 { color: $blue2; }
+
+/* ------------------------------------------------------------ *\
+	List Articles
+\* ------------------------------------------------------------ */
+
+.listArticles { padding: 0; margin: 0; list-style-type: none; font-size: 11px; color: $black2; text-transform: uppercase; }
+
+.listArticles li { padding: 36px 25px 22px; }
+
+.listArticles h1,
+.listArticles h2,
+.listArticles h3,
+.listArticles h4,
+.listArticles h5,
+.listArticles h6 { margin-bottom: 13px; font-weight: 700; line-height: 1.5; color: $black2; text-transform: none; }
+
+.listArticles h4 { font-size: 14px; }
+
+.listArticles a { text-decoration: none; transition: color .4s; }
+
+.listArticles a:hover { color: $blue3; }
+
+.listArticles li + li { position: relative; }
+
+.listArticles li + li:before { content: ''; position: absolute; top: 4px; left: 0; width: 100%; height: 1px; background-color: $gray14; }
+
+/* ------------------------------------------------------------ *\
+	List Bullet
+\* ------------------------------------------------------------ */
+
+.listBullet { padding: 0; margin: 0; list-style-type: none; font-weight: 800; font-size: 12px; color: $blue2; }
+
+.listBullet li { position: relative; padding-left: 20px; }
+
+.listBullet li:before { content: ''; position: absolute; top: 10px; left: 4px; width: 4px; height: 4px; border-radius: 50%; background-color: $blue3; }
+
+.listBullet li + li { margin-top: 10px; }
+
+/* ------------------------------------------------------------ *\
+	List Articles Secondary
+\* ------------------------------------------------------------ */
+
+.listArticlesSecondary { display: flex; flex-wrap: wrap; padding: 0; margin: 0 -6px; list-style-type: none; font-weight: 600; font-size: 14px; color: $gray11; }
+
+.listArticlesSecondary li { flex: 0 0 25%; max-width: 25%; padding: 0 6px; }
+
+.listArticlesSecondary p { margin-bottom: 0; }
+
+.listArticlesSecondary h4 { margin-bottom: 8px; font-weight: 800; line-height: 1.1; letter-spacing: -.006em; color: $blue4; }
+
+.listArticlesSecondary h6 { margin-bottom: 15px; font-family: $font-Volkhov; font-weight: 400; font-style: italic; font-size: 12px; color: $gray24; text-transform: uppercase; }
+
+.listArticlesSecondary h6 span { margin-left: 5px; letter-spacing: .1em; }
+
+.listArticlesSecondary a { text-decoration: none; transition: color .4s; }
+
+.listArticlesSecondary a:hover { color: $blue3; }
+
+/* Tablet Portrait */
+
+$breakpoint-tablet-portrait {
+	.listArticlesSecondary li { flex: 0 0 50%; max-width: 50%; margin-bottom: 50px; }
+}
+
+/* Mobile */
+
+$breakpoint-mobile {
+	.listArticlesSecondary { display: block; }
+
+	.listArticlesSecondary li { max-width: 100%; }
+}
+
+/* ------------------------------------------------------------ *\
+	List Offices
+\* ------------------------------------------------------------ */
+
+.listOffices { display: flex; justify-content: center; padding: 0; margin: 0 -45px; list-style-type: none; font-size: 22px; letter-spacing: -.02em; line-height: 1.4; color: $blue19; }
+
+.listOffices li { position: relative; flex: 0 0 387px; max-width: 387px; padding: 0 45px; }
+
+.listOffices li:after { content: ''; position: absolute; top: 14px; left: 16px; width: 14px; height: 14px; display: none; border-radius: 50%; background-color: $blue3; }
+
+.listOffices .current:after { display: block; }
+
+.listOffices h1,
+.listOffices h2,
+.listOffices h3,
+.listOffices h4,
+.listOffices h5,
+.listOffices h6 { margin-bottom: 15px; letter-spacing: -.03em; color: $blue19; }
+
+.listOffices h3 { font-size: 36px; }
+
+.listOffices p { margin-bottom: 33px; }
+
+.listOffices a { display: inline-block; margin-left: -5px; font-family: $font-Volkhov; font-weight: 400; font-style: italic; font-size: 19px; letter-spacing: 0; transition: color .4s; }
+
+.listOffices a:hover { color: $blue3; }
+
+.listOffices img { position: absolute; }
+
+.listOffices .listOfficesImgTextPosition1 { bottom: -106px; left: -240px; }
+
+.listOffices .listOfficesImgTextPosition2 { bottom: -85px; left: 325px; }
+
+/* Small Desktop */
+
+$breakpoint-small-desktop {
+	.listOffices .listOfficesImgTextPosition1 { bottom: -180px; left: -120px; }
+
+	.listOffices .listOfficesImgTextPosition2 { bottom: -155px; left: 200px; }
+}
+
+/* Tablet Portrait */
+
+$breakpoint-tablet-portrait {
+	.listOffices { justify-content: center; font-size: 18px; }
+
+	.listOffices h3 { font-size: 26px; }
+
+	.listOffices a { font-size: 18px; }
+
+	.listOffices .listOfficesImgTextPosition1 { left: 10px; }
+
+	.listOffices .listOfficesImgTextPosition2 { left: 100px; }
+}
+
+/* Mobile */
+
+$breakpoint-mobile {
+	.listOffices { display: block; margin: 0; text-align: center; }
+
+	.listOffices li { max-width: 100%; padding: 0; }
+
+	.listOffices li:after { top: -25px; left: 50%; transform: translateX(-50%); }
+
+	.listOffices li + li { margin-top: 100px; }
+
+	.listOffices img { display: none; }
+}

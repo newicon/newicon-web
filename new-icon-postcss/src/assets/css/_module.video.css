@@ -1,0 +1,19 @@
+/* ------------------------------------------------------------ *\
+	Video
+\* ------------------------------------------------------------ */
+
+.video { position: relative; }
+
+.video .video_btn { position: absolute; top: 50%; left: 50%; display: inline-flex; justify-content: center; align-items: center; width: 68px; height: 68px; border-radius: 50%; background-color: $white; transform: translate(-50%, -50%); transition: opacity .4s; }
+
+.video .video_btn svg { margin-right: -5px; }
+
+.video .video_btn:hover { opacity: .7; }
+
+/* Mobile */
+
+$breakpoint-mobile {
+	.video .video_btn { width: 20px; height: 20px; }
+
+	.video .video_btn svg { width: 9px; margin-right: 0; }
+}
