@@ -1,0 +1,100 @@
+
+.btn {
+	display: inline-block;
+	zoom: 1;
+	line-height: normal;
+	white-space: nowrap;
+	vertical-align: baseline;
+	text-align: center;
+	cursor: pointer;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+	/* Firefox: Get rid of the inner focus border */
+	&::-moz-focus-inner {
+		padding: 0;
+    	border: 0;
+	}
+
+	font-family: inherit;
+	padding: 0.5em 1em;
+	border: none rgba(0, 0, 0, 0);
+	text-decoration: none;
+	border-radius: 2px;
+	/* Transitions */
+	-webkit-transition: 0.1s linear -webkit-box-shadow;
+	-moz-transition: 0.1s linear -moz-box-shadow;
+	-ms-transition: 0.1s linear box-shadow;
+	-o-transition: 0.1s linear box-shadow;
+	transition: 0.1s linear box-shadow;
+
+	&_hover,
+	&:hover,
+	&:focus {
+		text-decoration: none;
+
+	}
+
+	&:focus {
+		outline: 0;
+	}
+	&_active,
+	&:active {
+		box-shadow: 0 0 0 1px rgba(0,0,0, 0.15) inset, 0 0 6px rgba(0,0,0, 0.20) inset;
+	}
+	&[disabled],
+	&_disabled,
+	&_disabled:hover,
+	&_disabled:focus,
+	&_disabled:active {
+		border: none;
+		background-image: none;
+		filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+		filter: alpha(opacity=40);
+		-khtml-opacity: 0.40;
+		-moz-opacity: 0.40;
+		opacity: 0.40;
+		cursor: not-allowed;
+		box-shadow: none;
+	}
+
+	&_hidden {
+		display: none;
+	}
+
+	/* Firefox: Get rid of the inner focus border */
+	&::-moz-focus-inner{
+	    padding: 0;
+	    border: 0;
+	}
+
+	&_selected
+	{
+		background-color: rgb(0, 120, 231);
+		color: #fff;
+	}
+}
+
+a.button_selected {
+    background-color: rgb(0, 120, 231);
+    color: #fff;
+}
+
+.btn.m_noActiveState {
+	&_active,
+	&:active {
+		box-shadow: none;
+	}
+}
+
+.btn.m_noBackground {
+	background-color: transparent;
+	&:hover {
+		background-image: none;
+        background-color: transparent;
+	}
+}
+

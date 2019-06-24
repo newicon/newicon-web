@@ -1,0 +1,143 @@
+// ******************************************************************************** //
+// ************************ Non Bootstrap Vars for Base *************************** //
+// ******************************************************************************** //
+
+// ** Grid Gutter overides ** //
+@grid-gutter-width-sm: @grid-gutter-width / 2;
+@grid-gutter-width-md: @grid-gutter-width * 2;
+@grid-gutter-width-lg: @grid-gutter-width * 4;
+@grid-gutter-width-xl: @grid-gutter-width * 6;
+
+@spacing-xs: @grid-gutter-width-sm / 2;
+@spacing-sm: @grid-gutter-width-sm;
+@spacing-md: @grid-gutter-width-md;
+@spacing-lg: @grid-gutter-width-lg;
+@spacing-xl: @grid-gutter-width-xl;
+
+// ** Font weights
+@font-light: 300;
+@font-regular: 400;
+@font-medium: 500;
+@font-bold: 700;
+@font-extrabold: 800;
+
+// ** Font spacing
+@letter-spacing: 0.05em;
+
+// ** Z-indexes
+@zindex-navbar-fixed-secondary: 1035;
+
+// ** Theme colours
+@themeDark: #111111;
+@themeSuccess: #1fb88a;
+@themeInfo: #40c5dc;
+@themeWarning: #ffcc01;
+@themeDanger: #fc6280;
+@themePrimaryActive: #666666;
+@themeSecondary: #000;
+@themePanelGrey: #e7e7e7;
+@themePrimary: #333333;
+
+// ** Theme gray colours
+@themeWhite: #fff;
+@themeGreyDarkest: #313635;
+@themeGreyDarker: #585858;
+@themeGreyDark: #878787;
+@themeGreyMedium: #7a7a7a;
+@themeGreyMediumLight: #bababa;
+@themeGreyLight: #757575;
+@themeGreyLighter: #4c4c4c;
+@themeGreyLightest: #f2f2f2;
+@themeGreyMidLight: #f9f9f9;
+@themeGreyMidLightest: #979797;
+
+@textColour: #000;
+@menuTextColour: #666;
+@menuOverlayTextColour: #666;
+@overlayBackgroundColour: #aaa;
+
+// ** animations / transitions and opacities
+@transition-speed-slow: 1s;
+@transition-speed-mid: 0.6s;
+@transition-speed: 0.3s;
+
+// ** opacities
+@transition-opacity: 0.70;
+@overlay-opacity: 0.65;
+
+// ** Graphics
+@primary-graphics-width: 1250px;
+
+// ** Bootrap vars
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+@font-family: Arial, Helvetica, sans-serif;
+@font-size-xx-small:      13px;
+@font-size-x-small:       14px;
+@font-size-small:         15px;
+@font-size-base:          16px; // std size
+@font-size-large:         17px;
+@font-size-x-large:       23px;
+@font-size-xx-large:      39px;
+
+@font-size-h1:            29px;
+@font-size-h2:            26px;
+@font-size-h3:            20px;
+@font-size-h4:            18px;
+@font-size-h5:            @font-size-base;
+@font-size-h6:            @font-size-base;
+
+//== Media queries breakpoints
+//
+//## Define the breakpoints at which your layout will change, adapting to different screen sizes.
+
+// Extra small screen / phone - Newicon custom
+@screen-xxs:                  320px;
+@screen-xxs-min:              @screen-xxs;
+
+// Extra small screen / phone
+//** Deprecated `@screen-xs` as of v3.0.1
+@screen-xs:                  480px;
+//** Deprecated `@screen-xs-min` as of v3.2.0
+@screen-xs-min:              @screen-xs;
+//** Deprecated `@screen-phone` as of v3.0.1
+@screen-phone:               @screen-xs-min;
+
+// Small screen / tablet
+//** Deprecated `@screen-sm` as of v3.0.1
+@screen-sm:                  600px;
+@screen-sm-min:              @screen-sm;
+//** Deprecated `@screen-tablet` as of v3.0.1
+@screen-tablet:              @screen-sm-min;
+
+// Medium screen / desktop
+//** Deprecated `@screen-md` as of v3.0.1
+@screen-md:                  770px;
+@screen-md-min:              @screen-md;
+//** Deprecated `@screen-desktop` as of v3.0.1
+@screen-desktop:             @screen-md-min;
+
+// Large screen / wide desktop
+//** Deprecated `@screen-lg` as of v3.0.1
+@screen-lg:                  980px;
+@screen-lg-min:              @screen-lg;
+//** Deprecated `@screen-lg-desktop` as of v3.0.1
+@screen-lg-desktop:          @screen-lg-min;
+
+// XLarge screen / wide desktop - Newicon custom
+@screen-xl:                  1200px;
+@screen-xl-min:              @screen-xl;
+@screen-xl-desktop:          @screen-xl-min;
+
+// So media queries don't overlap when required, provide a maximum
+
+// xxsmall screen - Newicon custom
+@screen-xxs-max:             (@screen-xs-min - 1);
+@screen-xs-max:              (@screen-sm-min - 1);
+@screen-sm-max:              (@screen-md-min - 1);
+@screen-md-max:              (@screen-lg-min - 1);
+// XLarge screen / wide desktop - Newicon custom
+@screen-lg-max:              (@screen-xl-min - 1);
+

@@ -1,0 +1,23 @@
+/**
+ * MIXIN - Generate brand colour helper classes
+ */
+.generateColourClasses(@namespace, @colour) {
+	.c@{namespace} {
+		color: @colour;
+	}
+	.bg@{namespace} {
+		background-color: @colour;
+	}
+	.brd@{namespace} {
+		border-color: @colour;
+	}
+	.bgGrad@{namespace} {
+		#gradient .vertical(lighten(@colour, 15%); @colour);
+	}
+	.bgGradOnHover@{namespace} {
+		background-color: @colour;
+	}
+	.bgGradOnHover@{namespace}:hover {
+		#gradient .vertical(lighten(@colour, 25%); @colour);
+	}
+}

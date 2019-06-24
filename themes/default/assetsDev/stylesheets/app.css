@@ -1,0 +1,26 @@
+/*
+* Temporay solution while lacking a build process for css files
+* you must manually include files in the correct order - i.e all dependancies included before you include your css file
+*
+*/
+
+/*
+ * Include required components css
+ *
+ * This will eventually be done automatically
+ */
+@import url("components/foundation.css");
+/*
+e.g.
+@import url("components/flexslider.css");
+@import url("components/button.css");
+@import url("components/carousel.css");
+@import url("components/modal.css");
+@import url("components/carouselModal.css");
+@import url("components/card.css");
+@import url("components/deck.css");
+*/
+
+/*
+ * Include all theming component overrides and css files here
+ */

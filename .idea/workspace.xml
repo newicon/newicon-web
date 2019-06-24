@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8dc0d0c4-e739-45cd-8e41-9cc7f193c1f3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/compoer.json" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/compoer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/compoer.json" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/newicon-website.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+        <option value="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="506" />
+    <option name="y" value="122" />
+    <option name="width" value="1587" />
+    <option name="height" value="1042" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="newicon-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newicon-website" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newicon-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newicon-website" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newicon-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newicon-website" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8dc0d0c4-e739-45cd-8e41-9cc7f193c1f3" name="Default Changelist" comment="" />
+      <created>1561221740997</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561221740997</updated>
+      <workItem from="1561221742248" duration="738000" />
+      <workItem from="1561252138956" duration="575000" />
+      <workItem from="1561252793423" duration="1016000" />
+      <workItem from="1561318296426" duration="599000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2928000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="506" y="122" width="1587" height="1042" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25954694" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/electron/platform_www/plugins/cordova-plugin-device/src/browser/DeviceProxy.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/electron/platform_www/plugins/cordova-plugin-device/www/device.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/ios/cordova/loggingHelper.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/ios/cordova/Api.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/plugins/cordova-plugin-ble/examples/core-api/hexiwear-bonding/app.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/electron/platform_www/plugins/cordova-plugin-ble/ble.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/ios/cordova/lib/projectFile.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/ios/cordova/lib/clean.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/ios/cordova/lib/PodsJson.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/ios/cordova/lib/run.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/ios/cordova/lib/build.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/ios/cordova/lib/Podfile.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/ios/cordova/lib/check_reqs.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/ios/cordova/lib/versions.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/ios/cordova/lib/BridgingHeader.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/ios/cordova/lib/prepare.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/ios/cordova/lib/spawn.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/ios/CordovaLib/cordova.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/ios/One Press.xcarchive/Products/Applications/One Press.app/www/plugins/cordova-plugin-device/www/device.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/electron/platform_www/cordova-js-src/exec.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/electron/platform_www/cordova-js-src/confighelper.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/electron/platform_www/cordova-js-src/platform.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/osx/cordova/lib/clean.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/osx/cordova/lib/copy-www-build-step.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/osx/cordova/lib/run.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/osx/cordova/lib/check_reqs.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/osx/cordova/lib/ConsoleLogger.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/osx/cordova/lib/build.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/osx/cordova/lib/projectFile.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/osx/cordova/lib/prepare.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/osx/cordova/lib/spawn.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/osx/cordova/lib/versions.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/osx/cordova/lib/configMunger.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/ios/platform_www/cordova.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/ios/platform_www/cordova_plugins.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/cordova/lib/config/GradlePropertiesParser.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/platform_www/plugins/cordova-plugin-rx-ble/www/central.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/ios/One Press.xcarchive/Products/Applications/One Press.app/www/cordova-js-src/exec.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/ios/One Press.xcarchive/Products/Applications/One Press.app/www/cordova-js-src/platform.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/plugins/cordova-plugin-ble/examples/webbluetooth/tisensortag/app.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/plugins/cordova-plugin-ble/examples/webbluetooth/tisensortag/api.web-bluetooth.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/plugins/cordova-plugin-ble/examples/webbluetooth/tisensortag/bluetooth.helpers.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/plugins/cordova-plugin-ble/examples/webbluetooth/tisensortag/adapter.evothings.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/plugins/cordova-plugin-ble/examples/webbluetooth/tisensortag/web-bluetooth.evothings.min.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/platform_www/plugins/cordova-plugin-bluetoothle/www/bluetoothle.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/ios/One Press.xcarchive/Products/Applications/One Press.app/www/js/app.3cd42242.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/ios/One Press.xcarchive/Products/Applications/One Press.app/www/js/chunk-vendors.5cd5ea41.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/platform_www/cordova-js-src/android/promptbasednativeapi.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/platform_www/cordova-js-src/android/nativeapiprovider.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/plugins/cordova-plugin-ble/examples/deprecated/easyble/tisensortag/app.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/plugins/cordova-plugin-ble/examples/deprecated/easyble/tisensortag/easyble.dist.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/platform_www/js/central.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/browser/cordova/browser_parser.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/browser/cordova/browser_handler.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/browser/cordova/Api.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/browser/cordova/lib/build.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/browser/cordova/lib/clean.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/browser/cordova/lib/check_reqs.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/browser/cordova/lib/run.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/browser/platform_www/cordova.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/browser/platform_www/cordova_plugins.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/platform_www/cordova-js-src/plugin/android/app.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/src/psd-router/adapters/mock/psd-emulator.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/src/psd-router/adapters/mock.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/plugins/cordova-plugin-ble/examples/core-api/tisensortag/app.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/plugins/cordova-plugin-ble/examples/core-api/scan/app.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/plugins/cordova-plugin-ble/examples/core-api/tisensortag-low-level-api/app.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/platform_www/plugins/cordova-plugin-ble-central/www/ble.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/electron/cordova/lib/PackageJsonParser.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/electron/cordova/lib/clean.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/electron/cordova/lib/run.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/electron/cordova/lib/check_reqs.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/electron/cordova/lib/util.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/electron/cordova/lib/ManifestJsonParser.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/electron/cordova/lib/SettingJsonParser.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/electron/cordova/lib/build.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/electron/cordova/lib/prepare.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/platform_www/plugins/cordova-plugin-device/www/device.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/platform_www/plugins/cordova-plugin-ble/ble.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/plugins/cordova-plugin-ble/src/windows/bleProxy.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/cordova/lib/android_sdk.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/cordova/lib/emulator.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/cordova/lib/AndroidManifest.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/cordova/lib/check_reqs.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/cordova/lib/run.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/cordova/lib/device.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/cordova/lib/build.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/cordova/lib/Adb.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/cordova/lib/log.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/cordova/lib/pluginHandlers.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/cordova/lib/retry.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/cordova/lib/AndroidProject.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/cordova/lib/prepare.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/plugins/cordova-plugin-ble/src/browser/bleProxy.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/platform_www/cordova-js-src/exec.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/platform_www/cordova-js-src/platform.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/ios/One Press.xcarchive/Products/Applications/One Press.app/www/cordova.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/ios/One Press.xcarchive/Products/Applications/One Press.app/www/precache-manifest.bf0f69118c431476b837038e88e206f4.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/ios/One Press.xcarchive/Products/Applications/One Press.app/www/service-worker.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/ios/One Press.xcarchive/Products/Applications/One Press.app/www/cordova_plugins.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/ios/platform_www/cordova-js-src/plugin/ios/console.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/ios/platform_www/cordova-js-src/plugin/ios/logger.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/plugins/cordova-plugin-bluetoothle/src/windows/BluetoothLePlugin.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/ios/platform_www/plugins/cordova-plugin-bluetoothle/www/bluetoothle.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/plugins/cordova-plugin-bluetoothle/www/bluetoothle.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/ios/platform_www/plugins/cordova-plugin-device/www/device.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/ios/platform_www/plugins/cordova-plugin-ble/ble.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/ios/platform_www/cordova-js-src/exec.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/ios/platform_www/cordova-js-src/platform.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/electron/cordova/parser.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/electron/cordova/handler.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/electron/cordova/Api.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/electron/platform_www/cdv-electron-main.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/electron/platform_www/cordova.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/electron/platform_www/cordova_plugins.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/browser/platform_www/plugins/cordova-plugin-bluetoothle/www/bluetoothle.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/src/components/index.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/cordova/Api.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/cordova/loggingHelper.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/browser/platform_www/plugins/cordova-plugin-ble-central/www/ble.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/app/src/main/assets/www/plugins/cordova-plugin-rx-ble/www/central.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/browser/platform_www/plugins/cordova-plugin-device/src/browser/DeviceProxy.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/browser/platform_www/plugins/cordova-plugin-device/www/device.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/browser/platform_www/plugins/cordova-plugin-ble/src/browser/bleProxy.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/platform_www/cordova.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/platform_www/cordova_plugins.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/osx/CordovaLib/cordova.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/osx/cordova/Api.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/osx/platform_www/cordova.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/osx/platform_www/cordova_plugins.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/src/store/psd-router/index.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/browser/platform_www/cordova-js-src/exec.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/browser/platform_www/cordova-js-src/confighelper.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/browser/platform_www/cordova-js-src/platform.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/osx/platform_www/plugins/cordova-plugin-bluetoothle/www/bluetoothle.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/src/store/mutations.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/src/store/actions.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/src/store/types.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/src/store/index.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/src/store/state.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/src/store/getters.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/src/store/helpers.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/src/store/constants.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/osx/platform_www/plugins/cordova-plugin-ble/ble.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/src/psd-router/index.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/src/psd-router/uuids.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/src/psd-router/ble-adapter.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/src/psd-router/constants.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/src/main.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/src/ui-router.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/src/service-worker.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/src/helpers.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/src/root.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/src/registerServiceWorker.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/onepressdemo/docs/script/prettify/prettify.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/osx/platform_www/cordova-js-src/exec.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/osx/platform_www/cordova-js-src/platform.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/ios/One Press.xcarchive/Products/Applications/One Press.app/www/cordova-js-src/plugin/ios/console.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/ios/One Press.xcarchive/Products/Applications/One Press.app/www/cordova-js-src/plugin/ios/logger.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/app/src/main/assets/www/js/central.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/app/src/main/assets/www/js/chunk-vendors.5cd5ea41.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/app/src/main/assets/www/js/app.abad5421.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/osx/platform_www/plugins/cordova-plugin-device/www/device.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/app/src/main/assets/www/cordova.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/app/src/main/assets/www/service-worker.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/app/src/main/assets/www/precache-manifest.33cad32014273c6d327db483fe66fc0e.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/app/src/main/assets/www/cordova_plugins.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/onepressdemo/dist/precache-manifest.7fa9719cb96b947a3810defb90e4bc48.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/onepressdemo/dist/service-worker.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/onepressdemo/apqoleicbay194swh239se/precache-manifest.b01a4717d742dafeff7dbe0f3c8ee1c9.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/onepressdemo/apqoleicbay194swh239se/service-worker.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/onepressdemo/apqoleicbay194swh239se/js/app.78965fa1.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/onepressdemo/apqoleicbay194swh239se/js/chunk-vendors.f77d19d6.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/onepressdemo/docs/script/patch-for-local.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/onepressdemo/docs/script/inherited-summary.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/onepressdemo/docs/script/search_index.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/onepressdemo/docs/script/test-summary.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/onepressdemo/docs/script/search.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/onepressdemo/docs/script/pretty-print.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/onepressdemo/docs/script/inner-link.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/onepressdemo/docs/script/manual.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/tests/unit/psd-router/advertising-parsers.spec.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/tests/unit/psd-router/get-error-code.spec.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/plugins/cordova-plugin-device/tests/tests.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/onepressdemo/dist/js/chunk-vendors.6da87be5.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/onepressdemo/dist/js/app.fe6b6b92.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/tests/unit/example.spec.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/plugins/cordova-plugin-ble/ble.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/app/src/main/assets/www/plugins/cordova-plugin-ble-central/www/ble.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/browser/platform_www/plugins/cordova-plugin-ble/ble.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/osx/cordova/lib/plugman/Plugman.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/osx/cordova/lib/plugman/pluginHandlers.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/ios/One Press.xcarchive/Products/Applications/One Press.app/www/plugins/cordova-plugin-bluetoothle/www/bluetoothle.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/ios/One Press.xcarchive/Products/Applications/One Press.app/www/plugins/cordova-plugin-ble-central/www/ble.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/app/src/main/assets/www/plugins/cordova-plugin-device/www/device.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/browser/platform_www/plugins/cordova-plugin-ble-central/src/browser/BLECentralPlugin.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/app/src/main/assets/www/plugins/cordova-plugin-bluetoothle/www/bluetoothle.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/ios/One Press.xcarchive/Products/Applications/One Press.app/www/plugins/cordova-plugin-ble/ble.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/app/src/main/assets/www/plugins/cordova-plugin-ble/ble.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/onepressdemo/.external-ecmascript.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/plugins/cordova-plugin-device/src/windows/DeviceProxy.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/plugins/cordova-plugin-device/src/browser/DeviceProxy.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/app/src/main/assets/www/cordova-js-src/plugin/android/app.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/ios/cordova/lib/plugman/pluginHandlers.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/app/src/main/assets/www/cordova-js-src/android/nativeapiprovider.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/app/src/main/assets/www/cordova-js-src/android/promptbasednativeapi.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/app/src/main/assets/www/cordova-js-src/exec.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/app/src/main/assets/www/cordova-js-src/platform.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/cordova/lib/builders/ProjectBuilder.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/android/cordova/lib/builders/builders.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/platforms/electron/platform_www/plugins/cordova-plugin-bluetoothle/www/bluetoothle.js" />
+        <option value="$PROJECT_DIR$/../onepress-app/plugins/cordova-plugin-device/www/device.js" />
+      </list>
+    </option>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/compoer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

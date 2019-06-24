@@ -1,0 +1,209 @@
+//
+// Grid system
+// --------------------------------------------------
+
+
+// Container
+//
+.container {
+    .container-fixed(@grid-gutter-width);
+    width: 100%!important;
+    max-width: @screen-xl-desktop!important;
+}
+
+// NO GUTTERS _ remove col spacing on the bootstrap grid
+.container .row {
+    &.no-gutter {
+        margin-left: 0;
+        margin-right: 0;
+        > [class*='col-'] {
+            padding-right: 0;
+            padding-left: 0;
+        }
+    }
+}
+
+// Base gutters only - override the responsive gutters
+/*.container-fluid-base {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: (@grid-gutter-width / 2);
+    padding-right: (@grid-gutter-width / 2);
+    .row {
+        &.medium-gutters-only {
+            margin-left: -(@grid-gutter-width / 2);
+            margin-right: -(@grid-gutter-width / 2);
+            > [class*='col-'] {
+                padding-right: (@grid-gutter-width / 2);
+                padding-left: (@grid-gutter-width / 2);
+            }
+        }
+    }
+}
+
+// Medium gutters only - override the responsive gutters
+.container-fluid-medium {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: (@grid-gutter-width-md / 2);
+    padding-right: (@grid-gutter-width-md / 2);
+    .row {
+        &.medium-gutters-only {
+            margin-left: -(@grid-gutter-width-md / 2);
+            margin-right: -(@grid-gutter-width-md / 2);
+            > [class*='col-'] {
+                padding-right: (@grid-gutter-width-md / 2);
+                padding-left: (@grid-gutter-width-md / 2);
+            }
+        }
+    }
+}
+
+// Responsive gutters
+
+// *** Small devices (Phones / tablets, 600px and up) *** //
+@media (min-width: @screen-sm-min) {
+    // *** Grid Gutter Overides *** //
+    .container{
+        padding-left: (@grid-gutter-width-sm / 2);
+        padding-right: (@grid-gutter-width-sm / 2);
+        .row{
+            margin-left: -(@grid-gutter-width-sm / 2);
+            margin-right: -(@grid-gutter-width-sm / 2);
+            [class*='col-'] {
+                padding-left: (@grid-gutter-width-sm / 2);
+                padding-right: (@grid-gutter-width-sm / 2);
+            }
+        }
+    }
+}
+
+// *** Medium devices (desktops, 770px and up) *** //
+@media (min-width: @screen-md-min) {
+    // *** Grid Gutter Overides *** //
+    .container{
+        padding-left:  (@grid-gutter-width-md / 2);
+        padding-right: (@grid-gutter-width-md / 2);
+        .row{
+            margin-left: -(@grid-gutter-width-md / 2);
+            margin-right: -(@grid-gutter-width-md / 2);
+            [class*='col-'] {
+                padding-left: (@grid-gutter-width-md / 2);
+                padding-right: (@grid-gutter-width-md / 2);
+            }
+        }
+    }
+}
+
+// *** Large devices (large desktops, 980px and up) *** //
+@media (min-width: @screen-lg-min) {
+    // *** Grid Gutter Overides *** //
+    .container{
+        padding-left:  (@grid-gutter-width-lg / 2);
+        padding-right: (@grid-gutter-width-lg / 2);
+        .row{
+            margin-left: -(@grid-gutter-width-lg / 2);
+            margin-right: -(@grid-gutter-width-lg / 2);
+            [class*='col-'] {
+                padding-left: (@grid-gutter-width-lg / 2);
+                padding-right: (@grid-gutter-width-lg / 2);
+            }
+        }
+    }
+}
+
+// *** Large devices (large desktops, 1200px and up) *** //
+@media (min-width: @screen-xl-min) {
+    // *** Grid Gutter Overides *** //
+    .container{
+        padding-left:  (@grid-gutter-width-xl / 2);
+        padding-right: (@grid-gutter-width-xl / 2);
+        .row{
+            margin-left: -(@grid-gutter-width-xl / 2);
+            margin-right: -(@grid-gutter-width-xl / 2);
+            [class*='col-'] {
+                padding-left: (@grid-gutter-width-xl / 2);
+                padding-right: (@grid-gutter-width-xl / 2);
+            }
+        }
+    }
+}*/
+
+
+// Fluid container
+//
+// Utilizes the mixin meant for fixed width containers, but without any defined
+// width for fluid, full width layouts.
+
+.container-fluid {
+  .container-fixed();
+}
+
+
+// Row
+//
+// Rows contain and clear the floats of your columns.
+
+.row {
+  .make-row();
+}
+
+
+// Columns
+//
+// Common styles for small and large grid columns
+
+.make-grid-columns();
+
+// xxsmall grid
+//
+// Columns, offsets, pushes, and pulls for the xxsmall device range.
+
+.make-grid(xxs);
+
+
+// Extra small grid
+//
+// Columns, offsets, pushes, and pulls for extra small devices like
+// smartphones.
+
+
+@media (min-width: @screen-xs-min) {
+  .make-grid(xs);
+}
+
+
+// Small grid
+//
+// Columns, offsets, pushes, and pulls for the small device range, from phones
+// to tablets.
+
+@media (min-width: @screen-sm-min) {
+  .make-grid(sm);
+}
+
+
+// Medium grid
+//
+// Columns, offsets, pushes, and pulls for the desktop device range.
+
+@media (min-width: @screen-md-min) {
+  .make-grid(md);
+}
+
+
+// Large grid
+//
+// Columns, offsets, pushes, and pulls for the large desktop device range.
+
+@media (min-width: @screen-lg-min) {
+  .make-grid(lg);
+}
+
+// xLarge grid
+//
+// Columns, offsets, pushes, and pulls for the xlarge desktop device range.
+
+@media (min-width: @screen-xl-min) {
+  .make-grid(xl);
+}

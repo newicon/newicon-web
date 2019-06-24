@@ -1,0 +1,26 @@
+/* ============================================ *
+ *  Deck Component
+ *
+ *  A deck is a set of cards contained using the
+ *  the deckCard class
+ * ============================================ */
+
+// DeckCard
+
+.deckCard {
+	.card {
+		margin: @spacing-md;
+	}
+}
+.deckRow {
+	position:relative;
+	.card_secondary.m_active {
+		margin-left: 10%;
+		width:80%;
+		overflow-x: hidden;
+	}
+	.card_details {
+		column-count: 2;
+		column-gap: @spacing-md;
+	}
+}

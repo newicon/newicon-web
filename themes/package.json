@@ -1,0 +1,26 @@
+{
+	"name": "neon-theme",
+	"description": "Neon Base Theme Development",
+	"version": "0.0.2",
+	"homepage": "https://bitbucket.org/newicon/neon-theme-base-dev.git",
+	"main": "Gruntfile.js",
+	"author": {
+		"url": "http://www.newicon.net/"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@bitbucket.org/newicon/neon-theme-base-dev.git"
+	},
+	"bugs": {
+		"url": "https://bitbucket.org/newicon/neon-theme-base-dev.git/issues"
+	},
+	"devDependencies": {
+		"grunt": "~0.4.1",
+		"grunt-contrib-copy": "^1.0.0",
+		"grunt-contrib-clean": "^1.0.0",
+		"grunt-assemble-less": "^0.8.0",
+		"grunt-contrib-uglify": "^0.5.0",
+		"grunt-contrib-watch": "^0.6.1",
+		"grunt-notify": "^0.4.1"
+	}
+}

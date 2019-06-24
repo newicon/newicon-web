@@ -1,0 +1,158 @@
+/* ============================================ *
+ *  Page Overlay Component
+ * ============================================ */
+
+/**
+ * Local vars
+ */
+@overlayZindex: @zindex-modal-background;
+@overlayTriggerZindex: @zindex-modal;
+@overlaySpeed: 0.3s;
+
+/**
+ * Overlay element
+ */
+.overlay {
+	height: 100%;
+	width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+	position: fixed;
+	z-index: @overlayZindex;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: @overlayBackgroundColour;
+	visibility: hidden;
+	.transition(all @overlaySpeed ease-in-out);
+	&.m_orderLower {
+		z-index: @overlayZindex - 20;
+	}
+}
+
+.overlay_body {
+	position: relative;
+	height: 100%;
+}
+
+/**
+ * Overlay element active
+ * Overlay reveal / animation type
+ */
+.overlay_revealLeft {
+	.translate(-100vw; 0);
+}
+
+.overlay_revealRight {
+	.translate(100vw; 0);
+}
+
+.overlay_revealTop {
+	.translate(0; -100vh);
+}
+
+.overlay_revealBottom {
+	.translate(0; 100vh);
+}
+
+.overlay_fadeIn {
+	opacity: 0;
+	&.m_active {
+		opacity: 1;
+	}
+}
+
+.overlay.m_active {
+	visibility: visible;
+	.translate(0; 0);
+}
+
+
+/**
+ * Overlay trigger / link / button / anchor
+ */
+.overlay_trigger {
+	cursor: pointer;
+	font-size: 20px;
+	&.m_fixed {
+		position: fixed;
+		right: 20px;
+		top: 20px;
+		z-index: @overlayTriggerZindex;
+	}
+	&.m_orderLower {
+		z-index: @overlayTriggerZindex - 20;
+	}
+	&.m_active {
+		color: #eee;
+	}
+}
+
+/**
+ * Trigger open and closed states
+ */
+.overlay_open {
+	&.m_active {
+		display: none;
+	}
+}
+.overlay_close {
+	display: none;
+	&.m_active {
+		display: block;
+	}
+}
+
+/* ============================================ *
+* MAX WIDTH QUERIES
+* ============================================ */
+
+
+// *** Mobile devices only (less than 480px) *** //
+@media (max-width: (@screen-phone - 1)) {
+}
+
+// *** Mobile & tablet devices only (less than 770px) *** //
+@media (max-width: @screen-sm-max) {
+
+}
+// *** Mobile & tablet devices only (less than 980px) *** //
+@media (max-width: @screen-md-max) {
+}
+
+/* ============================================ *
+* MIN WIDTH QUERIES
+* ============================================ */
+
+// *** Mobile devices (480px and up) *** //
+@media (min-width: @screen-xs-min) {
+
+}
+
+// *** Small devices (tablets, 600px and up) *** //
+@media (min-width: @screen-sm-min) {
+
+}
+
+// *** Medium devices (desktops, 770px and up) *** //
+@media (min-width: @screen-md-min) {
+
+}
+
+// *** Large devices (large desktops, 980px and up) *** //
+@media (min-width: @screen-lg-min) {
+
+}
+
+// *** XLarge devices (Xlarge desktops, 1200px and up) *** //
+@media (min-width: @screen-xl-min) {
+	// Keep the overlay trigger within the bounds of the max width container, when the viewport width is over the max container width
+	.overlay_trigger {
+		&.m_fixed {
+			right: ~"calc(((100% - @{screen-xl}) / 2) + 20px)";
+		}
+	}
+}

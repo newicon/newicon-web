@@ -1,0 +1,74 @@
+/* ============================================ *
+*  Page Hamburger icon Component
+* ============================================ */
+
+/**
+* Local vars
+*/
+@hamburgerWidth: 24px;
+@hamburgerHeight: 17px;
+@hamburgerLineThickness: 3px;
+@hamburgerLineSeperation: 7px;
+@hamburgerSpeed: 0.3s;
+
+.hamburger {
+	cursor: pointer;
+	width: @hamburgerWidth;
+	height: @hamburgerHeight;
+	position: relative;
+	.rotate(0deg);
+	.transition(all @hamburgerSpeed ease-in-out);
+}
+
+/**
+ * Hamburger menu icon line
+ */
+.hamburger_line {
+	display: block;
+	position: absolute;
+	height: @hamburgerLineThickness;
+	width: 100%;
+	background-color: @themeGreyDark; // override in default
+	border-radius: @hamburgerLineThickness;
+	opacity: 1;
+	left: 0;
+	&:nth-child(1) {
+	 	top: 0px;
+	}
+	&:nth-child(2) {
+	 	top: @hamburgerLineSeperation;
+	}
+	&:nth-child(3) {
+	 	top: @hamburgerLineSeperation;
+	}
+	&:nth-child(4) {
+	 	top: calc(@hamburgerLineSeperation * 2);
+	}
+	.rotate(0deg);
+	.transition(all @hamburgerSpeed ease-in-out);
+}
+
+/**
+ * Hamburger menu icon line - active state
+ */
+.m_active, .hamburger.m_active {
+	.hamburger_line {
+		background-color: @themeWhite;
+		&:nth-child(1) {
+			top: 14px;
+			width: 0%;
+			left: 50%;
+		}
+		&:nth-child(2) {
+			.rotate(45deg);
+		}
+		&:nth-child(3) {
+			.rotate(-45deg);
+		}
+		&:nth-child(4) {
+			top: 14px;
+			width: 0%;
+			left: 50%;
+		}
+	}
+}

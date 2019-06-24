@@ -1,0 +1,63 @@
+/* ============================================ *
+ * MEDIA QUERY DEBUG
+ *
+ *
+ * ============================================ */
+
+body[class$="-local"],
+body[class$="-dev"],
+[data-domain$=".dev"]
+  {
+	&:before {
+		display: inline-block;
+		position: fixed;
+		right: 0;
+		z-index: 10000;
+		bottom: 0;
+		background: #A932A3;
+		border-bottom: 1px solid #000;
+		border-left: 1px solid #000;
+		padding: 0.2em 0.4em;
+		font-size: 11px;
+		color: #fff;
+		content: "We're below @{screen-xs-min}";
+	}
+	// *** Mobile 480px and below ***
+	@media (min-width: @screen-xs-min) {
+		&:before {
+			background: #000;
+			content: "Over @{screen-xs-min} - @screen-xs-min";
+		}
+	}
+
+	// *** Small devices (tablets, 600px and up) *** //
+	@media (min-width: @screen-sm-min) {
+		&:before {
+			background: green;
+			content: "Over @{screen-sm-min} - @screen-sm-min";
+		}
+	}
+
+	// *** Medium devices (desktops, 770px and up) *** //
+	@media (min-width: @screen-md-min) {
+		&:before {
+			background: orange;
+			content: "Over @{screen-md-min} - @screen-md-min";
+		}
+	}
+
+	// *** Large devices (large desktops, 980px and up) *** //
+	@media (min-width: @screen-lg-min) {
+		&:before {
+			background: blue;
+			content: "Over @{screen-lg-min} -  @screen-lg-min";
+		}
+	}
+	// *** XLarge devices (xlarge desktops, 1200px and up) *** //
+	@media (min-width: @screen-xl-min) {
+		&:before {
+			background: red;
+			content: "Over @{screen-xl-min} -  @screen-xl-min";
+		}
+	}
+}

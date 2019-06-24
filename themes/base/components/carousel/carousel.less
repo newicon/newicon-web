@@ -1,0 +1,105 @@
+/* ============================================ *
+ * BASE STYLES
+* ============================================ */
+
+.carousel {
+
+	&:hover {
+		.carousel_controlsIteratorChevron .flex {
+			opacity: 1;
+		}
+	}
+
+	&_controlsIteratorChevron .flex {
+		position: absolute;
+		bottom: calc(~"50% - 10px");
+		background-color: #363636;
+		-webkit-transition: opacity 0.5s ease-in-out;
+		-moz-transition: opacity 0.5s ease-in-out;
+		-ms-transition: opacity 0.5s ease-in-out;
+		-o-transition: opacity 0.5s ease-in-out;
+		transition: opacity 0.5s ease-in-out;
+		opacity: 0;
+		z-index: 9999;
+
+	}
+
+	&_controlsIteratorChevron .flex-prev {
+		left: 0;
+	}
+
+	&_controlsIteratorChevron .flex-next {
+		right: 0;
+	}
+
+	&_controlsIteratorChevron .fa {
+		font-size: 18px;
+		padding: 10px;
+		color: white;
+		&:hover {
+			color: white;
+		}
+	}
+
+	.carousel_slide {
+		margin-right: 0;
+	}
+
+}
+
+.modal_carousel {
+	.carousel_slide {
+		img { 
+			visibility: hidden; 
+		}
+	}
+}
+
+/* ============================================ *
+ * MAX WIDTH QUERIES
+* ============================================ */
+
+// *** Mobile devices only (less than 480px) *** //
+@media (max-width: (@screen-phone - 1)) {
+
+}
+
+// *** Mobile & tablet devices only (less than 770px) *** //
+@media (max-width: @screen-sm-max) {
+
+}
+
+// *** Mobile & tablet devices only (less than 600px) *** //
+@media (max-width: @screen-xs-max) {
+
+}
+
+
+/* ============================================ *
+ * MIN WIDTH QUERIES
+ * ============================================ */
+
+// *** Mobile devices (480px and up) *** //
+@media (min-width: @screen-xs-min) {
+
+}
+
+// *** Small devices (tablets, 600px and up) *** //
+@media (min-width: @screen-sm-min) {
+
+}
+
+// *** Medium devices (desktops, 770px and up) *** //
+@media (min-width: @screen-md-min) {
+
+}
+
+// *** Large devices (large desktops, 980px and up) *** //
+@media (min-width: @screen-lg-min) {
+
+}
+
+// *** XLarge devices (Xlarge desktops, 1200px and up) *** //
+@media (min-width: @screen-xl-min) {
+
+}

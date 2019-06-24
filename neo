@@ -1,0 +1,8 @@
+#!/usr/bin/env php
+<?php
+
+require 'bootstrap.php';
+
+$neon = \neon\core\Env::createConsoleApplication();
+$neon->registerAllApps();
+$neon->run();

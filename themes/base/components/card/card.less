@@ -1,0 +1,110 @@
+/* ============================================ *
+ *  Card Component
+ * ============================================ */
+
+// Card
+.card {
+	position:relative;
+	&_primary {
+		background-color: @themeGreyDark;
+		min-height:1em;
+		padding: @grid-gutter-width-md;
+		clear:both;
+	}
+	&_secondary {
+		padding-top: @grid-gutter-width-md+10;
+		display: none;
+		min-height:1em;
+		clear:both;
+	}
+	&_reveal {
+		height:100%;
+		display: block;
+		&:hover {
+			text-decoration: none;
+			cursor: pointer;
+		}
+	}
+	&_unreveal {
+		font-size: 20px;
+		float: right;
+		margin-top: -(@grid-gutter-width-xl / 2);
+		z-index: @zindex-popover;
+		cursor: pointer;
+	}
+}
+
+// Card state modifiers
+.card.m_active {
+	.card_reveal {
+		&:after {
+			color: #fff;
+			content: "\f078";
+			font-family: "FontAwesome";
+			font-size: 20px;
+			position: absolute;
+			bottom: -20px;
+			left: calc(50% - 12px);
+			border-radius: 50%;
+			background: @themeGreyDarkest;
+			width: 40px;
+			height: 40px;
+			padding-left: 10px;
+			padding-top: 10px;
+		}
+	}
+}
+.card_secondary.m_active {
+	display:block;
+}
+
+/* ============================================ *
+* MAX WIDTH QUERIES
+* ============================================ */
+
+
+// *** Mobile devices only (less than 480px) *** //
+@media (max-width: (@screen-phone - 1)) {
+}
+
+// *** Mobile & tablet devices only (less than 770px) *** //
+@media (max-width: @screen-sm-max) {
+	.card {
+		&_unreveal {
+			display: none;
+		}
+	}
+}
+// *** Mobile & tablet devices only (less than 980px) *** //
+@media (max-width: @screen-md-max) {
+}
+
+/* ============================================ *
+* MIN WIDTH QUERIES
+* ============================================ */
+
+// *** Mobile devices (480px and up) *** //
+@media (min-width: @screen-xs-min) {
+
+}
+
+// *** Small devices (tablets, 600px and up) *** //
+@media (min-width: @screen-sm-min) {
+
+}
+
+// *** Medium devices (desktops, 770px and up) *** //
+@media (min-width: @screen-md-min) {
+
+}
+
+// *** Large devices (large desktops, 980px and up) *** //
+@media (min-width: @screen-lg-min) {
+
+}
+
+// *** XLarge devices (Xlarge desktops, 1200px and up) *** //
+@media (min-width: @screen-xl-min) {
+
+}
+

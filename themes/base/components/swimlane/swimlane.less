@@ -1,0 +1,150 @@
+@swimlane-header: 50px;
+@swimlane_footer: 30px;
+.swimlane_container {
+	border: 1px solid lightgray;
+	padding: 10px;
+	height: 500px;
+	width: 100%;
+	font-size: 14px;
+	overflow: scroll;
+}
+
+.swimlane_containerInner {
+	.clearfix();
+	height: 100%;
+}
+
+.swimlane {
+	border: 1px solid lightblue;
+	width: 100%;
+	position: relative;
+	height: 100%;
+	padding: 5px;
+}
+
+.swimlane_inner {
+	width: 100%;
+	height: 100%;
+}
+
+.swimlane.m_horizontal {
+	margin-bottom: 10px;
+}
+
+.swimlane.m_vertical {
+	max-width: 300px;
+	margin-right: 10px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.swimlane_header {
+	border-bottom: 1px solid lightgray;
+	.clearfix();
+	height: @swimlane-header;
+}
+
+.swimlane_content {
+	overflow-y: scroll;
+	max-height: calc(~"100% - "@swimlane-header + @swimlane_footer);
+}
+
+.swimlane_footer {
+	border-top: 1px solid lightgray;
+	height: @swimlane_footer;
+	position: absolute;
+	bottom: 5px;
+	width: 97%;
+}
+
+.swimlane_toggle {
+	position: absolute;
+	top: 12px;
+	right: 10px;
+}
+
+.swimlane_filter {
+	position: absolute;
+	top: 7px;
+	right: 41px;
+}
+
+.swimlane.m_horizontal.m_collapsed {
+	height: 25px;
+	overflow: hidden;
+}
+
+.swimlaneCard {
+	margin-bottom: 10px;
+}
+
+.swimlaneCard:last-child {
+	margin-bottom: 0px;
+}
+
+.swimlane_filterVal,
+.swimlane_filterText {
+	font-size: 14px;
+}
+
+.swimlane_filterOption.m_selected {
+	background-color: lightgray;
+}
+
+.swimlane .swimlane_filterDropdown,
+.swimlane.m_vertical .collapse_btn,
+.swimlane.m_horizontal .collapse_btn,
+.swimlane.m_vertical.m_collapsed .expand_btn,
+.swimlane.m_horizontal.m_collapsed .expand_btn {
+	display: block;
+}
+
+.swimlane.m_collapsed .header_subtitle,
+.swimlane.m_collapsed .swimlane_content,
+.swimlane.m_collapsed .swimlane_footer,
+.swimlane.m_collapsed .swimlane_filterDropdown,
+.swimlane.m_vertical .expand_btn,
+.swimlane.m_horizontal .expand_btn,
+.swimlane.m_vertical.m_collapsed .collapse_btn,
+.swimlane.m_horizontal.m_collapsed .collapse_btn {
+	display: none;
+}
+
+.swimlane.m_vertical.m_collapsed .swimlane_toggle {
+	left: 0;
+	top: 1px;
+}
+
+.swimlane.m_vertical.m_collapsed .swimlane_header {
+	margin-left: 26px;
+}
+
+.swimlane.m_vertical.m_collapsed .header_title {
+	.rotate(90deg);
+	.transform-origin(left top 0);
+	margin-top: 30px;
+	min-width: 300px;
+}
+
+.swimlane.m_vertical.m_collapsed {
+	height: 100%;
+	overflow: hidden;
+	max-width: 30px;
+	margin-right: 10px;
+}
+
+/** m_vertical horisontal m_scroll modifications */
+
+.swimlane_container.m_vertical.m_scroll {
+	white-space: nowrap;
+}
+
+.swimlane_container.m_vertical.m_scroll .swimlane_containerInner {
+	display: inline-block
+}
+
+.swimlane_container.m_vertical.m_scroll .swimlane {
+	white-space: normal;
+}
+
+/** end - m_vertical horisontal m_scroll modifications */

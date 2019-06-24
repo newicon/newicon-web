@@ -1,0 +1,131 @@
+/* ============================================ *
+* Theme: Global template styles
+*
+*
+* ============================================= */
+
+/* ============================================ *
+ * BASE STYLES
+ * ============================================ */
+
+// *** Internet Explorer 10 doesn't differentiate device width from viewport width,
+// and thus doesn't properly apply the media queries in Bootstrap's CSS. *** //
+@-ms-viewport       { width: device-width; }
+
+// *** However, this doesn't work for devices running Windows Phone 8 versions older than Update 3 (a.k.a. GDR3),
+// as it causes such devices to show a mostly desktop view instead of narrow "phone" view.
+// To address this, you'll need to include the following CSS and JavaScript (See theme.js) to work around the bug. *** //
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
+#page {
+	position: relative;
+}
+
+.noScroll {
+	overflow: hidden;
+}
+
+// images
+// Hide an image if it has a valid empty source
+img[src="//:0"] {
+	display: none!important;
+}
+
+/* fix for IE */
+.svg-Img {
+    width: 100%;
+}
+
+// links
+a.blockLinkInline{
+	position: relative;
+    img{
+        display: block;
+    }
+    display: inline-block;
+}
+
+a.blockLink{
+	position: relative;
+    img{
+        display: block;
+    }
+    display: block;
+}
+
+.inlineBlock {
+	display: inline-block;
+}
+.relativeBlock {
+	position: relative;
+}
+
+.centerObject {
+    position:absolute;
+    left:50%;
+    top:50%;
+    .translate(-50%; -50%);
+}
+
+// Hide .wow elements on page load so that if the first item displayed is animated and there is no hide / show flash
+.csstransitions .wow {
+   visibility: hidden;
+}
+
+/* ============================================ *
+ * MAX WIDTH QUERIES
+ * ============================================ */
+
+// *** Mobile devices only (less than 480px) *** //
+@media (max-width: (@screen-phone - 1)) {
+
+}
+
+// *** Mobile & tablet devices only (less than 600px) *** //
+@media (max-width: @screen-xs-max) {
+
+}
+
+// *** Mobile & tablet devices only (less than 770px) *** //
+@media (max-width: @screen-sm-max) {
+
+}
+
+// *** Mobile tablet & desktop devices only (less than 980px) *** //
+@media (max-width: @screen-md-max) {
+
+}
+
+
+/* ============================================ *
+ * MIN WIDTH QUERIES
+ * ============================================ */
+
+// *** Mobile devices (480px and up) *** //
+@media (min-width: @screen-xs-min) {
+
+}
+
+// *** Small devices (tablets, 600px and up) *** //
+@media (min-width: @screen-sm-min) {
+
+}
+
+// *** Medium devices (desktops, 770px and up) *** //
+@media (min-width: @screen-md-min) {
+
+}
+
+// *** Large devices (large desktops, 980px and up) *** //
+@media (min-width: @screen-lg-min) {
+
+}
+
+// *** XLarge devices (Xlarge desktops, 1200px and up) *** //
+@media (min-width: @screen-xl-min) {
+
+}

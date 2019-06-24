@@ -1,0 +1,73 @@
+/* ============================================ *
+ *  Menu Overlay Component
+ * ============================================ */
+
+.menuOverlay {
+	display: table;
+	width: 100%;
+	height: 100vh;
+	min-height: 100%;
+}
+
+.menuOverlay_items {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	.menu_item {
+		font-size: 40px;
+		margin-bottom: 30px;
+		a {
+			color: @menuOverlayTextColour;
+		}
+	}
+}
+/* ============================================ *
+* MAX WIDTH QUERIES
+* ============================================ */
+
+
+// *** Mobile devices only (less than 480px) *** //
+@media (max-width: (@screen-phone - 1)) {
+}
+
+// *** Mobile & tablet devices only (less than 770px) *** //
+@media (max-width: @screen-sm-max) {
+	.menuOverlay_items {
+		.menu_item {
+			font-size: 30px;
+			margin-bottom: 15px;
+		}
+	}
+}
+// *** Mobile & tablet devices only (less than 980px) *** //
+@media (max-width: @screen-md-max) {
+}
+
+/* ============================================ *
+* MIN WIDTH QUERIES
+* ============================================ */
+
+// *** Mobile devices (480px and up) *** //
+@media (min-width: @screen-xs-min) {
+
+}
+
+// *** Small devices (tablets, 600px and up) *** //
+@media (min-width: @screen-sm-min) {
+
+}
+
+// *** Medium devices (desktops, 770px and up) *** //
+@media (min-width: @screen-md-min) {
+
+}
+
+// *** Large devices (large desktops, 980px and up) *** //
+@media (min-width: @screen-lg-min) {
+
+}
+
+// *** XLarge devices (Xlarge desktops, 1200px and up) *** //
+@media (min-width: @screen-xl-min) {
+
+}
