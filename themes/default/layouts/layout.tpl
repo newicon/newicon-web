@@ -5,28 +5,24 @@
 		{include "layouts/head.tpl"}
 	</head>
 	<body>
-		{neon_body_begin}
-		<div id="page">
-			{navigation}
-			<div class='page_header'>
-				{block "header"}
-					{header}
-				{/block}
-			</div>
+		<div class="wrapper">
+			{neon_body_begin}
+				{navigation}
+					{block "header"}
+						{header}
+					{/block}
 
-			<div class='page_content'>
-				{block "content"}
-					CONTENT HERE
-				{/block}
-			</div>
+					{block "content"}
+						CONTENT HERE
+					{/block}
 
-			<div class='page_footer'>
-				{block "footer"}
-					{footer}
-				{/block}
-			</div>
+				<div class='page_footer'>
+					{block "footer"}
+						{footer}
+					{/block}
+				</div>
+			{* foot includes additional scripts for the page *}
+			{include "layouts/foot.tpl"}
 		</div>
-		{* foot includes additional scripts for the page *}
-		{include "layouts/foot.tpl"}
 	</body>
 </html>
