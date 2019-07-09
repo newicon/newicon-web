@@ -330,9 +330,9 @@ import 'magnific-popup';
 
 			if ($win.outerWidth(true) > mobileWidth) {
 
-				timeout = setTimeout(function() {
-					parallaxScroll(parallaxArray);
-				}, 10);
+				// timeout = setTimeout(function() {
+				// 	parallaxScroll(parallaxArray);
+				// }, 10);
 			}
 		});
 	});
