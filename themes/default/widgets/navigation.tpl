@@ -96,7 +96,6 @@
 
 					<li>
 						<a href="#">about us</a>
-
 						<div class="dropdown">
 							<div class="dropdown_group">
 								<h6>About us</h6>
