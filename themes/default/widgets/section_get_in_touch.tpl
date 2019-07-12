@@ -4,7 +4,7 @@
 			<div class="section_inner">
 				<header class="section_head">
 					<div class="section_head-inner">
-						<h1 class="section_title">Get in touch</h1><!-- /.section_title -->
+						<h1 class="section_title">{$title|default:'Get in touch'}</h1><!-- /.section_title -->
 						<p>For more information about how we can help you:</p>
 						<ul class="list-contacts">
 							<li>
