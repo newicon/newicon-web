@@ -5,6 +5,6 @@
 	],
 	"require": {
 		"php": ">=7.0",
-		"newicon/neon": "dev-develop"
+		"newicon/neon": "dev-steve-cms-pages"
 	}
 }

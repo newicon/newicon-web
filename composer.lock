@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7061ff239089be823906622cc187e1da",
+    "content-hash": "9dc2f7ba12e9543f46b60b8d88f18bae",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -53,8 +53,7 @@
                 "mobile-first",
                 "responsive",
                 "web"
-            ],
-            "time": "2016-07-25T15:51:55+00:00"
+            ]
         },
         {
             "name": "bower-asset/inputmask",
@@ -113,8 +112,7 @@
                 "jquery",
                 "mask",
                 "plugins"
-            ],
-            "time": "2017-11-21T11:46:23+00:00"
+            ]
         },
         {
             "name": "bower-asset/jquery",
@@ -145,8 +143,7 @@
                 "javascript",
                 "jquery",
                 "library"
-            ],
-            "time": "2019-05-01T21:19:28+00:00"
+            ]
         },
         {
             "name": "bower-asset/punycode",
@@ -174,8 +171,7 @@
                     "node_modules",
                     "package.json"
                 ]
-            },
-            "time": "2014-10-22T12:02:42+00:00"
+            }
         },
         {
             "name": "bower-asset/yii2-pjax",
@@ -209,8 +205,7 @@
             },
             "license": [
                 "MIT"
-            ],
-            "time": "2017-10-12T10:11:14+00:00"
+            ]
         },
         {
             "name": "cebe/markdown",
@@ -418,33 +413,37 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.5.2",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "9f83dded91781a01c63574e387eaa769be769115"
+                "reference": "239400de7a173fe9901b9ac7c06497751f00727a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/9f83dded91781a01c63574e387eaa769be769115",
-                "reference": "9f83dded91781a01c63574e387eaa769be769115",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/239400de7a173fe9901b9ac7c06497751f00727a",
+                "reference": "239400de7a173fe9901b9ac7c06497751f00727a",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0",
                 "psr/http-message": "~1.0",
-                "ralouphie/getallheaders": "^2.0.5"
+                "ralouphie/getallheaders": "^2.0.5 || ^3.0.0"
             },
             "provide": {
                 "psr/http-message-implementation": "1.0"
             },
             "require-dev": {
+                "ext-zlib": "*",
                 "phpunit/phpunit": "~4.8.36 || ^5.7.27 || ^6.5.8"
+            },
+            "suggest": {
+                "zendframework/zend-httphandlerrunner": "Emit PSR-7 responses"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.5-dev"
+                    "dev-master": "1.6-dev"
                 }
             },
             "autoload": {
@@ -481,7 +480,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2018-12-04T20:46:45+00:00"
+            "time": "2019-07-01T23:21:34+00:00"
         },
         {
             "name": "intervention/image",
@@ -745,11 +744,11 @@
         },
         {
             "name": "newicon/neon",
-            "version": "dev-develop",
+            "version": "dev-steve-cms-pages",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:newicon/neon.git",
-                "reference": "240b2d7a9fdd8137c576f88d07b9b7fb595f7d54"
+                "reference": "1329ec8d6cfefdc78c8cdb2b9593d0ad6facc7fe"
             },
             "require": {
                 "donatj/phpuseragentparser": "0.9.0",
@@ -763,6 +762,7 @@
                 "tedivm/jshrink": "^1.3",
                 "yiisoft/yii2": "^2.0.15",
                 "yiisoft/yii2-bootstrap": "2.0.6",
+                "yiisoft/yii2-debug": "^2.1",
                 "yiisoft/yii2-smarty": "2.0.5",
                 "yiisoft/yii2-swiftmailer": "~2.0.7",
                 "yiisoft/yii2-twig": "2.*"
@@ -770,8 +770,7 @@
             "require-dev": {
                 "codeception/codeception": "2.*",
                 "phpunit/phpunit": "5.*",
-                "psy/psysh": "^0.7.2",
-                "yiisoft/yii2-debug": "~2.0",
+                "psy/psysh": "0.*",
                 "yiisoft/yii2-faker": "*"
             },
             "type": "library",
@@ -790,7 +789,7 @@
                 }
             ],
             "description": "Neon framework",
-            "time": "2019-06-21 16:10:49"
+            "time": "2019-07-12 13:11:53"
         },
         {
             "name": "psr/http-message",
@@ -844,24 +843,24 @@
         },
         {
             "name": "ralouphie/getallheaders",
-            "version": "2.0.5",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ralouphie/getallheaders.git",
-                "reference": "5601c8a83fbba7ef674a7369456d12f1e0d0eafa"
+                "reference": "120b605dfeb996808c31b6477290a714d356e822"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ralouphie/getallheaders/zipball/5601c8a83fbba7ef674a7369456d12f1e0d0eafa",
-                "reference": "5601c8a83fbba7ef674a7369456d12f1e0d0eafa",
+                "url": "https://api.github.com/repos/ralouphie/getallheaders/zipball/120b605dfeb996808c31b6477290a714d356e822",
+                "reference": "120b605dfeb996808c31b6477290a714d356e822",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3"
+                "php": ">=5.6"
             },
             "require-dev": {
-                "phpunit/phpunit": "~3.7.0",
-                "satooshi/php-coveralls": ">=1.0"
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpunit/phpunit": "^5 || ^6.5"
             },
             "type": "library",
             "autoload": {
@@ -880,7 +879,7 @@
                 }
             ],
             "description": "A polyfill for getallheaders.",
-            "time": "2016-02-11T07:05:27+00:00"
+            "time": "2019-03-08T08:55:37+00:00"
         },
         {
             "name": "smarty/smarty",
@@ -1421,16 +1420,16 @@
         },
         {
             "name": "tedivm/jshrink",
-            "version": "v1.3.2",
+            "version": "v1.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tedious/JShrink.git",
-                "reference": "d9b51729f3c6692c2da3e3fe6c5cd7c9d1d3fa8f"
+                "reference": "566e0c731ba4e372be2de429ef7d54f4faf4477a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tedious/JShrink/zipball/d9b51729f3c6692c2da3e3fe6c5cd7c9d1d3fa8f",
-                "reference": "d9b51729f3c6692c2da3e3fe6c5cd7c9d1d3fa8f",
+                "url": "https://api.github.com/repos/tedious/JShrink/zipball/566e0c731ba4e372be2de429ef7d54f4faf4477a",
+                "reference": "566e0c731ba4e372be2de429ef7d54f4faf4477a",
                 "shasum": ""
             },
             "require": {
@@ -1463,7 +1462,7 @@
                 "javascript",
                 "minifier"
             ],
-            "time": "2019-06-15T23:11:19+00:00"
+            "time": "2019-06-28T18:11:46+00:00"
         },
         {
             "name": "twig/twig",
@@ -1534,16 +1533,16 @@
         },
         {
             "name": "yiisoft/yii2",
-            "version": "2.0.21",
+            "version": "2.0.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "7e4622252c5f272373e1339a47d331e4a55e9591"
+                "reference": "417299927ed14adcd51c69a9d75311c5fc33d227"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/7e4622252c5f272373e1339a47d331e4a55e9591",
-                "reference": "7e4622252c5f272373e1339a47d331e4a55e9591",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/417299927ed14adcd51c69a9d75311c5fc33d227",
+                "reference": "417299927ed14adcd51c69a9d75311c5fc33d227",
                 "shasum": ""
             },
             "require": {
@@ -1630,7 +1629,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2019-06-18T14:25:08+00:00"
+            "time": "2019-07-02T20:28:40+00:00"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -1735,6 +1734,63 @@
                 "yii2"
             ],
             "time": "2018-07-05T15:44:47+00:00"
+        },
+        {
+            "name": "yiisoft/yii2-debug",
+            "version": "2.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii2-debug.git",
+                "reference": "a6bbf55093e154e2eeb2c778af8717989495270e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/a6bbf55093e154e2eeb2c778af8717989495270e",
+                "reference": "a6bbf55093e154e2eeb2c778af8717989495270e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.4",
+                "yiisoft/yii2": "~2.0.13"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "<7",
+                "yiisoft/yii2-coding-standards": "~2.0",
+                "yiisoft/yii2-swiftmailer": "*"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "yii\\debug\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Qiang Xue",
+                    "email": "qiang.xue@gmail.com"
+                },
+                {
+                    "name": "Simon Karlen",
+                    "email": "simi.albi@outlook.com"
+                }
+            ],
+            "description": "The debugger extension for the Yii framework",
+            "keywords": [
+                "debug",
+                "debugger",
+                "yii2"
+            ],
+            "time": "2019-06-04T14:21:49+00:00"
         },
         {
             "name": "yiisoft/yii2-smarty",
