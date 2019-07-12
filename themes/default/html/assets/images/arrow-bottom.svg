@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="12px" viewBox="0 0 20 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>arrow-right</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M18.1143819,16 L11.057191,23.057191 C10.5364919,23.57789 10.5364919,24.42211 11.057191,24.942809 C11.57789,25.4635081 12.42211,25.4635081 12.942809,24.942809 L20.942809,16.942809 C21.4635081,16.42211 21.4635081,15.57789 20.942809,15.057191 L12.942809,7.05719096 C12.42211,6.5364919 11.57789,6.5364919 11.057191,7.05719096 C10.5364919,7.57789001 10.5364919,8.42210999 11.057191,8.94280904 L18.1143819,16 Z" id="path-1"></path>
+    </defs>
+    <g id="Mobile-Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Nav" transform="translate(-325.000000, -160.000000)">
+            <g id="chevron-right" transform="translate(335.000000, 166.000000) rotate(90.000000) translate(-335.000000, -166.000000) translate(319.000000, 150.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Shape" fill="#004FFE" fill-rule="nonzero" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>
