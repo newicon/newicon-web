@@ -69,7 +69,7 @@
 								<h6>Enterprise Services</h6>
 								<ul>
 									<li class="dropdown_item">
-										<a href="#">
+										<a href="{page_url nice='digital-transformation'}">
 											<div class="dropdown_image">
 												<i class="ico-idea"></i>
 											</div>
@@ -87,22 +87,22 @@
 					</li>
 
 					<li>
-						<a href="#">our work</a>
+						<a href="{page_url nice='work'}">our work</a>
 					</li>
 
 					<li>
-						<a href="#">insights</a>
+						<a href="{page_url nice='insights'}">insights</a>
 					</li>
 
 					<li>
-						<a href="#">about us</a>
+						<a href="{page_url nice='about'}">about us</a>
 						<div class="dropdown">
 							<div class="dropdown_group">
 								<h6>About us</h6>
 
 								<ul>
 									<li class="dropdown_item">
-										<a href="#">
+										<a href="{page_url nice='about'}">
 											<div class="dropdown_image">
 												<i class="ico-peak"></i>
 											</div>
@@ -118,7 +118,7 @@
 									</li>
 
 									<li class="dropdown_item">
-										<a href="#">
+										<a href="{page_url nice='culture'}">
 											<div class="dropdown_image">
 												<i class="ico-social-circle"></i>
 											</div>
@@ -134,7 +134,7 @@
 									</li>
 
 									<li class="dropdown_item">
-										<a href="#">
+										<a href="{page_url nice='history'}">
 											<div class="dropdown_image">
 												<i class="ico-history"></i>
 											</div>
@@ -150,7 +150,7 @@
 									</li>
 
 									<li class="dropdown_item">
-										<a href="#">
+										<a href="{page_url nice='team'}">
 											<div class="dropdown_image">
 												<i class="ico-team"></i>
 											</div>
@@ -166,7 +166,7 @@
 									</li>
 
 									<li class="dropdown_item">
-										<a href="#">
+										<a href="{page_url nice='brand-values'}">
 											<div class="dropdown_image">
 												<i class="ico-dna"></i>
 											</div>

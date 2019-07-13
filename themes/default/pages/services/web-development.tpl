@@ -106,7 +106,7 @@
 					<div class="articleSmall">
 						<div class="article_inner">
 							<div class="article_image">
-								<img src="assets/images/temp/article-image-1.jpg" alt="" width="675" height="457">
+								<img src="{asset path='images/temp/article-image-1.jpg'}" alt="" width="675" height="457">
 							</div><!-- /.article_image -->
 
 							<div class="article_content">
@@ -132,7 +132,7 @@
 					<div class="articleSmall">
 						<div class="article_inner">
 							<div class="article_image">
-								<img src="assets/images/temp/article-image-2.jpg" alt="" width="675" height="457">
+								<img src="{asset path='images/temp/article-image-2.jpg'}" alt="" width="675" height="457">
 							</div><!-- /.article_image -->
 
 							<div class="article_content">
@@ -154,7 +154,7 @@
 					<div class="articleSmall">
 						<div class="article_inner">
 							<div class="article_image">
-								<img src="assets/images/temp/article-image-3.jpg" alt="" width="675" height="457">
+								<img src="{asset path='images/temp/article-image-3.jpg'}" alt="" width="675" height="457">
 							</div><!-- /.article_image -->
 
 							<div class="article_content">
@@ -174,7 +174,7 @@
 					<div class="articleSmall">
 						<div class="article_inner">
 							<div class="article_image">
-								<img src="assets/images/temp/article-image-4.jpg" alt="" width="675" height="457">
+								<img src="{asset path='images/temp/article-image-4.jpg'}" alt="" width="675" height="457">
 							</div><!-- /.article_image -->
 
 							<div class="article_content">
@@ -227,7 +227,7 @@
 								</div><!-- /.card_inner -->
 
 								<div class="card_imageText card_imageText-position6">
-									<img src="assets/images/temp/card-image-text-6.png" alt="" width="173" height="70">
+									<img src="{asset path='images/temp/card-image-text-6.png'}" alt="" width="173" height="70">
 								</div><!-- /.card_imageText -->
 							</div><!-- /.slider_slide -->
 
@@ -311,7 +311,7 @@
 								</div><!-- /.card_inner -->
 
 								<div class="card_imageText card_imageText-position6">
-									<img src="assets/images/temp/card-image-text-6.png" alt="" width="173" height="70">
+									<img src="{asset path='images/temp/card-image-text-6.png'}" alt="" width="173" height="70">
 								</div><!-- /.card_imageText -->
 							</div><!-- /.slider_slide -->
 						</div><!-- /.slider_slides -->
@@ -324,15 +324,15 @@
 	<section class="callout">
 		<div class="callout_images">
 			<div class="callout_image">
-				<img src="assets/images/temp/callout-image-1.svg" alt="" width="277" height="209">
+				<img src="{asset path='images/temp/callout-image-1.svg'}" alt="" width="277" height="209">
 			</div><!-- /.callout_image -->
 
 			<div class="callout_image">
-				<img src="assets/images/temp/callout-image-2.png" alt="" width="222" height="222">
+				<img src="{asset path='images/temp/callout-image-2.png'}" alt="" width="222" height="222">
 			</div><!-- /.callout_image -->
 
 			<div class="callout_image">
-				<img src="assets/images/temp/callout-image-3.png" alt="" width="145" height="68">
+				<img src="{asset path='images/temp/callout-image-3.png'}" alt="" width="145" height="68">
 			</div><!-- /.callout_image -->
 		</div><!-- /.callout_images -->
 
@@ -378,7 +378,7 @@
 					<div class="cardSimple">
 						<div class="card_inner">
 							<div class="card_image">
-								<img src="assets/images/temp/service-image-8.png" alt="" width="190" height="130">
+								<img src="{asset path='images/temp/service-image-8.png'}" alt="" width="190" height="130">
 							</div><!-- /.card_image -->
 
 							<div class="card_content">
@@ -396,7 +396,7 @@
 					<div class="cardSimple">
 						<div class="card_inner">
 							<div class="card_image">
-								<img src="assets/images/temp/service-image-9.png" alt="" width="190" height="130">
+								<img src="{asset path='images/temp/service-image-9.png'}" alt="" width="190" height="130">
 							</div><!-- /.card_image -->
 
 							<div class="card_content">
@@ -414,7 +414,7 @@
 					<div class="cardSimple">
 						<div class="card_inner">
 							<div class="card_image">
-								<img src="assets/images/temp/service-image-10.png" alt="" width="190" height="130">
+								<img src="{asset path='images/temp/service-image-10.png'}" alt="" width="190" height="130">
 							</div><!-- /.card_image -->
 
 							<div class="card_content">
@@ -432,7 +432,7 @@
 					<div class="cardSimple">
 						<div class="card_inner">
 							<div class="card_image">
-								<img src="assets/images/temp/service-image-9.png" alt="" width="190" height="130">
+								<img src="{asset path='images/temp/service-image-9.png'}" alt="" width="190" height="130">
 							</div><!-- /.card_image -->
 
 							<div class="card_content">
@@ -450,7 +450,7 @@
 					<div class="cardSimple">
 						<div class="card_inner">
 							<div class="card_image">
-								<img src="assets/images/temp/service-image-11.png" alt="" width="190" height="130">
+								<img src="{asset path='images/temp/service-image-11.png'}" alt="" width="190" height="130">
 							</div><!-- /.card_image -->
 
 							<div class="card_content">
@@ -468,7 +468,7 @@
 					<div class="cardSimple">
 						<div class="card_inner">
 							<div class="card_image">
-								<img src="assets/images/temp/service-image-12.png" alt="" width="190" height="130">
+								<img src="{asset path='images/temp/service-image-12.png'}" alt="" width="190" height="130">
 							</div><!-- /.card_image -->
 
 							<div class="card_content">
@@ -517,7 +517,7 @@
 						<div class="slider_slides">
 							<div class="slider_slide">
 								<div class="slider_slideImage">
-									<img src="assets/images/temp/slider-image-1.png" alt="" width="1052" height="1145">
+									<img src="{asset path='images/temp/slider-image-1.png'}" alt="" width="1052" height="1145">
 								</div><!-- /.slider_slideImage -->
 
 								<div class="slider_slideContent">
@@ -537,7 +537,7 @@
 
 							<div class="slider_slide">
 								<div class="slider_slideImage">
-									<img src="assets/images/temp/slider-image-1.png" alt="" width="1052" height="1145">
+									<img src="{asset path='images/temp/slider-image-1.png'}" alt="" width="1052" height="1145">
 								</div><!-- /.slider_slideImage -->
 
 								<div class="slider_slideContent">
@@ -557,7 +557,7 @@
 
 							<div class="slider_slide">
 								<div class="slider_slideImage">
-									<img src="assets/images/temp/slider-image-1.png" alt="" width="1052" height="1145">
+									<img src="{asset path='images/temp/slider-image-1.png'}" alt="" width="1052" height="1145">
 								</div><!-- /.slider_slideImage -->
 
 								<div class="slider_slideContent">
@@ -577,7 +577,7 @@
 
 							<div class="slider_slide">
 								<div class="slider_slideImage">
-									<img src="assets/images/temp/slider-image-1.png" alt="" width="1052" height="1145">
+									<img src="{asset path='images/temp/slider-image-1.png'}" alt="" width="1052" height="1145">
 								</div><!-- /.slider_slideImage -->
 
 								<div class="slider_slideContent">
@@ -597,7 +597,7 @@
 
 							<div class="slider_slide">
 								<div class="slider_slideImage">
-									<img src="assets/images/temp/slider-image-1.png" alt="" width="1052" height="1145">
+									<img src="{asset path='images/temp/slider-image-1.png'}" alt="" width="1052" height="1145">
 								</div><!-- /.slider_slideImage -->
 
 								<div class="slider_slideContent">
@@ -617,7 +617,7 @@
 
 							<div class="slider_slide">
 								<div class="slider_slideImage">
-									<img src="assets/images/temp/slider-image-1.png" alt="" width="1052" height="1145">
+									<img src="{asset path='images/temp/slider-image-1.png'}" alt="" width="1052" height="1145">
 								</div><!-- /.slider_slideImage -->
 
 								<div class="slider_slideContent">
@@ -641,39 +641,39 @@
 				<div class="sliderNav">
 					<ul>
 						<li class="current">
-							<img src="assets/images/temp/slider-nav-image-1.png" alt="" class="hiddenOnHover" width="101" height="32">
+							<img src="{asset path='images/temp/slider-nav-image-1.png'}" alt="" class="hiddenOnHover" width="101" height="32">
 
-							<img src="assets/images/temp/slider-nav-image-1-white.png" alt="" class="visibleOnHover" width="101" height="32">
+							<img src="{asset path='images/temp/slider-nav-image-1-white.png'}" alt="" class="visibleOnHover" width="101" height="32">
 						</li>
 
 						<li>
-							<img src="assets/images/temp/slider-nav-image-2.png" alt="" class="hiddenOnHover" width="101" height="32">
+							<img src="{asset path='images/temp/slider-nav-image-2.png'}" alt="" class="hiddenOnHover" width="101" height="32">
 
-							<img src="assets/images/temp/slider-nav-image-2-white.png" alt="" class="visibleOnHover" width="101" height="32">
+							<img src="{asset path='images/temp/slider-nav-image-2-white.png'}" alt="" class="visibleOnHover" width="101" height="32">
 						</li>
 
 						<li>
-							<img src="assets/images/temp/slider-nav-image-3.png" alt="" class="hiddenOnHover" width="101" height="32">
+							<img src="{asset path='images/temp/slider-nav-image-3.png'}" alt="" class="hiddenOnHover" width="101" height="32">
 
-							<img src="assets/images/temp/slider-nav-image-3-white.png" alt="" class="visibleOnHover" width="101" height="32">
+							<img src="{asset path='images/temp/slider-nav-image-3-white.png'}" alt="" class="visibleOnHover" width="101" height="32">
 						</li>
 
 						<li>
-							<img src="assets/images/temp/slider-nav-image-4.png" alt="" class="hiddenOnHover" width="101" height="32">
+							<img src="{asset path='images/temp/slider-nav-image-4.png'}" alt="" class="hiddenOnHover" width="101" height="32">
 
-							<img src="assets/images/temp/slider-nav-image-4-white.png" alt="" class="visibleOnHover" width="101" height="32">
+							<img src="{asset path='images/temp/slider-nav-image-4-white.png'}" alt="" class="visibleOnHover" width="101" height="32">
 						</li>
 
 						<li>
-							<img src="assets/images/temp/slider-nav-image-5.png" alt="" class="hiddenOnHover" width="101" height="32">
+							<img src="{asset path='images/temp/slider-nav-image-5.png'}" alt="" class="hiddenOnHover" width="101" height="32">
 
-							<img src="assets/images/temp/slider-nav-image-5-white.png" alt="" class="visibleOnHover" width="101" height="32">
+							<img src="{asset path='images/temp/slider-nav-image-5-white.png'}" alt="" class="visibleOnHover" width="101" height="32">
 						</li>
 
 						<li>
-							<img src="assets/images/temp/slider-nav-image-6.png" alt="" class="hiddenOnHover" width="101" height="32">
+							<img src="{asset path='images/temp/slider-nav-image-6.png'}" alt="" class="hiddenOnHover" width="101" height="32">
 
-							<img src="assets/images/temp/slider-nav-image-6-white.png" alt="" class="visibleOnHover" width="101" height="32">
+							<img src="{asset path='images/temp/slider-nav-image-6-white.png'}" alt="" class="visibleOnHover" width="101" height="32">
 						</li>
 					</ul>
 				</div><!-- /.sliderNav -->
@@ -698,7 +698,7 @@
 							<div class="testimonial_inner">
 								<div class="testimonial_image">
 									<div class="video">
-										<img src="assets/images/temp/testimonial-image-1.jpg" alt="" width="684" height="405">
+										<img src="{asset path='images/temp/testimonial-image-1.jpg'}" alt="" width="684" height="405">
 
 										<a href="https://www.youtube.com/watch?v=SrAzkFIYjFA" class="video_btn link-popup">
 											<svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -730,7 +730,7 @@
 							<div class="testimonial_inner">
 								<div class="testimonial_image">
 									<div class="video">
-										<img src="assets/images/temp/testimonial-image-1.jpg" alt="" width="684" height="405">
+										<img src="{asset path='images/temp/testimonial-image-1.jpg'}" alt="" width="684" height="405">
 
 										<a href="https://www.youtube.com/watch?v=SrAzkFIYjFA" class="video_btn link-popup">
 											<svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -762,7 +762,7 @@
 							<div class="testimonial_inner">
 								<div class="testimonial_image">
 									<div class="video">
-										<img src="assets/images/temp/testimonial-image-1.jpg" alt="" width="684" height="405">
+										<img src="{asset path='images/temp/testimonial-image-1.jpg'}" alt="" width="684" height="405">
 
 										<a href="https://www.youtube.com/watch?v=SrAzkFIYjFA" class="video_btn link-popup">
 											<svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -794,7 +794,7 @@
 							<div class="testimonial_inner">
 								<div class="testimonial_image">
 									<div class="video">
-										<img src="assets/images/temp/testimonial-image-1.jpg" alt="" width="684" height="405">
+										<img src="{asset path='images/temp/testimonial-image-1.jpg'}" alt="" width="684" height="405">
 
 										<a href="https://www.youtube.com/watch?v=SrAzkFIYjFA" class="video_btn link-popup">
 											<svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -826,7 +826,7 @@
 							<div class="testimonial_inner">
 								<div class="testimonial_image">
 									<div class="video">
-										<img src="assets/images/temp/testimonial-image-1.jpg" alt="" width="684" height="405">
+										<img src="{asset path='images/temp/testimonial-image-1.jpg'}" alt="" width="684" height="405">
 
 										<a href="https://www.youtube.com/watch?v=SrAzkFIYjFA" class="video_btn link-popup">
 											<svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -858,7 +858,7 @@
 							<div class="testimonial_inner">
 								<div class="testimonial_image">
 									<div class="video">
-										<img src="assets/images/temp/testimonial-image-1.jpg" alt="" width="684" height="405">
+										<img src="{asset path='images/temp/testimonial-image-1.jpg'}" alt="" width="684" height="405">
 
 										<a href="https://www.youtube.com/watch?v=SrAzkFIYjFA" class="video_btn link-popup">
 											<svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -907,7 +907,7 @@
 				<div class="books">
 					<div class="book">
 						<div class="book_inner">
-							<div class="book_image" style="background-image: url(assets/images/temp/book-background-1.jpg);"></div><!-- /.book_image -->
+							<div class="book_image" style="background-image: url({asset path='images/temp/book-background-1.jpg);'}"></div><!-- /.book_image -->
 
 							<div class="book_content">
 								<div class="book_label book_label-right">n</div><!-- /.book_label -->
@@ -927,7 +927,7 @@
 
 					<div class="book">
 						<div class="book_inner">
-							<div class="book_image" style="background-image: url(assets/images/temp/book-background-2.jpg);"></div><!-- /.book_image -->
+							<div class="book_image" style="background-image: url({asset path='images/temp/book-background-2.jpg);'}"></div><!-- /.book_image -->
 
 							<div class="book_content">
 								<div class="book_label book_label-right">n</div><!-- /.book_label -->
@@ -947,7 +947,7 @@
 
 					<div class="book">
 						<div class="book_inner">
-							<div class="book_image" style="background-image: url(assets/images/temp/book-background-3.jpg);"></div><!-- /.book_image -->
+							<div class="book_image" style="background-image: url({asset path='images/temp/book-background-3.jpg);'}"></div><!-- /.book_image -->
 
 							<div class="book_content">
 								<div class="book_label book_label-right">n</div><!-- /.book_label -->
