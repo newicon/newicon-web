@@ -1,6 +1,6 @@
 {extends "layouts/layout.tpl"}
 {block "header"}
-    {navigation on='home' }
+    {navigation inverse=true }
 {/block}
 {block "content"}
 	<div class="main">

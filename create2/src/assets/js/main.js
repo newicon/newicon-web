@@ -334,6 +334,6 @@ import 'magnific-popup';
 				// 	parallaxScroll(parallaxArray);
 				// }, 10);
 			}
-		});
+		}, {passive:true});
 	});
 })(window, document, window.jQuery);

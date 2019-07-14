@@ -3,7 +3,6 @@
     {navigation}
 {/block}
 {block "content"}
-
 	<div class="main">
 		<div class="article">
 			<div class="article_head">

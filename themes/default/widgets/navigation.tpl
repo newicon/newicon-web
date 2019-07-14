@@ -1,21 +1,79 @@
+{* Is this necessary in smarty? :puke: *}
+{if (!isset($inverse ))} {$inverse=false} {/if}
+{if (!isset($white ))} {$white=[]} {/if}
+{*
+<style>
+	Rather css only way of adjusting text color based on bg
+	https://css-tricks.com/switch-font-color-for-different-backgrounds-with-css/
+	:root {
+		/* theme color variables to use in RGB declarations */
+		--bgred: 200;
+		--bggreen: 60;
+		--bgblue: 255;
+		/* the threshold at which colors are considered "light".
+		Range: decimals from 0 to 1, recommended 0.5 - 0.6 */
+		--threshold: 0.5;
+		/* the threshold at which a darker border will be applied.
+		Range: decimals from 0 to 1, recommended 0.8+ */
+		--border-threshold: 0.8;
+	}
+
+	.nav {
+		/* sets the background for the base class */
+		/*background: rgb(var(--bgred), var(--bggreen), var(--bgblue));*/
+
+		/* calculates perceived lightness using the sRGB Luma method
+		Luma = (red * 0.2126 + green * 0.7152 + blue * 0.0722) / 255 */
+		--r: calc(var(--bgred) * 0.2126);
+		--g: calc(var(--bggreen) * 0.7152);
+		--b: calc(var(--bgblue) * 0.0722);
+		--sum: calc(var(--r) + var(--g) + var(--b));
+		--perceived-lightness: calc(var(--sum) / 255);
+
+		/* shows either white or black color depending on perceived darkness */
+		color: hsl(0, 0%, calc((var(--perceived-lightness) - var(--threshold)) * -10000000%));
+	}
+</style>
+*}
+
+{* This css can be organised later *}
+{css}
+<style>
+	{* create the popup up arrow *}
+	.dropdown:before {
+		position: absolute;
+		border: 10px;
+	}
+	{* show active link state when on the url *}
+	.nav > ul > li.isActive a:after {
+		-webkit-transform: translateX(-50%) scaleX(1);
+		-ms-transform: translateX(-50%) scaleX(1);
+		transform: translateX(-50%) scaleX(1);
+	}
+</style>
+{/css}
 <header class="header">
 	<div class="shell shell-fluid">
 		<div class="header_inner">
 			<nav class="nav">
 				<ul>
-					<li class="hidden-xs hidden-sm">
-						<a href="{page_url nice="home"}"><img src="{asset path='/images/logo@2x.png'}" alt="" width="55" height="12"></a>
+					<li class="hidden-xs hidden-sm {(in_array('newicon', $white)||$inverse) ? 'text-white' : ''}">
+						<a href="{page_url nice="home"}">
+							<img src="{(in_array('newicon', $white)||$inverse) ? {asset path='/images/logo-white-secondary@2x.png'}:{asset path='/images/logo@2x.png'}}" alt="" width="55" height="12">
+						</a>
 					</li>
 					<li class="visible-xs-block visible-sm-block">
 						<a href="#"></a>
 					</li>
-					<li>
+					<li class="
+							{(in_array('services', $white)||$inverse) ? 'text-white' : ''}
+							{(on_url({page_url nice='architecture'}, {page_url nice='software'}, {page_url nice='web-development'}, {page_url nice='digital-marketing'})) ? 'isActive': ''}">
 						<a href="#">services</a>
 						<div class="dropdown">
 							<div class="dropdown_group">
 								<h6>Featured Services</h6>
 								<ul>
-									<li class="dropdown_item">
+									<li class="dropdown_item {(on_url({page_url nice='architecture'}))?'isActive':''}">
 										<a href="{page_url nice='architecture'}">
 											<div class="dropdown_image">
 												<i class="ico-draw"></i>
@@ -86,15 +144,15 @@
 						</div><!-- /.dropdown -->
 					</li>
 
-					<li>
+					<li class="{(in_array('work', $white)||$inverse) ? 'text-white' : ''} {(on_url({page_url nice='work'}))?'isActive':''}">
 						<a href="{page_url nice='work'}">our work</a>
 					</li>
 
-					<li>
-						<a href="{page_url nice='insights'}">insights</a>
+					<li class="{(in_array('blog', $white)||$inverse) ? 'text-white' : ''} {(on_url({page_url nice='blog'}))?'isActive':''}">
+						<a href="{page_url nice='blog'}">insights</a>
 					</li>
 
-					<li>
+					<li class="{(in_array('about', $white)||$inverse) ? 'text-white' : ''}">
 						<a href="{page_url nice='about'}">about us</a>
 						<div class="dropdown">
 							<div class="dropdown_group">
@@ -109,7 +167,6 @@
 
 											<div class="dropdown_content">
 												<h5>About us</h5>
-
 												<p>
 													Our mission, vision and mantra
 												</p>
@@ -185,7 +242,7 @@
 						</div><!-- /.dropdown -->
 					</li>
 
-					<li class="{($on|default:'' == 'home') ? 'text-white': ''}">
+					<li class="{(in_array('approach', $white)||$inverse) ? 'text-white' : ''}">
 						<a href="#">our approach</a>
 
 						<div class="dropdown">
@@ -261,7 +318,7 @@
 						</div><!-- /.dropdown -->
 					</li>
 
-					<li class="{($on|default:'' == 'home') ? 'text-white': ''}">
+					<li class="{(in_array('careers', $white)||$inverse) ? 'text-white' : ''}">
 						<a href="#">careers</a>
 
 						<div class="dropdown">
@@ -305,11 +362,11 @@
 						</div><!-- /.dropdown -->
 					</li>
 
-					<li class="{($on|default:'' == 'home') ? 'text-white': ''}">
+					<li class="{(in_array('contact', $white)||$inverse) ? 'text-white' : ''}">
 						<a href="#">contact us</a>
 					</li>
 
-					<li class="{($on|default:'' == 'home') ? 'text-white': ''}">
+					<li class="{(in_array('login', $white)||$inverse) ? 'text-white' : ''}">
 						<a href="#">login</a>
 					</li>
 				</ul>

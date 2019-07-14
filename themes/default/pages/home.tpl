@@ -1,6 +1,6 @@
 {extends "layouts/layout.tpl"}
 {block "header"}
-	{navigation on='home' }
+	{navigation white=['careers','approach','contact','login'] }
 {/block}
 {block "content"}
 	<div class="main">
