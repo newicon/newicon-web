@@ -3,6 +3,11 @@
     {navigation inverse=true }
 {/block}
 {block "content"}
+	{css}
+		<style>
+			.sectionReview { min-height: 100vh; height:100vh; }
+		</style>
+	{/css}
 	<div class="main">
 		<div class="introSecondary introSecondary-dark">
 			<div class="shell">

@@ -11,7 +11,7 @@ class m20190714_221037_add_cms_page_blog extends Migration
 			'nice_id' => 'blog',
 			'name' => 'blog',
 			'title' => '',
-			'status' => 'Published',
+			'status' => 'PUBLISHED',
 			'layout' => '',
 			'template' => 'pages/blog/index.tpl',
 			'keywords' => '',

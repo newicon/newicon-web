@@ -3,8 +3,8 @@
     {navigation}
 {/block}
 {block "content"}
-		<div class="main">
-			<div class="intro intro-serviceSecondary">
+	<div class="main">
+			<div class="introServiceTertiary">
 				<div class="intro_inner">
 					<div class="intro_content">
 						<div class="shell">

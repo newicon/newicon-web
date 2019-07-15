@@ -11,7 +11,7 @@ class m20190713_000620_add_cms_page_work extends Migration
 			'nice_id' => 'work',
 			'name' => 'Our Work',
 			'title' => '',
-			'status' => 'DRAFT',
+			'status' => 'PUBLISHED',
 			'layout' => '',
 			'template' => 'pages/our-work.tpl',
 			'keywords' => '',

@@ -3,6 +3,33 @@
 <html class="no-js">
 	<head>
 		{include "layouts/head.tpl"}
+		{css}{literal}
+			<style>
+			/**** Pinched from official bootstrap theme ***/
+			/**** Docs: http://bootstrap-themes.github.io/marketing/docs/index.html#blocks ***/
+			.block {position: relative;display:table;width: 100%;padding: 60px 30px;color: inherit;background-position: center;background-size: cover;background-repeat: no-repeat;}
+
+			.block-bg-clip {position: absolute;top: -25px;right: 0;bottom: -25px;left: 0;overflow: hidden;}
+			.block-bg {position: absolute;top: 25px;right: -25px;bottom: 25px;left: -25px;overflow: hidden;-webkit-transform: rotate(-2deg);transform: rotate(-2deg);}
+
+			.block-paralax {background-attachment: fixed;}
+
+			.block-transparent {background-color: transparent;}
+			.block-background {position: absolute;top: 0;right: 0;bottom: 0;left: 0;}
+			.block-background > iframe {display: block;width: 100%;height: 100%;}
+			.block-foreground {position: relative;z-index: 2;display: inline-block;}
+
+			.block {display: table;width: 100%;height: 105vh;}
+			.block_middle {display: table-cell;vertical-align: middle;}
+			.block_bottom {display: table-cell;vertical-align: bottom;}
+			.block_top {display: table-cell;vertical-align: top;}
+			@media screen and (min-width: 768px) {
+				.block {padding: 100px 0;}
+			}
+			.cardDark { background:rgba(0,0,0,0.5); border-radius:8px; padding:50px; }
+
+			</style>
+        {/literal}{/css}
 	</head>
 	<body>
 		<div class="wrapper">
