@@ -1,3 +1,4 @@
 /vendor
 .idea
 /newicon
+node_modules

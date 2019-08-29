@@ -153,7 +153,7 @@
 								</li>
 
 								<li>
-									<a href="#">Privacy Policy</a>
+									<a href="{page_url nice='privacy-policy'}">Privacy Policy</a>
 								</li>
 
 								<li>

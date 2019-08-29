@@ -1,0 +1,35 @@
+/* ------------------------------------------------------------ *\
+	Container
+\* ------------------------------------------------------------ */
+
+.container { position: relative; }
+
+.container:before,
+.container:after { content: ''; position: absolute; top: -79px; z-index: -5; width: 100vw; height: 249px; background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(243, 245, 249, 1) 100%); }
+
+.container:before { left: 0; }
+
+.container:after { right: 0; }
+
+.container .container_inner { position: relative; display: flex; padding: 73px 0; margin: 0 -18px; }
+
+.container .container_inner:before,
+.container .container_inner:after { content: ''; position: absolute; top: 99px; bottom: 0; z-index: -10; width: 100vw; background-color: $gray10; }
+
+.container .container_inner:before { left: 0; }
+
+.container .container_inner:after { right: 0; }
+
+.container .content { flex: 1 0; padding: 0 18px; }
+
+.container .sidebar { flex: 0 0 318px; max-width: 318px; padding: 0 18px; }
+
+/* Tablet Portrait */
+
+@media (max-width: $breakpoint-tablet-portrait) {
+	.container .container_inner { display: block; margin: 0; }
+
+	.container .content { padding: 0; margin-bottom: 50px; }
+
+	.container .sidebar { max-width: 100%; padding: 0; }
+}

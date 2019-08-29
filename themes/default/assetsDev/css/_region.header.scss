@@ -1,0 +1,33 @@
+/* ------------------------------------------------------------ *\
+	Header
+\* ------------------------------------------------------------ */
+
+.header { position: absolute; top: 0; left: 0; z-index: 10; width: 100%; }
+
+.header .logo { display: none; }
+
+.header .navTrigger { display: none; }
+
+.header-transparent { padding: 10px 0; }
+
+.header-transparent .nav > ul > li > a { opacity: .6; }
+
+/* Tablet Portrait */
+
+@media (max-width: $breakpoint-tablet-portrait) {
+	.header { position: fixed; padding: 24px 0 23px; background-color: $white; }
+
+	.header .header_inner { padding: 0 21px 0 27px; }
+
+	.header .logo { display: block; }
+
+	.header .nav { position: fixed; top: 59px; bottom: 0; left: 0; width: 100%; }
+
+	.header .navTrigger { position: absolute; top: 50%; right: 21px; display: block; transform: translateY(-50%); }
+
+	.header-transparent .nav > ul > li > a { opacity: 1; }
+}
+
+@media (max-width: $breakpoint-mobile-portrait) {
+	.header .logo { margin-top: -3px; }
+}

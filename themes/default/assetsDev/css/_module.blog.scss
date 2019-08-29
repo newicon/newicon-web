@@ -1,0 +1,38 @@
+/* ------------------------------------------------------------ *\
+	Blog
+\* ------------------------------------------------------------ */
+
+.blog { padding: 154px 0 0; }
+
+/*  Blog Head  */
+.blog .blog_head {  }
+
+.blog .blog_head h2 { font-size: 39px; }
+
+.blog .blog_head .blog_inner { margin-bottom: 65px; }
+
+/*  Blog Body  */
+.blog .blog_body { padding: 45px 0 0; }
+
+/*  Blog Inner  */
+.blog .blog_inner { display: flex; justify-content: space-between; align-items: flex-end; }
+
+/*  Blog Title  */
+.blog .blog_title { margin-bottom: 18px; font-weight: 800; letter-spacing: 0; color: $black2; }
+
+/*  Blog Subtitle  */
+.blog .blog_subtitle { font-family: $font-Volkhov; font-weight: 400; font-style: italic; color: $gray21; }
+
+/* Mobile */
+
+@media (max-width: $breakpoint-mobile) {
+	.blog { padding: 100px 0 0; }
+
+	.blog .blog_inner { display: block; }
+
+	.blog .blog_head h2 { font-size: 33px; }
+
+	.blog .blog_head .blog_inner { margin-bottom: 40px; }
+
+	.blog .blog_content { margin-bottom: 30px; }
+}
