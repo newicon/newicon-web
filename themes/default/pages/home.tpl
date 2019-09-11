@@ -9,8 +9,6 @@
 				<div class="intro_content">
 					<div class="intro_entry">
 						<h1 class="intro_title">Your digital future is our business.</h1><!-- /.intro_title -->
-
-						<h4 class="intro_subtitle">Some sort of sub-line to go in here OK?</h4><!-- /.intro_subtitle -->
 						{static_block key="homepage_callout" wys=true}
 							<p>We use software engineering and design thinking to help you transform your future. Newicon. New tomorrow.</p>
 						{/static_block}

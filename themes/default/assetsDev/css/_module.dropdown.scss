@@ -2,7 +2,7 @@
 	Dropdown
 \* ------------------------------------------------------------ */
 
-.dropdown { width: 485px; padding: 8px 0 12px; border-radius: 8px; background-color: $white; box-shadow: 0 0 80px 0 rgba(107, 124, 147, .1); }
+.dropdown { width: 485px; padding: 8px 0 12px; border-radius: 8px; background-color: $white; box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.25), 0 30px 60px -30px rgba(0, 0, 0, 0.3), 0 -18px 60px -10px rgba(0, 0, 0, 0.025);}
 
 .dropdown .dropdown_group { padding: 19px 25px 19px 30px; }
 
@@ -37,9 +37,9 @@
 .dropdown .dropdown_content h3,
 .dropdown .dropdown_content h4,
 .dropdown .dropdown_content h5,
-.dropdown .dropdown_content h6 { margin: 0 0 5px; line-height: 1; color: $blue8; transition: color .4s; }
+.dropdown .dropdown_content h6 { margin: 0 0 2px; line-height: 1; color: $blue8; transition: color .4s; }
 
-.dropdown .dropdown_content h5 { font-size: 18px; }
+.dropdown .dropdown_content h5 { font-size: 17px; font-weight:400 }
 
 .dropdown .dropdown_content p { margin: 0; }
 
@@ -77,7 +77,7 @@
 	.dropdown .dropdown_content h3,
 	.dropdown .dropdown_content h4,
 	.dropdown .dropdown_content h5,
-	.dropdown .dropdown_content h6 { margin: 2px 0 0; font-weight: 600; letter-spacing: 0; text-transform: none; }
+	.dropdown .dropdown_content h6 { margin: 2px 0 0; font-weight: 400; letter-spacing: 0; text-transform: none; }
 
 	.dropdown .dropdown_content p { display: none; }
 }
