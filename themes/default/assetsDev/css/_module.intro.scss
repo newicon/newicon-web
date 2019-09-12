@@ -420,7 +420,7 @@
 
 .introQuaternary .intro_image .introImageText { position: absolute; bottom: -25px; left: -122px; }
 
-.introQuaternary .intro_entry { max-width: 537px; padding: 0 20px; margin-left: auto; font-size: 22px; line-height: 1.55; color: $blue; }
+.introQuaternary .intro_entry { max-width: 537px; padding: 0 $shell-gutter; margin-left: auto; font-size: 22px; line-height: 1.55; color: $blue; }
 
 .introQuaternary .intro_entry h1 { font-size: 48px; }
 

@@ -23,5 +23,9 @@
     "sass": "^1.22.10",
     "sass-loader": "7.*",
     "vue-template-compiler": "^2.6.10"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "magnific-popup": "^1.1.0"
   }
 }

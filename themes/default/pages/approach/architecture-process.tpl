@@ -4,23 +4,12 @@
 {/block}
 {block "content"}
 	<div class="main">
-		<div class="introQuaternary introQuaternary-alt introQuaternary-approach" data-title="Approach">
-			<div class="shell">
-				<div class="intro_inner">
-					<div class="intro_content">
-						<div class="intro_entry">
-							<h1 class="intro_title">The Architecture Process</h1><!-- /.intro_title -->
 
-							<h4 class="intro_subtitle">Including UX Design, UI Design and Technical Design</h4><!-- /.intro_subtitle -->
-
-							<p>
-								We have been successfully providing our clients digital solutions for over 10 years.
-							</p>
-						</div><!-- /.intro_entry -->
-					</div><!-- /.intro_content -->
-				</div><!-- /.intro_inner -->
-			</div><!-- /.shell -->
-		</div><!-- /.introQuaternary -->
+		{hero_text
+			title="The Architecture Process"
+			subtitle="Including UX Design, UI Design and Technical Design"
+			body="We have been successfully providing our clients digital solutions for over 10 years."
+		}
 
 		<section class="sectionSeptenary sectionSeptenary-bordered">
 			<div class="shell">

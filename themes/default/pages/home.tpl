@@ -9,6 +9,8 @@
 				<div class="intro_content">
 					<div class="intro_entry">
 						<h1 class="intro_title">Your digital future is our business.</h1><!-- /.intro_title -->
+						<script type="module" src="node_modules/@polymer/paper-button/paper-button.js"></script>
+						<paper-button raised class="indigo">raised</paper-button>
 						{static_block key="homepage_callout" wys=true}
 							<p>We use software engineering and design thinking to help you transform your future. Newicon. New tomorrow.</p>
 						{/static_block}
