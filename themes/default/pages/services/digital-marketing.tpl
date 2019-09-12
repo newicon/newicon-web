@@ -21,7 +21,7 @@
 					</div><!-- /.intro_content -->
 
 					<div class="intro_image">
-						<img src="{asset path='images/temp/intro-image-3.png'}" alt="" width="1277" height="786">
+						<img src="{asset path='images/illustrations/Digital Marketing Illustration.svg'}" alt="Digital marketing illustration" >
 
 						<img src="{asset path='images/temp/intro-image-text-4.png'}" alt="" width="86" height="94" class="introImageText">
 					</div><!-- /.intro_image -->

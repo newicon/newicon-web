@@ -4,28 +4,24 @@
 {/block}
 {block "content"}
 	<div class="main">
-		<div class="intro intro-service">
+		<div class="introServiceTertiary">
 			<div class="intro_inner">
 				<div class="intro_content">
-					<div class="intro_entry">
-						<h1 class="intro_title">Software Development</h1><!-- /.intro_title -->
+					<div class="shell">
+						<div class="intro_entry">
+							<h1 class="intro_title">Software Development</h1><!-- /.intro_title -->
 
-						<h4 class="intro_subtitle">You dream it, we build it!</h4><!-- /.intro_subtitle -->
+							<h4 class="intro_subtitle">If you can dream it, we can built it!</h4><!-- /.intro_subtitle -->
 
-						<p>
-							If you could design software to make your life easier, what would it do?
-						</p>
-
-						<div class="intro_actions">
-							<a href="#" class="btn btn-primary">Start a conversation</a>
-						</div><!-- /.intro_actions -->
-					</div><!-- /.intro_entry -->
+							<div class="intro_actions">
+								<a href="#" class="btn btn-primary">Give us a call</a>
+							</div><!-- /.intro_actions -->
+						</div><!-- /.intro_entry -->
+					</div><!-- /.shell -->
 				</div><!-- /.intro_content -->
 
 				<div class="intro_image">
-					<img src="{asset path='/images/temp/intro-image-2.png'}" alt="" width="510" height="785">
-
-					<img src="{asset path='/images/temp/intro-image-text-3.png'}" alt="" width="246" height="113" class="introImageText">
+					<img src="{asset path='images/illustrations/Software Dev Illustration.svg'}" alt="Software development illustration" >
 				</div><!-- /.intro_image -->
 			</div><!-- /.intro_inner -->
 		</div><!-- /.intro -->

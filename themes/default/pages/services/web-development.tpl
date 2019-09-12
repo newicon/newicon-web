@@ -4,28 +4,24 @@
 {/block}
 {block "content"}
 	<div class="main">
-		<div class="intro intro-serviceAlt">
+		<div class="introServiceTertiary">
 			<div class="intro_inner">
 				<div class="intro_content">
 					<div class="shell">
 						<div class="intro_entry">
 							<h1 class="intro_title">Web Development</h1><!-- /.intro_title -->
 
-							<h4 class="intro_subtitle">Invest in your future with inventive, user-focused web development.    </h4><!-- /.intro_subtitle -->
-
-							<p>
-								Build a better tomorrow for your business. Work with us to create a website that's beautiful, engaging, scalable, and secure. Ready to take the first step into your digital future?
-							</p>
+							<h4 class="intro_subtitle">Invest in your future with inventive, user-focused web development.</h4><!-- /.intro_subtitle -->
 
 							<div class="intro_actions">
-								<a href="#" class="btn btn-primary">Start a conversation</a>
+								<a href="#" class="btn btn-primary">Give us a call</a>
 							</div><!-- /.intro_actions -->
 						</div><!-- /.intro_entry -->
 					</div><!-- /.shell -->
 				</div><!-- /.intro_content -->
 
 				<div class="intro_image">
-					<img src="{asset path="images/temp/intro-image-4.png"}" alt="" width="793" height="662">
+					<img src="{asset path='images/illustrations/Web Dev Illustration.svg'}" alt="Website development illustration">
 				</div><!-- /.intro_image -->
 			</div><!-- /.intro_inner -->
 		</div><!-- /.intro -->

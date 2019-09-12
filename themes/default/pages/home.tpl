@@ -9,8 +9,6 @@
 				<div class="intro_content">
 					<div class="intro_entry">
 						<h1 class="intro_title">Your digital future is our business.</h1><!-- /.intro_title -->
-						<script type="module" src="node_modules/@polymer/paper-button/paper-button.js"></script>
-						<paper-button raised class="indigo">raised</paper-button>
 						{static_block key="homepage_callout" wys=true}
 							<p>We use software engineering and design thinking to help you transform your future. Newicon. New tomorrow.</p>
 						{/static_block}
@@ -18,7 +16,6 @@
 							<img src="{asset path='/images/temp/intro-image-text.png'}" alt="" width="146" height="71" class="visible-sm-block">
 							<img src="{asset path='/images/temp/intro-image-text-2.png'}" alt="" width="380" height="78" class="visible-xs-inline-block">
 							<a href="#" class="btn btn-primary">Start a conversation</a>
-
 							<a href="#" class="btn btn-primary btn-outline hidden-xs hidden-sm hidden-md">See our work</a>
 						</div><!-- /.intro_actions -->
 					</div><!-- /.intro_entry -->

@@ -14,7 +14,11 @@ let mix = require('laravel-mix');
 mix.sass('assetsDev/css/_load.scss', 'assets/css/app.css').options({
 	processCssUrls: false
 }).sourceMaps();
-mix.js('assetsDev/js/main.js', 'assets/js/bundle.js');
+mix.js('assetsDev/js/main.js', 'assets/js/bundle.mix.js');
+mix.autoload({  // or Mix.autoload() ?
+	'jquery': ['$', 'window.jQuery', 'jQuery'],
+	 'Popper': ['popper.js', 'default']
+});
 // Full API
 // mix.js(src, output);
 // mix.react(src, output); <-- Identical to mix.js(), but registers React Babel compilation.
