@@ -4,37 +4,13 @@
 {/block}
 {block "content"}
 	<div class="main">
-		<div class="introQuaternary introQuaternary-alt" data-title="Join us">
-			<div class="intro_inner">
-				<div class="intro_content">
-					<div class="intro_entry">
-						<h1 class="intro_title">Join the team</h1><!-- /.intro_title -->
-						<h4 class="intro_subtitle">Some sort of sub headline</h4><!-- /.intro_subtitle -->
-						<p>
-							Obviously we think we’re amazing, but here are some other reasons why Newicon should be your next choice.
-						</p>
-					</div><!-- /.intro_entry -->
-				</div><!-- /.intro_content -->
-			</div><!-- /.intro_inner -->
-		</div><!-- /.introQuaternary -->
 
-		<section class="sectionNavTertiary">
-			<div class="shell shell-sm">
-				<div class="section_content">
-					<nav class="navTertiary" data-elements="2">
-						<ul>
-							<li class="current">
-								<a href="{page_url nice="why-join"}">Why join us?</a>
-							</li>
 
-							<li>
-								<a href="{page_url nice="join"}">Open jobs</a>
-							</li>
-						</ul>
-					</nav><!-- /.navTertiary -->
-				</div><!-- /.section_content -->
-			</div><!-- /.shell -->
-		</section><!-- /.sectionNavTertiary -->
+		{hero_text
+			title="Why join us?"
+			subtitle="Some sort of sub headline"
+			body="Obviously we think we’re amazing, but here are some other reasons why Newicon should be your next choice."}
+
 
 		<section class="sectionText sectionText-quaternary">
 			<div class="section_image">

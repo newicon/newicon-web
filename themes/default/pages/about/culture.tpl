@@ -42,6 +42,12 @@
 							<li>
 								<a href="{page_url nice='history'}">History</a>
 							</li>
+							<li class="">
+								<a href="{page_url nice='culture'}">qwef</a>
+							</li>
+							<li class="">
+								<a href="{page_url nice='culture'}">qwef</a>
+							</li>
 						</ul>
 					</nav><!-- /.navSecondary -->
 				</div><!-- /.section_content -->

@@ -8,11 +8,8 @@
 			/**** Pinched from official bootstrap theme ***/
 			/**** Docs: http://bootstrap-themes.github.io/marketing/docs/index.html#blocks ***/
 			.block {position: relative;display:table;width: 100%;padding: 60px 30px;color: inherit;background-position: center;background-size: cover;background-repeat: no-repeat;height: 105vh;}
-
 			.block_parallax {background-attachment:fixed;}
-
 			.block_background {position: absolute;top: 0;right: 0;bottom: 0;left: 0;}
-
 			.block_middle {display: table-cell;vertical-align: middle;}
 			.block_bottom {display: table-cell;vertical-align: bottom;}
 			.block_top {display: table-cell;vertical-align: top;}
@@ -24,6 +21,8 @@
 			@media (min-width: 1900px) {
 				.intro .intro_entry {max-width:80%}
 			}
+
+			/* Styles for menu */
 			</style>
         {/literal}{/css}
 	</head>

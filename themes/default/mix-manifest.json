@@ -1,3 +1,4 @@
 {
-    "/dist/_load.css": "/dist/_load.css"
+    "/assets/js/bundle.mix.js": "/assets/js/bundle.mix.js",
+    "/assets/css/app.css": "/assets/css/app.css"
 }

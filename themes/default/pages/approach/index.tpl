@@ -4,23 +4,12 @@
 {/block}
 {block "content"}
 	<div class="main">
-		<div class="introQuaternary introQuaternary-alt introQuaternary-approach" data-title="Approach">
-			<div class="shell">
-				<div class="intro_inner">
-					<div class="intro_content">
-						<div class="intro_entry">
-							<h1 class="intro_title">Our Approach</h1><!-- /.intro_title -->
 
-							<h4 class="intro_subtitle">Learn about the way we do things</h4><!-- /.intro_subtitle -->
-
-							<p>
-								We have been successfully providing our clients digital solutions for over 10 years.
-							</p>
-						</div><!-- /.intro_entry -->
-					</div><!-- /.intro_content -->
-				</div><!-- /.intro_inner -->
-			</div><!-- /.shell -->
-		</div><!-- /.introQuaternary -->
+        {hero_text
+	        title="Our Approach"
+	        subtitle="Learn about the way we do things"
+	        body="We have been successfully providing our clients digital solutions for over 10 years."
+        }
 
 		<section class="sectionSenary">
 			<div class="shell shell-sm">

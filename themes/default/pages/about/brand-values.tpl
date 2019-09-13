@@ -4,21 +4,13 @@
 {/block}
 {block "content"}
 	<div class="main">
-		<div class="introQuaternary introQuaternary-alt introQuaternary-altSecondary" data-title="Brand Value">
-			<div class="intro_inner">
-				<div class="intro_content">
-					<div class="intro_entry">
-						<h1 class="intro_title">Our Brand Values</h1><!-- /.intro_title -->
 
-						<h4 class="intro_subtitle">What makes us tick?</h4><!-- /.intro_subtitle -->
-
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
-						</p>
-					</div><!-- /.intro_entry -->
-				</div><!-- /.intro_content -->
-			</div><!-- /.intro_inner -->
-		</div><!-- /.introQuaternary -->
+        {hero_text
+	        title="Our Brand Values"
+	        bgTitle="Brand Values"
+	        subtitle="What makes us tick?"
+	        body=" "
+        }
 
 		<section class="sectionQuaternary sectionQuaternary-alt">
 			<div class="shell">

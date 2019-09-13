@@ -36,34 +36,6 @@
 </style>
 *}
 
-{* This css can be organised later *}
-{css}
-<style>
-
-
-	@media (min-width: 1023px) {
-	{* create the popup up arrow *}
-		.dropdown:before {
-			position: absolute;
-			border: 10px;
-		}
-
-		{* show active link state when on the url *}
-		.nav > ul > li.isActive a {
-			/*color:#0067FF;*/
-		}
-
-		/* dropdown items hover and active state */
-		.nav > ul > li.isActive a:after { -webkit-transform: translateX(-50%) scaleX(1);-ms-transform: translateX(-50%) scaleX(1);transform: translateX(-50%) scaleX(1); }
-		.dropdown .dropdown_item a:hover .dropdown_content h5,
-		.dropdown .dropdown_item.isActive a .dropdown_content h5 { color: #0067FF; }
-
-		.dropdown { -webkit-box-shadow: 0px 20px 80px 0 rgba(107, 124, 147, .4);box-shadow: 0px 20px 80px 0 rgba(107, 124, 147, .4); }
-		/* Creae a dropdown pointer up arrow */
-		.dropdown:after { position: absolute;display: block;border-width: 10px;left: 50%;border-style: solid;content: " ";border-color: transparent transparent #ffffff transparent;top: -19px;margin-left: -10px;}
-	}
-</style>
-{/css}
 <header class="header">
 	<div class="shell shell-fluid">
 		<div class="header_inner">
@@ -72,12 +44,12 @@
 					<li class="visible-xs-block visible-sm-block">
 						<a href="#"></a>
 					</li>
-					<li class="hidden-xs hidden-sm {(in_array('newicon', $white)||$inverse) ? 'text-white' : ''}">
+					<li class="navBrand hidden-xs hidden-sm {(in_array('newicon', $white)||$inverse) ? 'text-white' : ''}">
 						<a href="{page_url nice="home"}">
-							<img src="{(in_array('newicon', $white)||$inverse) ? {asset path='/images/logo-white-secondary@2x.png'}:{asset path='/images/logo@2x.png'}}" alt="" width="55" height="12">
+							<img src="{(in_array('newicon', $white)||$inverse) ? {asset path='/images/logo-white-secondary@2x.png'}:{asset path='/images/newicon.svg'}}" alt="" width="70" height="15">
 						</a>
 					</li>
-					<li class="
+					<li class="navServices
 							{(in_array('services', $white)||$inverse) ? 'text-white' : ''}
 							{(on_url(
 								{page_url nice='architecture'},
@@ -376,10 +348,7 @@
 
 											<div class="dropdown_content">
 												<h5>Why join us?</h5>
-
-												<p>
-													Why choose Newicon to grow your career
-												</p>
+												<p>Why choose Newicon to grow your career</p>
 											</div>
 										</a>
 									</li>
@@ -398,11 +367,11 @@
 				</ul>
 			</nav><!-- /.nav -->
 
-			<a href="#" class="logo">
+			<a href="{page_url nice="home"}" class="logo">
 				<img src="{asset path='/images/logo-mobile@2x.png'}" alt="" width="70" height="15">
 			</a>
 
-			<a href="#" class="navTrigger">
+			<a href="#" class="navTrigger {(in_array('contact', $white)||$inverse) ? 'text-white' : ''}">
 				<span></span>
 
 				<span></span>

@@ -21,7 +21,7 @@
 				</div><!-- /.intro_content -->
 
 				<div class="intro_image">
-					<img src="{asset path='/images/temp/intro-image-5.png'}" alt="" width="1276" height="788">
+					<img src="{asset path='/images/illustrations/Architecture UX Illustration.svg'}" alt="Architecture user experience design illustration">
 
 					<div class="intro_imageInner">
 						<div class="shell">

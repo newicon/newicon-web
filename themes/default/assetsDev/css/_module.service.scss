@@ -28,11 +28,11 @@
 
 .service .service_actions a i { margin-top: 4px; }
 
-.service .service_overlay { position: absolute; top: -20px; right: -20px; bottom: -20px; left: -20px; padding: 110px 20px 72px 90px; border-radius: 6px; background-color: $blue4; font-weight: 400; font-size: 22px; color: $gray3; line-height: 1.55; box-shadow: 0px 38px 90px 0px rgba(186, 189, 198, 1); transform: scale(.8); opacity: 0; transition: transform .4s, opacity .4s; overflow: hidden; }
+.service .service_overlay { position: absolute; top: -20px; right: -20px; bottom: -20px; left: -20px; padding: 110px 20px 72px 90px; border-radius: 6px; background-color: $blue4; font-weight: 400; font-size: 22px; color: $gray3; line-height: 1.55; box-shadow: 0px 38px 90px 0px rgba(186, 189, 198, 1); transform: scale(.95); opacity: 0; transition: transform .25s, opacity .4s; overflow: hidden; }
 
 .service .service_overlayInner { opacity: 0; transition: opacity .2s; }
 
-.service .service_overlay:before { content: attr(data-background-text); position: absolute; top: 0; left: 0; font-weight: 800; font-size: 200px; color: $white; line-height: 1; opacity: .03; pointer-events: none; }
+.service .service_overlay:before { content: attr(data-background-text); position: absolute; top: 0; left: 0; font-weight: 800; font-size: 200px; color: $white; line-height: 1; opacity: .05; pointer-events: none; }
 
 .service .service_overlay > p { margin-bottom: 43px; }
 
@@ -46,7 +46,7 @@
 
 .service .service_inner:hover .service_overlay { -webkit-transform: scale(1); -ms-transform: scale(1); transform: scale(1); opacity: 1; }
 
-.service .service_inner:hover .service_overlayInner { opacity: 1; transition: opacity .4s .4s; }
+.service .service_inner:hover .service_overlayInner { opacity: 1; transition: opacity .3s .3s; }
 
 /* Tablet Portrait */
 

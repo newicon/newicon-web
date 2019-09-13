@@ -4,39 +4,14 @@
 {/block}
 {block "content"}
 	<div class="main">
-		<div class="introQuaternary introQuaternary-alt" data-title="Join us">
-			<div class="intro_inner">
-				<div class="intro_content">
-					<div class="intro_entry">
-						<h1 class="intro_title">Join the team</h1><!-- /.intro_title -->
 
-						<h4 class="intro_subtitle">Some sort of sub headline</h4><!-- /.intro_subtitle -->
 
-						<p>
-							Obviously we think we’re amazing, but here are some other reasons why Newicon should be your next choice.
-						</p>
-					</div><!-- /.intro_entry -->
-				</div><!-- /.intro_content -->
-			</div><!-- /.intro_inner -->
-		</div><!-- /.introQuaternary -->
+        {hero_text
+	        title="Join the team"
+	        subtitle="Some sort of sub headline"
+	        body="Obviously we think we’re amazing, but here are some other reasons why Newicon should be your next choice."
+        }
 
-		<section class="sectionNavTertiary">
-			<div class="shell shell-sm">
-				<div class="section_content">
-					<nav class="navTertiary" data-elements="2">
-						<ul>
-							<li>
-								<a href="{page_url nice="why-join"}">Why join us?</a>
-							</li>
-
-							<li class="current">
-								<a href="{page_url nice="join"}">Open jobs</a>
-							</li>
-						</ul>
-					</nav><!-- /.navTertiary -->
-				</div><!-- /.section_content -->
-			</div><!-- /.shell -->
-		</section><!-- /.sectionNavTertiary -->
 
 		<section class="section section-accordion section-accordionSecondary">
 			<div class="shell">
@@ -286,9 +261,8 @@
 					</p>
 
 					<p>
-						We enable you to do this with freedom. Responsible people Thrive on Freedom, and are Worthy of Freedom. We want to increase freedom as we grow, rather than limit it, to continue to attract and nourish innovative people, so we have a better chance of sustained success
+						We enable you to do this with freedom. Responsible people thrive on freedom, and are worthy of freedom. We want to increase freedom as we grow, rather than limit it, to continue to attract and nourish innovative people, so we have a better chance of sustained success
 					</p>
-
 					<a href="#" class="link link-secondary link-white link-lg link-underline">Learn about our culture ></a>
 				</div><!-- /.section_content -->
 			</div><!-- /.shell -->
@@ -298,7 +272,6 @@
 			<div class="shell">
 				<header class="section_head">
 					<h2>FAQs</h2>
-
 					<p>
 						You can get in touch if yu have any questions about any of our open positions, but here are some of the most frequently asked ones.
 					</p>

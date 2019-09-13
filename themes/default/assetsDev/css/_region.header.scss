@@ -15,17 +15,22 @@
 /* Tablet Portrait */
 
 @media (max-width: $breakpoint-tablet-portrait) {
-	.header { position: fixed; padding: 24px 0 23px; background-color: $white; }
+	.header {
+		position: fixed; padding: 15px 0 17px;
+		backdrop-filter: saturate(180%) blur(20px);
+		background-color: rgba(255,255,255,0.7);
+	}
 
 	.header .header_inner { padding: 0 21px 0 27px; }
 
 	.header .logo { display: block; }
 
-	.header .nav { position: fixed; top: 59px; bottom: 0; left: 0; width: 100%; }
+	.header .nav { position: fixed; top: 6px; bottom: 100px; left: 10px; width: calc(100% - 20px); }
 
 	.header .navTrigger { position: absolute; top: 50%; right: 21px; display: block; transform: translateY(-50%); }
 
 	.header-transparent .nav > ul > li > a { opacity: 1; }
+
 }
 
 @media (max-width: $breakpoint-mobile-portrait) {

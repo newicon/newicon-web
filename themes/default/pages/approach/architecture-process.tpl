@@ -4,29 +4,18 @@
 {/block}
 {block "content"}
 	<div class="main">
-		<div class="introQuaternary introQuaternary-alt introQuaternary-approach" data-title="Approach">
-			<div class="shell">
-				<div class="intro_inner">
-					<div class="intro_content">
-						<div class="intro_entry">
-							<h1 class="intro_title">The Architecture Process</h1><!-- /.intro_title -->
 
-							<h4 class="intro_subtitle">Including UX Design, UI Design and Technical Design</h4><!-- /.intro_subtitle -->
-
-							<p>
-								We have been successfully providing our clients digital solutions for over 10 years.
-							</p>
-						</div><!-- /.intro_entry -->
-					</div><!-- /.intro_content -->
-				</div><!-- /.intro_inner -->
-			</div><!-- /.shell -->
-		</div><!-- /.introQuaternary -->
+		{hero_text
+			title="The Architecture Process"
+			bgTitle="Architecture"
+			subtitle="Including UX Design, UI Design and Technical Design"
+			body="We have been successfully providing our clients digital solutions for over 10 years."
+		}
 
 		<section class="sectionSeptenary sectionSeptenary-bordered">
 			<div class="shell">
 				<header class="section_head">
 					<h2 class="section_title">What is our architecture process?</h2><!-- /.section_title -->
-
 					<p>
 						Our architecture phase creates an interactive prototype of your application. When building a house, the architectural plans enable you to specify your requirements and visualise the finished house before it is built. With software, the architectural plans enable users to understand how the software will operate, look and function before it is built – improving budgeting, minimising risk and ensuring success.
 					</p>

@@ -2247,23 +2247,19 @@ __webpack_require__.r(__webpack_exports__);
       var $targetTab = $($tabLink.attr('href'));
       $tabLink.parent().add($targetTab).addClass(activeTabClass).siblings().removeClass(activeTabClass);
     });
-    // $win.on('load scroll', function () {
-    //   var winScrollTop = $(window).scrollTop();
-	//
-    //   if ($jsStickyOnScroll.length) {
-    //     var isElementSticky = winScrollTop > $jsStickyOnScrollParent.offset().top;
-    //     var isElementBottom = $jsStickyOnScrollParent.offset().top + $jsStickyOnScrollParent.outerHeight() < winScrollTop + $jsStickyOnScroll.outerHeight();
-    //     $jsStickyOnScroll.toggleClass('fixed', isElementSticky).toggleClass('bottom-align', isElementBottom);
-    //   }
-	//
-    //   clearTimeout(timeout);
-	//
-    //   if ($win.outerWidth(true) > mobileWidth) {
-    //     timeout = setTimeout(function () {
-    //       parallaxScroll(parallaxArray);
-    //     }, 10);
-    //   }
-    // }, {passive:true});
+    $win.on('load scroll', function () {
+      var winScrollTop = $(window).scrollTop();
+
+      if ($jsStickyOnScroll.length) {
+        var isElementSticky = winScrollTop > $jsStickyOnScrollParent.offset().top;
+        var isElementBottom = $jsStickyOnScrollParent.offset().top + $jsStickyOnScrollParent.outerHeight() < winScrollTop + $jsStickyOnScroll.outerHeight();
+        $jsStickyOnScroll.toggleClass('fixed', isElementSticky).toggleClass('bottom-align', isElementBottom);
+      }
+
+      clearTimeout(timeout);
+
+      if ($win.outerWidth(true) > mobileWidth) {}
+    });
   });
 })(window, document, window.jQuery);
 
@@ -2281,4 +2277,3 @@ module.exports = jQuery;
 /***/ })
 
 /******/ });
-//# sourceMappingURL=bundle.js.map
