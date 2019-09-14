@@ -1,4 +1,4 @@
-<div class="introQuaternary introQuaternary-alt introQuaternary-approach" data-title="{$title}">
+<div class="introQuaternary introQuaternary-alt introQuaternary-approach" data-title="{$bgTitle|default:$title}">
 	<div class="shell">
 		<div class="intro_inner">
 			<div class="intro_content">

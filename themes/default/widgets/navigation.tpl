@@ -142,18 +142,11 @@
 					</li>
 
 					<li class="{(in_array('about', $white)||$inverse) ? 'text-white' : ''}
-						{(on_url(
-							{page_url nice='about'},
-							{page_url nice='culture'},
-							{page_url nice='history'},
-							{page_url nice='team'},
-							{page_url nice='brand-values'}
-						)) ? 'isActive' : ''}
-						">
+						{(on_url({page_url nice='about'}, {page_url nice='culture'},{page_url nice='history'},{page_url nice='team'},{page_url nice='brand-values'})) ? 'isActive' : ''}">
 						<a href="{page_url nice='about'}">about us</a>
 						<div class="dropdown">
 							<div class="dropdown_group">
-								<h6>About us</h6>
+								<h6>About us {on_url({page_url nice='about'},{page_url nice='culture'},{page_url nice='history'},{page_url nice='team'},{page_url nice='brand-values'})}</h6>
 
 								<ul>
 									<li class="dropdown_item {(on_url({page_url nice='about'}))?'isActive':''}">
@@ -355,10 +348,7 @@
 
 											<div class="dropdown_content">
 												<h5>Why join us?</h5>
-
-												<p>
-													Why choose Newicon to grow your career
-												</p>
+												<p>Why choose Newicon to grow your career</p>
 											</div>
 										</a>
 									</li>

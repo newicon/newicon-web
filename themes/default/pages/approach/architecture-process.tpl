@@ -7,6 +7,7 @@
 
 		{hero_text
 			title="The Architecture Process"
+			bgTitle="Architecture"
 			subtitle="Including UX Design, UI Design and Technical Design"
 			body="We have been successfully providing our clients digital solutions for over 10 years."
 		}
@@ -15,7 +16,6 @@
 			<div class="shell">
 				<header class="section_head">
 					<h2 class="section_title">What is our architecture process?</h2><!-- /.section_title -->
-
 					<p>
 						Our architecture phase creates an interactive prototype of your application. When building a house, the architectural plans enable you to specify your requirements and visualise the finished house before it is built. With software, the architectural plans enable users to understand how the software will operate, look and function before it is built – improving budgeting, minimising risk and ensuring success.
 					</p>

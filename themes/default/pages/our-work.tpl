@@ -63,7 +63,7 @@
 
 						<h3>A striking online presence for the<br>innovation hub of Bristol</h3>
 
-						<a href="#" class="btn btn-primary">Read more</a>
+						<a href="{page_url nice='case-study-bbsp'}" class="btn btn-primary">Read more</a>
 					</div><!-- /.section_entry -->
 				</div><!-- /.section_content -->
 			</div><!-- /.shell -->
