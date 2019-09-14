@@ -3569,7 +3569,7 @@ input:-webkit-autofill {
   margin-top: -37px;
   text-align: center;
   pointer-events: none;
-  padding: 0 2vw;
+  padding: 0 4vw;
 }
 
 .introServiceTertiary .intro_imageInner {
