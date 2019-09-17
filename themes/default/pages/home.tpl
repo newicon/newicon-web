@@ -2272,6 +2272,6 @@
 
 		{section_testimonials}
 
-		{section_get_in_touch}
+		{section_contact_footer}
 	</div><!-- /.main -->
 {/block}

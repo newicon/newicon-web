@@ -143,7 +143,8 @@
 				<div class="footer_content">
 					<div class="footer_entry">
 						<p class="footer_copyright">
-							&copy; 2018 Newicon Ltd. Company Number 1033 8750, Registered in England and Wales. Designed and built by Newicon using Neon™
+							Designed and built by Newicon using Neon in Bristol <br/>
+							&copy; Newicon Ltd. Registered in England and Wales. Company Number 5904359 VAT GB 993768447.
 						</p><!-- /.footer_copyright -->
 
 						<div class="footer_nav">

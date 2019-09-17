@@ -254,12 +254,11 @@
 				<div class="callout_content">
 					<h2 class="callout_title">Get in touch</h2><!-- /.callout_title -->
 
-					<h4 class="callout_subtitle">Give us a call or send us an email to start a conversation</h4><!-- /.callout_subtitle -->
+					<h4 class="callout_subtitle">Give us a call now on <a style="cursor: pointer;" href="tel:+441172050425">+44(0)117 205 04 25</a> or send us a message to start a conversation</h4><!-- /.callout_subtitle -->
 
 					<div class="callout_actions">
 						<a href="#" class="btn btn-tertiary btn-outline">Send us a message</a>
-
-						<a href="#" class="btn btn-tertiary btn-outline">Book free call</a>
+						<a href="" onclick="Calendly.initPopupWidget({ 'url': 'https://calendly.com/mark-probert/30-mins-call' });return false;" class="btn btn-tertiary btn-outline">Book free call with Mark</a>
 					</div><!-- /.callout_actions -->
 				</div><!-- /.callout_content -->
 			</div><!-- /.shell -->
@@ -334,103 +333,6 @@
 				</div><!-- /.tabs_body -->
 			</div><!-- /.tabsMaps -->
 		</section><!-- /.sectionMap -->
-		<section class="sectionContacts block" style="background: url({asset path="images/bg/nasa-1.jpg"} );background-size:cover;">
-			<div class="block_middle" >
-				<div class="shell cardDark">
-				<div class="section_content">
-					<div class="section_inner">
-						<header class="section_head">
-							<div class="section_head-inner">
-								<h1 class="section_title">Start your future, today.</h1><!-- /.section_title -->
-								<p>
-									For more information about how we can help you:
-								</p>
-
-								<ul class="list-contacts">
-									<li>
-										<h5>Call us on:</h5>
-
-										<a href="tel:01172050425">0117 205 0425</a>
-									</li>
-
-									<li>
-										<h5>Email us on:</h5>
-
-										<a href="mailto:talktous@newicon.net">talktous@newicon.net</a>
-									</li>
-								</ul><!-- /.list-contacts -->
-							</div><!-- /.section_head-inner -->
-						</header><!-- /.section_head -->
-
-						<div class="section_body">
-							<div class="form form-contacts">
-								<form action="?" method="post">
-									<div class="form_body">
-										<div class="form_cols">
-											<div class="form_col form_col-1of2">
-												<div class="form_row">
-													<div class="form_controls">
-														<input type="text" class="field" name="name" placeholder="Name*">
-													</div><!-- /.form_controls -->
-												</div><!-- /.form_row -->
-
-												<div class="form_row">
-													<div class="form_controls">
-														<input type="email" class="field" name="email" placeholder="Email address*">
-													</div><!-- /.form_controls -->
-												</div><!-- /.form_row -->
-
-												<div class="form_row">
-													<div class="form_controls">
-														<input type="tel" class="field" name="tel" placeholder="Telephone">
-													</div><!-- /.form_controls -->
-												</div><!-- /.form_row -->
-											</div><!-- /.form_col -->
-
-											<div class="form_col form_col-1of2">
-												<div class="form_row">
-													<div class="form_controls">
-														<textarea class="field field--textarea" name="message" placeholder="Tell us about your project"></textarea>
-													</div><!-- /.form_controls -->
-												</div><!-- /.form_row -->
-											</div><!-- /.form_col -->
-										</div><!-- /.footer_cols -->
-
-										<div class="form_inner">
-											<p>
-												Subscribe to our email list and get up-to-date industry news. We never share your details with third parties - <a href="#">privacy policy</a>.
-											</p>
-
-											<ul class="list-radios">
-												<li>
-													<div class="radio">
-														<input type="radio" name="subscribe" id="yes">
-
-														<label for="yes">Yes</label>
-													</div><!-- /.radio -->
-												</li>
-
-												<li>
-													<div class="radio">
-														<input type="radio" name="subscribe" id="no">
-
-														<label for="no">No</label>
-													</div><!-- /.radio -->
-												</li>
-											</ul><!-- /.list-radios -->
-										</div><!-- /.form_inner -->
-									</div><!-- /.form_body -->
-
-									<div class="form_actions">
-										<button type="submit" class="btn btn-secondary">Send message</button>
-									</div><!-- /.form_actions -->
-								</form>
-							</div><!-- /.form -->
-						</div><!-- /.section_body -->
-					</div><!-- /.section_inner -->
-				</div><!-- /.section_content -->
-			</div><!-- /.shell -->
-			</div>
-		</section><!-- /.sectionContacts -->
+		{section_contact_footer title="Start your future, today."}
 	</div><!-- /.main -->
 {/block}

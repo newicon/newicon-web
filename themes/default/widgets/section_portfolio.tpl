@@ -13,10 +13,6 @@
 				<div class="slider_clip">
 					<div class="slider_slides">
 						<div class="slider_slide">
-							<div class="slider_slideImage">
-								<img src="{asset path='images/temp/slider-image-1.png'}" alt="" width="1052" height="1145">
-							</div><!-- /.slider_slideImage -->
-
 							<div class="slider_slideContent">
 								<div class="slider_slideEntry">
 									<h6 class="slider_subtitle">Case Study</h6><!-- /.slider_subtitle -->
@@ -30,6 +26,11 @@
 									<a href="#" class="btn btn-primary btn-outline">Explore</a>
 								</div><!-- /.slider_slideEntry -->
 							</div><!-- /.slider_slideContent -->
+							<div class="slider_slideImage">
+								<img src="{asset path='images/temp/slider-image-1.png'}" alt="" width="1052" height="1145">
+							</div><!-- /.slider_slideImage -->
+
+
 						</div><!-- /.slider_slide -->
 
 						<div class="slider_slide">

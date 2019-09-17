@@ -36,11 +36,11 @@
 
 .list-contacts { padding: 0; margin: 0; list-style-type: none; font-size: 18px; color: $blue5; }
 
-.list-contacts h5 { margin-bottom: 4px; font-weight: 700; color: $white; }
+.list-contacts h5 { margin-bottom: 4px; font-weight: 300; }
 
 .list-contacts li + li { margin-top: 32px; }
 
-.list-contacts a { font-weight: 300; text-decoration: none; -webkit-transition: color .4s; -o-transition: color .4s; transition: color .4s; }
+.list-contacts a { font-weight: 700; color:$white; text-decoration: none; -webkit-transition: color .4s; -o-transition: color .4s; transition: color .4s; }
 
 .list-contacts a:hover { color: $blue3; }
 

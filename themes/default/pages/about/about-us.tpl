@@ -11,7 +11,6 @@
 						<h1 class="intro_title">About us</h1><!-- /.intro_title -->
 
 						<h4 class="intro_subtitle">Find the right people and you can’t lose</h4><!-- /.intro_subtitle -->
-
 						<p>
 							We have been successfully providing our clients digital solutions for over 10 years.
 						</p>
@@ -176,11 +175,7 @@
 							<div class="paging_inner">
 								<div class="paging_content">
 									<h3>Our History</h3>
-
-									<p>
-										Expore how Newicon have grown to where we are
-									</p>
-
+									<p>Expore how Newicon have grown to where we are</p>
 									<a href="#" class="btn btn-primary btn-sm">Explore</a>
 								</div><!-- /.paging_content -->
 							</div><!-- /.paging_inner -->
@@ -190,11 +185,7 @@
 							<div class="paging_inner">
 								<div class="paging_content">
 									<h3>Our Approach</h3>
-
-									<p>
-										Learn more about our process and approach to digital engeneering
-									</p>
-
+									<p>Learn more about our process and approach to digital engeneering</p>
 									<a href="#" class="btn btn-primary btn-sm">Explore</a>
 								</div><!-- /.paging_content -->
 							</div><!-- /.paging_inner -->

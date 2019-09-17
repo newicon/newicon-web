@@ -4,21 +4,13 @@
 {/block}
 {block "content"}
 	<div class="main">
-		<div class="introQuaternary introQuaternary-alt" data-title="The team">
-			<div class="intro_inner">
-				<div class="intro_content">
-					<div class="intro_entry">
-						<h1 class="intro_title">The team</h1><!-- /.intro_title -->
 
-						<h4 class="intro_subtitle">The people delivering the magic</h4><!-- /.intro_subtitle -->
-
-						<p>
-							We have essembled one heck of a team, made up of people who love solving problems.
-						</p>
-					</div><!-- /.intro_entry -->
-				</div><!-- /.intro_content -->
-			</div><!-- /.intro_inner -->
-		</div><!-- /.introQuaternary -->
+        {hero_text
+        title="The team"
+        bgTitle="The Team"
+        subtitle="The people delivering the magic"
+        body="We have essembled one heck of a team, made up of people who love solving problems."
+        }
 
 		<section class="sectionTeam">
 			<div class="shell">

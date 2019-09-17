@@ -5,7 +5,7 @@
 		</div><!-- /.callout_image -->
 
 		<div class="callout_image">
-			<img src="{asset path='images/temp/callout-image-2.png'}" alt="" width="222" height="222">
+			<img src="{asset path='images/temp/callout-image-2.png'}" alt="" width="222" height="222"></a>
 		</div><!-- /.callout_image -->
 
 		<div class="callout_image">
@@ -17,28 +17,21 @@
 		<div class="shell">
 			<div class="callout_inner">
 				<div class="callout_head">
-					<h1 class="callout_title">Come talk to us!</h1><!-- /.callout_title -->
+					<h1 class="callout_title">Talk to us&hellip;</h1><!-- /.callout_title -->
 
-					<h4 class="callout_subtitle">From Digital Transformation to Augmented Reality<br>we can help you build your future. </h4><!-- /.callout_subtitle -->
-
-					<a href="#" class="btn btn-white">Send us a message</a>
-
-					<a href="#" class="btn btn-gray btn-outline">Book a call</a>
+					<h4 class="callout_subtitle">From Digital Transformation to Augmented Reality<br>we can help you build your future.</h4><!-- /.callout_subtitle -->
+					<p>To discuss digital transformation in your business or startup &hellip;</p>
+					<a href="#" class="btn btn-white">Send us a message</a> <a href="" class="btn btn-gray btn-outline" onclick="Calendly.initPopupWidget({ 'url': 'https://calendly.com/mark-probert/30-mins-call' });return false;">Book a call with Mark</a>
 				</div><!-- /.callout_head -->
 
 				<div class="callout_body">
-					<h3>Contact Details</h3>
-
 					<ul class="list-contacts">
 						<li>
 							<h5>Call us on:</h5>
-
 							<a href="tel:01172050425">0117 205 0425</a>
 						</li>
-
 						<li>
-							<h5>Email us on:</h5>
-
+							<h5>Email us at:</h5>
 							<a href="mailto:talktous@newicon.net">talktous@newicon.net</a>
 						</li>
 					</ul>

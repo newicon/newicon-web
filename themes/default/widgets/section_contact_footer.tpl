@@ -33,12 +33,29 @@
 											<div class="form_controls">
 												<input type="email" class="field" name="email" placeholder="Email address*">
 											</div><!-- /.form_controls -->
-										</div><!-- /.form_row -->
-										<div class="form_row">
+										</div>
+										<div class="form_row"> <!-- /.form_row -->
 											<div class="form_controls">
 												<input type="tel" class="field" name="tel" placeholder="Telephone">
 											</div><!-- /.form_controls -->
 										</div><!-- /.form_row -->
+										<div class="form_row">
+											<p>Subscribe to our email list and get up-to-date industry news. We never share your details with third parties - <a href={page_url id="privacy-policy"}#">privacy policy</a>.</p>
+											<ul class="list-radios">
+												<li>
+													<div class="radio">
+														<input type="radio" name="subscribe" id="yes">
+														<label for="yes">Yes</label>
+													</div><!-- /.radio -->
+												</li>
+												<li>
+													<div class="radio">
+														<input type="radio" name="subscribe" id="no">
+														<label for="no">No</label>
+													</div><!-- /.radio -->
+												</li>
+											</ul><!-- /.list-radios -->
+										</div>
 									</div><!-- /.form_col -->
 									<div class="form_col form_col-1of2">
 										<div class="form_row">
@@ -49,21 +66,7 @@
 									</div><!-- /.form_col -->
 								</div><!-- /.footer_cols -->
 								<div class="form_inner">
-									<p>Subscribe to our email list and get up-to-date industry news. We never share your details with third parties - <a href="#">privacy policy</a>.</p>
-									<ul class="list-radios">
-										<li>
-											<div class="radio">
-												<input type="radio" name="subscribe" id="yes">
-												<label for="yes">Yes</label>
-											</div><!-- /.radio -->
-										</li>
-										<li>
-											<div class="radio">
-												<input type="radio" name="subscribe" id="no">
-												<label for="no">No</label>
-											</div><!-- /.radio -->
-										</li>
-									</ul><!-- /.list-radios -->
+									<div class="g-recaptcha" data-sitekey="6LfR87gUAAAAAIjH66eKulII2h-dhRyJHxIDGilO"></div>
 								</div><!-- /.form_inner -->
 							</div><!-- /.form_body -->
 							<div class="form_actions">

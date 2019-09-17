@@ -227,6 +227,20 @@
 											</div>
 										</a>
 									</li>
+									{*
+									<li class="dropdown_item {(on_url({page_url nice='join'}))?'isActive':''}">
+										<a href="{page_url nice='join'}"><div class="dropdown_image"><i class="ico-puzzle"></i></div><div class="dropdown_content">
+												<h5>Join the team</h5>
+												<p>Open job oportunities in Newicon</p></div>
+										</a>
+									</li>
+									<li class="dropdown_item {(on_url({page_url nice='why-join'}))?'isActive':''}">
+										<a href="{page_url nice='why-join'}"><div class="dropdown_image"><i class="ico-piece-pizza"></i></div><div class="dropdown_content">
+												<h5>Why join us?</h5>
+												<p>Why choose Newicon to grow your career</p></div>
+										</a>
+									</li>
+									*}
 								</ul>
 							</div><!-- /.dropdown_group -->
 						</div><!-- /.dropdown -->
@@ -322,34 +336,17 @@
 						<div class="dropdown">
 							<div class="dropdown_group">
 								<h6>Careers</h6>
-
 								<ul>
 									<li class="dropdown_item {(on_url({page_url nice='join'}))?'isActive':''}">
-										<a href="{page_url nice='join'}">
-											<div class="dropdown_image">
-												<i class="ico-puzzle"></i>
-											</div>
-
-											<div class="dropdown_content">
+										<a href="{page_url nice='join'}"><div class="dropdown_image"><i class="ico-puzzle"></i></div><div class="dropdown_content">
 												<h5>Join the team</h5>
-
-												<p>
-													Open job oportunities in Newicon
-												</p>
-											</div>
+												<p>Open job oportunities in Newicon</p></div>
 										</a>
 									</li>
-
 									<li class="dropdown_item {(on_url({page_url nice='why-join'}))?'isActive':''}">
-										<a href="{page_url nice='why-join'}">
-											<div class="dropdown_image">
-												<i class="ico-piece-pizza"></i>
-											</div>
-
-											<div class="dropdown_content">
+										<a href="{page_url nice='why-join'}"><div class="dropdown_image"><i class="ico-piece-pizza"></i></div><div class="dropdown_content">
 												<h5>Why join us?</h5>
-												<p>Why choose Newicon to grow your career</p>
-											</div>
+												<p>Why choose Newicon to grow your career</p></div>
 										</a>
 									</li>
 								</ul>
