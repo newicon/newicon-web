@@ -13,4 +13,4 @@ If you are writing a single template file which doesn't extend any
 base components then you should be writing a widget instead.
 
 Components should only deal with data they are provided. They should
-*not* make any database calls themselves.
+*not* make any database calls themselves.__

@@ -116,5 +116,6 @@
 			{* foot includes additional scripts for the page *}
 			{include "layouts/foot.tpl"}
 		</div>
+
 	</body>
 </html>

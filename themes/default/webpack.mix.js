@@ -14,11 +14,35 @@ let mix = require('laravel-mix');
 mix.sass('assetsDev/css/_load.scss', 'assets/css/app.css').options({
 	processCssUrls: false
 }).sourceMaps();
+
 mix.js('assetsDev/js/main.js', 'assets/js/bundle.mix.js');
 mix.autoload({  // or Mix.autoload() ?
 	'jquery': ['$', 'window.jQuery', 'jQuery'],
-	 'Popper': ['popper.js', 'default']
+	'Popper': ['popper.js', 'default']
 });
+
+mix.browserSync({
+	proxy:'localhost',
+	port:80,
+	files: {
+		match: [
+			"pages/**/*.tpl",
+			"assetsDev/css/*.css",
+			"assetsDev/js/*.js",
+		],
+		fn: function (event, file) {
+			/** Custom event handler **/
+		},
+		options: {
+			ignored: [
+				'*.txt',
+				'*.json'
+			]
+		}
+	},
+});
+
+// mix.browserSync('http://localhost/newicon-website');
 // Full API
 // mix.js(src, output);
 // mix.react(src, output); <-- Identical to mix.js(), but registers React Babel compilation.

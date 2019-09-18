@@ -9195,11 +9195,17 @@ input:-webkit-autofill {
   max-width: 50%;
   padding: 0 10px;
   margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.services .service:hover .link i {
+  transform: translateX(10px);
 }
 
 .service {
   position: relative;
   color: #4F5F84;
+  display: block;
 }
 
 .service .service_inner {
@@ -9212,7 +9218,12 @@ input:-webkit-autofill {
   padding: 98px 58px 189px;
   border-radius: 6px;
   background-color: #fff;
-  box-shadow: 0px 20px 200px 0px rgba(97, 99, 128, 0.1);
+  box-shadow: 0 30px 35px -20px rgba(50, 50, 93, 0.15), 0 20px 50px -30px rgba(0, 0, 0, 0.2), 0 -5px 50px -10px rgba(0, 0, 0, 0.015);
+  transition: box-shadow 0.3s;
+}
+
+.service:hover .service_content {
+  box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.25), 0 30px 60px -30px rgba(0, 0, 0, 0.3), 0 -18px 60px -10px rgba(0, 0, 0, 0.025);
 }
 
 .service .service_content > p {
@@ -9228,7 +9239,8 @@ input:-webkit-autofill {
 .service .service_title {
   margin-bottom: 25px;
   color: #031B4E;
-  letter-spacing: -0.035em;
+  letter-spacing: -1px;
+  font-weight: 600;
 }
 
 .service .service_links {
@@ -9242,11 +9254,15 @@ input:-webkit-autofill {
   padding: 0 17px;
 }
 
+.service .service_links .list-links a {
+  text-decoration: none;
+}
+
 .service .service_actions {
   display: none;
 }
 
-.service .service_actions a {
+.service .service_actions span {
   position: absolute;
   top: 0;
   left: 0;
@@ -9258,66 +9274,8 @@ input:-webkit-autofill {
   padding: 0 49px;
 }
 
-.service .service_actions a i {
+.service .service_actions span i {
   margin-top: 4px;
-}
-
-.service .service_overlay {
-  position: absolute;
-  top: -20px;
-  right: -20px;
-  bottom: -20px;
-  left: -20px;
-  padding: 110px 20px 72px 90px;
-  border-radius: 6px;
-  background-color: #00163D;
-  font-weight: 400;
-  font-size: 22px;
-  color: #7C8798;
-  line-height: 1.55;
-  box-shadow: 0px 38px 90px 0px #babdc6;
-  transform: scale(0.95);
-  opacity: 0;
-  transition: transform 0.25s, opacity 0.4s;
-  overflow: hidden;
-}
-
-.service .service_overlayInner {
-  opacity: 0;
-  transition: opacity 0.2s;
-}
-
-.service .service_overlay:before {
-  content: attr(data-background-text);
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-weight: 800;
-  font-size: 200px;
-  color: #fff;
-  line-height: 1;
-  opacity: 0.05;
-  pointer-events: none;
-}
-
-.service .service_overlay > p {
-  margin-bottom: 43px;
-}
-
-.service .service_overlay .service_title {
-  margin-bottom: 30px;
-  font-weight: 700;
-  color: #fff;
-  letter-spacing: 0;
-}
-
-.service .service_overlay .service_links {
-  margin-bottom: 59px;
-}
-
-.service .service_overlay .link {
-  font-size: 18px;
-  color: #fff;
 }
 
 .service .service_inner:hover {
@@ -9331,7 +9289,6 @@ input:-webkit-autofill {
 
 .service .service_inner:hover .service_overlayInner {
   opacity: 1;
-  transition: opacity 0.3s 0.3s;
 }
 
 /* Tablet Portrait */
@@ -9351,6 +9308,7 @@ input:-webkit-autofill {
 
   .service .service_content {
     padding: 55px 34px 110px;
+    box-shadow: 0px 10px 50px 0px rgba(97, 99, 128, 0.18);
   }
 
   .service .service_content > p {
@@ -9384,34 +9342,24 @@ input:-webkit-autofill {
     padding: 0 10px;
   }
 
-  .service .service_overlay {
-    top: -12px;
-    right: -12px;
-    bottom: -12px;
-    left: -12px;
-    padding: 63px 10px 63px 42px;
-    font-size: 15px;
+  .service .service_actions {
+    display: none;
   }
 
-  .service .service_overlay:before {
-    font-size: 140px;
+  .service .service_actions span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 49px;
   }
 
-  .service .service_overlay > p {
-    margin-bottom: 25px;
-  }
-
-  .service .service_overlay .service_links {
-    margin-bottom: 20px;
-  }
-
-  .service .service_overlay .service_title {
-    margin-bottom: 14px;
-    font-size: 24px;
-  }
-
-  .service .service_overlay .link {
-    font-size: 14px;
+  .service .service_actions span i {
+    margin-top: 4px;
   }
 }
 /* Mobile */
@@ -9439,7 +9387,6 @@ input:-webkit-autofill {
 
   .service .service_content {
     padding: 48px 130px 28px 37px;
-    box-shadow: 0px 10px 50px 0px rgba(97, 99, 128, 0.18);
   }
 
   .service .service_content p {
@@ -9472,6 +9419,10 @@ input:-webkit-autofill {
   .service .service_inner:hover {
     z-index: 0;
   }
+
+  .service .service_actions {
+    display: block;
+  }
 }
 @media (max-width: 375px) {
   .services .service + .service {
@@ -9491,11 +9442,11 @@ input:-webkit-autofill {
     line-height: 1.17;
   }
 
-  .service .service_actions a {
+  .service .service_actions span {
     padding: 0 28px;
   }
 
-  .service .service_actions a i {
+  .service .service_actions span i {
     margin-top: 1px;
     width: 15px;
     height: 26px;
