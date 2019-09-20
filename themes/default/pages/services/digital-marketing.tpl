@@ -16,8 +16,8 @@
                 <img src="{asset path='images/illustrations/Digital Marketing Illustration.svg'}" alt="Digital marketing illustration" >
             </div>
 
-			<section class="section section-tertiary">
-				<div class="shell">
+			<section class="section section-tertiary block">
+				<div class="shell block_middle">
 					<header class="section_head">
 						<h2 class="section_title">Position yourself for success in a digital world</h2><!-- /.section_title -->
 					</header><!-- /.section_head -->
