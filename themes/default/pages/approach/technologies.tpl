@@ -4,23 +4,12 @@
 {/block}
 {block "content"}
 	<div class="main">
-		<div class="introQuaternary introQuaternary-alt introQuaternary-approach" data-title="Approach">
-			<div class="shell">
-				<div class="intro_inner">
-					<div class="intro_content">
-						<div class="intro_entry">
-							<h1 class="intro_title">Technologies</h1><!-- /.intro_title -->
-
-							<h4 class="intro_subtitle">Learn about the way we do things</h4><!-- /.intro_subtitle -->
-
-							<p>
-								At our core we are pragmatists who enjoy delivering the right technology solutions to solve complex challenges. That’s why we’ve developed our own technologies to help us get the job done.
-							</p>
-						</div><!-- /.intro_entry -->
-					</div><!-- /.intro_content -->
-				</div><!-- /.intro_inner -->
-			</div><!-- /.shell -->
-		</div><!-- /.introQuaternary -->
+        {hero_text
+        title="Technologies"
+        bgTitle="Technologies"
+        subtitle="Learn about the way we do things"
+        body="At our core we are pragmatists who enjoy delivering the right technology solutions to solve complex challenges. That’s why we’ve developed our own technologies to help us get the job done."
+        }
 
 		<section class="sectionText sectionText-alt">
 			<div class="shell shell-sm">

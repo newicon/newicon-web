@@ -8,6 +8,7 @@
 
 		{hero_text
 			title="Why join us?"
+			bgTitle="Why join us?"
 			subtitle="Some sort of sub headline"
 			body="Obviously we think we’re amazing, but here are some other reasons why Newicon should be your next choice."}
 

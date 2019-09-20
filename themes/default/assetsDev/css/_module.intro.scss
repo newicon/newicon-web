@@ -1,12 +1,15 @@
 /* ------------------------------------------------------------ *\
-	Intro
+	Intro Homepage
 \* ------------------------------------------------------------ */
+
+
+.intro_image {margin:-125px 0;}
 
 .intro { font-weight: 300; font-size: 22px; color: $blue; line-height: 1.52; }
 
-.intro .intro_inner { position: relative; display: flex; flex-wrap: wrap; justify-content: flex-end; }
+.intro .intro_inner { position: relative; display: flex; flex-wrap: wrap; justify-content: flex-end; padding:0; }
 
-.intro .intro_image { position: relative; -webkit-box-flex: 0; -ms-flex: 0 0 52%; flex: 0 0 52%; max-width: 52%; padding-top: 59%; }
+.intro .intro_image { position: relative; -webkit-box-flex: 0; -ms-flex: 0 0 52%; flex: 0 0 52%; max-width: 52%; padding-top: 59%; margin-top:0; }
 
 .intro .intro_image svg { position: absolute; top: 0; left: 0; width: 100%; height: auto; }
 
@@ -16,7 +19,7 @@
 
 .intro .intro_entry p { margin-bottom: 56px; }
 
-.intro .intro_title { margin-bottom: 24px; color: $blue2; }
+//.intro .intro_title { margin-bottom: 24px; color: $blue2; }
 
 .intro .intro_subtitle { margin-bottom: 24px; font-family: $font-Volkhov; font-weight: 400; font-style: italic; font-size: 25px; color: $gray }
 
@@ -24,7 +27,17 @@
 
 .intro .intro_actions a { margin: 0 10px 10px; }
 
-.intro .intro_actions .btn-primary { box-shadow: 0 12px 18px 0 rgba(0, 0, 0, .11) }
+@media (min-width: $responsive-min-xs) {
+	.intro h1 {font-size:3vw;}
+}
+
+
+
+
+.intro_title { margin-bottom: 24px; color: $blue2; }
+
+.intro_body { font-size:22px; }
+
 
 /*  Intro Service  */
 
@@ -36,7 +49,7 @@
 
 .intro-service .intro_content { padding: 144px 40px 50px 0; }
 
-.intro-service .intro_title { letter-spacing: -.04em; }
+//.intro-service .intro_title { letter-spacing: -.04em; }
 
 .intro-service .intro_entry { max-width: 498px; }
 
@@ -72,7 +85,7 @@
 
 .intro-serviceAlt .intro_entry p { margin-bottom: 70px; }
 
-.intro-serviceAlt .intro_title { margin-bottom: 22px; }
+//.intro-serviceAlt .intro_title { margin-bottom: 22px; }
 
 .intro-serviceAlt .intro_subtitle { margin-bottom: 20px; line-height: 1.5; }
 
@@ -95,12 +108,13 @@
 
 @media (max-width: $breakpoint-tablet-portrait) {
 	.intro { font-size: 14px; }
+	.intro_title { margin-bottom: 12px; }
 
 	.intro .intro_image { flex: 0 0 66%; max-width: 66%; width: 66%; padding-top: 74%; pointer-events: none; }
 
 	.intro .intro_content { width: 50%; padding: 144px 34px 46px; }
 
-	.intro .intro_title { margin-bottom: 12px; }
+	//.intro .intro_title { margin-bottom: 12px; }
 
 	.intro .intro_subtitle { margin-bottom: 19px; font-size: 18px; }
 
@@ -133,12 +147,13 @@
 
 @media (max-width: $breakpoint-mobile) {
 	.intro { font-size: 22px; }
+	.intro_title { margin-bottom: 22px; line-height: 1.17; }
 
 	.intro .intro_image { flex: 0 0 80%; max-width: 80%; width: 80%; padding-top: 90%; margin-bottom: 44px; }
 
 	.intro .intro_content { order: 1; flex: 0 0 100%; max-width: 100%; position: relative; top: 0; left: 0; width: 100%; padding: 50px 30px; margin-top: 0; transform: none; }
 
-	.intro .intro_title { margin-bottom: 22px; line-height: 1.17; }
+	//.intro .intro_title { margin-bottom: 22px; line-height: 1.17; }
 
 	.intro .intro_subtitle { margin-bottom: 26px; font-size: 28px; }
 
@@ -163,12 +178,13 @@
 
 @media (max-width: $breakpoint-mobile-portrait) {
 	.intro { font-size: 14px; color: $gray6; }
+	.intro_title { margin-bottom: 11px; color: $black; }
 
 	.intro .intro_image { flex: 0 0 70%; max-width: 70%; width: 70%; padding-top: 79%; margin-bottom: 0; }
 
 	.intro .intro_content { padding: 20px 30px; }
 
-	.intro .intro_title { margin-bottom: 11px; color: $black; }
+	//.intro .intro_title { margin-bottom: 11px; color: $black; }
 
 	.intro .intro_subtitle { margin-bottom: 18px; font-size: 18px; }
 
@@ -200,35 +216,21 @@
 \* ------------------------------------------------------------ */
 
 .introServiceTertiary .intro_inner { padding: 213px 0 78px; }
-
 .introServiceTertiary .intro_image { position: relative; margin-top: -37px; text-align: center; pointer-events: none; padding: 0 4vw;}
-
 .introServiceTertiary .intro_imageInner { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-
 .introServiceTertiary .intro_imageInner .shell { position: relative; height: 100%; }
-
 .introServiceTertiary .intro_imageInner .introImageText { position: absolute; }
-
 .introServiceTertiary .intro_imageInner .introImageText-position1 { top: 62.4%; left: 53px; }
-
 .introServiceTertiary .intro_entry { padding: 0 62px; }
-
-.introServiceTertiary .intro_entry h1 { font-size: 48px; }
-
-.introServiceTertiary .intro_entry h4 { font-size: 25px; }
-
 .introServiceTertiary .intro_title { margin-bottom: 24px; color: $blue2; }
 
-.introServiceTertiary .intro_subtitle { margin-bottom: 52px; font-family: $font-Volkhov; font-style: italic; font-weight: 400; color: $gray13; }
-
-.introServiceTertiary .intro_actions .btn-primary { box-shadow: 0 12px 18px 0 rgba(0, 0, 0, .11%) }
+.introServiceTertiary .intro_subtitle { margin-bottom: 52px; font-family: $font-Volkhov; font-style: italic; font-weight: 400; color: $gray13; font-size: 25px; }
+.introServiceTertiary .intro_subtitle { margin-bottom: 52px; font-family: $font-Volkhov; font-style: italic; font-weight: 400; color: $gray13; font-size: 25px; }
 
 /* Tablet Portrait */
 @media (max-width: $breakpoint-tablet-portrait) {
 	.introServiceTertiary .intro_inner { padding: 150px 0 78px; }
-
 	.introServiceTertiary .intro_image .introImageText-position1 { left: 5%; }
-
 	.introServiceTertiary .intro_content { margin-bottom: 50px; }
 }
 
@@ -236,17 +238,10 @@
 
 @media (max-width: $breakpoint-mobile) {
 	.introServiceTertiary .intro_inner { padding: 75px 0; }
-
 	.introServiceTertiary .intro_content { margin-bottom: 80px; text-align: center; }
-
 	.introServiceTertiary .intro_entry { padding: 0; }
-
 	.introServiceTertiary .intro_entry h1 { font-size: 38px; }
-
-	.introServiceTertiary .intro_entry h4 { font-size: 22px; }
-
 	.introServiceTertiary .intro_subtitle { margin-bottom: 20px; }
-
 	.introServiceTertiary .intro_image .introImageText { display: none; }
 }
 
@@ -274,7 +269,7 @@
 
 .introServiceTertiaryAlt .intro_entry p { margin-bottom: 71px; }
 
-.introServiceTertiaryAlt .intro_title { margin-bottom: 25px; color: $blue2; }
+//.introServiceTertiaryAlt .intro_title { margin-bottom: 25px; color: $blue2; }
 
 .introServiceTertiaryAlt .intro_subtitle { margin-bottom: 25px; font-family: $font-Volkhov; font-style: italic; font-weight: 400; color: $gray13; }
 
@@ -312,40 +307,12 @@
 	Intro Secondary
 \* ------------------------------------------------------------ */
 
-.introSecondary { padding: 115px 0 52px; background: linear-gradient(to bottom, rgba(243, 245, 249, 1) 0%, rgba(255, 255, 255, 1) 100%); }
 
-.introSecondary .intro_inner { display: flex; align-items: center; padding: 0 7px 0 14px; }
-
-.introSecondary .intro_image { flex: 0 0 41.3%; max-width: 41.3%; }
-
-.introSecondary .intro_content { flex: 0 0 58.7%; max-width: 58.7%; margin-bottom: 39px; }
-
-.introSecondary .intro_entry { max-width: 90%; font-size: 22px; line-height: 1.55; color: $blue; }
-
-.introSecondary .intro_entry h1,
-.introSecondary .intro_entry h2,
-.introSecondary .intro_entry h3 { margin-bottom: 6px; color: $blue2; }
-
-.introSecondary .intro_entry h4,
-.introSecondary .intro_entry h5,
-.introSecondary .intro_entry h6 { margin-bottom: 28px; font-family: $font-Volkhov; font-weight: 400; font-style: italic; color: $gray13; }
-
-.introSecondary .intro_entry h1 { font-size: 48px; }
-
-.introSecondary .intro_entry h4 { font-size: 25px; }
-
-.introSecondary .list-filters { margin-top: 17px; }
-
-.introSecondary-dark { padding: 270px 0 30px; background: $blue11; }
-
-.introSecondary-dark .intro_inner { margin-bottom: 75px; }
-
+.introSecondary-dark { background: linear-gradient(black, #080e26) }
 .introSecondary-dark .intro_entry { color: $white; }
-
 .introSecondary-dark .intro_entry h1,
 .introSecondary-dark .intro_entry h2,
 .introSecondary-dark .intro_entry h3 { margin-bottom: 14px; color: $white; }
-
 .introSecondary-dark .intro_entry h4,
 .introSecondary-dark .intro_entry h5,
 .introSecondary-dark .intro_entry h6 { margin-bottom: 43px; color: $white; }
@@ -360,19 +327,6 @@
 
 @media (max-width: $breakpoint-mobile) {
 	.introSecondary .intro_inner { display: block; padding: 0; }
-
-	.introSecondary .intro_image { max-width: 100%; }
-
-	.introSecondary .intro_content { max-width: 100%; margin-bottom: 39px; text-align: center; }
-
-	.introSecondary .intro_entry { max-width: 100%; font-size: 18px; }
-
-	.introSecondary .intro_entry h1 { font-size: 38px; }
-
-	.introSecondary .intro_entry h4 { font-size: 20px; }
-
-	.introSecondary .list-filters { margin-top: 30px; }
-
 	.introSecondary-dark { padding: 115px 0 30px; }
 }
 
@@ -386,7 +340,7 @@
 
 .introTertiary .intro_inner { position: relative; z-index: 5; padding: 250px 5px 319px;  height:100vh; }
 
-.introTertiary .intro_title { font-weight: 700; color: $white; }
+//.introTertiary .intro_title { font-weight: 700; color: $white; }
 
 .introTertiary .intro_subtitle { margin-bottom: 24px; font-family: $font-Volkhov; font-style: italic; font-weight: 400; color: $white; }
 
@@ -432,15 +386,10 @@
 
 /*  Intro Quaternary Alt  */
 
-.introQuaternary-alt { position: relative; padding: 270px 0 160px; }
+.bgTextTitle { position: relative; }
+.bgTextTitle:before { content: attr(data-title); position: absolute; top: 250px; left: 0; z-index: -5; font-weight: 800; font-size: 331px; line-height: 1; color: $blue14; white-space: nowrap; pointer-events: none; opacity: .5; transform: translateY(-50%); }
 
-.introQuaternary-alt:before { content: attr(data-title); position: absolute; top: 250px; left: 0; z-index: -5; font-weight: 800; font-size: 331px; line-height: 1; color: $blue14; white-space: nowrap; pointer-events: none; opacity: .5; transform: translateY(-50%); }
 
-.introQuaternary-alt .intro_content { margin-bottom: 0; }
-
-.introQuaternary-alt .intro_title { position: relative; margin-bottom: 14px; }
-
-.introQuaternary-alt .intro_subtitle { margin-bottom: 43px; }
 
 .introQuaternary-altSecondary { padding: 230px 0; }
 
@@ -454,7 +403,7 @@
 
 .introQuaternary-approach .intro_content { max-width: 100%; padding: 0; }
 
-.introQuaternary-approach .intro_entry { max-width: 830px; margin: 0; font-size: 27px; line-height: 1.57; }
+.introQuaternary-approach .intro_entry { max-width: 850px; margin: 0; font-size: 27px; line-height: 1.57; }
 
 .introQuaternary-approach .intro_entry h1 { font-size: 60px; }
 
@@ -462,7 +411,7 @@
 
 .introQuaternary-approach .intro_title { margin-bottom: 22px; }
 
-.introQuaternary-approach .intro_subtitle { margin: 0 0 33px 7px; }
+.introQuaternary-approach .intro_subtitle { margin: 0 0 30px 0px; }
 
 /* Tablet Portrait */
 
@@ -471,13 +420,13 @@
 
 	.introQuaternary .intro_image .introImageText { position: absolute; bottom: -50px; left: -100px; }
 
-	.introQuaternary-alt { padding: 170px 0 100px; }
+	//.introQuaternary-alt { padding: 170px 0 100px; }
 
-	.introQuaternary-alt .intro_inner { display: block; margin: 0; }
-
-	.introQuaternary-alt .intro_content { max-width: 100%; padding: 0; }
-
-	.introQuaternary-alt .intro_entry { max-width: 100%; }
+	//.introQuaternary-alt .intro_inner { display: block; margin: 0; }
+	//
+	//.introQuaternary-alt .intro_content { max-width: 100%; padding: 0; }
+	//
+	//.introQuaternary-alt .intro_entry { max-width: 100%; }
 
 	.introQuaternary-approach .intro_inner { padding: 0; }
 
@@ -505,9 +454,9 @@
 
 	.introQuaternary .intro_entry h4 { font-size: 18px; }
 
-	.introQuaternary-alt { padding: 140px 0 50px; }
+	//.introQuaternary-alt { padding: 140px 0 50px; }
 
-	.introQuaternary-alt:before { font-size: 130px; }
+	.bgTextTitle:before { font-size: 130px; }
 }
 
 /* ------------------------------------------------------------ *\

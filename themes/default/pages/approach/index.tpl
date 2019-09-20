@@ -7,6 +7,7 @@
 
         {hero_text
 	        title="Our Approach"
+	        bgTitle="Our Approach"
 	        subtitle="Learn about the way we do things"
 	        body="We have been successfully providing our clients digital solutions for over 10 years."
         }

@@ -9,50 +9,26 @@
 		</style>
 	{/css}
 	<div class="main">
+
+
+
+
 		<div class="introSecondary introSecondary-dark">
-			<div class="shell">
-				<div class="intro_inner">
-					<div class="intro_content">
-						<div class="shell">
-							<div class="intro_entry">
-								<h1 class="intro_title">Our work</h1><!-- /.intro_title -->
-
-								<h4 class="intro_subtitle">Client stories to whet your appetite.</h4><!-- /.intro_subtitle -->
-
-								<p>
-									Every client challenge is unique. And so is our approach. Here’s a selection of our most favourate work.
-								</p>
-							</div><!-- /.intro_entry -->
-						</div><!-- /.shell -->
-					</div><!-- /.intro_content -->
-				</div><!-- /.intro_inner -->
-
-				<ul class="listFilters listFilters-dark">
-					<li class="current">
-						<a href="#">All work</a>
-					</li>
-
-					<li>
-						<a href="#">Web Apps</a>
-					</li>
-
-					<li>
-						<a href="#">Websites</a>
-					</li>
-
-					<li>
-						<a href="#">E-commerce</a>
-					</li>
-
-					<li>
-						<a href="#">Mobile App</a>
-					</li>
-
-					<li>
-						<a href="#">Software</a>
-					</li>
-				</ul><!-- /.listFilters -->
-			</div><!-- /.shell -->
+            {hero_text
+            title="Our work"
+            subtitle="Client stories to whet your appetite."
+            body="Every client challenge is unique. And so is our approach. Here’s a selection of our most favourate work."
+            }
+{*			<div class="shell">*}
+{*				<ul class="listFilters listFilters-dark">*}
+{*					<li class="current"><a href="#">All work</a></li>*}
+{*					<li><a href="#">Web Apps</a></li>*}
+{*					<li><a href="#">Websites</a></li>*}
+{*					<li><a href="#">E-commerce</a></li>*}
+{*					<li><a href="#">Mobile App</a></li>*}
+{*					<li><a href="#">Software</a></li>*}
+{*				</ul><!-- /.listFilters -->*}
+{*			</div><!-- /.shell -->*}
 		</div><!-- /.introSecondary -->
 
 		<section class="sectionReview" style="background-image: url({asset path='images/temp/section-review-background-5.png);'}">

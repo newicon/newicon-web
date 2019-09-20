@@ -4,29 +4,17 @@
 {/block}
 {block "content"}
 	<div class="main">
-			<div class="introServiceTertiary">
-				<div class="intro_inner">
-					<div class="intro_content">
-						<div class="shell">
-							<div class="intro_entry">
-								<h1 class="intro_title">Digital Marketing</h1><!-- /.intro_title -->
 
-								<h4 class="intro_subtitle">Make your mark online with data-driven digital marketing</h4><!-- /.intro_subtitle -->
+        {hero_text
+	        title="Digital Marketing"
+	        bgTitle=false
+	        subtitle="Make your mark online with data-driven digital marketing"
+	        callBtn=true
+        }
 
-								<div class="intro_actions">
-									<a href="#" class="btn btn-primary">Give us a call</a>
-								</div><!-- /.intro_actions -->
-							</div><!-- /.intro_entry -->
-						</div><!-- /.shell -->
-					</div><!-- /.intro_content -->
-
-					<div class="intro_image">
-						<img src="{asset path='images/illustrations/Digital Marketing Illustration.svg'}" alt="Digital marketing illustration" >
-
-						<img src="{asset path='images/temp/intro-image-text-4.png'}" alt="" width="86" height="94" class="introImageText">
-					</div><!-- /.intro_image -->
-				</div><!-- /.intro_inner -->
-			</div><!-- /.intro -->
+			<div class="intro_image">
+                <img src="{asset path='images/illustrations/Digital Marketing Illustration.svg'}" alt="Digital marketing illustration" >
+            </div>
 
 			<section class="section section-tertiary">
 				<div class="shell">

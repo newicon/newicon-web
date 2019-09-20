@@ -112,25 +112,25 @@
 								</ul>
 							</div><!-- /.dropdown_group -->
 
-							<div class="dropdown_group">
-								<h6>Enterprise Services</h6>
-								<ul>
-									<li class="dropdown_item">
-										<a href="{page_url nice='digital-transformation'}">
-											<div class="dropdown_image">
-												<i class="ico-idea"></i>
-											</div>
-											<div class="dropdown_content">
-												<h5>Digital Transformation</h5>
-												<p>
-													New digital projects to digitise, humanise and optimise.
-												</p>
-											</div>
-										</a>
-									</li>
-								</ul>
-							</div><!-- /.dropdown_group -->
-						</div><!-- /.dropdown -->
+{*							<div class="dropdown_group">*}
+{*								<h6>Enterprise Services</h6>*}
+{*								<ul>*}
+{*									<li class="dropdown_item">*}
+{*										<a href="{page_url nice='digital-transformation'}">*}
+{*											<div class="dropdown_image">*}
+{*												<i class="ico-idea"></i>*}
+{*											</div>*}
+{*											<div class="dropdown_content">*}
+{*												<h5>Digital Transformation</h5>*}
+{*												<p>*}
+{*													New digital projects to digitise, humanise and optimise.*}
+{*												</p>*}
+{*											</div>*}
+{*										</a>*}
+{*									</li>*}
+{*								</ul>*}
+{*							</div><!-- /.dropdown_group -->*}
+{*						</div><!-- /.dropdown -->*}
 					</li>
 
 					<li class="{(in_array('work', $white)||$inverse) ? 'text-white' : ''} {(on_url({page_url nice='work'}))?'isActive':''}">

@@ -2,11 +2,12 @@
 	Button
 \* ------------------------------------------------------------ */
 
-.btn { display: inline-block; vertical-align: middle; min-width: 190px; height: 55px; border: 0; border-radius: 3px; font-weight: 700; font-size: 15px; line-height: 55px; text-align: center; text-decoration: none; -webkit-appearance: none; -moz-appearance: none; appearance: none; -webkit-transition: border .4s, background .4s, color .4s; -o-transition: border .4s, background .4s, color .4s; transition: border .4s, background .4s, color .4s; padding:0 20px}
+.btn { display: inline-block; vertical-align: middle; min-width: 190px; height: 55px; border: 0; border-radius: 3px; font-weight: 700; font-size: 15px; line-height: 55px; text-align: center; text-decoration: none; -webkit-appearance: none; -moz-appearance: none; appearance: none; -webkit-transition: border .2s, background .2s, color .2s; -o-transition: border .2s, background .2s, color .2s; transition: border .2s, background .2s, color .2s; padding:0 20px}
 .btn-primary { background-color: $blue3; color: $white; }
 .btn-primary:hover { background-color: $blue4; }
 .btn-primary.btn-outline { border: 1px solid $blue3; background-color: transparent; color: $blue3; line-height: 53px; }
 .btn-primary.btn-outline:hover { border-color: $blue4; background-color: $blue4; color: $white; }
+.btn._shadow {box-shadow: 0 12px 18px 0 rgba(0, 0, 0, 0.21)}
 
 .btn-gray { background-color: $gray3; color: $white; }
 .btn-gray.btn-outline { border: 1px solid $gray3; background-color: transparent; line-height: 53px; }

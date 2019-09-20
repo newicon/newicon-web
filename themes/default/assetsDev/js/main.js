@@ -1,4 +1,8 @@
 import 'magnific-popup';
+import Vue from 'vue';
+import Hello from './hello.vue';
+
+Vue.component('hello', Hello);
 
 ;(function(window, document, $) {
 	var $win = $(window);
@@ -22,15 +26,12 @@ import 'magnific-popup';
 				var scrolled = winOffset - ( offsetTopParent - (conteinerHeight * startPoint ));
 				var reducedScroll = scrolled;
 				var translateDirection = '';
-
 				if (direction === "top") {
 					translateDirection = '-';
 				}
-
 				if (scrolled < 0) {
 					scrolled = 0;
 				}
-
 				if(winOffsetBottom >= offsetTopConteiner + (conteinerHeight * startPoint )) {
 					$this.css('transform', 'translateY('+ translateDirection +'' + scrolled*speedReduce + 'px)');
 				}

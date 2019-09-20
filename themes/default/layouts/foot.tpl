@@ -8,5 +8,3 @@
 <!-- Calendly link widget end -->
 {* Keep this to include any body scripts and keep at the end *}
 {neon_body_end}
-
-<script src="http://localhost:35729/livereload.js"></script>

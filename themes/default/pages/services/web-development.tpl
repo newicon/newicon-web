@@ -4,31 +4,16 @@
 {/block}
 {block "content"}
 	<div class="main">
-		<div class="introServiceTertiary">
-			<div class="intro_inner">
-				<div class="intro_content">
-					<div class="shell">
-						<div class="intro_entry">
-							<h1 class="intro_title">Website Development</h1><!-- /.intro_title -->
-							<h4 class="intro_subtitle">Invest in your future with inventive, user-focused web development.</h4><!-- /.intro_subtitle -->
 
-							<div class="intro_actions">
-								<a href="#" class="btn btn-primary">Give us a call</a>
-							</div><!-- /.intro_actions -->
-						</div><!-- /.intro_entry -->
-					</div><!-- /.shell -->
-				</div><!-- /.intro_content -->
+        {hero_text
+	        title="Website Development"
+	        subtitle="Invest in your future with inventive, user-focused web development."
+	        callBtn=true
+        }
 
-				<div class="intro_image">
-					<img src="{asset path='images/illustrations/Web Dev Illustration.svg'}" alt="Website development illustration">
-					<div class="intro_imageInner">
-						<div class="shell">
-							<img src="{asset path='/images/temp/intro-image-text-5.png'}" alt="" width="192" height="131" class="introImageText introImageText-position1">
-						</div><!-- /.shell -->
-					</div><!-- /.intro_imageInner -->
-				</div><!-- /.intro_image -->
-			</div><!-- /.intro_inner -->
-		</div><!-- /.introServiceTertiary -->
+		<div class="intro_image">
+			<img src="{asset path='images/illustrations/Web Dev Illustration.svg'}" alt="Website development illustration">
+		</div>
 
 		<section class="section section-tertiary section-tertiaryAlt">
 			<div class="shell">

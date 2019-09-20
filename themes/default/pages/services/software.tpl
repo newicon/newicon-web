@@ -4,27 +4,18 @@
 {/block}
 {block "content"}
 	<div class="main">
-		<div class="introServiceTertiary">
-			<div class="intro_inner">
-				<div class="intro_content">
-					<div class="shell">
-						<div class="intro_entry">
-							<h1 class="intro_title">Software Development</h1><!-- /.intro_title -->
 
-							<h4 class="intro_subtitle">If you can dream it, we can built it!</h4><!-- /.intro_subtitle -->
 
-							<div class="intro_actions">
-								<a href="#" class="btn btn-primary">Give us a call</a>
-							</div><!-- /.intro_actions -->
-						</div><!-- /.intro_entry -->
-					</div><!-- /.shell -->
-				</div><!-- /.intro_content -->
+        {hero_text
+        title="Software Development"
+        bgTitle=false
+        subtitle="If you can dream it, we can create it"
+        callBtn=true
+        }
 
-				<div class="intro_image">
-					<img src="{asset path='images/illustrations/Software Dev Illustration.svg'}" alt="Software development illustration" >
-				</div><!-- /.intro_image -->
-			</div><!-- /.intro_inner -->
-		</div><!-- /.intro -->
+		<div class="intro_image">
+	        <img src="{asset path='images/illustrations/Software Dev Illustration.svg'}" alt="Software development illustration" >
+	    </div>
 
 		<section class="section section-secondary">
 			<div class="shell">

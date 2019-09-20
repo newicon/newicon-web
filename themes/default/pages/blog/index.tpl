@@ -5,28 +5,26 @@
 {block "content"}
 	<div class="main">
 		<div class="blog">
+
+            {hero_text
+            title="Blog articles"
+            subtitle="Read our blog articles below or sort by topic"
+            }
+
 			<div class="shell">
 				<div class="blog_head">
 					<div class="blog_inner">
-						<div class="blog_content">
-							<h2 class="blog_title">Blog articles</h2><!-- /.blog_title -->
-
-							<h4 class="blog_subtitle">Read our blog articles below or sort by topic</h4><!-- /.blog_subtitle -->
-						</div><!-- /.blog_content -->
-
-						<div class="blog_aside">
-							<div class="search">
-								<form action="?" method="get">
-									<label for="searchField" class="hidden">Search</label>
-
-									<input type="search" name="searchField" id="searchField" placeholder="Search" class="search_field">
-
-									<button type="submit" class="search_btn">
-										<img src="{asset path='/images/temp/ico-search.svg'}" alt="" width="16" height="16">
-									</button>
-								</form>
-							</div><!-- /.search -->
-						</div><!-- /.blog_aside -->
+						<div class="blog_content"></div>
+{*						<div class="blog_aside">*}
+{*							<div class="search">*}
+{*								<form action="?" method="get"><label for="searchField" class="hidden">Search</label>*}
+{*									<input type="search" name="searchField" id="searchField" placeholder="Search" class="search_field">*}
+{*									<button type="submit" class="search_btn">*}
+{*										<img src="{asset path='/images/temp/ico-search.svg'}" alt="" width="16" height="16">*}
+{*									</button>*}
+{*								</form>*}
+{*							</div><!-- /.search -->*}
+{*						</div><!-- /.blog_aside -->*}
 					</div><!-- /.blog_inner -->
 
 					<div class="blog_filters">
