@@ -6,11 +6,10 @@
 .services .service { -webkit-box-flex: 0; -ms-flex: 0 0 50%; flex: 0 0 50%; max-width: 50%; padding: 0 10px; margin-bottom: 20px; text-decoration:none; }
 .services .service:hover .link i { -webkit-transform: translateX(10px); -ms-transform: translateX(10px); transform: translateX(10px); }
 .service { position: relative; color: $blue; display:block }
-.service .service_inner { position: relative; height: 100%; }
-.service .service_content { position: relative; padding: 98px 58px 189px; border-radius: 6px; background-color: $white; box-shadow: 0 30px 35px -20px rgba(50, 50, 93, 0.15), 0 20px 50px -30px rgba(0, 0, 0, 0.2), 0 -5px 50px -10px rgba(0, 0, 0, 0.015); transition: box-shadow 0.3s;}
-.service:hover .service_content {box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.25), 0 30px 60px -30px rgba(0, 0, 0, 0.3), 0 -18px 60px -10px rgba(0, 0, 0, 0.025); }
+.service .service_inner { position: relative; border-radius: 6px; height: 100%; box-shadow: 0 30px 35px -20px rgba(50, 50, 93, 0.15), 0 20px 50px -30px rgba(0, 0, 0, 0.2), 0 -5px 50px -10px rgba(0, 0, 0, 0.015); transition: box-shadow 0.3s, transform .25s ease; }
+.service .service_content { position: relative; border-radius: 6px; padding: 98px 58px 189px; background-color: $white; }
 .service .service_content > p { margin-bottom: 60px; }
-.service .service_image { position: absolute; bottom: 35px; right: 21px; }
+.service .service_image { position: absolute; bottom: 50px; right: 50px; width:200px }
 .service .service_title { margin-bottom: 25px; color: $blue2; letter-spacing: -1px; font-weight: 600; }
 .service .service_links { display: -webkit-box; display: -ms-flexbox; display: flex; margin: 0 -17px; }
 .service .service_links .list-links { -webkit-box-flex: 0; -ms-flex: 0 0 227px; flex: 0 0 227px; max-width: 227px; padding: 0 17px; }
@@ -18,9 +17,7 @@
 .service .service_actions { display: none; }
 .service .service_actions span { position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: flex-end; align-items: center; padding: 0 49px; }
 .service .service_actions span i { margin-top: 4px; }
-.service .service_inner:hover { z-index: 5; }
-.service .service_inner:hover .service_overlay { -webkit-transform: scale(1); -ms-transform: scale(1); transform: scale(1); opacity: 1; }
-.service .service_inner:hover .service_overlayInner { opacity: 1;  }
+.service:hover .service_inner { z-index: 5; transform:translate3d(0,-5px,0); box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.25), 0 30px 60px -30px rgba(0, 0, 0, 0.3), 0 -18px 60px -10px rgba(0, 0, 0, 0.025);  }
 
 /* Tablet Portrait */
 

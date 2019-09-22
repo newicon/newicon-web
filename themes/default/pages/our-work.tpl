@@ -17,7 +17,7 @@
             {hero_text
             title="Our work"
             subtitle="Client stories to whet your appetite."
-            body="Every client challenge is unique. And so is our approach. Here’s a selection of our most favourate work."
+            body="Every client challenge is unique. And so is our approach. <br/>Here’s a selection of our most favourate work."
             }
 {*			<div class="shell">*}
 {*				<ul class="listFilters listFilters-dark">*}
@@ -34,7 +34,7 @@
 		<section class="sectionReview" style="background-image: url({asset path='images/temp/section-review-background-5.png);'}">
 			<div class="shell">
 				<div class="section_content">
-					<div class="section_entry">
+					<div class="section_entry" data-aos="fade-up">
 						<h6>Bristol &amp; Bath Science Park</h6>
 
 						<h3>A striking online presence for the<br>innovation hub of Bristol</h3>
@@ -46,13 +46,11 @@
 		</section><!-- /.sectionReview -->
 
 		<section class="sectionReview" style="background-image: url({asset path='images/temp/section-review-background-6.png);'}">
-			<div class="shell">
+			<div class="shell" data-aos="fade-up">
 				<div class="section_content">
-					<div class="section_entry">
+					<div class="section_entry" data-aos="fade-up">
 						<h6>Airbus</h6>
-
 						<h3>A maintenance mobile app for a global<br>aviation superpower</h3>
-
 						<a href="#" class="btn btn-primary">Read more</a>
 					</div><!-- /.section_entry -->
 				</div><!-- /.section_content -->
@@ -60,9 +58,9 @@
 		</section><!-- /.sectionReview -->
 
 		<section class="sectionReview" style="background-image: url({asset path='images/temp/section-review-background-7.png);'}">
-			<div class="shell">
+			<div class="shell" data-aos="fade-up">
 				<div class="section_content">
-					<div class="section_entry">
+					<div class="section_entry" data-aos="fade-up">
 						<h6>TEDxBristol</h6>
 
 						<h3>A face-lift for one of Europe’s biggest<br>TEDx Events</h3>
@@ -74,9 +72,9 @@
 		</section><!-- /.sectionReview -->
 
 		<section class="sectionReview" style="background-image: url({asset path='images/temp/section-review-background-8.png);'}">
-			<div class="shell">
+			<div class="shell" >
 				<div class="section_content">
-					<div class="section_entry">
+					<div class="section_entry" data-aos="fade-up">
 						<h6>Lovell Stone Group</h6>
 
 						<h3>Working with the south west’s finest<br>marble product suppliers</h3>
@@ -88,9 +86,9 @@
 		</section><!-- /.sectionReview -->
 
 		<section class="sectionContacts">
-			<div class="shell">
+			<div class="shell" >
 				<div class="section_content">
-					<div class="section_inner">
+					<div class="section_inner" data-aos="fade-up">
 						<header class="section_head">
 							<div class="section_head-inner">
 								<h1 class="section_title">Start your future, today.</h1><!-- /.section_title -->

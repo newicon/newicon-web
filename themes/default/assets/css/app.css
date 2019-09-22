@@ -883,6 +883,7 @@ li {
   margin-top: 0 !important;
 }
 
+/** animation and effects */
 /* ------------------------------------------------------------ *\
 	Regions
 \* ------------------------------------------------------------ */
@@ -3482,12 +3483,10 @@ input:-webkit-autofill {
 
 .intro .intro_content {
   position: absolute;
-  top: 50%;
+  top: 25%;
   left: 0;
   width: 48%;
-  padding: 50px 92px 50px 0;
-  margin-top: -28px;
-  transform: translateY(-50%);
+  padding: 0 92px 50px 0;
 }
 
 .intro .intro_entry {
@@ -3639,9 +3638,9 @@ input:-webkit-autofill {
 
 @media (min-width: 1900px) {
   .intro .intro_content {
-    top: 0;
+    top: 25%;
     width: 59%;
-    padding: 250px 92px;
+    padding: 0 92px;
     transform: none;
   }
 
@@ -3684,7 +3683,7 @@ input:-webkit-autofill {
 
   .intro .intro_content {
     width: 50%;
-    padding: 144px 34px 46px;
+    padding: 0px 34px 46px;
   }
 
   .intro .intro_subtitle {
@@ -3851,6 +3850,11 @@ input:-webkit-autofill {
     padding-top: 0;
   }
 }
+@media (min-width: 1900px) {
+  .intro .intro_entry {
+    max-width: 80%;
+  }
+}
 @media (max-width: 375px) {
   .intro {
     font-size: 14px;
@@ -3983,16 +3987,6 @@ input:-webkit-autofill {
 }
 
 .introServiceTertiary .intro_subtitle {
-  margin-bottom: 52px;
-  font-family: Volkhov, serif;
-  font-style: italic;
-  font-weight: 400;
-  color: #828EAA;
-  font-size: 25px;
-}
-
-.introServiceTertiary .intro_subtitle {
-  margin-bottom: 52px;
   font-family: Volkhov, serif;
   font-style: italic;
   font-weight: 400;
@@ -5717,8 +5711,9 @@ input:-webkit-autofill {
 
 .nav > ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 0 14px 0 5px;
+  margin-left: 0;
 }
 
 .nav > ul > li {
@@ -9439,20 +9434,17 @@ input:-webkit-autofill {
 
 .service .service_inner {
   position: relative;
+  border-radius: 6px;
   height: 100%;
+  box-shadow: 0 30px 35px -20px rgba(50, 50, 93, 0.15), 0 20px 50px -30px rgba(0, 0, 0, 0.2), 0 -5px 50px -10px rgba(0, 0, 0, 0.015);
+  transition: box-shadow 0.3s, transform 0.25s ease;
 }
 
 .service .service_content {
   position: relative;
-  padding: 98px 58px 189px;
   border-radius: 6px;
+  padding: 98px 58px 189px;
   background-color: #fff;
-  box-shadow: 0 30px 35px -20px rgba(50, 50, 93, 0.15), 0 20px 50px -30px rgba(0, 0, 0, 0.2), 0 -5px 50px -10px rgba(0, 0, 0, 0.015);
-  transition: box-shadow 0.3s;
-}
-
-.service:hover .service_content {
-  box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.25), 0 30px 60px -30px rgba(0, 0, 0, 0.3), 0 -18px 60px -10px rgba(0, 0, 0, 0.025);
 }
 
 .service .service_content > p {
@@ -9461,8 +9453,9 @@ input:-webkit-autofill {
 
 .service .service_image {
   position: absolute;
-  bottom: 35px;
-  right: 21px;
+  bottom: 50px;
+  right: 50px;
+  width: 200px;
 }
 
 .service .service_title {
@@ -9507,17 +9500,10 @@ input:-webkit-autofill {
   margin-top: 4px;
 }
 
-.service .service_inner:hover {
+.service:hover .service_inner {
   z-index: 5;
-}
-
-.service .service_inner:hover .service_overlay {
-  transform: scale(1);
-  opacity: 1;
-}
-
-.service .service_inner:hover .service_overlayInner {
-  opacity: 1;
+  transform: translate3d(0, -5px, 0);
+  box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.25), 0 30px 60px -30px rgba(0, 0, 0, 0.3), 0 -18px 60px -10px rgba(0, 0, 0, 0.025);
 }
 
 /* Tablet Portrait */
@@ -9836,7 +9822,7 @@ input:-webkit-autofill {
 .slider-portfolio .slider_slide {
   display: flex;
   padding: 6px 0;
-  margin: 0 -20px;
+  margin: 0 0 0 0;
 }
 
 .slider-portfolio .slider_slideImage {
@@ -9844,7 +9830,7 @@ input:-webkit-autofill {
   flex: 0 0 55%;
   max-width: 55%;
   padding: 0 20px;
-  transform: translateX(-50%);
+  transform: translateX(50%);
   opacity: 0;
   direction: rtl;
 }
@@ -9865,7 +9851,7 @@ input:-webkit-autofill {
   display: inline-block;
   max-width: none;
   width: auto;
-  margin: -10px 26px 0 0;
+  margin: -10px 0 0 0;
   pointer-events: none;
 }
 
@@ -9873,12 +9859,13 @@ input:-webkit-autofill {
   flex: 0 0 45%;
   max-width: 45%;
   padding: 168px 20px;
-  transform: translateX(50%);
+  transform: translateX(-50%);
   opacity: 0;
 }
 
 .slider-portfolio .slider_slideEntry {
   max-width: 410px;
+  margin-left: auto;
 }
 
 .slider-portfolio .slider_slideEntry p {
@@ -9994,7 +9981,7 @@ input:-webkit-autofill {
 @media (max-width: 1023px) {
   .slider-portfolio .slider_slide {
     padding-bottom: 120px;
-    margin: 0 -20px;
+    margin: 0 0 0 0;
   }
 
   .slider-portfolio .slider_slideImage {
@@ -10071,7 +10058,7 @@ input:-webkit-autofill {
 
   .slider-portfolio .slider_slideImage img {
     width: 355px;
-    margin: -7px -20px 0 0;
+    margin: -7px 0 0 0;
   }
 
   .slider-portfolio .slider_slideContent {
@@ -10364,7 +10351,7 @@ input:-webkit-autofill {
 
 .sliderNav .owl-carousel .owl-stage-outer {
   padding: 26px 20px;
-  margin: 0 -20px;
+  margin: 0 0 0 0;
 }
 
 /* Tablet Portrait */

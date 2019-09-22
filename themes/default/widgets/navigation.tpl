@@ -49,7 +49,7 @@
 							<img src="{(in_array('newicon', $white)||$inverse) ? {asset path='/images/logo-white-secondary@2x.png'}:{asset path='/images/newicon.svg'}}" alt="" width="70" height="15">
 						</a>
 					</li>
-					<li class="navServices
+					<li class="navServices has_dropdown
 							{(in_array('services', $white)||$inverse) ? 'text-white' : ''}
 							{(on_url(
 								{page_url nice='architecture'},
@@ -141,7 +141,7 @@
 						<a href="{page_url nice='blog'}">insights</a>
 					</li>
 
-					<li class="{(in_array('about', $white)||$inverse) ? 'text-white' : ''}
+					<li class="{(in_array('about', $white)||$inverse) ? 'text-white' : ''} has_dropdown
 						{(on_url({page_url nice='about'}, {page_url nice='culture'},{page_url nice='history'},{page_url nice='team'},{page_url nice='brand-values'})) ? 'isActive' : ''}">
 						<a href="{page_url nice='about'}">about us</a>
 						<div class="dropdown">
@@ -251,6 +251,7 @@
 						{(on_url({page_url nice='architecture-process'}))?'isActive':''}
 						{(on_url({page_url nice='technologies'}))?'isActive':''}
 						{(on_url({page_url nice='neon'}))?'isActive':''}
+						has_dropdown
 						">
 						<a href="{page_url nice='approach'}">our approach</a>
 
@@ -330,6 +331,7 @@
 					<li class="{(in_array('join', $white)||$inverse) ? 'text-white' : ''}
 						{(on_url({page_url nice='join'}))?'isActive':''}
 						{(on_url({page_url nice='why-join'}))?'isActive':''}
+						has_dropdown
 						">
 						<a href="{page_url nice='join'}">careers</a>
 

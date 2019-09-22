@@ -12,6 +12,11 @@
 <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900%7CVolkhov:400,400i" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="{asset path='/vendor/font-awesome-4.7.0/css/font-awesome.min.css'}">
 <link rel="stylesheet" type="text/css" href="{asset path='/vendor/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css'}">
+
+
+{*<link rel="stylesheet" href="https://unpkg.com/vue-agile/dist/VueAgile.css">*}
+{*<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">*}
+
 <link rel="stylesheet" type="text/css" href="{asset path='/css/app.css'}">
 
 {assign var="fav" value="blue"}
@@ -33,6 +38,7 @@
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="{asset path="/images/fav/$fav/ms-icon-144x144.png"}">
 <meta name="theme-color" content="#ffffff">
+
 
 {* ADD ANY CSS FILES REQUIRED *}
 {* <script type="text/javascript" src="{asset path='js/app.head.min.js'}"></script> *}

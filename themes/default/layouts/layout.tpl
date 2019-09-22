@@ -17,10 +17,6 @@
 				.block {padding: 100px 0;}
 			}
 			.cardDark { background:rgba(0,0,0,0.5); border-radius:8px; padding:50px; }
-			.intro .intro_entry {margin-top: 10%;}
-			@media (min-width: 1900px) {
-				.intro .intro_entry {max-width:80%}
-			}
 
 			/* Styles for menu */
 			</style>

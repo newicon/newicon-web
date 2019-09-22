@@ -1,4 +1,4 @@
-<div class="introServiceTertiary {if (isset($bgTitle))}bgTextTitle{/if}" data-title="{$bgTitle|default:''}">
+<div class="introServiceTertiary {if (isset($bgTitle))}bgTextTitle{/if}" data-title="{$bgTitle|default:''}" >
 	<div class="shell">
 		<div class="intro_inner">
 			<div class="intro_content">

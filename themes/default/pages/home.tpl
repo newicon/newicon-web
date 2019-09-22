@@ -4,7 +4,7 @@
 {/block}
 {block "content"}
 	<div class="main">
-		<div class="intro block ptn">
+		<div class="intro ptn">
 			<div class="intro_inner">
 				<div class="intro_content">
 					<div class="intro_entry">
@@ -21,7 +21,46 @@
 				<div class="intro_image">
 					<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 709 797" style="enable-background:new 0 0 709 797;" xml:space="preserve">
 					<style type="text/css">
-						{literal}  .st0{fill-rule:evenodd;clip-rule:evenodd;fill:#00163D;}  .st1{opacity:0.3;}  .st2{filter:url(#filter-4);}  .st3{fill:#FFFFFF;}  .st4{filter:url(#filter-6);}  .st5{fill:#7EF2FE;}  .st6{filter:url(#filter-10);}  .st7{filter:url(#filter-12);}  .st8{filter:url(#filter-24);}  .st9{filter:url(#filter-28);}  .st10{fill:#72FFBF;}  .st11{filter:url(#filter-30);}  .st12{filter:url(#filter-32);}  .st13{filter:url(#filter-34);}  .st14{filter:url(#filter-38);}  .st15{filter:url(#filter-54);}  .st16{filter:url(#filter-58);}  .st17{filter:url(#filter-60);}  .st18{opacity:0.4;}  .st19{filter:url(#filter-64);}  .st20{filter:url(#filter-66);}  .st21{filter:url(#filter-68);}  .st22{filter:url(#filter-70);}  .st23{filter:url(#filter-72);}  .st24{filter:url(#filter-74);}  .st25{filter:url(#filter-76);}  .st26{filter:url(#filter-78);}  .st27{filter:url(#filter-80);}  .st28{filter:url(#filter-82);}  .st29{filter:url(#filter-84);}  .st30{filter:url(#filter-86);}  .st31{filter:url(#filter-88);}  .st32{filter:url(#filter-90);}  .st33{filter:url(#filter-92);}  .st34{filter:url(#filter-94);}  .st35{filter:url(#filter-96);}  .st36{filter:url(#filter-98);}  .st37{filter:url(#filter-100);}  .st38{filter:url(#filter-104);}  .st39{filter:url(#filter-108);}  .st40{filter:url(#filter-110);}  .st41{filter:url(#filter-112);}  .st42{filter:url(#filter-114);}  .st43{filter:url(#filter-116);}  .st44{filter:url(#filter-118);}  .st45{filter:url(#filter-120);}  .st46{filter:url(#filter-142);}  .st47{filter:url(#filter-146);}  .st48{filter:url(#filter-148);}  .st49{filter:url(#filter-174);}  .st50{filter:url(#filter-178);}  .st51{opacity:0.67;}  .st52{filter:url(#filter-184);}  .st53{filter:url(#filter-186);}  .st54{filter:url(#filter-188);}  .st55{filter:url(#filter-190);}  .st56{filter:url(#filter-192);}  .st57{filter:url(#filter-194);}  .st58{filter:url(#filter-200);}  .st59{filter:url(#filter-204);}  .st60{filter:url(#filter-210);}  .st61{filter:url(#filter-212);}  .st62{filter:url(#filter-214);}  .st63{filter:url(#filter-216);}  .st64{filter:url(#filter-218);}  .st65{filter:url(#filter-220);}  .st66{filter:url(#filter-222);}  .st67{filter:url(#filter-226);}  .st68{filter:url(#filter-228);}  .st69{filter:url(#filter-230);}  .st70{filter:url(#filter-232);}  .st71{filter:url(#filter-234);}  .st72{filter:url(#filter-236);}  .st73{filter:url(#filter-238);}  .st74{filter:url(#filter-242);}  .st75{filter:url(#filter-244);}  .st76{filter:url(#filter-246);}  .st77{filter:url(#filter-248);}  .st78{filter:url(#filter-250);}  .st79{filter:url(#filter-254);}  .st80{filter:url(#filter-256);}  .st81{filter:url(#filter-258);}  .st82{filter:url(#filter-262);}  .st83{filter:url(#filter-264);}  .st84{filter:url(#filter-266);}  .st85{filter:url(#filter-268);}  .st86{filter:url(#filter-272);}  .st87{filter:url(#filter-274);}  .st88{filter:url(#filter-276);}  .st89{filter:url(#filter-278);}  .st90{filter:url(#filter-280);}  .st91{filter:url(#filter-282);}  .st92{filter:url(#filter-284);}  .st93{filter:url(#filter-288);}  .st94{fill-rule:evenodd;clip-rule:evenodd;fill:#EDF2F7;}  .st95{fill:#082362;}  .st96{fill:#0096FF;}  .st97{fill:#00163D;}  .st98{fill:#11358B;}  .st99{fill:#0C245B;}  .st100{fill:#0082DE;}  .st101{fill:#9ABBDC;}  .st102{fill:#7898B9;}  .st103{fill:#FFFFFF;fill-opacity:0.1153;stroke:#0096FF;stroke-width:0.9;}  .st104{fill:#EDF2F7;}  .st105{fill:#002465;}  .st106{fill:#0D3B8F;}  .st107{fill:#072E77;}  .st108{fill:#BBE2FF;}  .st109{fill:#7FBBE8;}  .st110{fill:#0475C5;}  .st111{opacity:0.3;fill:#91C0CB;enable-background:new    ;}  .st112{fill:#1D4EA8;}  .st113{filter:url(#Adobe_OpacityMaskFilter);}  .st114{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}  .st115{mask:url(#mask-294_1_);fill:#0D3B8F;}  .st116{filter:url(#Adobe_OpacityMaskFilter_1_);}  .st117{mask:url(#mask-294_2_);fill:#05296E;}  .st118{filter:url(#Adobe_OpacityMaskFilter_2_);}  .st119{mask:url(#mask-294_4_);fill:#0096FF;}  .st120{fill:#000E48;}  .st121{fill-rule:evenodd;clip-rule:evenodd;fill:#05296E;}  .st122{fill-rule:evenodd;clip-rule:evenodd;fill:#021E53;}  .st123{fill:#082C6F;}  .st124{fill:#08327E;}  .st125{fill:#134092;}  .st126{fill:#2B5CB6;}  .st127{fill:#05296E;}  .st128{fill:#02215D;}  .st129{filter:url(#Adobe_OpacityMaskFilter_3_);}  .st130{mask:url(#mask-296_1_);fill:#0096FF;}  .st131{fill-rule:evenodd;clip-rule:evenodd;fill:#002465;}  .st132{fill:#134AAD;}  .st133{fill:#021A45;}  .st134{fill-rule:evenodd;clip-rule:evenodd;fill:#81CBFF;}  .st135{fill-rule:evenodd;clip-rule:evenodd;fill:#0096FF;}  .st136{filter:url(#Adobe_OpacityMaskFilter_4_);}  .st137{mask:url(#mask-292_1_);fill:#134092;}  .st138{opacity:0.5;fill-rule:evenodd;clip-rule:evenodd;fill:#ACC9FF;enable-background:new    ;}  {/literal}
+						{literal}
+						.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#00163D;}  .st1{opacity:0.3;}  .st2{filter:url(#filter-4);}  .st3{fill:#FFFFFF;}  .st4{filter:url(#filter-6);}  .st5{fill:#7EF2FE;}  .st6{filter:url(#filter-10);}  .st7{filter:url(#filter-12);}  .st8{filter:url(#filter-24);}  .st9{filter:url(#filter-28);}  .st10{fill:#72FFBF;}  .st11{filter:url(#filter-30);}  .st12{filter:url(#filter-32);}  .st13{filter:url(#filter-34);}  .st14{filter:url(#filter-38);}  .st15{filter:url(#filter-54);}  .st16{filter:url(#filter-58);}  .st17{filter:url(#filter-60);}  .st18{opacity:0.4;}  .st19{filter:url(#filter-64);}  .st20{filter:url(#filter-66);}  .st21{filter:url(#filter-68);}  .st22{filter:url(#filter-70);}  .st23{filter:url(#filter-72);}  .st24{filter:url(#filter-74);}  .st25{filter:url(#filter-76);}  .st26{filter:url(#filter-78);}  .st27{filter:url(#filter-80);}  .st28{filter:url(#filter-82);}  .st29{filter:url(#filter-84);}  .st30{filter:url(#filter-86);}  .st31{filter:url(#filter-88);}  .st32{filter:url(#filter-90);}  .st33{filter:url(#filter-92);}  .st34{filter:url(#filter-94);}  .st35{filter:url(#filter-96);}  .st36{filter:url(#filter-98);}  .st37{filter:url(#filter-100);}  .st38{filter:url(#filter-104);}  .st39{filter:url(#filter-108);}  .st40{filter:url(#filter-110);}  .st41{filter:url(#filter-112);}  .st42{filter:url(#filter-114);}  .st43{filter:url(#filter-116);}  .st44{filter:url(#filter-118);}  .st45{filter:url(#filter-120);}  .st46{filter:url(#filter-142);}  .st47{filter:url(#filter-146);}  .st48{filter:url(#filter-148);}  .st49{filter:url(#filter-174);}  .st50{filter:url(#filter-178);}  .st51{opacity:0.67;}  .st52{filter:url(#filter-184);}  .st53{filter:url(#filter-186);}  .st54{filter:url(#filter-188);}  .st55{filter:url(#filter-190);}  .st56{filter:url(#filter-192);}  .st57{filter:url(#filter-194);}  .st58{filter:url(#filter-200);}  .st59{filter:url(#filter-204);}  .st60{filter:url(#filter-210);}  .st61{filter:url(#filter-212);}  .st62{filter:url(#filter-214);}  .st63{filter:url(#filter-216);}  .st64{filter:url(#filter-218);}  .st65{filter:url(#filter-220);}  .st66{filter:url(#filter-222);}  .st67{filter:url(#filter-226);}  .st68{filter:url(#filter-228);}  .st69{filter:url(#filter-230);}  .st70{filter:url(#filter-232);}  .st71{filter:url(#filter-234);}  .st72{filter:url(#filter-236);}  .st73{filter:url(#filter-238);}  .st74{filter:url(#filter-242);}  .st75{filter:url(#filter-244);}  .st76{filter:url(#filter-246);}  .st77{filter:url(#filter-248);}  .st78{filter:url(#filter-250);}  .st79{filter:url(#filter-254);}  .st80{filter:url(#filter-256);}  .st81{filter:url(#filter-258);}  .st82{filter:url(#filter-262);}  .st83{filter:url(#filter-264);}  .st84{filter:url(#filter-266);}  .st85{filter:url(#filter-268);}  .st86{filter:url(#filter-272);}  .st87{filter:url(#filter-274);}  .st88{filter:url(#filter-276);}   .st90{filter:url(#filter-280);}  .st91{filter:url(#filter-282);}  .st92{filter:url(#filter-284);}  .st93{filter:url(#filter-288);}  .st94{fill-rule:evenodd;clip-rule:evenodd;fill:#EDF2F7;}  .st95{fill:#082362;}  .st96{fill:#0096FF;}  .st97{fill:#00163D;}  .st98{fill:#11358B;}  .st99{fill:#0C245B;}  .st100{fill:#0082DE;}  .st101{fill:#9ABBDC;}  .st102{fill:#7898B9;}  .st103{fill:#FFFFFF;fill-opacity:0.1153;stroke:#0096FF;stroke-width:0.9;}  .st104{fill:#EDF2F7;}  .st105{fill:#002465;}  .st106{fill:#0D3B8F;}  .st107{fill:#072E77;}  .st108{fill:#BBE2FF;}  .st109{fill:#7FBBE8;}  .st110{fill:#0475C5;}  .st111{opacity:0.3;fill:#91C0CB;enable-background:new    ;}  .st112{fill:#1D4EA8;}  .st113{filter:url(#Adobe_OpacityMaskFilter);}  .st114{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}  .st115{mask:url(#mask-294_1_);fill:#0D3B8F;}  .st116{filter:url(#Adobe_OpacityMaskFilter_1_);}  .st117{mask:url(#mask-294_2_);fill:#05296E;}  .st118{filter:url(#Adobe_OpacityMaskFilter_2_);}  .st119{mask:url(#mask-294_4_);fill:#0096FF;}  .st120{fill:#000E48;}  .st121{fill-rule:evenodd;clip-rule:evenodd;fill:#05296E;}  .st122{fill-rule:evenodd;clip-rule:evenodd;fill:#021E53;}  .st123{fill:#082C6F;}  .st124{fill:#08327E;}  .st125{fill:#134092;}  .st126{fill:#2B5CB6;}  .st127{fill:#05296E;}  .st128{fill:#02215D;}  .st129{filter:url(#Adobe_OpacityMaskFilter_3_);}  .st130{mask:url(#mask-296_1_);fill:#0096FF;}  .st131{fill-rule:evenodd;clip-rule:evenodd;fill:#002465;}  .st132{fill:#134AAD;}  .st133{fill:#021A45;}  .st134{fill-rule:evenodd;clip-rule:evenodd;fill:#81CBFF;}  .st135{fill-rule:evenodd;clip-rule:evenodd;fill:#0096FF;}  .st136{filter:url(#Adobe_OpacityMaskFilter_4_);}  .st137{mask:url(#mask-292_1_);fill:#134092;}  .st138{opacity:0.5;fill-rule:evenodd;clip-rule:evenodd;fill:#ACC9FF;enable-background:new    ;}
+
+						@keyframes float4 {
+							0% {
+								transform: translate(0px, 0px);
+							}
+							50% {
+								transform: translate(1%, -2%);
+							}
+							100% {
+								transform: translate(0px, 0px);
+							}
+						}
+
+						@keyframes floatSmall {
+							0% {
+								transform: translateY(0px);
+							}
+							50% {
+								transform: translateY(-1.5%);
+							}
+							100% {
+								transform: translateY(0px);
+							}
+						}
+						@keyframes floatTiny {
+							0% {
+								transform: translate(0px, 0px);
+							}
+							50% {
+								transform: translate(2px, 3px);
+							}
+							100% {
+								transform: translate(0px, 0px);
+							}
+						}
+
+						{/literal}
+
 					</style>
 					<filter filterUnits="objectBoundingBox" height="860.5%" id="filter-98" width="863.6%" x="-381.8%" y="-380.3%">
 						<feMorphology in="SourceAlpha" operator="dilate" radius="0.5" result="shadowSpreadOuter1"></feMorphology>
@@ -551,837 +590,774 @@
 						c-66.5-6.6-129.7-39.1-170.6-89c-40.9-49.9-35.8-118-35.9-169.6c-0.1-51.6-14.4-81.6-45.5-91.9
 						C308.2,398.8,279.3,399.8,242.3,408.6z"></path>
 					</g>
-{*					<g id="Stars_1_">*}
-{*						<g id="Stars" transform="translate(419.920193, 640.400289)" class="st1">*}
-{*							<g id="Group-53" transform="translate(0.000000, 10.053796)">*}
-{*								<g id="Oval" style="animation: flashing linear 2.5s .2s infinite;">*}
-{*									<g class="st2">*}
-
-{*										<ellipse id="path-3_1_" transform="matrix(0.9903 -0.1392 0.1392 0.9903 12.9334 0.5829)" cx="10.6" cy="-92.2" rx="1.8" ry="1.8"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-
-{*										<ellipse transform="matrix(0.9903 -0.1392 0.1392 0.9903 12.9334 0.5829)" class="st3" cx="10.6" cy="-92.2" rx="1.8" ry="1.8"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*								<g style="animation: flashing linear 3s 1.1s infinite;">*}
-{*									<g class="st4">*}
-
-{*										<ellipse id="path-5_1_" transform="matrix(0.9903 -0.1392 0.1392 0.9903 3.2803 -1.2213)" cx="-7.1" cy="-24.1" rx="1.8" ry="1.8"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-
-{*										<ellipse transform="matrix(0.9903 -0.1392 0.1392 0.9903 3.2803 -1.2213)" class="st5" cx="-7.1" cy="-24.1" rx="1.8" ry="1.8"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st6">*}
-{*										<ellipse id="path-9_1_" cx="24.8" cy="-49.5" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-{*										<ellipse class="st3" cx="24.8" cy="-49.5" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st7">*}
-{*										<ellipse id="path-11_1_" cx="-24.1" cy="-60.9" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-{*										<ellipse class="st3" cx="-24.1" cy="-60.9" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*							</g>*}
-
-{*							<g transform="translate(222.748131, 35.128521) scale(1, -1) translate(-222.748131, -35.128521) translate(189.248131, 0.628521)">*}
-{*								<g>*}
-{*									<g class="st8">*}
-
-
-{*									</g>*}
-{*									<g>*}
-
-
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st9">*}
-
-{*									</g>*}
-{*									<g>*}
-
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st11">*}
-
-{*									</g>*}
-{*									<g>*}
-
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st12">*}
-
-{*									</g>*}
-{*									<g>*}
-
-{*									</g>*}
-{*								</g>*}
-{*							</g>*}
-{*							<g transform="translate(27.035447, 109.345005)">*}
-{*								<g style="animation: flashing linear 2s infinite;">*}
-{*									<g class="st13">*}
-
-{*										<ellipse id="path-33_1_" transform="matrix(0.9903 -0.1392 0.1392 0.9903 13.7235 2.4235)" cx="24.2" cy="-96.9" rx="1.8" ry="1.8"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-
-{*										<ellipse transform="matrix(0.9903 -0.1392 0.1392 0.9903 13.7235 2.4235)" class="st3" cx="24.2" cy="-96.9" rx="1.8" ry="1.8"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st14">*}
-{*										<ellipse id="path-37_1_" cx="49.9" cy="-101.4" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-{*										<ellipse class="st10" cx="49.9" cy="-101.4" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*							</g>*}
-
-{*							<g transform="translate(249.783578, 134.419730) scale(1, -1) translate(-249.783578, -134.419730) translate(216.283578, 99.919730)">*}
-{*								<g>*}
-{*									<g class="st15">*}
-
-
-{*									</g>*}
-{*									<g>*}
-
-
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st16">*}
-
-{*									</g>*}
-{*									<g>*}
-
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st17">*}
-
-{*									</g>*}
-{*									<g>*}
-
-{*									</g>*}
-{*								</g>*}
-{*							</g>*}
-{*						</g>*}
-{*						<g transform="translate(325.241616, 172.903009)" class="st18">*}
-{*							<g transform="translate(0.164513, 11.167483)">*}
-{*								<g style="animation: flashing linear 2.5s .8s infinite;">*}
-{*									<g class="st19">*}
-
-{*										<ellipse id="path-63_1_" transform="matrix(0.9903 -0.1392 0.1392 0.9903 9.9289 -7.6593)" cx="-49.8" cy="-74.8" rx="2" ry="2"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-{*										<ellipse transform="matrix(0.9903 -0.1392 0.1392 0.9903 9.9289 -7.6593)" class="st3" cx="-49.8" cy="-74.8" rx="2" ry="2"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*								<g style="animation: flashing linear 3.5s 1s infinite;">*}
-{*									<g class="st20">*}
-
-{*										<ellipse id="path-65_1_" transform="matrix(0.9903 -0.1392 0.1392 0.9903 -0.6155 -9.6205)" cx="-69.1" cy="-0.4" rx="2" ry="2"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-{*										<ellipse transform="matrix(0.9903 -0.1392 0.1392 0.9903 -0.6155 -9.6205)" class="st5" cx="-69.1" cy="-0.4" rx="2" ry="2"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st21">*}
-{*										<ellipse id="path-67_1_" cx="-21.7" cy="-79.8" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-{*										<ellipse class="st10" cx="-21.7" cy="-79.8" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st22">*}
-{*										<ellipse id="path-69_1_" cx="-34.3" cy="-28.2" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-{*										<ellipse class="st3" cx="-34.3" cy="-28.2" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st23">*}
-{*										<ellipse id="path-71_1_" cx="-87.6" cy="-40.6" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-{*										<ellipse class="st3" cx="-87.6" cy="-40.6" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*							</g>*}
-
-{*							<g transform="translate(133.742588, 57.904261) scale(-1, 1) translate(-133.742588, -57.904261) translate(97.242588, 20.404261)">*}
-{*								<g>*}
-{*									<g class="st24">*}
-
-
-{*									</g>*}
-{*									<g>*}
-
-
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st25">*}
-
-
-{*									</g>*}
-{*									<g>*}
-
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st26">*}
-
-{*									</g>*}
-{*									<g>*}
-
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st27">*}
-
-{*									</g>*}
-{*									<g>*}
-
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st28">*}
-
-{*									</g>*}
-{*									<g>*}
-
-{*									</g>*}
-{*								</g>*}
-{*							</g>*}
-
-{*							<g transform="translate(241.819548, 37.993840) scale(1, -1) translate(-241.819548, -37.993840) translate(205.319548, 0.493840)">*}
-{*								<g>*}
-{*									<g class="st29">*}
-
-
-{*									</g>*}
-{*									<g>*}
-
-
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st30">*}
-
-
-{*									</g>*}
-{*									<g>*}
-
-
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st31">*}
-
-{*									</g>*}
-{*									<g>*}
-
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st32">*}
-
-{*									</g>*}
-{*									<g>*}
-
-{*									</g>*}
-{*								</g>*}
-{*							</g>*}
-{*							<g transform="translate(29.488989, 118.960670)">*}
-{*								<g style="animation: flashing linear 2s infinite;">*}
-{*									<g class="st33">*}
-
-{*										<ellipse id="path-91_1_" transform="matrix(0.9903 -0.1392 0.1392 0.9903 10.7861 -5.6611)" cx="-35.1" cy="-80" rx="2" ry="2"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-{*										<ellipse transform="matrix(0.9903 -0.1392 0.1392 0.9903 10.7861 -5.6611)" class="st3" cx="-35.1" cy="-80" rx="2" ry="2"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*								<g style="animation: flashing linear 2s 1.2s infinite;">*}
-{*									<g class="st34">*}
-
-{*										<ellipse id="path-93_1_" transform="matrix(0.9903 -0.1392 0.1392 0.9903 0.2417 -7.6223)" cx="-54.4" cy="-5.5" rx="2" ry="2"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-{*										<ellipse transform="matrix(0.9903 -0.1392 0.1392 0.9903 0.2417 -7.6223)" class="st5" cx="-54.4" cy="-5.5" rx="2" ry="2"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st35">*}
-{*										<ellipse id="path-95_1_" cx="-7" cy="-84.9" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-{*										<ellipse class="st10" cx="-7" cy="-84.9" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st36">*}
-{*										<ellipse id="path-97_1_" cx="-19.6" cy="-33.3" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-{*										<ellipse class="st3" cx="-19.6" cy="-33.3" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st37">*}
-{*										<ellipse id="path-99_1_" cx="-72.9" cy="-45.8" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-{*										<ellipse class="st3" cx="-72.9" cy="-45.8" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*							</g>*}
-
-{*							<g transform="translate(163.013331, 166.726187) scale(-1, 1) translate(-163.013331, -166.726187) translate(126.513331, 129.226187)">*}
-{*								<g>*}
-{*									<g class="st38">*}
-
-
-{*									</g>*}
-{*									<g>*}
-
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st39">*}
-
-{*									</g>*}
-{*									<g>*}
-
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st40">*}
-
-{*									</g>*}
-{*									<g>*}
-
-{*									</g>*}
-{*								</g>*}
-{*							</g>*}
-
-{*							<g transform="translate(271.090292, 146.815766) scale(1, -1) translate(-271.090292, -146.815766) translate(234.590292, 109.315766)">*}
-{*								<g>*}
-{*									<g class="st41">*}
-
-
-{*									</g>*}
-{*									<g>*}
-
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st42">*}
-
-
-{*									</g>*}
-{*									<g>*}
-
-
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st43">*}
-
-{*									</g>*}
-{*									<g>*}
-
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st44">*}
-
-{*									</g>*}
-{*									<g>*}
-
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st45">*}
-
-{*									</g>*}
-{*									<g>*}
-
-{*									</g>*}
-{*								</g>*}
-{*							</g>*}
-{*						</g>*}
-{*						<g transform="translate(101.481169, 337.333319)" class="st1">*}
-
-{*							<g transform="translate(222.748131, 35.128521) scale(1, -1) translate(-222.748131, -35.128521) translate(189.248131, 0.628521)">*}
-{*								<g>*}
-{*									<g class="st46">*}
-
-
-{*									</g>*}
-{*									<g>*}
-
-
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st47">*}
-
-{*									</g>*}
-{*									<g>*}
-
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st48">*}
-
-{*									</g>*}
-{*									<g>*}
-
-{*									</g>*}
-{*								</g>*}
-{*							</g>*}
-
-{*							<g transform="translate(249.783578, 134.419730) scale(1, -1) translate(-249.783578, -134.419730) translate(216.283578, 99.919730)">*}
-{*								<g>*}
-{*									<g class="st49">*}
-
-
-{*									</g>*}
-{*									<g>*}
-
-
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st50">*}
-
-{*									</g>*}
-{*									<g>*}
-
-{*									</g>*}
-{*								</g>*}
-{*							</g>*}
-{*						</g>*}
-{*						<g transform="translate(415.457449, 414.170132)" class="st51">*}
-{*							<g transform="translate(0.000000, 10.053796)">*}
-{*								<g style="animation: flashing linear 1.8s infinite;">*}
-{*									<g class="st52">*}
-
-{*										<ellipse id="path-183_1_" transform="matrix(0.9903 -0.1392 0.1392 0.9903 2.5815 -5.5697)" cx="-38.5" cy="-21.2" rx="1.8" ry="1.8"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-
-{*										<ellipse transform="matrix(0.9903 -0.1392 0.1392 0.9903 2.5815 -5.5697)" class="st5" cx="-38.5" cy="-21.2" rx="1.8" ry="1.8"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st53">*}
-{*										<ellipse id="path-185_1_" cx="4.9" cy="-93.9" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-{*										<ellipse class="st10" cx="4.9" cy="-93.9" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st54">*}
-{*										<ellipse id="path-187_1_" cx="-6.6" cy="-46.7" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-{*										<ellipse class="st3" cx="-6.6" cy="-46.7" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st55">*}
-{*										<ellipse id="path-189_1_" cx="-55.5" cy="-58" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-{*										<ellipse class="st3" cx="-55.5" cy="-58" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*							</g>*}
-
-{*							<g transform="translate(123.305594, 53.580270) scale(-1, 1) translate(-123.305594, -53.580270) translate(89.805594, 19.080270)">*}
-{*								<g>*}
-{*									<g class="st56">*}
-
-
-{*									</g>*}
-{*									<g>*}
-
-
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st57">*}
-
-
-{*									</g>*}
-{*									<g>*}
-
-
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st58">*}
-
-{*									</g>*}
-{*									<g>*}
-
-{*									</g>*}
-{*								</g>*}
-{*							</g>*}
-
-{*							<g transform="translate(222.748131, 35.128521) scale(1, -1) translate(-222.748131, -35.128521) translate(189.248131, 0.628521)">*}
-{*								<g>*}
-{*									<g class="st59">*}
-
-
-{*									</g>*}
-{*									<g>*}
-
-
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st60">*}
-
-{*									</g>*}
-{*									<g>*}
-
-{*									</g>*}
-{*								</g>*}
-{*							</g>*}
-{*							<g transform="translate(27.035447, 109.345005)">*}
-{*								<g style="animation: flashing linear 2.2s 1.4s infinite;">*}
-{*									<g class="st61">*}
-
-{*										<ellipse id="path-211_1_" transform="matrix(0.9903 -0.1392 0.1392 0.9903 3.3715 -3.7291)" cx="-25" cy="-26" rx="1.8" ry="1.8"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-{*										<ellipse transform="matrix(0.9903 -0.1392 0.1392 0.9903 3.3715 -3.7291)" class="st5" cx="-25" cy="-26" rx="1.8" ry="1.8"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st62">*}
-{*										<ellipse id="path-213_1_" cx="18.5" cy="-98.6" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-{*										<ellipse class="st10" cx="18.5" cy="-98.6" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st63">*}
-{*										<ellipse id="path-215_1_" cx="6.9" cy="-51.4" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-{*										<ellipse class="st3" cx="6.9" cy="-51.4" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st64">*}
-{*										<ellipse id="path-217_1_" cx="-42" cy="-62.8" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-{*										<ellipse class="st3" cx="-42" cy="-62.8" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*							</g>*}
-
-{*							<g transform="translate(150.341041, 152.871479) scale(-1, 1) translate(-150.341041, -152.871479) translate(116.841041, 118.371479)">*}
-{*								<g>*}
-{*									<g class="st65">*}
-
-
-{*									</g>*}
-{*									<g>*}
-
-
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st66">*}
-
-
-{*									</g>*}
-{*									<g>*}
-
-
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st67">*}
-
-{*									</g>*}
-{*									<g>*}
-
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st68">*}
-
-{*									</g>*}
-{*									<g>*}
-
-{*									</g>*}
-{*								</g>*}
-{*							</g>*}
-
-{*							<g transform="translate(249.783578, 134.419730) scale(1, -1) translate(-249.783578, -134.419730) translate(216.283578, 99.919730)">*}
-{*								<g>*}
-{*									<g class="st69">*}
-
-
-{*									</g>*}
-{*									<g>*}
-
-
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st70">*}
-
-
-{*									</g>*}
-{*									<g>*}
-
-
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st71">*}
-
-{*									</g>*}
-{*									<g>*}
-
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st72">*}
-
-{*									</g>*}
-{*									<g>*}
-
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st73">*}
-
-{*									</g>*}
-{*									<g>*}
-
-{*									</g>*}
-{*								</g>*}
-{*							</g>*}
-{*						</g>*}
-{*						<g transform="translate(673.817232, 525.486001)" class="st51">*}
-{*							<g transform="translate(0.000000, 10.053796)">*}
-{*								<g style="animation: flashing linear 2.2s .7s infinite;">*}
-{*									<g class="st74">*}
-
-{*										<ellipse id="path-241_1_" transform="matrix(0.9903 -0.1392 0.1392 0.9903 17.5159 -2.3197)" cx="-7.8" cy="-126.4" rx="1.8" ry="1.8"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-
-{*										<ellipse transform="matrix(0.9903 -0.1392 0.1392 0.9903 17.5159 -2.3197)" class="st3" cx="-7.8" cy="-126.4" rx="1.8" ry="1.8"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*								<g style="animation: flashing linear 2s infinite;">*}
-{*									<g class="st75">*}
-
-{*										<ellipse id="path-243_1_" transform="matrix(0.9903 -0.1392 0.1392 0.9903 7.8628 -4.124)" cx="-25.6" cy="-58.3" rx="1.8" ry="1.8"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-
-{*										<ellipse transform="matrix(0.9903 -0.1392 0.1392 0.9903 7.8628 -4.124)" class="st5" cx="-25.6" cy="-58.3" rx="1.8" ry="1.8"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st76">*}
-{*										<ellipse id="path-245_1_" cx="17.9" cy="-130.9" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-{*										<ellipse class="st10" cx="17.9" cy="-130.9" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st77">*}
-{*										<ellipse id="path-247_1_" cx="6.4" cy="-83.7" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-{*										<ellipse class="st3" cx="6.4" cy="-83.7" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st78">*}
-{*										<ellipse id="path-249_1_" cx="-42.6" cy="-95.1" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-{*										<ellipse class="st3" cx="-42.6" cy="-95.1" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*							</g>*}
-{*							<g transform="translate(27.035447, 109.345005)">*}
-{*								<g style="animation: flashing linear 2.5s infinite;">*}
-{*									<g class="st79">*}
-
-{*										<ellipse id="path-253_1_" transform="matrix(0.9903 -0.1392 0.1392 0.9903 8.6528 -2.2834)" cx="-12" cy="-63" rx="1.8" ry="1.8"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-{*										<ellipse transform="matrix(0.9903 -0.1392 0.1392 0.9903 8.6528 -2.2834)" class="st5" cx="-12" cy="-63" rx="1.8" ry="1.8"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st80">*}
-{*										<ellipse id="path-255_1_" cx="-29" cy="-99.8" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-{*										<ellipse class="st3" cx="-29" cy="-99.8" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*							</g>*}
-{*						</g>*}
-{*						<g transform="translate(645.566022, 197.599025)" class="st18">*}
-{*							<g transform="translate(0.000000, 10.053796)">*}
-{*								<g style="animation: flashing linear 2.2s .2s infinite;">*}
-{*									<g class="st81">*}
-
-{*										<ellipse id="path-257_1_" transform="matrix(0.9903 -0.1392 0.1392 0.9903 16.0831 -8.563)" cx="-53.2" cy="-119.3" rx="1.8" ry="1.8"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-
-{*										<ellipse transform="matrix(0.9903 -0.1392 0.1392 0.9903 16.0831 -8.563)" class="st3" cx="-53.2" cy="-119.3" rx="1.8" ry="1.8"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st82">*}
-{*										<ellipse id="path-261_1_" cx="-27.4" cy="-123.8" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-{*										<ellipse class="st10" cx="-27.4" cy="-123.8" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st83">*}
-{*										<ellipse id="path-263_1_" cx="-39" cy="-76.6" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-{*										<ellipse class="st3" cx="-39" cy="-76.6" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st84">*}
-{*										<ellipse id="path-265_1_" cx="-87.9" cy="-88" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-{*										<ellipse class="st3" cx="-87.9" cy="-88" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*							</g>*}
-
-{*							<g transform="translate(123.305594, 53.580270) scale(-1, 1) translate(-123.305594, -53.580270) translate(89.805594, 19.080270)">*}
-{*								<g>*}
-{*									<g class="st85">*}
-
-
-{*									</g>*}
-{*									<g>*}
-
-
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st86">*}
-
-{*									</g>*}
-{*									<g>*}
-
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st87">*}
-
-{*									</g>*}
-{*									<g>*}
-
-{*									</g>*}
-{*								</g>*}
-{*							</g>*}
-{*							<g transform="translate(27.035447, 109.345005)">*}
-{*								<g style="animation: flashing linear 2s infinite;">*}
-{*									<g class="st88">*}
-
-{*										<ellipse id="path-275_1_" transform="matrix(0.9903 -0.1392 0.1392 0.9903 16.8732 -6.7225)" cx="-39.6" cy="-124" rx="1.8" ry="1.8"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-
-{*										<ellipse transform="matrix(0.9903 -0.1392 0.1392 0.9903 16.8732 -6.7225)" class="st3" cx="-39.6" cy="-124" rx="1.8" ry="1.8"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st89">*}
-
-{*										<ellipse id="path-277_1_" transform="matrix(0.9903 -0.1392 0.1392 0.9903 7.2201 -8.5267)" cx="-57.4" cy="-55.9" rx="1.8" ry="1.8"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-
-{*										<ellipse transform="matrix(0.9903 -0.1392 0.1392 0.9903 7.2201 -8.5267)" class="st5" cx="-57.4" cy="-55.9" rx="1.8" ry="1.8"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st90">*}
-{*										<ellipse id="path-279_1_" cx="-13.9" cy="-128.5" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-{*										<ellipse class="st10" cx="-13.9" cy="-128.5" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st91">*}
-{*										<ellipse id="path-281_1_" cx="-25.4" cy="-81.3" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-{*										<ellipse class="st3" cx="-25.4" cy="-81.3" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*								<g>*}
-{*									<g class="st92">*}
-{*										<ellipse id="path-283_1_" cx="-74.4" cy="-92.7" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*									<g>*}
-{*										<ellipse class="st3" cx="-74.4" cy="-92.7" rx="1" ry="1"></ellipse>*}
-{*									</g>*}
-{*								</g>*}
-{*							</g>*}
-
-{*							<g transform="translate(150.341041, 152.871479) scale(-1, 1) translate(-150.341041, -152.871479) translate(116.841041, 118.371479)">*}
-{*								<g>*}
-{*									<g class="st93">*}
-
-{*									</g>*}
-{*									<g>*}
-
-{*									</g>*}
-{*								</g>*}
-{*							</g>*}
-{*						</g>*}
-{*					</g>*}
+					<g id="Stars_1_">
+						<g id="Stars" transform="translate(419.920193, 640.400289)" class="st1">
+							<g id="Group-53" transform="translate(0.000000, 10.053796)">
+								<g id="Oval" style="animation: flashing linear 2.5s .2s infinite;">
+									<g class="st2">
+
+										<ellipse id="path-3_1_" transform="matrix(0.9903 -0.1392 0.1392 0.9903 12.9334 0.5829)" cx="10.6" cy="-92.2" rx="1.8" ry="1.8"></ellipse>
+									</g>
+									<g>
+
+										<ellipse transform="matrix(0.9903 -0.1392 0.1392 0.9903 12.9334 0.5829)" class="st3" cx="10.6" cy="-92.2" rx="1.8" ry="1.8"></ellipse>
+									</g>
+								</g>
+								<g style="animation: flashing linear 3s 1.1s infinite;">
+									<g class="st4">
+
+										<ellipse id="path-5_1_" transform="matrix(0.9903 -0.1392 0.1392 0.9903 3.2803 -1.2213)" cx="-7.1" cy="-24.1" rx="1.8" ry="1.8"></ellipse>
+									</g>
+									<g>
+
+										<ellipse transform="matrix(0.9903 -0.1392 0.1392 0.9903 3.2803 -1.2213)" class="st5" cx="-7.1" cy="-24.1" rx="1.8" ry="1.8"></ellipse>
+									</g>
+								</g>
+								<g>
+									<g class="st6">
+										<ellipse id="path-9_1_" cx="24.8" cy="-49.5" rx="1" ry="1"></ellipse>
+									</g>
+									<g>
+										<ellipse class="st3" cx="24.8" cy="-49.5" rx="1" ry="1"></ellipse>
+									</g>
+								</g>
+								<g>
+									<g class="st7">
+										<ellipse id="path-11_1_" cx="-24.1" cy="-60.9" rx="1" ry="1"></ellipse>
+									</g>
+									<g>
+										<ellipse class="st3" cx="-24.1" cy="-60.9" rx="1" ry="1"></ellipse>
+									</g>
+								</g>
+							</g>
+
+							<g transform="translate(222.748131, 35.128521) scale(1, -1) translate(-222.748131, -35.128521) translate(189.248131, 0.628521)">
+								<g>
+									<g class="st11">
+
+									</g>
+									<g>
+
+									</g>
+								</g>
+								<g>
+									<g class="st12">
+
+									</g>
+									<g>
+
+									</g>
+								</g>
+							</g>
+							<g transform="translate(27.035447, 109.345005)">
+								<g style="animation: flashing linear 2s infinite;">
+									<g class="st13">
+										<ellipse id="path-33_1_" transform="matrix(0.9903 -0.1392 0.1392 0.9903 13.7235 2.4235)" cx="24.2" cy="-96.9" rx="1.8" ry="1.8"></ellipse>
+									</g>
+									<g>
+										<ellipse transform="matrix(0.9903 -0.1392 0.1392 0.9903 13.7235 2.4235)" class="st3" cx="24.2" cy="-96.9" rx="1.8" ry="1.8"></ellipse>
+									</g>
+								</g>
+								<g>
+									<g class="st14">
+										<ellipse id="path-37_1_" cx="49.9" cy="-101.4" rx="1" ry="1"></ellipse>
+									</g>
+									<g>
+										<ellipse class="st10" cx="49.9" cy="-101.4" rx="1" ry="1"></ellipse>
+									</g>
+								</g>
+							</g>
+
+							<g transform="translate(249.783578, 134.419730) scale(1, -1) translate(-249.783578, -134.419730) translate(216.283578, 99.919730)">
+								<g>
+									<g class="st15">
+
+
+									</g>
+									<g>
+
+
+									</g>
+								</g>
+								<g>
+									<g class="st16">
+
+									</g>
+									<g>
+
+									</g>
+								</g>
+								<g>
+									<g class="st17">
+
+									</g>
+									<g>
+
+									</g>
+								</g>
+							</g>
+						</g>
+						<g transform="translate(325.241616, 172.903009)" class="st18">
+							<g transform="translate(0.164513, 11.167483)">
+								<g style="animation: flashing linear 2.5s .8s infinite;">
+									<g class="st19">
+
+										<ellipse id="path-63_1_" transform="matrix(0.9903 -0.1392 0.1392 0.9903 9.9289 -7.6593)" cx="-49.8" cy="-74.8" rx="2" ry="2"></ellipse>
+									</g>
+									<g>
+										<ellipse transform="matrix(0.9903 -0.1392 0.1392 0.9903 9.9289 -7.6593)" class="st3" cx="-49.8" cy="-74.8" rx="2" ry="2"></ellipse>
+									</g>
+								</g>
+								<g style="animation: flashing linear 3.5s 1s infinite;">
+									<g class="st20">
+
+										<ellipse id="path-65_1_" transform="matrix(0.9903 -0.1392 0.1392 0.9903 -0.6155 -9.6205)" cx="-69.1" cy="-0.4" rx="2" ry="2"></ellipse>
+									</g>
+									<g>
+										<ellipse transform="matrix(0.9903 -0.1392 0.1392 0.9903 -0.6155 -9.6205)" class="st5" cx="-69.1" cy="-0.4" rx="2" ry="2"></ellipse>
+									</g>
+								</g>
+								<g>
+									<g class="st21">
+										<ellipse id="path-67_1_" cx="-21.7" cy="-79.8" rx="1" ry="1"></ellipse>
+									</g>
+									<g>
+										<ellipse class="st10" cx="-21.7" cy="-79.8" rx="1" ry="1"></ellipse>
+									</g>
+								</g>
+								<g>
+									<g class="st22">
+										<ellipse id="path-69_1_" cx="-34.3" cy="-28.2" rx="1" ry="1"></ellipse>
+									</g>
+									<g>
+										<ellipse class="st3" cx="-34.3" cy="-28.2" rx="1" ry="1"></ellipse>
+									</g>
+								</g>
+								<g>
+									<g class="st23">
+										<ellipse id="path-71_1_" cx="-87.6" cy="-40.6" rx="1" ry="1"></ellipse>
+									</g>
+									<g>
+										<ellipse class="st3" cx="-87.6" cy="-40.6" rx="1" ry="1"></ellipse>
+									</g>
+								</g>
+							</g>
+
+							<g transform="translate(133.742588, 57.904261) scale(-1, 1) translate(-133.742588, -57.904261) translate(97.242588, 20.404261)">
+								<g>
+									<g class="st24">
+
+
+									</g>
+									<g>
+
+
+									</g>
+								</g>
+								<g>
+									<g class="st25">
+
+
+									</g>
+									<g>
+
+									</g>
+								</g>
+								<g>
+									<g class="st26">
+
+									</g>
+									<g>
+
+									</g>
+								</g>
+								<g>
+									<g class="st27">
+
+									</g>
+									<g>
+
+									</g>
+								</g>
+								<g>
+									<g class="st28">
+
+									</g>
+									<g>
+
+									</g>
+								</g>
+							</g>
+
+							<g transform="translate(241.819548, 37.993840) scale(1, -1) translate(-241.819548, -37.993840) translate(205.319548, 0.493840)">
+								<g>
+									<g class="st29">
+
+
+									</g>
+									<g>
+
+
+									</g>
+								</g>
+								<g>
+									<g class="st30">
+
+
+									</g>
+									<g>
+
+
+									</g>
+								</g>
+								<g>
+									<g class="st31">
+
+									</g>
+									<g>
+
+									</g>
+								</g>
+								<g>
+									<g class="st32">
+
+									</g>
+									<g>
+
+									</g>
+								</g>
+							</g>
+							<g transform="translate(29.488989, 118.960670)">
+								<g style="animation: flashing linear 2s infinite;">
+									<g class="st33">
+
+										<ellipse id="path-91_1_" transform="matrix(0.9903 -0.1392 0.1392 0.9903 10.7861 -5.6611)" cx="-35.1" cy="-80" rx="2" ry="2"></ellipse>
+									</g>
+									<g>
+										<ellipse transform="matrix(0.9903 -0.1392 0.1392 0.9903 10.7861 -5.6611)" class="st3" cx="-35.1" cy="-80" rx="2" ry="2"></ellipse>
+									</g>
+								</g>
+								<g style="animation: flashing linear 2s 1.2s infinite;">
+									<g class="st34">
+
+										<ellipse id="path-93_1_" transform="matrix(0.9903 -0.1392 0.1392 0.9903 0.2417 -7.6223)" cx="-54.4" cy="-5.5" rx="2" ry="2"></ellipse>
+									</g>
+									<g>
+										<ellipse transform="matrix(0.9903 -0.1392 0.1392 0.9903 0.2417 -7.6223)" class="st5" cx="-54.4" cy="-5.5" rx="2" ry="2"></ellipse>
+									</g>
+								</g>
+								<g>
+									<g class="st35">
+										<ellipse id="path-95_1_" cx="-7" cy="-84.9" rx="1" ry="1"></ellipse>
+									</g>
+									<g>
+										<ellipse class="st10" cx="-7" cy="-84.9" rx="1" ry="1"></ellipse>
+									</g>
+								</g>
+								<g>
+									<g class="st36">
+										<ellipse id="path-97_1_" cx="-19.6" cy="-33.3" rx="1" ry="1"></ellipse>
+									</g>
+									<g>
+										<ellipse class="st3" cx="-19.6" cy="-33.3" rx="1" ry="1"></ellipse>
+									</g>
+								</g>
+								<g>
+									<g class="st37">
+										<ellipse id="path-99_1_" cx="-72.9" cy="-45.8" rx="1" ry="1"></ellipse>
+									</g>
+									<g>
+										<ellipse class="st3" cx="-72.9" cy="-45.8" rx="1" ry="1"></ellipse>
+									</g>
+								</g>
+							</g>
+
+							<g transform="translate(163.013331, 166.726187) scale(-1, 1) translate(-163.013331, -166.726187) translate(126.513331, 129.226187)">
+								<g>
+									<g class="st38">
+
+
+									</g>
+									<g>
+
+									</g>
+								</g>
+								<g>
+									<g class="st39">
+
+									</g>
+									<g>
+
+									</g>
+								</g>
+								<g>
+									<g class="st40">
+
+									</g>
+									<g>
+
+									</g>
+								</g>
+							</g>
+
+							<g transform="translate(271.090292, 146.815766) scale(1, -1) translate(-271.090292, -146.815766) translate(234.590292, 109.315766)">
+								<g>
+									<g class="st41">
+
+
+									</g>
+									<g>
+
+									</g>
+								</g>
+								<g>
+									<g class="st42">
+
+
+									</g>
+									<g>
+
+
+									</g>
+								</g>
+								<g>
+									<g class="st43">
+
+									</g>
+									<g>
+
+									</g>
+								</g>
+								<g>
+									<g class="st44">
+
+									</g>
+									<g>
+
+									</g>
+								</g>
+								<g>
+									<g class="st45">
+
+									</g>
+									<g>
+
+									</g>
+								</g>
+							</g>
+						</g>
+						<g transform="translate(101.481169, 337.333319)" class="st1">
+
+							<g transform="translate(222.748131, 35.128521) scale(1, -1) translate(-222.748131, -35.128521) translate(189.248131, 0.628521)">
+								<g>
+									<g class="st46">
+
+
+									</g>
+									<g>
+
+
+									</g>
+								</g>
+								<g>
+									<g class="st47">
+
+									</g>
+									<g>
+
+									</g>
+								</g>
+								<g>
+									<g class="st48">
+
+									</g>
+									<g>
+
+									</g>
+								</g>
+							</g>
+
+							<g transform="translate(249.783578, 134.419730) scale(1, -1) translate(-249.783578, -134.419730) translate(216.283578, 99.919730)">
+								<g>
+									<g class="st49">
+
+
+									</g>
+									<g>
+
+
+									</g>
+								</g>
+								<g>
+									<g class="st50">
+
+									</g>
+									<g>
+
+									</g>
+								</g>
+							</g>
+						</g>
+						<g transform="translate(415.457449, 414.170132)" class="st51">
+							<g transform="translate(0.000000, 10.053796)">
+								<g style="animation: flashing linear 1.8s infinite;">
+									<g class="st52">
+
+										<ellipse id="path-183_1_" transform="matrix(0.9903 -0.1392 0.1392 0.9903 2.5815 -5.5697)" cx="-38.5" cy="-21.2" rx="1.8" ry="1.8"></ellipse>
+									</g>
+									<g>
+
+										<ellipse transform="matrix(0.9903 -0.1392 0.1392 0.9903 2.5815 -5.5697)" class="st5" cx="-38.5" cy="-21.2" rx="1.8" ry="1.8"></ellipse>
+									</g>
+								</g>
+								<g>
+									<g class="st53">
+										<ellipse id="path-185_1_" cx="4.9" cy="-93.9" rx="1" ry="1"></ellipse>
+									</g>
+									<g>
+										<ellipse class="st10" cx="4.9" cy="-93.9" rx="1" ry="1"></ellipse>
+									</g>
+								</g>
+								<g>
+									<g class="st54">
+										<ellipse id="path-187_1_" cx="-6.6" cy="-46.7" rx="1" ry="1"></ellipse>
+									</g>
+									<g>
+										<ellipse class="st3" cx="-6.6" cy="-46.7" rx="1" ry="1"></ellipse>
+									</g>
+								</g>
+								<g>
+									<g class="st55">
+										<ellipse id="path-189_1_" cx="-55.5" cy="-58" rx="1" ry="1"></ellipse>
+									</g>
+									<g>
+										<ellipse class="st3" cx="-55.5" cy="-58" rx="1" ry="1"></ellipse>
+									</g>
+								</g>
+							</g>
+
+							<g transform="translate(123.305594, 53.580270) scale(-1, 1) translate(-123.305594, -53.580270) translate(89.805594, 19.080270)">
+								<g>
+									<g class="st56">
+
+
+									</g>
+									<g>
+
+
+									</g>
+								</g>
+								<g>
+									<g class="st57">
+
+
+									</g>
+									<g>
+
+
+									</g>
+								</g>
+								<g>
+									<g class="st58">
+
+									</g>
+									<g>
+
+									</g>
+								</g>
+							</g>
+
+							<g transform="translate(222.748131, 35.128521) scale(1, -1) translate(-222.748131, -35.128521) translate(189.248131, 0.628521)">
+								<g>
+									<g class="st59">
+
+
+									</g>
+									<g>
+
+
+									</g>
+								</g>
+								<g>
+									<g class="st60">
+
+									</g>
+									<g>
+
+									</g>
+								</g>
+							</g>
+							<g transform="translate(27.035447, 109.345005)">
+								<g style="animation: flashing linear 2.2s 1.4s infinite;">
+									<g class="st61">
+
+										<ellipse id="path-211_1_" transform="matrix(0.9903 -0.1392 0.1392 0.9903 3.3715 -3.7291)" cx="-25" cy="-26" rx="1.8" ry="1.8"></ellipse>
+									</g>
+									<g>
+										<ellipse transform="matrix(0.9903 -0.1392 0.1392 0.9903 3.3715 -3.7291)" class="st5" cx="-25" cy="-26" rx="1.8" ry="1.8"></ellipse>
+									</g>
+								</g>
+								<g>
+									<g class="st62">
+										<ellipse id="path-213_1_" cx="18.5" cy="-98.6" rx="1" ry="1"></ellipse>
+									</g>
+									<g>
+										<ellipse class="st10" cx="18.5" cy="-98.6" rx="1" ry="1"></ellipse>
+									</g>
+								</g>
+								<g>
+									<g class="st63">
+										<ellipse id="path-215_1_" cx="6.9" cy="-51.4" rx="1" ry="1"></ellipse>
+									</g>
+									<g>
+										<ellipse class="st3" cx="6.9" cy="-51.4" rx="1" ry="1"></ellipse>
+									</g>
+								</g>
+								<g>
+									<g class="st64">
+										<ellipse id="path-217_1_" cx="-42" cy="-62.8" rx="1" ry="1"></ellipse>
+									</g>
+									<g>
+										<ellipse class="st3" cx="-42" cy="-62.8" rx="1" ry="1"></ellipse>
+									</g>
+								</g>
+							</g>
+
+							<g transform="translate(150.341041, 152.871479) scale(-1, 1) translate(-150.341041, -152.871479) translate(116.841041, 118.371479)">
+								<g>
+									<g class="st65">
+
+
+									</g>
+									<g>
+
+
+									</g>
+								</g>
+								<g>
+									<g class="st66">
+
+
+									</g>
+									<g>
+
+
+									</g>
+								</g>
+								<g>
+									<g class="st67">
+
+									</g>
+									<g>
+
+									</g>
+								</g>
+								<g>
+									<g class="st68">
+
+									</g>
+									<g>
+
+									</g>
+								</g>
+							</g>
+
+							<g transform="translate(249.783578, 134.419730) scale(1, -1) translate(-249.783578, -134.419730) translate(216.283578, 99.919730)">
+								<g>
+									<g class="st69">
+
+
+									</g>
+									<g>
+
+
+									</g>
+								</g>
+								<g>
+									<g class="st70">
+
+
+									</g>
+									<g>
+
+
+									</g>
+								</g>
+								<g>
+									<g class="st71">
+
+									</g>
+									<g>
+
+									</g>
+								</g>
+								<g>
+									<g class="st72">
+
+									</g>
+									<g>
+
+									</g>
+								</g>
+								<g>
+									<g class="st73">
+
+									</g>
+									<g>
+
+									</g>
+								</g>
+							</g>
+						</g>
+						<g transform="translate(673.817232, 525.486001)" class="st51">
+							<g transform="translate(0.000000, 10.053796)">
+								<g style="animation: flashing linear 2.2s .7s infinite;">
+									<g class="st74">
+
+										<ellipse id="path-241_1_" transform="matrix(0.9903 -0.1392 0.1392 0.9903 17.5159 -2.3197)" cx="-7.8" cy="-126.4" rx="1.8" ry="1.8"></ellipse>
+									</g>
+									<g>
+
+										<ellipse transform="matrix(0.9903 -0.1392 0.1392 0.9903 17.5159 -2.3197)" class="st3" cx="-7.8" cy="-126.4" rx="1.8" ry="1.8"></ellipse>
+									</g>
+								</g>
+								<g style="animation: flashing linear 2s infinite;">
+									<g class="st75">
+
+										<ellipse id="path-243_1_" transform="matrix(0.9903 -0.1392 0.1392 0.9903 7.8628 -4.124)" cx="-25.6" cy="-58.3" rx="1.8" ry="1.8"></ellipse>
+									</g>
+									<g>
+
+										<ellipse transform="matrix(0.9903 -0.1392 0.1392 0.9903 7.8628 -4.124)" class="st5" cx="-25.6" cy="-58.3" rx="1.8" ry="1.8"></ellipse>
+									</g>
+								</g>
+								<g>
+									<g class="st76">
+										<ellipse id="path-245_1_" cx="17.9" cy="-130.9" rx="1" ry="1"></ellipse>
+									</g>
+									<g>
+										<ellipse class="st10" cx="17.9" cy="-130.9" rx="1" ry="1"></ellipse>
+									</g>
+								</g>
+								<g>
+									<g class="st77">
+										<ellipse id="path-247_1_" cx="6.4" cy="-83.7" rx="1" ry="1"></ellipse>
+									</g>
+									<g>
+										<ellipse class="st3" cx="6.4" cy="-83.7" rx="1" ry="1"></ellipse>
+									</g>
+								</g>
+								<g>
+									<g class="st78">
+										<ellipse id="path-249_1_" cx="-42.6" cy="-95.1" rx="1" ry="1"></ellipse>
+									</g>
+									<g>
+										<ellipse class="st3" cx="-42.6" cy="-95.1" rx="1" ry="1"></ellipse>
+									</g>
+								</g>
+							</g>
+							<g transform="translate(27.035447, 109.345005)">
+								<g style="animation: flashing linear 2.5s infinite;">
+									<g class="st79">
+
+										<ellipse id="path-253_1_" transform="matrix(0.9903 -0.1392 0.1392 0.9903 8.6528 -2.2834)" cx="-12" cy="-63" rx="1.8" ry="1.8"></ellipse>
+									</g>
+									<g>
+										<ellipse transform="matrix(0.9903 -0.1392 0.1392 0.9903 8.6528 -2.2834)" class="st5" cx="-12" cy="-63" rx="1.8" ry="1.8"></ellipse>
+									</g>
+								</g>
+								<g>
+									<g class="st80">
+										<ellipse id="path-255_1_" cx="-29" cy="-99.8" rx="1" ry="1"></ellipse>
+									</g>
+									<g>
+										<ellipse class="st3" cx="-29" cy="-99.8" rx="1" ry="1"></ellipse>
+									</g>
+								</g>
+							</g>
+						</g>
+						<g transform="translate(645.566022, 197.599025)" class="st18">
+							<g transform="translate(0.000000, 10.053796)">
+								<g style="animation: flashing linear 2.2s .2s infinite;">
+									<g class="st81">
+
+										<ellipse id="path-257_1_" transform="matrix(0.9903 -0.1392 0.1392 0.9903 16.0831 -8.563)" cx="-53.2" cy="-119.3" rx="1.8" ry="1.8"></ellipse>
+									</g>
+									<g>
+
+										<ellipse transform="matrix(0.9903 -0.1392 0.1392 0.9903 16.0831 -8.563)" class="st3" cx="-53.2" cy="-119.3" rx="1.8" ry="1.8"></ellipse>
+									</g>
+								</g>
+								<g>
+									<g class="st82">
+										<ellipse id="path-261_1_" cx="-27.4" cy="-123.8" rx="1" ry="1"></ellipse>
+									</g>
+									<g>
+										<ellipse class="st10" cx="-27.4" cy="-123.8" rx="1" ry="1"></ellipse>
+									</g>
+								</g>
+								<g>
+									<g class="st83">
+										<ellipse id="path-263_1_" cx="-39" cy="-76.6" rx="1" ry="1"></ellipse>
+									</g>
+									<g>
+										<ellipse class="st3" cx="-39" cy="-76.6" rx="1" ry="1"></ellipse>
+									</g>
+								</g>
+								<g>
+									<g class="st84">
+										<ellipse id="path-265_1_" cx="-87.9" cy="-88" rx="1" ry="1"></ellipse>
+									</g>
+									<g>
+										<ellipse class="st3" cx="-87.9" cy="-88" rx="1" ry="1"></ellipse>
+									</g>
+								</g>
+							</g>
+
+							<g transform="translate(123.305594, 53.580270) scale(-1, 1) translate(-123.305594, -53.580270) translate(89.805594, 19.080270)">
+								<g>
+									<g class="st85">
+
+
+									</g>
+									<g>
+
+
+									</g>
+								</g>
+								<g>
+									<g class="st86">
+
+									</g>
+									<g>
+
+									</g>
+								</g>
+								<g>
+									<g class="st87">
+
+									</g>
+									<g>
+
+									</g>
+								</g>
+							</g>
+							<g transform="translate(27.035447, 109.345005)">
+								<g style="animation: flashing linear 2s infinite;">
+									<g class="st88"><ellipse id="path-275_1_" transform="matrix(0.9903 -0.1392 0.1392 0.9903 16.8732 -6.7225)" cx="-39.6" cy="-124" rx="1.8" ry="1.8"></ellipse></g>
+									<g><ellipse transform="matrix(0.9903 -0.1392 0.1392 0.9903 16.8732 -6.7225)" class="st3" cx="-39.6" cy="-124" rx="1.8" ry="1.8"></ellipse></g>
+								</g>
+								<g>
+									<g><ellipse class="st10" cx="-13.9" cy="-128.5" rx="1" ry="1"></ellipse></g>
+								</g>
+								<g>
+									<g class="st91"><ellipse id="path-281_1_" cx="-25.4" cy="-81.3" rx="1" ry="1"></ellipse></g>
+									<g><ellipse class="st3" cx="-25.4" cy="-81.3" rx="1" ry="1"></ellipse></g>
+								</g>
+							</g>
+
+						</g>
+					</g>
 					<g id="Man">
 						<path id="Fill-11" class="st94" d="M131.8,796.2c-72.6,0-131.5-15-131.5-27.5c0-12.5,58.9-24.5,131.5-24.5
 						c12.9,0,131.5,12,131.5,24.5C263.3,781.2,173.2,796.2,131.8,796.2z"></path>
@@ -1534,7 +1510,7 @@
 						<path class="st110" d="M225-5.9c-6.2,1.4-14,2.1-23.5,1.4c-15.6-1.2-28.4-6-37.4-13.5c0-2.2,0-3.8,0-4.9c0-1.6,0.1-4,0.2-7.1
 						c11.9,9.3,25.1,14.6,38.7,15.3c11.5,0.6,23.2-0.6,31.6-2.9l-3.7,10.1c-0.8,0.4-1.4,0.6-1.8,0.7C228.1-6.6,226.7-6.3,225-5.9z"></path>
 					</g>
-					<g id="Planet_4">
+					<g id="Planet_4" style="animation: float4 ease-in-out 5s infinite">
 						<path class="st111" d="M447.8,424.6l-28.3,66.6l30.4-68.8L447.8,424.6z M418.8,433.2l-31.1,63.8l31.9-62.7L418.8,433.2z
 						M411.5,413.8c-1.2,1.3-11.7,18.2-31.4,50.7l32.5-48.6C413,413.2,412.7,412.5,411.5,413.8z"></path>
 						<g transform="translate(0.000000, 71.285081)">
@@ -1629,7 +1605,7 @@
 							c-0.7,0.7-2.4,0.6-2.8,0c-0.4-0.6-4.1-4-5-6.5c-0.9-2.5-0.6-3.7-0.5-5.1c0.2-1.7,1.7-2.7,2.2-3.2C433.3,337,438,335,439.5,335.4z"></path>
 						</g>
 					</g>
-					<g id="Planet_3" transform="translate(0.362642, 0.316538)" class="parallax" data-speed="0.1" data-start="0" data-direction="top">
+					<g id="Planet_3" style="animation: floatSmall cubic-bezier(0.32, 0, 0.72, 1) 10s infinite" transform="translate(0.362642, 0.316538)" class="parallax" data-speed="0.1" data-start="0" data-direction="top">
 
 						<g id="Group-73" transform="translate(95.000000, 101.341064) rotate(-28.000000) translate(-95.000000, -101.341064) translate(25.000000, 31.341064)">
 
@@ -1637,20 +1613,9 @@
 							<path class="st125" d="M420.6,601c5.1,0,10.1-0.6,14.9-1.7c2.8-0.6,5.6-1.5,8.3-2.5c25.4-9.4,43.5-33.8,43.5-62.5
 							c0-30.3-20.2-55.8-48-63.9c-2.7-0.8-5.5-1.4-8.3-1.9c-3.4-0.5,39.5,16,36.9,70.4c-2.5,54.4-69.3,59.3-58.2,61.1
 							C413.3,600.7,416.9,601,420.6,601z"></path>
-							<path class="st126" d="M410.9,527c0-21.3-17.1-38.5-38.3-38.9c-11.6,12-18.8,28.3-18.8,46.3c0,10.8,2.6,21,7.2,30
-							c3.4,1,7.1,1.5,10.9,1.5C393.5,566,410.9,548.5,410.9,527z M376.7,528.5c-5.6-0.2-9.9-4.8-9.7-10.4c0.2-5.5,4.9-9.9,10.4-9.7
-							c5.6,0.2,9.9,4.8,9.7,10.4S382.3,528.7,376.7,528.5z"></path>
-							<path class="st127" d="M485.1,551.4c-1.4-1-3.1-1.5-4.9-1.5c-5.3,0-9.6,4.9-9.6,10.9c0,4.5,2.4,8.4,5.9,10
-							C480.3,564.9,483.2,558.4,485.1,551.4z M443.5,528.1c5.3,0.2,9.8-4,10-9.3c0.2-5.3-4-9.8-9.3-10c-5.3-0.2-9.8,4-10,9.3
-							C434,523.4,438.2,527.9,443.5,528.1z M419,556.5c-6.3-0.2-11.5,4.7-11.7,10.9c-0.2,6.2,4.7,11.5,10.9,11.7
-							c6.3,0.2,11.5-4.7,11.7-10.9C430.1,562,425.2,556.8,419,556.5z M417.3,486.1c-2.5-0.1-4.7,1.9-4.8,4.4c-0.1,2.5,1.9,4.7,4.5,4.8
-							c2.5,0.1,4.7-1.9,4.8-4.4C421.8,488.3,419.8,486.2,417.3,486.1z M377.4,508.4c-5.6-0.2-10.2,4.1-10.4,9.7
-							c1.8-4.1,5.3-6.1,10.3-5.9c5,0.2,8.3,2.4,9.8,6.6C387.3,513.3,383,508.6,377.4,508.4z"></path>
-							<path class="st128" d="M485.1,551.5c-1.4-1-3.1-1.6-4.9-1.6c-5.3,0-9.6,5.3-9.6,11.7c1.9-4.4,5.1-6.6,9.6-6.6
-							c1.3,0,2.5,0.2,3.6,0.6C484.3,554.3,484.7,552.9,485.1,551.5z M444,513.2c4.5,0.2,7.7,2.1,9.4,6c0.2-5.5-4-10.2-9.3-10.4
-							c-5.3-0.2-9.8,4.2-10,9.7C436.2,514.8,439.5,513.1,444,513.2z M417.3,486.1c-2.5-0.1-4.7,2.1-4.8,4.9c1-1.8,2.6-2.7,4.7-2.7
-							c2.2,0.1,3.7,1.1,4.5,3C421.8,488.5,419.8,486.2,417.3,486.1z M419,556.5c-6.3-0.2-11.5,4.9-11.7,11.3c2.4-4.4,6.3-6.6,11.6-6.4
-							c5.3,0.2,9,2.6,11.1,7.2C430.1,562.2,425.2,556.8,419,556.5z"></path>
+							<path class="st126" d="M410.9,527c0-21.3-17.1-38.5-38.3-38.9c-11.6,12-18.8,28.3-18.8,46.3c0,10.8,2.6,21,7.2,30 c3.4,1,7.1,1.5,10.9,1.5C393.5,566,410.9,548.5,410.9,527z M376.7,528.5c-5.6-0.2-9.9-4.8-9.7-10.4c0.2-5.5,4.9-9.9,10.4-9.7 c5.6,0.2,9.9,4.8,9.7,10.4S382.3,528.7,376.7,528.5z"></path>
+							<path class="st127" d="M485.1,551.4c-1.4-1-3.1-1.5-4.9-1.5c-5.3,0-9.6,4.9-9.6,10.9c0,4.5,2.4,8.4,5.9,10 C480.3,564.9,483.2,558.4,485.1,551.4z M443.5,528.1c5.3,0.2,9.8-4,10-9.3c0.2-5.3-4-9.8-9.3-10c-5.3-0.2-9.8,4-10,9.3 C434,523.4,438.2,527.9,443.5,528.1z M419,556.5c-6.3-0.2-11.5,4.7-11.7,10.9c-0.2,6.2,4.7,11.5,10.9,11.7 c6.3,0.2,11.5-4.7,11.7-10.9C430.1,562,425.2,556.8,419,556.5z M417.3,486.1c-2.5-0.1-4.7,1.9-4.8,4.4c-0.1,2.5,1.9,4.7,4.5,4.8 c2.5,0.1,4.7-1.9,4.8-4.4C421.8,488.3,419.8,486.2,417.3,486.1z M377.4,508.4c-5.6-0.2-10.2,4.1-10.4,9.7 c1.8-4.1,5.3-6.1,10.3-5.9c5,0.2,8.3,2.4,9.8,6.6C387.3,513.3,383,508.6,377.4,508.4z"></path>
+							<path class="st128" d="M485.1,551.5c-1.4-1-3.1-1.6-4.9-1.6c-5.3,0-9.6,5.3-9.6,11.7c1.9-4.4,5.1-6.6,9.6-6.6 c1.3,0,2.5,0.2,3.6,0.6C484.3,554.3,484.7,552.9,485.1,551.5z M444,513.2c4.5,0.2,7.7,2.1,9.4,6c0.2-5.5-4-10.2-9.3-10.4 c-5.3-0.2-9.8,4.2-10,9.7C436.2,514.8,439.5,513.1,444,513.2z M417.3,486.1c-2.5-0.1-4.7,2.1-4.8,4.9c1-1.8,2.6-2.7,4.7-2.7 c2.2,0.1,3.7,1.1,4.5,3C421.8,488.5,419.8,486.2,417.3,486.1z M419,556.5c-6.3-0.2-11.5,4.9-11.7,11.3c2.4-4.4,6.3-6.6,11.6-6.4 c5.3,0.2,9,2.6,11.1,7.2C430.1,562.2,425.2,556.8,419,556.5z"></path>
 							<defs>
 								<filter id="Adobe_OpacityMaskFilter_3_" filterUnits="userSpaceOnUse" x="330.4" y="511.1" width="105.7" height="50.9">
 									<feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"></feColorMatrix>
@@ -1711,11 +1676,10 @@
 						<circle class="st134" cx="575" cy="156.4" r="23"></circle>
 						<path class="st135" d="M592,172.7c-4.5,4.4-10.4,6.5-16.3,6.5c7.5-3.3,11.4-10.4,11.9-21c0.5-10.7-4.6-18.9-15.3-24.7
 						c7.2-1.2,14.8,1.1,20.3,6.7C601.4,149.3,601.2,163.8,592,172.7z"></path>
+						<text x="570" y="161" fill="Black" r="24" style="font-weight:700">n</text>
 					</g>
-					<g id="Planet_1" class="parallax" data-speed="0.1" data-start="0" data-direction="top">
-
+					<g id="Planet_1" style="animation: floatTiny ease-in-out 2s infinite" class="parallax" data-speed="0.1" data-start="0" data-direction="top">
 						<g id="Group-11-Copy-4" transform="translate(88.197956, 73.466452) rotate(-23.000000) translate(-88.197956, -73.466452) translate(12.697956, 25.966452)">
-
 							<ellipse transform="matrix(-0.9925 -0.1219 0.1219 -0.9925 549.0442 621.1462)" class="st112" cx="293.5" cy="293.8" rx="46.9" ry="46.9"></ellipse>
 							<defs>
 								<filter id="Adobe_OpacityMaskFilter_4_" filterUnits="userSpaceOnUse" x="269.9" y="268.9" width="85.1" height="65.5">
@@ -1808,24 +1772,28 @@
 							title="Architecture &amp; UX Design"
 							body="<p>User experience design and<br>interactive prototyping</p>"
 							image="/images/icons/Architecture UX Design.svg"
+							attrs=["data-aos" =>'fade-up-right']
 						}
 						{home_service_hero_square
 							link="software-development"
 							title="Software Development"
-							body="<p>customer software applications for <br> desktop, table and mobile devices</p>"
+							body="<p>Custom software applications for startups, SMEs and enterprise </p>"
 							image="/images/icons/Software Development.svg"
+                           attrs=["data-aos" =>'fade-up-left']
 						}
 						{home_service_hero_square
 							link="web-development"
 							title="Web Development"
-							body="<p>Websites, web applications and<br>e-commerce development</p>"
+							body="<p>Websites, web apps and e-commerce for <br/>desktop, tablet and mobile devices </p>"
 							image="/images/icons/Web Development.svg"
+							attrs=["data-aos" =>'fade-up-right']
 						}
 						{home_service_hero_square
 							link="digital-marketing"
 							title="Digital Marketing"
 							body="<p>Pay Per Click, Search Engine Optimisation<br>and Converstion Rate Optimisation</p>"
 							image="/images/icons/Digital Marketing.svg"
+							attrs=["data-aos" =>'fade-up-left']
 						}
 					</div><!-- /.services -->
 				</div><!-- /.section_body -->
@@ -1835,6 +1803,8 @@
 		{section_come_talk_to_us}
 
 		{section_portfolio}
+
+        {section_portfolio2}
 
 		{section_trusted_by_brands}
 

@@ -1,43 +1,20 @@
 import 'magnific-popup';
 import Vue from 'vue';
 import Hello from './hello.vue';
+// import 'owl.carousel';
 
 Vue.component('hello', Hello);
+
+// import VueAgile from 'vue-agile'
+// Vue.use(VueAgile)
+
+
 
 ;(function(window, document, $) {
 	var $win = $(window);
 	var $doc = $(document);
 
-	function parallaxScroll(parallaxArray){
-		var parallaxLength = parallaxArray.length;
 
-		if (parallaxLength > 0) {
-			for (var i = 0; i < parallaxLength; i++) {
-				var $this = $(parallaxArray[i]);
-				var conteinerHeight = $this.outerHeight();
-				var offsetTopConteiner = $this.offset().top;
-				var offsetTopParent = $this.parent().offset().top;
-				var offsetBottomConteinter = offsetTopConteiner + conteinerHeight;
-				var winOffset = $win.scrollTop();
-				var winOffsetBottom = winOffset + $win.outerHeight(true);
-				var speedReduce = parseFloat($this.data('speed'), 10);
-				var startPoint = parseFloat($this.data('start'), 10);
-				var direction = $this.data('direction');
-				var scrolled = winOffset - ( offsetTopParent - (conteinerHeight * startPoint ));
-				var reducedScroll = scrolled;
-				var translateDirection = '';
-				if (direction === "top") {
-					translateDirection = '-';
-				}
-				if (scrolled < 0) {
-					scrolled = 0;
-				}
-				if(winOffsetBottom >= offsetTopConteiner + (conteinerHeight * startPoint )) {
-					$this.css('transform', 'translateY('+ translateDirection +'' + scrolled*speedReduce + 'px)');
-				}
-			}
-		}
-	}
 
 	$doc.ready(function() {
 		var $sliderTestimonials = $('.sliderTestimonials .slider_slides');
@@ -80,200 +57,192 @@ Vue.component('hello', Hello);
 
 		//Slider Testimonials
 		if ($sliderTestimonials.length) {
-			$sliderTestimonials.addClass('owl-carousel').owlCarousel({
-				items: 1,
-				mouseDrag: false,
-				touchDrag: false,
-				margin: 100,
-				nav: true,
-				navText: ['<i class="ico-angle-arrow-left"></i>', '<i class="ico-angle-arrow-right"></i>'],
-				navContainer: '.sliderTestimonials .slider_nav',
-				dotsContainer: '.sliderTestimonials .slider_nav .slider_dots'
-			})
+			// $sliderTestimonials.addClass('owl-carousel').owlCarousel({
+			// 	items: 1,
+			// 	mouseDrag: true,
+			// 	touchDrag: true,
+			// 	margin: 100,
+			// 	nav: true,
+			// 	navText: ['<i class="ico-angle-arrow-left"></i>', '<i class="ico-angle-arrow-right"></i>'],
+			// 	navContainer: '.sliderTestimonials .slider_nav',
+			// 	dotsContainer: '.sliderTestimonials .slider_nav .slider_dots'
+			// })
 		}
 
 		//Slider Tabs
 		if ($sliderTabs.length) {
-			$sliderTabs.addClass('owl-carousel').owlCarousel({
-				items: 1,
-				mouseDrag: false,
-				touchDrag: false,
-				margin: 100,
-				nav: true,
-				navText: ['<i class="ico-angle-arrow-left"></i>', '<i class="ico-angle-arrow-right"></i>'],
-				navContainer: '.sliderTabs .slider_nav',
-				dotsContainer: '.sliderTabs .slider_nav .slider_dots'
-			})
+			// $sliderTabs.addClass('owl-carousel').owlCarousel({
+			// 	items: 1,
+			// 	mouseDrag: false,
+			// 	touchDrag: false,
+			// 	margin: 100,
+			// 	nav: true,
+			// 	navText: ['<i class="ico-angle-arrow-left"></i>', '<i class="ico-angle-arrow-right"></i>'],
+			// 	navContainer: '.sliderTabs .slider_nav',
+			// 	dotsContainer: '.sliderTabs .slider_nav .slider_dots'
+			// })
 		}
 
 		//Slider Gallery
 		if ($sliderGallery.length) {
-			$sliderGallery.addClass('owl-carousel').owlCarousel({
-				items: 1,
-				mouseDrag: false,
-				touchDrag: false,
-				margin: 100,
-				nav: true,
-				navText: ['<i class="ico-angle-arrow-left-secondary"></i>', '<i class="ico-angle-arrow-right-secondary"></i>'],
-				navContainer: '.slider-gallery .slider_nav',
-				dotsContainer: '.slider-gallery .slider_nav .slider_dots'
-			})
+			// $sliderGallery.addClass('owl-carousel').owlCarousel({
+			// 	items: 1,
+			// 	mouseDrag: false,
+			// 	touchDrag: false,
+			// 	margin: 100,
+			// 	nav: true,
+			// 	navText: ['<i class="ico-angle-arrow-left-secondary"></i>', '<i class="ico-angle-arrow-right-secondary"></i>'],
+			// 	navContainer: '.slider-gallery .slider_nav',
+			// 	dotsContainer: '.slider-gallery .slider_nav .slider_dots'
+			// })
 		}
 
 		//Slider Portfolio
 		if ($sliderPortfolio.length) {
-			$sliderPortfolio.addClass('owl-carousel').owlCarousel({
-				items: 1,
-				mouseDrag: false,
-				touchDrag: false,
-				margin: 50,
-				dots: false,
-				animateOut: 'fadeOut'
-			})
+
+			// $sliderPortfolio.addClass('owl-carousel').owlCarousel({
+			// 	items: 1,
+			// 	loop:true,
+			// 	mouseDrag: true,
+			// 	touchDrag: true,
+			// 	margin: 50,
+			// 	dots: false,
+			// 	animateOut: 'fadeOut'
+			// })
 		}
 
 		//Slider Nav
 		if ($sliderNav.length) {
-			$sliderNav.find('ul').addClass('owl-carousel').owlCarousel({
-				items: 4,
-				margin: 1,
-				dots: false,
-				mouseDrag: false,
-				responsive: {
-					767: {
-						items: 5,
-						margin: 2
-					},
-					1024: {
-						items: 6,
-						margin: 20
-					}
-				}
-			})
+			// $sliderNav.find('ul').addClass('owl-carousel').owlCarousel({
+			// 	items: 4,
+			// 	margin: 1,
+			// 	dots: false,
+			// 	mouseDrag: false,
+			// 	responsive: {
+			// 		767: {
+			// 			items: 5,
+			// 			margin: 2
+			// 		},
+			// 		1024: {
+			// 			items: 6,
+			// 			margin: 20
+			// 		}
+			// 	}
+			// })
 		}
 
 		//Slider Nav
 		if ($navSecondary.length) {
-			$navSecondary.addClass('owl-carousel').owlCarousel({
-				items: 2,
-				margin: 1,
-				dots: false,
-				responsive: {
-					767: {
-						items: 3,
-					}
-				}
-			})
+			// $navSecondary.addClass('owl-carousel').owlCarousel({
+			// 	items: 2,
+			// 	margin: 1,
+			// 	dots: false,
+			// 	responsive: {
+			// 		767: {
+			// 			items: 3,
+			// 		}
+			// 	}
+			// })
 		}
 
 		//Slider Nav
 		if ($navTertiary.length) {
 			var elementsNumber = $navTertiary.parent().data('elements');
 
-			$navTertiary.addClass('owl-carousel').owlCarousel({
-				items: 1,
-				margin: 1,
-				dots: false,
-				responsive: {
-					767: {
-						items: elementsNumber,
-					}
-				}
-			})
+			// $navTertiary.addClass('owl-carousel').owlCarousel({
+			// 	items: 1,
+			// 	margin: 1,
+			// 	dots: false,
+			// 	responsive: {
+			// 		767: {
+			// 			items: elementsNumber,
+			// 		}
+			// 	}
+			// })
 		}
 
 		//Slider Nav
 		if ($navQuaternary.length) {
-			$navQuaternary.addClass('owl-carousel').owlCarousel({
-				autoWidth: true,
-				margin: 20,
-				dots: false,
-				responsive: {
-					767: {
-						margin: 49
-					}
-				}
-			})
+			// $navQuaternary.addClass('owl-carousel').owlCarousel({
+			// 	autoWidth: true,
+			// 	margin: 20,
+			// 	dots: false,
+			// 	responsive: {
+			// 		767: {
+			// 			margin: 49
+			// 		}
+			// 	}
+			// })
 		}
 
 		//Slider Cards
 		if ($sliderCards.length) {
-			$sliderCards.addClass('owl-carousel').owlCarousel({
-				items: 1,
-				mouseDrag: false,
-				touchDrag: false,
-				margin: 10,
-				dots: false,
-				nav: true,
-				responsive:{
-					768:{
-						items: 2
-					},
-					1024:{
-						items: 3
-					},
-					1200:{
-						items: 4
-					}
-				}
-			})
+			// $sliderCards.addClass('owl-carousel').owlCarousel({
+			// 	items: 1,
+			// 	mouseDrag: false,
+			// 	touchDrag: false,
+			// 	margin: 10,
+			// 	dots: false,
+			// 	nav: true,
+			// 	responsive:{
+			// 		768:{
+			// 			items: 2
+			// 		},
+			// 		1024:{
+			// 			items: 3
+			// 		},
+			// 		1200:{
+			// 			items: 4
+			// 		}
+			// 	}
+			// })
 		}
 
 		//Slider Cards
 		if ($sliderCardsSecondary.length) {
-			$sliderCardsSecondary.addClass('owl-carousel').owlCarousel({
-				items: 1,
-				mouseDrag: false,
-				touchDrag: false,
-				margin: 10,
-				dots: false,
-				nav: true,
-				responsive:{
-					768:{
-						items: 2
-					},
-					1024:{
-						items: 3
-					}
-				}
-			})
+			// $sliderCardsSecondary.addClass('owl-carousel').owlCarousel({
+			// 	items: 1,
+			// 	mouseDrag: false,
+			// 	touchDrag: false,
+			// 	margin: 10,
+			// 	dots: false,
+			// 	nav: true,
+			// 	responsive:{
+			// 		768:{
+			// 			items: 2
+			// 		},
+			// 		1024:{
+			// 			items: 3
+			// 		}
+			// 	}
+			// })
 		}
 
 		//Slider Nav
 		if ($sliderFilters.length) {
-			$sliderFilters.addClass('owl-carousel').owlCarousel({
-				items: 2,
-				margin: 10,
-				dots: false,
-				autoWidth: true,
-				responsive: {
-					767: {
-						items: 5,
-						margin: 2
-					},
-					1024: {
-						items: 6,
-						margin: 16
-					}
-				}
-			})
+			// $sliderFilters.addClass('owl-carousel').owlCarousel({
+			// 	items: 2,
+			// 	margin: 10,
+			// 	dots: false,
+			// 	autoWidth: true,
+			// 	responsive: {
+			// 		767: {
+			// 			items: 5,
+			// 			margin: 2
+			// 		},
+			// 		1024: {
+			// 			items: 6,
+			// 			margin: 16
+			// 		}
+			// 	}
+			// })
 		}
-
-		$('.nav > ul > li').each(function(index, el) {
-			var $this = $(this);
-			var isDropdown = $this.find('.dropdown').length > 0;
-
-			if (isDropdown) {
-				$this.addClass('has_dropdown');
-			}
-		});
 
 		$('.nav').on('click', '.has_dropdown', function(event) {
 			var $this = $(this);
 
 			if ($win.outerWidth() < tabletWidth) {
 				$this.find('.dropdown').slideToggle().closest('li').siblings().find('.dropdown').slideUp();
-
 				event.preventDefault();
 			}
 		});
@@ -317,24 +286,9 @@ Vue.component('hello', Hello);
 			$tabLink.parent().add($targetTab).addClass(activeTabClass).siblings().removeClass(activeTabClass);
 		});
 
-		$win.on('load scroll', function() {
-			var winScrollTop = $(window).scrollTop();
-
-			if ($jsStickyOnScroll.length) {
-				var isElementSticky = winScrollTop > $jsStickyOnScrollParent.offset().top;
-				var isElementBottom = ($jsStickyOnScrollParent.offset().top + $jsStickyOnScrollParent.outerHeight()) < (winScrollTop + $jsStickyOnScroll.outerHeight());
-
-				$jsStickyOnScroll.toggleClass('fixed', isElementSticky).toggleClass('bottom-align', isElementBottom);
-			}
-
-			clearTimeout(timeout);
-
-			if ($win.outerWidth(true) > mobileWidth) {
-
-				// timeout = setTimeout(function() {
-				// 	parallaxScroll(parallaxArray);
-				// }, 10);
-			}
-		}, {passive:true});
 	});
 })(window, document, window.jQuery);
+
+// new Vue().$mount('#portfolio');
+
+// window.Vue = Vue;

@@ -9,7 +9,7 @@
         {hero_text
         title="Software Development"
         bgTitle=false
-        subtitle="If you can dream it, we can create it"
+        subtitle="You dream it, we build it"
         callBtn=true
         }
 
@@ -20,7 +20,7 @@
 		<section class="section section-secondary">
 			<div class="shell">
 				<header class="section_head">
-					<h3 class="section_title">Software development starts with defining the problem.</h3><!-- /.section_title -->
+					<h3 class="section_title">Software development starts with the dream.</h3><!-- /.section_title -->
 				</header><!-- /.section_head -->
 
 				<div class="section_body">

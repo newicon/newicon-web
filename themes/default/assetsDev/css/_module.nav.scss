@@ -87,7 +87,7 @@
 
 .nav { font-weight: 300; font-size: 15px; color: $blue2; }
 
-.nav > ul { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; padding: 0 14px 0 5px; }
+.nav > ul { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-evenly; padding: 0 14px 0 5px; margin-left:0; }
 
 .nav > ul > li { position: relative; }
 
