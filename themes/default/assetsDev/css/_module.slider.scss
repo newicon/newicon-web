@@ -182,27 +182,17 @@
 .sliderNav { max-width: 1200px; padding: 0 16px; margin: 0 auto; }
 
 .sliderNav ul { padding: 0; margin: 0; list-style-type: none; }
-
 .sliderNav li { -webkit-box-flex: 0; -ms-flex: 0 0 177px; flex: 0 0 177px; max-width: 177px; width: 177px; height: 68px; position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; border-radius: 2px; background-color: #F0F3F7; text-align: center; cursor: pointer; -webkit-transition: background .4s, -webkit-box-shadow .4s; transition: background .4s, -webkit-box-shadow .4s; -o-transition: background .4s, box-shadow .4s; transition: background .4s, box-shadow .4s; transition: background .4s, box-shadow .4s, -webkit-box-shadow .4s; }
-
 .sliderNav img { opacity: .5; -webkit-transition: opacity .4s; -o-transition: opacity .4s; transition: opacity .4s; }
-
 .sliderNav .visibleOnHover { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); opacity: 0; pointer-events: none; -webkit-transition: opacity .4s; -o-transition: opacity .4s; transition: opacity .4s; }
-
 .sliderNav .current,
 .sliderNav li:hover { background-color: $blue3; -webkit-box-shadow: 0px 2px 24px 0px rgba(0,0,0, .25); box-shadow: 0px 2px 24px 0px rgba(0,0,0, .25); }
-
 .sliderNav .current:before { content: ''; position: absolute; bottom: 100%; left: 50%; width: 0; height: 0; margin-bottom: -1px; border-style: solid; border-width: 0 10px 10px 10px; border-color: transparent transparent $blue3 transparent; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); }
-
 .sliderNav .current .hiddenOnHover,
 .sliderNav li:hover .hiddenOnHover { opacity: 0; pointer-events: none; }
-
 .sliderNav .current .visibleOnHover,
 .sliderNav li:hover .visibleOnHover { opacity: 1; pointer-events: auto; }
 
-.sliderNav .owl-carousel .owl-item img { display: inline; width: 101px; height: 32px; }
-
-.sliderNav .owl-carousel .owl-stage-outer { padding: 26px 20px; margin: 0 0 0 0; }
 
 /* Tablet Portrait */
 
@@ -210,6 +200,7 @@
 	.sliderNav { padding: 0; }
 
 	.sliderNav li { flex: 0 0 134px; max-width: 134px; width: 134px; height: 62px; }
+	.sliderNav .glide__bullet { flex: 0 0 134px; max-width: 134px; width: 134px; height: 62px; }
 
 	.sliderNav .current:before { border-width: 0 6px 6px 6px; }
 }

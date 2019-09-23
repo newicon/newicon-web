@@ -1,9 +1,9 @@
 import 'magnific-popup';
-import Vue from 'vue';
-import Hello from './hello.vue';
+// import Vue from 'vue';
+// import Hello from './hello.vue';
 // import 'owl.carousel';
 
-Vue.component('hello', Hello);
+// Vue.component('hello', Hello);
 
 // import VueAgile from 'vue-agile'
 // Vue.use(VueAgile)

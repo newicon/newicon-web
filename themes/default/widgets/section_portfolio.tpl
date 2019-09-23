@@ -138,7 +138,6 @@
 
 					<li>
 						<img src="{asset path='images/temp/slider-nav-image-2.png'}" alt="" class="hiddenOnHover" width="101" height="32">
-
 						<img src="{asset path='images/temp/slider-nav-image-2-white.png'}" alt="" class="visibleOnHover" width="101" height="32">
 					</li>
 

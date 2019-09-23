@@ -383,6 +383,10 @@ img.mfp-img {
 /*  Headings Tablet */
 /*  Headings Mobile */
 /*  Headings Mobile Portrait */
+:root {
+  --blue3: $blue3;
+}
+
 /* ------------------------------------------------------------ *\
 	Generic
 \* ------------------------------------------------------------ */
@@ -10343,17 +10347,6 @@ input:-webkit-autofill {
   pointer-events: auto;
 }
 
-.sliderNav .owl-carousel .owl-item img {
-  display: inline;
-  width: 101px;
-  height: 32px;
-}
-
-.sliderNav .owl-carousel .owl-stage-outer {
-  padding: 26px 20px;
-  margin: 0 0 0 0;
-}
-
 /* Tablet Portrait */
 @media (max-width: 1023px) {
   .sliderNav {
@@ -10361,6 +10354,13 @@ input:-webkit-autofill {
   }
 
   .sliderNav li {
+    flex: 0 0 134px;
+    max-width: 134px;
+    width: 134px;
+    height: 62px;
+  }
+
+  .sliderNav .glide__bullet {
     flex: 0 0 134px;
     max-width: 134px;
     width: 134px;
