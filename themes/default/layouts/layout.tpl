@@ -22,7 +22,7 @@
 			</style>
         {/literal}{/css}
 	</head>
-	<body>
+	<body data-aos-easing="ease-out-quad" data-aos-duration="700" data-aos-delay="0">
 		<div class="wrapper">
 			{neon_body_begin}
 			{block "header"}

@@ -64,6 +64,20 @@
 	.sliderNav .glide__bullet--active .visibleOnHover,
 	.sliderNav .glide__bullet--portfolio:hover .visibleOnHover { opacity: 1; pointer-events: auto; }
 
+	[data-aos=img-skewed-item-left], [data-aos=img-skewed-item-right] {
+		opacity: 0;
+		transition-property: opacity, transform;
+		will-change: opacity, transform, -webkit-transform;
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden
+	}
+
+	.glide__slide--active [data-aos=img-skewed-item-left].aos-animate {
+		transform: rotateY(-35deg) rotateX(15deg) translate3d(0,0,0);
+	}
+	.glide__slide--active [data-aos=img-skewed-item-left].aos-animate, .glide__slide--active [data-aos=img-skewed-item-right].aos-animate {
+		opacity: 1;
+	}
 
 </style>
 {$folio = [
@@ -71,19 +85,33 @@
 		'title' => 'Bristol and Bath Science Park',
 		'body' => 'We designed and built a bespoke mobile appliction that improved both efﬁciency and reliability of the weekly recycle bin collection.',
 		'link' => 'case-study-bbsp',
-		'screenshot' => 'images/work/folio/bbsp-no-border.svg'
+		'screenshot' => 'images/work/folio/bbsp-no-border.svg',
+		'logo_light' => 'images/temp/slider-nav-image-2-white.png',
+		'logo_dark' => 'images/temp/slider-nav-image-2.png'
 	],
 	'renex' => [
 		'title' => 'Renewable Exchange',
 		'body' => 'Renewable engery is awesome :thumsup:',
 		'link' => '#',
-		'screenshot' => 'images/work/folio/renex.svg'
+		'screenshot' => 'images/work/folio/renex.svg',
+		'logo_light' => 'images/temp/slider-nav-image-3-white.png',
+		'logo_dark' => 'images/temp/slider-nav-image-3.png'
 	],
-	'renex' => [
+	'renex2' => [
 		'title' => 'TEDxBristol',
 		'body' => 'Renewable engery is awesome :thumsup:',
 		'link' => '#',
-		'screenshot' => 'images/work/folio/tedx-no-border.svg'
+		'screenshot' => 'images/work/folio/tedx-no-border.svg',
+		'logo_light' => 'images/temp/slider-nav-image-3-white.png',
+		'logo_dark' => 'images/temp/slider-nav-image-3.png'
+	],
+	'bbsp1' => [
+		'title' => 'Bristol and Bath Science Park',
+		'body' => 'We designed and built a bespoke mobile appliction that improved both efﬁciency and reliability of the weekly recycle bin collection.',
+		'link' => 'case-study-bbsp',
+		'screenshot' => 'images/work/folio/bbsp-no-border.svg',
+		'logo_light' => 'images/temp/slider-nav-image-3-white.png',
+		'logo_dark' => 'images/temp/slider-nav-image-3.png'
 	]
 ]}
 
@@ -101,7 +129,7 @@
 							<a class="btn btn-primary btn-outline" href="{page_url id=$item['link']}">Explore</a>
 						</div>
 						<div class="flyer_image img-skewed img-skewed-left">
-							<img class="screenshot2 img-fluid img-skewed-item" src="{asset path=$item['screenshot']}" alt="{$item['title']} Screenshot">
+							<img class="screenshot2 img-fluid" data-aos="img-skewed-item-left" data-aos-delay="5" data-aos-duration="500" src="{asset path=$item['screenshot']}" alt="{$item['title']} Screenshot">
 						</div>
 					</div>
 				</li>
@@ -109,18 +137,12 @@
 		</ul>
 	</div>
 	<div class="glide__bullets sliderNav slide_foot" data-glide-el="controls[nav]">
-		<button class="glide__bullet glide__bullet--portfolio" data-glide-dir="=0">
-			<img src="{asset path='images/work/folio/logos/slider-nav-image-1.png'}" alt="" class="hiddenOnHover" width="101" height="32">
-			<img src="{asset path='images/temp/slider-nav-image-1-white.png'}" alt="" class="visibleOnHover" width="101" height="32">
-		</button>
-		<button class="glide__bullet glide__bullet--portfolio" data-glide-dir="=1">
-			<img src="{asset path='images/temp/slider-nav-image-2.png'}" alt="" class="hiddenOnHover" width="101" height="32">
-			<img src="{asset path='images/temp/slider-nav-image-2-white.png'}" alt="" class="visibleOnHover" width="101" height="32">
-		</button>
-		<button class="glide__bullet glide__bullet--portfolio" data-glide-dir="=2">
-			<img src="{asset path='images/temp/slider-nav-image-3.png'}" alt="" class="hiddenOnHover" width="101" height="32">
-			<img src="{asset path='images/temp/slider-nav-image-3-white.png'}" alt="" class="visibleOnHover" width="101" height="32">
-		</button>
+        {foreach $folio as $item}
+			<button class="glide__bullet glide__bullet--portfolio" data-glide-dir="={$item@index}">
+				<img src="{asset path=$item.logo_dark}" alt="" class="hiddenOnHover" width="101" height="32">
+				<img src="{asset path=$item.logo_light}" alt="" class="visibleOnHover" width="101" height="32">
+			</button>
+        {/foreach}
 	</div>
 </div>
 </section>
