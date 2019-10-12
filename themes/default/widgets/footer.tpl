@@ -3,130 +3,70 @@
 		<div class="footer_body">
 			<div class="cols">
 				<div class="col col-1of5">
-					<h5 class="footer_title">UX Design</h5><!-- /.footer_title -->
-
+					<h5 class="footer_title">Services</h5><!-- /.footer_title -->
 					<ul class="list-links-secondary">
-						<li>
-							<a href="#">UX Design</a>
-						</li>
-
-						<li>
-							<a href="#">Consultancy</a>
-						</li>
-
-						<li>
-							<a href="#">Digital Transformation</a>
-						</li>
-
-						<li>
-							<a href="#">User Experience Design</a>
-						</li>
-
-						<li>
-							<a href="#">Interactive Prototyping</a>
-						</li>
+						<li><a href="#">Architecture & UX Design</a></li>
+						<li><a href="#">Workshops</a></li>
+						<li><a href="#">Software Development</a></li>
+						<li><a href="#">Web Development</a></li>
+						<li><a href="#">Digital Marketing</a></li>
+						<li><a href="#">Hosting</a></li>
+						<li><a href="#">Digital Audits</a></li>
+						<li><a href="#">SEO & PPC</a></li>
 					</ul><!-- /.list-links-secondary -->
 				</div><!-- /.col -->
 
 				<div class="col col-1of5">
-					<h5 class="footer_title">Software Development</h5><!-- /.footer_title -->
-
+					<h5 class="footer_title">Products</h5><!-- /.footer_title -->
 					<ul class="list-links-secondary">
-						<li>
-							<a href="#">Web Development</a>
-						</li>
+						<li><a href="#">Neon</a></li>
+						<li><a href="#">RemoteOne</a></li>
+						<li><a href="#">Hotspot</a></li>
+						<li><a href="#">Innovation Toolkit</a></li>
+						<li><a href="#">Newicon Academy</a></li>
+						<li><a href="#">Hub</a></li>
+					</ul><!-- /.list-links-secondary -->
+				</div><!-- /.col -->
 
-						<li>
-							<a href="#">Websites</a>
-						</li>
 
-						<li>
-							<a href="#">Web Applications</a>
-						</li>
 
-						<li>
-							<a href="#">E-commerce</a>
-						</li>
-
-						<li>
-							<a href="#">Neon Low Code Platform</a>
-						</li>
+				<div class="col col-1of5">
+					<h5 class="footer_title">Newicon Approach</h5><!-- /.footer_title -->
+					<ul class="list-links-secondary">
+						<li><a href="#">Our approach</a></li>
+						<li><a href="#">Architecture Process</a></li>
+						<li><a href="#">Software Process</a></li>
+						<li><a href="#">Neon Framework</a></li>
 					</ul><!-- /.list-links-secondary -->
 				</div><!-- /.col -->
 
 				<div class="col col-1of5">
-					<h5 class="footer_title">Web Development</h5><!-- /.footer_title -->
-
+					<h5 class="footer_title">Newicon Values</h5><!-- /.footer_title -->
 					<ul class="list-links-secondary">
-						<li>
-							<a href="#">Web Development</a>
-						</li>
-
-						<li>
-							<a href="#">Websites</a>
-						</li>
-
-						<li>
-							<a href="#">Web Applications</a>
-						</li>
-
-						<li>
-							<a href="#">E-commerce</a>
-						</li>
-
-						<li>
-							<a href="#">Neon Low Code Platform</a>
-						</li>
+						<li><a href="#">Team Values</a></li>
+						<li><a href="#">Brand Values</a></li>
+					</ul>
+					<h5 class="footer_title">Technology Values</h5>
+					<ul class="list-links-secondary">
+						<li><a href="#">Accessibility</a></li>
+						<li><a href="#">Privacy</a></li>
+						<li><a href="#">Security</a></li>
 					</ul><!-- /.list-links-secondary -->
-				</div><!-- /.col -->
 
+				</div>
 				<div class="col col-1of5">
-					<h5 class="footer_title">Digital Marketing</h5><!-- /.footer_title -->
-
+					<h5 class="footer_title">About Newicon</h5><!-- /.footer_title -->
 					<ul class="list-links-secondary">
-						<li>
-							<a href="#">Digital Marketing</a>
-						</li>
-
-						<li>
-							<a href="#">SEO</a>
-						</li>
-
-						<li>
-							<a href="#">PPC</a>
-						</li>
-
-						<li>
-							<a href="#">CRO</a>
-						</li>
+						<li><a href="#">Mission</a></li>
+						<li><a href="#">History</a></li>
+						<li><a href="#">Culture</a></li>
+						<li><a href="#">Brand Values</a></li>
+						<li><a href="#">Team Values</a></li>
+						<li><a href="#">Job Opportunities</a></li>
+						<li><a href="#">Contact</a></li>
 					</ul><!-- /.list-links-secondary -->
-				</div><!-- /.col -->
+				</div>
 
-				<div class="col col-1of5">
-					<h5 class="footer_title">About Us</h5><!-- /.footer_title -->
-
-					<ul class="list-links-secondary">
-						<li>
-							<a href="#">About us</a>
-						</li>
-
-						<li>
-							<a href="#">Vision &amp; Mission</a>
-						</li>
-
-						<li>
-							<a href="#">Culture</a>
-						</li>
-
-						<li>
-							<a href="#">History</a>
-						</li>
-
-						<li>
-							<a href="#">Team</a>
-						</li>
-					</ul><!-- /.list-links-secondary -->
-				</div><!-- /.col -->
 			</div><!-- /.cols -->
 		</div><!-- /.footer_body -->
 

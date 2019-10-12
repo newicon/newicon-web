@@ -24,8 +24,6 @@
 
 .list-links-secondary { padding: 0; margin: 0; list-style-type: none; font-weight: 400; font-size: 15px; color: $gray3; }
 
-.list-links-secondary li + li { margin-top: 11px; }
-
 .list-links-secondary a { text-decoration: none; -webkit-transition: color .4s; -o-transition: color .4s; transition: color .4s; }
 
 .list-links-secondary a:hover { color: $blue3; }

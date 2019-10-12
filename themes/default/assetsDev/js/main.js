@@ -249,9 +249,7 @@ import 'magnific-popup';
 
 		$sliderNav.find('li').on('click', function() {
 			var $this = $(this);
-
 			$this.addClass('current').closest('.owl-item').siblings().find('li').removeClass('current');
-
 			$sliderPortfolio.trigger('to.owl.carousel', [$this.closest('.owl-item').index(), 400]);
 		});
 

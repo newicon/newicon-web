@@ -2,9 +2,9 @@
 	Link
 \* ------------------------------------------------------------ */
 
-.link { display: inline-block; vertical-align: middle; font-weight: 700; color: $blue3; text-decoration: none; transition: color .4s; }
+.link { display: inline-block; vertical-align: middle; font-weight: 700; color: $blue3; text-decoration: none; }
 
-.link i { margin-left: 12px; -webkit-transition: -webkit-transform .4s; transition: -webkit-transform .4s; -o-transition: transform .4s; transition: transform .4s; transition: transform .4s, -webkit-transform .4s; }
+.link i { margin-left: 12px; }
 
 .link .link_inner { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 

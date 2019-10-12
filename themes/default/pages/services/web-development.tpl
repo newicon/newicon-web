@@ -11,7 +11,7 @@
 	        callBtn=true
         }
 
-		<div class="intro_image">
+		<div class="intro_image" data-aos="fade-up" data-aos-delay="300">
 			<img src="{asset path='images/illustrations/Web Dev Illustration.svg'}" alt="Website development illustration">
 		</div>
 

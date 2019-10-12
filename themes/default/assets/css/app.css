@@ -383,10 +383,6 @@ img.mfp-img {
 /*  Headings Tablet */
 /*  Headings Mobile */
 /*  Headings Mobile Portrait */
-:root {
-  --blue3: $blue3;
-}
-
 /* ------------------------------------------------------------ *\
 	Generic
 \* ------------------------------------------------------------ */
@@ -2418,17 +2414,13 @@ li {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  transition: border 0.2s, background 0.2s, color 0.2s;
   padding: 0 20px;
+  transition: 0.15s cubic-bezier(0.17, 0.67, 0.52, 0.97);
 }
 
 .btn-primary {
   background-color: #0067FF;
   color: #fff;
-}
-
-.btn-primary:hover {
-  background-color: #00163D;
 }
 
 .btn-primary.btn-outline {
@@ -2439,13 +2431,15 @@ li {
 }
 
 .btn-primary.btn-outline:hover {
-  border-color: #00163D;
-  background-color: #00163D;
-  color: #fff;
+  background-color: #7C8798;
 }
 
 .btn._shadow {
-  box-shadow: 0 12px 18px 0 rgba(0, 0, 0, 0.21);
+  box-shadow: 0 12px 18px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn._shadow:active {
+  box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.2);
 }
 
 .btn-gray {
@@ -2497,7 +2491,6 @@ li {
 }
 
 .btn-tertiary.btn-outline:hover {
-  background-color: #00163E;
   color: #fff;
 }
 
@@ -2569,6 +2562,14 @@ li {
   font-size: 11px;
   font-weight: 800;
   line-height: 38px;
+}
+
+.btn:hover {
+  transform: scale(1.02);
+}
+
+.btn:active {
+  transform: scale(0.98);
 }
 
 /* ------------------------------------------------------------ *\
@@ -3452,6 +3453,7 @@ input:-webkit-autofill {
 \* ------------------------------------------------------------ */
 .intro_image {
   margin: -125px 0 0 0;
+  min-height: 400px;
 }
 
 .intro {
@@ -4753,12 +4755,10 @@ input:-webkit-autofill {
   font-weight: 700;
   color: #0067FF;
   text-decoration: none;
-  transition: color 0.4s;
 }
 
 .link i {
   margin-left: 12px;
-  transition: transform 0.4s;
 }
 
 .link .link_inner {
@@ -4856,10 +4856,6 @@ input:-webkit-autofill {
   font-weight: 400;
   font-size: 15px;
   color: #7C8798;
-}
-
-.list-links-secondary li + li {
-  margin-top: 11px;
 }
 
 .list-links-secondary a {
@@ -5558,6 +5554,28 @@ input:-webkit-autofill {
   box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.25), 0 30px 60px -30px rgba(0, 0, 0, 0.3), 0 -18px 60px -10px rgba(0, 0, 0, 0.025);
 }
 
+.nav .dropdown {
+  position: absolute;
+  top: 100%;
+  left: -212px;
+  transform: scale(0.95);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s, transform 0.4s;
+  transform-origin: top center;
+  will-change: opacity, transform;
+  width: 485px;
+}
+
+.nav .dropdown.isTwoColumn {
+  width: 600px;
+  left: calc(-600px/2 + 50%);
+}
+
+.isTwoColumn .dropdown_group {
+  display: flex;
+}
+
 .dropdown .dropdown_group {
   padding: 19px 25px 19px 30px;
 }
@@ -5567,12 +5585,8 @@ input:-webkit-autofill {
   border-top: 1px solid #D8E3E7;
 }
 
-.dropdown .dropdown_group > h1,
-.dropdown .dropdown_group > h2,
-.dropdown .dropdown_group > h3,
-.dropdown .dropdown_group > h4,
-.dropdown .dropdown_group > h5,
-.dropdown .dropdown_group > h6 {
+.titleContext {
+  font-size: 15px;
   margin-bottom: 25px;
   font-weight: 600;
   color: #B2B7C2;
@@ -5605,6 +5619,10 @@ input:-webkit-autofill {
   color: #0067FF;
 }
 
+.dropdown .dropdown_item a:hover p {
+  color: #858791;
+}
+
 .dropdown .dropdown_image {
   flex: 0 0 61px;
   max-width: 61px;
@@ -5627,16 +5645,21 @@ input:-webkit-autofill {
   margin: 0 0 2px;
   line-height: 1;
   color: #051E50;
-  transition: color 0.4s;
 }
 
 .dropdown .dropdown_content h5 {
   font-size: 17px;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .dropdown .dropdown_content p {
   margin: 0;
+}
+
+.nav > ul > li.isActive .nav_link {
+  /*color:#0067FF;*/
+  color: #004FFE;
+  font-weight: 600;
 }
 
 /* Tablet Portrait */
@@ -5715,7 +5738,7 @@ input:-webkit-autofill {
 
 .nav > ul {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   padding: 0 14px 0 5px;
   margin-left: 0;
 }
@@ -5755,19 +5778,6 @@ input:-webkit-autofill {
 
 .nav .text-white {
   color: #fff;
-}
-
-.nav .dropdown {
-  position: absolute;
-  top: 100%;
-  left: -212px;
-  transform: scale(0.95);
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.4s, transform 0.4s;
-  transform-origin: top center;
-  will-change: opacity, transform;
-  width: 485px;
 }
 
 .nav > ul > li:nth-child(2) .dropdown {
@@ -5898,12 +5908,6 @@ input:-webkit-autofill {
   .dropdown:before {
     position: absolute;
     border: 10px;
-  }
-
-  .nav > ul > li.isActive a {
-    /*color:#0067FF;*/
-    color: #004FFE;
-    font-weight: 600;
   }
 
   /* dropdown items hover and active state */

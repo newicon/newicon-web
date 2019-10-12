@@ -17,8 +17,9 @@
 				.block {padding: 100px 0;}
 			}
 			.cardDark { background:rgba(0,0,0,0.5); border-radius:8px; padding:50px; }
+			[data-aos="fade-up"] { opacity:0 }
 
-			/* Styles for menu */
+
 			</style>
         {/literal}{/css}
 	</head>
@@ -63,7 +64,6 @@
 						<li>
 							<a href="#">
 								<svg width="20px" height="14px" viewbox="0 0 20 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-									<!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
 									<g id="Mobile-Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
 										<g id="Homepage" transform="translate(-154.000000, -5904.000000)" stroke="currentColor" stroke-width="1.5">
 											<g id="Group-24" transform="translate(0.000000, 5885.000000)">
@@ -85,7 +85,6 @@
 						<li>
 							<a href="#">
 								<svg width="22px" height="22px" viewbox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-									<!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
 									<g id="Mobile-Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
 										<g id="Homepage" transform="translate(-280.000000, -5900.000000)" stroke="currentColor" stroke-width="1.5">
 											<g id="Group-24" transform="translate(0.000000, 5885.000000)">

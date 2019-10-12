@@ -4,7 +4,10 @@
 		{"type": "vcs", "url": "git@bitbucket.org:newicon/neon.git"}
 	],
 	"require": {
-		"php": ">=7.0",
+		"php": "^7.2",
+		"ext-json": "*",
+		"ext-mbstring": "*",
+		"ext-openssl": "*",
 		"newicon/neon": "dev-steve-cms-pages"
 	}
 }

@@ -3,17 +3,17 @@
 \* ------------------------------------------------------------ */
 
 .dropdown { width: 485px; padding: 8px 0 12px; border-radius: 8px; background-color: $white; box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.25), 0 30px 60px -30px rgba(0, 0, 0, 0.3), 0 -18px 60px -10px rgba(0, 0, 0, 0.025);}
+.nav .dropdown { position: absolute; top: 100%; left: -212px; transform: scale(0.95); opacity: 0; pointer-events: none; transition: opacity .4s, transform .4s; transform-origin: top center; will-change:opacity, transform; width: 485px; }
+
+.nav .dropdown.isTwoColumn {width:600px; left:calc(-600px/2 + 50%)}
+.isTwoColumn .dropdown_group{ display:flex; }
 
 .dropdown .dropdown_group { padding: 19px 25px 19px 30px; }
 
 .dropdown .dropdown_group + .dropdown_group { margin-top: 23px; border-top: 1px solid $gray8; }
 
-.dropdown .dropdown_group > h1,
-.dropdown .dropdown_group > h2,
-.dropdown .dropdown_group > h3,
-.dropdown .dropdown_group > h4,
-.dropdown .dropdown_group > h5,
-.dropdown .dropdown_group > h6 { margin-bottom: 25px; font-weight: 600; color: $gray; letter-spacing: .05em; text-transform: uppercase; }
+.titleContext { font-size:$h6-font-size; margin-bottom: 25px;  font-weight: 600; color: $gray; letter-spacing: .05em; text-transform: uppercase;}
+
 
 .dropdown .dropdown_group ul { padding: 0 2px 0 8px; margin: 0; list-style-type: none; }
 
@@ -27,6 +27,7 @@
 .dropdown .dropdown_item a:hover .dropdown_content h4,
 .dropdown .dropdown_item a:hover .dropdown_content h5,
 .dropdown .dropdown_item a:hover .dropdown_content h6 { color: $blue3; }
+.dropdown .dropdown_item a:hover p { color: $gray4; }
 
 .dropdown .dropdown_image { flex: 0 0 61px; max-width: 61px; padding: 0 14px; }
 
@@ -37,11 +38,19 @@
 .dropdown .dropdown_content h3,
 .dropdown .dropdown_content h4,
 .dropdown .dropdown_content h5,
-.dropdown .dropdown_content h6 { margin: 0 0 2px; line-height: 1; color: $blue8; transition: color .4s; }
+.dropdown .dropdown_content h6 { margin: 0 0 2px; line-height: 1; color: $blue8;}
 
-.dropdown .dropdown_content h5 { font-size: 17px; font-weight:400 }
+.dropdown .dropdown_content h5 { font-size: 17px; font-weight:600 }
 
 .dropdown .dropdown_content p { margin: 0; }
+
+
+// show active link state when on the url
+.nav > ul > li.isActive .nav_link {
+  /*color:#0067FF;*/
+  color: $blue21;
+  font-weight:600;
+}
 
 /* Tablet Portrait */
 
@@ -87,7 +96,7 @@
 
 .nav { font-weight: 300; font-size: 15px; color: $blue2; }
 
-.nav > ul { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-evenly; padding: 0 14px 0 5px; margin-left:0; }
+.nav > ul { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; padding: 0 14px 0 5px; margin-left:0; }
 
 .nav > ul > li { position: relative; }
 
@@ -102,13 +111,13 @@
 
 .nav .text-white { color: $white; }
 
-.nav .dropdown { position: absolute; top: 100%; left: -212px; transform: scale(0.95); opacity: 0; pointer-events: none; transition: opacity .4s, transform .4s; transform-origin: top center; will-change:opacity, transform; width: 485px; }
 
 .nav > ul > li:nth-child(2) .dropdown { left: 35%; transform: translateX(-35%); }
 
 @media (min-width: $breakpoint-min-desktop) {
 	.nav .has_dropdown:hover .dropdown { opacity: 1; pointer-events: all;  transform: none; }
 	.nav .has_dropdown:hover:after { opacity: 1; pointer-events: all; }
+
 }
 
 @media (min-width: $breakpoint-tablet-portrait ) and (max-width: 1500px) {
@@ -160,12 +169,6 @@
 		border: 10px;
 	}
 
-// show active link state when on the url
-	.nav > ul > li.isActive a {
-		/*color:#0067FF;*/
-		color: $blue21;
-		font-weight:600;
-	}
 
 	/* dropdown items hover and active state */
 	//.nav > ul > li.isActive a:after { -webkit-transform: translateX(-50%) scaleX(1);-ms-transform: translateX(-50%) scaleX(1);transform: translateX(-50%) scaleX(1); }
