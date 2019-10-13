@@ -8,8 +8,7 @@
 			<div class="intro_inner">
 				<div class="intro_content">
 					<div class="intro_entry">
-{*						<h1 class="intro_title">Your digital future is our business.</h1><!-- /.intro_title -->*}
-						<h1 style="font-size:50px; letter-spacing: 1px;color: black;"><span style="font-weight:700">new</span><span style="font-weight:300;padding-left:3px;" class="text-success" data-toggle="typed" data-options='{ "strings": ["thinking", "ideas", "tomorrow", "icon^5000"] }'></span></h1>
+						<h1 class="intro_title">Your journey to the clouds starts here.</h1>
 						{static_block key="homepage_callout" wys=true}
 							<p>We use design and software engineering to transform your future. Newicon. New tomorrow.</p>
 						{/static_block}

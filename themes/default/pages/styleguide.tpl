@@ -11,6 +11,10 @@
 	        body="A summary of the main building blocks of the newicon site"
         }
 
+        {static_block key="homepage_callout" wys=true}
+			<p>We use design and software engineering to transform your future. Newicon. New tomorrow.</p>
+	        <!-- nc:p --> Here is is <!-- /nc:p -->
+        {/static_block}
 
 		<section class="section section-secondary">
 			<div class="shell">
@@ -23,6 +27,9 @@
 			</div>
 		</section>
 
+		<h1 style="font-size:50px; letter-spacing: 1px;color: black;"><span style="font-weight:700">new</span><span style="font-weight:300;padding-left:3px;" class="text-success" data-toggle="typed" data-options='{ "strings": ["thinking", "ideas", "tomorrow", "icon^5000"] }'></span></h1>
+
+		{drop_zone id="dropzone1"}{/drop_zone}
 
 
 	</div><!-- /.main -->
