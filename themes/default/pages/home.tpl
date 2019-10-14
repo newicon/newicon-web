@@ -1,6 +1,6 @@
 {extends "layouts/layout.tpl"}
 {block "header"}
-	{navigation white=['join','approach','contact','login'] }
+	{navigation white=['about','approach','contact'] }
 {/block}
 {block "content"}
 	<div class="main">
@@ -8,7 +8,7 @@
 			<div class="intro_inner">
 				<div class="intro_content">
 					<div class="intro_entry">
-						<h1 class="intro_title">Your journey to the clouds starts here.</h1>
+						<h1 class="intro_title">Go beyond the cloud.</h1>
 						{static_block key="homepage_callout" wys=true}
 							<p>We use design and software engineering to transform your future. Newicon. New tomorrow.</p>
 						{/static_block}
@@ -23,44 +23,22 @@
 					<style type="text/css">
 						{literal}
 						.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#00163D;}  .st1{opacity:0.3;}  .st2{filter:url(#filter-4);}  .st3{fill:#FFFFFF;}  .st4{filter:url(#filter-6);}  .st5{fill:#7EF2FE;}  .st6{filter:url(#filter-10);}  .st7{filter:url(#filter-12);}  .st8{filter:url(#filter-24);}  .st9{filter:url(#filter-28);}  .st10{fill:#72FFBF;}  .st11{filter:url(#filter-30);}  .st12{filter:url(#filter-32);}  .st13{filter:url(#filter-34);}  .st14{filter:url(#filter-38);}  .st15{filter:url(#filter-54);}  .st16{filter:url(#filter-58);}  .st17{filter:url(#filter-60);}  .st18{opacity:0.4;}  .st19{filter:url(#filter-64);}  .st20{filter:url(#filter-66);}  .st21{filter:url(#filter-68);}  .st22{filter:url(#filter-70);}  .st23{filter:url(#filter-72);}  .st24{filter:url(#filter-74);}  .st25{filter:url(#filter-76);}  .st26{filter:url(#filter-78);}  .st27{filter:url(#filter-80);}  .st28{filter:url(#filter-82);}  .st29{filter:url(#filter-84);}  .st30{filter:url(#filter-86);}  .st31{filter:url(#filter-88);}  .st32{filter:url(#filter-90);}  .st33{filter:url(#filter-92);}  .st34{filter:url(#filter-94);}  .st35{filter:url(#filter-96);}  .st36{filter:url(#filter-98);}  .st37{filter:url(#filter-100);}  .st38{filter:url(#filter-104);}  .st39{filter:url(#filter-108);}  .st40{filter:url(#filter-110);}  .st41{filter:url(#filter-112);}  .st42{filter:url(#filter-114);}  .st43{filter:url(#filter-116);}  .st44{filter:url(#filter-118);}  .st45{filter:url(#filter-120);}  .st46{filter:url(#filter-142);}  .st47{filter:url(#filter-146);}  .st48{filter:url(#filter-148);}  .st49{filter:url(#filter-174);}  .st50{filter:url(#filter-178);}  .st51{opacity:0.67;}  .st52{filter:url(#filter-184);}  .st53{filter:url(#filter-186);}  .st54{filter:url(#filter-188);}  .st55{filter:url(#filter-190);}  .st56{filter:url(#filter-192);}  .st57{filter:url(#filter-194);}  .st58{filter:url(#filter-200);}  .st59{filter:url(#filter-204);}  .st60{filter:url(#filter-210);}  .st61{filter:url(#filter-212);}  .st62{filter:url(#filter-214);}  .st63{filter:url(#filter-216);}  .st64{filter:url(#filter-218);}  .st65{filter:url(#filter-220);}  .st66{filter:url(#filter-222);}  .st67{filter:url(#filter-226);}  .st68{filter:url(#filter-228);}  .st69{filter:url(#filter-230);}  .st70{filter:url(#filter-232);}  .st71{filter:url(#filter-234);}  .st72{filter:url(#filter-236);}  .st73{filter:url(#filter-238);}  .st74{filter:url(#filter-242);}  .st75{filter:url(#filter-244);}  .st76{filter:url(#filter-246);}  .st77{filter:url(#filter-248);}  .st78{filter:url(#filter-250);}  .st79{filter:url(#filter-254);}  .st80{filter:url(#filter-256);}  .st81{filter:url(#filter-258);}  .st82{filter:url(#filter-262);}  .st83{filter:url(#filter-264);}  .st84{filter:url(#filter-266);}  .st85{filter:url(#filter-268);}  .st86{filter:url(#filter-272);}  .st87{filter:url(#filter-274);}  .st88{filter:url(#filter-276);}   .st90{filter:url(#filter-280);}  .st91{filter:url(#filter-282);}  .st92{filter:url(#filter-284);}  .st93{filter:url(#filter-288);}  .st94{fill-rule:evenodd;clip-rule:evenodd;fill:#EDF2F7;}  .st95{fill:#082362;}  .st96{fill:#0096FF;}  .st97{fill:#00163D;}  .st98{fill:#11358B;}  .st99{fill:#0C245B;}  .st100{fill:#0082DE;}  .st101{fill:#9ABBDC;}  .st102{fill:#7898B9;}  .st103{fill:#FFFFFF;fill-opacity:0.1153;stroke:#0096FF;stroke-width:0.9;}  .st104{fill:#EDF2F7;}  .st105{fill:#002465;}  .st106{fill:#0D3B8F;}  .st107{fill:#072E77;}  .st108{fill:#BBE2FF;}  .st109{fill:#7FBBE8;}  .st110{fill:#0475C5;}  .st111{opacity:0.3;fill:#91C0CB;enable-background:new    ;}  .st112{fill:#1D4EA8;}  .st113{filter:url(#Adobe_OpacityMaskFilter);}  .st114{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}  .st115{mask:url(#mask-294_1_);fill:#0D3B8F;}  .st116{filter:url(#Adobe_OpacityMaskFilter_1_);}  .st117{mask:url(#mask-294_2_);fill:#05296E;}  .st118{filter:url(#Adobe_OpacityMaskFilter_2_);}  .st119{mask:url(#mask-294_4_);fill:#0096FF;}  .st120{fill:#000E48;}  .st121{fill-rule:evenodd;clip-rule:evenodd;fill:#05296E;}  .st122{fill-rule:evenodd;clip-rule:evenodd;fill:#021E53;}  .st123{fill:#082C6F;}  .st124{fill:#08327E;}  .st125{fill:#134092;}  .st126{fill:#2B5CB6;}  .st127{fill:#05296E;}  .st128{fill:#02215D;}  .st129{filter:url(#Adobe_OpacityMaskFilter_3_);}  .st130{mask:url(#mask-296_1_);fill:#0096FF;}  .st131{fill-rule:evenodd;clip-rule:evenodd;fill:#002465;}  .st132{fill:#134AAD;}  .st133{fill:#021A45;}  .st134{fill-rule:evenodd;clip-rule:evenodd;fill:#81CBFF;}  .st135{fill-rule:evenodd;clip-rule:evenodd;fill:#0096FF;}  .st136{filter:url(#Adobe_OpacityMaskFilter_4_);}  .st137{mask:url(#mask-292_1_);fill:#134092;}  .st138{opacity:0.5;fill-rule:evenodd;clip-rule:evenodd;fill:#ACC9FF;enable-background:new    ;}
-
 						@keyframes float4 {
-							0% {
-								transform: translate(0px, 0px);
-							}
-							50% {
-								transform: translate(1%, -2%);
-							}
-							100% {
-								transform: translate(0px, 0px);
-							}
+							0% {transform: translate(0px, 0px);}
+							50% {transform: translate(1%, -2%);}
+							100% {transform: translate(0px, 0px);}
 						}
-
 						@keyframes floatSmall {
-							0% {
-								transform: translateY(0px);
-							}
-							50% {
-								transform: translateY(-1.5%);
-							}
-							100% {
-								transform: translateY(0px);
-							}
+							0% {transform: translateY(0px);}
+							50% {transform: translateY(-1.5%);}
+							100% {transform: translateY(0px);}
 						}
 						@keyframes floatTiny {
-							0% {
-								transform: translate(0px, 0px);
-							}
-							50% {
-								transform: translate(2px, 3px);
-							}
-							100% {
-								transform: translate(0px, 0px);
-							}
+							0% {transform: translate(0px, 0px);}
+							50% {transform: translate(2px, 3px);}
+							100% {transform: translate(0px, 0px);}
 						}
-
 						{/literal}
-
 					</style>
 					<filter filterUnits="objectBoundingBox" height="860.5%" id="filter-98" width="863.6%" x="-381.8%" y="-380.3%">
 						<feMorphology in="SourceAlpha" operator="dilate" radius="0.5" result="shadowSpreadOuter1"></feMorphology>

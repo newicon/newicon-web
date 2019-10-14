@@ -51,7 +51,6 @@
 						<a class="nav_link" href="#">services</a>
 						<div class="dropdown">
 							<div class="dropdown_group">
-								<h6 class="titleContext">Featured Services</h6>
 								<ul>
 									<li class="dropdown_item {(on_url({page_url nice='architecture'}))?'isActive':''}">
 										<a href="{page_url nice='architecture'}">
@@ -98,17 +97,12 @@
 						<a class="nav_link" href="{page_url nice='work'}">work</a>
 					</li>
 
-					<li class="{(in_array('blog', $white)||$inverse) ? 'text-white' : ''} {(on_url({page_url nice='blog'}))?'isActive':''}">
-						<a class="nav_link" href="{page_url nice='blog'}">blog</a>
-					</li>
-
 					<li class="{(in_array('about', $white)||$inverse) ? 'text-white' : ''}
 					{({on_page id=['about', 'culture', 'history', 'team', 'brand-values']}) ? 'isActive':''} has_dropdown">
 						<a class="nav_link" href="{page_url nice='about'}">about</a>
 						<div class="dropdown isTwoColumn">
 							<div class="dropdown_group" >
 								<div style="flex:1">
-									<h6 class="titleContext">About us</h6>
 									<ul>
 										<li class="dropdown_item {(on_url({page_url nice='about'}))?'isActive':''}">
 											<a href="{page_url nice='about'}">
@@ -135,7 +129,7 @@
 												<div class="dropdown_image"><i class="ico-history"></i></div>
 												<div class="dropdown_content">
 													<h5>History</h5>
-													<p>Learn about where we started and how we’ve grown</p>
+													<p>See where we started and how we’ve grown</p>
 												</div>
 											</a>
 										</li>
@@ -154,7 +148,6 @@
 									</ul>
 								</div>
 								<div style="flex:1">
-									<h6 class="titleContext">Careers</h6>
 									<ul>
 										<li class="dropdown_item  {(on_url({page_url nice='brand-values'}))?'isActive':''}">
 											<a href="{page_url nice='brand-values'}">
@@ -166,15 +159,30 @@
 											</a>
 										</li>
 										<li class="dropdown_item {(on_url({page_url nice='join'}))?'isActive':''}">
-											<a href="{page_url nice='join'}"><div class="dropdown_image"><i class="ico-puzzle"></i></div><div class="dropdown_content">
-												<h5>Join the team</h5>
-												<p>Open job oportunities in Newicon</p></div>
+											<a href="{page_url nice='join'}">
+												<div class="dropdown_image"><i class="ico-puzzle"></i></div>
+												<div class="dropdown_content">
+													<h5>Join the team</h5>
+													<p>Open job oportunities in Newicon</p>
+												</div>
 											</a>
 										</li>
 										<li class="dropdown_item {(on_url({page_url nice='why-join'}))?'isActive':''}">
-											<a href="{page_url nice='why-join'}"><div class="dropdown_image"><i class="ico-piece-pizza"></i></div><div class="dropdown_content">
-												<h5>Why join us?</h5>
-												<p>Why choose Newicon to grow your career</p></div>
+											<a href="{page_url nice='why-join'}">
+												<div class="dropdown_image"><i class="ico-piece-pizza"></i></div>
+												<div class="dropdown_content">
+													<h5>Why join us?</h5>
+													<p>Why choose Newicon to grow your career</p>
+												</div>
+											</a>
+										</li>
+										<li class="dropdown_item {(on_url({page_url nice='blog'}))?'isActive':''}">
+											<a href="{page_url nice='blog'}">
+												<div class="dropdown_image"><i class="ico-blog"></i></div>
+												<div class="dropdown_content">
+													<h5>Blog</h5>
+													<p>Why choose Newicon to grow your career</p>
+												</div>
 											</a>
 										</li>
 									</ul>
@@ -190,7 +198,6 @@
 						<a class="nav_link" href="{page_url nice='approach'}">approach</a>
 						<div class="dropdown">
 							<div class="dropdown_group">
-								<h6 class="titleContext">Our Approach</h6>
 								<ul>
 									<li class="dropdown_item {(on_url({page_url nice='approach'}))?'isActive':''}">
 										<a href="{page_url nice='approach'}">
@@ -268,9 +275,7 @@
 						<a class="nav_link" href="{page_url nice='contact'}">contact</a>
 					</li>
 
-					<li class="{(in_array('login', $white)||$inverse) ? 'text-white' : ''} {(on_url({page_url nice='login'}))?'isActive':''}">
-						<a class="nav_link" href="#">login</a>
-					</li>
+
 				</ul>
 			</nav><!-- /.nav -->
 

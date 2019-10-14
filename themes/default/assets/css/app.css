@@ -5548,7 +5548,7 @@ input:-webkit-autofill {
 \* ------------------------------------------------------------ */
 .dropdown {
   width: 485px;
-  padding: 8px 0 12px;
+  padding: 0;
   border-radius: 8px;
   background-color: #fff;
   box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.25), 0 30px 60px -30px rgba(0, 0, 0, 0.3), 0 -18px 60px -10px rgba(0, 0, 0, 0.025);
@@ -5577,7 +5577,7 @@ input:-webkit-autofill {
 }
 
 .dropdown .dropdown_group {
-  padding: 19px 25px 19px 30px;
+  padding: 0;
 }
 
 .dropdown .dropdown_group + .dropdown_group {
@@ -5595,13 +5595,14 @@ input:-webkit-autofill {
 }
 
 .dropdown .dropdown_group ul {
-  padding: 0 2px 0 8px;
+  padding: 0;
   margin: 0;
   list-style-type: none;
 }
 
-.dropdown .dropdown_group li + li {
-  margin-top: 39px;
+.dropdown .dropdown_group .dropdown_item {
+  margin: 38px;
+  padding: 0;
 }
 
 .dropdown .dropdown_item a {
@@ -12143,6 +12144,16 @@ input:-webkit-autofill {
   font-size: 0px;
 }
 
+.ico-blog {
+  background: url(../images/sprite/ico-blog.svg) no-repeat 0 0;
+  background-size: 100% 100%;
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0px;
+}
+
 .ico-dna {
   background: url(../images/sprite/ico-dna.png) no-repeat 0 0;
   background-size: 100% 100%;
@@ -12516,6 +12527,16 @@ input:-webkit-autofill {
 
   .ico-website {
     background: url(../images/sprite/ico-website@2x.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0px;
+  }
+
+  .ico-blog {
+    background: url(../images/sprite/ico-blog.svg) no-repeat 0 0;
     background-size: 100% 100%;
     width: 34px;
     height: 34px;
