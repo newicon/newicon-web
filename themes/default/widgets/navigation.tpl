@@ -42,11 +42,11 @@
 			<nav class="nav">
 				<ul>
 					<li class="visible-xs-block visible-sm-block"><a href="#"></a></li>
-					<li class="navBrand hidden-xs hidden-sm {(in_array('newicon', $white)||$inverse) ? 'text-white' : ''}">
+					<li class="navBrand hidden-xs hidden-sm {(in_array('newicon', $white)||$inverse) ? 'textLight' : ''}">
 						<a href="{page_url nice="home"}"><img src="{(in_array('newicon', $white)||$inverse) ? {asset path='/images/logo-white-secondary@2x.png'}:{asset path='/images/newicon.svg'}}" alt="" width="70" height="15"></a>
 					</li>
 					<li class="navServices has_dropdown
-						{(in_array('services', $white)||$inverse) ? 'text-white' : ''}
+						{(in_array('services', $white)||$inverse) ? 'textLight' : ''}
 						{({on_page id=['architecture', 'software', 'web-development', 'digital-marketing']}) ? 'isActive': ''}">
 						<a class="nav_link" href="#">services</a>
 						<div class="dropdown">
@@ -93,11 +93,11 @@
 						</div>
 					</li>
 
-					<li class="{(in_array('work', $white)||$inverse) ? 'text-white' : ''} {(on_url({page_url nice='work'}))?'isActive':''}">
+					<li class="{(in_array('work', $white)||$inverse) ? 'textLight' : ''} {(on_url({page_url nice='work'}))?'isActive':''}">
 						<a class="nav_link" href="{page_url nice='work'}">work</a>
 					</li>
 
-					<li class="{(in_array('about', $white)||$inverse) ? 'text-white' : ''}
+					<li class="{(in_array('about', $white)||$inverse) ? 'textLight' : ''}
 					{({on_page id=['about', 'culture', 'history', 'team', 'brand-values']}) ? 'isActive':''} has_dropdown">
 						<a class="nav_link" href="{page_url nice='about'}">about</a>
 						<div class="dropdown isTwoColumn">
@@ -191,7 +191,7 @@
 						</div><!-- /.dropdown -->
 					</li>
 
-					<li class="{(in_array('approach', $white)||$inverse) ? 'text-white' : ''}
+					<li class="{(in_array('approach', $white)||$inverse) ? 'textLight' : ''}
 						{({on_page id=['approach', 'architecture-process', 'technologies', 'neon']}) ? 'isActive': ''}
 						has_dropdown
 						">
@@ -244,46 +244,18 @@
 						</div><!-- /.dropdown -->
 					</li>
 
-{*					<li class="{(in_array('join', $white)||$inverse) ? 'text-white' : ''}*}
-{*						{(on_url({page_url nice='join'}, {page_url nice='why-join'}))?'isActive':''}*}
-{*						has_dropdown*}
-{*						">*}
-{*						<a href="{page_url nice='join'}">careers</a>*}
-
-{*						<div class="dropdown">*}
-{*							<div class="dropdown_group">*}
-{*								<h6 class="titleContext">Careers</h6>*}
-{*								<ul>*}
-{*									<li class="dropdown_item {(on_url({page_url nice='join'}))?'isActive':''}">*}
-{*										<a href="{page_url nice='join'}"><div class="dropdown_image"><i class="ico-puzzle"></i></div><div class="dropdown_content">*}
-{*											<h5>Join the team</h5>*}
-{*											<p>Open job oportunities in Newicon</p></div>*}
-{*										</a>*}
-{*									</li>*}
-{*									<li class="dropdown_item {(on_url({page_url nice='why-join'}))?'isActive':''}">*}
-{*										<a href="{page_url nice='why-join'}"><div class="dropdown_image"><i class="ico-piece-pizza"></i></div><div class="dropdown_content">*}
-{*											<h5>Why join us?</h5>*}
-{*											<p>Why choose Newicon to grow your career</p></div>*}
-{*										</a>*}
-{*									</li>*}
-{*								</ul>*}
-{*							</div><!-- /.dropdown_group -->*}
-{*						</div><!-- /.dropdown -->*}
-{*					</li>*}
-
-					<li class="{(in_array('contact', $white)||$inverse) ? 'text-white' : ''} {(on_url({page_url nice='contact'}))?'isActive':''}">
+					<li class="{(in_array('contact', $white)||$inverse) ? 'textLight' : ''} {(on_url({page_url nice='contact'}))?'isActive':''}">
 						<a class="nav_link" href="{page_url nice='contact'}">contact</a>
 					</li>
-
 
 				</ul>
 			</nav><!-- /.nav -->
 
-			<a href="{page_url nice="home"}" class="logo">
-				<img src="{asset path='/images/logo-mobile@2x.png'}" alt="" width="70" height="15">
+			<a href="{page_url nice="home"}" class="header_mobileLogo">
+				<img src="{asset path='/images/newicon.svg'}" alt="Newicon logo" width="100">
 			</a>
 
-			<a href="#" class="navTrigger {(in_array('contact', $white)||$inverse) ? 'text-white' : ''}">
+			<a href="#" class="navTrigger">
 				<span></span>
 				<span></span>
 			</a>

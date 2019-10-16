@@ -12,6 +12,12 @@
 						{static_block key="homepage_callout" wys=true}
 							<p>We use design and software engineering to transform your future. Newicon. New tomorrow.</p>
 						{/static_block}
+
+ 						{drop_zone id='qwef'}
+						    <!-- cmp:myComponent { text: '123' } -->
+						    <p>123</p>
+						    <!-- /cmp:myComponent -->
+						{/drop_zone}
 						<div class="intro_actions">
 							<a href="#" class="btn btn-primary _shadow">Start a conversation</a>
 							<a href="{page_url nice='work'}" class="btn btn-primary btn-outline hidden-xs hidden-sm hidden-md">See our work</a>

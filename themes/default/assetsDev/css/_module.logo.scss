@@ -1,9 +1,0 @@
-/* ------------------------------------------------------------ *\
-	Logo
-\* ------------------------------------------------------------ */
-
-.logo { position: relative; display: inline-block; font-size: 0; }
-
-.logo img { transition: opacity .4s .4s; }
-
-.logo .activeLogo { position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; }

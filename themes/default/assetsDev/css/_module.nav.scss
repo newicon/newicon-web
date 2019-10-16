@@ -109,15 +109,13 @@
 
 .nav > ul > li.navBrand > a {padding: 19px 0 30px;}
 
-.nav .text-white { color: $white; }
-
+.nav .textLight { color: $white; }
 
 .nav > ul > li:nth-child(2) .dropdown { left: 35%; transform: translateX(-35%); }
 
 @media (min-width: $breakpoint-min-desktop) {
 	.nav .has_dropdown:hover .dropdown { opacity: 1; pointer-events: all;  transform: none; }
 	.nav .has_dropdown:hover:after { opacity: 1; pointer-events: all; }
-
 }
 
 @media (min-width: $breakpoint-tablet-portrait ) and (max-width: 1500px) {
@@ -159,7 +157,7 @@
 	.nav .has_dropdown.open > a:before { transform: scaleY(-1); }
 	.nav .dropdown { position: relative; top: 0; left: 0; display: none; transform: none; opacity: 1; pointer-events: all; }
 	.nav > ul > li:nth-child(2) .dropdown { left: 0; transform: none; }
-	.nav .text-white { color: inherit; }
+	.nav .textLight { color: inherit; }
 }
 
 @media (min-width: $breakpoint-tablet-portrait) {
@@ -178,8 +176,8 @@
 	.dropdown:after { position: absolute;display: block;border-width: 10px;left: 50%;border-style: solid;content: " ";border-color: transparent transparent #ffffff transparent;top: -19px;margin-left: -10px;}
 }
 
-.navTrigger.text-white span { background:white; }
-.navTrigger.navTrigger-active.text-white span { background:black; }
+.navTrigger.textLight span { background:white; }
+.navTrigger.navTrigger-active.textLight span { background:black; }
 
 /* ------------------------------------------------------------ *\
 	Nav Trigger

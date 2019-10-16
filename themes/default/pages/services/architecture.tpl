@@ -13,7 +13,7 @@
 	        callBtn=true
         }
 
-		<div class="intro_image" data-aos="fade-up" data-aos-delay="300">
+		<div class="intro_image" data-aos="fade-up" data-aos-delay="0">
 			<img src="{asset path='/images/illustrations/Architecture UX Illustration.svg'}" alt="Architecture user experience design illustration">
 		</div>
 

@@ -9,9 +9,7 @@
 				<div class="intro_content">
 					<div class="intro_entry">
 						<h1 class="intro_title">Culture</h1><!-- /.intro_title -->
-
 						<h4 class="intro_subtitle">Find the right people and you can’t lose</h4><!-- /.intro_subtitle -->
-
 						<p>
 							We have been successfully providing our clients digital solutions for over 10 years.
 						</p>
@@ -26,33 +24,6 @@
 			</div><!-- /.intro_inner -->
 		</div><!-- /.introQuaternary -->
 
-		<section class="sectionNav">
-			<div class="shell shell-sm">
-				<div class="section_content">
-					<nav class="navSecondary">
-						<ul>
-							<li>
-								<a href="{page_url nice='about'}">About us</a>
-							</li>
-
-							<li class="current">
-								<a href="{page_url nice='culture'}">Culture</a>
-							</li>
-
-							<li>
-								<a href="{page_url nice='history'}">History</a>
-							</li>
-							<li class="">
-								<a href="{page_url nice='culture'}">qwef</a>
-							</li>
-							<li class="">
-								<a href="{page_url nice='culture'}">qwef</a>
-							</li>
-						</ul>
-					</nav><!-- /.navSecondary -->
-				</div><!-- /.section_content -->
-			</div><!-- /.shell -->
-		</section><!-- /.sectionNav -->
 
 		<section class="sectionText sectionText-tertiary">
 			<div class="section_content">
@@ -75,8 +46,7 @@
 		<section class="section section-services section-gray">
 			<div class="shell">
 				<header class="section_head">
-					<h2>Why we do it</h2>
-
+					<h2>{static_block key='hello' wys=false}Why we do it{/static_block}</h2>
 					<p>
 						We want to work with likeminded people and organisations who challenge, invent, and create.
 					</p>
@@ -92,12 +62,9 @@
 
 								<div class="service_content">
 									<h3>Future</h3>
-
-									<h5>A sub line can go here</h5>
-
-									<p>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-									</p>
+									{static_block key='value_future' wys=true}
+										<p>We don’t want to walk blindly into the future, we want to forge ahead and shape it. And we believe that people-centric technology is the key to achieving that.</p>
+									{/static_block}
 								</div><!-- /.service_content -->
 
 								<div class="service_imageText service_imageText-position2">
@@ -114,12 +81,9 @@
 
 								<div class="service_content">
 									<h3>People</h3>
-
-									<h5>A sub line can go here</h5>
-
-									<p>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-									</p>
+									{static_block key='value_people' wys=true}
+										<p>Technology exists to serve people, and people need to be considered from the very creation of an idea, right through to a product being brought to market.</p>
+									{/static_block}
 								</div><!-- /.service_content -->
 
 								<div class="service_imageText service_imageText-position1">
@@ -136,12 +100,9 @@
 
 								<div class="service_content">
 									<h3>Invention</h3>
-
-									<h5>A sub line can go here</h5>
-
-									<p>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-									</p>
+                                    {static_block key='value_invention' wys=true}
+										<p>Necessity is the mother of all invention. But that’s far from the whole family tree. Curiosity. Creativity. Courage. They’re all part of the invention gene pool. </p>
+                                    {/static_block}
 								</div><!-- /.service_content -->
 
 								<div class="service_imageText service_imageText-position3">

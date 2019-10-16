@@ -25,27 +25,6 @@
 			</div><!-- /.intro_inner -->
 		</div><!-- /.introQuaternary -->
 
-		<section class="sectionNav">
-			<div class="shell shell-sm">
-				<div class="section_content">
-					<nav class="navSecondary">
-						<ul>
-							<li class="current">
-								<a href="{page_url nice='about'}">About us</a>
-							</li>
-
-							<li>
-								<a href="{page_url nice='culture'}">Culture</a>
-							</li>
-
-							<li>
-								<a href="{page_url nice='history'}">History</a>
-							</li>
-						</ul>
-					</nav><!-- /.navSecondary -->
-				</div><!-- /.section_content -->
-			</div><!-- /.shell -->
-		</section><!-- /.sectionNav -->
 
 		<section class="sectionText">
 			<div class="shell shell-sm">

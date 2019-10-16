@@ -3,6 +3,11 @@
     {navigation}
 {/block}
 {block "content"}
+	<style>
+		.caveat { font-family: caveat   color: #0067FF; }
+		.trashhand { font-family: TrashHand, Arial ; color: #0067FF; }
+		.trashhand { font-family: TrashHand, Arial ; color: #0067FF; font-size:24px; line-height: 32px; }
+	</style>
 	<div class="main">
         {hero_text
 	        title="Styleguide"
@@ -27,10 +32,25 @@
 			</div>
 		</section>
 
-		<h1 style="font-size:50px; letter-spacing: 1px;color: black;"><span style="font-weight:700">new</span><span style="font-weight:300;padding-left:3px;" class="text-success" data-toggle="typed" data-options='{ "strings": ["thinking", "ideas", "tomorrow", "icon^5000"] }'></span></h1>
+{*		<h1 style="font-size:50px; letter-spacing: 1px;color: black;"><span style="font-weight:700">new</span><span style="font-weight:300;padding-left:3px;" class="text-success" data-toggle="typed" data-options='{ "strings": ["thinking", "ideas", "tomorrow", "icon^5000"] }'></span></h1>*}
 
-		{drop_zone id="dropzone1"}{/drop_zone}
+		{drop_zone id="dropzone1"}
 
+		{/drop_zone}
+
+		<div>
+			<h1>Trash hand</h1>
+
+			<div class="caveat">
+				Working hard since 2008
+			</div>
+
+
+			<div class="trashhand">
+				Working hard since 2008
+			</div>
+
+		</div>
 
 	</div><!-- /.main -->
 {/block}

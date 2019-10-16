@@ -680,6 +680,11 @@ li {
   font-weight: bold;
   font-style: normal;
 }
+@font-face {
+  font-family: "TrashHand";
+  src: url("../fonts/TrashHand.ttf") format("woff"), url("../fonts/TrashHand.ttf") format("truetype");
+  font-style: normal;
+}
 /* ------------------------------------------------------------ *\
 	Helpers
 \* ------------------------------------------------------------ */
@@ -1160,11 +1165,14 @@ li {
   width: 100%;
 }
 
-.header .logo {
+.header_mobileLogo {
   display: none;
+  position: relative;
+  margin: 0 auto;
+  font-size: 0;
 }
 
-.header .navTrigger {
+.navTrigger {
   display: none;
 }
 
@@ -1186,11 +1194,11 @@ li {
     background-color: rgba(255, 255, 255, 0.7);
   }
 
-  .header .header_inner {
+  .header_inner {
     padding: 0 21px 0 27px;
   }
 
-  .header .logo {
+  .header_mobileLogo {
     display: block;
   }
 
@@ -1215,7 +1223,7 @@ li {
   }
 }
 @media (max-width: 375px) {
-  .header .logo {
+  .header_mobileLogo {
     margin-top: -3px;
   }
 }
@@ -5502,28 +5510,6 @@ input:-webkit-autofill {
   }
 }
 /* ------------------------------------------------------------ *\
-	Logo
-\* ------------------------------------------------------------ */
-.logo {
-  position: relative;
-  display: inline-block;
-  font-size: 0;
-}
-
-.logo img {
-  transition: opacity 0.4s 0.4s;
-}
-
-.logo .activeLogo {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-}
-
-/* ------------------------------------------------------------ *\
 	Mobile Bar
 \* ------------------------------------------------------------ */
 .mobile-bar {
@@ -5777,7 +5763,7 @@ input:-webkit-autofill {
   padding: 19px 0 30px;
 }
 
-.nav .text-white {
+.nav .textLight {
   color: #fff;
 }
 
@@ -5901,7 +5887,7 @@ input:-webkit-autofill {
     transform: none;
   }
 
-  .nav .text-white {
+  .nav .textLight {
     color: inherit;
   }
 }
@@ -5930,11 +5916,11 @@ input:-webkit-autofill {
     margin-left: -10px;
   }
 }
-.navTrigger.text-white span {
+.navTrigger.textLight span {
   background: white;
 }
 
-.navTrigger.navTrigger-active.text-white span {
+.navTrigger.navTrigger-active.textLight span {
   background: black;
 }
 
