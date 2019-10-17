@@ -255,7 +255,18 @@ import 'magnific-popup';
 
 		$('.navTrigger').on('click', function(event) {
 			$(this).toggleClass('navTrigger-active');
-			$('.nav').toggleClass('open');
+			var $nav = $('.nav');
+			if ($nav.is('.open')) {
+				$nav.addClass('isClosing');
+			} else {
+				$nav.addClass('isOpening');
+			}
+			setTimeout(function() {
+				$nav.removeClass('isClosing');
+				$nav.removeClass('isOpening');
+			}, 500)
+			$nav.toggleClass('open');
+			$('html').toggleClass('noScroll');
 			$('.header-secondary').toggleClass('navOpen');
 			event.preventDefault();
 		});

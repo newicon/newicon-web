@@ -1,40 +1,6 @@
 {* Is this necessary in smarty? :puke: *}
 {if (!isset($inverse ))} {$inverse=false} {/if}
 {if (!isset($white ))} {$white=[]} {/if}
-{*
-<style>
-	Rather neat css only way of adjusting text color based on bg
-	https://css-tricks.com/switch-font-color-for-different-backgrounds-with-css/
-	:root {
-		/* theme color variables to use in RGB declarations */
-		--bgred: 200;
-		--bggreen: 60;
-		--bgblue: 255;
-		/* the threshold at which colors are considered "light".
-		Range: decimals from 0 to 1, recommended 0.5 - 0.6 */
-		--threshold: 0.5;
-		/* the threshold at which a darker border will be applied.
-		Range: decimals from 0 to 1, recommended 0.8+ */
-		--border-threshold: 0.8;
-	}
-
-	.nav {
-		/* sets the background for the base class */
-		/*background: rgb(var(--bgred), var(--bggreen), var(--bgblue));*/
-
-		/* calculates perceived lightness using the sRGB Luma method
-		Luma = (red * 0.2126 + green * 0.7152 + blue * 0.0722) / 255 */
-		--r: calc(var(--bgred) * 0.2126);
-		--g: calc(var(--bggreen) * 0.7152);
-		--b: calc(var(--bgblue) * 0.0722);
-		--sum: calc(var(--r) + var(--g) + var(--b));
-		--perceived-lightness: calc(var(--sum) / 255);
-
-		/* shows either white or black color depending on perceived darkness */
-		color: hsl(0, 0%, calc((var(--perceived-lightness) - var(--threshold)) * -10000000%));
-	}
-</style>
-*}
 
 <header class="header">
 	<div class="shell shell-fluid">
@@ -72,48 +38,10 @@
 							<div class="dropdown_group" >
 								<div class="dropdown_col">
 									<ul>
-
-										<li class="dropdown_item {(on_url({page_url nice='about'}))?'isActive':''}">
-											<a href="{page_url nice='about'}">
-												<div class="dropdown_image"><i class="ico-peak"></i></div>
-												<div class="dropdown_content">
-													<h5>About us</h5>
-													<p>Our mission, vision and mantra</p>
-												</div>
-											</a>
-										</li>
-
-										<li class="dropdown_item {(on_url({page_url nice='culture'}))?'isActive':''}">
-											<a href="{page_url nice='culture'}">
-												<div class="dropdown_image"><i class="ico-social-circle"></i></div>
-												<div class="dropdown_content">
-													<h5>Culture</h5>
-													<p>Learn about the way we do things around here</p>
-												</div>
-											</a>
-										</li>
-
-										<li class="dropdown_item {(on_url({page_url nice='history'}))?'isActive':''}">
-											<a href="{page_url nice='history'}">
-												<div class="dropdown_image"><i class="ico-history"></i></div>
-												<div class="dropdown_content">
-													<h5>History</h5>
-													<p>See where we started and how we’ve grown</p>
-												</div>
-											</a>
-										</li>
-
-										<li class="dropdown_item  {(on_url({page_url nice='team'}))?'isActive':''}">
-											<a href="{page_url nice='team'}">
-												<div class="dropdown_image"><i class="ico-team"></i></div>
-												<div class="dropdown_content">
-													<h5>The team</h5>
-													<p>Meet the people that make it all happen</p>
-												</div>
-											</a>
-										</li>
-
-
+										{nav_menu_item link="about" title="About us" note="Our mission, vision and mantra." icon='ico-peak'}
+										{nav_menu_item link="culture" title="Culture" note="Learn about the way we do things around here." icon='ico-social-circle'}
+										{nav_menu_item link="history" title="History" note="See where we started and how we’ve grown." icon='ico-history'}
+										{nav_menu_item link="team" title="The Team" note="Meet the people that make it all happen." icon='ico-team'}
 									</ul>
 								</div>
 								<div class="dropdown_col">
@@ -136,46 +64,10 @@
 						<div class="dropdown">
 							<div class="dropdown_group">
 								<ul>
-									<li class="dropdown_item {(on_url({page_url nice='approach'}))?'isActive':''}">
-										<a href="{page_url nice='approach'}">
-											<div class="dropdown_image"><i class="ico-approach"></i></div>
-											<div class="dropdown_content">
-												<h5 class="dropdown_title">Our Approach</h5>
-												<p>How we build innovative digital products and services</p>
-											</div>
-										</a>
-									</li>
-
-									<li class="dropdown_item {(on_url({page_url nice='architecture-process'}))?'isActive':''}">
-										<a href="{page_url nice='architecture-process'}">
-											<div class="dropdown_image"><i class="ico-process"></i></div>
-											<div class="dropdown_content">
-												<h5 class="dropdown_title">Architecture process</h5>
-												<p>Our unique process for visual and technical design</p>
-											</div>
-										</a>
-									</li>
-
-									<li class="dropdown_item {(on_url({page_url nice='technologies'}))?'isActive':''}">
-										<a href="{page_url nice='technologies'}">
-											<div class="dropdown_image"><i class="ico-technologies"></i></div>
-
-											<div class="dropdown_content">
-												<h5>Technologies</h5>
-												<p>Our philosophies and most used technologies</p>
-											</div>
-										</a>
-									</li>
-
-									<li class="dropdown_item {(on_url({page_url nice='neon'}))?'isActive':''}">
-										<a href="{page_url nice='neon'}">
-											<div class="dropdown_image"><i class="ico-framework"></i></div>
-											<div class="dropdown_content">
-												<h5>Neon Framework</h5>
-												<p>Our innovative framework, helping to create the future.</p>
-											</div>
-										</a>
-									</li>
+                                    {nav_menu_item link="approach" title="Our Approach" note="How we build innovative digital products and services." icon='ico-approach'}
+                                    {nav_menu_item link="architecture-process" title="Architecture process" note="Our unique process for visual and technical design." icon='ico-process'}
+                                    {nav_menu_item link="technologies" title="Technologies" note="Our philosophies and most used technologies." icon='ico-technologies'}
+                                    {nav_menu_item link="neon" title="Neon Framework" note="Our innovative framework, helping to create the future." icon='ico-framework'}
 								</ul>
 							</div><!-- /.dropdown_group -->
 						</div><!-- /.dropdown -->

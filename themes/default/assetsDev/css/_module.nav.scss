@@ -2,6 +2,12 @@
 	Header
 \* ------------------------------------------------------------ */
 
+// noScroll added to the html tag prevents the page being scrollable - this is useful
+// when displaying the mobile navigation menu that we want to scroll
+// when on a big page the noScroll prevents the background page scrolling
+// this class can only be added to the html tag - hence the over specific css selector
+html.noScroll, html.noScroll body {overflow:hidden !important; height: 100% !important;}
+
 .header { position: absolute; top: 0; left: 0; z-index: 10; width: 100%; }
 .header_mobileLogo { display: none; position: relative; font-size: 0;}
 .header_mobileLogo img {margin:0 auto; display:block;}
@@ -68,14 +74,11 @@
 	.dropdown { width: 100%; padding-bottom: 32px; margin-top: -6px; background-color: transparent; box-shadow: none; }
 	.dropdown .dropdown_group + .dropdown_group { position: relative; border-top: 0; }
 	.dropdown .dropdown_group { padding: 0 21px; }
-	.dropdown .dropdown_title { display: none; }
 	.dropdown .dropdown_group ul { padding: 0; }
 	.dropdown .dropdown_group li + li { margin-top: 26px; }
 	.dropdown .dropdown_item a { align-items: center; }
-
 	.dropdown .dropdown_title { margin: 2px 0 0; font-weight: 400; letter-spacing: 0; text-transform: none; }
 	.dropdown .dropdown_content .dropdown_note { display: none; }
-
 }
 /* ------------------------------------------------------------ *\
 	Nav
@@ -127,11 +130,14 @@
 	.nav > ul > li:last-of-type > a { border-bottom: 1px solid $gray29; }
 	.nav > ul > li > a { display: inline-block; width: 100%; padding: 25px 19px 20px; border-top: 1px solid $gray29; }
 	.nav > ul > li > a:after { display: none; }
-	.nav.open { opacity: 1; transform: translateY(0); pointer-events: all; transition: opacity 0.25s, transform 0.25s; }
+	.nav.open { opacity: 1; transform: translateY(0); pointer-events: all; }
+	.nav.isOpening { transition: opacity 0.25s, transform 0.25s; }
+	.nav.isClosing { transition: opacity 0.25s, transform 0.25s; }
 	.nav.open > ul { opacity: 1; transition: opacity .4s .4s; }
 	.nav .has_dropdown > a:before { content: ''; position: absolute; top: 27px; right: 10px; width: 20px; height: 12px; background-image: url(../images/arrow-bottom.svg); background-size: 20px 12px; background-position: center; transition: transform .4s; }
 	.nav .has_dropdown.open > a:before { transform: scaleY(-1); }
-	.nav .dropdown { position: relative; top: 0; left: 0; display: block; transform: none; opacity: 1; pointer-events: all; }
+	.nav .dropdown { position: relative; top: 0; left: 0; display: block; transform: none; opacity: 0; pointer-events: all; }
+	.nav.open .dropdown { position: relative; top: 0; left: 0; display: block; transform: none; opacity: 1; pointer-events: all; }
 	.nav > ul > li:nth-child(2) .dropdown { left: 0; transform: none; }
 	.nav .textLight { color: inherit; }
 }

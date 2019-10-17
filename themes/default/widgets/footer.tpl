@@ -83,9 +83,7 @@
 			<div class="footer_inner">
 				<div class="footer_aside">
 					<a href="#" class="logo">
-						<img src="{asset path='images/logo-secondary@2x.png'}" alt="" width="88" height="15">
-
-						newicon
+						<img src="{asset path='images/logo-secondary@2x.png'}" alt="newicon" width="88" height="15">
 					</a>
 				</div><!-- /.footer_aside -->
 

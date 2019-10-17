@@ -1759,7 +1759,7 @@
 							attrs=["data-aos" =>'fade-up-right']
 						}
 						{home_service_hero_square
-							link="software-development"
+							link="software"
 							title="Software Development"
 							body="<p>Custom software applications for startups, SMEs and enterprise </p>"
 							image="/images/icons/Software Development.svg"
@@ -1786,7 +1786,7 @@
 
 		{section_come_talk_to_us}
 
-        {section_portfolio2}
+        {section_portfolio}
 
 		{section_trusted_by_brands}
 
