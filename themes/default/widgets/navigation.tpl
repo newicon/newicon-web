@@ -52,42 +52,10 @@
 						<div class="dropdown">
 							<div class="dropdown_group">
 								<ul>
-									<li class="dropdown_item {(on_url({page_url nice='architecture'}))?'isActive':''}">
-										<a href="{page_url nice='architecture'}">
-											<div class="dropdown_image"><i class="ico-draw"></i></div>
-											<div class="dropdown_content">
-												<h5>Architecture &amp; UX Design</h5>
-												<p>Rapid prototyping, design, and user experience services.</p>
-											</div>
-										</a>
-									</li>
-									<li class="dropdown_item {(on_url({page_url nice='software'}))?'isActive':''}">
-										<a href="{page_url nice='software'}">
-											<div class="dropdown_image"><i class="ico-layers"></i></div>
-											<div class="dropdown_content">
-												<h5>Software Development</h5>
-												<p>Software for desktop, mobile and everything in between.</p>
-											</div>
-										</a>
-									</li>
-									<li class="dropdown_item {(on_url({page_url nice='web-development'}))?'isActive':''}">
-										<a href="{page_url nice='web-development'}">
-											<div class="dropdown_image"><i class="ico-website"></i></div>
-											<div class="dropdown_content">
-												<h5>Web Development</h5>
-												<p>Websites, e-commerce and CMSs to boost your business.</p>
-											</div>
-										</a>
-									</li>
-									<li class="dropdown_item {(on_url({page_url nice='digital-marketing'}))?'isActive':''}">
-										<a href="{page_url nice='digital-marketing'}">
-											<div class="dropdown_image"><i class="ico-chart"></i></div>
-											<div class="dropdown_content">
-												<h5>Digital Marketing</h5>
-												<p>Grow your business with SEO, PPC and Social media.</p>
-											</div>
-										</a>
-									</li>
+                                    {nav_menu_item link="architecture" title="Architecture &amp; UX Design" note="Rapid prototyping, design, and user experience services." icon='ico-draw'}
+                                    {nav_menu_item link="software" title="Software Development" note="Software for desktop, mobile and everything in between." icon='ico-layers'}
+                                    {nav_menu_item link="web-development" title="Web Development" note="Websites, e-commerce and CMSs to boost your business." icon='ico-website'}
+                                    {nav_menu_item link="digital-marketing" title="Digital Marketing" note="Grow your business with SEO, PPC and Social media." icon='ico-chart'}
 								</ul>
 							</div><!-- /.dropdown_group -->
 						</div>
@@ -100,10 +68,11 @@
 					<li class="{(in_array('about', $white)||$inverse) ? 'textLight' : ''}
 					{({on_page id=['about', 'culture', 'history', 'team', 'brand-values']}) ? 'isActive':''} has_dropdown">
 						<a class="nav_link" href="{page_url nice='about'}">about</a>
-						<div class="dropdown isTwoColumn">
+						<div class="dropdown dropdown_hasTwoColumn">
 							<div class="dropdown_group" >
-								<div style="flex:1">
+								<div class="dropdown_col">
 									<ul>
+
 										<li class="dropdown_item {(on_url({page_url nice='about'}))?'isActive':''}">
 											<a href="{page_url nice='about'}">
 												<div class="dropdown_image"><i class="ico-peak"></i></div>
@@ -147,44 +116,12 @@
 
 									</ul>
 								</div>
-								<div style="flex:1">
+								<div class="dropdown_col">
 									<ul>
-										<li class="dropdown_item  {(on_url({page_url nice='brand-values'}))?'isActive':''}">
-											<a href="{page_url nice='brand-values'}">
-												<div class="dropdown_image"><i class="ico-dna"></i></div>
-												<div class="dropdown_content">
-													<h5>Brand values</h5>
-													<p>Values that drive our business</p>
-												</div>
-											</a>
-										</li>
-										<li class="dropdown_item {(on_url({page_url nice='join'}))?'isActive':''}">
-											<a href="{page_url nice='join'}">
-												<div class="dropdown_image"><i class="ico-puzzle"></i></div>
-												<div class="dropdown_content">
-													<h5>Join the team</h5>
-													<p>Open job oportunities in Newicon</p>
-												</div>
-											</a>
-										</li>
-										<li class="dropdown_item {(on_url({page_url nice='why-join'}))?'isActive':''}">
-											<a href="{page_url nice='why-join'}">
-												<div class="dropdown_image"><i class="ico-piece-pizza"></i></div>
-												<div class="dropdown_content">
-													<h5>Why join us?</h5>
-													<p>Why choose Newicon to grow your career</p>
-												</div>
-											</a>
-										</li>
-										<li class="dropdown_item {(on_url({page_url nice='blog'}))?'isActive':''}">
-											<a href="{page_url nice='blog'}">
-												<div class="dropdown_image"><i class="ico-blog"></i></div>
-												<div class="dropdown_content">
-													<h5>Blog</h5>
-													<p>Why choose Newicon to grow your career</p>
-												</div>
-											</a>
-										</li>
+										{nav_menu_item link="brand-values" title="Brand Values" note="Values that dirve our business" icon='ico-dna'}
+										{nav_menu_item link="join" title="Join the team" note="Open job opportunities in Newicon" icon='ico-puzzle'}
+										{nav_menu_item link="why-join" title="Why join us?" note="Why choose Newicon to grow your career" icon='ico-piece-pizza'}
+										{nav_menu_item link="blog" title="Blog" note="News, thoughts and feelings" icon='ico-blog'}
 									</ul>
 								</div>
 							</div><!-- /.dropdown_group -->
@@ -203,7 +140,7 @@
 										<a href="{page_url nice='approach'}">
 											<div class="dropdown_image"><i class="ico-approach"></i></div>
 											<div class="dropdown_content">
-												<h5>Our Approach</h5>
+												<h5 class="dropdown_title">Our Approach</h5>
 												<p>How we build innovative digital products and services</p>
 											</div>
 										</a>
@@ -213,7 +150,7 @@
 										<a href="{page_url nice='architecture-process'}">
 											<div class="dropdown_image"><i class="ico-process"></i></div>
 											<div class="dropdown_content">
-												<h5>Architecture process</h5>
+												<h5 class="dropdown_title">Architecture process</h5>
 												<p>Our unique process for visual and technical design</p>
 											</div>
 										</a>
@@ -252,7 +189,7 @@
 			</nav><!-- /.nav -->
 
 			<a href="{page_url nice="home"}" class="header_mobileLogo">
-				<img src="{asset path='/images/newicon.svg'}" alt="Newicon logo" width="100">
+				<img src="{asset path='/images/newicon.svg'}" alt="Newicon logo" width="80">
 			</a>
 
 			<a href="#" class="navTrigger">
