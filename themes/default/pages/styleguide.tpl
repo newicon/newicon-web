@@ -21,6 +21,7 @@
 			<!-- nc:p --> Here is is <!-- /nc:p -->
         {/static_block}
 
+
 		<style>
 
 
@@ -236,6 +237,57 @@
 				max-width: 100%;
 			}
 		</style>
+
+
+		<button type="button" class="btn btn-primary">Primary</button>
+		<button type="button" class="btn btn-secondary">Secondary</button>
+		<button type="button" class="btn btn-success">Success</button>
+		<button type="button" class="btn btn-danger">Danger</button>
+		<button type="button" class="btn btn-warning">Warning</button>
+		<button type="button" class="btn btn-info">Info</button>
+		<button type="button" class="btn btn-light">Light</button>
+		<button type="button" class="btn btn-dark">Dark</button>
+		<button type="button" class="btn btn-link">Link</button>
+
+{*		{cmp class="theme\dev\widgets\NeonJsFiddle" activeTab="result"}*}
+{*		{/cmp}*}
+		{oi}
+        {htmlExample}
+			<button type="button" class="btn btn-primary">Primary</button>
+			<button type="button" class="btn btn-secondary">Secondary</button>
+			<button type="button" class="btn btn-success">Success</button>
+			<button type="button" class="btn btn-danger">Danger</button>
+			<button type="button" class="btn btn-warning">Warning</button>
+			<button type="button" class="btn btn-info">Info</button>
+			<button type="button" class="btn btn-light">Light</button>
+			<button type="button" class="btn btn-dark">Dark</button>
+			<button type="button" class="btn btn-link">Link</button>
+        {/htmlExample}
+
+		<div class="row mbm">
+			<div class="col">
+				<button class="btn btn-primary _shadow">btn btn-primary _shadow mrs</button>
+			</div>
+			<div class="col">
+				<button class="btn btn-primary">btn btn-primary</button>
+			</div>
+			<div class="col">
+				<button class="btn btn-default">btn btn-default</button>
+			</div>
+			<div class="col">
+
+				<button class="btn btn-default _shadow" >btn btn-default _shadow</button>
+			</div>
+			<div class="col">
+				<button class="btn btn-secondary _shadow" >btn btn-secondary _shadow</button>
+			</div>
+			<div class="col">
+				<button class="btn btn-secondary btn-outline" >Here is a button outline</button>
+			</div>
+			<div class="col">
+				<button class="btn btn-primary btn-outline" >Here is a button outline</button>
+			</div>
+		</div>
 
 		<div class="row">
 			<div class="col">

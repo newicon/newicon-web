@@ -3,71 +3,42 @@
 \* ------------------------------------------------------------ */
 
 
-.intro_image {margin:-125px 0 0 0; min-height:400px;}
-
+.intro_image {margin:-125px 0 0 0; min-height:400px;pointer-events:none;}
 .intro { font-weight: 300; font-size: 22px; color: $blue; line-height: 1.52; }
-
 .intro .intro_inner { position: relative; display: flex; flex-wrap: wrap; justify-content: flex-end; padding:0; }
-
 .intro .intro_image { position: relative; -webkit-box-flex: 0; -ms-flex: 0 0 52%; flex: 0 0 52%; max-width: 52%; padding-top: 59%; margin-top:0; }
-
 .intro .intro_image svg { position: absolute; top: 0; width: 110%; left:-10%; height: auto; }
-
 .intro .intro_content { position: absolute; top: 25%; left: 0; width: 48%; padding: 0 92px 50px 0; }
-
 .intro .intro_entry { max-width: 443px; margin-left: auto; }
-
 .intro .intro_entry p { margin-bottom: 56px; }
-
 //.intro .intro_title { margin-bottom: 24px; color: $blue2; }
-
 .intro .intro_subtitle { margin-bottom: 24px; font-family: $font-Volkhov; font-weight: 400; font-style: italic; font-size: 25px; color: $gray }
-
 .intro .intro_actions { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; margin: 0 -10px; }
-
 .intro .intro_actions a { margin: 0 10px 10px; }
 
 @media (min-width: $responsive-min-xs) {
 	.intro h1 {font-size:3vw;}
 }
 
-
 .intro_title { margin-bottom: 24px; color: $blue2; }
-
 .intro_body { font-size:22px; }
 
-
 /*  Intro Service  */
-
 .intro-service {  }
-
 .intro-service .intro_image { flex: 0 0 47.3%; max-width: 47.3%; padding-top: 0; }
-
 .intro-service .intro_image .introImageText { position: absolute; bottom: 77px; left: -170px; }
-
 .intro-service .intro_content { padding: 144px 40px 50px 0; }
-
 //.intro-service .intro_title { letter-spacing: -.04em; }
-
 .intro-service .intro_entry { max-width: 498px; }
-
 .intro-service .intro_entry p { margin-bottom: 100px; }
-
 /*  Intro Service Secondary  */
 .intro-serviceSecondary .intro_inner { display: block; padding: 241px 0 25px; }
-
 .intro-serviceSecondary .intro_image { position: relative; max-width: 100%; padding-top: 0; margin-top: -45px; text-align: center; }
-
 .intro-serviceSecondary .intro_image .introImageText { position: absolute; top: 139px; left: 50%; margin-left: -79px; transform: translateY(-50%); }
-
 .intro-serviceSecondary .intro_content { position: relative; top: 0; width: 100%; padding: 0; transform: translateY(0); }
-
 .intro-serviceSecondary .intro_entry { max-width: 100%; padding: 0 61px; }
-
 .intro-serviceSecondary .intro_entry h1 { font-size: 48px; }
-
 .intro-serviceSecondary .intro_subtitle { margin-bottom: 52px; }
-
 /*  Intro Service Alt  */
 .intro-serviceAlt {  }
 

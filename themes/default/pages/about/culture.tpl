@@ -9,16 +9,13 @@
 				<div class="intro_content">
 					<div class="intro_entry">
 						<h1 class="intro_title">Culture</h1><!-- /.intro_title -->
-						<h4 class="intro_subtitle">Find the right people and you can’t lose</h4><!-- /.intro_subtitle -->
-						<p>
-							We have been successfully providing our clients digital solutions for over 10 years.
-						</p>
+						<h4 class="intro_subtitle">People focused. Future thinking. Inventive.</h4><!-- /.intro_subtitle -->
+						<p>Our culture and brand go hand in hand. After all, a business is what its people make it. And our people are pretty great, even if we say so ourselves.</p>
 					</div><!-- /.intro_entry -->
 				</div><!-- /.intro_content -->
 
 				<div class="intro_image">
 					<img src="{asset path='images/temp/intro-image-2.svg'}" alt="" width="581" height="532">
-
 					<img src="{asset path='images/temp/intro-image-text-7.png'}" alt="" width="164" height="165" class="introImageText">
 				</div><!-- /.intro_image -->
 			</div><!-- /.intro_inner -->
@@ -29,10 +26,7 @@
 			<div class="section_content">
 				<div class="shell shell-sm">
 					<h2>Culture</h2>
-
-					<p>
-						Our mission is to produce world class digital platforms and technologies that enable people to achieve great things.
-					</p>
+					<p>Our mission is to produce world class digital platforms and technologies that enable people to achieve great things.</p>
 				</div><!-- /.shell -->
 			</div><!-- /.section_content -->
 
@@ -46,10 +40,8 @@
 		<section class="section section-services section-gray">
 			<div class="shell">
 				<header class="section_head">
-					<h2>{static_block key='hello' wys=false}Why we do it{/static_block}</h2>
-					<p>
-						We want to work with likeminded people and organisations who challenge, invent, and create.
-					</p>
+					<h2>Why we do it</h2>
+					<p>We want to work with like-minded people and organisations who challenge, invent, and create.</p>
 				</header><!-- /.section_head -->
 
 				<div class="section_body">
@@ -123,10 +115,7 @@
 			<div class="shell">
 				<header class="section_head">
 					<h2>How we do it</h2>
-
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nisl ligula, bibendum at orci nec, blandit tincidunt ex. Aliquam quis sagittis lectus. Sed ipsum nisi, auctor eget gravida non, ullamcorper eu nunc.
-					</p>
+					<p>Find out how we take our values and apply them to everything we do, from client work and customer relationships right through to staff socials.</p>
 				</header><!-- /.section_head -->
 
 				<div class="section_body">
@@ -142,10 +131,7 @@
 
 									<div class="article_entry">
 										<h6>Judgement</h6>
-
-										<p>
-											We value people who make wise decisions (people, technical, business, and creative) despite ambiguity. People who identify root causes, and get beyond treating symptoms. People who identify root causes, and get beyond treating symptoms. People who smartly separate what must be done well now, and what can be improved later
-										</p>
+										<p>We value people who make wise decisions (people, technical, business, and creative) despite ambiguity. People who identify root causes, and get beyond treating symptoms. People who smartly separate what must be done well now, and what can be improved later.</p>
 									</div><!-- /.article_entry -->
 								</div><!-- /.article_content -->
 							</div><!-- /.article_inner -->
@@ -162,9 +148,8 @@
 
 									<div class="article_entry">
 										<h6>Excellence &amp; Impact</h6>
-
 										<p>
-											We don’t settle for anything less than excellence in every group, and we have the self-honesty to admit when we’re wrong and the courage to  change and challenge.  We value people who demonstrate consistently strong performance so colleagues can rely upon them.
+											We don’t settle for anything less than excellence in every group, and we have the self-honesty to admit when we’re wrong and the courage to change and challenge.  We value people who demonstrate consistently strong performance so colleagues can rely upon them.
 										</p>
 									</div><!-- /.article_entry -->
 								</div><!-- /.article_content -->
@@ -185,6 +170,7 @@
 
 										<p>
 											We believe in the simple not the complex.
+											Complexity is easy - simplicity is hard, you often need to travel through the complex to get to the simple.
 										</p>
 									</div><!-- /.article_entry -->
 								</div><!-- /.article_content -->
@@ -198,14 +184,11 @@
 								</div><!-- /.article_image -->
 
 								<div class="article_content">
-									<h2>Re-conceptualise and challange assuptions to drive innovation</h2>
+									<h2>Re-conceptualise and challenge assumptions to drive innovation</h2>
 
 									<div class="article_entry">
 										<h6>Curiosity &amp; Innovation</h6>
-
-										<p>
-											We strive to re-conceptualise issues to discover practical solutions to hard problems. We value people who challenge prevailing assumptions when warranted, and suggest better approaches. All ultimately to create new ideas that prove useful. All white maintaining curiocity and an eagerness to learn and understand, our strategy, market, customers and suppliers and further your knowledge in business, usability, technology and people.
-										</p>
+										<p>We strive to re-conceptualise issues to discover practical solutions to hard problems. We value people who challenge prevailing assumptions when warranted, and suggest better approaches. All ultimately to create new ideas that prove useful. All while maintaining curiosity and an eagerness to learn and understand, our strategy, market, customers and suppliers and further your knowledge in business, usability, technology and people.</p>
 									</div><!-- /.article_entry -->
 								</div><!-- /.article_content -->
 							</div><!-- /.article_inner -->
@@ -529,9 +512,55 @@
 							</div><!-- /.accordion_body -->
 						</div><!-- /.accordion_section -->
 					</div><!-- /.accordion -->
+
 				</div><!-- /.section_body -->
 			</div><!-- /.shell -->
 		</section><!-- /.section -->
+
+
+		<div class="section">
+			<ul>
+				<li>
+					Principle 1 –   Long term vision: Base your management decisions on long term philosophy, even at the expense of short term financial goals.
+				</li>
+				<li>
+					Principle 2 –   Create continuous process flow to bring problems to the surface. (Just In Time)
+				</li>
+				<li>
+					Principle 3 –   Use lean tools to highlight waste. When value can not be easily defined, define it by learning.
+				</li>
+				<li>
+					Principle 4 –   Build a culture of ‘stopping to fix problems’ to get quality right.  Fix root problems ask why 5 times!
+				</li>
+				<li>
+					Principle 5 –   Endeavor to make everything visual. Making problems, challenges and existing solutions visible enables everyone to engage and spot opportunities.
+					the is true from management data through to software solutions themselves. Software is by its nature hidden - making components and solutions visible and discoverable helps to promote reuse.
+				</li>
+				<li>
+					Principle 6 –   Grow leaders who thoroughly understand the work, live the philosophy and teach it to others.
+				</li>
+				<li>
+					Principle 7 – Respect your extended network of partners & suppliers by challenging them and helping them improve.
+				</li>
+				<li>
+					Principle 8 – Go and see for yourself and thoroughly understand the situation.
+				</li>
+				<li>
+					Principle 9 – Become a learning organisation through relentless reflection and continuous improvement.
+				</li>
+
+				<li>
+					Positivity - Bring solutions not endless problems and road blocks.  It's easy to find negatives - sometimes people even think this is productive.
+					However for creativity you need to relentlessly itterate great ideas and later whittle them down.
+					Don;t stifle creativity with negativie no nos, there is always a reason not to do something.  Try to find reasons to do it.
+					There are some exceptions to this rule.  Assess worst case scenarios and measure risk quickly. As long as no one will die, or get hurt then get on with generting ideas and stop worrying.
+				</li>
+
+				<li>
+					Passion - passion is good - just remember to breath
+				</li>
+			</ul>
+		</div>
 
 		<section class="sectionPaging">
 			<div class="shell shell-fluid">

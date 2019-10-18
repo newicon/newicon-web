@@ -11,7 +11,7 @@
 .btn-primary.btn-outline { border: 1px solid $blue3; background-color: transparent; color: $blue3; line-height: 53px; }
 .btn-primary.btn-outline:hover { background-color: $gray3;  }
 .btn._shadow {box-shadow: 0 12px 18px 0 rgba(0, 0, 0, 0.2)}
-.btn._shadow:active{box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.2)}
+.btn._shadow:active{box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.2), inset 0px 5px 5px rgba(0,0,0,0.2)}
 
 .btn-gray { background-color: $gray3; color: $white; }
 .btn-gray.btn-outline { border: 1px solid $gray3; background-color: transparent; line-height: 53px; }

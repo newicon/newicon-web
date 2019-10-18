@@ -16,6 +16,6 @@
  *
  * @return string
  */
-function smarty_block_nav_menu($params, $template) {
-	dd('here');
+function smarty_function_oi($params, $template) {
+	return '<h1>OIOIOIM</h1>';
 }
