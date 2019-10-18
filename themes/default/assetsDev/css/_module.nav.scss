@@ -38,7 +38,7 @@ html.noScroll, html.noScroll body {overflow:hidden !important; height: 100% !imp
 	Dropdown
 \* ------------------------------------------------------------ */
 
-.dropdown { position: absolute; top: 100%; left: -212px; transform: scale(0.95); opacity: 0; pointer-events: none; transition: opacity .4s, transform .4s; transform-origin: top center; will-change:opacity, transform; width: 485px; padding: 0; border-radius: 8px; background-color: $white; box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.25), 0 30px 60px -30px rgba(0, 0, 0, 0.3), 0 -18px 60px -10px rgba(0, 0, 0, 0.025);}
+.dropdown { position: absolute; top: 100%; left: -212px; transform: scale(0.95); opacity: 0; pointer-events: none; transition: all .35s cubic-bezier(.2, 1, .22, 1); transform-origin: top center; will-change:opacity, transform; width: 485px; padding: 0; border-radius: 8px; background-color: $white; box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.25), 0 30px 60px -30px rgba(0, 0, 0, 0.3), 0 -18px 60px -10px rgba(0, 0, 0, 0.025);}
 
 .dropdown_hasTwoColumn {width:600px; left:calc(-600px/2 + 50%)}
 .dropdown_col {flex:1}

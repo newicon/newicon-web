@@ -1740,14 +1740,16 @@
 			<div class="shell">
 				<header class="section_head">
 					<h2 class="section_title">Our expertise</h2><!-- /.section_title -->
-					<h4 class="section_subtitle">The things we do for our clients and their people</h4><!-- /.section_subtitle -->
+					<h4 class="section_subtitle">{static_block key="expertise_strap" wys=true}The things we do for our clients and their people{/static_block}</h4><!-- /.section_subtitle -->
 				</header><!-- /.section_head -->
 
 				<div class="section_body">
 					<div class="section_entry">
+                        {static_block key="expertise_text" wys=true}
 						<p>
 							Our software design and development focuses on the things that matter, the insights, interactions, integrations and innovations that make extraordinary things happen for brands, businesses and customers
 						</p>
+						{/static_block}
 					</div><!-- /.section_entry -->
 
 					<div class="services">
