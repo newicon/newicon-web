@@ -3,7 +3,8 @@
 \* ------------------------------------------------------------ */
 
 
-.intro_image {margin:-125px 0 0 0; min-height:400px;pointer-events:none;}
+.servicesIntroImage {margin:-125px 0 0 0; min-height:400px;pointer-events:none;}
+
 .intro { font-weight: 300; font-size: 22px; color: $blue; line-height: 1.52; }
 .intro .intro_inner { position: relative; display: flex; flex-wrap: wrap; justify-content: flex-end; padding:0; }
 .intro .intro_image { position: relative; -webkit-box-flex: 0; -ms-flex: 0 0 52%; flex: 0 0 52%; max-width: 52%; padding-top: 59%; margin-top:0; }
