@@ -115,7 +115,7 @@
 								<li><a href="https://www.facebook.com/newiconltd" target="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 								<li><a href="https://www.linkedin.com/company/newicon"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
 								<li><a href="https://www.instagram.com/newicon_ltd/" target="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-								<li><a href="" target="instagram"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+								<li><a href="https://www.youtube.com/channel/UC949GNDV4-DDuTQBpj5WN2g/videos" target="instagram"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
 								<li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
 								<li><a href="https://twitter.com/newicon" target="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 							</ul>
