@@ -21,26 +21,26 @@ mix.autoload({  // or Mix.autoload() ?
 	'Popper': ['popper.js', 'default']
 });
 
-mix.browserSync({
-	proxy:'localhost',
-	port:80,
-	files: {
-		match: [
-			"pages/**/*.tpl",
-			"assetsDev/css/*.css",
-			"assetsDev/js/*.js",
-		],
-		fn: function (event, file) {
-			/** Custom event handler **/
-		},
-		options: {
-			ignored: [
-				'*.txt',
-				'*.json'
-			]
-		}
-	},
-});
+// mix.browserSync({
+// 	proxy:'localhost',
+// 	port:80,
+// 	files: {
+// 		match: [
+// 			"pages/**/*.tpl",
+// 			"assetsDev/css/*.css",
+// 			"assetsDev/js/*.js",
+// 		],
+// 		fn: function (event, file) {
+// 			/** Custom event handler **/
+// 		},
+// 		options: {
+// 			ignored: [
+// 				'*.txt',
+// 				'*.json'
+// 			]
+// 		}
+// 	},
+// });
 
 // mix.browserSync('http://localhost/newicon-website');
 // Full API

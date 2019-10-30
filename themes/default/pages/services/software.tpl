@@ -13,7 +13,7 @@
         callBtn=true
         }
 
-		<div class="intro_image" data-aos="fade-up" data-aos-delay="300">
+		<div class="servicesIntroImage" data-aos="fade-up" data-aos-delay="300">
 	        <img src="{asset path='images/illustrations/Software Dev Illustration.svg'}" alt="Software development illustration" >
 	    </div>
 
