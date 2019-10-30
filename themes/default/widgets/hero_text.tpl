@@ -6,8 +6,8 @@
 				<div class="intro_entry">
                     <h1 class="intro_title">{$title}</h1>
 					<h4 class="intro_subtitle">{$subtitle}</h4>
-					{if isset($body)}<p class="intro_body">{$body}</p>{/if}
-					{if isset($callBtn)}
+					{if isset($body)}<p class="intro_body textLead">{$body}</p>{/if}
+					{if isset($callBtn) && ($callBtn==true)}
 						<div class="intro_actions mtxl">
 							<a href="#" class="btn btn-primary _shadow">Give us a call</a>
 						</div>

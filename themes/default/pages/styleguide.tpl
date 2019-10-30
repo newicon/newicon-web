@@ -116,15 +116,15 @@
 
 			.container-fluid {
 				width: 100%;
-				padding-right: 15px;
-				padding-left: 15px;
+				padding-right: 16px;
+				padding-left: 16px;
 				margin-right: auto;
 				margin-left: auto;
 			}
 			.container {
 				width: 100%;
-				padding-right: 15px;
-				padding-left: 15px;
+				padding-right: 16px;
+				padding-left: 16px;
 				margin-right: auto;
 				margin-left: auto;
 			}

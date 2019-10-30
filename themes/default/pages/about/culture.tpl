@@ -4,22 +4,58 @@
 {/block}
 {block "content"}
 	<div class="main">
-		<div class="introQuaternary">
-			<div class="intro_inner">
-				<div class="intro_content">
-					<div class="intro_entry">
-						<h1 class="intro_title">Culture</h1><!-- /.intro_title -->
-						<h4 class="intro_subtitle">People focused. Future thinking. Inventive.</h4><!-- /.intro_subtitle -->
-						<p>Our culture and brand go hand in hand. After all, a business is what its people make it. And our people are pretty great, even if we say so ourselves.</p>
-					</div><!-- /.intro_entry -->
-				</div><!-- /.intro_content -->
 
+
+
+{*		<div class="introQuaternary">*}
+{*			<div class="intro_inner">*}
+{*				<div class="intro_content">*}
+{*					<div class="intro_entry">*}
+{*						<h1 class="intro_title">Culture</h1><!-- /.intro_title -->*}
+{*						<h4 class="intro_subtitle">People focused. Future thinking. Inventive.</h4><!-- /.intro_subtitle -->*}
+{*						<p class="textLead">Our culture and brand go hand in hand. After all, a business is what its people make it. And our people are pretty great, even if we say so ourselves.</p>*}
+{*					</div><!-- /.intro_entry -->*}
+{*				</div><!-- /.intro_content -->*}
+
+
+{*			</div><!-- /.intro_inner -->*}
+{*		</div><!-- /.introQuaternary -->*}
+
+		<div class="grid">
+			<div class="cell12@m cell6@d">
+                {hero_text
+	                title="Culture"
+	                bgTitle=false
+	                subtitle="People focused. Future thinking. Inventive."
+	                callBtn=false
+	                body="Our culture and brand go hand in hand. After all, a business is what its people make it. And our people are pretty great, even if we say so ourselves."
+                }
+			</div>
+			<div class="cell12@m cell6@d">
 				<div class="intro_image">
-					<img src="{asset path='images/temp/intro-image-2.svg'}" alt="" width="581" height="532">
+					<img src="{asset path='images/illustrations/Culture Illustration.svg'}" alt="Newicon culture - juggling, guitar playing maniacs!" width="581" height="532">
 					<img src="{asset path='images/temp/intro-image-text-7.png'}" alt="" width="164" height="165" class="introImageText">
 				</div><!-- /.intro_image -->
-			</div><!-- /.intro_inner -->
-		</div><!-- /.introQuaternary -->
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-12 col-md-6">
+                {hero_text
+                title="Culture"
+                bgTitle=false
+                subtitle="People focused. Future thinking. Inventive."
+                callBtn=false
+                body="Our culture and brand go hand in ha nd. After all, a business is what its people make it. And our people are pretty great, even if we say so ourselves."
+                }
+			</div>
+			<div class="col-sm-12 col-md-6">
+				<div class="intro_image">
+					<img src="{asset path='images/illustrations/Culture Illustration.svg'}" alt="Newicon culture - juggling, guitar playing maniacs!" width="581" height="532">
+					<img src="{asset path='images/temp/intro-image-text-7.png'}" alt="" width="164" height="165" class="introImageText">
+				</div><!-- /.intro_image -->
+			</div>
+		</div>
 
 
 		<section class="sectionText sectionText-tertiary">
