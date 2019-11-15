@@ -215,6 +215,29 @@ $screen-lg:                  980px; // dm
 // XLarge screen / wide desktop - Newicon custom
 $screen-xl:                  1200px; // dl
 
+@media (min-width: 576px) {
+	.container {max-width: 540px;}
+}
+
+@media (min-width: 768px) {
+	.container {max-width: 720px;}
+}
+
+@media (min-width: 992px) {
+	.container {max-width: 960px;}
+}
+
+@media (min-width: 1200px) {
+	.container {max-width: 1140px;}
+}
+
+.container-fluid {width: 100%;padding-right: 16px;padding-left: 16px;margin-right: auto;margin-left: auto;}
+
+.row {display: -ms-flexbox;display: flex;-ms-flex-wrap: wrap;flex-wrap: wrap;margin-right: -15px;margin-left: -15px;}
+.no-gutters {margin-right: 0;margin-left: 0;}
+
+.no-gutters > .col,
+.no-gutters > [class*="col-"] {padding-right: 0;padding-left: 0;}
 
 .container-fluid {width: 100%;padding-right: 16px;padding-left: 16px;margin-right: auto;margin-left: auto;}
 .container {width: 100%;padding-right: 16px;padding-left: 16px;margin-right: auto;margin-left: auto;}
@@ -467,3 +490,7 @@ $screen-xl:                  1200px; // dl
 	.cell6\@d {grid-column: span 6;}
 	.cell12\@d {grid-column: span 12};
 }
+
+
+
+

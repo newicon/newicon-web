@@ -8,6 +8,7 @@
 		"ext-json": "*",
 		"ext-mbstring": "*",
 		"ext-openssl": "*",
-		"newicon/neon": "dev-steve-cms-pages"
+		"newicon/neon": "dev-steve-cms-pages",
+		"scssphp/scssphp": "^1.0"
 	}
 }

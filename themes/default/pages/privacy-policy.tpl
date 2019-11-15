@@ -9,9 +9,7 @@
 				<div class="section_head">
 					<h6 class="section_subtitle">Privacy &amp; Security</h6><!-- /.section_subtitle -->
 					<h1 class="section_title">Newicon Security</h1><!-- /.section_title -->
-					<p>
-						Newicon takes the security of your data and our infrastructure very seriously. We are committed to providing and environment that is safe, secure, and available to all of our customers.
-					</p>
+					<p>Newicon takes the security of your data and our infrastructure very seriously. We are committed to providing and environment that is safe, secure, and available to all of our customers.</p>
 				</div><!-- /.section_head -->
 
 				<div class="section_body">

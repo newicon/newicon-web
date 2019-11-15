@@ -7,7 +7,10 @@
 			<style>
 			/**** Pinched from official bootstrap theme ***/
 			/**** Docs: http://bootstrap-themes.github.io/marketing/docs/index.html#blocks ***/
-			.block {position: relative;display:table;width: 100%;padding: 60px 30px;background-position: center;background-size: cover;background-repeat: no-repeat;height: 105vh;}
+			.block { display: flex; flex-direction: column; justify-content: center; width: 100%; padding: 60px 30px; background-position: center;background-size: cover;background-repeat: no-repeat;height: 105vh;
+
+
+			/*.block {position: relative;display:table;width: 100%;padding: 60px 30px;background-position: center;background-size: cover;background-repeat: no-repeat;height: 105vh;}*/
 			.block_parallax {background-attachment:fixed;}
 			.block_background {position: absolute;top: 0;right: 0;bottom: 0;left: 0;}
 			.block_middle {display: table-cell;vertical-align: middle;}
@@ -25,7 +28,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
 	</head>
 	<body data-aos-easing="ease-out-quad" data-aos-duration="700" data-aos-delay="0">
-		<div class="wrapper">
+		<div class="wrapper" id="wrapper">
 			{neon_body_begin}
 			{block "header"}
 				{navigation}

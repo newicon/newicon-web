@@ -411,6 +411,8 @@ template {
 html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   tap-highlight-color: rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
 }
 
 body {
@@ -1198,6 +1200,52 @@ li {
  * Break points newicon use:
  * (not yet integrated into newicon site)
  ******************************/
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+.container-fluid {
+  width: 100%;
+  padding-right: 16px;
+  padding-left: 16px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.no-gutters > .col,
+.no-gutters > [class*=col-] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
 .container-fluid {
   width: 100%;
   padding-right: 16px;
@@ -2188,83 +2236,6 @@ li {
 /* ------------------------------------------------------------ *\
 	Container
 \* ------------------------------------------------------------ */
-.container {
-  position: relative;
-}
-
-.container:before,
-.container:after {
-  content: "";
-  position: absolute;
-  top: -79px;
-  z-index: -5;
-  width: 100vw;
-  height: 249px;
-  background: linear-gradient(to bottom, white 0%, #f3f5f9 100%);
-}
-
-.container:before {
-  left: 0;
-}
-
-.container:after {
-  right: 0;
-}
-
-.container .container_inner {
-  position: relative;
-  display: flex;
-  padding: 73px 0;
-  margin: 0 -18px;
-}
-
-.container .container_inner:before,
-.container .container_inner:after {
-  content: "";
-  position: absolute;
-  top: 99px;
-  bottom: 0;
-  z-index: -10;
-  width: 100vw;
-  background-color: #F3F5F9;
-}
-
-.container .container_inner:before {
-  left: 0;
-}
-
-.container .container_inner:after {
-  right: 0;
-}
-
-.container .content {
-  flex: 1 0;
-  padding: 0 18px;
-}
-
-.container .sidebar {
-  flex: 0 0 318px;
-  max-width: 318px;
-  padding: 0 18px;
-}
-
-/* Tablet Portrait */
-@media (max-width: 1023px) {
-  .container .container_inner {
-    display: block;
-    margin: 0;
-  }
-
-  .container .content {
-    padding: 0;
-    margin-bottom: 50px;
-  }
-
-  .container .sidebar {
-    max-width: 100%;
-    padding: 0;
-  }
-}
 /* ------------------------------------------------------------ *\
 	Footer
 \* ------------------------------------------------------------ */

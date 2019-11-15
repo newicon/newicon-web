@@ -5,7 +5,9 @@
 {block "content"}
 	<div class="main">
 
-
+{css}
+.color {}
+{/css}
 
 {*		<div class="introQuaternary">*}
 {*			<div class="intro_inner">*}
@@ -21,41 +23,41 @@
 {*			</div><!-- /.intro_inner -->*}
 {*		</div><!-- /.introQuaternary -->*}
 
-		<div class="grid">
-			<div class="cell12@m cell6@d">
-                {hero_text
-	                title="Culture"
-	                bgTitle=false
-	                subtitle="People focused. Future thinking. Inventive."
-	                callBtn=false
-	                body="Our culture and brand go hand in hand. After all, a business is what its people make it. And our people are pretty great, even if we say so ourselves."
-                }
-			</div>
-			<div class="cell12@m cell6@d">
-				<div class="intro_image">
-					<img src="{asset path='images/illustrations/Culture Illustration.svg'}" alt="Newicon culture - juggling, guitar playing maniacs!" width="581" height="532">
-					<img src="{asset path='images/temp/intro-image-text-7.png'}" alt="" width="164" height="165" class="introImageText">
-				</div><!-- /.intro_image -->
-			</div>
-		</div>
+{*		<div class="grid">*}
+{*			<div class="cell12@m cell6@d">*}
+{*                {hero_text*}
+{*	                title="Culture"*}
+{*	                bgTitle=false*}
+{*	                subtitle="People focused. Future thinking. Inventive."*}
+{*	                callBtn=false*}
+{*	                body="Our culture and brand go hand in hand. After all, a business is what its people make it. And our people are pretty great, even if we say so ourselves."*}
+{*                }*}
+{*			</div>*}
+{*			<div class="cell12@m cell6@d">*}
+{*				<div class="intro_image">*}
+{*					<img style="width:100%" src="{asset path='images/illustrations/Culture Illustration.svg'}" alt="Newicon culture - juggling, guitar playing maniacs!" width="581" height="532">*}
+{*					<img src="{asset path='images/temp/intro-image-text-7.png'}" alt="" width="164" height="165" class="introImageText">*}
+{*				</div><!-- /.intro_image -->*}
+{*			</div>*}
+{*		</div>*}
+{css}
+	{ $color}
+{/css}
 
+<div class="container">
 		<div class="row">
 			<div class="col-sm-12 col-md-6">
-                {hero_text
-                title="Culture"
-                bgTitle=false
-                subtitle="People focused. Future thinking. Inventive."
-                callBtn=false
-                body="Our culture and brand go hand in ha nd. After all, a business is what its people make it. And our people are pretty great, even if we say so ourselves."
-                }
+                {hero_text title="Culture" subtitle="People focused. Future thinking. Inventive."
+                    body="Our culture and brand go hand in ha nd. After all, a business is what its people make it. And our people are pretty great, even if we say so ourselves."}
 			</div>
 			<div class="col-sm-12 col-md-6">
 				<div class="intro_image">
-					<img src="{asset path='images/illustrations/Culture Illustration.svg'}" alt="Newicon culture - juggling, guitar playing maniacs!" width="581" height="532">
-					<img src="{asset path='images/temp/intro-image-text-7.png'}" alt="" width="164" height="165" class="introImageText">
+					<img style="width:100%" src="{asset path='images/illustrations/Culture Illustration.svg'}" alt="Newicon culture - juggling, guitar playing maniacs!" width="581" height="532">
+{*					<img src="{asset path='images/temp/intro-image-text-7.png'}" alt="" width="164" height="165" class="introImageText">*}
 				</div><!-- /.intro_image -->
 			</div>
 		</div>
+</div>
 
 
 		<section class="sectionText sectionText-tertiary">
