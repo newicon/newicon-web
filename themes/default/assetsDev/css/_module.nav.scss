@@ -18,14 +18,11 @@ html.noScroll, html.noScroll body {overflow:hidden !important; height: 100% !imp
 /* Tablet Portrait */
 
 @media (max-width: $breakpoint-tablet-portrait) {
-	.header {
-		position: fixed; padding: 15px 0 17px;
-		backdrop-filter: saturate(180%) blur(20px);
-		background-color: rgba(255,255,255,0.7);
-	}
+//@media (max-width: $breakpoint-mobile) {
+	.header {position: fixed; padding: 15px 0 17px;backdrop-filter: saturate(180%) blur(20px);background-color: rgba(255,255,255,0.7);}
 	.header_inner { padding: 0 21px 0 27px; }
 	.header_mobileLogo { display:  block; }
-	.header .nav { position: fixed; top: 48px; bottom: 0; left: 0; width: 100%; }
+	.header .nav { position: fixed; top: 47px; bottom: 0; left: 0; width: 100%; }
 	.header .navTrigger { position: absolute; top: 50%; left: 20px; display: block; transform: translateY(-50%); }
 	.header-transparent .nav > ul > li > a { opacity: 1; }
 }
@@ -71,6 +68,7 @@ html.noScroll, html.noScroll body {overflow:hidden !important; height: 100% !imp
 /* Tablet Portrait */
 
 @media (max-width: $breakpoint-tablet-portrait) {
+//@media (max-width: $breakpoint-mobile) {
 	.dropdown { width: 100%; padding-bottom: 32px; margin-top: -6px; background-color: transparent; box-shadow: none; }
 	.dropdown .dropdown_group + .dropdown_group { position: relative; border-top: 0; }
 	.dropdown .dropdown_group { padding: 0 21px; }
@@ -99,6 +97,7 @@ html.noScroll, html.noScroll body {overflow:hidden !important; height: 100% !imp
 	.nav .has_dropdown:hover:after { opacity: 1; pointer-events: all; }
 }
 @media (min-width: $breakpoint-tablet-portrait ) and (max-width: 1500px) {
+//@media (min-width: $breakpoint-mobile ) and (max-width: 1500px) {
 	//	/* Prevent services menu being clipped on the left */
 	.nav .navServices .dropdown {left: -78px;}
 	.nav .navServices .dropdown:after {left: 155px;}
@@ -110,6 +109,7 @@ html.noScroll, html.noScroll body {overflow:hidden !important; height: 100% !imp
 
 /* Tablet Portrait */
 @media (max-width: $breakpoint-tablet-portrait) {
+//@media (max-width: $breakpoint-mobile) {
 	.dropdown .dropdown_group .dropdown_item { margin: 14px 0; }
 	.dropdown_hasTwoColumn { left: 0; }
 	.dropdown_hasTwoColumn .dropdown_grou.navp {display:block;}
@@ -119,16 +119,16 @@ html.noScroll, html.noScroll body {overflow:hidden !important; height: 100% !imp
 		-ms-transform: scale(0.95);
 		transform: scale(0.95);
 		will-change: opacity, transform;
-		box-shadow: 0 50px 100px -20px rgba(50,50,93,.25), 0 30px 60px -30px rgba(0,0,0,.3), 0 -18px 60px -10px rgba(0,0,0,.025);
 		border-radius: 0;
 		-webkit-overflow-scrolling: touch;
 		overflow-y: auto;
+		box-shadow:none;
 	}
 	.nav > ul { position: relative; z-index: 5; display: block; padding: 0; font-weight: 600; font-size: 14px; letter-spacing: .1em; color: $blue22; text-transform: uppercase; }
 	.nav > ul > li:last-of-type > a { border-bottom: 0 solid $gray29; }
 	.nav > ul > li > a { display: inline-block; width: 100%; padding: 25px 19px 20px; border-top: 1px solid $gray29; }
 	.nav > ul > li > a:after { display: none; }
-	.nav.open { opacity: 1; transform: translateY(0); pointer-events: all;height:95vh; }
+	.nav.open { opacity: 1; transform: translateY(0); pointer-events: all;height:100vh; }
 	.dropdown_hasTwoColumn .dropdown_group { display:block; }
 	.nav.isOpening { transition: opacity 0.25s, transform 0.25s; }
 	.nav.isClosing { transition: opacity 0.25s, transform 0.25s; }
@@ -142,6 +142,7 @@ html.noScroll, html.noScroll body {overflow:hidden !important; height: 100% !imp
 }
 
 @media (min-width: $breakpoint-tablet-portrait) {
+//@media (min-width: $breakpoint-mobile) {
 // create the popup up arrow
 	.dropdown:before {position: absolute;border: 10px;}
 	/* dropdown items hover and active state */

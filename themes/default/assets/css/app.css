@@ -6760,7 +6760,7 @@ html.noScroll, html.noScroll body {
 
   .header .nav {
     position: fixed;
-    top: 48px;
+    top: 47px;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -7029,10 +7029,10 @@ html.noScroll, html.noScroll body {
     transform-origin: top center;
     transform: scale(0.95);
     will-change: opacity, transform;
-    box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.25), 0 30px 60px -30px rgba(0, 0, 0, 0.3), 0 -18px 60px -10px rgba(0, 0, 0, 0.025);
     border-radius: 0;
     -webkit-overflow-scrolling: touch;
     overflow-y: auto;
+    box-shadow: none;
   }
 
   .nav > ul {
@@ -7066,7 +7066,7 @@ html.noScroll, html.noScroll body {
     opacity: 1;
     transform: translateY(0);
     pointer-events: all;
-    height: 95vh;
+    height: 100vh;
   }
 
   .dropdown_hasTwoColumn .dropdown_group {
