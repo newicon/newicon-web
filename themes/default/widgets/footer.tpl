@@ -4,13 +4,13 @@
 			<div class="cols">
 				<div class="col col-1of5">
 					<h5 class="footer_title">Services</h5><!-- /.footer_title -->
-					<ul class="list-links-secondary">
-						<li><a href="#">Architecture & UX Design</a></li>
+					<ul class="footer_links">
+						<li><a href="{page_url id="architecture"}">Architecture & UX Design</a></li>
 						<li><a href="#">Workshops</a></li>
-						<li><a href="#">Software Development</a></li>
+						<li><a href="{page_url id="software"}">Software Development</a></li>
 						<li><a href="#">Mobile Development</a></li>
-						<li><a href="#">Web Development</a></li>
-						<li><a href="#">Digital Marketing</a></li>
+						<li><a href="{page_url id="web-development"}">Web Development</a></li>
+						<li><a href="{page_url id="digital-marketing"}">Digital Marketing</a></li>
 						<li><a href="#">Hosting</a></li>
 						<li><a href="#">Digital Audits</a></li>
 						<li><a href="#">SEO & PPC</a></li>
@@ -20,8 +20,8 @@
 
 				<div class="col col-1of5">
 					<h5 class="footer_title">Products</h5><!-- /.footer_title -->
-					<ul class="list-links-secondary">
-						<li><a href="#">Neon</a></li>
+					<ul class="footer_links">
+						<li><a href="{page_url id="neon"}">Neon</a></li>
 						<li><a href="#">RemoteOne</a></li>
 						<li><a href="#">Hotspot</a></li>
 						<li><a href="#">Innovation Toolkit</a></li>
@@ -33,14 +33,14 @@
 
 				<div class="col col-1of5">
 					<h5 class="footer_title">For Industry</h5><!-- /.footer_title -->
-					<ul class="list-links-secondary">
+					<ul class="footer_links">
 						<li><a href="#">Aerospace</a></li>
 						<li><a href="#">Renewable Energy</a></li>
 						<li><a href="#">Education</a></li>
 					</ul>
 
 					<h5 class="footer_title">Newicon Approach</h5><!-- /.footer_title -->
-					<ul class="list-links-secondary">
+					<ul class="footer_links">
 						<li><a href="#">For Startups</a></li>
 						<li><a href="#">For SME's</a></li>
 						<li><a href="#">For Enterprise</a></li>
@@ -50,29 +50,33 @@
 
 				<div class="col col-1of5">
 					<h5 class="footer_title">Newicon Values</h5><!-- /.footer_title -->
-					<ul class="list-links-secondary">
+					<ul class="footer_links">
 						<li><a href="#">Team Values</a></li>
 						<li><a href="#">Brand Values</a></li>
 						<li><a href="#">Technology Values</a></li>
 					</ul>
 					<h5 class="footer_title">Newicon Approach</h5><!-- /.footer_title -->
-					<ul class="list-links-secondary">
-						<li><a href="#">Our approach</a></li>
-						<li><a href="#">Architecture Process</a></li>
+					<ul class="footer_links">
+						<li><a href="{page_url id="approach"}">Our approach</a></li>
+						<li><a href="{page_url id="architecture-process"}">Architecture Process</a></li>
 						<li><a href="#">Software Process</a></li>
-						<li><a href="#">Neon Framework</a></li>
+						<li><a href="{page_url id="technologies"}">Technologies</a></li>
+						<li><a href="{page_url id="neon"}">Neon Framework</a></li>
 					</ul><!-- /.list-links-secondary -->
 				</div>
 				<div class="col col-1of5">
 					<h5 class="footer_title">About Newicon</h5><!-- /.footer_title -->
-					<ul class="list-links-secondary">
+					<ul class="footer_links">
 						<li><a href="#">Mission</a></li>
-						<li><a href="#">History</a></li>
-						<li><a href="#">Culture</a></li>
-						<li><a href="#">Brand Values</a></li>
+						<li><a href="{page_url id="history"}">History</a></li>
+						<li><a href="{page_url id="culture"}">Culture</a></li>
+						<li><a href="{page_url id="brand-values"}">Brand Values</a></li>
 						<li><a href="#">Team Values</a></li>
-						<li><a href="#">Job Opportunities</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="{page_url id="team"}">Team</a></li>
+						<li><a href="{page_url id="join"}">Job Opportunities</a></li>
+						<li><a href="{page_url id="why-join"}">Why Join</a></li>
+						<li><a href="{page_url id="blog"}">Blog</a></li>
+						<li><a href="{page_url id="contact"}">Contact</a></li>
 					</ul><!-- /.list-links-secondary -->
 				</div>
 

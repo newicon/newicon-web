@@ -7,7 +7,7 @@
 		<div class="header_inner">
 			<nav class="nav">
 				<ul>
-					<li class="visible-xs-block visible-sm-block"><a href="#"></a></li>
+{*					<li class="visible-xs-block visible-sm-block"><a href="#"></a></li>*}
 					<li class="navBrand hidden-xs hidden-sm {(in_array('newicon', $white)||$inverse) ? 'textLight' : ''}">
 						<a href="{page_url nice="home"}"><img src="{(in_array('newicon', $white)||$inverse) ? {asset path='/images/logo-white-secondary@2x.png'}:{asset path='/images/newicon.svg'}}" alt="" width="70" height="15"></a>
 					</li>
@@ -29,11 +29,18 @@
 
 					<li class="{(in_array('work', $white)||$inverse) ? 'textLight' : ''} {(on_url({page_url nice='work'}))?'isActive':''}">
 						<a class="nav_link" href="{page_url nice='work'}">work</a>
+						<div class="dropdown">
+							<div class="dropdown_group">
+								<ul>
+                                    {nav_menu_item link="work" title="Our Work" note="Our work" icon='ico-work'}
+								</ul>
+							</div><!-- /.dropdown_group -->
+						</div><!-- /.dropdown -->
 					</li>
 
 					<li class="{(in_array('about', $white)||$inverse) ? 'textLight' : ''}
 					{({on_page id=['about', 'culture', 'history', 'team', 'brand-values']}) ? 'isActive':''} has_dropdown">
-						<a class="nav_link" href="{page_url nice='about'}">about</a>
+						<a class="nav_link" href="#">about</a>
 						<div class="dropdown dropdown_hasTwoColumn">
 							<div class="dropdown_group" >
 								<div class="dropdown_col">
@@ -60,7 +67,7 @@
 						{({on_page id=['approach', 'architecture-process', 'technologies', 'neon']}) ? 'isActive': ''}
 						has_dropdown
 						">
-						<a class="nav_link" href="{page_url nice='approach'}">approach</a>
+						<a class="nav_link" href="#">approach</a>
 						<div class="dropdown">
 							<div class="dropdown_group">
 								<ul>
@@ -75,6 +82,13 @@
 
 					<li class="{(in_array('contact', $white)||$inverse) ? 'textLight' : ''} {(on_url({page_url nice='contact'}))?'isActive':''}">
 						<a class="nav_link" href="{page_url nice='contact'}">contact</a>
+						<div class="dropdown">
+							<div class="dropdown_group">
+								<ul>
+                                    {nav_menu_item link="contact" title="Contact us" note="Contact" icon='ico-contact'}
+								</ul>
+							</div><!-- /.dropdown_group -->
+						</div><!-- /.dropdown -->
 					</li>
 
 				</ul>

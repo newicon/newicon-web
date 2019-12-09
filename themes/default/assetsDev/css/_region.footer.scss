@@ -6,7 +6,7 @@
 
 .footer .footer_body { padding: 0 15px; margin-bottom: 120px; }
 
-.footer .footer_title { margin-bottom: 30px; font-weight: 400; font-size: 15px; color: $blue2; }
+.footer .footer_title { margin-bottom: 30px; margin-top: 30px; font-weight: 400; font-size: 15px; color: $blue2; }
 
 .footer .footer_bar { padding: 0 13px; }
 
@@ -35,6 +35,16 @@
 .footer .socials { margin-left: -3px; }
 
 .footer .logo { margin-left: 2px; }
+
+
+/* ------------------------------------------------------------ *\
+	List Links Secondary
+\* ------------------------------------------------------------ */
+
+.footer_links { padding: 0; margin: 0; list-style-type: none; font-weight: 400; font-size: 15px; color: $gray3; }
+.footer_links a { text-decoration: none; }
+.footer_links a:hover { color: $blue3; }
+.footer_links a[href="#"] { opacity:0.5; }
 
 /* Tablet Portrait */
 

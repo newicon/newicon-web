@@ -35,3 +35,7 @@
 }
 
 .textLead {font-weight:400; font-size:22px;}
+@media (min-width: 768px) {
+    .textLead {max-width: 600px;}
+}
+

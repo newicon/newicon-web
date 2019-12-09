@@ -692,6 +692,11 @@ li {
   font-size: 22px;
 }
 
+@media (min-width: 768px) {
+  .textLead {
+    max-width: 600px;
+  }
+}
 /* ------------------------------------------------------------ *\
 	Helpers
 \* ------------------------------------------------------------ */
@@ -2254,6 +2259,7 @@ li {
 
 .footer .footer_title {
   margin-bottom: 30px;
+  margin-top: 30px;
   font-weight: 400;
   font-size: 15px;
   color: #000;
@@ -2333,6 +2339,30 @@ li {
 
 .footer .logo {
   margin-left: 2px;
+}
+
+/* ------------------------------------------------------------ *\
+	List Links Secondary
+\* ------------------------------------------------------------ */
+.footer_links {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 15px;
+  color: #7C8798;
+}
+
+.footer_links a {
+  text-decoration: none;
+}
+
+.footer_links a:hover {
+  color: #0067FF;
+}
+
+.footer_links a[href="#"] {
+  opacity: 0.5;
 }
 
 /* Tablet Portrait */
@@ -6038,27 +6068,6 @@ input:-webkit-autofill {
   }
 }
 /* ------------------------------------------------------------ *\
-	List Links Secondary
-\* ------------------------------------------------------------ */
-.list-links-secondary {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-  font-weight: 400;
-  font-size: 15px;
-  color: #7C8798;
-}
-
-.list-links-secondary a {
-  text-decoration: none;
-  transition: color 0.4s;
-}
-
-.list-links-secondary a:hover {
-  color: #0067FF;
-}
-
-/* ------------------------------------------------------------ *\
 	List Contacts
 \* ------------------------------------------------------------ */
 .list-contacts {
@@ -6751,7 +6760,7 @@ html.noScroll, html.noScroll body {
 
   .header .nav {
     position: fixed;
-    top: 0;
+    top: 48px;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -6780,7 +6789,7 @@ html.noScroll, html.noScroll body {
 .dropdown {
   position: absolute;
   top: 100%;
-  left: -212px;
+  left: -162px;
   transform: scale(0.95);
   opacity: 0;
   pointer-events: none;
@@ -6946,7 +6955,7 @@ html.noScroll, html.noScroll body {
 .nav > ul > li > a {
   position: relative;
   display: inline-block;
-  padding: 20px 0 30px;
+  padding: 20px 50px 30px;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -6969,16 +6978,11 @@ html.noScroll, html.noScroll body {
 }
 
 .nav > ul > li.navBrand > a {
-  padding: 19px 0 30px;
+  padding: 19px 50px 30px;
 }
 
 .nav .textLight {
   color: #fff;
-}
-
-.nav > ul > li:nth-child(2) .dropdown {
-  left: 35%;
-  transform: translateX(-35%);
 }
 
 @media (min-width: 1024px) {
@@ -6995,7 +6999,7 @@ html.noScroll, html.noScroll body {
 }
 @media (min-width: 1023px) and (max-width: 1500px) {
   .nav .navServices .dropdown {
-    left: -128px;
+    left: -78px;
   }
 
   .nav .navServices .dropdown:after {
@@ -7003,12 +7007,6 @@ html.noScroll, html.noScroll body {
   }
 }
 /* Small Desktop */
-@media (max-width: 1200px) {
-  .nav > ul > li:nth-child(2) .dropdown {
-    left: 25%;
-    transform: translateX(-25%);
-  }
-}
 /* Tablet Portrait */
 @media (max-width: 1023px) {
   .dropdown .dropdown_group .dropdown_item {
@@ -7019,12 +7017,12 @@ html.noScroll, html.noScroll body {
     left: 0;
   }
 
-  .dropdown_hasTwoColumn .dropdown_group {
+  .dropdown_hasTwoColumn .dropdown_grou.navp {
     display: block;
   }
 
   .nav {
-    padding: 0 20px 70px;
+    padding: 0 20px 0;
     background-color: #fff;
     opacity: 0;
     pointer-events: none;
@@ -7032,7 +7030,7 @@ html.noScroll, html.noScroll body {
     transform: scale(0.95);
     will-change: opacity, transform;
     box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.25), 0 30px 60px -30px rgba(0, 0, 0, 0.3), 0 -18px 60px -10px rgba(0, 0, 0, 0.025);
-    border-radius: 8px;
+    border-radius: 0;
     -webkit-overflow-scrolling: touch;
     overflow-y: auto;
   }
@@ -7050,7 +7048,7 @@ html.noScroll, html.noScroll body {
   }
 
   .nav > ul > li:last-of-type > a {
-    border-bottom: 1px solid #E3E3E3;
+    border-bottom: 0 solid #E3E3E3;
   }
 
   .nav > ul > li > a {
@@ -7068,6 +7066,11 @@ html.noScroll, html.noScroll body {
     opacity: 1;
     transform: translateY(0);
     pointer-events: all;
+    height: 95vh;
+  }
+
+  .dropdown_hasTwoColumn .dropdown_group {
+    display: block;
   }
 
   .nav.isOpening {
@@ -13510,6 +13513,26 @@ html.noScroll, html.noScroll body {
 
 .ico-website {
   background: url(../images/sprite/ico-website.png) no-repeat 0 0;
+  background-size: 100% 100%;
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0px;
+}
+
+.ico-work {
+  background: url(../images/sprite/ico-work.svg) no-repeat 0 0;
+  background-size: 100% 100%;
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0px;
+}
+
+.ico-contact {
+  background: url(../images/sprite/ico-contact.svg) no-repeat 0 0;
   background-size: 100% 100%;
   width: 34px;
   height: 34px;
