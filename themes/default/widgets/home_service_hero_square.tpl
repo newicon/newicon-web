@@ -1,3 +1,17 @@
+{*
+{
+	"tag": "home_service_hero_square",
+	"title": "home_service_hero_square",
+	"description": '',
+	"props": {
+		link: {type: String},
+		attrs: {type: Object},
+		title: {type: String},
+		body: {type: html},
+		image: {type: string},
+	}
+}
+*}
 <a class="service" href="{page_url id=$link}" {attrs attrs=$attrs|default:[]}>
 	<div class="service_inner">
 		<div class="service_content">

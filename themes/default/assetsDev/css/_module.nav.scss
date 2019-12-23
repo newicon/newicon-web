@@ -8,7 +8,7 @@
 // this class can only be added to the html tag - hence the over specific css selector
 html.noScroll, html.noScroll body {overflow:hidden !important; height: 100% !important;}
 
-.header { position: absolute; top: 0; left: 0; z-index: 10; width: 100%; }
+.header { top: 0; left: 0; z-index: 10; width: 100%; }
 .header_mobileLogo { display: none; position: relative; font-size: 0;}
 .header_mobileLogo img {margin:0 auto; display:block;}
 .navTrigger { display: none; }
@@ -35,7 +35,7 @@ html.noScroll, html.noScroll body {overflow:hidden !important; height: 100% !imp
 	Dropdown
 \* ------------------------------------------------------------ */
 
-.dropdown { position: absolute; top: 100%; left: -162px; transform: scale(0.95); opacity: 0; pointer-events: none; transition: all .35s cubic-bezier(.2, 1, .22, 1); transform-origin: top center; will-change:opacity, transform; width: 485px; padding: 0; border-radius: 8px; background-color: $white; box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.25), 0 30px 60px -30px rgba(0, 0, 0, 0.3), 0 -18px 60px -10px rgba(0, 0, 0, 0.025);}
+.dropdown { position: absolute; z-index: 100000; top: 100%; left: -162px; transform: scale(0.95); opacity: 0; pointer-events: none; transition: all .35s cubic-bezier(.2, 1, .22, 1); transform-origin: top center; will-change:opacity, transform; width: 485px; padding: 0; border-radius: 8px; background-color: $white; box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.25), 0 30px 60px -30px rgba(0, 0, 0, 0.3), 0 -18px 60px -10px rgba(0, 0, 0, 0.025);}
 
 .dropdown_hasTwoColumn {width:600px; left:calc(-600px/2 + 50%)}
 .dropdown_col {flex:1}
