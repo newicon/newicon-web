@@ -1,6 +1,6 @@
 {extends "layouts/layout.tpl"}
 {block "header"}
-	{navigation white=['about','approach','contact'] }
+	{navigation white=['about','approach','contact'] style="position:absolute;"}
 {/block}
 {block "content"}
 	<div class="main">

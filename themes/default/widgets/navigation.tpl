@@ -2,7 +2,7 @@
 {if (!isset($inverse ))} {$inverse=false} {/if}
 {if (!isset($white ))} {$white=[]} {/if}
 
-<header class="header">
+<header class="header" style="{$style|default}">
 	<div class="shell shell-fluid">
 		<div class="header_inner">
 			<nav class="nav">

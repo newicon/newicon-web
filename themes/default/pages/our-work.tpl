@@ -13,7 +13,7 @@
 
 
 
-		<div class="introSecondary introSecondary-dark">
+		<div class="introSecondary introSecondary-dark m_pullIntoMenu">
             {hero_text
             title="Our work"
             subtitle="Client stories to whet your appetite."
