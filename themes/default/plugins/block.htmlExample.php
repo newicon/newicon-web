@@ -15,7 +15,7 @@ use neon\core\helpers\Html;
 function smarty_block_htmlExample($params, $content, Smarty_Internal_Template $template, &$repeat)
 {
 	// only output on the closing tag
-	if(!$repeat){
+	if (!$repeat) {
 		if (isset($content)) {
 			return $content . highlight_string($content, true);
 		}
