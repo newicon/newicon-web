@@ -18,7 +18,7 @@
 
 {*		{static_block key="homepage_callout" wys=true}*}
 {*			<p>We use design and software engineering to transform your future. Newicon. New tomorrow.</p>*}
-{*        {/static_block}*}
+{*          {/static_block}*}
 
 {literal}
 		<style>
@@ -148,31 +148,56 @@
 {*		</section>*}
 {*		<h1 style="font-size:50px; letter-spacing: 1px;color: black;"><span style="font-weight:700">new</span><span style="font-weight:300;padding-left:3px;" class="text-success" data-toggle="typed" data-options='{ "strings": ["thinking", "ideas", "tomorrow", "icon^5000"] }'></span></h1>*}
 
+{*        {cmpy} THINGS {/cmpy}*}
 
+{*	{c cmp="NeonColumns" }*}
+{*		{c cmp="NeonColumn"}*}
+{*			{c cmp='p'}hello{/c}*}
+{*		{/c}*}
+{*	{/c}*}
 
-        {editor id="dropzone1"}
-	        <!-- cmp:NeonColumns -->
-	        <div class="row" style="padding:10px;">
-		        <!-- cmp:NeonColumn -->
-		        <div class="col" style="padding:10px;">
-			        <!-- cmp:NeonThing -->
-			        <div>HERE IS A THING</div>
-			        <!-- /cmp:NeonThing -->
-		        </div>
-		        <!-- /cmp:NeonColumn -->
-		        <!-- cmp:NeonColumn -->
-		        <div class="col" style="padding:10px;">
-			        <!-- cmp:NeonThing -->
-			        <div>HERE IS A THING</div>
-			        <!-- /cmp:NeonThing -->
-			        <!-- cmp:NeonThing -->
-			        <div>HERE IS A THING</div>
-			        <!-- /cmp:NeonThing -->
-		        </div>
-		        <!-- /cmp:NeonColumn -->
-	        </div>
-	        <!-- /cmp:NeonColumns -->
-        {/editor}
+{*		{NeonColumns}*}
+{*			{NeonCol}*}
+{*	            {NeonColumns}*}
+{*		            {NeonCol}*}
+{*						<p>Hello!! col 1</p>*}
+{*		            {/NeonCol}*}
+{*		            {NeonCol}*}
+{*						<p>Hello!! col 2</p>*}
+{*		            {/NeonCol}*}
+{*	            {/NeonColumns}*}
+{*				<p>Hello!! col 1</p>*}
+{*			{/NeonCol}*}
+{*	        {NeonCol}*}
+{*				<p>Hello!! col 2</p>*}
+{*	        {/NeonCol}*}
+{*		{/NeonColumns}*}
+{*{NeonColumns}HELLO{NeonColumns}*}
+
+        {editor id="dropzone1"}{/editor}
+{*        {editor id="dropzone2"}*}
+{*	        <!-- cmp:NeonColumns -->*}
+{*	        <div class="row" style="padding:10px;">*}
+{*		        <!-- cmp:NeonColumn -->*}
+{*		        <div class="col" style="padding:10px;">*}
+{*			        <!-- cmp:NeonThing -->*}
+{*			        <div>HERE IS A THING</div>*}
+{*			        <!-- /cmp:NeonThing -->*}
+{*		        </div>*}
+{*		        <!-- /cmp:NeonColumn -->*}
+{*		        <!-- cmp:NeonColumn -->*}
+{*		        <div class="col" style="padding:10px;">*}
+{*			        <!-- cmp:NeonThing -->*}
+{*			        <div>HERE IS A THING</div>*}
+{*			        <!-- /cmp:NeonThing -->*}
+{*			        <!-- cmp:NeonThing -->*}
+{*			        <div>HERE IS A THING</div>*}
+{*			        <!-- /cmp:NeonThing -->*}
+{*		        </div>*}
+{*		        <!-- /cmp:NeonColumn -->*}
+{*	        </div>*}
+{*	        <!-- /cmp:NeonColumns -->*}
+{*        {/editor}*}
 
 {*		<div>*}
 {*			<h1>Trash hand</h1>*}

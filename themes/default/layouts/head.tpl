@@ -14,9 +14,6 @@
 <link rel="stylesheet" type="text/css" href="{asset path='/vendor/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css'}">
 
 
-{*<link rel="stylesheet" href="https://unpkg.com/vue-agile/dist/VueAgile.css">*}
-{*<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">*}
-
 <link rel="stylesheet" type="text/css" href="{asset path='/css/app.css'}">
 
 {assign var="fav" value="blue"}

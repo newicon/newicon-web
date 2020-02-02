@@ -25,7 +25,7 @@
 
 			</style>
         {/literal}{/css}
-		<link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+
 	</head>
 	<body data-aos-easing="ease-out-quad" data-aos-duration="700" data-aos-delay="0">
 		<div class="wrapper" id="wrapper">
