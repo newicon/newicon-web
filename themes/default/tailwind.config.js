@@ -1,6 +1,14 @@
 const plugin = require('tailwindcss/plugin');
 const { colors } = require('tailwindcss/defaultTheme');
-
+const purgecss = require('@fullhuman/postcss-purgecss')({
+	// Specify the paths to all of the template files in your project
+	content: [
+		'./pages/**/*.tpl',
+		'./widgets/**/*.tpl',
+	],
+	// Include any special characters you're using in this regular expression
+	defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
+})
 module.exports = {
 	prefix: '',
 	theme: {
@@ -38,6 +46,8 @@ module.exports = {
 				'h3': { fontSize: config('theme.fontSize.2xl') },
 				'h4': { fontSize: config('theme.fontSize.xl') },
 			})
-		})
+		}),
+		require('autoprefixer'),
+		...process.env.NODE_ENV === 'production' ? [purgecss] : []
 	],
 }
