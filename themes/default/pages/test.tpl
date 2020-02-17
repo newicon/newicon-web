@@ -3,5 +3,7 @@
     {navigation}
 {/block}
 {block "content"}
-{editor id="test"}{/editor}
+{editor id="test" parser=xml}
+{/editor}
+
 {/block}

@@ -7,10 +7,10 @@
 		<section class="sectionInfo">
 			<div class="shell shell-xs">
 				<div class="section_head">
-					<h6 class="section_subtitle">Privacy &amp; Security</h6><!-- /.section_subtitle -->
-					<h1 class="section_title">Newicon Security</h1><!-- /.section_title -->
+					<h6 class="section_subtitle">Privacy &amp; Security</h6>
+					<h1 class="section_title">Newicon Security</h1>
 					<p>Newicon takes the security of your data and our infrastructure very seriously. We are committed to providing and environment that is safe, secure, and available to all of our customers.</p>
-				</div><!-- /.section_head -->
+				</div>
 
 				<div class="section_body">
 					<nav class="navQuaternary">
@@ -39,7 +39,7 @@
 								<a href="#">Contact Security</a>
 							</li>
 						</ul>
-					</nav><!-- /.navQuaternary -->
+					</nav>
 
 					<div class="section_entry">
 						<p><strong>Your privacy is important to you and to us. So we’ll protect the information you
@@ -300,9 +300,9 @@
 							Commissioner’s Office by clicking here: <a
 									href="http://CONTACTING SYMEC If you have any queries, questions or comments about our privacy policy, you can contact us at any time by emailing customer@symec.co.uk – we aim to respond within 7 business days. If we are unable to resolve your complaint, you may refer your complaint to the Information Commissioner’s Office by clicking here: https://ico.org.uk/concerns/.">https://ico.org.uk/concerns/</a>
 						</p>
-					</div><!-- /.section_entry -->
-				</div><!-- /.section_body -->
-			</div><!-- /.shell -->
-		</section><!-- /.sectionInfo -->
-	</div><!-- /.main -->
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
 {/block}

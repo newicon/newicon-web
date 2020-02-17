@@ -27,9 +27,9 @@
 {*					<li><a href="#">E-commerce</a></li>*}
 {*					<li><a href="#">Mobile App</a></li>*}
 {*					<li><a href="#">Software</a></li>*}
-{*				</ul><!-- /.listFilters -->*}
-{*			</div><!-- /.shell -->*}
-		</div><!-- /.introSecondary -->
+{*				</ul>*}
+{*			</div>*}
+		</div>
 
 		<section class="sectionReview" style="background-image: url({asset path='images/temp/section-review-background-5.png);'}">
 			<div class="shell">
@@ -40,10 +40,10 @@
 						<h3>A striking online presence for the<br>innovation hub of Bristol</h3>
 
 						<a href="{page_url nice='case-study-bbsp'}" class="btn btn-primary">Read more</a>
-					</div><!-- /.section_entry -->
-				</div><!-- /.section_content -->
-			</div><!-- /.shell -->
-		</section><!-- /.sectionReview -->
+					</div>
+				</div>
+			</div>
+		</section>
 
 		<section class="sectionReview" style="background-image: url({asset path='images/temp/section-review-background-6.png);'}">
 			<div class="shell" data-aos="fade-up">
@@ -52,10 +52,10 @@
 						<h6>Airbus</h6>
 						<h3>A maintenance mobile app for a global<br>aviation superpower</h3>
 						<a href="#" class="btn btn-primary">Read more</a>
-					</div><!-- /.section_entry -->
-				</div><!-- /.section_content -->
-			</div><!-- /.shell -->
-		</section><!-- /.sectionReview -->
+					</div>
+				</div>
+			</div>
+		</section>
 
 		<section class="sectionReview" style="background-image: url({asset path='images/temp/section-review-background-7.png);'}">
 			<div class="shell" data-aos="fade-up">
@@ -66,10 +66,10 @@
 						<h3>A face-lift for one of Europe’s biggest<br>TEDx Events</h3>
 
 						<a href="#" class="btn btn-primary">Read more</a>
-					</div><!-- /.section_entry -->
-				</div><!-- /.section_content -->
-			</div><!-- /.shell -->
-		</section><!-- /.sectionReview -->
+					</div>
+				</div>
+			</div>
+		</section>
 
 		<section class="sectionReview" style="background-image: url({asset path='images/temp/section-review-background-8.png);'}">
 			<div class="shell" >
@@ -80,10 +80,10 @@
 						<h3>Working with the south west’s finest<br>marble product suppliers</h3>
 
 						<a href="#" class="btn btn-primary">Read more</a>
-					</div><!-- /.section_entry -->
-				</div><!-- /.section_content -->
-			</div><!-- /.shell -->
-		</section><!-- /.sectionReview -->
+					</div>
+				</div>
+			</div>
+		</section>
 
 		<section class="sectionContacts">
 			<div class="shell" >
@@ -91,7 +91,7 @@
 					<div class="section_inner" data-aos="fade-up">
 						<header class="section_head">
 							<div class="section_head-inner">
-								<h1 class="section_title">Start your future, today.</h1><!-- /.section_title -->
+								<h1 class="section_title">Start your future, today.</h1>
 
 								<p>
 									For more information about how we can help you:
@@ -109,9 +109,9 @@
 
 										<a href="mailto:talktous@newicon.net">talktous@newicon.net</a>
 									</li>
-								</ul><!-- /.list-contacts -->
-							</div><!-- /.section_head-inner -->
-						</header><!-- /.section_head -->
+								</ul>
+							</div>
+						</header>
 
 						<div class="section_body">
 							<div class="form form-contacts">
@@ -122,30 +122,30 @@
 												<div class="form_row">
 													<div class="form_controls">
 														<input type="text" class="field" name="name" placeholder="Name*">
-													</div><!-- /.form_controls -->
-												</div><!-- /.form_row -->
+													</div>
+												</div>
 
 												<div class="form_row">
 													<div class="form_controls">
 														<input type="email" class="field" name="email" placeholder="Email address*">
-													</div><!-- /.form_controls -->
-												</div><!-- /.form_row -->
+													</div>
+												</div>
 
 												<div class="form_row">
 													<div class="form_controls">
 														<input type="tel" class="field" name="tel" placeholder="Telephone">
-													</div><!-- /.form_controls -->
-												</div><!-- /.form_row -->
-											</div><!-- /.form_col -->
+													</div>
+												</div>
+											</div>
 
 											<div class="form_col form_col-1of2">
 												<div class="form_row">
 													<div class="form_controls">
 														<textarea class="field field--textarea" name="message" placeholder="Tell us about your project"></textarea>
-													</div><!-- /.form_controls -->
-												</div><!-- /.form_row -->
-											</div><!-- /.form_col -->
-										</div><!-- /.footer_cols -->
+													</div>
+												</div>
+											</div>
+										</div>
 
 										<div class="form_inner">
 											<p>
@@ -158,7 +158,7 @@
 														<input type="radio" name="subscribe" id="yes">
 
 														<label for="yes">Yes</label>
-													</div><!-- /.radio -->
+													</div>
 												</li>
 
 												<li>
@@ -166,21 +166,21 @@
 														<input type="radio" name="subscribe" id="no">
 
 														<label for="no">No</label>
-													</div><!-- /.radio -->
+													</div>
 												</li>
-											</ul><!-- /.list-radios -->
-										</div><!-- /.form_inner -->
-									</div><!-- /.form_body -->
+											</ul>
+										</div>
+									</div>
 
 									<div class="form_actions">
 										<button type="submit" class="btn btn-secondary">Send message</button>
-									</div><!-- /.form_actions -->
+									</div>
 								</form>
-							</div><!-- /.form -->
-						</div><!-- /.section_body -->
-					</div><!-- /.section_inner -->
-				</div><!-- /.section_content -->
-			</div><!-- /.shell -->
-		</section><!-- /.sectionContacts -->
-	</div><!-- /.main -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
 {/block}

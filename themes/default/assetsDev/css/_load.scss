@@ -1,6 +1,12 @@
 /* ------------------------------------------------------------ *\
 	Settings
 \* ------------------------------------------------------------ */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+
 
 @import '~magnific-popup/dist/magnific-popup.css';
 /* overlay at start */
@@ -103,3 +109,4 @@
 \* ------------------------------------------------------------ */
 
 /*@import '_theme*.css';*/
+

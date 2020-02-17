@@ -1,0 +1,47 @@
+/* ------------------------------------------------------------ *\
+	Button
+\* ------------------------------------------------------------ */
+
+//.btn { display: inline-block; vertical-align: middle; min-width: 190px; height: 55px; border: 0; border-radius: 3px; font-weight: 700; font-size: 15px; line-height: 55px; text-align: center; text-decoration: none; -webkit-appearance: none; -moz-appearance: none; appearance: none; -webkit-transition: border .2s, background .2s, color .2s, transform .2s; -o-transition: border .2s, background .2s, color .2s, transform .2s; transition: border .2s, background .2s, color .2s, transform ease .2s; padding:0 20px}
+.btn { display: inline-block; vertical-align: middle; min-width: 190px; height: 55px; border: 0; border-radius: 3px; font-weight: 700; font-size: 15px; line-height: 55px; text-align: center; text-decoration: none; -webkit-appearance: none; -moz-appearance: none; appearance: none;
+   padding:0 20px; transition: 0.15s cubic-bezier(0.17, 0.67, 0.52, 0.97); }
+.btn-primary { background-color: $blue3; color: $white; }
+.btn-primary:hover { }
+
+.btn-primary.btn-outline { border: 1px solid $blue3; background-color: transparent; color: $blue3; line-height: 53px; }
+.btn-primary.btn-outline:hover { background-color: $gray3;  }
+.btn._shadow {box-shadow: 0 12px 18px 0 rgba(0, 0, 0, 0.2)}
+.btn._shadow:active{box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.2), inset 0px 5px 5px rgba(0,0,0,0.2)}
+
+.btn-gray { background-color: $gray3; color: $white; }
+.btn-gray.btn-outline { border: 1px solid $gray3; background-color: transparent; line-height: 53px; }
+.btn-gray.btn-outline:hover { border-color: $white; background-color: $white; color: $blue4; }
+
+.btn-secondary { background-color: $white; color: $gray9; }
+.btn-secondary:hover { background-color: $gray3; }
+.btn-secondary.btn-outline { border: 1px solid $white; background-color: transparent; line-height: 53px; }
+
+.btn-tertiary { border-radius: 3px; background-color: $blue18; color: $white; }
+.btn-tertiary:hover { background-color: $blue4; }
+.btn-tertiary.btn-outline { border: 1px solid $blue18; background-color: transparent; color: $blue18; }
+.btn-tertiary.btn-outline:hover { color: $white; }
+
+.btn-white { border-radius: 3px; background-color: $white; color: $blue4; }
+.btn-white:hover { background-color: $blue3; color: $white; }
+
+.btn-purple { border-radius: 0; background-color: $blue; color: $white; }
+.btn-purple:hover { background-color: $blue7; }
+.btn-purple.btn-outline { border: 1px solid $blue; background-color: transparent; color: $blue; }
+.btn-purple.btn-outline:hover { background-color: $blue; color: $white; }
+
+.btn-outline.btn-md { line-height: 43px; }
+.btn-outline.btn-sm { line-height: 38px; }
+.btn-outline.btn-xs { line-height: 36px; }
+
+.btn-md { border-radius: 0; min-width: 164px; height: 45px; line-height: 45px; font-size: 13px; }
+.btn-sm { border-radius: 0; min-width: 160px; height: 40px; line-height: 40px; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; }
+.btn-xs { min-width: 120px; height: 38px; font-size: 11px; font-weight: 800; line-height: 38px; }
+
+
+.btn:hover {transform:scale(1.02) }
+.btn:active {transform: scale(0.98) }

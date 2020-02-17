@@ -9,9 +9,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900%7CVolkhov:400,400i" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900|Volkhov:400,400i&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="{asset path='/vendor/font-awesome-4.7.0/css/font-awesome.min.css'}">
-<link rel="stylesheet" type="text/css" href="{asset path='/vendor/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css'}">
+{*<link rel="stylesheet" type="text/css" href="{asset path='/vendor/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css'}">*}
 
 
 <link rel="stylesheet" type="text/css" href="{asset path='/css/app.css'}">
