@@ -11,7 +11,7 @@
 			<img src="{assets path='images/telescope-future.svg'}" alt="Newicon see the future image" />
 		</div>
 		<div class="self-center md:w-2/5">
-			<div class="" data-editable>
+			<div class="ml-10  md:ml-20" data-editable>
 				<h1 class="text-6xl" >Go beyond the cloud.</h1>
                 {static_block key="homepage_callout" wys=true}
 					<p>We use design and software engineering to transform your future. Newicon. New tomorrow.</p>
