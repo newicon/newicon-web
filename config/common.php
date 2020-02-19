@@ -4,7 +4,7 @@
  * Here you can set up any application wide configuration that is not local to your deployment
  */
 return [
-	'name' => 'APPLICATION NAME',
+	'name' => 'Newicon',
 	'coreApps' => [
 
 		'cms' => [

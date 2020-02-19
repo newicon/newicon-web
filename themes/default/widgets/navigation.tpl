@@ -1,13 +1,12 @@
 {* Is this necessary in smarty? :puke: *}
 {if (!isset($inverse ))} {$inverse=false} {/if}
 {if (!isset($white ))} {$white=[]} {/if}
-
 <header class="header" style="{$style|default}">
 	<div class="shell shell-fluid">
 		<div class="header_inner">
 			<nav class="nav">
 				<ul>
-					<li class="navBrand hidden-xs hidden-sm {(in_array('newicon', $white)||$inverse) ? 'textLight' : ''}">
+					<li class="navBrand navBrand hidden md:block pt-1 {(in_array('newicon', $white)||$inverse) ? 'textLight' : ''}">
 						<a href="{page_url nice="home"}"><img src="{(in_array('newicon', $white)||$inverse) ? {asset path='/images/logo-white-secondary@2x.png'}:{asset path='/images/newicon.svg'}}" alt="" width="70" height="15"></a>
 					</li>
 					<li class="navServices has_dropdown
