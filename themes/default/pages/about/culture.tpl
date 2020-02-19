@@ -92,7 +92,7 @@
 
 								<div class="service_content">
 									<h3>Future</h3>
-									{static_block key='value_future' wys=true}
+{*									{static_block key='value_future' wys=true}*}
 										<p>We don’t want to walk blindly into the future, we want to forge ahead and shape it. And we believe that people-centric technology is the key to achieving that.</p>
 									{/static_block}
 								</div>

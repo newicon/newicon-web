@@ -2,16 +2,16 @@
 	<div class="shell">
 		<header class="section_head">
 			<h2 class="section_title">Our expertise</h2>
-			<h4 class="section_subtitle">{static_block key="expertise_strap" wys=true}The things we do for our clients and their people{/static_block}</h4>
+			<h4 class="section_subtitle">The things we do for our clients and their people</h4>
 		</header>
 
 		<div class="section_body">
 			<div class="section_entry">
-                {static_block key="expertise_text" wys=true}
+{*                {static_block key="expertise_text" wys=true}*}
 					<p>
 						Our software design and development focuses on the things that matter, the insights, interactions, integrations and innovations that make extraordinary things happen for brands, businesses and customers
 					</p>
-                {/static_block}
+{*                {/static_block}*}
 			</div>
 
 			<div class="services">

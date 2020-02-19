@@ -13,9 +13,7 @@
 		<div class="self-center md:w-2/5">
 			<div class="ml-10  md:ml-20" data-editable>
 				<h1 class="text-5xl font-extrabold lg:text-6xl">Go beyond the cloud.</h1>
-                {static_block key="homepage_callout" wys=true}
-					<p>We use design and software engineering to transform your future. Newicon. New tomorrow.</p>
-                {/static_block}
+				<p>We use design and software engineering to transform your future. Newicon. New tomorrow.</p>
 				<div class="intro_actions">
 					<a href="#" class="btn btn-primary _shadow">Start a conversation</a>
 					<a href="{page_url nice='work'}" class="btn btn-primary btn-outline hidden-xs hidden-sm hidden-md">See our work</a>

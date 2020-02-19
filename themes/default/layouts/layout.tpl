@@ -25,8 +25,8 @@
 					{footer}
 				{/block}
 			</div>
-			{* foot includes additional scripts for the page *}
-			{include "layouts/foot.tpl"}
 		</div>
+        {* foot includes additional scripts for the page *}
+        {include "layouts/foot.tpl"}
 	</body>
 </html>

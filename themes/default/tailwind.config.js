@@ -1,6 +1,6 @@
 const plugin = require('tailwindcss/plugin');
-const { colors } = require('tailwindcss/defaultTheme');
-const purgecss = require('@fullhuman/postcss-purgecss')({
+const { colors, cursor } = require('tailwindcss/defaultTheme');
+const purgeCss = require('@fullhuman/postcss-purgecss')({
 	// Specify the paths to all of the template files in your project
 	content: [
 		'./pages/**/*.tpl',
@@ -34,6 +34,10 @@ module.exports = {
 					'800': '#03296e',
 					'900': '#072261'
 				},
+			},
+			cursor: {
+				...cursor,
+				grab: 'grab'
 			}
 		},
 	},
@@ -48,6 +52,6 @@ module.exports = {
 			})
 		}),
 		require('autoprefixer'),
-		...process.env.NODE_ENV === 'production' ? [purgecss] : []
+		...process.env.NODE_ENV === 'production' ? [purgeCss] : []
 	],
 }

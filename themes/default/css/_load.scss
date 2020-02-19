@@ -71,8 +71,7 @@ li { @apply pb-2; }
 
 
 
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+
 
 
 /** For popup videos and images */
@@ -106,47 +105,46 @@ li { @apply pb-2; }
 	Regions
 \* ------------------------------------------------------------ */
 //
-//@import '_region.container.scss';
+@import '_region.container.scss';
 @import '_region.footer.scss';
-//@import '_region.shell.scss';
-//@import '_region.wrapper.scss';
+@import '_region.shell.scss';
+@import '_region.wrapper.scss';
 
 /* ------------------------------------------------------------ *\
 	Modules
 \* ------------------------------------------------------------ */
 
-//@import '_module.accordion.scss';
-//@import '_module.article.scss';
-//@import '_module.blog.scss';
-//@import '_module.blog-post.scss';
-//@import '_module.book.scss';
-//@import '_module.btn.scss';
-//@import '_module.callout.scss';
-//@import '_module.card.scss';
-//@import '_module.form.scss';
-//@import '_module.form-elements.scss';
-//@import '_module.intro.scss';
-//@import '_module.link.scss';
-//@import '_module.list.scss';
+@import '_module.accordion.scss';
+@import '_module.article.scss';
+@import '_module.blog.scss';
+@import '_module.blog-post.scss';
+@import '_module.book.scss';
+@import '_module.btn.scss';
+@import '_module.callout.scss';
+@import '_module.card.scss';
+@import '_module.form.scss';
+@import '_module.form-elements.scss';
+@import '_module.intro.scss';
+@import '_module.link.scss';
+@import '_module.list.scss';
 @import '_module.nav.scss';
-//@import '_module.offer.scss';
-//@import '_module.paging.scss';
-//@import '_module.project.scss';
-//@import '_module.search.scss';
-//@import '_module.section.scss';
-//@import '_module.service.scss';
-//@import '_module.slider.scss';
-//@import '_module.socials.scss';
-//@import '_module.subscribe.scss';
-//@import '_module.table.scss';
-//@import '_module.tabs.scss';
-//@import '_module.team.scss';
-//@import '_module.testimonial.scss';
-//@import '_module.timeline.scss';
-//@import '_module.video.scss';
-//@import '_module.widget.scss';
+@import '_module.offer.scss';
+@import '_module.paging.scss';
+@import '_module.project.scss';
+@import '_module.search.scss';
+@import '_module.section.scss';
+@import '_module.service.scss';
+@import '_module.slider.scss';
+@import '_module.socials.scss';
+@import '_module.subscribe.scss';
+@import '_module.table.scss';
+@import '_module.tabs.scss';
+@import '_module.team.scss';
+@import '_module.testimonial.scss';
+@import '_module.timeline.scss';
+@import '_module.video.scss';
+@import '_module.widget.scss';
 @import '_module.icons.scss';
-////
 
 
 /* ------------------------------------------------------------ *\
@@ -170,3 +168,6 @@ li { @apply pb-2; }
 .debug-grid-16-solid {
 	background:white url(data:image/gif;base64,R0lGODdhEAAQAPEAAADw/wDx/xXy/////ywAAAAAEAAQAAACIZyPKckYDQFsb6ZqD85jZ2+BkwiRFKehhqQCQgDHcgwEBQA7) repeat top left;
 }
+
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";

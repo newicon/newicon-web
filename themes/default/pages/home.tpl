@@ -14,6 +14,8 @@
 	        {section_portfolio}
 {*	        {section_portfolio_bak}*}
 
+			{section_port_big}
+
 			{section_trusted_by_brands}
 
 			{section_testimonials}
