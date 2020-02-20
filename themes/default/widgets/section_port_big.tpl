@@ -98,97 +98,17 @@
 			<h4 class="section_subtitle">Projects we're proud of</h4>
 		</div>
 	</header>
-	<div id="{$id}" class="glide portfolio h-screen js-portfolio flex flex-col" style="min-height:900px;">
+	<div id="{$id}" class="h-screen flex flex-col" style="min-height:900px;">
 		<div class="glide__bullets flex justify-center sliderNav slide_foot self-end my-10" data-glide-el="controls[nav]">
-            {foreach $folio as $item}
+			{foreach $folio as $item}
 				<button class="portfolio-btn outline-none mx-2" data-glide-dir="={$item@index}"  >
 					<img src="{asset path=$item.logo_dark}" alt="" class="portfolio-btn__dark" width="101" height="32">
 					<img src="{asset path=$item.logo_light}" alt="" class="portfolio-btn__light" width="101" height="32">
 				</button>
-            {/foreach}
-			</div>
-		<div class="glide__track " data-glide-el="track">
-			<ul class="glide__slides self-center">
-				{foreach $folio as $item}
-					<li class="glide__slide portfolio_slide cursor-grab" data-index="{$item@index}">
-						<div class="flex flex-col">
-							<div class="flex-grow">
-								<img class="screenshot-shadow img-fluid ease-in" src="{asset path=$item['screenshot']}" alt="{$item['title']} Screenshot">
-							</div>
-							<div class="portfolio_text mt-16 flex-shrink md:w-1/3 mx-auto text-center">
-								<h6 class="text-xs uppercase text-gray-500">Case Study</h6>
-								<h3 class="slider_title">{$item['title']}</h3>
-								<p>{$item['body']}</p>
-								<a class="btn btn-primary btn-outline" href="{page_url id=$item['link']}">Explore</a>
-							</div>
-						</div>
-					</li>
-	            {/foreach}
-			</ul>
+			{/foreach}
 		</div>
+
 	</div>
-</section>
-{jsFile src="https://cdn.jsdelivr.net/npm/@glidejs/glide"}
-{js}
-	<script>
-		(function() {
-
-			const CustomActiveClass = function (Glide, Components, Events) {
-				var Component = {
-					mount() {
-						this.changeActiveSlide();
-					},
-
-					changeActiveSlide() {
-						let slide = Components.Html.slides[Glide.index];
-						let slides = document.querySelectorAll('#{$id} [data-glide-el="track"] [data-index]');
-						slides.forEach((slide) => {
-						 	slide.classList.remove('is-active', 'is-next', 'is-prev');
-						 	if (parseInt(slide.getAttribute('data-index')) === Glide.index)
-						 		slide.classList.add('is-active');
-						});
-						if(slide.nextElementSibling) {
-							slide.nextElementSibling.classList.add('is-next');
-						}
-						if(slide.previousElementSibling) {
-							slide.previousElementSibling.classList.add('is-prev');
-						}
-					},
-				};
-
-				// Events.on('update', () => {
-				// 	Component.changeActiveSlide();
-				// });
-				Events.on('run', () => {
-					Component.changeActiveSlide();
-					Components.Controls.setActive();
-				});
-
-				return Component;
-			};
-
-
-			var glide = new Glide('#{$id}', {
-				type: 'carousel',
-				perView: 1,
-				activeNav: 'current',
-				gap: 50,
-				animationDuration: 1000,
-				peek: { before: 200, after: 200 },
-				classes: {
-					activeNav: 'portfolio-btn--active'
-				}
-			});
-
-			glide.on('run.before', function(move) {
-				console.log(move, 'move');
-			});
-			glide.mount({
-				customActiveClass: CustomActiveClass
-			});
-		})();
-	</script>
-{/js}
 
 
 <style>

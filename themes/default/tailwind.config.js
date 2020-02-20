@@ -23,6 +23,18 @@ module.exports = {
 		extend: {
 			colors: {
 				...colors,
+
+				gray: {
+					'100': '#F7FAFC',
+					'200': '#F3F5F9',
+					'300': '#E2E8F0',
+					'400': '#CBD5E0',
+					'500': '#A0AEC0',
+					'600': '#718096',
+					'700': '#4F5F84',
+					'800': '#2D3748',
+					'900': '#1A202C'
+				},
 				blue: {
 					'100': '#eff7fc',
 					'200': '#dce3f3',
@@ -32,8 +44,24 @@ module.exports = {
 					'600': '#1254cc',
 					'700': '#1c4ea7',
 					'800': '#03296e',
-					'900': '#072261'
+					'900': '#00163d'
 				},
+				purple: {
+					...colors.purple,
+					'500': '#9147C6'
+				},
+				pink: {
+					...colors.pink,
+					'500': '#FF4374'
+				},
+				green: {
+					...colors.green,
+					'500': '#14C17B'
+				},
+				orange: {
+					...colors.orange,
+					'500': '#FF8C08'
+				}
 			},
 			cursor: {
 				...cursor,
@@ -52,6 +80,14 @@ module.exports = {
 			})
 		}),
 		require('autoprefixer'),
-		...process.env.NODE_ENV === 'production' ? [purgeCss] : []
+		...process.env.NODE_ENV === 'production' ? [purgeCss] : [],
+		plugin(function({ addBase, config }) {
+			const styles = config('theme');
+			var json = JSON.stringify(styles, null, '\t');
+			var fs = require('fs');
+			fs.writeFile('styles.json', json, 'utf8', function() {
+				console.log('done')
+			});
+		}),
 	],
 }

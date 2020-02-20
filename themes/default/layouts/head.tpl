@@ -13,6 +13,7 @@
 <link rel="stylesheet" type="text/css" href="{asset path='/vendor/font-awesome-4.7.0/css/font-awesome.min.css'}">
 
 <link rel="stylesheet" type="text/css" href="{asset path='/css/app.css'}">
+<script async defer type="text/javascript" href="{asset path='/js/bundle.js'}"></script>
 
 {assign var="fav" value="blue"}
 <link rel="shortcut icon" type="image/x-icon" href="{asset path="/images/$fav/favicon.ico"}">
@@ -44,3 +45,7 @@
 
 {neon_head}
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+<style>
+	[data-aos="fade-up"] { opacity:0 }
+</style>
