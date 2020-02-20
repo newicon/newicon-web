@@ -17,4 +17,3 @@
 		</div>
 	</div>
 </div>
-<!-- /cmp:hero-text -->

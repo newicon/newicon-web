@@ -1,0 +1,15 @@
+/* ------------------------------------------------------------ *\
+	Search
+\* ------------------------------------------------------------ */
+
+.search { position: relative; }
+
+.search .search_field { width: 300px; height: 40px; padding: 0 35px; border: 0; border-radius: 3px; background-color: $gray14; font-weight: 600; font-size: 14px; color: $blue16; }
+
+.search .search_btn { position: absolute; top: 50%; left: 11px; display: inline-flex; border: 0; border-radius: 0; background-color: transparent; transform: translateY(-50%); }
+
+/* Mobile */
+
+@media (max-width: $breakpoint-mobile) {
+	.search .search_field { width: 100%; }
+}

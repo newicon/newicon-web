@@ -222,14 +222,14 @@
 						</g>
 					</g>
 				</svg>
-			</div><!-- /.intro_image -->
+			</div>
 
 			<div class="intro_content">
 				<div class="shell">
 					<div class="intro_entry">
-						<h1 class="intro_title">Make first contact!</h1><!-- /.intro_title -->
+						<h1 class="intro_title">Make first contact!</h1>
 
-						<h4 class="intro_subtitle">Get in touch to start your future.</h4><!-- /.intro_subtitle -->
+						<h4 class="intro_subtitle">Get in touch to start your future.</h4>
 
 						<ul class="list-contacts">
 							<li>
@@ -244,33 +244,33 @@
 								<a href="mailto:talktous@newicon.net">talktous@newicon.net</a>
 							</li>
 						</ul>
-					</div><!-- /.intro_entry -->
-				</div><!-- /.shell -->
-			</div><!-- /.intro_content -->
-		</div><!-- /.introSenary -->
+					</div>
+				</div>
+			</div>
+		</div>
 
 		<section class="calloutAlt">
 			<div class="shell">
 				<div class="callout_content">
-					<h2 class="callout_title">Get in touch</h2><!-- /.callout_title -->
+					<h2 class="callout_title">Get in touch</h2>
 
-					<h4 class="callout_subtitle">Give us a call now on <a style="cursor: pointer;" href="tel:+441172050425">+44(0)117 205 04 25</a> or send us a message to start a conversation</h4><!-- /.callout_subtitle -->
+					<h4 class="callout_subtitle">Give us a call now on <a style="cursor: pointer;" href="tel:+441172050425">+44(0)117 205 04 25</a> or send us a message to start a conversation</h4>
 
 					<div class="callout_actions">
 						<a href="#" class="btn btn-tertiary btn-outline">Send us a message</a>
 						<a href="" onclick="Calendly.initPopupWidget({ 'url': 'https://calendly.com/mark-probert/30-mins-call' });return false;" class="btn btn-tertiary btn-outline">Book free call with Mark</a>
-					</div><!-- /.callout_actions -->
-				</div><!-- /.callout_content -->
-			</div><!-- /.shell -->
-		</section><!-- /.calloutAlt -->
+					</div>
+				</div>
+			</div>
+		</section>
 
 		<section class="sectionOffices">
 			<div class="shell">
 				<div class="section_head">
-					<h2 class="section_title">Come and visit</h2><!-- /.section_title -->
+					<h2 class="section_title">Come and visit</h2>
 
-					<h4 class="section_subtitle">Come and visit the us at our office or set a meeting</h4><!-- /.section_subtitle -->
-				</div><!-- /.section_head -->
+					<h4 class="section_subtitle">Come and visit the us at our office or set a meeting</h4>
+				</div>
 
 				<div class="section_body">
 					<ul class="listOffices">
@@ -297,10 +297,10 @@
 
 							<img src="assets/images/temp/list-offices-text-image-2.png" alt="" width="189" height="127" class="listOfficesImgTextPosition2">
 						</li>
-					</ul><!-- /.listOffices -->
-				</div><!-- /.section_body -->
-			</div><!-- /.shell -->
-		</section><!-- /.sectionOffices -->
+					</ul>
+				</div>
+			</div>
+		</section>
 
 		<section class="sectionMap">
 			<div class="tabsMaps">
@@ -312,27 +312,27 @@
 							<input type="checkbox" name="tabsSwitch" id="tabsSwitch">
 
 							<label for="tabsSwitch">Toggle</label>
-						</div><!-- /.checkbox -->
+						</div>
 
 						<h5 data-tab="tab2">Science Park</h5>
-					</div><!-- /.tabs_switch -->
-				</div><!-- /.tabs_head -->
+					</div>
+				</div>
 
 				<div class="tabs_body">
 					<div class="tab current" id="tab1">
 						<div class="tab_map">
 							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.4019005114783!2d-2.5946991835320476!3d51.450777079625695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48719ab841e0037b%3A0x332366b36b21e7a1!2sNewicon!5e0!3m2!1sen!2suk!4v1563201206667!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-						</div><!-- /.tab_map -->
-					</div><!-- /.tab -->
+						</div>
+					</div>
 
 					<div class="tab" id="tab2">
 						<div class="tab_map">
 							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.682626749162!2d-2.4801192839147808!3d51.50069131901424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48719ab86a5a9f7d%3A0xd17394f3400abb0a!2sBristol+%26+Bath+Science+Park!5e0!3m2!1sbg!2sbg!4v1557814588054!5m2!1sbg!2sbg" frameborder="0" allowfullscreen=""></iframe>
-						</div><!-- /.tab_map -->
-					</div><!-- /.tab -->
-				</div><!-- /.tabs_body -->
-			</div><!-- /.tabsMaps -->
-		</section><!-- /.sectionMap -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 		{section_contact_footer title="Start your future, today."}
-	</div><!-- /.main -->
+	</div>
 {/block}

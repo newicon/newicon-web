@@ -19,9 +19,9 @@
 					<p>
 						We have areas that we specialise in but in general we use the best technology for the job. We’re not dogmatic about which technologies are best. All frameworks have their pros and cons and we’ll evaluate that as part of your projects. Also if you have specific requirements, tell us about it.
 					</p>
-				</div><!-- /.section_content -->
-			</div><!-- /.shell -->
-		</section><!-- /.sectionText -->
+				</div>
+			</div>
+		</section>
 
 		<section class="sectionArticles sectionArticles-secondary sectionArticles-secondaryAlt">
 			<div class="shell">
@@ -31,7 +31,7 @@
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
 					</p>
-				</header><!-- /.section_head -->
+				</header>
 
 				<div class="section_body">
 					<div class="articlesSmall articlesSmall-secondary">
@@ -39,7 +39,7 @@
 							<div class="article_inner">
 								<div class="article_image">
 									<img src="{asset path="images/temp/article-image-5.jpg"}" alt="" width="675" height="457">
-								</div><!-- /.article_image -->
+								</div>
 
 								<div class="article_content">
 									<h2>LAMP Stack</h2>
@@ -50,16 +50,16 @@
 										<p>
 											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 										</p>
-									</div><!-- /.article_entry -->
-								</div><!-- /.article_content -->
-							</div><!-- /.article_inner -->
-						</div><!-- /.articleSmall -->
+									</div>
+								</div>
+							</div>
+						</div>
 
 						<div class="articleSmall articleSmall-secondary">
 							<div class="article_inner">
 								<div class="article_image">
 									<img src="{asset path="images/temp/article-image-6.jpg"}" alt="" width="675" height="457">
-								</div><!-- /.article_image -->
+								</div>
 
 								<div class="article_content">
 									<h2>Neon Framework</h2>
@@ -70,14 +70,14 @@
 										<p>
 											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 										</p>
-									</div><!-- /.article_entry -->
-								</div><!-- /.article_content -->
-							</div><!-- /.article_inner -->
-						</div><!-- /.articleSmall -->
-					</div><!-- /.articlesSmall -->
-				</div><!-- /.section_body -->
-			</div><!-- /.shell -->
-		</section><!-- /.sectionArticles -->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
 		<section class="sectionText sectionText-secondary sectionText-quinary">
 			<div class="shell shell-sm">
@@ -93,9 +93,9 @@
 					</p>
 
 					<a href="#" class="link link-secondary link-white link-lg link-underline">Learn more about Neon ></a>
-				</div><!-- /.section_content -->
-			</div><!-- /.shell -->
-		</section><!-- /.sectionText -->
+				</div>
+			</div>
+		</section>
 
 		<section class="section section-services section-servicesSecondary section-servicesSecondaryMain section-servicesSecondaryNoBorder section-gray">
 			<div class="shell">
@@ -107,7 +107,7 @@
 					</p>
 
 					<img src="{asset path="images/temp/section-text-image-11.png"}" alt="" width="294" height="55" class="section_textImage section_textImage-position1">
-				</header><!-- /.section_head -->
+				</header>
 
 				<div class="section_body">
 					<div class="servicesSecondary">
@@ -115,7 +115,7 @@
 							<div class="service_inner">
 								<div class="service_image">
 									<img src="{asset path="images/temp/service-image-16.svg"}" alt="" width="60" height="60">
-								</div><!-- /.service_image -->
+								</div>
 
 								<div class="service_content">
 									<h3>PHP</h3>
@@ -125,15 +125,15 @@
 									<p>
 										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
 									</p>
-								</div><!-- /.service_content -->
-							</div><!-- /.service_inner -->
-						</div><!-- /.serviceSecondary -->
+								</div>
+							</div>
+						</div>
 
 						<div class="serviceSecondary serviceSecondary-alt serviceSecondary-altSecondary">
 							<div class="service_inner">
 								<div class="service_image">
 									<img src="{asset path="images/temp/service-image-16.svg"}" alt="" width="60" height="60">
-								</div><!-- /.service_image -->
+								</div>
 
 								<div class="service_content">
 									<h3>Apache</h3>
@@ -143,15 +143,15 @@
 									<p>
 										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
 									</p>
-								</div><!-- /.service_content -->
-							</div><!-- /.service_inner -->
-						</div><!-- /.serviceSecondary -->
+								</div>
+							</div>
+						</div>
 
 						<div class="serviceSecondary serviceSecondary-alt serviceSecondary-altSecondary">
 							<div class="service_inner">
 								<div class="service_image">
 									<img src="{asset path="images/temp/service-image-16.svg"}" alt="" width="60" height="60">
-								</div><!-- /.service_image -->
+								</div>
 
 								<div class="service_content">
 									<h3>MySQL</h3>
@@ -161,15 +161,15 @@
 									<p>
 										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
 									</p>
-								</div><!-- /.service_content -->
-							</div><!-- /.service_inner -->
-						</div><!-- /.serviceSecondary -->
+								</div>
+							</div>
+						</div>
 
 						<div class="serviceSecondary serviceSecondary-alt serviceSecondary-altSecondary">
 							<div class="service_inner">
 								<div class="service_image">
 									<img src="{asset path="images/temp/service-image-16.svg"}" alt="" width="60" height="60">
-								</div><!-- /.service_image -->
+								</div>
 
 								<div class="service_content">
 									<h3>Linux</h3>
@@ -179,15 +179,15 @@
 									<p>
 										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
 									</p>
-								</div><!-- /.service_content -->
-							</div><!-- /.service_inner -->
-						</div><!-- /.serviceSecondary -->
+								</div>
+							</div>
+						</div>
 
 						<div class="serviceSecondary serviceSecondary-alt serviceSecondary-altSecondary">
 							<div class="service_inner">
 								<div class="service_image">
 									<img src="{asset path="images/temp/service-image-16.svg"}" alt="" width="60" height="60">
-								</div><!-- /.service_image -->
+								</div>
 
 								<div class="service_content">
 									<h3>Vue.js</h3>
@@ -197,15 +197,15 @@
 									<p>
 										Vue. is another of the Javascript code libraries we use to build our client user-interfaces.
 									</p>
-								</div><!-- /.service_content -->
-							</div><!-- /.service_inner -->
-						</div><!-- /.serviceSecondary -->
+								</div>
+							</div>
+						</div>
 
 						<div class="serviceSecondary serviceSecondary-alt serviceSecondary-altSecondary">
 							<div class="service_inner">
 								<div class="service_image">
 									<img src="{asset path="images/temp/service-image-16.svg"}" alt="" width="60" height="60">
-								</div><!-- /.service_image -->
+								</div>
 
 								<div class="service_content">
 									<h3>React.js</h3>
@@ -215,15 +215,15 @@
 									<p>
 										React is one of the few Javascript code libraries we use to build our client user-interfaces.
 									</p>
-								</div><!-- /.service_content -->
-							</div><!-- /.service_inner -->
-						</div><!-- /.serviceSecondary -->
+								</div>
+							</div>
+						</div>
 
 						<div class="serviceSecondary serviceSecondary-alt serviceSecondary-altSecondary">
 							<div class="service_inner">
 								<div class="service_image">
 									<img src="{asset path="images/temp/service-image-16.svg"}" alt="" width="60" height="60">
-								</div><!-- /.service_image -->
+								</div>
 
 								<div class="service_content">
 									<h3>Node.js</h3>
@@ -233,15 +233,15 @@
 									<p>
 										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
 									</p>
-								</div><!-- /.service_content -->
-							</div><!-- /.service_inner -->
-						</div><!-- /.serviceSecondary -->
+								</div>
+							</div>
+						</div>
 
 						<div class="serviceSecondary serviceSecondary-alt serviceSecondary-altSecondary">
 							<div class="service_inner">
 								<div class="service_image">
 									<img src="{asset path="images/temp/service-image-16.svg"}" alt="" width="60" height="60">
-								</div><!-- /.service_image -->
+								</div>
 
 								<div class="service_content">
 									<h3>Yii 2</h3>
@@ -251,15 +251,15 @@
 									<p>
 										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
 									</p>
-								</div><!-- /.service_content -->
-							</div><!-- /.service_inner -->
-						</div><!-- /.serviceSecondary -->
+								</div>
+							</div>
+						</div>
 
 						<div class="serviceSecondary serviceSecondary-alt serviceSecondary-altSecondary">
 							<div class="service_inner">
 								<div class="service_image">
 									<img src="{asset path="images/temp/service-image-16.svg"}" alt="" width="60" height="60">
-								</div><!-- /.service_image -->
+								</div>
 
 								<div class="service_content">
 									<h3>Electron</h3>
@@ -269,15 +269,15 @@
 									<p>
 										Electron is our go to technology for building cross platform desktop applications using web technologies HTML5, CSS3, and JavaScript.
 									</p>
-								</div><!-- /.service_content -->
-							</div><!-- /.service_inner -->
-						</div><!-- /.serviceSecondary -->
+								</div>
+							</div>
+						</div>
 
 						<div class="serviceSecondary serviceSecondary-alt serviceSecondary-altSecondary">
 							<div class="service_inner">
 								<div class="service_image">
 									<img src="{asset path="images/temp/service-image-16.svg"}" alt="" width="60" height="60">
-								</div><!-- /.service_image -->
+								</div>
 
 								<div class="service_content">
 									<h3>HTML5</h3>
@@ -287,15 +287,15 @@
 									<p>
 										HTML5 is a markup language we use for structuring and presenting content on the web.
 									</p>
-								</div><!-- /.service_content -->
-							</div><!-- /.service_inner -->
-						</div><!-- /.serviceSecondary -->
+								</div>
+							</div>
+						</div>
 
 						<div class="serviceSecondary serviceSecondary-alt serviceSecondary-altSecondary">
 							<div class="service_inner">
 								<div class="service_image">
 									<img src="{asset path="images/temp/service-image-16.svg"}" alt="" width="60" height="60">
-								</div><!-- /.service_image -->
+								</div>
 
 								<div class="service_content">
 									<h3>CSS</h3>
@@ -305,15 +305,15 @@
 									<p>
 										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
 									</p>
-								</div><!-- /.service_content -->
-							</div><!-- /.service_inner -->
-						</div><!-- /.serviceSecondary -->
+								</div>
+							</div>
+						</div>
 
 						<div class="serviceSecondary serviceSecondary-alt serviceSecondary-altSecondary">
 							<div class="service_inner">
 								<div class="service_image">
 									<img src="{asset path="images/temp/service-image-16.svg"}" alt="" width="60" height="60">
-								</div><!-- /.service_image -->
+								</div>
 
 								<div class="service_content">
 									<h3>Cordova</h3>
@@ -323,15 +323,15 @@
 									<p>
 										Cordova is our go to technology for building mobile applications using web technologies HTML5, CSS3, and JavaScript for cross-platform development.
 									</p>
-								</div><!-- /.service_content -->
-							</div><!-- /.service_inner -->
-						</div><!-- /.serviceSecondary -->
+								</div>
+							</div>
+						</div>
 
 						<div class="serviceSecondary serviceSecondary-alt serviceSecondary-altSecondary">
 							<div class="service_inner">
 								<div class="service_image">
 									<img src="{asset path="images/temp/service-image-16.svg"}" alt="" width="60" height="60">
-								</div><!-- /.service_image -->
+								</div>
 
 								<div class="service_content">
 									<h3>Wordpress</h3>
@@ -341,15 +341,15 @@
 									<p>
 										When we’re not using Neon, we are more than happy to use Wordpress for bespoke website development.
 									</p>
-								</div><!-- /.service_content -->
-							</div><!-- /.service_inner -->
-						</div><!-- /.serviceSecondary -->
+								</div>
+							</div>
+						</div>
 
 						<div class="serviceSecondary serviceSecondary-alt serviceSecondary-altSecondary">
 							<div class="service_inner">
 								<div class="service_image">
 									<img src="{asset path="images/temp/service-image-16.svg"}" alt="" width="60" height="60">
-								</div><!-- /.service_image -->
+								</div>
 
 								<div class="service_content">
 									<h3>Magento</h3>
@@ -359,15 +359,15 @@
 									<p>
 										Megento is the technology we use for all eCommerce solutions.
 									</p>
-								</div><!-- /.service_content -->
-							</div><!-- /.service_inner -->
-						</div><!-- /.serviceSecondary -->
+								</div>
+							</div>
+						</div>
 
 						<div class="serviceSecondary serviceSecondary-alt serviceSecondary-altSecondary">
 							<div class="service_inner">
 								<div class="service_image">
 									<img src="{asset path="images/temp/service-image-16.svg"}" alt="" width="60" height="60">
-								</div><!-- /.service_image -->
+								</div>
 
 								<div class="service_content">
 									<h3>Bootstrap</h3>
@@ -377,13 +377,13 @@
 									<p>
 										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
 									</p>
-								</div><!-- /.service_content -->
-							</div><!-- /.service_inner -->
-						</div><!-- /.serviceSecondary -->
-					</div><!-- /.services-secondary -->
-				</div><!-- /.section_body -->
-			</div><!-- /.shell -->
-		</section><!-- /.section -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
 		<section class="section section-accordion section-accordionTertiary">
 			<div class="shell">
@@ -393,7 +393,7 @@
 					<p>
 						You can get in touch if yu have any questions about the types of technologies we use, but here are some of the most frequently asked ones.
 					</p>
-				</header><!-- /.section_head -->
+				</header>
 
 				<div class="section_body">
 					<div class="accordion accordion-tertiary">
@@ -404,14 +404,14 @@
 								<svg width="10" height="14" viewBox="0 0 10 14" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path d="M2.10786 2L7 6.94548L2 12" stroke="#0067FF" stroke-width="3"></path>
 								</svg>
-							</div><!-- /.accordion_head -->
+							</div>
 
 							<div class="accordion_body">
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti culpa nam cumque sequi libero quam laudantium ullam, deserunt ea sunt?
 								</p>
-							</div><!-- /.accordion_body -->
-						</div><!-- /.accordion_section -->
+							</div>
+						</div>
 
 						<div class="accordion_section">
 							<div class="accordion_head">
@@ -420,14 +420,14 @@
 								<svg width="10" height="14" viewBox="0 0 10 14" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path d="M2.10786 2L7 6.94548L2 12" stroke="#0067FF" stroke-width="3"></path>
 								</svg>
-							</div><!-- /.accordion_head -->
+							</div>
 
 							<div class="accordion_body">
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti culpa nam cumque sequi libero quam laudantium ullam, deserunt ea sunt?
 								</p>
-							</div><!-- /.accordion_body -->
-						</div><!-- /.accordion_section -->
+							</div>
+						</div>
 
 						<div class="accordion_section">
 							<div class="accordion_head">
@@ -436,14 +436,14 @@
 								<svg width="10" height="14" viewBox="0 0 10 14" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path d="M2.10786 2L7 6.94548L2 12" stroke="#0067FF" stroke-width="3"></path>
 								</svg>
-							</div><!-- /.accordion_head -->
+							</div>
 
 							<div class="accordion_body">
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti culpa nam cumque sequi libero quam laudantium ullam, deserunt ea sunt?
 								</p>
-							</div><!-- /.accordion_body -->
-						</div><!-- /.accordion_section -->
+							</div>
+						</div>
 
 						<div class="accordion_section">
 							<div class="accordion_head">
@@ -452,18 +452,18 @@
 								<svg width="10" height="14" viewBox="0 0 10 14" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path d="M2.10786 2L7 6.94548L2 12" stroke="#0067FF" stroke-width="3"></path>
 								</svg>
-							</div><!-- /.accordion_head -->
+							</div>
 
 							<div class="accordion_body">
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti culpa nam cumque sequi libero quam laudantium ullam, deserunt ea sunt?
 								</p>
-							</div><!-- /.accordion_body -->
-						</div><!-- /.accordion_section -->
-					</div><!-- /.accordion -->
-				</div><!-- /.section_body -->
-			</div><!-- /.shell -->
-		</section><!-- /.section -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
 		<section class="sectionSecondary sectionSecondary-books">
 			<div class="shell">
@@ -471,79 +471,79 @@
 					<h2>Learn more about Technologies</h2>
 
 					<h4>Discover our thoughts and theories about technologies and frameworks</h4>
-				</header><!-- /.section_head -->
+				</header>
 
 				<div class="section_body">
 					<div class="books">
 						<div class="book">
 							<div class="book_inner">
-								<div class="book_image" style="background-image: url({asset path="images/temp/book-background-1.jpg);"}"></div><!-- /.book_image -->
+								<div class="book_image" style="background-image: url({asset path="images/temp/book-background-1.jpg);"}"></div>
 
 								<div class="book_content">
-									<div class="book_label book_label-right">n</div><!-- /.book_label -->
+									<div class="book_label book_label-right">n</div>
 
-									<h6 class="book_subtitle">Technology</h6><!-- /.book_subtitle -->
+									<h6 class="book_subtitle">Technology</h6>
 
-									<h3 class="book_title">Which Kavascript framework should I use?</h3><!-- /.book_title -->
+									<h3 class="book_title">Which Kavascript framework should I use?</h3>
 
 									<p>
 										With react.js, vue.js, angular.js and more, how can you decide?
 									</p>
 
-									<h5 class="book_author">Steve O’Brien</h5><!-- /.book_author -->
-								</div><!-- /.book_content -->
-							</div><!-- /.book_inner -->
-						</div><!-- /.book -->
+									<h5 class="book_author">Steve O’Brien</h5>
+								</div>
+							</div>
+						</div>
 
 						<div class="book">
 							<div class="book_inner">
-								<div class="book_image" style="background-image: url({asset path="images/temp/book-background-2.jpg);"}"></div><!-- /.book_image -->
+								<div class="book_image" style="background-image: url({asset path="images/temp/book-background-2.jpg);"}"></div>
 
 								<div class="book_content">
-									<div class="book_label book_label-right">n</div><!-- /.book_label -->
+									<div class="book_label book_label-right">n</div>
 
-									<h6 class="book_subtitle">Technology</h6><!-- /.book_subtitle -->
+									<h6 class="book_subtitle">Technology</h6>
 
-									<h3 class="book_title">Neon Explained</h3><!-- /.book_title -->
+									<h3 class="book_title">Neon Explained</h3>
 
 									<p>
 										Why we built Neon for the modern software eco-system
 									</p>
 
-									<h5 class="book_author">Steve O’Brien</h5><!-- /.book_author -->
-								</div><!-- /.book_content -->
-							</div><!-- /.book_inner -->
-						</div><!-- /.book -->
+									<h5 class="book_author">Steve O’Brien</h5>
+								</div>
+							</div>
+						</div>
 
 						<div class="book">
 							<div class="book_inner">
-								<div class="book_image" style="background-image: url({asset path="images/temp/book-background-3.jpg);"}"></div><!-- /.book_image -->
+								<div class="book_image" style="background-image: url({asset path="images/temp/book-background-3.jpg);"}"></div>
 
 								<div class="book_content">
-									<div class="book_label book_label-right">n</div><!-- /.book_label -->
+									<div class="book_label book_label-right">n</div>
 
-									<h6 class="book_subtitle">Technology</h6><!-- /.book_subtitle -->
+									<h6 class="book_subtitle">Technology</h6>
 
-									<h3 class="book_title">The Best Resource For Website Hosting Comparison</h3><!-- /.book_title -->
+									<h3 class="book_title">The Best Resource For Website Hosting Comparison</h3>
 
 									<p>
 										The Best Resource For Website Hosting Comparison
 									</p>
 
-									<h5 class="book_author">Steve O’Brien</h5><!-- /.book_author -->
-								</div><!-- /.book_content -->
-							</div><!-- /.book_inner -->
-						</div><!-- /.book -->
-					</div><!-- /.books -->
-				</div><!-- /.section_body -->
-			</div><!-- /.shell -->
-		</section><!-- /.sectionSecondary -->
+									<h5 class="book_author">Steve O’Brien</h5>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
 		<section class="sectionPaging">
 			<div class="shell shell-fluid">
 				<header class="section_head">
 					<h2>Where next?</h2>
-				</header><!-- /.section_head -->
+				</header>
 
 				<div class="section_body">
 					<div class="paging">
@@ -557,9 +557,9 @@
 									</p>
 
 									<a href="#" class="btn btn-primary btn-sm">Explore</a>
-								</div><!-- /.paging_content -->
-							</div><!-- /.paging_inner -->
-						</div><!-- /.paging_prev -->
+								</div>
+							</div>
+						</div>
 
 						<div class="paging_next">
 							<div class="paging_inner">
@@ -571,13 +571,13 @@
 									</p>
 
 									<a href="#" class="btn btn-primary btn-sm">Explore</a>
-								</div><!-- /.paging_content -->
-							</div><!-- /.paging_inner -->
-						</div><!-- /.paging_next -->
-					</div><!-- /.paging -->
-				</div><!-- /.section_body -->
-			</div><!-- /.shell -->
-		</section><!-- /.sectionPaging -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
 		<section class="sectionContacts">
 			<div class="shell">
@@ -585,7 +585,7 @@
 					<div class="section_inner">
 						<header class="section_head">
 							<div class="section_head-inner">
-								<h1 class="section_title">Start your future, today.</h1><!-- /.section_title -->
+								<h1 class="section_title">Start your future, today.</h1>
 
 								<p>
 									For more information about how we can help you:
@@ -603,9 +603,9 @@
 
 										<a href="mailto:talktous@newicon.net">talktous@newicon.net</a>
 									</li>
-								</ul><!-- /.list-contacts -->
-							</div><!-- /.section_head-inner -->
-						</header><!-- /.section_head -->
+								</ul>
+							</div>
+						</header>
 
 						<div class="section_body">
 							<div class="form form-contacts">
@@ -616,30 +616,30 @@
 												<div class="form_row">
 													<div class="form_controls">
 														<input type="text" class="field" name="name" placeholder="Name*">
-													</div><!-- /.form_controls -->
-												</div><!-- /.form_row -->
+													</div>
+												</div>
 
 												<div class="form_row">
 													<div class="form_controls">
 														<input type="email" class="field" name="email" placeholder="Email address*">
-													</div><!-- /.form_controls -->
-												</div><!-- /.form_row -->
+													</div>
+												</div>
 
 												<div class="form_row">
 													<div class="form_controls">
 														<input type="tel" class="field" name="tel" placeholder="Telephone">
-													</div><!-- /.form_controls -->
-												</div><!-- /.form_row -->
-											</div><!-- /.form_col -->
+													</div>
+												</div>
+											</div>
 
 											<div class="form_col form_col-1of2">
 												<div class="form_row">
 													<div class="form_controls">
 														<textarea class="field field--textarea" name="message" placeholder="Tell us about your project"></textarea>
-													</div><!-- /.form_controls -->
-												</div><!-- /.form_row -->
-											</div><!-- /.form_col -->
-										</div><!-- /.footer_cols -->
+													</div>
+												</div>
+											</div>
+										</div>
 
 										<div class="form_inner">
 											<p>
@@ -652,7 +652,7 @@
 														<input type="radio" name="subscribe" id="yes">
 
 														<label for="yes">Yes</label>
-													</div><!-- /.radio -->
+													</div>
 												</li>
 
 												<li>
@@ -660,21 +660,21 @@
 														<input type="radio" name="subscribe" id="no">
 
 														<label for="no">No</label>
-													</div><!-- /.radio -->
+													</div>
 												</li>
-											</ul><!-- /.list-radios -->
-										</div><!-- /.form_inner -->
-									</div><!-- /.form_body -->
+											</ul>
+										</div>
+									</div>
 
 									<div class="form_actions">
 										<button type="submit" class="btn btn-secondary">Send message</button>
-									</div><!-- /.form_actions -->
+									</div>
 								</form>
-							</div><!-- /.form -->
-						</div><!-- /.section_body -->
-					</div><!-- /.section_inner -->
-				</div><!-- /.section_content -->
-			</div><!-- /.shell -->
-		</section><!-- /.sectionContacts -->
-	</div><!-- /.main -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
 {/block}

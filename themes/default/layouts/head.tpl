@@ -3,16 +3,14 @@
 <title>{$page.title}</title>
 <meta name="keywords" content="{$page.keywords}" />
 <meta name="description" content="{$page.description}" />
-{*<meta content="{$page.og_title|default:$page.title}" property="og:title">*}
-{*<meta content="{$page.og_description|default:$page.description}" property="og:description">*}
+<meta content="{$page.og_title|default:$page.title}" property="og:title">
+<meta content="{$page.og_description|default:$page.description}" property="og:description">
 {*<meta content="{image path=$page.og_image}" property="og:image">*}
 <meta content="summary" name="twitter:card">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900%7CVolkhov:400,400i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900|Volkhov:400,400i&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="{asset path='/vendor/font-awesome-4.7.0/css/font-awesome.min.css'}">
-<link rel="stylesheet" type="text/css" href="{asset path='/vendor/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css'}">
-
 
 <link rel="stylesheet" type="text/css" href="{asset path='/css/app.css'}">
 

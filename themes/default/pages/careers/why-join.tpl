@@ -17,8 +17,8 @@
 			<div class="section_image">
 				<div class="shell">
 					<img src="{asset path="images/temp/section-image-2.jpg"}" alt="" width="1200" height="526">
-				</div><!-- /.shell -->
-			</div><!-- /.section_image -->
+				</div>
+			</div>
 
 			<div class="section_content">
 				<div class="shell shell-sm">
@@ -31,9 +31,9 @@
 					<p>
 						Responsible people thrive on freedom, and are worthy of it. We want to increase freedom as we grow, rather than limit it, to continue to attract and nourish innovative people. To do this we make sure our enviroment and people have access to everything they need to succeed.
 					</p>
-				</div><!-- /.shell -->
-			</div><!-- /.section_content -->
-		</section><!-- /.sectionText -->
+				</div>
+			</div>
+		</section>
 
 		<section class="section section-services section-servicesSecondary section-gray">
 			<div class="shell">
@@ -43,7 +43,7 @@
 					<p>
 						Our perks are inherinently tied to our company culture and are there to inspire our employees to work better and smarter wherever they are.
 					</p>
-				</header><!-- /.section_head -->
+				</header>
 
 				<div class="section_body">
 					<div class="servicesSecondary">
@@ -51,7 +51,7 @@
 							<div class="service_inner">
 								<div class="service_image">
 									<img src="{asset path="images/temp/service-image-16.svg"}" alt="" width="60" height="60">
-								</div><!-- /.service_image -->
+								</div>
 
 								<div class="service_content">
 									<h3>Flexible work life</h3>
@@ -61,15 +61,15 @@
 									<p>
 										Work when you want, where you want. We trust you to know your schedule and work when you feel most productive.<strong>(core office hours 10-2)</strong>
 									</p>
-								</div><!-- /.service_content -->
-							</div><!-- /.service_inner -->
-						</div><!-- /.serviceSecondary -->
+								</div>
+							</div>
+						</div>
 
 						<div class="serviceSecondary serviceSecondary-alt serviceSecondary-altSecondary">
 							<div class="service_inner">
 								<div class="service_image">
 									<img src="{asset path="images/temp/service-image-16.svg"}" alt="" width="60" height="60">
-								</div><!-- /.service_image -->
+								</div>
 
 								<div class="service_content">
 									<h3>Dog friendly office</h3>
@@ -79,15 +79,15 @@
 									<p>
 										Bring your dog to work and you’ll find plenty of friends waiting to pet them, give them a treat and chase them around the office.<strong>(as long as they get on with Heidi)</strong>
 									</p>
-								</div><!-- /.service_content -->
-							</div><!-- /.service_inner -->
-						</div><!-- /.serviceSecondary -->
+								</div>
+							</div>
+						</div>
 
 						<div class="serviceSecondary serviceSecondary-alt serviceSecondary-altSecondary">
 							<div class="service_inner">
 								<div class="service_image">
 									<img src="{asset path="images/temp/service-image-17.svg"}" alt="" width="60" height="60">
-								</div><!-- /.service_image -->
+								</div>
 
 								<div class="service_content">
 									<h3>Top notch coffee</h3>
@@ -97,15 +97,15 @@
 									<p>
 										Need caffiene to function? Not a problem. We have a fully stocked kitchen or if you’re feeling fancy, our coffice coffee machine.<strong>(as long as you’re involved in the rounds)</strong>
 									</p>
-								</div><!-- /.service_content -->
-							</div><!-- /.service_inner -->
-						</div><!-- /.serviceSecondary -->
+								</div>
+							</div>
+						</div>
 
 						<div class="serviceSecondary serviceSecondary-alt serviceSecondary-altSecondary">
 							<div class="service_inner">
 								<div class="service_image">
 									<img src="{asset path="images/temp/service-image-16.svg"}" alt="" width="60" height="60">
-								</div><!-- /.service_image -->
+								</div>
 
 								<div class="service_content">
 									<h3>Learning and development</h3>
@@ -115,15 +115,15 @@
 									<p>
 										Curiosity and learning is always encouraged. Travel to talks, conferences and professional development events that interest you in your work life and benefit your career growth.<strong>(UK only - sorry)</strong>
 									</p>
-								</div><!-- /.service_content -->
-							</div><!-- /.service_inner -->
-						</div><!-- /.serviceSecondary -->
+								</div>
+							</div>
+						</div>
 
 						<div class="serviceSecondary serviceSecondary-alt serviceSecondary-altSecondary">
 							<div class="service_inner">
 								<div class="service_image">
 									<img src="{asset path="images/temp/service-image-16.svg"}" alt="" width="60" height="60">
-								</div><!-- /.service_image -->
+								</div>
 
 								<div class="service_content">
 									<h3>Great central location</h3>
@@ -133,15 +133,15 @@
 									<p>
 										Being slap bang in the middle of Bristol, our studio is 10 minutes walk from Temple meads train station, and 5 minutes walk from bus stops in and out of the city.<strong>(some car parking space available too)</strong>
 									</p>
-								</div><!-- /.service_content -->
-							</div><!-- /.service_inner -->
-						</div><!-- /.serviceSecondary -->
+								</div>
+							</div>
+						</div>
 
 						<div class="serviceSecondary serviceSecondary-alt serviceSecondary-altSecondary">
 							<div class="service_inner">
 								<div class="service_image">
 									<img src="{asset path="images/temp/service-image-18.svg"}" alt="" width="60" height="60">
-								</div><!-- /.service_image -->
+								</div>
 
 								<div class="service_content">
 									<h3>Cycle Scheme</h3>
@@ -151,15 +151,15 @@
 									<p>
 										Into cycling - or just want to ride to work? Great. You’ll get access to the cycle to work benefit scheme giving you the opportunity to pick up a brand new bike as soon as you start.<strong>(installments taken from your wage monthly)</strong>
 									</p>
-								</div><!-- /.service_content -->
-							</div><!-- /.service_inner -->
-						</div><!-- /.serviceSecondary -->
+								</div>
+							</div>
+						</div>
 
 						<div class="serviceSecondary serviceSecondary-alt serviceSecondary-altSecondary">
 							<div class="service_inner">
 								<div class="service_image">
 									<img src="{asset path="images/temp/service-image-16.svg"}" alt="" width="60" height="60">
-								</div><!-- /.service_image -->
+								</div>
 
 								<div class="service_content">
 									<h3>Internal projects</h3>
@@ -169,15 +169,15 @@
 									<p>
 										Aside from client work, you’ll get the opportunity to work on some exciting internal projects. You can even suggest project ideas aswell.<strong>(If it includes robots - its usally a winner)</strong>
 									</p>
-								</div><!-- /.service_content -->
-							</div><!-- /.service_inner -->
-						</div><!-- /.serviceSecondary -->
+								</div>
+							</div>
+						</div>
 
 						<div class="serviceSecondary serviceSecondary-alt serviceSecondary-altSecondary">
 							<div class="service_inner">
 								<div class="service_image">
 									<img src="{asset path="images/temp/service-image-16.svg"}" alt="" width="60" height="60">
-								</div><!-- /.service_image -->
+								</div>
 
 								<div class="service_content">
 									<h3>Support and mentoring</h3>
@@ -187,19 +187,19 @@
 									<p>
 										Ask for help, give and get feedback, set up goals and develop your skills. Start your adventure with guidance and support of a mentor from the first day.
 									</p>
-								</div><!-- /.service_content -->
+								</div>
 
 								<div class="service_imageText service_imageText-position4">
 									<img src="{asset path="images/temp/section-text-image-6.png"}" alt="" width="187" height="71">
-								</div><!-- /.service_imageText -->
-							</div><!-- /.service_inner -->
-						</div><!-- /.serviceSecondary -->
+								</div>
+							</div>
+						</div>
 
 						<div class="serviceSecondary serviceSecondary-alt serviceSecondary-altSecondary">
 							<div class="service_inner">
 								<div class="service_image">
 									<img src="{asset path="images/temp/service-image-19.svg"}" alt="" width="60" height="60">
-								</div><!-- /.service_image -->
+								</div>
 
 								<div class="service_content">
 									<h3>Team lunches</h3>
@@ -209,22 +209,22 @@
 									<p>
 										We regularly get out of the office and go for lunch as a team, usually at one of the burgerbars nearby - and often with beer!<strong>(god bless 3 Brothers)</strong>
 									</p>
-								</div><!-- /.service_content -->
-							</div><!-- /.service_inner -->
-						</div><!-- /.serviceSecondary -->
-					</div><!-- /.services-secondary -->
-				</div><!-- /.section_body -->
-			</div><!-- /.shell -->
-		</section><!-- /.section -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
 		<section class="section section-testimonials section-testimonialsTertiary">
 			<header class="section_head">
 				<div class="shell">
-					<h2 class="section_title">What our team say</h2><!-- /.section_title -->
+					<h2 class="section_title">What our team say</h2>
 
-					<h4 class="section_subtitle">Listen to what our team say about us</h4><!-- /.section_subtitle -->
-				</div><!-- /.shell -->
-			</header><!-- /.section_head -->
+					<h4 class="section_subtitle">Listen to what our team say about us</h4>
+				</div>
+			</header>
 
 			<div class="section_body">
 				<div class="sliderTestimonials">
@@ -234,7 +234,7 @@
 								<div class="testimonial_inner">
 									<div class="testimonial_image">
 										<img src="{asset path="images/temp/testimonial-image-2.jpg"}" alt="" width="684" height="405">
-									</div><!-- /.testimonial_image -->
+									</div>
 
 									<div class="testimonial_content">
 										<div class="testimonial_entry">
@@ -248,17 +248,17 @@
 												<p>
 													UX Designer
 												</p>
-											</div><!-- /.testimonial_entryInner -->
-										</div><!-- /.testimonial_entry -->
-									</div><!-- /.testimonial_content -->
-								</div><!-- /.testimonial_inner -->
-							</div><!-- /.slider_slide -->
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
 
 							<div class="slider_slide testimonial">
 								<div class="testimonial_inner">
 									<div class="testimonial_image">
 										<img src="{asset path="images/temp/testimonial-image-2.jpg"}" alt="" width="684" height="405">
-									</div><!-- /.testimonial_image -->
+									</div>
 
 									<div class="testimonial_content">
 										<div class="testimonial_entry">
@@ -272,17 +272,17 @@
 												<p>
 													Head of Bristol &amp; Bath Science Park
 												</p>
-											</div><!-- /.testimonial_entryInner -->
-										</div><!-- /.testimonial_entry -->
-									</div><!-- /.testimonial_content -->
-								</div><!-- /.testimonial_inner -->
-							</div><!-- /.slider_slide -->
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
 
 							<div class="slider_slide testimonial">
 								<div class="testimonial_inner">
 									<div class="testimonial_image">
 										<img src="{asset path="images/temp/testimonial-image-2.jpg"}" alt="" width="684" height="405">
-									</div><!-- /.testimonial_image -->
+									</div>
 
 									<div class="testimonial_content">
 										<div class="testimonial_entry">
@@ -296,17 +296,17 @@
 												<p>
 													Head of Bristol &amp; Bath Science Park
 												</p>
-											</div><!-- /.testimonial_entryInner -->
-										</div><!-- /.testimonial_entry -->
-									</div><!-- /.testimonial_content -->
-								</div><!-- /.testimonial_inner -->
-							</div><!-- /.slider_slide -->
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
 
 							<div class="slider_slide testimonial">
 								<div class="testimonial_inner">
 									<div class="testimonial_image">
 										<img src="{asset path="images/temp/testimonial-image-2.jpg"}" alt="" width="684" height="405">
-									</div><!-- /.testimonial_image -->
+									</div>
 
 									<div class="testimonial_content">
 										<div class="testimonial_entry">
@@ -320,17 +320,17 @@
 												<p>
 													Head of Bristol &amp; Bath Science Park
 												</p>
-											</div><!-- /.testimonial_entryInner -->
-										</div><!-- /.testimonial_entry -->
-									</div><!-- /.testimonial_content -->
-								</div><!-- /.testimonial_inner -->
-							</div><!-- /.slider_slide -->
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
 
 							<div class="slider_slide testimonial">
 								<div class="testimonial_inner">
 									<div class="testimonial_image">
 										<img src="{asset path="images/temp/testimonial-image-2.jpg"}" alt="" width="684" height="405">
-									</div><!-- /.testimonial_image -->
+									</div>
 
 									<div class="testimonial_content">
 										<div class="testimonial_entry">
@@ -344,17 +344,17 @@
 												<p>
 													Head of Bristol &amp; Bath Science Park
 												</p>
-											</div><!-- /.testimonial_entryInner -->
-										</div><!-- /.testimonial_entry -->
-									</div><!-- /.testimonial_content -->
-								</div><!-- /.testimonial_inner -->
-							</div><!-- /.slider_slide -->
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
 
 							<div class="slider_slide testimonial">
 								<div class="testimonial_inner">
 									<div class="testimonial_image">
 										<img src="{asset path="images/temp/testimonial-image-2.jpg"}" alt="" width="684" height="405">
-									</div><!-- /.testimonial_image -->
+									</div>
 
 									<div class="testimonial_content">
 										<div class="testimonial_entry">
@@ -368,30 +368,30 @@
 												<p>
 													Head of Bristol &amp; Bath Science Park
 												</p>
-											</div><!-- /.testimonial_entryInner -->
-										</div><!-- /.testimonial_entry -->
-									</div><!-- /.testimonial_content -->
-								</div><!-- /.testimonial_inner -->
-							</div><!-- /.slider_slide -->
-						</div><!-- /.slider_slides -->
-					</div><!-- /.slider_clip -->
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 
 					<div class="slider_nav">
-						<div class="slider_dots"></div><!-- /.slider_dots -->
-					</div><!-- /.slider_nav -->
-				</div><!-- /.slider-testimonials -->
-			</div><!-- /.section_body -->
+						<div class="slider_dots"></div>
+					</div>
+				</div>
+			</div>
 
 			<div class="section_actions">
 				<a href="#" class="link link-secondary link-lg link-underline">Meet the team></a>
-			</div><!-- /.section_actions -->
-		</section><!-- /.section -->
+			</div>
+		</section>
 
 		<section class="sectionQuinary">
 			<div class="shell">
 				<div class="section_inner">
 					<div class="section_content">
-						<h2 class="section_title">Extra-curricular activites</h2><!-- /.section_title -->
+						<h2 class="section_title">Extra-curricular activites</h2>
 
 						<p>
 							Our extra-curricular activities usually involve learning, laughing, singing, beer, food and games.
@@ -421,10 +421,10 @@
 									We love a boardgame! We host regular board game nights at local pubs - games and beer! Woo!
 								</p>
 							</li>
-						</ul><!-- /.listActivities -->
+						</ul>
 
 						<img src="{asset path="images/temp/section-text-image-7.png"}" alt="" width="264" height="77" class="section_imageText section_imageText-position1">
-					</div><!-- /.section_content -->
+					</div>
 
 					<div class="section_aside">
 						<div class="slider slider-gallery">
@@ -433,49 +433,49 @@
 									<div class="slider_slide">
 										<div class="slider_slide-image">
 											<img src="{asset path="images/temp/slider-gallery-image-1.jpg"}" alt="" width="485" height="589">
-										</div><!-- /.slider_slide-image -->
-									</div><!-- /.slider_slide -->
+										</div>
+									</div>
 
 									<div class="slider_slide">
 										<div class="slider_slide-image">
 											<img src="{asset path="images/temp/slider-gallery-image-1.jpg"}" alt="" width="485" height="589">
-										</div><!-- /.slider_slide-image -->
-									</div><!-- /.slider_slide -->
+										</div>
+									</div>
 
 									<div class="slider_slide">
 										<div class="slider_slide-image">
 											<img src="{asset path="images/temp/slider-gallery-image-1.jpg"}" alt="" width="485" height="589">
-										</div><!-- /.slider_slide-image -->
-									</div><!-- /.slider_slide -->
+										</div>
+									</div>
 
 									<div class="slider_slide">
 										<div class="slider_slide-image">
 											<img src="{asset path="images/temp/slider-gallery-image-1.jpg"}" alt="" width="485" height="589">
-										</div><!-- /.slider_slide-image -->
-									</div><!-- /.slider_slide -->
+										</div>
+									</div>
 
 									<div class="slider_slide">
 										<div class="slider_slide-image">
 											<img src="{asset path="images/temp/slider-gallery-image-1.jpg"}" alt="" width="485" height="589">
-										</div><!-- /.slider_slide-image -->
-									</div><!-- /.slider_slide -->
+										</div>
+									</div>
 
 									<div class="slider_slide">
 										<div class="slider_slide-image">
 											<img src="{asset path="images/temp/slider-gallery-image-1.jpg"}" alt="" width="485" height="589">
-										</div><!-- /.slider_slide-image -->
-									</div><!-- /.slider_slide -->
-								</div><!-- /.slider_slides -->
-							</div><!-- /.slider_clip -->
+										</div>
+									</div>
+								</div>
+							</div>
 
 							<div class="slider_nav">
-								<div class="slider_dots"></div><!-- /.slider_dots -->
-							</div><!-- /.slider_nav -->
-						</div><!-- /.slider -->
-					</div><!-- /.section_aside -->
-				</div><!-- /.section_inner -->
-			</div><!-- /.shell -->
-		</section><!-- /.sectionQuinary -->
+								<div class="slider_dots"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
 		<section class="sectionArticles sectionArticles-secondary">
 			<div class="shell">
@@ -485,7 +485,7 @@
 					<p>
 						When you join Newicon we are hoping you want to stay a while. In return for that commitment we offer every employee that chance to get ongoing support and mentorship from somebody in their field of work.
 					</p>
-				</header><!-- /.section_head -->
+				</header>
 
 				<div class="section_body">
 					<div class="articlesSmall articlesSmall-secondary">
@@ -493,7 +493,7 @@
 							<div class="article_inner">
 								<div class="article_image">
 									<img src="{asset path="images/temp/article-image-5.jpg"}" alt="" width="675" height="457">
-								</div><!-- /.article_image -->
+								</div>
 
 								<div class="article_content">
 									<h2>Neill Jones</h2>
@@ -504,16 +504,16 @@
 										<p>
 											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 										</p>
-									</div><!-- /.article_entry -->
-								</div><!-- /.article_content -->
-							</div><!-- /.article_inner -->
-						</div><!-- /.articleSmall -->
+									</div>
+								</div>
+							</div>
+						</div>
 
 						<div class="articleSmall articleSmall-secondary">
 							<div class="article_inner">
 								<div class="article_image">
 									<img src="{asset path="images/temp/article-image-6.jpg"}" alt="" width="675" height="457">
-								</div><!-- /.article_image -->
+								</div>
 
 								<div class="article_content">
 									<h2>Mark Probert</h2>
@@ -524,20 +524,20 @@
 										<p>
 											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 										</p>
-									</div><!-- /.article_entry -->
-								</div><!-- /.article_content -->
-							</div><!-- /.article_inner -->
-						</div><!-- /.articleSmall -->
-					</div><!-- /.articlesSmall -->
-				</div><!-- /.section_body -->
-			</div><!-- /.shell -->
-		</section><!-- /.sectionArticles -->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
 		<section class="sectionPaging">
 			<div class="shell shell-fluid">
 				<header class="section_head">
 					<h2>Where next?</h2>
-				</header><!-- /.section_head -->
+				</header>
 
 				<div class="section_body">
 					<div class="paging">
@@ -551,9 +551,9 @@
 									</p>
 
 									<a href="#" class="btn btn-primary btn-sm">Explore</a>
-								</div><!-- /.paging_content -->
-							</div><!-- /.paging_inner -->
-						</div><!-- /.paging_prev -->
+								</div>
+							</div>
+						</div>
 
 						<div class="paging_next">
 							<div class="paging_inner">
@@ -565,13 +565,13 @@
 									</p>
 
 									<a href="#" class="btn btn-primary btn-sm">Explore</a>
-								</div><!-- /.paging_content -->
-							</div><!-- /.paging_inner -->
-						</div><!-- /.paging_next -->
-					</div><!-- /.paging -->
-				</div><!-- /.section_body -->
-			</div><!-- /.shell -->
-		</section><!-- /.sectionPaging -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
 		<section class="sectionContacts">
 			<div class="shell">
@@ -579,7 +579,7 @@
 					<div class="section_inner">
 						<header class="section_head">
 							<div class="section_head-inner">
-								<h1 class="section_title">Start your future, today.</h1><!-- /.section_title -->
+								<h1 class="section_title">Start your future, today.</h1>
 
 								<p>
 									For more information about how we can help you:
@@ -597,9 +597,9 @@
 
 										<a href="mailto:talktous@newicon.net">talktous@newicon.net</a>
 									</li>
-								</ul><!-- /.list-contacts -->
-							</div><!-- /.section_head-inner -->
-						</header><!-- /.section_head -->
+								</ul>
+							</div>
+						</header>
 
 						<div class="section_body">
 							<div class="form form-contacts">
@@ -610,30 +610,30 @@
 												<div class="form_row">
 													<div class="form_controls">
 														<input type="text" class="field" name="name" placeholder="Name*">
-													</div><!-- /.form_controls -->
-												</div><!-- /.form_row -->
+													</div>
+												</div>
 
 												<div class="form_row">
 													<div class="form_controls">
 														<input type="email" class="field" name="email" placeholder="Email address*">
-													</div><!-- /.form_controls -->
-												</div><!-- /.form_row -->
+													</div>
+												</div>
 
 												<div class="form_row">
 													<div class="form_controls">
 														<input type="tel" class="field" name="tel" placeholder="Telephone">
-													</div><!-- /.form_controls -->
-												</div><!-- /.form_row -->
-											</div><!-- /.form_col -->
+													</div>
+												</div>
+											</div>
 
 											<div class="form_col form_col-1of2">
 												<div class="form_row">
 													<div class="form_controls">
 														<textarea class="field field--textarea" name="message" placeholder="Tell us about your project"></textarea>
-													</div><!-- /.form_controls -->
-												</div><!-- /.form_row -->
-											</div><!-- /.form_col -->
-										</div><!-- /.footer_cols -->
+													</div>
+												</div>
+											</div>
+										</div>
 
 										<div class="form_inner">
 											<p>
@@ -646,7 +646,7 @@
 														<input type="radio" name="subscribe" id="yes">
 
 														<label for="yes">Yes</label>
-													</div><!-- /.radio -->
+													</div>
 												</li>
 
 												<li>
@@ -654,21 +654,21 @@
 														<input type="radio" name="subscribe" id="no">
 
 														<label for="no">No</label>
-													</div><!-- /.radio -->
+													</div>
 												</li>
-											</ul><!-- /.list-radios -->
-										</div><!-- /.form_inner -->
-									</div><!-- /.form_body -->
+											</ul>
+										</div>
+									</div>
 
 									<div class="form_actions">
 										<button type="submit" class="btn btn-secondary">Send message</button>
-									</div><!-- /.form_actions -->
+									</div>
 								</form>
-							</div><!-- /.form -->
-						</div><!-- /.section_body -->
-					</div><!-- /.section_inner -->
-				</div><!-- /.section_content -->
-			</div><!-- /.shell -->
-		</section><!-- /.sectionContacts -->
-	</div><!-- /.main -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
 {/block}

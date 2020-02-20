@@ -9,16 +9,16 @@
 				<div class="intro_content">
 					<div class="shell">
 						<div class="intro_entry">
-							<h1 class="intro_title">Neon: Application Framework</h1><!-- /.intro_title -->
+							<h1 class="intro_title">Neon: Application Framework</h1>
 
-							<h4 class="intro_subtitle">A framework for the rapid development of modern software, apps &amp; websites</h4><!-- /.intro_subtitle -->
+							<h4 class="intro_subtitle">A framework for the rapid development of modern software, apps &amp; websites</h4>
 
 							<div class="intro_actions">
 								<a href="#" class="btn btn-white">Contact us</a>
-							</div><!-- /.intro_actions -->
-						</div><!-- /.intro_entry -->
-					</div><!-- /.shell -->
-				</div><!-- /.intro_content -->
+							</div>
+						</div>
+					</div>
+				</div>
 
 				<div class="intro_image">
 					<svg width="1366px" height="1325px" viewBox="0 0 1366 1325" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -324,20 +324,20 @@
 							</g>
 						</g>
 					</svg>
-				</div><!-- /.intro_image -->
-			</div><!-- /.intro_inner -->
-		</div><!-- /.introQuinary -->
+				</div>
+			</div>
+		</div>
 
 		<section class="sectionAlt">
 			<header class="section_head">
 				<div class="shell">
-					<h1 class="section_title">Neon is powerful enough to build it all</h1><!-- /.section_title -->
+					<h1 class="section_title">Neon is powerful enough to build it all</h1>
 
 					<p>
 						Neon is one place to manage your software, apps and websites together to make sure you don’t get stuck with systems that can’t talk to each other. It’s time to set your data free
 					</p>
-				</div><!-- /.shell -->
-			</header><!-- /.section_head -->
+				</div>
+			</header>
 
 			<div class="section_body">
 				<div class="section_inner">
@@ -367,24 +367,24 @@
 
 									<h5>Some sub-title here</h5>
 								</li>
-							</ul><!-- /.listOptions -->
-						</div><!-- /.section_entry -->
-					</div><!-- /.section_content -->
+							</ul>
+						</div>
+					</div>
 
 					<div class="section_image">
 						<img src="{asset path="images/temp/section-image-3.jpg"}" alt="" width="890" height="575">
-					</div><!-- /.section_image -->
-				</div><!-- /.section_inner -->
-			</div><!-- /.section_body -->
-		</section><!-- /.sectionAlt -->
+					</div>
+				</div>
+			</div>
+		</section>
 
 		<section class="section section-brands">
 			<div class="shell">
 				<header class="section_head">
-					<h2 class="section_title">Trusted by great brands</h2><!-- /.section_title -->
+					<h2 class="section_title">Trusted by great brands</h2>
 
-					<h4 class="section_subtitle">Organisations using Neon</h4><!-- /.section_subtitle -->
-				</header><!-- /.section_head -->
+					<h4 class="section_subtitle">Organisations using Neon</h4>
+				</header>
 
 				<div class="section_body">
 					<ul class="list-brands">
@@ -423,10 +423,10 @@
 						<li>
 							<img src="{asset path="images/temp/brand-logo-9.png"}" alt="" width="189" height="61">
 						</li>
-					</ul><!-- /.list-brands -->
-				</div><!-- /.section_body -->
-			</div><!-- /.shell -->
-		</section><!-- /.section -->
+					</ul>
+				</div>
+			</div>
+		</section>
 
 		<section class="sectionSecondary sectionSecondary-framework">
 			<div class="shell">
@@ -436,7 +436,7 @@
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 					</p>
-				</header><!-- /.section_head -->
+				</header>
 
 				<div class="section_body">
 					<div class="cardsSimple">
@@ -444,7 +444,7 @@
 							<div class="card_inner">
 								<div class="card_image">
 									<img src="{asset path="images/temp/service-image-14.png"}" alt="" width="190" height="130">
-								</div><!-- /.card_image -->
+								</div>
 
 								<div class="card_content">
 									<h3>Fast</h3>
@@ -454,15 +454,15 @@
 									<p>
 										Neon allows apps to be built fast. This saves you time and allows us to focus on what really matters. Your budget will go further with Neon.
 									</p>
-								</div><!-- /.card_content -->
-							</div><!-- /.card_inner -->
-						</div><!-- /.cardSimple -->
+								</div>
+							</div>
+						</div>
 
 						<div class="cardSimple">
 							<div class="card_inner">
 								<div class="card_image">
 									<img src="{asset path="images/temp/service-image-9.png"}" alt="" width="190" height="130">
-								</div><!-- /.card_image -->
+								</div>
 
 								<div class="card_content">
 									<h3>Flexible</h3>
@@ -472,15 +472,15 @@
 									<p>
 										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
 									</p>
-								</div><!-- /.card_content -->
-							</div><!-- /.card_inner -->
-						</div><!-- /.cardSimple -->
+								</div>
+							</div>
+						</div>
 
 						<div class="cardSimple">
 							<div class="card_inner">
 								<div class="card_image">
 									<img src="{asset path="images/temp/service-image-13.png"}" alt="" width="190" height="130">
-								</div><!-- /.card_image -->
+								</div>
 
 								<div class="card_content">
 									<h3>Secure</h3>
@@ -490,18 +490,18 @@
 									<p>
 										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
 									</p>
-								</div><!-- /.card_content -->
-							</div><!-- /.card_inner -->
-						</div><!-- /.cardSimple -->
-					</div><!-- /.cardsSimple -->
-				</div><!-- /.section_body -->
-			</div><!-- /.shell -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>
 
 		<section class="sectionArticles sectionArticles-alt">
 			<div class="shell">
 				<header class="section_head">
-					<h2 class="section_title">How can Neon help you?</h2><!-- /.section_title -->
+					<h2 class="section_title">How can Neon help you?</h2>
 
 					<nav class="navTertiary" data-elements="2">
 						<ul>
@@ -513,10 +513,10 @@
 								<a href="#">For Developers</a>
 							</li>
 						</ul>
-					</nav><!-- /.navTertiary -->
+					</nav>
 
 					<img src="{asset path="images/temp/section-text-image-5.png"}" alt="" width="282" height="53" class="section_textImage">
-				</header><!-- /.section_head -->
+				</header>
 
 				<div class="section_content">
 					<div class="articlesSmall">
@@ -524,7 +524,7 @@
 							<div class="article_inner">
 								<div class="article_image">
 									<img src="{asset path="images/temp/article-image-1.jpg"}" alt="" width="675" height="457">
-								</div><!-- /.article_image -->
+								</div>
 
 								<div class="article_content">
 									<h2>Fully relational databases</h2>
@@ -535,16 +535,16 @@
 										<p>
 											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 										</p>
-									</div><!-- /.article_entry -->
-								</div><!-- /.article_content -->
-							</div><!-- /.article_inner -->
-						</div><!-- /.articleSmall -->
+									</div>
+								</div>
+							</div>
+						</div>
 
 						<div class="articleSmall">
 							<div class="article_inner">
 								<div class="article_image">
 									<img src="{asset path="images/temp/article-image-2.jpg"}" alt="" width="675" height="457">
-								</div><!-- /.article_image -->
+								</div>
 
 								<div class="article_content">
 									<h2>Built-in test framework</h2>
@@ -555,16 +555,16 @@
 										<p>
 											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 										</p>
-									</div><!-- /.article_entry -->
-								</div><!-- /.article_content -->
-							</div><!-- /.article_inner -->
-						</div><!-- /.articleSmall -->
+									</div>
+								</div>
+							</div>
+						</div>
 
 						<div class="articleSmall">
 							<div class="article_inner">
 								<div class="article_image">
 									<img src="{asset path="images/temp/article-image-3.jpg"}" alt="" width="675" height="457">
-								</div><!-- /.article_image -->
+								</div>
 
 								<div class="article_content">
 									<h2>Interfaces that remove dependencies</h2>
@@ -575,16 +575,16 @@
 										<p>
 											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 										</p>
-									</div><!-- /.article_entry -->
-								</div><!-- /.article_content -->
-							</div><!-- /.article_inner -->
-						</div><!-- /.articleSmall -->
+									</div>
+								</div>
+							</div>
+						</div>
 
 						<div class="articleSmall">
 							<div class="article_inner">
 								<div class="article_image">
 									<img src="{asset path="images/temp/article-image-4.jpg"}" alt="" width="675" height="457">
-								</div><!-- /.article_image -->
+								</div>
 
 								<div class="article_content">
 									<h2>Progressive framework</h2>
@@ -595,16 +595,16 @@
 										<p>
 											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 										</p>
-									</div><!-- /.article_entry -->
-								</div><!-- /.article_content -->
-							</div><!-- /.article_inner -->
-						</div><!-- /.articleSmall -->
+									</div>
+								</div>
+							</div>
+						</div>
 
 						<div class="articleSmall">
 							<div class="article_inner">
 								<div class="article_image">
 									<img src="{asset path="images/temp/article-image-4.jpg"}" alt="" width="675" height="457">
-								</div><!-- /.article_image -->
+								</div>
 
 								<div class="article_content">
 									<h2>Easy to learn: built on popular languages</h2>
@@ -615,40 +615,40 @@
 										<p>
 											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 										</p>
-									</div><!-- /.article_entry -->
-								</div><!-- /.article_content -->
-							</div><!-- /.article_inner -->
-						</div><!-- /.articleSmall -->
-					</div><!-- /.articlesSmall -->
-				</div><!-- /.section_content -->
-			</div><!-- /.shell -->
-		</section><!-- /.sectionArticles -->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
 		<section class="callout">
 			<div class="callout_images">
 				<div class="callout_image">
 					<img src="{asset path="images/temp/callout-image-1.svg"}" alt="" width="277" height="209">
-				</div><!-- /.callout_image -->
+				</div>
 
 				<div class="callout_image">
 					<img src="{asset path="images/temp/callout-image-2.png"}" alt="" width="222" height="222">
-				</div><!-- /.callout_image -->
+				</div>
 
 				<div class="callout_image">
 					<img src="{asset path="images/temp/callout-image-3.png"}" alt="" width="145" height="68">
-				</div><!-- /.callout_image -->
-			</div><!-- /.callout_images -->
+				</div>
+			</div>
 
 			<div class="callout_content">
 				<div class="shell">
 					<div class="callout_inner">
 						<div class="callout_head">
-							<h1 class="callout_title">Not sure exactly what you’re looking for?</h1><!-- /.callout_title -->
+							<h1 class="callout_title">Not sure exactly what you’re looking for?</h1>
 
-							<h4 class="callout_subtitle">Don’t worry. We’ll help you define exactly what you need.</h4><!-- /.callout_subtitle -->
+							<h4 class="callout_subtitle">Don’t worry. We’ll help you define exactly what you need.</h4>
 
 							<a href="#" class="btn btn-gray btn-outline">Start a conversation</a>
-						</div><!-- /.callout_head -->
+						</div>
 
 						<div class="callout_body">
 							<div class="callout_entry">
@@ -661,19 +661,19 @@
 								</p>
 
 								<a href="#" class="btn btn-gray btn-outline">Start a conversation</a>
-							</div><!-- /.callout_entry -->
-						</div><!-- /.callout_body -->
-					</div><!-- /.callout_inner -->
-				</div><!-- /.shell -->
-			</div><!-- /.callout_content -->
-		</section><!-- /.callout -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
 		<section class="sectionFeatures">
 			<div class="shell">
 				<div class="section_content">
 					<div class="tabsFeatures js--tabs">
 						<div class="tabs_head">
-							<h2 class="tabs_title">Main Features</h2><!-- /.tabs_title -->
+							<h2 class="tabs_title">Main Features</h2>
 
 							<nav class="tabs_nav">
 								<ul>
@@ -723,35 +723,35 @@
 										</ul>
 									</li>
 								</ul>
-							</nav><!-- /.tabs_nav -->
-						</div><!-- /.tabs_head -->
+							</nav>
+						</div>
 
 						<div class="tabs_body">
 							<div class="tab current" id="tab1">
 								<img src="{asset path="images/temp/tab-image-1.jpg"}" alt="" width="645" height="407">
-							</div><!-- /.tab -->
+							</div>
 
 							<div class="tab" id="tab2">
 								<img src="{asset path="images/temp/tab-image-1.jpg"}" alt="" width="645" height="407">
-							</div><!-- /.tab -->
+							</div>
 
 							<div class="tab" id="tab3">
 								<img src="{asset path="images/temp/tab-image-1.jpg"}" alt="" width="645" height="407">
-							</div><!-- /.tab -->
+							</div>
 
 							<div class="tab" id="tab4">
 								<img src="{asset path="images/temp/tab-image-1.jpg"}" alt="" width="645" height="407">
-							</div><!-- /.tab -->
+							</div>
 
 							<div class="tab" id="tab5">
 								<img src="{asset path="images/temp/tab-image-1.jpg"}" alt="" width="645" height="407">
-							</div><!-- /.tab -->
-						</div><!-- /.tabs_body -->
-					</div><!-- /.tabsFeatures -->
+							</div>
+						</div>
+					</div>
 
 					<div class="tabsFeatures tabsFeatures-reverse js--tabs">
 						<div class="tabs_head">
-							<h2 class="tabs_title">Advanced Features</h2><!-- /.tabs_title -->
+							<h2 class="tabs_title">Advanced Features</h2>
 
 							<nav class="tabs_nav">
 								<ul>
@@ -799,43 +799,43 @@
 										</ul>
 									</li>
 								</ul>
-							</nav><!-- /.tabs_nav -->
-						</div><!-- /.tabs_head -->
+							</nav>
+						</div>
 
 						<div class="tabs_body">
 							<div class="tab current" id="tab6">
 								<img src="{asset path="images/temp/tab-image-1.jpg"}" alt="" width="645" height="407">
-							</div><!-- /.tab -->
+							</div>
 
 							<div class="tab" id="tab7">
 								<img src="{asset path="images/temp/tab-image-1.jpg"}" alt="" width="645" height="407">
-							</div><!-- /.tab -->
+							</div>
 
 							<div class="tab" id="tab8">
 								<img src="{asset path="images/temp/tab-image-1.jpg"}" alt="" width="645" height="407">
-							</div><!-- /.tab -->
+							</div>
 
 							<div class="tab" id="tab9">
 								<img src="{asset path="images/temp/tab-image-1.jpg"}" alt="" width="645" height="407">
-							</div><!-- /.tab -->
+							</div>
 
 							<div class="tab" id="tab10">
 								<img src="{asset path="images/temp/tab-image-1.jpg"}" alt="" width="645" height="407">
-							</div><!-- /.tab -->
-						</div><!-- /.tabs_body -->
-					</div><!-- /.tabsFeatures -->
-				</div><!-- /.section_content -->
-			</div><!-- /.shell -->
-		</section><!-- /.sectionFeatures -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
 		<section class="section section-portfolio">
 			<header class="section_head">
 				<div class="shell">
-					<h2 class="section_title">Projects built on Neon</h2><!-- /.section_title -->
+					<h2 class="section_title">Projects built on Neon</h2>
 
-					<h4 class="section_subtitle">The big and beautiful projects built using the Neon framework</h4><!-- /.section_subtitle -->
-				</div><!-- /.shell -->
-			</header><!-- /.section_head -->
+					<h4 class="section_subtitle">The big and beautiful projects built using the Neon framework</h4>
+				</div>
+			</header>
 
 			<div class="section_body">
 				<div class="shell shell-fluid">
@@ -845,125 +845,125 @@
 								<div class="slider_slide">
 									<div class="slider_slideImage">
 										<img src="{asset path="images/temp/slider-image-1.png"}" alt="" width="1052" height="1145">
-									</div><!-- /.slider_slideImage -->
+									</div>
 
 									<div class="slider_slideContent">
 										<div class="slider_slideEntry">
-											<h6 class="slider_subtitle">Case Study</h6><!-- /.slider_subtitle -->
+											<h6 class="slider_subtitle">Case Study</h6>
 
-											<h3 class="slider_title">A bespoke mobile application for a recycling startup</h3><!-- /.slider_title -->
+											<h3 class="slider_title">A bespoke mobile application for a recycling startup</h3>
 
 											<p>
 												We designed and built a bespoke mobile appliction that improved both efﬁciency and reliability of the weekly recycle bin collection.
 											</p>
 
 											<a href="#" class="btn btn-primary btn-outline">Explore</a>
-										</div><!-- /.slider_slideEntry -->
-									</div><!-- /.slider_slideContent -->
-								</div><!-- /.slider_slide -->
+										</div>
+									</div>
+								</div>
 
 								<div class="slider_slide">
 									<div class="slider_slideImage">
 										<img src="{asset path="images/temp/slider-image-1.png"}" alt="" width="1052" height="1145">
-									</div><!-- /.slider_slideImage -->
+									</div>
 
 									<div class="slider_slideContent">
 										<div class="slider_slideEntry">
-											<h6 class="slider_subtitle">Case Study</h6><!-- /.slider_subtitle -->
+											<h6 class="slider_subtitle">Case Study</h6>
 
-											<h3 class="slider_title">A bespoke mobile application for a recycling startup</h3><!-- /.slider_title -->
+											<h3 class="slider_title">A bespoke mobile application for a recycling startup</h3>
 
 											<p>
 												We designed and built a bespoke mobile appliction that improved both efﬁciency and reliability of the weekly recycle bin collection.
 											</p>
 
 											<a href="#" class="btn btn-primary btn-outline">Explore</a>
-										</div><!-- /.slider_slideEntry -->
-									</div><!-- /.slider_slideContent -->
-								</div><!-- /.slider_slide -->
+										</div>
+									</div>
+								</div>
 
 								<div class="slider_slide">
 									<div class="slider_slideImage">
 										<img src="{asset path="images/temp/slider-image-1.png"}" alt="" width="1052" height="1145">
-									</div><!-- /.slider_slideImage -->
+									</div>
 
 									<div class="slider_slideContent">
 										<div class="slider_slideEntry">
-											<h6 class="slider_subtitle">Case Study</h6><!-- /.slider_subtitle -->
+											<h6 class="slider_subtitle">Case Study</h6>
 
-											<h3 class="slider_title">A bespoke mobile application for a recycling startup</h3><!-- /.slider_title -->
+											<h3 class="slider_title">A bespoke mobile application for a recycling startup</h3>
 
 											<p>
 												We designed and built a bespoke mobile appliction that improved both efﬁciency and reliability of the weekly recycle bin collection.
 											</p>
 
 											<a href="#" class="btn btn-primary btn-outline">Explore</a>
-										</div><!-- /.slider_slideEntry -->
-									</div><!-- /.slider_slideContent -->
-								</div><!-- /.slider_slide -->
+										</div>
+									</div>
+								</div>
 
 								<div class="slider_slide">
 									<div class="slider_slideImage">
 										<img src="{asset path="images/temp/slider-image-1.png"}" alt="" width="1052" height="1145">
-									</div><!-- /.slider_slideImage -->
+									</div>
 
 									<div class="slider_slideContent">
 										<div class="slider_slideEntry">
-											<h6 class="slider_subtitle">Case Study</h6><!-- /.slider_subtitle -->
+											<h6 class="slider_subtitle">Case Study</h6>
 
-											<h3 class="slider_title">A bespoke mobile application for a recycling startup</h3><!-- /.slider_title -->
+											<h3 class="slider_title">A bespoke mobile application for a recycling startup</h3>
 
 											<p>
 												We designed and built a bespoke mobile appliction that improved both efﬁciency and reliability of the weekly recycle bin collection.
 											</p>
 
 											<a href="#" class="btn btn-primary btn-outline">Explore</a>
-										</div><!-- /.slider_slideEntry -->
-									</div><!-- /.slider_slideContent -->
-								</div><!-- /.slider_slide -->
+										</div>
+									</div>
+								</div>
 
 								<div class="slider_slide">
 									<div class="slider_slideImage">
 										<img src="{asset path="images/temp/slider-image-1.png"}" alt="" width="1052" height="1145">
-									</div><!-- /.slider_slideImage -->
+									</div>
 
 									<div class="slider_slideContent">
 										<div class="slider_slideEntry">
-											<h6 class="slider_subtitle">Case Study</h6><!-- /.slider_subtitle -->
+											<h6 class="slider_subtitle">Case Study</h6>
 
-											<h3 class="slider_title">A bespoke mobile application for a recycling startup</h3><!-- /.slider_title -->
+											<h3 class="slider_title">A bespoke mobile application for a recycling startup</h3>
 
 											<p>
 												We designed and built a bespoke mobile appliction that improved both efﬁciency and reliability of the weekly recycle bin collection.
 											</p>
 
 											<a href="#" class="btn btn-primary btn-outline">Explore</a>
-										</div><!-- /.slider_slideEntry -->
-									</div><!-- /.slider_slideContent -->
-								</div><!-- /.slider_slide -->
+										</div>
+									</div>
+								</div>
 
 								<div class="slider_slide">
 									<div class="slider_slideImage">
 										<img src="{asset path="images/temp/slider-image-1.png"}" alt="" width="1052" height="1145">
-									</div><!-- /.slider_slideImage -->
+									</div>
 
 									<div class="slider_slideContent">
 										<div class="slider_slideEntry">
-											<h6 class="slider_subtitle">Case Study</h6><!-- /.slider_subtitle -->
+											<h6 class="slider_subtitle">Case Study</h6>
 
-											<h3 class="slider_title">A bespoke mobile application for a recycling startup</h3><!-- /.slider_title -->
+											<h3 class="slider_title">A bespoke mobile application for a recycling startup</h3>
 
 											<p>
 												We designed and built a bespoke mobile appliction that improved both efﬁciency and reliability of the weekly recycle bin collection.
 											</p>
 
 											<a href="#" class="btn btn-primary btn-outline">Explore</a>
-										</div><!-- /.slider_slideEntry -->
-									</div><!-- /.slider_slideContent -->
-								</div><!-- /.slider_slide -->
-							</div><!-- /.slider_slides -->
-						</div><!-- /.slider_clip -->
-					</div><!-- /.slider -->
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 
 					<div class="sliderNav">
 						<ul>
@@ -1003,10 +1003,10 @@
 								<img src="{asset path="images/temp/slider-nav-image-6-white.png"}" alt="" class="visibleOnHover" width="101" height="32">
 							</li>
 						</ul>
-					</div><!-- /.sliderNav -->
-				</div><!-- /.shell -->
-			</div><!-- /.section_body -->
-		</section><!-- /.section -->
+					</div>
+				</div>
+			</div>
+		</section>
 
 		<section class="sectionSecondary sectionSecondary-book">
 			<div class="shell">
@@ -1018,39 +1018,39 @@
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 					</p>
-				</header><!-- /.section_head -->
+				</header>
 
 				<div class="section_body">
 					<div class="books">
 						<div class="book">
 							<div class="book_inner">
-								<div class="book_image" style="background-image: url({asset path="images/temp/book-background-1.jpg);"}"></div><!-- /.book_image -->
+								<div class="book_image" style="background-image: url({asset path="images/temp/book-background-1.jpg);"}"></div>
 
 								<div class="book_content">
-									<div class="book_label">n</div><!-- /.book_label -->
+									<div class="book_label">n</div>
 
-									<h6 class="book_subtitle">Development</h6><!-- /.book_subtitle -->
+									<h6 class="book_subtitle">Development</h6>
 
-									<h3 class="book_title">Neon CMS: The CMS that goes beyond websites</h3><!-- /.book_title -->
+									<h3 class="book_title">Neon CMS: The CMS that goes beyond websites</h3>
 
 									<p>
 										Develop custom websites, applications and software, all with one system.
 									</p>
 
-									<h5 class="book_author">Steve O’Brien</h5><!-- /.book_author -->
-								</div><!-- /.book_content -->
+									<h5 class="book_author">Steve O’Brien</h5>
+								</div>
 
 								<img src="{asset path="images/temp/book-image-text-1.png"}" alt="" width="234" height="78" class="book_imageText book_imageText-position1">
-							</div><!-- /.book_inner -->
-						</div><!-- /.book -->
-					</div><!-- /.books -->
+							</div>
+						</div>
+					</div>
 
 					<div class="section_actions">
 						<a href="#">Download our Brochure for<br>Neon as a CMS</a>
-					</div><!-- /.section_actions -->
-				</div><!-- /.section_body -->
-			</div><!-- /.shell -->
-		</section><!-- /.sectionSecondary -->
+					</div>
+				</div>
+			</div>
+		</section>
 
 		<section class="sectionText sectionText-secondary sectionText-secondaryMain">
 			<div class="shell shell-sm">
@@ -1062,15 +1062,15 @@
 					<p>
 						We’ve invested over 30,000 hours of development so you don’t have to. Neon is free to use and provides your project with a foundation to build anything from a high growth startup to enterprise level applications that are powerful, robust and scaleable. Your innovation benefits from ours, and in turn, your innoavtion helps us grow too.
 					</p>
-				</div><!-- /.section_content -->
-			</div><!-- /.shell -->
-		</section><!-- /.sectionText -->
+				</div>
+			</div>
+		</section>
 
 		<section class="sectionPaging">
 			<div class="shell shell-fluid">
 				<header class="section_head">
 					<h2>Where next?</h2>
-				</header><!-- /.section_head -->
+				</header>
 
 				<div class="section_body">
 					<div class="paging">
@@ -1084,9 +1084,9 @@
 									</p>
 
 									<a href="#" class="btn btn-primary btn-sm">Explore</a>
-								</div><!-- /.paging_content -->
-							</div><!-- /.paging_inner -->
-						</div><!-- /.paging_prev -->
+								</div>
+							</div>
+						</div>
 
 						<div class="paging_next">
 							<div class="paging_inner">
@@ -1098,12 +1098,12 @@
 									</p>
 
 									<a href="#" class="btn btn-primary btn-sm">Explore</a>
-								</div><!-- /.paging_content -->
-							</div><!-- /.paging_inner -->
-						</div><!-- /.paging_next -->
-					</div><!-- /.paging -->
-				</div><!-- /.section_body -->
-			</div><!-- /.shell -->
-		</section><!-- /.sectionPaging -->
-	</div><!-- /.main -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
 {/block}

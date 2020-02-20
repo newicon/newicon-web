@@ -9,7 +9,7 @@
 				<div class="shell shell-sm">
 					<div class="article_inner">
 						<div class="article_content">
-							<h1 class="article_title">Why local SEO is very important for you and your business: part 1</h1><!-- /.article_title -->
+							<h1 class="article_title">Why local SEO is very important for you and your business: part 1</h1>
 
 							<p>
 								If you’re new to local search or are wondering where to start with your online marketing efforts, then don’t panic — here’s a guide.
@@ -19,29 +19,29 @@
 								<div class="article_authorInner">
 									<div class="article_authorAside">
 										<img src="{asset path='/images/temp/article-author-avatar.png'}" alt="" width="60" height="60">
-									</div><!-- /.article_authorAside -->
+									</div>
 
 									<div class="article_authorContent">
 										<h6 class="article_authorTitle">
 											<a href="#">George Barnes</a>
-										</h6><!-- /.article_authorTitle -->
+										</h6>
 
-										<h6 class="article_authorSubtitle">Copywriter, digital marketing expert and connoisseur of butt plugs</h6><!-- /.article_authorSubtitle -->
+										<h6 class="article_authorSubtitle">Copywriter, digital marketing expert and connoisseur of butt plugs</h6>
 
 										<p>
 											May 04 - 7 min read
 										</p>
-									</div><!-- /.article_authorContent -->
-								</div><!-- /.article_authorInner -->
-							</div><!-- /.article_author -->
-						</div><!-- /.article_content -->
+									</div>
+								</div>
+							</div>
+						</div>
 
 						<div class="article_aside">
 							<img src="{asset path='/images/temp/article-image-8.jpg'}" alt="" width="391" height="560">
-						</div><!-- /.article_aside -->
-					</div><!-- /.article_inner -->
-				</div><!-- /.shell -->
-			</div><!-- /.article_head -->
+						</div>
+					</div>
+				</div>
+			</div>
 
 			<div class="article_body">
 				<div class="shell shell-sm">
@@ -72,7 +72,7 @@
 								</a>
 							</li>
 						</ul>
-					</div><!-- /.article_socials -->
+					</div>
 
 					<div class="article_entry">
 						<p>
@@ -142,7 +142,7 @@
 						<p>
 							<strong>If you’re interested in working with Newicon on your next digital project, get in touch now.</strong>
 						</p>
-					</div><!-- /.article_entry -->
+					</div>
 
 					<div class="article_tags">
 						<ul>
@@ -162,16 +162,16 @@
 								<a href="#">#SME</a>
 							</li>
 						</ul>
-					</div><!-- /.article_tags -->
-				</div><!-- /.shell -->
-			</div><!-- /.article_body -->
-		</div><!-- /.article -->
+					</div>
+				</div>
+			</div>
+		</div>
 
 		<section class="sectionRelatedContent">
 			<div class="shell">
 				<header class="section_head">
-					<h3 class="section_title">Related Content</h3><!-- /.section_title -->
-				</header><!-- /.section_head -->
+					<h3 class="section_title">Related Content</h3>
+				</header>
 
 				<div class="section_body">
 					<ul class="listArticlesSecondary">
@@ -222,26 +222,26 @@
 								Some sort of article sub line can go here
 							</p>
 						</li>
-					</ul><!-- /.listArticlesSecondary -->
-				</div><!-- /.section_body -->
-			</div><!-- /.shell -->
-		</section><!-- /.sectionRelatedContent -->
+					</ul>
+				</div>
+			</div>
+		</section>
 
-			
+
 
 		<section class="callout callout-secondary">
 			<div class="callout_content">
 				<div class="shell">
 					<div class="callout_inner">
 						<div class="callout_head">
-							<h1 class="callout_title">Interested in Search Engine Optimisation services?</h1><!-- /.callout_title -->
+							<h1 class="callout_title">Interested in Search Engine Optimisation services?</h1>
 
-							<h4 class="callout_subtitle">From Keyword Research to Onpage SEO we can help<br>you build your future.</h4><!-- /.callout_subtitle -->
+							<h4 class="callout_subtitle">From Keyword Research to Onpage SEO we can help<br>you build your future.</h4>
 
 							<a href="#" class="btn btn-white">Send us a message</a>
 
 							<a href="#" class="btn btn-gray btn-outline">Book a free call</a>
-						</div><!-- /.callout_head -->
+						</div>
 
 						<div class="callout_body">
 							<h3>Contact Details</h3>
@@ -259,12 +259,12 @@
 									<a href="mailto:talktous@newicon.net">talktous@newicon.net</a>
 								</li>
 							</ul>
-						</div><!-- /.callout_body -->
-					</div><!-- /.callout_inner -->
-				</div><!-- /.shell -->
-			</div><!-- /.callout_content -->
-		</section><!-- /.callout -->
-	</div><!-- /.main -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
 
 
 {/block}

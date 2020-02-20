@@ -4,7 +4,7 @@
  * Here you can set up any application wide configuration that is not local to your deployment
  */
 return [
-	'name' => 'APPLICATION NAME',
+	'name' => 'Newicon',
 	'coreApps' => [
 
 		'cms' => [
@@ -54,5 +54,16 @@ return [
 			'roles' => []
 		],
 
+	],
+	'components' => [
+		'user' => [
+			'class' => '\neon\user\services\User',
+			'identityClass' => 'neon\user\models\User',
+			'identityCookie' => ['name' => 'newicon', 'httpOnly' => true],
+			'loginUrl' => ['user/account/login'],
+			// Number of seconds the session will remain valid if the remember me option is set
+			'rememberMeDuration' => 3600 * 24 * 30,
+			'enableAutoLogin' => true,
+		],
 	]
 ];

@@ -1,14 +1,12 @@
 {* Is this necessary in smarty? :puke: *}
 {if (!isset($inverse ))} {$inverse=false} {/if}
 {if (!isset($white ))} {$white=[]} {/if}
-
 <header class="header" style="{$style|default}">
 	<div class="shell shell-fluid">
 		<div class="header_inner">
 			<nav class="nav">
 				<ul>
-{*					<li class="visible-xs-block visible-sm-block"><a href="#"></a></li>*}
-					<li class="navBrand hidden-xs hidden-sm {(in_array('newicon', $white)||$inverse) ? 'textLight' : ''}">
+					<li class="navBrand navBrand hidden md:block pt-1 {(in_array('newicon', $white)||$inverse) ? 'textLight' : ''}">
 						<a href="{page_url nice="home"}"><img src="{(in_array('newicon', $white)||$inverse) ? {asset path='/images/logo-white-secondary@2x.png'}:{asset path='/images/newicon.svg'}}" alt="" width="70" height="15"></a>
 					</li>
 					<li class="navServices has_dropdown
@@ -23,7 +21,7 @@
                                     {nav_menu_item link="web-development" title="Web Development" note="Websites, e-commerce and CMSs to boost your business." icon='ico-website'}
                                     {nav_menu_item link="digital-marketing" title="Digital Marketing" note="Grow your business with SEO, PPC and Social media." icon='ico-chart'}
 								</ul>
-							</div><!-- /.dropdown_group -->
+							</div>
 						</div>
 					</li>
 
@@ -34,8 +32,8 @@
 								<ul>
                                     {nav_menu_item link="work" title="Our Work" note="Our work" icon='ico-work'}
 								</ul>
-							</div><!-- /.dropdown_group -->
-						</div><!-- /.dropdown -->
+							</div>
+						</div>
 					</li>
 
 					<li class="{(in_array('about', $white)||$inverse) ? 'textLight' : ''}
@@ -59,8 +57,8 @@
 										{nav_menu_item link="blog" title="Blog" note="News, thoughts and feelings" icon='ico-blog'}
 									</ul>
 								</div>
-							</div><!-- /.dropdown_group -->
-						</div><!-- /.dropdown -->
+							</div>
+						</div>
 					</li>
 
 					<li class="{(in_array('approach', $white)||$inverse) ? 'textLight' : ''}
@@ -76,23 +74,23 @@
                                     {nav_menu_item link="technologies" title="Technologies" note="Our philosophies and most used technologies." icon='ico-technologies'}
                                     {nav_menu_item link="neon" title="Neon Framework" note="Our innovative framework, helping to create the future." icon='ico-framework'}
 								</ul>
-							</div><!-- /.dropdown_group -->
-						</div><!-- /.dropdown -->
+							</div>
+						</div>
 					</li>
 
-					<li class="{(in_array('contact', $white)||$inverse) ? 'textLight' : ''} {(on_url({page_url nice='contact'}))?'isActive':''}">
-						<a class="nav_link" href="{page_url nice='contact'}">contact</a>
-						<div class="dropdown">
+					<li class="md:overflow-hidden {(in_array('contact', $white)||$inverse) ? 'textLight' : ''} {(on_url({page_url nice='contact'}))?'isActive':''}">
+						<a class="nav_link" href="{page_url nice='contact'}" >contact</a>
+						<div class="dropdown md:hidden">
 							<div class="dropdown_group">
 								<ul>
                                     {nav_menu_item link="contact" title="Contact us" note="Contact" icon='ico-contact'}
 								</ul>
-							</div><!-- /.dropdown_group -->
-						</div><!-- /.dropdown -->
+							</div>
+						</div>
 					</li>
 
 				</ul>
-			</nav><!-- /.nav -->
+			</nav>
 
 			<a href="{page_url nice="home"}" class="header_mobileLogo">
 				<img src="{asset path='/images/newicon.svg'}" alt="Newicon logo" width="80">
@@ -102,6 +100,6 @@
 				<span></span>
 				<span></span>
 			</a>
-		</div><!-- /.header_inner -->
-	</div><!-- /.shell -->
-</header><!-- /.header -->
+		</div>
+	</div>
+</header>
