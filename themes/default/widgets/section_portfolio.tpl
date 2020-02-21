@@ -35,9 +35,6 @@
 {* inline the core glide styles to avoid further network request *}
 {css id=glide}
 	.glide{ position:relative;width:100%;box-sizing:border-box }.glide *{ box-sizing:inherit }.glide__track{ overflow:hidden }.glide__slides{ position:relative;width:100%;list-style:none;backface-visibility:hidden;transform-style:preserve-3d;touch-action:pan-Y;overflow:hidden;padding:0;white-space:nowrap;display:flex;flex-wrap:nowrap;will-change:transform }.glide__slides--dragging{ user-select:none }.glide__slide{ width:100%;height:100%;flex-shrink:0;white-space:normal;user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent }.glide__slide a{ user-select:none;-webkit-user-drag:none;-moz-user-select:none;-ms-user-select:none }.glide__arrows{ -webkit-touch-callout:none;user-select:none }.glide__bullets{ -webkit-touch-callout:none;user-select:none }.glide--rtl{ direction:rtl }
-{/css}
-<style>
-
 	.img-skewed-left { perspective-origin: left center; }
 	.img-skewed { perspective: 1500px; transform-style: preserve-3d; }
 	.img-skewed-left .img-skewed-item { transform: transform:rotate3d(1, 1, 1, 10deg); -webkit-backface-visibility: hidden; backface-visibility: hidden; }
@@ -74,23 +71,24 @@
 
 
 	[data-aos=img-skewed-item-left], [data-aos=img-skewed-item-right] {
-		opacity: 0.5;
-		transition-property: opacity, transform, shadow;
-		will-change: opacity, transform, -webkit-transform, shadow;
-		-webkit-backface-visibility: hidden;
-		backface-visibility: hidden;
+	opacity: 0.5;
+	transition-property: opacity, transform, shadow;
+	will-change: opacity, transform, -webkit-transform, shadow;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
 	}
 	.glide__slide--active [data-aos=img-skewed-item-left].aos-animate {
-		transform: rotate(-3deg);
-		box-shadow:35px 70px 125px -25px rgba(80,102,144,.1), 16px 40px 75px -40px rgba(0,0,0,.2), 0px 0px 99px 0px rgba(0, 0, 0, 0.2);
+	transform: rotate(-3deg);
+	box-shadow:35px 70px 125px -25px rgba(80,102,144,.1), 16px 40px 75px -40px rgba(0,0,0,.2), 0px 0px 99px 0px rgba(0, 0, 0, 0.2);
 	}
 	.glide__slide--active [data-aos=img-skewed-item-left].aos-animate, .glide__slide--active [data-aos=img-skewed-item-right].aos-animate {
-		opacity: 1;
+	opacity: 1;
 	}
 
 	button.portfolio-btn{ outline: 0; }
+{/css}
 
-</style>
+
 
 <section class="section py-24  slidy slider-portfolio" style="background:linear-gradient(180deg, rgba(243,245,249,1) 0%, rgba(255,255,255,1) 100%)">
 	<header class="section_head">

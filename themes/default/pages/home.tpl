@@ -3,7 +3,7 @@
 	{navigation white=['about','approach','contact'] style="position:absolute;"}
 {/block}
 {block "content"}
-	<div class="main">
+	<div class="main" data-file="pages/home.tpl">
 {*		{editor id=home123 }*}
 			{home_hero}
 

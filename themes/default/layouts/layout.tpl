@@ -9,7 +9,7 @@
 			</style>
         {/literal}{/css}
 	</head>
-	<body data-aos-easing="ease-out-quad" data-aos-duration="700" data-aos-delay="0">
+	<body data-aos-easing="ease-out-quad" data-aos-duration="700" data-aos-delay="0" data-file="layouts/layout.tpl">
 		<div class="wrapper" id="wrapper">
 			{neon_body_begin}
 			{block "header"}
