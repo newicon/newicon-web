@@ -10,8 +10,8 @@
 		<div class="w-full md:w-3/5">
 			<img src="{assets path='images/telescope-future.svg'}" alt="Newicon see the future image" />
 		</div>
-		<div class="self-center md:w-2/5">
-			<div class="ml-10  md:ml-20" data-editable>
+		<div class="md:w-2/5 max-h-screen flex">
+			<div class="ml-10  md:ml-20 max-h-screen self-center" data-editable>
 				<h1 class="text-5xl font-extrabold lg:text-6xl">Go beyond the cloud.</h1>
 				<p>We use design and software engineering to transform your future. Newicon. New tomorrow.</p>
 				<div class="intro_actions">

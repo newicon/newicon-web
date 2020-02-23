@@ -3,7 +3,7 @@
 \* ------------------------------------------------------------ */
 
 //.btn { display: inline-block; vertical-align: middle; min-width: 190px; height: 55px; border: 0; border-radius: 3px; font-weight: 700; font-size: 15px; line-height: 55px; text-align: center; text-decoration: none; -webkit-appearance: none; -moz-appearance: none; appearance: none; -webkit-transition: border .2s, background .2s, color .2s, transform .2s; -o-transition: border .2s, background .2s, color .2s, transform .2s; transition: border .2s, background .2s, color .2s, transform ease .2s; padding:0 20px}
-.btn { display: inline-block; vertical-align: middle; min-width: 190px; height: 55px; border: 0; border-radius: 3px; font-weight: 700; font-size: 15px; line-height: 55px; text-align: center; text-decoration: none; -webkit-appearance: none; -moz-appearance: none; appearance: none;
+.btn { display: inline-block; vertical-align: middle; height: 55px; border: 0; border-radius: 3px; font-weight: 700; font-size: 15px; line-height: 55px; text-align: center; text-decoration: none; -webkit-appearance: none; -moz-appearance: none; appearance: none;
    padding:0 20px; transition: 0.15s cubic-bezier(0.17, 0.67, 0.52, 0.97); }
 .btn-primary { background-color: $blue3; color: $white; }
 .btn-primary:hover { }

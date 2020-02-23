@@ -2,7 +2,12 @@
 	<div>
 		HERE IS THE HELLO COMPONENT
 		<div ref="selector"></div>
-
+		<div ref="toolbar" class="fixed bottom-0 right-0 top-0 w-64 overflow-y-auto bg-gray-100">
+			<div>Font</div>
+			<div class="" @click="apply('font-serif')">font-serif</div>
+			<div class="">font-sans</div>
+			<div class="">font-code</div>
+		</div>
 	</div>
 </template>
 
@@ -11,12 +16,16 @@
 	export default {
 		name: 'Stylizer',
 		data() {
-			return {styles: styles}
+			return {
+				styles: styles,
+				selected: ''
+			}
 		},
 		mounted() {
 			setTimeout(() => {
 				document.body.addEventListener('mousemove', e => {
 					this.target = e.target;
+
 					var rect = e.target.getBoundingClientRect();
 					console.log(rect);
 					var top = rect.top - window.innerHeight + window.scrollY;
@@ -30,14 +39,20 @@
 
 				$(document).click(function(e) {
 					e.preventDefault();
-					let file = e.target.closest("[data-file]");
-					console.log(file, e);
-					alert(file.getAttribute('data-file'));
+					this.selected = e.target;
+					// if (file)
+					// 	alert(file.getAttribute('data-file'));
 					// find file
-
 				});
 
 			}, 1000);
+		},
+		methods: {
+			apply(className) {
+				alert('oi');
+				if (this.selected)
+					this.selected.classList.add(className);
+			}
 		}
 	}
 
