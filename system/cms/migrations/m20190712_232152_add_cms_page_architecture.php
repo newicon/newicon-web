@@ -10,7 +10,7 @@ class m20190712_232152_add_cms_page_architecture extends Migration
 			'id' => 'ZSDm6iJhdq2fDoOJJxlPoM',
 			'nice_id' => 'architecture',
 			'name' => 'Architecture',
-			'title' => '',
+			'title' => 'Architecture & UX Design',
 			'status' => 'PUBLISHED',
 			'layout' => '',
 			'template' => 'pages/services/architecture.tpl',

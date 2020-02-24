@@ -22,8 +22,6 @@ module.exports = {
 		},
 		extend: {
 			colors: {
-				...colors,
-
 				gray: {
 					'100': '#F7FAFC',
 					'200': '#F3F5F9',
@@ -44,7 +42,7 @@ module.exports = {
 					'600': '#1254cc',
 					'700': '#1c4ea7',
 					'800': '#03296e',
-					'900': '#00163d'
+					'900': '#031B4E'
 				},
 				purple: {
 					...colors.purple,
@@ -54,14 +52,23 @@ module.exports = {
 					...colors.pink,
 					'500': '#FF4374'
 				},
-				green: {
-					...colors.green,
-					'500': '#14C17B'
+				red: {
+					...colors.red,
 				},
 				orange: {
 					...colors.orange,
 					'500': '#FF8C08'
-				}
+				},
+				yellow: {
+					...colors.yellow,
+				},
+				green: {
+					...colors.green,
+					'500': '#14C17B'
+				},
+				teal: {
+					...colors.teal,
+				},
 			},
 			cursor: {
 				...cursor,

@@ -23,11 +23,8 @@ a {
 }
 
 body {
+	@apply font-sans font-light text-gray-900;
 	min-width: 320px;
-	@apply font-sans;
-	@apply font-light;
-	@apply bg-white;
-	@apply text-gray-900;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -39,43 +36,6 @@ h1, h2, h3, h4, h5, h6 { margin-bottom: 1.2rem; font-weight: 700; line-height: 1
 p, ul, ol, dl, hr, table, blockquote { margin-bottom: 1.2rem; }
 li { @apply pb-2; }
 /* Tablet Portrait */
-
-//@media (max-width: $responsive-sm) {
-//	h1 { font-size: $h1-tablet-font-size; }
-//	h2 { font-size: $h2-tablet-font-size; }
-//	h3 { font-size: $h3-tablet-font-size; }
-//	h4 { font-size: $h4-tablet-font-size; }
-//	h5 { font-size: $h5-tablet-font-size; }
-//	h6 { font-size: $h6-tablet-font-size; }
-//}
-//
-///* Mobile */
-//
-//@media (max-width: $breakpoint-mobile) {
-//	h1 { font-size: $h1-mobile-font-size; }
-//	h2 { font-size: $h2-mobile-font-size; }
-//	h3 { font-size: $h3-mobile-font-size; }
-//	h4 { font-size: $h4-mobile-font-size; }
-//	h5 { font-size: $h5-mobile-font-size; }
-//	h6 { font-size: $h6-mobile-font-size; }
-//}
-
-/* Mobile Portrait */
-
-//@media (max-width: $breakpoint-mobile) {
-//	h1 { font-size: $h1-mobile-portrait-font-size; }
-//	h2 { font-size: $h2-mobile-portrait-font-size; }
-//	h3 { font-size: $h3-mobile-portrait-font-size; }
-//	h4 { font-size: $h4-mobile-portrait-font-size; }
-//	h5 { font-size: $h5-mobile-portrait-font-size; }
-//	h6 { font-size: $h6-mobile-portrait-font-size; }
-//}
-
-
-
-
-
-
 
 /** For popup videos and images */
 @import '~magnific-popup/dist/magnific-popup.css';
@@ -166,7 +126,44 @@ li { @apply pb-2; }
 }
 
 .ni-italic {
-	@apply font-serif text-gray-600 italic font-thin;
+	@apply font-serif text-gray-700 italic font-thin;
 }
+
+
+//.btn {
+//	@apply text-white px-5 py-3 rounded no-underline;
+//}
+//.btn-primary {
+//	@apply bg-primary text-white shadow-lg;
+//}
+//.btn-outline {
+//	@apply border border-primary text-blue-500
+//}
+//
+
+
+.btn { display: inline-block; vertical-align: middle; height: 55px; border: 0; border-radius: 3px; font-weight: 700; font-size: 15px; line-height: 55px; text-align: center; text-decoration: none; appearance: none;
+	padding:0 20px; transition: transform 0.15s cubic-bezier(0.17, 0.67, 0.52, 0.97), shadow 0.15s cubic-bezier(0.17, 0.67, 0.52, 0.97); }
+.btn-primary { background-color: $blue3; color: $white; }
+
+.btn-outline-primary { border: 1px solid $blue3; background-color: transparent; color: $blue3; line-height: 53px; }
+.btn-outline:hover { background-color: $gray3;  }
+.btn._shadow {box-shadow: 0 12px 18px 0 rgba(0, 0, 0, 0.2)}
+.btn._shadow:active{box-shadow: inset 0px 5px 5px rgba(0,0,0,0.2)}
+
+
+
+.btn-secondary { background-color: $white; color: $gray9; }
+.btn-secondary:hover { background-color: $gray3; }
+.btn-secondary.btn-outline { border: 1px solid $white; background-color: transparent; line-height: 53px; }
+
+
+.btn-md { border-radius: 0; min-width: 164px; height: 45px; line-height: 45px; font-size: 13px; }
+.btn-sm { border-radius: 0; min-width: 160px; height: 40px; line-height: 40px; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; }
+.btn-xs { min-width: 120px; height: 38px; font-size: 11px; font-weight: 800; line-height: 38px; }
+
+.btn:hover {transform: scale(1.04) }
+.btn:active {transform: scale(0.96) }
+
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";

@@ -50,43 +50,13 @@
 				</ul>
 			</div>
 			<div class="w-auto overflow-y-auto flex flex-col">
-				<div class="border-b border-gray-300 flex-shrink-0">
-					<div class="flex items-end justify-center mb-2 bg-white"><span class="inline-block text-center cursor-pointer select-none mr-8 text-gray-800"><svg width="8.57142857142857" height="24" viewBox="0 0 10 28" xmlns="http://www.w3.org/2000/svg" class="fill-current block mx-auto mb-1"><path d="M1.5 12h7a1.5 1.5 0 0 1 1.5 1.5v13A1.5 1.5 0 0 1 8.5 28h-7A1.5 1.5 0 0 1 0 26.5v-13A1.5 1.5 0 0 1 1.5 12zM1 15v10h8V15H1zm4 12.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2zM4 13v1h2v-1H4z" fill-rule="evenodd"></path></svg> <p class="text-xs">all</p></span> <span class="inline-block text-center cursor-pointer select-none mr-8 text-gray-500"><svg width="11.999999999999998" height="24" viewBox="0 0 14 28" xmlns="http://www.w3.org/2000/svg" class="fill-current block mx-auto mb-1"><path d="M1.5 6h11A1.5 1.5 0 0 1 14 7.5v19a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 0 26.5v-19A1.5 1.5 0 0 1 1.5 6zM1 9v16h12V9H1zm6 18.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2zM7 8a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z" fill-rule="evenodd"></path></svg> <p class="text-xs">sm</p></span> <span class="inline-block text-center cursor-pointer select-none mr-8 text-gray-500"><svg width="22.28571428571428" height="24" viewBox="0 0 26 28" xmlns="http://www.w3.org/2000/svg" class="fill-current block mx-auto mb-1"><path d="M26 26.5a1.5 1.5 0 0 1-1.5 1.5h-23A1.5 1.5 0 0 1 0 26.5v-14A1.5 1.5 0 0 1 1.5 11h23a1.5 1.5 0 0 1 1.5 1.5v14zm-3 .5V12H3v15h20zm1.5-6.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-23-.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z" fill-rule="evenodd"></path></svg> <p class="text-xs">md</p></span> <span class="inline-block text-center cursor-pointer select-none mr-8 text-gray-500"><svg width="32.57142857142856" height="24" viewBox="0 0 38 28" xmlns="http://www.w3.org/2000/svg" class="fill-current block mx-auto mb-1"><path d="M34 26h4v1c-1.333.667-2.667 1-4 1H4c-1.333 0-2.667-.333-4-1v-1h4V7.5A1.5 1.5 0 0 1 5.5 6h27A1.5 1.5 0 0 1 34 7.5V26zM6 8v18h26V8H6z" fill-rule="evenodd"></path></svg> <p class="text-xs">lg</p></span> <span class="inline-block text-center cursor-pointer select-none text-gray-500"><svg width="30.85714285714285" height="24" viewBox="0 0 36 28" xmlns="http://www.w3.org/2000/svg" class="fill-current block mx-auto mb-1"><path d="M20.857 24l.857 3H24v1H12v-1h2.286l.857-3H1.5A1.5 1.5 0 0 1 0 22.5v-21A1.5 1.5 0 0 1 1.5 0h33A1.5 1.5 0 0 1 36 1.5v21a1.5 1.5 0 0 1-1.5 1.5H20.857zM2 2v18h32V2H2z"></path></svg> <p class="text-xs">xl</p></span></div>
-				</div>
+{*				<div class="border-b border-gray-300 flex-shrink-0">*}
+{*					<div class="flex items-end justify-center mb-2 bg-white"><span class="inline-block text-center cursor-pointer select-none mr-8 text-gray-800"><svg width="8.57142857142857" height="24" viewBox="0 0 10 28" xmlns="http://www.w3.org/2000/svg" class="fill-current block mx-auto mb-1"><path d="M1.5 12h7a1.5 1.5 0 0 1 1.5 1.5v13A1.5 1.5 0 0 1 8.5 28h-7A1.5 1.5 0 0 1 0 26.5v-13A1.5 1.5 0 0 1 1.5 12zM1 15v10h8V15H1zm4 12.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2zM4 13v1h2v-1H4z" fill-rule="evenodd"></path></svg> <p class="text-xs">all</p></span> <span class="inline-block text-center cursor-pointer select-none mr-8 text-gray-500"><svg width="11.999999999999998" height="24" viewBox="0 0 14 28" xmlns="http://www.w3.org/2000/svg" class="fill-current block mx-auto mb-1"><path d="M1.5 6h11A1.5 1.5 0 0 1 14 7.5v19a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 0 26.5v-19A1.5 1.5 0 0 1 1.5 6zM1 9v16h12V9H1zm6 18.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2zM7 8a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z" fill-rule="evenodd"></path></svg> <p class="text-xs">sm</p></span> <span class="inline-block text-center cursor-pointer select-none mr-8 text-gray-500"><svg width="22.28571428571428" height="24" viewBox="0 0 26 28" xmlns="http://www.w3.org/2000/svg" class="fill-current block mx-auto mb-1"><path d="M26 26.5a1.5 1.5 0 0 1-1.5 1.5h-23A1.5 1.5 0 0 1 0 26.5v-14A1.5 1.5 0 0 1 1.5 11h23a1.5 1.5 0 0 1 1.5 1.5v14zm-3 .5V12H3v15h20zm1.5-6.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-23-.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z" fill-rule="evenodd"></path></svg> <p class="text-xs">md</p></span> <span class="inline-block text-center cursor-pointer select-none mr-8 text-gray-500"><svg width="32.57142857142856" height="24" viewBox="0 0 38 28" xmlns="http://www.w3.org/2000/svg" class="fill-current block mx-auto mb-1"><path d="M34 26h4v1c-1.333.667-2.667 1-4 1H4c-1.333 0-2.667-.333-4-1v-1h4V7.5A1.5 1.5 0 0 1 5.5 6h27A1.5 1.5 0 0 1 34 7.5V26zM6 8v18h26V8H6z" fill-rule="evenodd"></path></svg> <p class="text-xs">lg</p></span> <span class="inline-block text-center cursor-pointer select-none text-gray-500"><svg width="30.85714285714285" height="24" viewBox="0 0 36 28" xmlns="http://www.w3.org/2000/svg" class="fill-current block mx-auto mb-1"><path d="M20.857 24l.857 3H24v1H12v-1h2.286l.857-3H1.5A1.5 1.5 0 0 1 0 22.5v-21A1.5 1.5 0 0 1 1.5 0h33A1.5 1.5 0 0 1 36 1.5v21a1.5 1.5 0 0 1-1.5 1.5H20.857zM2 2v18h32V2H2z"></path></svg> <p class="text-xs">xl</p></span></div>*}
+{*				</div>*}
 				<div class="flex-1 overflow-y-scroll">
-					<section class="max-w-screen-lg px-10">
-						<a name="typography" href="#typography"></a>
-						<h1 class="text-6xl">Styleguide</h1>
-						<h1>h1. Typography</h1>
-						<h2>h2. Typography</h2>
-						<h3>h3. Typography</h3>
-						<h4>h4. Typography</h4>
-						<h5>h5. Typography</h5>
-						<h6>h6. Typography</h6>
-					</section>
-					<section class="container m-auto my-32 max-w-screen-lg px-10">
-						<h1>Example h1 text</h1>
-						<p>Here is an opening paragraph - some default styling is applied. </p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-						<blockquote>That's what she said... hmmm mmm.</blockquote>
-						<p>An unorddered list</p>
-						<ul class="list-disc ml-5">
-							<li>Item one</li>
-							<li>Item two</li>
-							<li>Item three</li>
-						</ul>
-						<h2>A Second Heading</h2>
-						<p>What shall we get at the shops?</p>
-						<ol>
-							<li>Milk</li>
-							<li>Cheese</li>
-							<li>Eggs</li>
-							<li>Bread</li>
-							<li>Booze</li>
-						</ol>
-					</section>
+                    {include file="./_styleguide/typography.tpl" class="bg-black" hex="000000"}
+					<hr />
 					<section class="container m-auto max-w-screen-lg px-10">
-						<hr>
 						<h2 id="colors">Colors</h2>
 						<div class="flex flex-wrap -mx-2 mt-0">
 							<div class="px-2 w-full relative">
@@ -103,7 +73,7 @@
 									</div>
 								</div>
 							</div>
-	                        {foreach ['gray', 'blue', 'purple', 'pink', 'red', 'orange', 'yellow', 'green', 'teal', 'indigo'] as $color}
+	                        {foreach ['gray', 'blue', 'purple', 'pink', 'red', 'orange', 'yellow', 'green', 'teal'] as $color}
 								<div class="w-1/2 px-2 md:w-full relative mt-4">
 									<h3 class="markdown no-toc mb-4 mt-8" id="gray">
 										<a class="anchorjs-link text-gray-500 no-underline" aria-label="Anchor" data-anchorjs-icon="#" href="#gray"></a>
@@ -310,6 +280,6 @@
 {/block}
 
 {*{registerAsset path="neon\core\assets\CoreAsset"}*}
-{js}
-	new Vue({ el: '#app' });
-{/js}
+{*{js}*}
+{*	new Vue({ el: '#app' });*}
+{*{/js}*}
