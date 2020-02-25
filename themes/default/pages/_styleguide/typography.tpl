@@ -3,7 +3,6 @@
 		<h1>Typography</h1>
 	</header>
 	<a name="typography" href="#typography"></a>
-
 	<div class="p-5 text-sm hover:bg-gray-200 rounded my-5">
 		<b class="uppercase text-gray-700 font-bold mb-2 block">Header 1 (H1)</b>
 		<h1 class="text-5xl font-bold text-blue-900 m-0">

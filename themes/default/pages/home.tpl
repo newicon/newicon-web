@@ -3,7 +3,7 @@
 	{navigation white=['about','approach','contact'] style="position:absolute;"}
 {/block}
 {block "content"}
-	<div class="main" data-file="pages/home.tpl">
+	<div class="main">
 {*		{editor id=home123 }*}
 			{home_hero}
 
@@ -38,15 +38,14 @@
 				<div class="p-2 rounded-lg bg-gray-900 shadow-lg sm:p-3">
 					<div class="flex items-center justify-between flex-wrap">
 						<div class="w-0 flex-1 flex items-center">
-							<img class="h-6" src="/img/tailwind-ui-logo-on-dark.svg" alt="">
-							<p class="ml-3 font-medium text-white truncate">
+							<p class="ml-3 font-medium text-white truncate mb-0">
 								<span class="lg:hidden">
 									<span class="sr-only">Tailwind UI</span> is coming next week!
 								</span>
 								<span class="hidden lg:inline text-gray-400">
 									<strong class="text-white font-semibold mr-1">Coming next week!</strong>
-									<span class="xl:hidden">Beautiful UI components by the creators of Tailwind CSS.</span>
-									<span class="hidden xl:inline">Beautiful UI components, crafted by the creators of Tailwind CSS.</span>
+									<span class="xl:hidden">Something awesome.</span>
+									<span class="hidden xl:inline">Cookies message maybe</span>
 								</span>
 							</p>
 						</div>

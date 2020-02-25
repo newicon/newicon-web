@@ -18,10 +18,13 @@ module.exports = {
 			'code': ['Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', 'monospace'],
 		},
 		colors: {
-			primary: '#0067FF',
+			primary: 'var(--primary)',
 		},
 		extend: {
 			colors: {
+				black: colors.black,
+				white: colors.white,
+				transparent: colors.transparent,
 				gray: {
 					'100': '#F7FAFC',
 					'200': '#F3F5F9',
@@ -42,7 +45,7 @@ module.exports = {
 					'600': '#1254cc',
 					'700': '#1c4ea7',
 					'800': '#03296e',
-					'900': '#031B4E'
+					'900': '#00153d'
 				},
 				purple: {
 					...colors.purple,
@@ -52,23 +55,17 @@ module.exports = {
 					...colors.pink,
 					'500': '#FF4374'
 				},
-				red: {
-					...colors.red,
-				},
+				red: colors.red,
 				orange: {
 					...colors.orange,
 					'500': '#FF8C08'
 				},
-				yellow: {
-					...colors.yellow,
-				},
+				//yellow: colors.yellow,
 				green: {
 					...colors.green,
 					'500': '#14C17B'
 				},
-				teal: {
-					...colors.teal,
-				},
+				//teal: colors.teal,
 			},
 			cursor: {
 				...cursor,

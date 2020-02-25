@@ -64,27 +64,38 @@
 									<a class="anchorjs-link text-gray-500 no-underline" aria-label="Anchor" data-anchorjs-icon="#" href="#black-white" style="position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>
 									Black &amp; White
 								</h3>
-								<div class="-mx-2 -mt-5 flex flex-wrap">
-									<div class="w-1/2 md:w-1/3 px-2">
-	                                    {include file="./_styleguide/_color.tpl" class="bg-black" hex="000000"}
-									</div>
-									<div class="w-1/2 md:w-1/3 px-2">
-	                                    {include file="./_styleguide/_color.tpl" class="bg-white" hex="FFFFFF"}
-									</div>
+								<div class="grid grid-rows-3 grid-flow-col gap-1">
+                                    {include file="./_styleguide/_color.tpl" class="bg-black" hex=$styles.colors.black}
+                                    {include file="./_styleguide/_color.tpl" class="bg-white" hex=$styles.colors.white}
+                                    {include file="./_styleguide/_color.tpl" class="bg-primary" hex=$styles.colors.primary}
+                                    {include file="./_styleguide/_color.tpl" class="bg-transparent" hex=$styles.colors.transparent}
 								</div>
 							</div>
-	                        {foreach ['gray', 'blue', 'purple', 'pink', 'red', 'orange', 'yellow', 'green', 'teal'] as $color}
-								<div class="w-1/2 px-2 md:w-full relative mt-4">
-									<h3 class="markdown no-toc mb-4 mt-8" id="gray">
-										<a class="anchorjs-link text-gray-500 no-underline" aria-label="Anchor" data-anchorjs-icon="#" href="#gray"></a>
-	                                    {$color|capitalize}
-									</h3>
-									<div class="grid grid-rows-3 grid-flow-col gap-1">
-	                                    {foreach $styles.colors.$color as $name => $hex}
-	                                        {include file="./_styleguide/_color.tpl" class="bg-$color-$name" hex=$hex}
-	                                    {/foreach}
-									</div>
+
+                            {foreach ['gray', 'blue', 'purple', 'pink', 'red', 'orange', 'yellow', 'green', 'teal'] as $color}
+                            {if isset($styles.colors.$color)}
+								<div class="flex">
+	                                {foreach $styles.colors.$color as $name => $hex}
+										<div class="h-16 w-16 bg-{$color}-{$name}"></div>
+	                                {/foreach}
 								</div>
+                            {/if}
+                            {/foreach}
+	                        {foreach ['gray', 'blue', 'purple', 'pink', 'red', 'orange', 'yellow', 'green', 'teal'] as $color}
+		                        {if isset($styles.colors.$color)}
+									<div class="w-1/2 px-2 md:w-full relative mt-4">
+										<h3 class="markdown no-toc mb-4 mt-8" id="gray">
+											<a class="anchorjs-link text-gray-500 no-underline" aria-label="Anchor" data-anchorjs-icon="#" href="#gray"></a>
+		                                    {$color|capitalize}
+										</h3>
+
+										<div class="grid grid-rows-3 grid-flow-col gap-2">
+		                                    {foreach $styles.colors.$color as $name => $hex}
+		                                        {include file="./_styleguide/_color.tpl" class="bg-$color-$name" hex=$hex}
+		                                    {/foreach}
+										</div>
+									</div>
+                                {/if}
 	                        {/foreach}
 
 						</div>
