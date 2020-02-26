@@ -58,6 +58,17 @@
 					<hr />
 					<section class="container m-auto max-w-screen-lg px-10">
 						<h2 id="colors">Colors</h2>
+
+                        {foreach ['gray', 'blue', 'purple', 'pink', 'red', 'orange', 'yellow', 'green', 'teal'] as $color}
+                            {if isset($styles.colors.$color)}
+								<div class="flex">
+                                    {foreach $styles.colors.$color as $name => $hex}
+										<div class="h-16 w-16 bg-{$color}-{$name}"></div>
+                                    {/foreach}
+								</div>
+                            {/if}
+                        {/foreach}
+
 						<div class="flex flex-wrap -mx-2 mt-0">
 							<div class="px-2 w-full relative">
 								<h3 class="markdown no-toc mb-4 mt-8" id="black-white">
@@ -72,15 +83,6 @@
 								</div>
 							</div>
 
-                            {foreach ['gray', 'blue', 'purple', 'pink', 'red', 'orange', 'yellow', 'green', 'teal'] as $color}
-                            {if isset($styles.colors.$color)}
-								<div class="flex">
-	                                {foreach $styles.colors.$color as $name => $hex}
-										<div class="h-16 w-16 bg-{$color}-{$name}"></div>
-	                                {/foreach}
-								</div>
-                            {/if}
-                            {/foreach}
 	                        {foreach ['gray', 'blue', 'purple', 'pink', 'red', 'orange', 'yellow', 'green', 'teal'] as $color}
 		                        {if isset($styles.colors.$color)}
 									<div class="w-1/2 px-2 md:w-full relative mt-4">

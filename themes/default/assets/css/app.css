@@ -2477,11 +2477,14 @@ html.noScroll, html.noScroll body {
   font-weight: 200;
 }
 
+/* COMPLETE CSS */
+
+/****************/
+
 .btn {
   display: inline-block;
   vertical-align: middle;
   height: 55px;
-  border: 0;
   border-radius: 3px;
   font-weight: 700;
   font-size: 15px;
@@ -2492,32 +2495,52 @@ html.noScroll, html.noScroll body {
      -moz-appearance: none;
           appearance: none;
   padding: 0 20px;
-  transition: transform 0.15s cubic-bezier(0.17, 0.67, 0.52, 0.97), shadow 0.15s cubic-bezier(0.17, 0.67, 0.52, 0.97);
 }
 
+/* outline buttons http://localhost/newicon-website/public/styleguide#button-primary */
+
 .btn-primary {
+  border-width: 1px;
+  border-color: #0067FF;
   background-color: #0067FF;
   color: #fff;
 }
 
+.btn-primary:hover {
+  border-width: 1px;
+  border-color: #00153d;
+  background-color: #00153d;
+  color: #fff;
+}
+
+/* outline buttons http://localhost/newicon-website/public/styleguide#button-outline */
+
 .btn-outline-primary {
-  border: 1px solid #0067FF;
-  background-color: transparent;
+  border-width: 1px;
+  border-color: #0067FF;
   color: #0067FF;
-  line-height: 53px;
+  background-color: transparent;
 }
 
-.btn-outline:hover {
-  background-color: #7C8798;
+.btn-outline-primary:hover {
+  border-color: #00153d;
+  color: #00153d;
+  background-color: #F3F5F9;
 }
 
-.btn._shadow {
+/****************/
+
+.btn-shadow {
   box-shadow: 0 12px 18px 0 rgba(0, 0, 0, 0.2);
 }
 
-.btn._shadow:active {
+.btn-shadow:active {
   box-shadow: inset 0px 5px 5px rgba(0, 0, 0, 0.2);
 }
+
+/* UNCONFIRMED CSS */
+
+/****************/
 
 .btn-secondary {
   background-color: #fff;
@@ -2558,14 +2581,6 @@ html.noScroll, html.noScroll body {
   font-size: 11px;
   font-weight: 800;
   line-height: 38px;
-}
-
-.btn:hover {
-  transform: scale(1.04);
-}
-
-.btn:active {
-  transform: scale(0.96);
 }
 
 .container{

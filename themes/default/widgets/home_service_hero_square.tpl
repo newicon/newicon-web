@@ -12,7 +12,7 @@
 	}
 }
 *}
-<a class="service" href="{page_url id=$link}" {attrs attrs=$attrs|default:[]}>
+<a class="shadow-lg rounded block" href="{page_url id=$link}" {attrs attrs=$attrs|default:[]}>
 	<div class="service_inner">
 		<div class="service_content">
 			<h3 class="service_title">{$title}</h3>

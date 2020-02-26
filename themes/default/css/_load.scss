@@ -133,30 +133,21 @@ li { @apply pb-2; }
 	@apply font-serif text-gray-700 italic font-thin;
 }
 
+/* COMPLETE CSS */
+/****************/
+.btn { display: inline-block; vertical-align: middle; height: 55px; border-radius: 3px; font-weight: 700; font-size: 15px; line-height: 55px; text-align: center; text-decoration: none; appearance: none; padding:0 20px; }
+/* outline buttons http://localhost/newicon-website/public/styleguide#button-primary */
+.btn-primary { @apply border border-blue-500 bg-blue-500 text-white; }
+.btn-primary:hover { @apply border border-blue-900 bg-blue-900 text-white; }
+/* outline buttons http://localhost/newicon-website/public/styleguide#button-outline */
+.btn-outline-primary { @apply border border-blue-500 text-blue-500 bg-transparent; }
+.btn-outline-primary:hover { @apply border-blue-900 text-blue-900 bg-gray-200; }
+/****************/
+.btn-shadow {box-shadow: 0 12px 18px 0 rgba(0, 0, 0, 0.2)}
+.btn-shadow:active{box-shadow: inset 0px 5px 5px rgba(0,0,0,0.2)}
 
-//.btn {
-//	@apply text-white px-5 py-3 rounded no-underline;
-//}
-//.btn-primary {
-//	@apply bg-primary text-white shadow-lg;
-//}
-//.btn-outline {
-//	@apply border border-primary text-blue-500
-//}
-//
-
-
-.btn { display: inline-block; vertical-align: middle; height: 55px; border: 0; border-radius: 3px; font-weight: 700; font-size: 15px; line-height: 55px; text-align: center; text-decoration: none; appearance: none;
-	padding:0 20px; transition: transform 0.15s cubic-bezier(0.17, 0.67, 0.52, 0.97), shadow 0.15s cubic-bezier(0.17, 0.67, 0.52, 0.97); }
-.btn-primary { background-color: $blue3; color: $white; }
-
-.btn-outline-primary { border: 1px solid $blue3; background-color: transparent; color: $blue3; line-height: 53px; }
-.btn-outline:hover { background-color: $gray3;  }
-.btn._shadow {box-shadow: 0 12px 18px 0 rgba(0, 0, 0, 0.2)}
-.btn._shadow:active{box-shadow: inset 0px 5px 5px rgba(0,0,0,0.2)}
-
-
-
+/* UNCONFIRMED CSS */
+/****************/
 .btn-secondary { background-color: $white; color: $gray9; }
 .btn-secondary:hover { background-color: $gray3; }
 .btn-secondary.btn-outline { border: 1px solid $white; background-color: transparent; line-height: 53px; }
@@ -166,8 +157,6 @@ li { @apply pb-2; }
 .btn-sm { border-radius: 0; min-width: 160px; height: 40px; line-height: 40px; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; }
 .btn-xs { min-width: 120px; height: 38px; font-size: 11px; font-weight: 800; line-height: 38px; }
 
-.btn:hover {transform: scale(1.04) }
-.btn:active {transform: scale(0.96) }
 
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";

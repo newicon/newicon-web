@@ -3,8 +3,8 @@
 {if (!isset($white ))} {$white=[]} {/if}
 <header class="header" style="{$style|default}">
 	<div class="shell shell-fluid">
-		<div class="header_inner">
-			<nav class="nav">
+		<div class="header_inner" x-data="{ open: false }">
+			<nav class="nav" :class="{ 'open': open }">
 				<ul>
 					<li class="navBrand navBrand hidden md:block pt-1 {(in_array('newicon', $white)||$inverse) ? 'textLight' : ''}">
 						<a href="{page_url nice="home"}"><img src="{(in_array('newicon', $white)||$inverse) ? {asset path='/images/logo-white-secondary@2x.png'}:{asset path='/images/newicon.svg'}}" alt="" width="70" height="15"></a>
@@ -96,7 +96,7 @@
 				<img src="{asset path='/images/newicon.svg'}" alt="Newicon logo" width="80">
 			</a>
 
-			<a href="#" class="navTrigger">
+			<a href="#" class="navTrigger" @click="tab = 'foo'; alert('oi')">
 				<span></span>
 				<span></span>
 			</a>
