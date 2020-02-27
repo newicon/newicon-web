@@ -12,7 +12,6 @@
 			{* {section_come_talk_to_us}*}
 
 	        {section_portfolio}
-{*	        {section_portfolio_bak}*}
 
 			{section_port_big}
 

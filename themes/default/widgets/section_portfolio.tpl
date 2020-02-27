@@ -92,6 +92,10 @@
 	}
 
 	.is-selected .screenshot2 { opacity: 1; }
+	.portfolio-text { opacity: 0; transition: opacity 0.4s ease-in }
+	.is-selected .portfolio-text { opacity: 1 }
+
+
 
 	button.portfolio-btn{ outline: 0; }
 	</style>
@@ -99,7 +103,7 @@
 
 
 
-<section class="section py-24  slider-portfolio" style="background:linear-gradient(180deg, rgba(243,245,249,1) 0%, rgba(255,255,255,1) 100%)">
+<section class="section py-24  slider-portfolio " style="background:linear-gradient(180deg, rgba(243,245,249,1) 0%, rgba(255,255,255,1) 100%)">
 	<header class="text-center">
 		<h2 class="text-4xl font-bold">Our Work</h2>
 		<h4 class="ni-italic">Projects we're proud of :-)</h4>
@@ -110,8 +114,8 @@
 
 	<div class="carousel" data-flickity='{ "wrapAround": true,  "contain": true, "selectedAttraction": 0.1, "friction": 0.8, "prevNextButtons": false, "pageDots": false }'>
         {foreach $folio as $item}
-			<div class="flex flex-col md:flex-row w-screen py-20">
-				<div class="my-auto flex-shrink md:w-1/3 mx-20 ">
+			<div class="flex flex-col lg:flex-row xl:max-w-screen-hd w-screen py-20">
+				<div class="portfolio-text text-center lg:text-left my-auto flex-shrink lg:w-1/3 mx-20 ">
 					<b class="text-xs uppercase text-gray-500 font-bold block mb-4">Case Study</b>
 					<h3 class="text-3xl text-blue-900">{$item['title']}</h3>
 					<p class="text-lg text-gray-700">{$item['body']}</p>

@@ -21,6 +21,18 @@ module.exports = {
 			primary: 'var(--primary)',
 		},
 		extend: {
+			screens: {
+					"sm": "640px",
+					"md": "768px",
+					"lg": "1024px",
+					"xl": "1280px",
+					"2xl": "1440px",
+					"hd": "1920px",
+			},
+			fill: {
+				current: 'currentColor',
+				//'blue': theme('colors.blue.500'),
+			},
 			colors: {
 				black: colors.black,
 				white: colors.white,
@@ -73,7 +85,10 @@ module.exports = {
 			}
 		},
 	},
-	variants: {},
+	variants: {
+		fill:['group-hover', 'hover'],
+		display: ['responsive', 'group-hover'],
+	},
 	plugins: [
 		plugin(function({ addBase, config }) {
 			addBase({
@@ -85,6 +100,7 @@ module.exports = {
 		}),
 		require('autoprefixer'),
 		...process.env.NODE_ENV === 'production' ? [purgeCss] : [],
+		require('@tailwindcss/ui'),
 		plugin(function({ addBase, config }) {
 			const styles = config('theme');
 			var json = JSON.stringify(styles, null, '\t');

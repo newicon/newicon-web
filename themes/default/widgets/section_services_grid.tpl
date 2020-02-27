@@ -1,49 +1,41 @@
-<section class="s">
-	<div class="shell">
-		{include file="section_header_centered.tpl"
-			title="Our expertise"
-			sub="The things we do for our clients and their people"
-			body="Our software design and development focuses on the things that matter, the insights, interactions, integrations and innovations that make extraordinary things happen for brands, businesses and customers"
-		}
-		<div class="section_body">
-			<div class="flex flex-wrap">
-                <div class="w-1/2" >
-				{include file="home_service_hero_square.tpl"
-	                link="architecture"
-	                title="Architecture &amp; UX Design"
-	                body="<p>User experience design and<br>interactive prototyping</p>"
-	                image="/images/icons/Architecture UX Design.svg"
-	                attrs=["data-aos" =>'fade-up-right']
-                }
-                </div>
-                <div class="w-1/2">
-                {include file="home_service_hero_square.tpl"
-	                link="software"
-	                title="Software Development"
-	                body="<p>Custom software applications for startups, SMEs and enterprise </p>"
-	                image="/images/icons/Software Development.svg"
-	                attrs=["data-aos" =>'fade-up-left']
-                }
-                </div>
-                <div class="w-1/2">
-                {include file="home_service_hero_square.tpl"
-	                link="web-development"
-	                title="Web Development"
-	                body="<p>Websites, web apps and e-commerce for <br/>desktop, tablet and mobile devices </p>"
-	                image="/images/icons/Web Development.svg"
-	                attrs=["data-aos" =>'fade-up-right']
-                }
-                </div>
-				<div class="w-1/2">
-                {include file="home_service_hero_square.tpl"
-	                link="digital-marketing"
-	                title="Digital Marketing"
-	                body="<p>Pay Per Click, Search Engine Optimisation<br>and Converstion Rate Optimisation</p>"
-	                image="/images/icons/Digital Marketing.svg"
-	                attrs=["data-aos" =>'fade-up-left']
-                }
-				</div>
-			</div>
-		</div>
+<section class="mx-auto px-20 pt-10 max-w-screen-2xl" data-aos="fade-up">
+	{include file="section_header_centered.tpl"
+		title="Our expertise"
+		sub="The things we do for our clients and their people"
+		body="Our software design and development focuses on the things that matter, the insights, interactions, integrations and innovations that make extraordinary things happen for brands, businesses and customers"
+	}
+	<div class="grid md:grid-cols-2 gap-4 mb-16">
+		{include file="home_service_hero_square.tpl"
+            link="architecture"
+            title="Architecture &amp; UX Design"
+            body="User experience design and<br>interactive prototyping"
+            image="/images/icons/max/architecture.svg"
+            imageHover="/images/icons/max/white/architecture.svg"
+            attrs=["data-aos" =>'fade-up-right']
+        }
+        {include file="home_service_hero_square.tpl"
+            link="software"
+            title="Software Development"
+            body="Custom software applications for startups, SMEs and enterprise"
+            image="/images/icons/max/software-development.svg"
+            imageHover="/images/icons/max/white/software-development.svg"
+            attrs=["data-aos" =>'fade-up-left']
+        }
+        {include file="home_service_hero_square.tpl"
+            link="web-development"
+            title="Web Development"
+            body="Websites, web apps and e-commerce for <br/>desktop, tablet and mobile devices"
+            image="/images/icons/max/web-development.svg"
+            imageHover="/images/icons/max/white/web-development.svg"
+            attrs=["data-aos" =>'fade-up-right']
+        }
+        {include file="home_service_hero_square.tpl"
+            link="digital-marketing"
+            title="Digital Marketing"
+            body="Pay Per Click, Search Engine Optimisation<br>and Converstion Rate Optimisation"
+            image="/images/icons/max/digital-marketing.svg"
+            imageHover="/images/icons/max/white/digital-marketing.svg"
+            attrs=["data-aos" =>'fade-up-left']
+        }
 	</div>
 </section>
