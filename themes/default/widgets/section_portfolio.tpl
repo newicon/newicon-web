@@ -111,7 +111,7 @@
 	<div class="carousel" data-flickity='{ "dragThreshold": 10, "wrapAround": true,  "contain": true, "selectedAttraction": 0.1, "friction": 0.8, "prevNextButtons": false, "pageDots": false }'>
         {foreach $folio as $item}
 			<div class="flex flex-col lg:flex-row xl:max-w-screen-hd w-screen py-20">
-				<div class="mb-10 lg:mb-auto portfolio-text text-center lg:text-left my-auto flex-shrink lg:w-1/3 mx-20 ">
+				<div class="mb-10 lg:mb-auto portfolio-text text-center lg:text-left my-auto flex-shrink lg:w-1/3 mx-10 md:mx-20">
 					<b class="text-xs uppercase text-gray-500 font-bold block mb-4">Case Study</b>
 					<h3 class="text-3xl text-blue-900">{$item['title']}</h3>
 					<p class="text-lg text-gray-700">{$item['body']}</p>
