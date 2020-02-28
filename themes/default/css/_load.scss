@@ -119,8 +119,13 @@ li { @apply pb-2; }
 .btn-primary:hover { @apply border border-blue-900 bg-blue-900 text-white; }
 /* outline buttons http://localhost/newicon-website/public/styleguide#button-outline */
 .btn-outline-primary { @apply border border-blue-500 text-blue-500 bg-transparent; }
-.btn-outline-primary:hover { @apply border-blue-900 text-blue-900 bg-gray-200; }
+.btn-outline-primary:hover { @apply border-blue-900 text-blue-900; }
 /****************/
+
+.btn-fx { @apply transition shadow transform duration-150; }
+.btn-fx:hover { @apply -translate-y-px shadow-md; }
+.btn-fx:active { @apply translate-y-px shadow-none; }
+
 .btn-shadow {box-shadow: 0 12px 18px 0 rgba(0, 0, 0, 0.2)}
 .btn-shadow:active{box-shadow: inset 0px 5px 5px rgba(0,0,0,0.2)}
 

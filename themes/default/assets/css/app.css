@@ -2517,10 +2517,33 @@ html.noScroll, html.noScroll body {
 .btn-outline-primary:hover {
   border-color: #00153d;
   color: #00153d;
-  background-color: #F3F5F9;
 }
 
 /****************/
+
+.btn-fx {
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --transform-translate-x: 0;
+  --transform-translate-y: 0;
+  --transform-rotate: 0;
+  --transform-skew-x: 0;
+  --transform-skew-y: 0;
+  --transform-scale-x: 1;
+  --transform-scale-y: 1;
+  transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
+  transition-duration: 150ms;
+}
+
+.btn-fx:hover {
+  --transform-translate-y: -1px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.btn-fx:active {
+  --transform-translate-y: 1px;
+  box-shadow: none;
+}
 
 .btn-shadow {
   box-shadow: 0 12px 18px 0 rgba(0, 0, 0, 0.2);

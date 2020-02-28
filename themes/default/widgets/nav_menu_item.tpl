@@ -9,7 +9,7 @@
 		<div class="dropdown_image"><i class="{$icon}"></i></div>
 		<div class="dropdown_content">
 			<h5 class="dropdown_title">{$title}</h5>
-			<p class="dropdown_note">{$note}</p>
+			<p class="dropdown_note text-gray-700">{$note}</p>
 		</div>
 	</a>
 </li>

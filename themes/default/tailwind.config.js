@@ -1,5 +1,5 @@
 const plugin = require('tailwindcss/plugin');
-const { colors, cursor } = require('tailwindcss/defaultTheme');
+const { colors, cursor, shadows } = require('tailwindcss/defaultTheme');
 const purgeCss = require('@fullhuman/postcss-purgecss')({
 	// Specify the paths to all of the template files in your project
 	content: [
@@ -32,6 +32,10 @@ module.exports = {
 			fill: {
 				current: 'currentColor',
 				//'blue': theme('colors.blue.500'),
+			},
+			shadows: {
+				...shadows,
+				'2xl': '0 13px 27px -5px rgba(50,50,93,.25), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,.025)',
 			},
 			colors: {
 				black: colors.black,

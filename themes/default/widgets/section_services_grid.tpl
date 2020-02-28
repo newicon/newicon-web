@@ -1,8 +1,9 @@
-<section class="mx-auto px-20 pt-10 max-w-screen-2xl" data-aos="fade-up">
-	{include file="section_header_centered.tpl"
+<section class="mx-auto px-5 md:px-10 lg:px-20 pt-10 max-w-screen-2xl" data-aos="fade-up">
+	{include file="section_header_center.tpl"
 		title="Our expertise"
 		sub="The things we do for our clients and their people"
 		body="Our software design and development focuses on the things that matter, the insights, interactions, integrations and innovations that make extraordinary things happen for brands, businesses and customers"
+		hr=true
 	}
 	<div class="grid md:grid-cols-2 gap-4 mb-16">
 		{include file="home_service_hero_square.tpl"

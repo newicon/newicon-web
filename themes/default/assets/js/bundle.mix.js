@@ -205,8 +205,8 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/newicon/Sites/newicon-website/themes/default/js/main.js */"./js/main.js");
-module.exports = __webpack_require__(/*! /Users/newicon/Sites/newicon-website/themes/default/css/_load.scss */"./css/_load.scss");
+__webpack_require__(/*! /Users/steve/Sites/newicon-website/themes/default/js/main.js */"./js/main.js");
+module.exports = __webpack_require__(/*! /Users/steve/Sites/newicon-website/themes/default/css/_load.scss */"./css/_load.scss");
 
 
 /***/ })

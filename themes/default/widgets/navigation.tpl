@@ -16,10 +16,10 @@
 						<div class="dropdown">
 							<div class="dropdown_group">
 								<ul>
-                                    {nav_menu_item link="architecture" title="Architecture &amp; UX Design" note="Rapid prototyping, design, and user experience services." icon='ico-draw'}
-                                    {nav_menu_item link="software" title="Software Development" note="Software for desktop, mobile and everything in between." icon='ico-layers'}
-                                    {nav_menu_item link="web-development" title="Web Development" note="Websites, e-commerce and CMSs to boost your business." icon='ico-website'}
-                                    {nav_menu_item link="digital-marketing" title="Digital Marketing" note="Grow your business with SEO, PPC and Social media." icon='ico-chart'}
+                                    {include file="nav_menu_item.tpl" link="architecture" title="Architecture &amp; UX Design" note="Rapid prototyping, design, and user experience services." icon='ico-draw'}
+                                    {include file="nav_menu_item.tpl" link="software" title="Software Development" note="Software for desktop, mobile and everything in between." icon='ico-layers'}
+                                    {include file="nav_menu_item.tpl" link="web-development" title="Web Development" note="Websites, e-commerce and CMSs to boost your business." icon='ico-website'}
+                                    {include file="nav_menu_item.tpl" link="digital-marketing" title="Digital Marketing" note="Grow your business with SEO, PPC and Social media." icon='ico-chart'}
 								</ul>
 							</div>
 						</div>
@@ -30,7 +30,7 @@
 						<div class="dropdown">
 							<div class="dropdown_group">
 								<ul>
-                                    {nav_menu_item link="work" title="Our Work" note="Our work" icon='ico-work'}
+                                    {include file="nav_menu_item.tpl" link="work" title="Our Work" note="Our work" icon='ico-work'}
 								</ul>
 							</div>
 						</div>
@@ -43,18 +43,18 @@
 							<div class="dropdown_group" >
 								<div class="dropdown_col">
 									<ul>
-										{nav_menu_item link="about" title="About us" note="Our mission, vision and mantra." icon='ico-peak'}
-										{nav_menu_item link="culture" title="Culture" note="Learn about the way we do things around here." icon='ico-social-circle'}
-										{nav_menu_item link="history" title="History" note="See where we started and how we’ve grown." icon='ico-history'}
-										{nav_menu_item link="team" title="The Team" note="Meet the people that make it all happen." icon='ico-team'}
+										{include file="nav_menu_item.tpl" link="about" title="About us" note="Our mission, vision and mantra." icon='ico-peak'}
+										{include file="nav_menu_item.tpl" link="culture" title="Culture" note="Learn about the way we do things around here." icon='ico-social-circle'}
+										{include file="nav_menu_item.tpl" link="history" title="History" note="See where we started and how we’ve grown." icon='ico-history'}
+										{include file="nav_menu_item.tpl" link="team" title="The Team" note="Meet the people that make it all happen." icon='ico-team'}
 									</ul>
 								</div>
 								<div class="dropdown_col">
 									<ul>
-										{nav_menu_item link="brand-values" title="Brand Values" note="Values that dirve our business" icon='ico-dna'}
-										{nav_menu_item link="join" title="Join the team" note="Open job opportunities in Newicon" icon='ico-puzzle'}
-										{nav_menu_item link="why-join" title="Why join us?" note="Why choose Newicon to grow your career" icon='ico-piece-pizza'}
-										{nav_menu_item link="blog" title="Blog" note="News, thoughts and feelings" icon='ico-blog'}
+										{include file="nav_menu_item.tpl" link="brand-values" title="Brand Values" note="Values that dirve our business" icon='ico-dna'}
+										{include file="nav_menu_item.tpl" link="join" title="Join the team" note="Open job opportunities in Newicon" icon='ico-puzzle'}
+										{include file="nav_menu_item.tpl" link="why-join" title="Why join us?" note="Why choose Newicon to grow your career" icon='ico-piece-pizza'}
+										{include file="nav_menu_item.tpl" link="blog" title="Blog" note="News, thoughts and feelings" icon='ico-blog'}
 									</ul>
 								</div>
 							</div>
@@ -69,10 +69,10 @@
 						<div class="dropdown">
 							<div class="dropdown_group">
 								<ul>
-                                    {nav_menu_item link="approach" title="Our Approach" note="How we build innovative digital products and services." icon='ico-approach'}
-                                    {nav_menu_item link="architecture-process" title="Architecture process" note="Our unique process for visual and technical design." icon='ico-process'}
-                                    {nav_menu_item link="technologies" title="Technologies" note="Our philosophies and most used technologies." icon='ico-technologies'}
-                                    {nav_menu_item link="neon" title="Neon Framework" note="Our innovative framework, helping to create the future." icon='ico-framework'}
+                                    {include file="nav_menu_item.tpl" link="approach" title="Our Approach" note="How we build innovative digital products and services." icon='ico-approach'}
+                                    {include file="nav_menu_item.tpl" link="architecture-process" title="Architecture process" note="Our unique process for visual and technical design." icon='ico-process'}
+                                    {include file="nav_menu_item.tpl" link="technologies" title="Technologies" note="Our philosophies and most used technologies." icon='ico-technologies'}
+                                    {include file="nav_menu_item.tpl" link="neon" title="Neon Framework" note="Our innovative framework, helping to create the future." icon='ico-framework'}
 								</ul>
 							</div>
 						</div>
@@ -83,7 +83,7 @@
 						<div class="dropdown md:hidden">
 							<div class="dropdown_group">
 								<ul>
-                                    {nav_menu_item link="contact" title="Contact us" note="Contact" icon='ico-contact'}
+                                    {include file="nav_menu_item.tpl" link="contact" title="Contact us" note="Contact" icon='ico-contact'}
 								</ul>
 							</div>
 						</div>
