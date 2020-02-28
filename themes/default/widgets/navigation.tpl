@@ -2,11 +2,11 @@
 {if (!isset($inverse ))} {$inverse=false} {/if}
 {if (!isset($white ))} {$white=[]} {/if}
 <header class="header" style="{$style|default}">
-	<div class="shell shell-fluid">
-		<div class="header_inner" x-data="{ open: false }">
-			<nav class="nav" :class="{ 'open': open }">
+	<div x-data="{ isOpen: false }" :class="isOpen ? 'open' : ''">
+		<div class="header_inner">
+			<nav class="nav" >
 				<ul>
-					<li class="navBrand navBrand hidden md:block pt-1 {(in_array('newicon', $white)||$inverse) ? 'textLight' : ''}">
+					<li class="navBrand navBrand hidden lg:block pt-1 {(in_array('newicon', $white)||$inverse) ? 'textLight' : ''}">
 						<a href="{page_url nice="home"}"><img src="{(in_array('newicon', $white)||$inverse) ? {asset path='/images/logo-white-secondary@2x.png'}:{asset path='/images/newicon.svg'}}" alt="" width="70" height="15"></a>
 					</li>
 					<li class="navServices has_dropdown
@@ -92,14 +92,15 @@
 				</ul>
 			</nav>
 
-			<a href="{page_url nice="home"}" class="header_mobileLogo">
+			<a href="{page_url nice="home"}" class="w-24 mx-auto header_mobileLogo">
 				<img src="{asset path='/images/newicon.svg'}" alt="Newicon logo" width="80">
 			</a>
 
-			<a href="#" class="navTrigger" @click="tab = 'foo'; alert('oi')">
+			<a href="#" class="navTrigger" @click.prevent="isOpen = !isOpen; isOpen ? document.documentElement.classList.add('noScroll') : document.documentElement.classList.remove('noScroll');">
 				<span></span>
 				<span></span>
 			</a>
 		</div>
 	</div>
 </header>
+{jsFile src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v1.11.1/dist/alpine.js" attributes=['async', 'defer']}

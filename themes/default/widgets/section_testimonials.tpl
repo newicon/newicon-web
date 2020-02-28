@@ -5,13 +5,19 @@
     }
 	{$tests = [
 		'bbsp' => [
-			'quote_name' => 'Tom Beasley'
+			'quote_name' => 'Tom Beasley',
+            'image' => 'images/temp/testimonial-image-1.jpg',
+            'youtube' => 'https://www.youtube.com/watch?v=SrAzkFIYjFA?autoplay=1&rel=0'
 		],
 		'other' => [
-            'quote_name' => 'Steve O\'Brien'
+            'quote_name' => 'Steve O\'Brien',
+			'image' => 'images/temp/testimonial-image-1.jpg',
+            'youtube' => 'https://www.youtube.com/watch?v=SrAzkFIYjFA?autoplay=1&rel=0'
 		],
 		'ttt' => [
-			'quote_name' => 'Bob'
+			'quote_name' => 'Jane',
+			'image' => 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80',
+			'youtube' => 'https://www.youtube.com/watch?v=SrAzkFIYjFA?autoplay=1&rel=0'
 		]
 	]}
 
@@ -30,8 +36,8 @@
 		<div class="w-11/12 " style="padding-left:4%">
 			<div class="flex-col my-10 flex md:flex-row shadow-lg rounded-lg" itemscope itemtype="http://schema.org/Quotation">
 				<a x-data="{ open: true }" @click.prevent="alert('butts')" class="block relative group video h-64 rounded-t-lg md:rounded-l-lg md:rounded-r-none md:w-1/2 md:h-auto object-cover bg-cover bg-center cursor-pointer"
-				   style="background-image: url('{asset path='images/temp/testimonial-image-1.jpg'}');"
-				   href="https://www.youtube.com/watch?v=SrAzkFIYjFA?autoplay=1&rel=0" >
+				   style="background-image: url('{asset path=$test.image}');"
+				   href="{$test.youtube}" >
 					<div class="absolute inset-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white w-24 h-24 pt-8 pl-9 rounded-full shadow-lg group-hover:shadow-xl">
 						<svg width="35" height="35" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path fill-rule="evenodd" clip-rule="evenodd" d="M1 2V23L20 12.5L1 2Z" fill="#0067FF" stroke="#0067FF" stroke-width="2"></path>

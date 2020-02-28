@@ -1,4 +1,4 @@
-import 'magnific-popup';
+// import 'magnific-popup';
 import Vue from 'vue';
 // import Stylizer from './stylizer.vue';
 // import 'owl.carousel';

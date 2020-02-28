@@ -1,6 +1,5 @@
 <!doctype html>
-<!--[if IE 9]><html class="ie9 no-js"><![endif]-->
-<html class="">
+<html lang="en">
 	<head>
 		{include "layouts/head.tpl"}
 		{css}{literal}

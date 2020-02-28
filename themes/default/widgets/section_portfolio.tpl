@@ -4,6 +4,7 @@
 'body' => 'We designed and built a bespoke mobile appliction that improved both efﬁciency and reliability of the weekly recycle bin collection.',
 'link' => 'case-study-bbsp',
 'screenshot' => 'images/work/folio/bbsp-no-border.svg',
+'company' => 'Bristol and Bath Science Park',
 'logo_light' => 'images/temp/slider-nav-image-2-white.png',
 'logo_dark' => 'images/temp/slider-nav-image-2.png'
 ],
@@ -12,6 +13,7 @@
 'body' => 'Renewable engery is awesome :thumsup:',
 'link' => '#',
 'screenshot' => 'images/work/folio/renex.svg',
+'company' => 'Renewable Exchange',
 'logo_light' => 'images/temp/slider-nav-image-3-white.png',
 'logo_dark' => 'images/temp/slider-nav-image-3.png'
 ],
@@ -20,6 +22,7 @@
 'body' => 'Renewable engery is awesome :thumsup:',
 'link' => '#',
 'screenshot' => 'images/work/folio/tedx-no-border.svg',
+'company' => 'TEDxBristol',
 'logo_light' => 'images/temp/slider-nav-image-3-white.png',
 'logo_dark' => 'images/temp/slider-nav-image-3.png'
 ],
@@ -28,6 +31,7 @@
 'body' => 'We designed and built a bespoke mobile appliction that improved both efﬁciency and reliability of the weekly recycle bin collection.',
 'link' => 'case-study-bbsp',
 'screenshot' => 'images/work/folio/bbsp-no-border.svg',
+'company' => 'Bristol and bath science park',
 'logo_light' => 'images/temp/slider-nav-image-3-white.png',
 'logo_dark' => 'images/temp/slider-nav-image-3.png'
 ]
@@ -104,7 +108,7 @@
     {css}{literal}.flickity-enabled{position:relative}.flickity-enabled:focus{outline:0}.flickity-viewport{overflow:hidden;position:relative;height:100%}.flickity-slider{position:absolute;width:100%;height:100%}.flickity-enabled.is-draggable{-webkit-tap-highlight-color:transparent;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.flickity-enabled.is-draggable .flickity-viewport{cursor:move;cursor:-webkit-grab;cursor:grab}.flickity-enabled.is-draggable .flickity-viewport.is-pointer-down{cursor:-webkit-grabbing;cursor:grabbing}.flickity-button{position:absolute;background:hsla(0,0%,100%,.75);border:none;color:#333}.flickity-button:hover{background:#fff;cursor:pointer}.flickity-button:focus{outline:0;box-shadow:0 0 0 5px #19f}.flickity-button:active{opacity:.6}.flickity-button:disabled{opacity:.3;cursor:auto;pointer-events:none}.flickity-button-icon{fill:currentColor}.flickity-prev-next-button{top:50%;width:44px;height:44px;border-radius:50%;transform:translateY(-50%)}.flickity-prev-next-button.previous{left:10px}.flickity-prev-next-button.next{right:10px}.flickity-rtl .flickity-prev-next-button.previous{left:auto;right:10px}.flickity-rtl .flickity-prev-next-button.next{right:auto;left:10px}.flickity-prev-next-button .flickity-button-icon{position:absolute;left:20%;top:20%;width:60%;height:60%}.flickity-page-dots{position:absolute;width:100%;bottom:-25px;padding:0;margin:0;list-style:none;text-align:center;line-height:1}.flickity-rtl .flickity-page-dots{direction:rtl}.flickity-page-dots .dot{display:inline-block;width:10px;height:10px;margin:0 8px;background:#333;border-radius:50%;opacity:.25;cursor:pointer}.flickity-page-dots .dot.is-selected{opacity:1}{/literal}{/css}
     {jsFile src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js" attributes=['async', 'defer']}
 
-	<div class="carousel" data-flickity='{ "wrapAround": true,  "contain": true, "selectedAttraction": 0.1, "friction": 0.8, "prevNextButtons": false, "pageDots": false }'>
+	<div class="carousel" data-flickity='{ "dragThreshold": 10, "wrapAround": true,  "contain": true, "selectedAttraction": 0.1, "friction": 0.8, "prevNextButtons": false, "pageDots": false }'>
         {foreach $folio as $item}
 			<div class="flex flex-col lg:flex-row xl:max-w-screen-hd w-screen py-20">
 				<div class="mb-10 lg:mb-auto portfolio-text text-center lg:text-left my-auto flex-shrink lg:w-1/3 mx-20 ">
@@ -125,9 +129,9 @@
 
 	<div class="glide__bullets flex justify-center sliderNav slide_foot self-end" data-glide-el="controls[nav]">
         {foreach $folio as $item}
-			<button class="outline-none glide__bullet portfolio-btn mx-2" onclick="this.classList.add('portfolio-btn--active')" data-glide-dir="={$item@index}">
-				<img src="{asset path=$item.logo_dark}" alt="" class="portfolio-btn__dark" width="101" height="32">
-				<img src="{asset path=$item.logo_light}" alt="" class="portfolio-btn__light" width="101" height="32">
+			<button role="button" aria-label="Select the {$item.company} Case Study"  class="outline-none glide__bullet portfolio-btn mx-2" onclick="this.classList.add('portfolio-btn--active')" data-glide-dir="={$item@index}">
+				<img src="{asset path=$item.logo_dark}" alt="{$item.company}" class="portfolio-btn__dark" width="101" height="32">
+				<img src="{asset path=$item.logo_light}" alt="{$item.company}" class="portfolio-btn__light" width="101" height="32">
 			</button>
         {/foreach}
 	</div>

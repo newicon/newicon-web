@@ -1,12 +1,16 @@
 let mix = require('laravel-mix');
-const tailwindcss = require('tailwindcss');
+let tailwindcss = require('tailwindcss');
 
 mix.sass('css/_load.scss', 'assets/css/app.css').options({
 	processCssUrls: false,
 	postCss: [ tailwindcss('./tailwind.config.js') ],
 }).sourceMaps();
 
-mix.js('js/main.js', 'assets/js/bundle.mix.js');
+
+// mix.postCss('css/_load.css', 'assets/css/app.css', [
+// 	require('tailwindcss'),
+// ]);
+mix.js('js/main.js', 'assets/js/app.js');
 mix.autoload({  // or Mix.autoload() ?
 	'jquery': ['$', 'window.jQuery', 'jQuery'],
 	'Popper': ['popper.js', 'default']

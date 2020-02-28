@@ -1,14 +1,6 @@
 const plugin = require('tailwindcss/plugin');
 const { colors, cursor, shadows } = require('tailwindcss/defaultTheme');
-const purgeCss = require('@fullhuman/postcss-purgecss')({
-	// Specify the paths to all of the template files in your project
-	content: [
-		'./pages/**/*.tpl',
-		'./widgets/**/*.tpl',
-	],
-	// Include any special characters you're using in this regular expression
-	defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
-})
+const purgeCss = require('@fullhuman/postcss-purgecss');
 module.exports = {
 	prefix: '',
 	theme: {
@@ -22,12 +14,12 @@ module.exports = {
 		},
 		extend: {
 			screens: {
-					"sm": "640px",
-					"md": "768px",
-					"lg": "1024px",
-					"xl": "1280px",
-					"2xl": "1440px",
-					"hd": "1920px",
+				"sm": "640px",
+				"md": "768px",
+				"lg": "1024px",
+				"xl": "1280px",
+				"2xl": "1440px",
+				//"hd": "1920px",
 			},
 			fill: {
 				current: 'currentColor',
@@ -56,7 +48,8 @@ module.exports = {
 					'100': '#eff7fc',
 					'200': '#dce3f3',
 					'300': '#81cbff',
-					'400': '#0096ff',
+					//'400': '#0096ff',
+					'400': '#2b81ff',
 					'500': '#0067FF',
 					'600': '#1254cc',
 					'700': '#1c4ea7',
@@ -103,15 +96,25 @@ module.exports = {
 			})
 		}),
 		require('autoprefixer'),
-		...process.env.NODE_ENV === 'production' ? [purgeCss] : [],
 		require('@tailwindcss/ui'),
-		plugin(function({ addBase, config }) {
-			const styles = config('theme');
-			var json = JSON.stringify(styles, null, '\t');
-			var fs = require('fs');
-			fs.writeFile('styles.json', json, 'utf8', function() {
-				console.log('done')
-			});
-		}),
+		...process.env.NODE_ENV === 'production' ? [purgeCss({
+			// Specify the paths to all of the template files in your project
+			content: [
+				'./pages/home.tpl',
+			],
+			css: ['assets/css/app.css'],
+			defaultExtractor: (content) => { var matches = content.match(/[A-Za-z0-9-_:/]+/g); console.log(matches); return matches || [] },
+			// Include any special characters you're using in this regular expression
+			// defaultExtractor: content => content.match(/[\w-\/:]+(?<!:)/g) || []
+		})] : [],
+
+		// plugin(function({ addBase, config }) {
+		// 	const styles = config('theme');
+		// 	var json = JSON.stringify(styles, null, '\t');
+		// 	var fs = require('fs');
+		// 	fs.writeFile('styles.json', json, 'utf8', function() {
+		// 		console.log('done')
+		// 	});
+		// }),
 	],
 }
