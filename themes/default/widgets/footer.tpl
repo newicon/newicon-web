@@ -37,12 +37,6 @@
 				<li class="mt-2 "><a href="#" class="text-gray-500 no-underline">RemoteOne</a></li>
 				<li class="mt-2 "><a href="#" class="text-gray-500 no-underline">Hotspot</a></li>
 			</ul>
-			<h5 class="pt-2 text-sm leading-5 font-semibold tracking-wider text-gray-600 uppercase">Legal</h5>
-			<ul class="">
-				<li class="mt-2 "><a class="text-gray-700 no-underline font-normal" href="#">Terms of Use</a></li>
-				<li class="mt-2 "><a class="text-gray-700 no-underline font-normal" href="{page_url nice='privacy-policy'}">Privacy Policy</a></li>
-				<li class="mt-2 "><a class="text-gray-700 no-underline font-normal" href="#">Site map</a></li>
-			</ul>
 		</div>
 		<div >
 			<h5 class="pt-2 text-sm leading-5 font-semibold tracking-wider text-gray-600 uppercase">About Newicon</h5>
@@ -64,7 +58,7 @@
 			<a href="{page_url id="home"}" class="mb-2 block">
 				<img src="{asset path='images/logo-secondary@2x.png'}" alt="newicon" width="88" height="15">
 			</a>
-			<p class="mb-2">Designed and built by Newicon using Neon in Bristol </p>
+			<p class="mb-0">Designed and built by Newicon using Neon in Bristol </p>
 		</div>
 
 		<div class="w-4/12">
@@ -104,5 +98,14 @@
 			</div>
 		</div>
 	</div>
-	<div class="text-left text-gray-600 text-sm">&copy; Newicon Ltd. Registered in England and Wales. Company Number: 5904359 | VAT: GB 993768447.</div>
+	<div class="flex justify-between">
+		<div class="text-left text-gray-600 text-sm">&copy; Newicon Ltd. Registered in England and Wales. Company Number: 5904359 | VAT: GB 993768447.</div>
+		<ul class="flex mb-0 text-sm">
+			<li class="ml-2 "><a class="text-gray-700 no-underline font-normal" href="#">Terms of Use</a></li>
+			<li class="ml-2 "><a class="text-gray-700 no-underline font-normal" href="{page_url nice='privacy-policy'}">Privacy Policy</a></li>
+			<li class="ml-2 "><a class="text-gray-700 no-underline font-normal" href="#">Site map</a></li>
+		</ul>
+	</div>
+
+
 </footer>
