@@ -2,5 +2,5 @@
 	<h2 class="text-4xl text-blue-900">{$title}</h2>
 	<h4 class="ni-italic">{$sub}</h4>
 	{if ($hr|default:false)}<hr class="mt-6 border-blue-500 w-6 mx-auto"/>{/if}
-	{if isset($body)}<p class="text-lg text-gray-700 px-4">{$body}</p>{/if}
+	{if isset($body)}<p class="text-lg text-gray-600 px-4">{$body}</p>{/if}
 </header>

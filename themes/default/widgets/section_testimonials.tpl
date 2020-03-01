@@ -22,14 +22,12 @@
 	]}
 
     {css}{literal}.flickity-enabled{position:relative}.flickity-enabled:focus{outline:0}.flickity-viewport{overflow:hidden;position:relative;height:100%}.flickity-slider{position:absolute;width:100%;height:100%}.flickity-enabled.is-draggable{-webkit-tap-highlight-color:transparent;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.flickity-enabled.is-draggable .flickity-viewport{cursor:move;cursor:-webkit-grab;cursor:grab}.flickity-enabled.is-draggable .flickity-viewport.is-pointer-down{cursor:-webkit-grabbing;cursor:grabbing}.flickity-button{position:absolute;background:hsla(0,0%,100%,.75);border:none;color:#333}.flickity-button:hover{background:#fff;cursor:pointer}.flickity-button:focus{outline:0;box-shadow:0 0 0 5px #19f}.flickity-button:active{opacity:.6}.flickity-button:disabled{opacity:.3;cursor:auto;pointer-events:none}.flickity-button-icon{fill:currentColor}.flickity-prev-next-button{top:50%;width:44px;height:44px;border-radius:50%;transform:translateY(-50%)}.flickity-prev-next-button.previous{left:10px}.flickity-prev-next-button.next{right:10px}.flickity-rtl .flickity-prev-next-button.previous{left:auto;right:10px}.flickity-rtl .flickity-prev-next-button.next{right:auto;left:10px}.flickity-prev-next-button .flickity-button-icon{position:absolute;left:20%;top:20%;width:60%;height:60%}.flickity-page-dots{position:absolute;width:100%;bottom:-25px;padding:0;margin:0;list-style:none;text-align:center;line-height:1}.flickity-rtl .flickity-page-dots{direction:rtl}.flickity-page-dots .dot{display:inline-block;width:10px;height:10px;margin:0 8px;background:#333;border-radius:50%;opacity:.25;cursor:pointer}.flickity-page-dots .dot.is-selected{opacity:1}{/literal}{/css}
-    {jsFile src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js" attributes=['async', 'defer']}
+    {jsFile src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js" attributes=['defer'=>'']}
 	{css}
 		.testimonial { position: relative; }
 		.testimonial:before { content: ''; position: absolute; bottom: 100%; left: -33px; width: 77px; height: 51px; margin-bottom: 25px; background-image: url({assets path="/images/temp/quotes-top.png"}); background-size: 77px 51px; }
 		.testimonial:after { content: ''; position: absolute; top: 100%; right: -8px; width: 77px; height: 51px; margin-top: 24px; background-image: url({assets path="/images/temp/quotes-bottom.png"}); background-size: 77px 51px; }
-		.flickity-viewport {
-			transition: height 0.2s;
-		}
+		.flickity-viewport { transition: height 0.2s; }
 	{/css}
 	<div class="mb-20" data-flickity='{ "adaptiveHeight": true, "cellAlign": "left", "wrapAround": true,  "contain": true, "selectedAttraction": 0.1, "friction": 0.8, "prevNextButtons": false, "pageDots": true }'>
         {foreach $tests as $test}

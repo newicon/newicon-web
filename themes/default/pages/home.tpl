@@ -13,16 +13,16 @@
 
 	        {section_portfolio}
 
-			{section_port_big}
+{*			{section_port_big}*}
 
 			{section_trusted_by_brands}
 
 			{section_testimonials}
 
-			{section_contact_footer}
+{*			{section_contact_footer}*}
 {*		{/editor}*}
 
-        {jsFile src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v1.11.1/dist/alpine.js" attributes=['async', 'defer']}
+        {jsFile src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v1.11.1/dist/alpine.js" attributes=['async'=>'', 'defer'=>'']}
 		<div x-data="{ show: false }"
 		     x-show="show"
 		     x-init="localStorage.getItem('hideBanner') === null ? (setTimeout(() => show = true, 500)) : (show = false)"

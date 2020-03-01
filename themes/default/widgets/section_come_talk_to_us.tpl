@@ -22,6 +22,7 @@
 
 					<h4 class="callout_subtitle">From Digital Transformation to Augmented Reality<br>we can help you build your future.</h4>
 					<p>To discuss digital transformation in your business or startup &hellip;</p>
+					{calendly_book_button}
 					<a href="#" class="btn btn-white">Send us a message</a> <a href="" class="btn btn-gray btn-outline" onclick="Calendly.initPopupWidget({ 'url': 'https://calendly.com/mark-probert/30-mins-call' });return false;">Book a call with Mark</a>
 				</div>
 

@@ -66,7 +66,7 @@
 									</div>
 								</div>
 								<div class="form_inner">
-									<div class="g-recaptcha" data-sitekey="6LfR87gUAAAAAIjH66eKulII2h-dhRyJHxIDGilO"></div>
+{*									<div class="g-recaptcha" data-sitekey="6LfR87gUAAAAAIjH66eKulII2h-dhRyJHxIDGilO"></div>*}
 								</div>
 							</div>
 							<div class="form_actions">

@@ -34,12 +34,13 @@ module.exports = {
 				white: colors.white,
 				transparent: colors.transparent,
 				gray: {
+					...colors.gray,
 					'100': '#F7FAFC',
 					'200': '#F3F5F9',
 					'300': '#E2E8F0',
-					'400': '#CBD5E0',
-					'500': '#A0AEC0',
-					'600': '#718096',
+					'400': '#8f9aaf',
+					'500': '#718096',
+					'600': '#5e6a86',
 					'700': '#4F5F84',
 					'800': '#2D3748',
 					'900': '#1A202C'
@@ -85,6 +86,7 @@ module.exports = {
 	variants: {
 		fill:['group-hover', 'hover'],
 		display: ['responsive', 'group-hover'],
+		translate: ['responsive', 'hover', 'focus', 'group-hover'],
 	},
 	plugins: [
 		plugin(function({ addBase, config }) {
@@ -108,13 +110,13 @@ module.exports = {
 			// defaultExtractor: content => content.match(/[\w-\/:]+(?<!:)/g) || []
 		})] : [],
 
-		// plugin(function({ addBase, config }) {
-		// 	const styles = config('theme');
-		// 	var json = JSON.stringify(styles, null, '\t');
-		// 	var fs = require('fs');
-		// 	fs.writeFile('styles.json', json, 'utf8', function() {
-		// 		console.log('done')
-		// 	});
-		// }),
+		plugin(function({ addBase, config }) {
+			const styles = config('theme');
+			var json = JSON.stringify(styles, null, '\t');
+			var fs = require('fs');
+			fs.writeFile('styles.json', json, 'utf8', function() {
+				console.log('done')
+			});
+		}),
 	],
 }

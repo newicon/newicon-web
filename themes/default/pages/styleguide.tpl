@@ -59,7 +59,7 @@
 					<section class="container m-auto max-w-screen-lg px-10">
 						<h2 id="colors">Colors</h2>
 
-                        {foreach ['gray', 'blue', 'purple', 'pink', 'red', 'orange', 'yellow', 'green', 'teal'] as $color}
+                        {foreach ['gray', 'cool-gray', 'blue', 'purple', 'pink', 'red', 'orange', 'yellow', 'green', 'teal'] as $color}
                             {if isset($styles.colors.$color)}
 								<div class="flex">
                                     {foreach $styles.colors.$color as $name => $hex}
@@ -82,9 +82,9 @@
                                     {include file="./_styleguide/_color.tpl" class="bg-transparent" hex=$styles.colors.transparent}
 								</div>
 							</div>
-
-	                        {foreach ['gray', 'blue', 'purple', 'pink', 'red', 'orange', 'yellow', 'green', 'teal'] as $color}
-		                        {if isset($styles.colors.$color)}
+{$styles.colors|dp}
+	                        {foreach ['gray', 'cool-gray', 'blue', 'purple', 'pink', 'red', 'orange', 'yellow', 'green', 'teal'] as $color}
+		                        {if isset($styles.colors[$color])}
 									<div class="w-1/2 px-2 md:w-full relative mt-4">
 										<h3 class="markdown no-toc mb-4 mt-8" id="gray">
 											<a class="anchorjs-link text-gray-500 no-underline" aria-label="Anchor" data-anchorjs-icon="#" href="#gray"></a>

@@ -1,5 +1,5 @@
 // import 'magnific-popup';
-import Vue from 'vue';
+// import Vue from 'vue';
 // import Stylizer from './stylizer.vue';
 // import 'owl.carousel';
 
@@ -12,4 +12,4 @@ import Vue from 'vue';
 
 // import VueAgile from 'vue-agile'
 // Vue.use(VueAgile)
-window.Vue = Vue;
+// window.Vue = Vue;
