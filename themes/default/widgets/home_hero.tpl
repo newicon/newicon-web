@@ -8,7 +8,7 @@
 <div class="intro ptn" >
 	<div class="flex flex-col md:flex-row-reverse md:flex-row">
 		<div class="w-full md:w-3/5">
-			<img src="{assets path='images/telescope-future-static.svg'}" alt="Newicon see the future image" />
+			<img src="{assets path='images/telescope-future-float-only.svg'}" alt="Newicon see the future image" />
 		</div>
 		<div class="px-6 md:p-0 md:w-2/5 max-h-screen flex">
 			<div class="mt-20  self-center lg:pl-4 text-center md:text-left md:mt-0 md:ml-2/12 md:-mr-36">

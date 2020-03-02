@@ -13,7 +13,7 @@ body { @apply font-sans font-light text-gray-900;  min-width: 320px; -webkit-fon
 * { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
 a { color: inherit; text-decoration: underline; }
-a:hover, a[href^="tel"] { text-decoration: none; @apply text-blue-500; }
+a:hover { text-decoration: none; @apply text-blue-500; }
 h1, h2, h3, h4, h5, h6 { margin-bottom: 1.2rem; font-weight: 700; line-height: 1.2; }
 p, ul, ol, dl, hr, table, blockquote { margin-bottom: 1.2rem; }
 li { @apply pb-2; }
@@ -69,6 +69,7 @@ li { @apply pb-2; }
 
 
 @import "tailwindcss/components";
+
 @import "tailwindcss/utilities";
 
 

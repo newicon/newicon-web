@@ -36,6 +36,7 @@
 'logo_dark' => 'images/temp/slider-nav-image-3.png'
 ]
 ]}
+{$id = id()}
 {* inline the core glide styles to avoid further network request *}
 {css id=glide}
 	<style>
@@ -57,37 +58,37 @@
 	.screenshot { transition: all 0.4s ease-out;opacity: 0.5;transform: scale(0.9) rotate(-6deg);transition-property: opacity, transform, shadow; }
 	.screenshot { opacity: 1; transform:scale(0.9) rotate(-3deg); box-shadow:none; }
 	.is-selected .screenshot { opacity: 1; transform:scale(1) rotate(0deg); box-shadow: 35px 70px 125px -25px rgba(80,102,144,.1), 16px 40px 75px -40px rgba(0,0,0,.2), 0px 0px 99px 0px rgba(0, 0, 0, 0.2); }
+	#{$id} .flickity-page-dots { display:block; }
 	@media (min-width: 1024px) {
+		#{$id} .flickity-page-dots { display:none; }
 		.screenshot { opacity: 0; transform:scale(0.9) rotate(-10deg); box-shadow:none; }
 		.is-selected .screenshot { opacity: 1; transform:scale(1) rotate(-3deg); box-shadow: 35px 70px 125px -25px rgba(80,102,144,.1), 16px 40px 75px -40px rgba(0,0,0,.2), 0px 0px 99px 0px rgba(0, 0, 0, 0.2); }
 	}
+
 	</style>
 {/css}
 
-{$id = id()}
-<section id="{$id}" class="section py-24" style="background:linear-gradient(180deg, rgba(243,245,249,1) 0%, rgba(255,255,255,1) 100%)">
+<section id="{$id}" class="py-24" style="background:linear-gradient(180deg, rgba(243,245,249,1) 0%, rgba(255,255,255,1) 100%)">
+
 	{section_header_center title="Our Work" sub="Projects we're proud of :-)"}
 
-	<div data-flick-slides>
+	<div data-flick-slides class="-mt-10">
         {foreach $folio as $item}
-			<div class="flex flex-col lg:flex-row xl:max-w-screen-hd w-screen py-20">
-				<div class="mb-10 lg:mb-auto portfolio-text text-center lg:text-left my-auto flex-shrink lg:w-1/3 mx-10 md:mx-20">
+			<div class="flex flex-col lg:flex-row xl:max-w-screen-2xl w-screen pt-20 lg:pb-24 pb-5">
+				<div class="mt-10 lg:mt-auto lg:mb-auto portfolio-text text-center lg:text-left my-auto flex-shrink lg:w-1/3 mx-10 md:mx-20 order-1 lg:order-0">
 					<b class="text-xs uppercase text-gray-500 font-bold block mb-4">Case Study</b>
 					<h3 class="text-3xl text-blue-900">{$item['title']}</h3>
 					<p class="text-lg text-gray-700">{$item['body']}</p>
-					<a class="hidden lg:inline-block mt-5 px-16 btn btn-outline-primary btn-fx" href="{page_url id=$item['link']}">Explore</a>
+					<a class="mt-5 px-16 btn btn-outline-primary btn-fx" href="{page_url id=$item['link']}">Explore</a>
 				</div>
-				<div class="px-10 flex-grow lg:mr-10 img-skewed img-skewed-left">
+				<div class="px-10 flex-grow lg:mr-10 img-skewed img-skewed-left order-0 lg:order-1 self-center">
 					<img class="screenshot rounded-lg border-white border-8 lg:rotate-3 shadow-2xl img-skewed-item-left img-fluid" src="{asset path=$item['screenshot']}" alt="{$item['title']} Screenshot">
-				</div>
-				<div class="lg:hidden mx-auto mt-14 portfolio-text">
-					<a class="px-16 btn btn-outline-primary btn-fx" href="{page_url id=$item['link']}">Explore </a>
 				</div>
 			</div>
         {/foreach}
 	</div>
 
-	<div class="flex justify-center sliderNav slide_foot self-end" data-flick-nav>
+	<div class="flex justify-center sliderNav slide_foot self-end hidden lg:block text-center" data-flick-nav>
         {foreach $folio as $item}
 			<button role="button" aria-label="Select the {$item.company} Case Study" class=" transition duration-150 outline-none portfolio-btn mx-2 w-24 {if ($item@index == 0)}is-selected{/if}" data-select="{$item@index}" >
 				<img src="{asset path=$item.logo_dark}" alt="{$item.company}" class="portfolio-btn__dark" width="101" height="32">
@@ -110,7 +111,7 @@
 					"selectedAttraction": 0.1,
 					"friction": 0.8,
 					"prevNextButtons": false,
-					"pageDots": false,
+					"pageDots": true,
 				});
 				flick.on('select', function () {
 					$navButtons.removeClass('is-selected');

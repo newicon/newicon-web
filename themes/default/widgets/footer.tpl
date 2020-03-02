@@ -10,38 +10,38 @@
 				<li class="mt-2 "><a href="{page_url id="web-development"}" class="text-gray-700 no-underline font-normal">Web Development</a></li>
 				<li class="mt-2 "><a href="{page_url id="digital-marketing"}" class="text-gray-700 no-underline font-normal">Digital Marketing</a></li>
                 {*						<li><a href="#">SEO & PPC</a></li>*}
-				<li class="mt-2 "><a href="#" class="text-gray-500 no-underline">Hosting</a></li>
-				<li class="mt-2 "><a href="#" class="text-gray-500 no-underline">Support</a></li>
+				<li class="mt-2 "><a href="#" class="text-gray-600 no-underline">Hosting</a></li>
+				<li class="mt-2 "><a href="#" class="text-gray-600 no-underline">Support</a></li>
 			</ul>
 		</div>
 		<div>
 			<h5 class="pt-2 text-sm leading-5 font-semibold tracking-wider text-gray-600 uppercase">Newicon Values</h5>
 			<ul class="footer_links">
-				<li class="mt-2 "><a href="#" class="text-gray-500 no-underline">Team Values</a></li>
-				<li class="mt-2 "><a href="#" class="text-gray-500 no-underline">Brand Values</a></li>
-				<li class="mt-2 "><a href="#" class="text-gray-500 no-underline">Technology Values</a></li>
+				<li class="mt-2 "><a href="#" class="text-gray-600 no-underline">Team Values</a></li>
+				<li class="mt-2 "><a href="#" class="text-gray-600 no-underline">Brand Values</a></li>
+				<li class="mt-2 "><a href="#" class="text-gray-600 no-underline">Technology Values</a></li>
 			</ul>
 			<h5 class="pt-2 text-sm leading-5 font-semibold tracking-wider text-gray-600 uppercase">Newicon Approach</h5>
 			<ul class="footer_links">
-				<li class="mt-2 "><a href="#" class="text-gray-500 no-underline">Our Approach</a></li>
-				<li class="mt-2 "><a href="#" class="text-gray-500 no-underline">Architecture Process</a></li>
-				<li class="mt-2 "><a href="#" class="text-gray-500 no-underline">Software Development Process</a></li>
-				<li class="mt-2 "><a href="#" class="text-gray-500 no-underline">Our Technology</a></li>
+				<li class="mt-2 "><a href="#" class="text-gray-600 no-underline">Our Approach</a></li>
+				<li class="mt-2 "><a href="#" class="text-gray-600 no-underline">Architecture Process</a></li>
+				<li class="mt-2 "><a href="#" class="text-gray-600 no-underline">Software Development Process</a></li>
+				<li class="mt-2 "><a href="#" class="text-gray-600 no-underline">Our Technology</a></li>
 			</ul>
 		</div>
 		<div>
 			<h5 class="pt-2 text-sm leading-5 font-semibold tracking-wider text-gray-600 uppercase">Products</h5>
 			<ul class="footer_links">
-				<li class="mt-2 "><a href="#" class="text-gray-500 no-underline">Innovation Toolkit</a></li>
+				<li class="mt-2 "><a href="#" class="text-gray-600 no-underline">Innovation Toolkit</a></li>
 				<li class="mt-2 "><a href="{page_url id="neon"}" class="text-gray-700 no-underline font-normal">Neon</a></li>
-				<li class="mt-2 "><a href="#" class="text-gray-500 no-underline">RemoteOne</a></li>
-				<li class="mt-2 "><a href="#" class="text-gray-500 no-underline">Hotspot</a></li>
+				<li class="mt-2 "><a href="#" class="text-gray-600 no-underline">RemoteOne</a></li>
+				<li class="mt-2 "><a href="#" class="text-gray-600 no-underline">Hotspot</a></li>
 			</ul>
 		</div>
 		<div >
 			<h5 class="pt-2 text-sm leading-5 font-semibold tracking-wider text-gray-600 uppercase">About Newicon</h5>
 			<ul class="footer_links">
-				<li class="mt-2"><a href="#" class="text-gray-500 no-underline">Mission</a></li>
+				<li class="mt-2"><a href="#" class="text-gray-600 no-underline">Mission</a></li>
 				<li class="mt-2"><a href="{page_url id="culture"}" class="text-gray-700 no-underline font-normal">Culture</a></li>
 				<li class="mt-2"><a href="{page_url id="team"}" class="text-gray-700 no-underline font-normal">Team</a></li>
 				<li class="mt-2"><a href="{page_url id="join"}" class="text-gray-700 no-underline font-normal">Job Opportunities</a></li>
@@ -53,16 +53,15 @@
 		</div>
 	</div>
 
-	<div class="pt-12 flex">
-		<div class="w-8/12 ">
-			<a href="{page_url id="home"}" class="mb-2 block">
+	<div class="pt-12 flex flex-wrap">
+		<div class="w-full text-center md:w-8/12 md:text-left ">
+			<a href="{page_url id="home"}" class="mb-0 md:mb-2 inline-block">
 				<img src="{asset path='images/logo-secondary@2x.png'}" alt="newicon" width="88" height="15">
 			</a>
 			<p class="mb-0">Designed and built by Newicon using Neon in Bristol </p>
 		</div>
-
-		<div class="w-4/12">
-			<div class="flex justify-end">
+		<div class="w-full md:w-4/12 mt-2 md:mt-0">
+			<div class="flex justify-center md:justify-end">
 				<a href="https://www.facebook.com/newiconltd" target="facebook" class="text-gray-400 hover:text-gray-700">
 					<span class="sr-only">Facebook</span>
 					<svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true" role="img">
@@ -98,11 +97,13 @@
 			</div>
 		</div>
 	</div>
-	<div class="flex justify-between">
+	<div class="flex justify-between mt-4 md:mt-0">
 		<div class="text-left text-gray-600 text-sm">&copy; Newicon Ltd. Registered in England and Wales. Company Number: 5904359 | VAT: GB 993768447.</div>
 		<ul class="flex mb-0 text-sm">
 			<li class="ml-2 "><a class="text-gray-700 no-underline font-normal" href="#">Terms of Use</a></li>
+			<li class="ml-2 ">|</li>
 			<li class="ml-2 "><a class="text-gray-700 no-underline font-normal" href="{page_url nice='privacy-policy'}">Privacy Policy</a></li>
+			<li class="ml-2 ">|</li>
 			<li class="ml-2 "><a class="text-gray-700 no-underline font-normal" href="#">Site map</a></li>
 		</ul>
 	</div>

@@ -1,9 +1,7 @@
-<section class="section section-brands">
-	<div class="shell">
-		<header class="section_head">
-			<h2 class="section_title">Trusted by great brands</h2>
-{*			<h4 class="section_subtitle">Organisations using Neon</h4>*}
-		</header>
+<section class="bg-blue-900">
+	<div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 ">
+
+        {section_header_center title="Trusted by great brands" inverse=true}
 
 		{$brands = [
 			['company' => 'Palladium', 'logo' => 'images/temp/brand-logo-1.png'],
@@ -14,16 +12,19 @@
 			['company' => 'SYMEC','logo' => 'images/temp/brand-logo-6.png'],
 			['company' => 'SYMEC','logo' => 'images/temp/brand-logo-7.png'],
 			['company' => 'SYMEC','logo' => 'images/temp/brand-logo-8.png'],
-			['company' => 'SYMEC','logo' => 'images/temp/brand-logo-9.png']
+			['company' => 'SYMEC','logo' => 'images/temp/brand-logo-9.png'],
+	        ['company' => 'SYMEC','logo' => 'images/temp/brand-logo-7.png'],
+	        ['company' => 'SYMEC','logo' => 'images/temp/brand-logo-8.png'],
+	        ['company' => 'SYMEC','logo' => 'images/temp/brand-logo-9.png']
 		]}
 
-		<div class="section_body">
-			<ul class="list-brands">
+		<div class="">
+			<ul class="grid grid-cols-3 block pb-20" style="justify-items: center;">
 				{foreach $brands as $brand}
-				<li>
-					<img src="{assets path=$brand.logo}" alt="{$brand.company}" width="202" height="35">
+				<li class=" h-40 w-48 relative block">
+					<img class="absolute w-full h-full object-contain" src="{assets path=$brand.logo}" alt="{$brand.company}" >
 				</li>
-                {/foreach}
+	            {/foreach}
 			</ul>
 		</div>
 	</div>

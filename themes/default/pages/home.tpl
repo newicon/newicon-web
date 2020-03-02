@@ -19,7 +19,7 @@
 
 			{section_testimonials}
 
-{*			{section_contact_footer}*}
+			{section_contact_footer}
 {*		{/editor}*}
 
         {jsFile src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v1.11.1/dist/alpine.js" attributes=['async'=>'', 'defer'=>'']}

@@ -1,5 +1,5 @@
 const plugin = require('tailwindcss/plugin');
-const { colors, cursor, shadows } = require('tailwindcss/defaultTheme');
+const { colors, cursor, shadows, fontSize } = require('tailwindcss/defaultTheme');
 const purgeCss = require('@fullhuman/postcss-purgecss');
 module.exports = {
 	prefix: '',
@@ -13,6 +13,10 @@ module.exports = {
 			primary: 'var(--primary)',
 		},
 		extend: {
+			"fontSize": {
+				...fontSize,
+				"4xl": "2.5rem",
+			},
 			screens: {
 				"sm": "640px",
 				"md": "768px",
