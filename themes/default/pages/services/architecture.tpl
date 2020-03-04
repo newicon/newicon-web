@@ -19,13 +19,15 @@
 
 		<section class="section section-tertiary section-tertiaryAlt" data-aos="fade" data-aos-duration="900" data-aos-delay="200">
 			<div class="shell">
-				<header class="section_head">
-					<h2 class="section_title">Build a blueprint for your digital project</h2>
-				</header>
+
+                {section_header_center
+                title="Build a blueprint for your digital project"
+	                sub="See it to believe it"
+                body="You wouldn’t build a house without having an architect sign off on the structure, features, design and cost. And when it comes to building software, apps and websites, neither would we. Our Architecture & Design process involves working closely with you to rapidly generate solutions to your challenges. The result? A visual and technical blueprint for your project, including an interactive, fully-functioning prototype. After all, wouldn't you like to experience what a house feels like to live in, before you buy the thing?"}
 
 				<div class="section_body">
 					<div class="section_entry">
-						<p>You wouldn’t build a house without having an architect sign off on the structure, features, design and cost. And when it comes to building software, apps and websites, neither would we. Our Architecture & Design process involves working closely with you to rapidly generate solutions to your challenges. The result? A visual and technical blueprint for your project, including an interactive, fully-functioning prototype. After all, wouldn't you like to experience what a house feels like to live in, before you buy the thing?</p>
+						<p></p>
 					</div>
 
 					<div class="servicesSecondary">
