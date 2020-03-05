@@ -11,10 +11,9 @@
 	        bgTitle=false
 	        subtitle="In a perfect world, how would it work?"
 	        callBtn=true
-	        body="Hello here is something awesome"
         }
 
-		<div class="-mt-20 md:-mt-32" data-aos="fade-up" data-aos-delay="0">
+		<div class="mt-4 lg:-mt-5 xl:-mt-15 mx-4%" data-aos="fade-up" data-aos-delay="0">
 			<img src="{asset path='/images/illustrations/Architecture UX Illustration.svg'}" alt="Architecture user experience design illustration">
 		</div>
 

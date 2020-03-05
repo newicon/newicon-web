@@ -13,19 +13,22 @@
         callBtn=true
         }
 
-		<div class="-mt-20 md:-mt-32" data-aos="fade-up" data-aos-delay="300">
+		<div class="mt-4 lg:-mt-5 xl:-mt-15 mx-4%" data-aos="fade-up" data-aos-delay="300">
 	        <img src="{asset path='images/illustrations/Software Dev Illustration.svg'}" alt="Software development illustration" >
 	    </div>
 
 		<section class="section section-secondary">
 			<div class="shell">
-				<header class="section_head">
-					<h3 class="section_title">Software development starts with the dream.</h3>
-				</header>
+
+                {section_header_center
+	                title="Software development starts with the dream."
+	                hr=true
+	                body="We’ve worked with companies of every shape and size — from one-person start-ups through to multinational corporations. Whether you’re creating a new, disruptive app or a powerful database solution, there’s really only one thing that matters. Defining the right problem for the right person."
+                }
 
 				<div class="section_body">
 					<div class="section_entry">
-						<p>We’ve worked with companies of every shape and size — from one-person start-ups through to multinational corporations. Whether you’re creating a new, disruptive app or a powerful database solution, there’s really only one thing that matters. Defining the right problem for the right person.</p>
+						<p></p>
 					</div>
 
 					<div class="servicesSecondary">

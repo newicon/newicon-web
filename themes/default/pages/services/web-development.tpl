@@ -11,22 +11,17 @@
 	        callBtn=true
         }
 
-		<div class="-mt-20 md:-mt-32" data-aos="fade-up" data-aos-delay="300">
+		<div class="mt-4 lg:-mt-5 xl:-mt-15 mx-4% " data-aos="fade-up" data-aos-delay="300">
 			<img src="{asset path='images/illustrations/Web Dev Illustration.svg'}" alt="Website development illustration">
 		</div>
 
 		<section class="section section-tertiary section-tertiaryAlt">
-			<div class="shell">
-				<header class="section_head">
-					<h2 class="section_title">With the right website, the sky is the limit</h2>
-				</header>
 
-				<div class="section_body">
-					<div class="section_entry">
-						<p>
-							Get it right, and your website will transform the way you work. It'll grab the attention of the people that matter and turn them into paying customers. It'll take your internal processes, and re-shape them into something altogther more streamlined and efficient. How do you get it right? That's where we come in.
-						</p>
-					</div>
+			    {section_header_center
+				    title="With the right website, the sky is the limit"
+				    hr=true
+					body="Get it right, and your website will transform the way you work. It'll grab the attention of the people that matter and turn them into paying customers. It'll take your internal processes, and re-shape them into something altogther more streamlined and efficient. How do you get it right? That's where we come in."
+				}
 
 					<div class="servicesSecondary">
 						<div class="serviceSecondary">
@@ -88,7 +83,6 @@
 						</div>
 					</div>
 				</div>
-			</div>
 		</section>
 
 		<section class="sectionArticles">

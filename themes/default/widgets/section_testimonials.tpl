@@ -38,7 +38,7 @@
 			'name' => 'Terence Frost',
 			'job_title' => 'Design Analysis Group Leader',
 			'company' => 'Airbus',
-			'image' => '',
+			'image' => 'images/testimonials/terence-frost-airbus.jpg',
 			'quote' => 'Newicon is an exemplar of innovation and freethinking.',
 			'detail' => 'Newicon\'s ideas have pioneered web development within my department. Their solutions are innovative and effective producing results above original expectations.'
 		]

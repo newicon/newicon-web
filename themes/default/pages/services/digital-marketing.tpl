@@ -11,7 +11,7 @@
 	        subtitle="Make your mark online with data-driven digital marketing"
 	        callBtn=true
         }
-			<div class="-mt-20 md:-mt-32" data-aos="fade-up" data-aos-delay="300">
+			<div class="mt-4 lg:-mt-5 xl:-mt-15 mx-4%" data-aos="fade-up" data-aos-delay="300">
                 <img src="{asset path='images/illustrations/Digital Marketing Illustration.svg'}" alt="Digital marketing illustration" >
             </div>
 
