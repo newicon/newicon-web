@@ -1,6 +1,6 @@
 <section class="bg-blue-900">
-	<div class="bg-blue-900 max-w-screen-xl mx-auto py-12 lg:py-32 flex px-1/12 flex-wrap ">
-		<header class="w-full md:w-1/3 section_head md:pr-10">
+	<div class="bg-blue-900 max-w-screen-hd mx-auto py-12 lg:py-32 flex px-1/12 flex-wrap ">
+		<header class="w-full md:w-2/5 section_head md:pr-1/12">
 			<div class="section_head-inner">
 				<h1 class="text-white text-5xl font-extrabold">{$title|default:'Get in touch'}</h1>
 				<p class="text-white text-2xl font-normal">For more information about how we can help you:</p>
@@ -16,7 +16,7 @@
 				</ul>
 			</div>
 		</header>
-		<div class="w-full md:w-2/3 pt-4">
+		<div class="w-full md:w-3/5 pt-4">
 			<form action="?" method="post">
 
 				<div class="flex ">
@@ -24,11 +24,11 @@
 						<label class="sr-only" for="contact-name">Name</label>
 						<input type="text"
 						       class="form-inpu rounded-b-none rounded-r-none relative focus:z-10 bg-transparent appearance-none w-full px-5 py-5 border text-white text-xl border-gray-600 leading-6 rounded-md placeholder-gray-500 focus:outline-none focus:placeholder-gray-300 focus:border-blue-500 transition duration-150 ease-in-out"
-						       name="contact[name]" id="contact-name" placeholder="Name*">
+						       name="contact[name]" id="contact-name" placeholder="Name">
 					</div>
 					<div class="w-1/2 -ml-px">
 						<label class="sr-only" for="contact-email">Name</label>
-						<input type="text"
+						<input type="text" required
 						       class="form-inpu rounded-b-none rounded-l-none relative  focus:z-10 bg-transparent appearance-none w-full px-5 py-5 border text-white text-xl border-gray-600 leading-6 rounded-md placeholder-gray-500 focus:outline-none focus:placeholder-gray-300 focus:border-blue-500 transition duration-150 ease-in-out"
 						       name="contact[email]" id="contact-email" placeholder="Email address*">
 					</div>

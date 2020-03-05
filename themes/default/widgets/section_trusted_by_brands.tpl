@@ -19,9 +19,9 @@
 		]}
 
 		<div class="">
-			<ul class="grid grid-cols-3 block pb-20" style="justify-items: center;">
+			<ul class="grid grid-cols-2 md:grid-cols-3 block pb-20" style="justify-items: center;">
 				{foreach $brands as $brand}
-				<li class=" h-40 w-48 relative block">
+				<li class="h-32 w-32 md:h-40 md:w-48 relative block">
 					<img class="absolute w-full h-full object-contain" src="{assets path=$brand.logo}" alt="{$brand.company}" >
 				</li>
 	            {/foreach}

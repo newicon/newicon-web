@@ -55,9 +55,11 @@
 	<div class="mb-20" data-flickity='{ "adaptiveHeight": true, "cellAlign": "left", "wrapAround": true,  "contain": true, "selectedAttraction": 0.1, "friction": 0.8, "prevNextButtons": false, "pageDots": true }'>
         {foreach $tests as $test}
 		<div class="w-11/12 " style="padding-left:4%">
-			<div class="flex-col my-10 flex md:flex-row shadow-lg rounded-lg" itemscope itemtype="http://schema.org/Quotation">
+			<div class="flex-col my-10 flex md:flex-row shadow-lg rounded-lg" itemscope itemtype="http://schema.org/Review">
 				{if (isset($test.youtube))}
 				<a href="{$test.youtube}"
+				   title="{$test.name}, {$test.company} testimonial video"
+				   aria-label="{$test.name}, {$test.company} testimonial video"
 				   target="youtube"
 				   class="block relative group video h-64 rounded-t-lg md:rounded-l-lg md:rounded-r-none md:w-1/2 md:h-auto object-cover bg-cover bg-center cursor-pointer"
 				   style="background-image: url('{asset path=$test.image}');"
@@ -69,16 +71,17 @@
 					</div>
 				</a>
 				{else}
-					<div class="block relative group video h-64 rounded-t-lg md:rounded-l-lg md:rounded-r-none md:w-1/2 md:h-auto object-cover bg-cover bg-center" style="background-image: url('{asset path=$test.image}');"></div>
+					<div title="{$test.name}, {$test.company}" role="img" class="block relative group video h-64 rounded-t-lg md:rounded-l-lg md:rounded-r-none md:w-1/2 md:h-auto object-cover bg-cover bg-center"
+					     style="background-image: url('{asset path=$test.image}');"></div>
 				{/if}
 
 				<div class="flex-shrink mx-auto flex-shrink mx-auto pr-10 pl-16 pb-20 pt-28 md:w-1/2">
 					<blockquote itemprop="comment" class="testimonial ">
 						<p class="ni-italic text-2xl md:text-3xl lg:text-4xl  text-blue-900">{$test.quote}</p>
                         {if isset($test.detail)}
-							<p class="text-gray-700 font-normal" itemprop="comment">{$test.detail}</p>
+							<p class="text-gray-700 font-normal" itemprop="reviewBody">{$test.detail}</p>
                         {/if}
-						<footer  itemprop="author">
+						<footer itemprop="author">
 							<b class="font-bold text-blue-900" itemprop="name">{$test.name}</b><br/>
                             {if isset($test.job_title)}
 								<b class="text-gray-700 font-normal" itemprop="jobTitle">{$test.job_title}</b>

@@ -11,11 +11,14 @@
 	        subtitle="Make your mark online with data-driven digital marketing"
 	        callBtn=true
         }
-			<div id="digital-marketing-intro" class="servicesIntroImage" data-aos="fade-up" data-aos-delay="300">
+			<div class="-mt-20 md:-mt-32" data-aos="fade-up" data-aos-delay="300">
                 <img src="{asset path='images/illustrations/Digital Marketing Illustration.svg'}" alt="Digital marketing illustration" >
             </div>
 
 			<section class="section section-tertiary block">
+				{section_header_center
+					title="Position yourself for success in a digital world"
+					body="Our team of developers, designers and digital marketers are uniquely placed to offer an integrated service — covering your product or service from its creation and development, right through to its online promotion. Our Digital Marketing service encompasses search engine optimisation (SEO), pay-per-click ads (PPC), content marketing and social media management. It focuses on building qualified leads, achieving conversions and bringing you that all important ROI."}
 				<div class="shell block_middle">
 					<header class="section_head">
 						<h2 class="section_title">Position yourself for success in a digital world</h2>
@@ -24,7 +27,7 @@
 					<div class="section_body">
 						<div class="section_entry">
 							<p>
-								Our team of developers, designers and digital marketers are uniquely placed to offer an integrated service — covering your product or service from its creation and development, right through to its online promotion. Our Digital Marketing service encompasses search engine optimisation (SEO), pay-per-click ads (PPC), content marketing and social media management. It focuses on building qualified leads, achieving conversions and bringing you that all important ROI.
+
 							</p>
 						</div>
 

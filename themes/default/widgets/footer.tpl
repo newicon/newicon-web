@@ -1,10 +1,10 @@
-<footer class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+<footer class="max-w-screen-hd mx-auto py-12 px-1/12 lg:py-16">
 	<div class="grid gap-8 grid-cols-2 md:grid-cols-4 ">
 		<div>
 			<h5 class="pt-2 text-sm leading-5 font-semibold tracking-wider text-gray-600 uppercase">Services</h5>
 			<ul class="" >
 				<li class="mt-2 "><a href="{page_url id="architecture"}" class="text-gray-700 no-underline font-normal">Architecture & UX Design</a></li>
-				<li class="mt-2 "><a href="#" class="text-gray-500 no-underline ">Workshops</a></li>
+				<li class="mt-2 "><a href="#" class="text-gray-600 no-underline ">Workshops</a></li>
 				<li class="mt-2 "><a href="{page_url id="software"}" class="text-gray-700 no-underline font-normal">Software Development</a></li>
 				<li class="mt-2 "><a href="#" class="text-gray-700 no-underline">Mobile Development</a></li>
 				<li class="mt-2 "><a href="{page_url id="web-development"}" class="text-gray-700 no-underline font-normal">Web Development</a></li>

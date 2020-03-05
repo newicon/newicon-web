@@ -1,6 +1,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta charset="utf-8" />
-<title>{$page.title}</title>
+<title>{$page.title|default:'Newicon Software Development'}</title>
 <meta name="keywords" content="{$page.keywords}" />
 <meta name="description" content="{$page.description|default:'Newicon deliver software design an development services'}" />
 <meta content="{$page.og_title|default:$page.title}" property="og:title">

@@ -74,7 +74,7 @@
 
 	<div data-flick-slides class="-mt-10">
         {foreach $folio as $item}
-			<div class="flex flex-col lg:flex-row xl:max-w-screen-2xl w-screen pt-20 lg:pb-24 pb-5">
+			<div class="flex flex-col lg:flex-row xl:max-w-screen-2xl w-screen pt-15 lg:pt-20 lg:pb-24 pb-5">
 				<div class="mt-10 lg:mt-auto lg:mb-auto portfolio-text text-center lg:text-left my-auto flex-shrink lg:w-1/3 mx-10 md:mx-20 order-1 lg:order-0">
 					<b class="text-xs uppercase text-gray-500 font-bold block mb-4">Case Study</b>
 					<h3 class="text-3xl text-blue-900">{$item['title']}</h3>
@@ -112,6 +112,7 @@
 					"friction": 0.8,
 					"prevNextButtons": false,
 					"pageDots": true,
+					adaptiveHeight: true,
 				});
 				flick.on('select', function () {
 					$navButtons.removeClass('is-selected');
