@@ -17,144 +17,122 @@
 			<img src="{asset path='/images/illustrations/Architecture UX Illustration.svg'}" alt="Architecture user experience design illustration">
 		</div>
 
-		<section class="section section-tertiary section-tertiaryAlt" data-aos="fade" data-aos-duration="900" data-aos-delay="200">
-			{section_header_center
-				title="Build a blueprint for your digital project"
-				sub="See it to believe it"
-				body="You wouldn’t build a house without having an architect sign off on the structure, features, design and cost. And when it comes to building software, apps and websites, neither would we. Our Architecture & Design process involves working closely with you to rapidly generate solutions to your challenges. The result? A visual and technical blueprint for your project, including an interactive, fully-functioning prototype. After all, wouldn't you like to experience what a house feels like to live in, before you buy the thing?"}
+		<section class="min-h-screen flex mb-20" data-aos="fade" data-aos-duration="900" data-aos-delay="200">
+			<div class="self-center">
+				{section_header_center
+					title="Build a blueprint for your digital project"
+					hr=true
+					body="You wouldn’t build a house without having an architect sign off on the structure, features, design and cost. And when it comes to building software, apps and websites, neither would we. Our Architecture & Design process involves working closely with you to rapidly generate solutions to your challenges. The result? A visual and technical blueprint for your project, including an interactive, fully-functioning prototype. After all, wouldn't you like to experience what a house feels like to live in, before you buy the thing?"}
 
-				<div class="section_body">
-					<div class="section_entry">
-						<p></p>
+				{include file='../../widgets/feature_grid.tpl' features=[
+					[
+						'icon' => 'images/icons/mid/clickable-prototype.svg',
+						'title' => 'Rapid prototyping',
+						'sub' => 'Reducing your risk',
+						'body' => 'Because we rapidly prototype your project, you quickly get a hands-on experience of your digital product.'
+					],
+					[
+                        'icon' => 'images/icons/mid/designed-for-your-user.svg',
+                        'title' => 'Designed for real People',
+						'sub' => 'People over technology',
+						'body' => 'Wihtout people technology is irrelevant. Our UX design team work hard to create products that stick in people’s minds. Easy to use, beautiful to look at.'
+					],
+					[
+						'icon' => '/images/icons/mid/reliable-results.svg',
+						'title' => 'Real, reliable results',
+						'sub' => 'Instant stakeholder feedback',
+						'body' => 'With our visual, usable prototypes, it’s easy to get everyone on the same page and ready to move forward.'
+					]
+				]}
+{*				<img src="{asset path='/images/temp/service-image-text.png'}" alt="" width="266" height="157">*}
+			</div>
+		</section>
+
+
+
+		<section class="px-6% pt-40" style="background:#F3F5F9;">
+
+			<div class="grid grid-cols-2 min-h-screen">
+				<div class=""   >
+					<img class="shadow-xl w-full lg:transform lg:translate-x-5" src="{asset path='/images/temp/article-image-1.jpg'}" alt="" class="w-full">
+				</div>
+				<div>
+					<div class="px-2/12 py-20 shadow-2xl bg-white rounded-md ld:transform lg:-translate-x-5 lg:-translate-y-10 ">
+						<h2 class="text-5xl text-blue-900 pr-10">Turn your ideas into a reality</h2>
+						<h6 class="pl-15 pt-0 text-blue-500 uppercase font-extrabold text-sm">Workshops</h6>
+						<p class="pl-15 text-gray-700 text-justify">Workshops are at the heart of our Architecture & Design process. We get up on a white board with you and think visually about what you're trying to achive. We scribble. We explore. We create. From there, we design and build your prototype.</p>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="relative min-h-screen">
+				<div class="absolute left-0 z-10 mt-20 shadow-xl" style="width:52.5%;">
+					<img src="{asset path='/images/temp/article-image-1.jpg'}" alt="" class="w-full">
+				</div>
+				<div class="relative z-20 px-6% py-1/12 shadow-2xl bg-white rounded-md" style="width:52.5%; margin-left:47.5%">
+					<h2 class="text-5xl text-blue-900 pr-10">Turn your ideas into a reality</h2>
+					<h6 class="pl-15 pt-0 text-blue-500 uppercase font-extrabold text-sm">Workshops</h6>
+					<p class="pl-15 text-gray-700 text-justify">Workshops are at the heart of our Architecture & Design process. We get up on a white board with you and think visually about what you're trying to achive. We scribble. We explore. We create. From there, we design and build your prototype.</p>
+				</div>
+			</div>
+
+			<div class="relative min-h-screen">
+				<div class="absolute right-0 z-10 mt-20">
+					<img src="{asset path='/images/temp/article-image-1.jpg'}" alt="" width="675" height="457">
+				</div>
+				<div class="relative z-20 mr-6/12 w-6/12 pl-20 pr-20 py-20 shadow-lg bg-white rounded-md">
+					<h2 class="text-5xl text-blue-900 pr-10">Turn your ideas into a reality</h2>
+
+					<div class="pl-15 pt-0">
+						<h6 class="text-blue-500 uppercase font-extrabold text-sm">Workshops</h6>
+						<p class="text-gray-700 text-justify">Workshops are at the heart of our Architecture & Design process. We get up on a white board with you and think visually about what you're trying to achive. We scribble. We explore. We create. From there, we design and build your prototype.</p>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="articleSmall">
+				<div class="article_inner">
+					<div class="article_image">
+						<img src="{asset path='/images/temp/article-image-2.jpg'}" alt="" width="675" height="457">
 					</div>
 
-					<div class="servicesSecondary">
-						<div class="serviceSecondary">
-							<div class="service_inner">
-								<div class="service_image">
-									<img src="{asset path='/images/temp/service-image-5.png'}" alt="" width="132" height="106">
-								</div>
+					<div class="article_content">
+						<h2>Rapid progress &amp; visual results</h2>
 
-								<div class="service_content">
-									<h3>Rapid prototyping</h3>
+						<div class="article_entry">
+							<h6>Prototypes</h6>
 
-									<h5>Reducing your risk</h5>
-
-									<p>
-										Because we rapidly prototype your project, you quickly get a hands-on experience of your digital product.
-									</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="serviceSecondary">
-							<div class="service_inner">
-								<div class="service_image">
-									<img src="assets/images/temp/service-image-6.png" alt="" width="132" height="106">
-								</div>
-
-								<div class="service_content">
-									<h3>Technology for People</h3>
-
-									<h5>People over technology</h5>
-
-									<p>
-										Our UX design team work hard to create products that stick in people’s minds. Easy to use, beautiful to look at.
-									</p>
-								</div>
-
-								<div class="service_imageText">
-									<img src="{asset path='/images/temp/service-image-text.png'}" alt="" width="266" height="157">
-								</div>
-							</div>
-						</div>
-
-						<div class="serviceSecondary">
-							<div class="service_inner">
-								<div class="service_image">
-									<img src="{asset path='/images/temp/service-image-7.png'}" alt="" width="132" height="106">
-								</div>
-
-								<div class="service_content">
-									<h3>Real, reliable results</h3>
-
-									<h5>Instant stakeholder feedback</h5>
-
-									<p>
-										With our visual, usable prototypes, it’s easy to get everyone on the same page and ready to move forward.
-									</p>
-								</div>
-							</div>
+							<p>
+								As digital engineers, we know that prototypes are invaluable to any software or web project. Prototypes are a quick way to get the product in your hands, offering you a true feel for how it'll function. Not only does this mean quicker sign-off from important stakeholders, it also means we can iron out any issues before a single line of code is written.
+							</p>
 						</div>
 					</div>
 				</div>
-		</section>
+			</div>
 
-		<section class="sectionArticles">
-			<div class="shell">
-				<div class="sectionContent">
-					<div class="articlesSmall">
-						<div class="articleSmall">
-							<div class="article_inner">
-								<div class="article_image">
-									<img src="{asset path='/images/temp/article-image-1.jpg'}" alt="" width="675" height="457">
-								</div>
+			<div class="articleSmall">
+				<div class="article_inner">
+					<div class="article_image">
+						<img src="{asset path='/images/temp/article-image-3.jpg'}" alt="" width="675" height="457">
+					</div>
 
-								<div class="article_content">
-									<h2>Turn your ideas into a reality</h2>
+					<div class="article_content">
+						<h2>Test real results with real users</h2>
 
-									<div class="article_entry">
-										<h6>Workshops</h6>
+						<div class="article_entry">
+							<h6>User experience Design</h6>
 
-										<p>
-											Workshops are at the heart of our Architecture & Design process. We get up on a white board with you and think visually about what you're trying to achive. We scribble. We explore. We create. From there, we design and build your prototype.
-										</p>
-									</div>
-								</div>
-							</div>
+							<p>
+								Great UX design captures the attention, sticks in the memory, and compels users to take action. It results in products that are so intuitive, that users don't give a second thought to the design. We create digital products that do all that, and more.
+							</p>
 						</div>
+					</div>
+				</div>
+			</div>
 
-						<div class="articleSmall">
-							<div class="article_inner">
-								<div class="article_image">
-									<img src="{asset path='/images/temp/article-image-2.jpg'}" alt="" width="675" height="457">
-								</div>
-
-								<div class="article_content">
-									<h2>Rapid progress &amp; visual results</h2>
-
-									<div class="article_entry">
-										<h6>Prototypes</h6>
-
-										<p>
-											As digital engineers, we know that prototypes are invaluable to any software or web project. Prototypes are a quick way to get the product in your hands, offering you a true feel for how it'll function. Not only does this mean quicker sign-off from important stakeholders, it also means we can iron out any issues before a single line of code is written.
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="articleSmall">
-							<div class="article_inner">
-								<div class="article_image">
-									<img src="{asset path='/images/temp/article-image-3.jpg'}" alt="" width="675" height="457">
-								</div>
-
-								<div class="article_content">
-									<h2>Test real results with real users</h2>
-
-									<div class="article_entry">
-										<h6>User experience Design</h6>
-
-										<p>
-											Great UX design captures the attention, sticks in the memory, and compels users to take action. It results in products that are so intuitive, that users don't give a second thought to the design. We create digital products that do all that, and more.
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="articleSmall">
+			<div class="articleSmall">
 							<div class="article_inner">
 								<div class="article_image">
 									<img src="{asset path='/images/temp/article-image-4.jpg'}" alt="" width="675" height="457">
@@ -173,9 +151,6 @@
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
-			</div>
 		</section>
 
 		<section class="sectionSecondary sectionSecondary">
