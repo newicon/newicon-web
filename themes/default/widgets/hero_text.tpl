@@ -6,7 +6,7 @@
 			{if isset($body)}<p class="text-lg md:text-xl text-gray-800">{$body}</p>{/if}
 			{if isset($callBtn) && ($callBtn==true)}
 				<div class="mt-10">
-					<button href="#" class="btn btn-primary btn-fx px-10 relative z-10">Give us a call</button>
+					<button href="#" class="btn btn-primary btn-lg btn-fx px-10 relative z-10">Give us a call</button>
 				</div>
 			{/if}
 		</div>

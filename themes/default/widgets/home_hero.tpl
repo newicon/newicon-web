@@ -15,8 +15,8 @@
 				<h1 class="text-5xl font-bold text-blue-900 md:text-4xl lg:text-5xl xl:text-6xl  ">Invent a new tomorrow.</h1>
 				<p class="text-gray-700 font-medium text-xl">Design thinking. Software engineering. <br/> Turning ideas into reality</p>
 				<div class="intro_actions mt-16">
-					<a  class="btn btn-primary btn-shadow btn-fx" href="#">Start a conversation</a>
-					<a  class="ml-2 btn btn-outline-primary hidden lg:inline-block btn-fx" href="{page_url nice='work'}">See our work</a>
+					<a  class="btn btn-primary btn-lg btn-shadow btn-fx" href="#">Start a conversation</a>
+					<a  class="ml-2 btn btn-outline-primary btn-lg hidden lg:inline-block btn-fx" href="{page_url nice='work'}">See our work</a>
 				</div>
 			</div>
 		</div>

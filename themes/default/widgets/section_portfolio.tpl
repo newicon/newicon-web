@@ -79,7 +79,7 @@
 					<b class="text-xs uppercase text-gray-500 font-bold block mb-4">Case Study</b>
 					<h3 class="text-3xl text-blue-900">{$item['title']}</h3>
 					<p class="text-lg text-gray-700">{$item['body']}</p>
-					<a class="mt-5 px-16 btn btn-outline-primary btn-fx" href="{page_url id=$item['link']}">Explore</a>
+					<a class="mt-5 px-16 btn btn-outline-primary btn-fx btn-lg" href="{page_url id=$item['link']}">Explore</a>
 				</div>
 				<div class="px-10 flex-grow lg:mr-10 img-skewed img-skewed-left order-0 lg:order-1 self-center">
 					<img class="screenshot rounded-lg border-white border-8 lg:rotate-3 shadow-2xl img-skewed-item-left img-fluid" src="{asset path=$item['screenshot']}" alt="{$item['title']} Screenshot">

@@ -23,20 +23,20 @@
 					<div class="w-1/2">
 						<label class="sr-only" for="contact-name">Name</label>
 						<input type="text"
-						       class="form-inpu rounded-b-none rounded-r-none relative focus:z-10 bg-transparent appearance-none w-full px-5 py-5 border text-white text-xl border-gray-600 leading-6 rounded-md placeholder-gray-500 focus:outline-none focus:placeholder-gray-300 focus:border-blue-500 transition duration-150 ease-in-out"
+						       class="form-input rounded-b-none rounded-r-none relative focus:z-10 bg-transparent appearance-none w-full px-5 py-5 border text-white text-xl border-gray-600 leading-6 rounded-md placeholder-gray-500 focus:outline-none focus:placeholder-gray-300 focus:border-blue-500 transition duration-150 ease-in-out"
 						       name="contact[name]" id="contact-name" placeholder="Name">
 					</div>
 					<div class="w-1/2 -ml-px">
 						<label class="sr-only" for="contact-email">Name</label>
 						<input type="text" required
-						       class="form-inpu rounded-b-none rounded-l-none relative  focus:z-10 bg-transparent appearance-none w-full px-5 py-5 border text-white text-xl border-gray-600 leading-6 rounded-md placeholder-gray-500 focus:outline-none focus:placeholder-gray-300 focus:border-blue-500 transition duration-150 ease-in-out"
+						       class="form-input rounded-b-none rounded-l-none relative  focus:z-10 bg-transparent appearance-none w-full px-5 py-5 border text-white text-xl border-gray-600 leading-6 rounded-md placeholder-gray-500 focus:outline-none focus:placeholder-gray-300 focus:border-blue-500 transition duration-150 ease-in-out"
 						       name="contact[email]" id="contact-email" placeholder="Email address*">
 					</div>
 				</div>
 				<div class="w-full -mt-px pr-px">
 					<label class="sr-only" for="contact-message">Name</label>
 					<textarea oninput="autoExpand(this)"
-					          class="form-inpu h-48 pr-px rounded-t-none relative focus:z-10 bg-transparent appearance-none w-full px-5 py-5 border text-white text-xl border-gray-600 leading-6 rounded-md placeholder-gray-500 focus:outline-none focus:placeholder-gray-300 focus:border-blue-500 transition duration-150 ease-in-out"
+					          class="form-input h-48 pr-px rounded-t-none relative focus:z-10 bg-transparent appearance-none w-full px-5 py-5 border text-white text-xl border-gray-600 leading-6 rounded-md placeholder-gray-500 focus:outline-none focus:placeholder-gray-300 focus:border-blue-500 transition duration-150 ease-in-out"
 					          name="contact[message]" id="contact-message" placeholder="Tell us about your project"></textarea>
 					{js}
 						var autoExpand = function (field) {

@@ -85,11 +85,16 @@ module.exports = {
 			},
 			screens: {
 				"sm": "640px",
-				"md": "768px",
-				"lg": "1024px",
-				"xl": "1280px",
-				"2xl": "1440px",
+				"md": "768px", // 640 + 128
+				"lg": "1024px", // 768 + 256
+				"xl": "1280px", // 1024 + 256
+				"2xl": "1536px", // 1280 + 256
 				"hd": "1920px",
+
+				sm: '640px',
+				md: '1024px', // 768 + 256
+				lg: '1280px', // 1024 + 256
+				xl: '1536px', // 1280 + 256
 			},
 			fill: {
 				current: 'currentColor',
@@ -157,6 +162,7 @@ module.exports = {
 		fill:['group-hover', 'hover'],
 		display: ['responsive', 'group-hover'],
 		translate: ['responsive', 'hover', 'focus', 'group-hover'],
+		borderColor: ['responsive', 'hover', 'focus', 'active'],
 	},
 	plugins: [
 		plugin(function({ addBase, config }) {

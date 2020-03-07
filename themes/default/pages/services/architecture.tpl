@@ -52,28 +52,86 @@
 
 		<section class="px-6% pt-40" style="background:#F3F5F9;">
 
-			<div class="grid grid-cols-2 min-h-screen">
-				<div class=""   >
-					<img class="shadow-xl w-full lg:transform lg:translate-x-5" src="{asset path='/images/temp/article-image-1.jpg'}" alt="" class="w-full">
-				</div>
-				<div>
-					<div class="px-2/12 py-20 shadow-2xl bg-white rounded-md ld:transform lg:-translate-x-5 lg:-translate-y-10 ">
-						<h2 class="text-5xl text-blue-900 pr-10">Turn your ideas into a reality</h2>
-						<h6 class="pl-15 pt-0 text-blue-500 uppercase font-extrabold text-sm">Workshops</h6>
-						<p class="pl-15 text-gray-700 text-justify">Workshops are at the heart of our Architecture & Design process. We get up on a white board with you and think visually about what you're trying to achive. We scribble. We explore. We create. From there, we design and build your prototype.</p>
+			{$featureCards = [
+				[
+					'image' => 'https://images.unsplash.com/photo-1583475969042-4cd769e2999b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80',
+					'title' => 'Turn your ideas into a reality',
+					'label' => 'Workshops',
+					'body' => 'Workshops are at the heart of our Architecture & Design process. We get up on a white board with you and think visually about what you\'re trying to achive. We scribble. We explore. We create. From there, we design and build your prototype.'
+				],
+				[
+					'image' => 'https://images.unsplash.com/photo-1583475969042-4cd769e2999b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80',
+					'title' => 'Rapid progress & visual results',
+					'label' => 'Prototypes',
+					'body' => 'As digital engineers, we know that prototypes are invaluable to any software or web project. Prototypes are a quick way to get the product in your hands, offering you a true feel for how it\'ll function. Not only does this mean quicker sign-off from important stakeholders, it also means we can iron out any issues before a single line of code is written.'
+				],
+				[
+					'image' => 'https://images.unsplash.com/photo-1583475969042-4cd769e2999b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80',
+					'title' => 'A people-centric design process',
+					'label' => 'User experience Design',
+					'body' => 'Great UX design captures the attention, sticks in the memory, and compels users to take action. It results in products that are so intuitive that users don\'t give a second thought to the design. We create digital products that do all that, and more.'
+				],
+				[
+					'image' => 'https://images.unsplash.com/photo-1583475969042-4cd769e2999b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80',
+					'title' => 'Beautiful visual design',
+					'label' => 'User Interface Design',
+					'body' => 'We design user interfaces that are as intuitive as they are beautiful. And we think both are equally important. Ease-of-use is integral to a smooth user experience, while carefully-crafted aesthetics make your project stand-out from the crowd and stick in the mind.'
+				]
+            ]}
+
+			{foreach $featureCards as $card}
+				<div class="my-40">
+					<div class="grid grid-cols-2 shadow-2xl rounded-md rounded-lg overflow-hidden bg-white">
+						<div class="{cycle values="order-0,order-1"}">
+							<img class="w-full h-full object-cover" src="{asset path=$card.image}" alt="{$card.title} image" class="w-full">
+						</div>
+						<div class="flex">
+							<div class="px-2/12 py-20 bg-white self-center">
+								<h2 class="text-5xl text-blue-900 pr-10">{$card.title}</h2>
+								<h6 class="pl-15 pt-0 text-blue-500 uppercase font-extrabold text-sm">{$card.label}</h6>
+								<p class="pl-15 text-gray-700 text-justify">{$card.body}</p>
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>
+			{/foreach}
 
 
-			<div class="relative min-h-screen">
-				<div class="absolute left-0 z-10 mt-20 shadow-xl" style="width:52.5%;">
-					<img src="{asset path='/images/temp/article-image-1.jpg'}" alt="" class="w-full">
+
+
+				<div class="my-40">
+					<div class=" shadow-2xl rounded-md rounded-lg overflow-hidden bg-white">
+                        {foreach $featureCards as $card}
+	                        <div class="grid grid-cols-2">
+								<img class="w-full h-full object-cover {cycle values="order-0,order-1"}" src="{asset path=$card.image}" alt="{$card.title} image" class="w-full">
+								<div class="flex">
+									<div class="px-2/12 py-20 bg-white self-center">
+										<h2 class="text-5xl text-blue-900 pr-10">{$card.title}</h2>
+										<h6 class="pl-15 pt-0 text-blue-500 uppercase font-extrabold text-sm">{$card.label}</h6>
+										<p class="pl-15 text-gray-700 text-justify">{$card.body}</p>
+									</div>
+								</div>
+	                        </div>
+                        {/foreach}
+					</div>
 				</div>
-				<div class="relative z-20 px-6% py-1/12 shadow-2xl bg-white rounded-md" style="width:52.5%; margin-left:47.5%">
-					<h2 class="text-5xl text-blue-900 pr-10">Turn your ideas into a reality</h2>
-					<h6 class="pl-15 pt-0 text-blue-500 uppercase font-extrabold text-sm">Workshops</h6>
-					<p class="pl-15 text-gray-700 text-justify">Workshops are at the heart of our Architecture & Design process. We get up on a white board with you and think visually about what you're trying to achive. We scribble. We explore. We create. From there, we design and build your prototype.</p>
+
+
+
+
+
+			<div class="min-h-screen">
+				<div class="relative grid-cols-2 lg:display-block shadow-2xl rounded-lg lg:shadow-none overflow-hidden bg-white  lg:bg-transparent ">
+					<div class="lg:absolute lg:left-0 lg:z-10 lg:mt-20 lg:shadow-xl" style="width:52.5%;">
+						<img src="{asset path='https://images.unsplash.com/photo-1583475969042-4cd769e2999b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80'}" alt="" class="w-full h-full object-cover rounded-md">
+					</div>
+					<div class="relative z-20 px-6% py-1/12 shadow-2xl bg-white rounded-md flex" style="width:52.5%; margin-left:47.5%">
+						<div class="self-center">
+							<h2 class="text-5xl text-blue-900 pr-10">Turn your ideas into a reality</h2>
+							<h6 class="pl-15 pt-0 text-blue-500 uppercase font-extrabold text-sm">Workshops</h6>
+							<p class="pl-15 text-gray-700 text-justify">Workshops are at the heart of our Architecture & Design process. We get up on a white board with you and think visually about what you're trying to achive. We scribble. We explore. We create. From there, we design and build your prototype.</p>
+						</div>
+					</div>
 				</div>
 			</div>
 
@@ -83,7 +141,6 @@
 				</div>
 				<div class="relative z-20 mr-6/12 w-6/12 pl-20 pr-20 py-20 shadow-lg bg-white rounded-md">
 					<h2 class="text-5xl text-blue-900 pr-10">Turn your ideas into a reality</h2>
-
 					<div class="pl-15 pt-0">
 						<h6 class="text-blue-500 uppercase font-extrabold text-sm">Workshops</h6>
 						<p class="text-gray-700 text-justify">Workshops are at the heart of our Architecture & Design process. We get up on a white board with you and think visually about what you're trying to achive. We scribble. We explore. We create. From there, we design and build your prototype.</p>
@@ -91,66 +148,6 @@
 				</div>
 			</div>
 
-
-			<div class="articleSmall">
-				<div class="article_inner">
-					<div class="article_image">
-						<img src="{asset path='/images/temp/article-image-2.jpg'}" alt="" width="675" height="457">
-					</div>
-
-					<div class="article_content">
-						<h2>Rapid progress &amp; visual results</h2>
-
-						<div class="article_entry">
-							<h6>Prototypes</h6>
-
-							<p>
-								As digital engineers, we know that prototypes are invaluable to any software or web project. Prototypes are a quick way to get the product in your hands, offering you a true feel for how it'll function. Not only does this mean quicker sign-off from important stakeholders, it also means we can iron out any issues before a single line of code is written.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="articleSmall">
-				<div class="article_inner">
-					<div class="article_image">
-						<img src="{asset path='/images/temp/article-image-3.jpg'}" alt="" width="675" height="457">
-					</div>
-
-					<div class="article_content">
-						<h2>Test real results with real users</h2>
-
-						<div class="article_entry">
-							<h6>User experience Design</h6>
-
-							<p>
-								Great UX design captures the attention, sticks in the memory, and compels users to take action. It results in products that are so intuitive, that users don't give a second thought to the design. We create digital products that do all that, and more.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="articleSmall">
-							<div class="article_inner">
-								<div class="article_image">
-									<img src="{asset path='/images/temp/article-image-4.jpg'}" alt="" width="675" height="457">
-								</div>
-
-								<div class="article_content">
-									<h2>Beautiful visual design </h2>
-
-									<div class="article_entry">
-										<h6>User Interface Design</h6>
-
-										<p>
-											We design user interfaces that are as intuitive as they are beautiful. And we think both are equally important. Ease-of-use is integral to a smooth user experience, while carefully-crafted aesthetics make your project stand-out from the crowd and stick in the mind.
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
 		</section>
 
 		<section class="sectionSecondary sectionSecondary">

@@ -82,7 +82,6 @@
                                     {include file="./_styleguide/_color.tpl" class="bg-transparent" hex=$styles.colors.transparent}
 								</div>
 							</div>
-{$styles.colors|dp}
 	                        {foreach ['gray', 'cool-gray', 'blue', 'purple', 'pink', 'red', 'orange', 'yellow', 'green', 'teal'] as $color}
 		                        {if isset($styles.colors[$color])}
 									<div class="w-1/2 px-2 md:w-full relative mt-4">
@@ -117,6 +116,53 @@
 								<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text-6xl ...<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>The quick brown fox ...<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span></code></pre></div></div>
 
 				</section>
+
+					<section class="container m-auto max-w-screen-lg px-10 py-28">
+						<h2>Buttons</h2>
+
+						<div class="my-10">
+							<button class="btn btn-primary px-6 py-4 btn-fx active:bg-blue-600 focus:outline-none">Primary button</button>
+							<button href="#" class="btn btn-outline-primary active:border-blue-600 active:text-blue-600 px-6 py-4 btn-fx focus:outline-none">Primary Outline button</button>
+							<button type="button" class="inline-flex items-center px-2.5 py-1.5 border border-transparent text-xs leading-4 font-medium rounded text-white bg-blue-500 hover:bg-blue-400 focus:outline-none focus:border-blue-600 focus:shadow-outline-blue active:bg-blue-600 transition ease-in-out duration-150">
+								Button text
+							</button>
+							<button type="button" class="inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md text-white bg-blue-500 hover:bg-blue-400 focus:outline-none focus:border-blue-600 focus:shadow-outline-blue active:bg-blue-600 transition ease-in-out duration-150">
+								Button text
+							</button>
+							<button type="button" class="inline-flex items-center px-4 py-2 border border-transparent text-sm leading-5 font-medium rounded-md text-white bg-blue-500 hover:bg-blue-400 focus:outline-none focus:border-blue-600 focus:shadow-outline-blue active:bg-blue-600 transition ease-in-out duration-150">
+								Button text
+							</button>
+							<button type="button" class="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-blue-500 hover:bg-blue-400 focus:outline-none focus:border-blue-600 focus:shadow-outline-blue active:bg-blue-600 transition ease-in-out duration-150">
+								Button text
+							</button>
+							<button type="button" class="inline-flex items-center px-6 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-blue-500 hover:bg-blue-400 focus:outline-none focus:border-blue-600 focus:shadow-outline-blue active:bg-blue-600 transition ease-in-out duration-150">
+								Button text
+							</button>
+						</div>
+
+						<div class="my-10">
+							<button type="button" class="btn btn-primary btn-fx inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 transition ease-in-out duration-150">
+								<svg class="-ml-0.5 mr-2 h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
+									<path fill-rule="evenodd" d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884zM18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" clip-rule="evenodd"/>
+								</svg>
+								Button text
+							</button>
+						</div>
+
+
+						<div class="grid grid-cols-2">
+							<input id="street_address" class="inline-flex form-input block w-full py-2 px-3 border border-gray-300 rounded shadow-sm focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5">
+							<button class="btn btn-primary btn-fx active:bg-blue-600 focus:outline-none">Primary button</button>
+						</div>
+
+
+
+
+					</section>
+
+
+
+
 				<section class="container m-auto max-w-screen-lg px-10">
 					<div class="card cardBackground" data-animation="zooming">
 						<div class="card_background" style="background-image: url('https://images.unsplash.com/photo-1568576157197-72cd17d47eed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1999&q=80"></div>
@@ -128,6 +174,9 @@
 						</a>
 					</div>
 				</section>
+
+
+
 			</div>
 			<div class="col-span-3 bg-gray-500 col-end-12 w-3/12"></div>
 

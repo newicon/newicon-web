@@ -43,13 +43,19 @@ li { @apply pb-2; }
 
 /* COMPLETE CSS */
 /****************/
-.btn { display: inline-block; vertical-align: middle; height: 55px; border-radius: 3px; font-weight: 700; font-size: 15px; line-height: 55px; text-align: center; text-decoration: none; appearance: none; padding:0 20px; }
+.btn { display: inline-block; vertical-align: middle; border-radius: 3px; font-weight: 700; text-align: center; text-decoration: none; appearance: none; padding:0 20px; }
 /* outline buttons http://localhost/newicon-website/public/styleguide#button-primary */
 .btn-primary { @apply border border-blue-500 bg-blue-500 text-white; }
 .btn-primary:hover { @apply border border-blue-400 bg-blue-400 text-white; }
+.btn-primary:active { @apply bg-blue-600; }
+.btn-primary:focus { outline: none; }
 /* outline buttons http://localhost/newicon-website/public/styleguide#button-outline */
 .btn-outline-primary { @apply border border-blue-500 text-blue-500 bg-transparent; }
 .btn-outline-primary:hover { @apply border-blue-400 text-blue-400; }
+.btn-outline-primary:focus { outline: none; }
+
+.btn-lg { @apply px-8 py-4 text-base leading-6; }
+
 .btn-fx { @apply transition shadow transform duration-150; }
 .btn-fx:hover { @apply -translate-y-px shadow-md; }
 .btn-fx:active { @apply translate-y-px shadow-none; }
@@ -60,13 +66,6 @@ li { @apply pb-2; }
 
 /* UNCONFIRMED CSS */
 /****************/
-.btn-secondary { @apply bg-gray-800; background-color: #fff; }
-.btn-secondary:hover { @apply bg-gray-400; }
-.btn-secondary.btn-outline { border: 1px solid #fff; background-color: transparent; line-height: 53px; }
-.btn-md { border-radius: 0; min-width: 164px; height: 45px; line-height: 45px; font-size: 13px; }
-.btn-sm { border-radius: 0; min-width: 160px; height: 40px; line-height: 40px; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; }
-.btn-xs { min-width: 120px; height: 38px; font-size: 11px; font-weight: 800; line-height: 38px; }
-
 
 @import "tailwindcss/components";
 
