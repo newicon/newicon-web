@@ -80,7 +80,7 @@
             ]}
 
 			{foreach $featureCards as $card}
-				<div class="my-40">
+				<div class="min-h-screen    ">
 					<div class="grid grid-cols-2 shadow-2xl rounded-md rounded-lg overflow-hidden bg-white">
 						<div class="{cycle values="order-0,order-1"}">
 							<img class="w-full h-full object-cover" src="{asset path=$card.image}" alt="{$card.title} image" class="w-full">
@@ -99,143 +99,120 @@
 
 
 
-				<div class="my-40">
-					<div class=" shadow-2xl rounded-md rounded-lg overflow-hidden bg-white">
-                        {foreach $featureCards as $card}
-	                        <div class="grid grid-cols-2">
-								<img class="w-full h-full object-cover {cycle values="order-0,order-1"}" src="{asset path=$card.image}" alt="{$card.title} image" class="w-full">
-								<div class="flex">
-									<div class="px-2/12 py-20 bg-white self-center">
-										<h2 class="text-5xl text-blue-900 pr-10">{$card.title}</h2>
-										<h6 class="pl-15 pt-0 text-blue-500 uppercase font-extrabold text-sm">{$card.label}</h6>
-										<p class="pl-15 text-gray-700 text-justify">{$card.body}</p>
-									</div>
+			<div class="my-40">
+				<div class=" shadow-2xl rounded-md rounded-lg overflow-hidden bg-white">
+                    {foreach $featureCards as $card}
+                        <div class="grid grid-cols-2">
+							<img class="w-full h-full object-cover {cycle values="order-0,order-1"}" src="{asset path=$card.image}" alt="{$card.title} image" class="w-full">
+							<div class="flex">
+								<div class="px-2/12 py-20 bg-white self-center">
+									<h2 class="text-5xl text-blue-900 pr-10">{$card.title}</h2>
+									<h6 class="pl-15 pt-0 text-blue-500 uppercase font-extrabold text-sm">{$card.label}</h6>
+									<p class="pl-15 text-gray-700 text-justify">{$card.body}</p>
 								</div>
-	                        </div>
-                        {/foreach}
-					</div>
+							</div>
+                        </div>
+                    {/foreach}
 				</div>
+			</div>
 
 
-
-
-
-			<div class="min-h-screen">
-				<div class="relative grid-cols-2 lg:display-block shadow-2xl rounded-lg lg:shadow-none overflow-hidden bg-white  lg:bg-transparent ">
-					<div class="lg:absolute lg:left-0 lg:z-10 lg:mt-20 lg:shadow-xl" style="width:52.5%;">
-						<img src="{asset path='https://images.unsplash.com/photo-1583475969042-4cd769e2999b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80'}" alt="" class="w-full h-full object-cover rounded-md">
+			<div class="min-h-screen    ">
+				<div class="grid grid-cols-2  ">
+					<div class="order-0 -mb-10 shadow-2xl rounded-lg overflow-hidden">
+						<img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1583475969042-4cd769e2999b?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80" alt="A people-centric design process image">
 					</div>
-					<div class="relative z-20 px-6% py-1/12 shadow-2xl bg-white rounded-md flex" style="width:52.5%; margin-left:47.5%">
-						<div class="self-center">
-							<h2 class="text-5xl text-blue-900 pr-10">Turn your ideas into a reality</h2>
-							<h6 class="pl-15 pt-0 text-blue-500 uppercase font-extrabold text-sm">Workshops</h6>
-							<p class="pl-15 text-gray-700 text-justify">Workshops are at the heart of our Architecture & Design process. We get up on a white board with you and think visually about what you're trying to achive. We scribble. We explore. We create. From there, we design and build your prototype.</p>
+					<div class="flex ">
+						<div class="px-2/12 py-20 bg-white self-center shadow-2xl rounded-lg -ml-10 -mt-10">
+							<h2 class="text-5xl text-blue-900 pr-10">A people-centric design process</h2>
+							<h6 class="pl-15 pt-0 text-blue-500 uppercase font-extrabold text-sm">User experience Design</h6>
+							<p class="pl-15 text-gray-700 text-justify">Great UX design captures the attention, sticks in the memory, and compels users to take action. It results in products that are so intuitive that users don't give a second thought to the design. We create digital products that do all that, and more.</p>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="relative min-h-screen">
-				<div class="absolute right-0 z-10 mt-20">
-					<img src="{asset path='/images/temp/article-image-1.jpg'}" alt="" width="675" height="457">
-				</div>
-				<div class="relative z-20 mr-6/12 w-6/12 pl-20 pr-20 py-20 shadow-lg bg-white rounded-md">
-					<h2 class="text-5xl text-blue-900 pr-10">Turn your ideas into a reality</h2>
-					<div class="pl-15 pt-0">
-						<h6 class="text-blue-500 uppercase font-extrabold text-sm">Workshops</h6>
-						<p class="text-gray-700 text-justify">Workshops are at the heart of our Architecture & Design process. We get up on a white board with you and think visually about what you're trying to achive. We scribble. We explore. We create. From there, we design and build your prototype.</p>
-					</div>
-				</div>
-			</div>
+
+
+
+{*			<div class="min-h-screen">*}
+{*				<div class="relative grid-cols-2 lg:display-block shadow-2xl rounded-lg lg:shadow-none overflow-hidden bg-white  lg:bg-transparent ">*}
+{*					<div class="lg:absolute lg:left-0 lg:z-10 lg:mt-20 lg:shadow-xl" style="width:52.5%;">*}
+{*						<img src="{asset path='https://images.unsplash.com/photo-1583475969042-4cd769e2999b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80'}" alt="" class="w-full h-full object-cover rounded-md">*}
+{*					</div>*}
+{*					<div class="relative z-20 px-6% py-1/12 shadow-2xl bg-white rounded-md flex" style="width:52.5%; margin-left:47.5%">*}
+{*						<div class="self-center">*}
+{*							<h2 class="text-5xl text-blue-900 pr-10">Turn your ideas into a reality</h2>*}
+{*							<h6 class="pl-15 pt-0 text-blue-500 uppercase font-extrabold text-sm">Workshops</h6>*}
+{*							<p class="pl-15 text-gray-700 text-justify">Workshops are at the heart of our Architecture & Design process. We get up on a white board with you and think visually about what you're trying to achive. We scribble. We explore. We create. From there, we design and build your prototype.</p>*}
+{*						</div>*}
+{*					</div>*}
+{*				</div>*}
+{*			</div>*}
+
+{*			<div class="relative">*}
+{*				<div class="absolute right-0 z-10 mt-20">*}
+{*					<img src="{asset path='/images/temp/article-image-1.jpg'}" alt="" width="675" height="457">*}
+{*				</div>*}
+{*				<div class="relative z-20 mr-6/12 w-6/12 pl-20 pr-20 py-20 shadow-lg bg-white rounded-md">*}
+{*					<h2 class="text-5xl text-blue-900 pr-10">Turn your ideas into a reality</h2>*}
+{*					<div class="pl-15 pt-0">*}
+{*						<h6 class="text-blue-500 uppercase font-extrabold text-sm">Workshops</h6>*}
+{*						<p class="text-gray-700 text-justify">Workshops are at the heart of our Architecture & Design process. We get up on a white board with you and think visually about what you're trying to achive. We scribble. We explore. We create. From there, we design and build your prototype.</p>*}
+{*					</div>*}
+{*				</div>*}
+{*			</div>*}
 
 		</section>
 
-		<section class="sectionSecondary sectionSecondary">
-			<div class="shell">
-				<header class="section_head">
-					<h2>Alternative Digital Marketing services?</h2>
-
-					<h4>Can’t see what you’re looking for, we do more than SEO and PPC?</h4>
-
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat rud exercitation ullamco laboris nisi ut aliquip ex.
-					</p>
-				</header>
-
-				<div class="section_body">
-					<div class="slider slider-cards">
-						<div class="slider_clip">
-							<div class="slider_slides cards">
-								<div class="slider_slide card card-secondary">
-									<div class="card_inner">
-										<div class="card_image">
-											<i class="ico-technologies"></i>
-										</div>
-
-										<div class="card_content">
-											<h4>Branding</h4>
-
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-											</p>
-										</div>
-									</div>
-
-									<div class="card_imageText card_imageText-position6">
-										<img src="{asset path='/images/temp/card-image-text-6.png'}" alt="" width="173" height="70">
-									</div>
-								</div>
-
-								<div class="slider_slide card card-secondary">
-									<div class="card_inner">
-										<div class="card_image">
-											<i class="ico-team"></i>
-										</div>
-
-										<div class="card_content">
-											<h4>Pitch decks</h4>
-
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-											</p>
-										</div>
-									</div>
-								</div>
-
-								<div class="slider_slide card card-secondary">
-									<div class="card_inner">
-										<div class="card_image">
-											<i class="ico-framework"></i>
-										</div>
-
-										<div class="card_content">
-											<h4>Icons &amp; illustration</h4>
-
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-											</p>
-										</div>
-									</div>
-								</div>
-
-								<div class="slider_slide card card-secondary">
-									<div class="card_inner">
-										<div class="card_image">
-											<i class="ico-peak"></i>
-										</div>
-
-										<div class="card_content">
-											<h4>Interaction design</h4>
-
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+		<section class="min-h-screen flex">
+			<div class="self-center ">
+				{section_header_center title="Design" sub="Cant see what you are looking for?"}
+				<div class="grid grid-cols-4 px-1/12 text-center gap-3 ">
+					<div class="shadow-xl hover:shadow-2xl transition duration-200 ease-out  p-10">
+						<svg class="mx-auto my-8 " width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g fill-rule="nonzero" fill="none"><path d="M29.41 32H2.59A2.59 2.59 0 010 29.41V2.59A2.59 2.59 0 012.59 0h26.82A2.59 2.59 0 0132 2.59v26.82A2.59 2.59 0 0129.41 32zM2.59 1.36c-.68 0-1.23.55-1.23 1.23v26.82c0 .68.55 1.23 1.23 1.23h26.82c.68 0 1.23-.55 1.23-1.23V2.59c0-.68-.55-1.23-1.23-1.23H2.59z" fill="#A8C5DD"/><path d="M23.62 25.41h-4.81V14.48c0-.1-.19-3.22-2.81-3.22a2.61 2.61 0 00-2 .74 5.47 5.47 0 00-1 3.5v9.88H8.37V6.59h5v1.23a8 8 0 014.06-1 5.68 5.68 0 014.31 1.68c2.08 2.21 1.89 5.74 1.88 5.89v11.02zm-3.47-1.34h2.13v-9.72c0-.07.16-3.15-1.52-4.94a4.37 4.37 0 00-3.33-1.28 5.77 5.77 0 00-4.23 1.48.67.67 0 01-.95.06A.65.65 0 0112 9a.59.59 0 010-.13v-1H9.72v16.2h1.94v-8.5A6.65 6.65 0 0113 11.12a3.91 3.91 0 013-1.2c3.12 0 4.08 3 4.15 4.53v9.62z" fill="#2969F6"/></g></svg>
+						<h2 class="text-2xl font-light">Branding</h2>
+						<p>
+							Our designers work hard to create innovative branding that helps you stand out from the crowd.
+						</p>
 					</div>
+					<div class="shadow-xl hover:shadow-2xl transition duration-200 ease-out  p-10">
+						<svg class="mx-auto my-8" width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g fill-rule="nonzero" fill="none"><path d="M22.982 5.663h-7.467a.65.65 0 110-1.3h7.467a.65.65 0 010 1.3zM22.982 9.387h-7.467a.66.66 0 010-1.31h7.467a.66.66 0 010 1.31zM22.982 13.081h-7.467a.65.65 0 110-1.3h7.467a.65.65 0 110 1.3zM22.982 16.795h-7.467a.65.65 0 010-1.28h7.467a.65.65 0 010 1.3v-.02z" fill="#2969F6"/><path d="M29.73 9.348V7.195a2.521 2.521 0 00-2.375-2.502V2.55A2.512 2.512 0 0024.844 0H3.51A2.512 2.512 0 00.97 2.55v16.718a2.522 2.522 0 002.375 2.502v2.191a2.502 2.502 0 002.27 2.483v2.114a2.512 2.512 0 002.511 2.472H29.46A2.512 2.512 0 0032 28.558V11.84a2.512 2.512 0 00-2.27-2.492zm-27.442 9.92V2.55c0-.658.534-1.192 1.193-1.192h21.334c.658 0 1.192.534 1.192 1.192v16.718c0 .66-.532 1.197-1.192 1.202H3.48a1.202 1.202 0 01-1.193-1.202zm2.376 4.693V21.78h20.18a2.512 2.512 0 002.511-2.511V6.022a1.193 1.193 0 011.057 1.173v16.766c0 .659-.534 1.193-1.193 1.193H5.82a1.193 1.193 0 01-1.155-1.193zm26.017 4.597c0 .658-.534 1.192-1.193 1.192H8.155a1.193 1.193 0 01-1.193-1.192v-2.085H27.22a2.512 2.512 0 002.512-2.512V10.667c.556.105.961.588.97 1.154l-.02 16.737z" fill="#A8C5DD"/><path d="M13.13 13.78H4.684V4.353h8.446v9.425zm-7.128-1.32h5.819V5.674H6.002v6.788z" fill="#032663"/></g></svg>
+						<h2 class="text-2xl font-light">Pitch Decks</h2>
+						<p>
+							Need help pitching your project? Our compelling pitch decks to take you to the next level.
+						</p>
+					</div>
+					<div class="shadow-xl hover:shadow-2xl transition duration-200 ease-out p-10">
+						<svg class="mx-auto my-8" width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g fill-rule="nonzero" fill="none"><path d="M16.57 6.555l-.1-.087v-.049h-.56a.299.299 0 00-.13 0v.049l-.1.087-8.81 12.218.26.369c0 .048 3.21 4.713 3.21 9.377v2.822c0 .364.304.659.68.659a.67.67 0 00.68-.66V28.52v-.272h8.62V31.341c0 .364.304.659.68.659a.67.67 0 00.68-.66V28.52c0-4.664 3.18-9.329 3.21-9.377l.26-.369-8.58-12.218zM20.4 26.92h-8.8a21.324 21.324 0 00-3.1-8.136l6.82-9.697v6.07c0 .365.304.66.68.66a.67.67 0 00.68-.66V9.047l6.82 9.697a21.322 21.322 0 00-3.1 8.184v-.01z" fill="#A8C5DD"/><path d="M16 19.52c-1.254 0-2.27-.986-2.27-2.201 0-1.216 1.016-2.201 2.27-2.201s2.27.985 2.27 2.2c0 1.216-1.016 2.202-2.27 2.202zm0-3.093c-.508 0-.92.4-.92.892s.412.892.92.892.92-.4.92-.892c0-.493-.412-.892-.92-.892z" fill="#032663"/><path d="M27.47.97v1.542h-9.32a2.092 2.092 0 00-.55-.902c-.424-.412-1-.644-1.6-.644-.6 0-1.176.232-1.6.644a2.064 2.064 0 00-.55.892H4.53V.97H0v4.392h4.53V3.821h9.32c.102.34.291.65.55.901.555.551 1.37.776 2.141.59a2.211 2.211 0 001.609-1.491h9.32v1.541H32V.97h-4.53zM3.19 4.063H1.34V2.269h1.85v1.794zm13.46-.262a.94.94 0 01-1.3 0 .882.882 0 01-.195-.973.925.925 0 011.495-.297c.36.352.36.919 0 1.27zm14 .262h-1.84V2.269h1.85l-.01 1.794z" fill="#2969F6"/></g></svg>
+						<h2 class="text-2xl font-light">Icons &amp; Illustration</h2>
+						<p>
+							Is your project visually stunning? Our beautiful, bespoke icons and illustrations enchance your aesthetics.
+						</p>
+					</div>
+					<div class="shadow-xl hover:shadow-2xl transition duration-200  ease-out p-10">
+						<svg class="mx-auto my-8" width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g fill-rule="nonzero" fill="none"><path d="M5.818 13.42a6.255 6.255 0 01-2.996-1.018 5.818 5.818 0 01-.97-.795 6.233 6.233 0 119.503-8 6.196 6.196 0 011.115 2.977.663.663 0 11-1.318.136 4.848 4.848 0 00-.873-2.356 4.752 4.752 0 00-.582-.64 4.916 4.916 0 10-6.167 7.583 4.965 4.965 0 002.356.805.66.66 0 010 1.309h-.068z" fill="#032663"/><path d="M11.016 22.38a.737.737 0 01-.204 0 8.32 8.32 0 01-3.336-2.036 8.393 8.393 0 1111.84-11.898c.358.333.683.7.97 1.096a8.398 8.398 0 011.154 2.346.66.66 0 11-1.26.388 6.953 6.953 0 00-.97-1.939 8.67 8.67 0 00-.776-.921 7.07 7.07 0 10-7.176 11.723.66.66 0 01-.203 1.28l-.04-.038z" fill="#A8C5DD"/><path d="M20.732 32a10.241 10.241 0 01-5.644-1.687 10.987 10.987 0 01-1.61-1.32c-4.016-4.016-4.016-10.528 0-14.545 4.017-4.016 10.53-4.016 14.546 0A10.27 10.27 0 0120.732 32zm0-19.258a8.98 8.98 0 00-6.332 15.38c.43.428.901.814 1.406 1.153a8.98 8.98 0 0012.315-12.732 8.61 8.61 0 00-.97-1.164 8.94 8.94 0 00-6.419-2.637z" fill="#2969F6"/><path d="M27.52 8.562v-.077a.97.97 0 010-.097l.61-4.276a.66.66 0 00-.552-.747.67.67 0 00-.746.562l-.427 2.91C19.869.212 15.97 1.938 15.796 1.938a.66.66 0 00.543 1.203s3.24-1.203 8.95 4.402l-2.637-.136a.67.67 0 00-.688.621.66.66 0 00.62.689l4.306.232a.67.67 0 00.262-.048h.067a.65.65 0 00.136-.087l.049-.059.087-.116s.029-.068.029-.078z" fill="#032663"/></g></svg>
+						<h2 class="text-2xl font-light">Interaction design</h2>
+						<p>
+							We build responsive and interactive designs to make your user's experience feel exceptional.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="bg-blue-900 px-1/12 text-white py-56 ">
+			<h2 class="text-5xl mb-10">Got a specific project in mind?</h2>
+			<p class="w-6/12 text-xl mb-20">From Digital Transformation to Augmented Reality, we can help you build your future. Get in touch with us today.</p>
+			<div class="grid grid-cols-4 gap-24 ">
+				<button class="btn btn-primary btn-fx btn-lg">Send us a message</button>
+				<div>
+					<label class="font-thin text-blue-100 text-xl">Call us on:</label><br/>
+					<a href="tel:0117 205 0425" class="font-bold text-xl no-underline">0117 205 0425</a>
+				</div>
+				<div>
+					<label class="font-thin text-blue-100 text-xl">Email us at:</label><br/>
+					<a href="mailto:hello@neiwcon.net" class="font-bold text-xl no-underline">hello@neiwcon.net</a>
 				</div>
 			</div>
 		</section>
