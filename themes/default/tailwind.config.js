@@ -91,10 +91,10 @@ module.exports = {
 				"2xl": "1536px", // 1280 + 256
 				"hd": "1920px",
 
-				sm: '640px',
-				md: '1024px', // 768 + 256
-				lg: '1280px', // 1024 + 256
-				xl: '1536px', // 1280 + 256
+				//sm: '640px',
+				//md: '1024px', // 768 + 256
+				//lg: '1280px', // 1024 + 256
+				//xl: '1536px', // 1280 + 256
 			},
 			fill: {
 				current: 'currentColor',
@@ -163,6 +163,7 @@ module.exports = {
 		display: ['responsive', 'group-hover'],
 		translate: ['responsive', 'hover', 'focus', 'group-hover'],
 		borderColor: ['responsive', 'hover', 'focus', 'active'],
+		scale: ['responsive', 'hover', 'focus', 'group-hover'],
 	},
 	plugins: [
 		plugin(function({ addBase, config }) {

@@ -164,14 +164,44 @@
 
 
 				<section class="container m-auto max-w-screen-lg px-10">
-					<div class="card cardBackground" data-animation="zooming">
-						<div class="card_background" style="background-image: url('https://images.unsplash.com/photo-1568576157197-72cd17d47eed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1999&q=80"></div>
-						<a href="javascript:;" class="card_body">
-							<div class="content_foot">
-								<h6 class="text-white opacity-8">Spectrum</h6>
-								<h5 class="card_title">Data Virtualization</h5>
-							</div>
-						</a>
+
+					<div class="grid grid-cols-4 gap-5">
+						<div class="card cardBackground" data-animation="zooming">
+							<div class="card_background" style="background-image: url('https://images.unsplash.com/photo-1568576157197-72cd17d47eed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1999&q=80"></div>
+							<a href="javascript:;" class="card_body">
+								<div class="content_foot">
+									<h6 class="text-white opacity-8">Spectrum</h6>
+									<h5 class="card_title">Data Virtualization</h5>
+								</div>
+							</a>
+						</div>
+						<div class="card cardBackground" data-animation="zooming">
+							<div class="card_background" style="background-image: url('https://images.unsplash.com/photo-1568576157197-72cd17d47eed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1999&q=80"></div>
+							<a href="javascript:;" class="card_body">
+								<div class="content_foot">
+									<h6 class="text-white opacity-8">Spectrum</h6>
+									<h5 class="card_title">Data Virtualization</h5>
+								</div>
+							</a>
+						</div>
+						<div class="card cardBackground" data-animation="zooming">
+							<div class="card_background" style="background-image: url('https://images.unsplash.com/photo-1568576157197-72cd17d47eed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1999&q=80"></div>
+							<a href="javascript:;" class="card_body">
+								<div class="content_foot">
+									<h6 class="text-white opacity-8">Spectrum</h6>
+									<h5 class="card_title">Data Virtualization</h5>
+								</div>
+							</a>
+						</div>
+						<div class="card cardBackground" data-animation="zooming">
+							<div class="card_background" style="background-image: url('https://images.unsplash.com/photo-1568576157197-72cd17d47eed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1999&q=80"></div>
+							<a href="javascript:;" class="card_body">
+								<div class="content_foot">
+									<h6 class="text-white opacity-8">Spectrum</h6>
+									<h5 class="card_title">Data Virtualization</h5>
+								</div>
+							</a>
+						</div>
 					</div>
 				</section>
 
