@@ -98,7 +98,7 @@ module.exports = {
 			},
 			fill: {
 				current: 'currentColor',
-				//'blue': theme('colors.blue.500'),
+				//'blue': theme('colors.blue.500'), 
 			},
 			shadows: {
 				...shadows,
