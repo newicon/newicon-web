@@ -18,32 +18,31 @@
 		</div>
 
 		<section class="min-h-screen flex mb-20" data-aos="fade" data-aos-duration="900" data-aos-delay="200">
-			<div class="self-center">
+			<div class="self-center ">
 				{section_header_center
 					title="Build a blueprint for your digital project"
 					hr=true
 					body="You wouldn’t build a house without having an architect sign off on the structure, features, design and cost. And when it comes to building software, apps and websites, neither would we. Our Architecture & Design process involves working closely with you to rapidly generate solutions to your challenges. The result? A visual and technical blueprint for your project, including an interactive, fully-functioning prototype. After all, wouldn't you like to experience what a house feels like to live in, before you buy the thing?"}
-
-				{include file='../../widgets/feature_grid.tpl' features=[
-					[
-						'icon' => 'images/icons/mid/clickable-prototype.svg',
-						'title' => 'Rapid prototyping',
-						'sub' => 'Reducing your risk',
-						'body' => 'Because we rapidly prototype your project, you quickly get a hands-on experience of your digital product.'
-					],
-					[
-                        'icon' => 'images/icons/mid/designed-for-your-user.svg',
-                        'title' => 'Designed for real People',
-						'sub' => 'People over technology',
-						'body' => 'Wihtout people technology is irrelevant. Our UX design team work hard to create products that stick in people’s minds. Easy to use, beautiful to look at.'
-					],
-					[
-						'icon' => '/images/icons/mid/reliable-results.svg',
-						'title' => 'Real, reliable results',
-						'sub' => 'Instant stakeholder feedback',
-						'body' => 'With our visual, usable prototypes, it’s easy to get everyone on the same page and ready to move forward.'
-					]
-				]}
+					{include file='../../widgets/feature_grid.tpl' features=[
+						[
+							'icon' => 'images/icons/mid/clickable-prototype.svg',
+							'title' => 'Rapid prototyping',
+							'sub' => 'Reducing your risk',
+							'body' => 'Because we rapidly prototype your project, you quickly get a hands-on experience of your digital product.'
+						],
+						[
+	                        'icon' => 'images/icons/mid/designed-for-your-user.svg',
+	                        'title' => 'Designed for real People',
+							'sub' => 'People over technology',
+							'body' => 'Wihtout people technology is irrelevant. Our UX design team work hard to create products that stick in people’s minds. Easy to use, beautiful to look at.'
+						],
+						[
+							'icon' => '/images/icons/mid/reliable-results.svg',
+							'title' => 'Real, reliable results',
+							'sub' => 'Instant stakeholder feedback',
+							'body' => 'With our visual, usable prototypes, it’s easy to get everyone on the same page and ready to move forward.'
+						]
+					]}
 {*				<img src="{asset path='/images/temp/service-image-text.png'}" alt="" width="266" height="157">*}
 			</div>
 		</section>
@@ -81,7 +80,7 @@
 
 			{foreach $featureCards as $card}
 				<div class="min-h-screen my-10 ">
-					<div class="grid grid-cols-1 md:grid-cols-2 shadow-2xl rounded-md rounded-lg overflow-hidden bg-white group">
+					<div class="grid grid-cols-1 md:grid-cols-2 shadow-2xl max-w-screen-xl mx-auto rounded-md rounded-lg overflow-hidden bg-white group">
 						<div class="{cycle values="md:order-0,md:order-1"}">
 							<img class="w-full h-full z-0 object-cover group-hover:scale-110 transform duration-300 ease-out" src="{asset path=$card.image}" alt="{$card.title} image" class="w-full">
 						</div>
@@ -100,9 +99,9 @@
 
 
 			<div class="my-40">
-				<div class=" shadow-2xl rounded-md rounded-lg overflow-hidden bg-white">
+				<div class=" shadow-2xl rounded-md rounded-lg overflow-hidden bg-white max-w-screen-xl mx-auto">
                     {foreach $featureCards as $card}
-                        <div class="grid grid-cols-1 grid-rows-2 md:grid-rows-1 md:grid-cols-2">
+                        <div class="grid grid-cols-1 grid-rows-2 md:grid-rows-1 md:grid-cols-2 ">
 							<img class="w-full h-full object-cover {cycle values="md:order-0,md:order-1"}" src="{asset path=$card.image}" alt="{$card.title} image" class="w-full">
 							<div class="flex">
 								<div class="px-1/12 py-1/12 md:px-2/12 md:py-20 bg-white self-center">
@@ -117,13 +116,13 @@
 			</div>
 
 
-			<div class="min-h-screen    ">
-				<div class="grid grid-cols-1 md:grid-cols-2  ">
-					<div class="order-0 md:-mb-10 shadow-2xl rounded-lg overflow-hidden">
+			<div class="min-h-screen">
+				<div class="grid grid-cols-1 lg:grid-cols-2  max-w-screen-xl mx-auto">
+					<div class="order-0 lg:-mb-10 shadow-2xl rounded-t-lg lg:rounded-lg overflow-hidden">
 						<img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1583475969042-4cd769e2999b?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80" alt="A people-centric design process image">
 					</div>
 					<div class="flex ">
-						<div class="px-2/12 py-20 bg-white self-center shadow-2xl rounded-lg md:-ml-10 md:-mt-10">
+						<div class="px-1/12 py-1/12 md:px-2/12 md:py-20 bg-white self-center bg-white self-center shadow-2xl rounded-b-lg lg:rounded-lg  lg:-ml-10 lg:-mt-10 ">
 							<h2 class="text-3xl sm:text-4xl md:text-5xl text-blue-900 pr-10">A people-centric design process</h2>
 							<h6 class="pt-0 md:pl-15 text-blue-500 uppercase text-xs md:text-sm font-bold md:font-extrabold">User experience Design</h6>
 							<p class="md:pl-15 text-gray-700 text-justify">Great UX design captures the attention, sticks in the memory, and compels users to take action. It results in products that are so intuitive that users don't give a second thought to the design. We create digital products that do all that, and more.</p>

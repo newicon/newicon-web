@@ -55,7 +55,7 @@
 	<div class="mb-20" data-flickity='{ "adaptiveHeight": true, "cellAlign": "left", "wrapAround": true,  "contain": true, "selectedAttraction": 0.1, "friction": 0.8, "prevNextButtons": false, "pageDots": true }'>
         {foreach $tests as $test}
 		<div class="w-11/12 " style="padding-left:4%">
-			<div class="flex-col my-10 flex md:flex-row shadow-lg rounded-lg" itemscope itemtype="http://schema.org/Review">
+			<div class="flex-col my-10 mb-16 flex md:flex-row shadow-2xl  rounded-lg" itemscope itemtype="http://schema.org/Review">
 				{if (isset($test.youtube))}
 				<a href="{$test.youtube}"
 				   title="{$test.name}, {$test.company} testimonial video"

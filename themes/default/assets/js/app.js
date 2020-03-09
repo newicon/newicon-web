@@ -86,14 +86,14 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./css/_load.scss":
-/*!************************!*\
-  !*** ./css/_load.scss ***!
-  \************************/
+/***/ "./css/app.css":
+/*!*********************!*\
+  !*** ./css/app.css ***!
+  \*********************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("// removed by extract-text-webpack-plugin//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9jc3MvX2xvYWQuc2Nzcz83NzgwIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBIiwiZmlsZSI6Ii4vY3NzL19sb2FkLnNjc3MuanMiLCJzb3VyY2VzQ29udGVudCI6WyIvLyByZW1vdmVkIGJ5IGV4dHJhY3QtdGV4dC13ZWJwYWNrLXBsdWdpbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./css/_load.scss\n");
+eval("// removed by extract-text-webpack-plugin//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9jc3MvYXBwLmNzcz9jNDczIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBIiwiZmlsZSI6Ii4vY3NzL2FwcC5jc3MuanMiLCJzb3VyY2VzQ29udGVudCI6WyIvLyByZW1vdmVkIGJ5IGV4dHJhY3QtdGV4dC13ZWJwYWNrLXBsdWdpbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./css/app.css\n");
 
 /***/ }),
 
@@ -109,14 +109,14 @@ eval("// import 'magnific-popup';\n// import Vue from 'vue';\n// import Stylizer
 /***/ }),
 
 /***/ 0:
-/*!*******************************************!*\
-  !*** multi ./js/main.js ./css/_load.scss ***!
-  \*******************************************/
+/*!****************************************!*\
+  !*** multi ./js/main.js ./css/app.css ***!
+  \****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/steve/Sites/newicon-website/themes/default/js/main.js */"./js/main.js");
-module.exports = __webpack_require__(/*! /Users/steve/Sites/newicon-website/themes/default/css/_load.scss */"./css/_load.scss");
+__webpack_require__(/*! /Users/newicon/Sites/newicon-website/themes/default/js/main.js */"./js/main.js");
+module.exports = __webpack_require__(/*! /Users/newicon/Sites/newicon-website/themes/default/css/app.css */"./css/app.css");
 
 
 /***/ })

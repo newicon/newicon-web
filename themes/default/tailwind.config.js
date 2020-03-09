@@ -174,7 +174,10 @@ module.exports = {
 				'h4': { fontSize: config('theme.fontSize.xl') },
 			})
 		}),
-		require('autoprefixer'),
+		require('postcss-import'),
+		require('tailwindcss'),
+		require('postcss-custom-properties'), // for IE11 support of css custom properties
+		require('autoprefixer'), // automatically prefix things with vendor prefixes - again IE11 etc
 		require('@tailwindcss/ui'),
 		...process.env.NODE_ENV === 'production' ? [purgeCss({
 			// Specify the paths to all of the template files in your project
@@ -187,13 +190,13 @@ module.exports = {
 			// defaultExtractor: content => content.match(/[\w-\/:]+(?<!:)/g) || []
 		})] : [],
 
-		plugin(function({ addBase, config }) {
-			const styles = config('theme');
-			var json = JSON.stringify(styles, null, '\t');
-			var fs = require('fs');
-			fs.writeFile('styles.json', json, 'utf8', function() {
-				console.log('done')
-			});
-		}),
+		// plugin(function({ addBase, config }) {
+		// 	const styles = config('theme');
+		// 	var json = JSON.stringify(styles, null, '\t');
+		// 	var fs = require('fs');
+		// 	fs.writeFile('styles.json', json, 'utf8', function() {
+		// 		console.log('done')
+		// 	});
+		// }),
 	],
 }
