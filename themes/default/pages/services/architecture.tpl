@@ -17,8 +17,8 @@
 			<img src="{asset path='/images/illustrations/Architecture UX Illustration.svg'}" alt="Architecture user experience design illustration">
 		</div>
 
-		<section class="min-h-screen flex mb-20" data-aos="fade" data-aos-duration="900" data-aos-delay="200">
-			<div class="self-center ">
+		<section class="min-h-screen px-6% sm:px-1/12 flex mb-20" data-aos="fade" data-aos-duration="900" data-aos-delay="200">
+			<div class="self-center max-w-screen-xl mx-auto">
 				{section_header_center
 					title="Build a blueprint for your digital project"
 					hr=true
@@ -49,7 +49,7 @@
 
 
 
-		<section class="px-6% pt-40" style="background:#F3F5F9;">
+		<section class="px-6% sm:px-1/12 pt-40" style="background:#F3F5F9;">
 
 			{$featureCards = [
 				[
@@ -164,10 +164,11 @@
 
 		</section>
 
-		<section class="min-h-screen flex mb-16">
-			<div class="self-center ">
+		{section_block}
+		<section class="px-6% sm:px-1/12 min-h-screen flex mb-16">
+			<div class="self-center max-w-screen-xl mx-auto">
 				{section_header_center title="Design" sub="Cant see what you are looking for?"}
-				<div class="grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-4 px-1/12 text-center gap-3 ">
+				<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 text-center gap-3 ">
 					<div class="shadow-xl hover:shadow-2xl transition duration-300 ease-out  p-10">
 						<svg class="mx-auto my-8 " width="32" height="32" xmlns="http://www.w3.org/2000/svg"><g fill-rule="nonzero" fill="none"><path d="M29.41 32H2.59A2.59 2.59 0 010 29.41V2.59A2.59 2.59 0 012.59 0h26.82A2.59 2.59 0 0132 2.59v26.82A2.59 2.59 0 0129.41 32zM2.59 1.36c-.68 0-1.23.55-1.23 1.23v26.82c0 .68.55 1.23 1.23 1.23h26.82c.68 0 1.23-.55 1.23-1.23V2.59c0-.68-.55-1.23-1.23-1.23H2.59z" fill="#A8C5DD"/><path d="M23.62 25.41h-4.81V14.48c0-.1-.19-3.22-2.81-3.22a2.61 2.61 0 00-2 .74 5.47 5.47 0 00-1 3.5v9.88H8.37V6.59h5v1.23a8 8 0 014.06-1 5.68 5.68 0 014.31 1.68c2.08 2.21 1.89 5.74 1.88 5.89v11.02zm-3.47-1.34h2.13v-9.72c0-.07.16-3.15-1.52-4.94a4.37 4.37 0 00-3.33-1.28 5.77 5.77 0 00-4.23 1.48.67.67 0 01-.95.06A.65.65 0 0112 9a.59.59 0 010-.13v-1H9.72v16.2h1.94v-8.5A6.65 6.65 0 0113 11.12a3.91 3.91 0 013-1.2c3.12 0 4.08 3 4.15 4.53v9.62z" fill="#2969F6"/></g></svg>
 						<h2 class="text-2xl font-light">Branding</h2>
@@ -199,290 +200,44 @@
 				</div>
 			</div>
 		</section>
+        {/section_block}
 
-		<section class="bg-blue-900 px-1/12 text-white pt-40 py-16 sm:py-20 md:py-28 lg:py-32 relative">
-			<img class="absolute top-0 -mt-10 left-0" src="{asset path='/images/temp/callout-image-1.svg'}" alt="" width="277" height="209">
-			<h2 class="text-5xl mb-10">Got a specific project in mind?</h2>
-			<p class="sm:w-10/12 md:w-8/12 lg:w-6/12 text-xl mb-10 md:mb-15 font-normal">From Digital Transformation to Augmented Reality, we can help you build your future. Get in touch with us today.</p>
-			<div class="flex flex-wrap">
-				<button class="mt-8 order-last md:order-first w-full md:mr-1/12 md:w-4/12 lg:w-3/12 btn btn-primary btn-fx btn-lg">Send us a message</button>
-				<div class="mt-8 mr-1/12">
-					<label class="font-thin text-blue-100 text-xl">Call us on:</label><br/>
-					<a href="tel:0117 205 0425" class="font-bold text-xl no-underline">0117 205 0425</a>
-				</div>
-				<div class="mt-8">
-					<label class="font-thin text-blue-100 text-xl">Email us at:</label><br/>
-					<a href="mailto:hello@neiwcon.net" class="font-bold text-xl no-underline">hello@neiwcon.net</a>
-				</div>
-			</div>
-		</section>
-
-		<section class="bg-gray-300 flex px-1/12 py-20 relative">
-			<div class="w-6/12 mr-1/12">
-				<h2 class="text-3xl text-blue-900">Need some advice?</h2>
-				<p class="text-xl font-light text-blue-900">Looking to utilise digital technology to streamline your operations or launch new products and services, contact our digital strategy director Mark for a free consultation.</p>
-				<button class="mt-5 btn btn-outline-primary px-12 py-4 btn-fx border-blue-900 text-blue-900">Book a call</button>
-			</div>
-			<div>
-				<img class="border-8 border-white rounded-full " src="{asset path='/images/temp/callout-image-2.png'}" alt="" width="250" height="250">
-			</div>
-		</section>
-
-		<section class="callout">
-			<div class="callout_images">
-
-
-				<div class="callout_image">
-
-				</div>
-
-				<div class="callout_image">
-					<img src="{asset path='/images/temp/callout-image-3.png'}" alt="" width="145" height="68">
-				</div>
-			</div>
-
-			<div class="callout_content">
-				<div class="shell">
-					<div class="callout_inner">
-						<div class="callout_head">
-							<h1 class="callout_title">Not sure exactly what you’re looking for?</h1>
-
-							<h4 class="callout_subtitle">Don’t worry. We’ll help you define exactly what you need.</h4>
-
-							<a href="#" class="btn btn-gray btn-outline">Start a conversation</a>
-						</div>
-
-						<div class="callout_body">
-							<div class="callout_entry">
-								<p>
-									We solve challenges for organisations and businesses of all shape, size and industry.
-								</p>
-
-								<p>
-									Whatever your challenge, a brief conversation with one of our team will soon enable us to advise you and your business exactly what you need.
-								</p>
-
-								<a href="#" class="btn btn-gray btn-outline">Start a conversation</a>
-							</div>
-						</div>
+		<section class="px-6% sm:px-1/12 bg-blue-900 text-white pt-40 py-16 sm:py-20 md:py-28 lg:py-32 relative">
+			<div class="max-w-screen-xl mx-auto" >
+				<img class="absolute top-0 -mt-10 left-0" src="{asset path='/images/temp/callout-image-1.svg'}" alt="" width="277" height="209">
+				<h2 class="text-5xl mb-10">Got a specific project in mind?</h2>
+				<p class="sm:w-10/12 md:w-8/12 lg:w-6/12 text-xl mb-10 md:mb-15 font-normal">From Digital Transformation to Augmented Reality, we can help you build your future. Get in touch with us today.</p>
+				<div class="flex flex-wrap">
+					<button class="mt-8 order-last md:order-first w-full md:mr-1/12 md:w-4/12 lg:w-3/12 btn btn-primary btn-fx btn-lg">Send us a message</button>
+					<div class="mt-8 mr-1/12">
+						<label class="font-thin text-blue-100 text-xl">Call us on:</label><br/>
+						<a href="tel:0117 205 0425" class="font-bold text-xl no-underline">0117 205 0425</a>
+					</div>
+					<div class="mt-8">
+						<label class="font-thin text-blue-100 text-xl">Email us at:</label><br/>
+						<a href="mailto:hello@neiwcon.net" class="font-bold text-xl no-underline">hello@neiwcon.net</a>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<section class="sectionSecondary sectionSecondary-reasons">
-			<div class="shell">
-				<header class="section_head">
-					<h2>Why choose Newicon?</h2>
-
-					<h4>6 reasons to choose us for your next software project</h4>
-				</header>
-
-				<div class="section_body">
-					<div class="cardsSimple">
-						<div class="cardSimple">
-							<div class="card_inner">
-								<div class="card_image">
-									<img src="{asset path='/images/temp/service-image-8.png'}" alt="" width="190" height="130">
-								</div>
-
-								<div class="card_content">
-									<h3>1. Everything under one roof</h3>
-
-									<h5>Design, development and digital marketing</h5>
-
-									<p>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-									</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="cardSimple">
-							<div class="card_inner">
-								<div class="card_image">
-									<img src="{asset path='/images/temp/service-image-9.png'}" alt="" width="190" height="130">
-								</div>
-
-								<div class="card_content">
-									<h3>2. Lean, robust &amp; scalable</h3>
-
-									<h5>Software, built to your exact needs</h5>
-
-									<p>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-									</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="cardSimple">
-							<div class="card_inner">
-								<div class="card_image">
-									<img src="{asset path='/images/temp/service-image-10.png'}" alt="" width="190" height="130">
-								</div>
-
-								<div class="card_content">
-									<h3>3. Five Star customer reviews</h3>
-
-									<h5>Google review and high customer retention</h5>
-
-									<p>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-									</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="cardSimple">
-							<div class="card_inner">
-								<div class="card_image">
-									<img src="{asset path='/images/temp/service-image-9.png'}" alt="" width="190" height="130">
-								</div>
-
-								<div class="card_content">
-									<h3>4. Test-driven development</h3>
-
-									<h5>TDD ensures the highest quality code over time</h5>
-
-									<p>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-									</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="cardSimple">
-							<div class="card_inner">
-								<div class="card_image">
-									<img src="{asset path='/images/temp/service-image-11.png'}" alt="" width="190" height="130">
-								</div>
-
-								<div class="card_content">
-									<h3>5. Dedicated hosting &amp; support</h3>
-
-									<h5>Our support boasts a 95% Satisfaction</h5>
-
-									<p>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-									</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="cardSimple">
-							<div class="card_inner">
-								<div class="card_image">
-									<img src="{asset path='/images/temp/service-image-12.png'}" alt="" width="190" height="130">
-								</div>
-
-								<div class="card_content">
-									<h3>6. Our innovative framework</h3>
-
-									<h5>With Neon Our starting point isn’t Zero</h5>
-
-									<p>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-									</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="cardSimple">
-							<div class="card_inner">
-								<div class="card_content">
-									<h3>(7. You'll love working with us)</h3>
-
-									<h5>We're a friendly bunch</h5>
-								</div>
-							</div>
-						</div>
-					</div>
+		<section class="px-6% sm:px-1/12 bg-gray-300 py-20 relative">
+			<div class="max-w-screen-xl mx-auto flex justify-between" >
+				<div class="w-6/12 mr-1/12">
+					<h2 class="text-3xl text-blue-900">Need some advice?</h2>
+					<p class="text-xl font-light text-blue-900">Looking to utilise digital technology to streamline your operations or launch new products and services, contact our digital strategy director Mark for a free consultation.</p>
+					<button class="mt-5 btn btn-outline-primary px-12 py-4 btn-fx border-blue-900 text-blue-900">Book a call</button>
 				</div>
-
-				<div class="section_actions">
-					<a href="#" class="link link-primary link-lg link-underline">Learn more ></a>
+				<div>
+					<img class="border-8 border-white rounded-full " src="{asset path='/images/temp/callout-image-2.png'}" alt="" width="250" height="250">
 				</div>
 			</div>
 		</section>
+
 
 		{section_portfolio category="architecture"}
 
         {section_testimonials}
-
-		<section class="sectionSecondary sectionSecondary-books">
-			<div class="shell">
-				<header class="section_head">
-					<h2>Learn more about Software Development</h2>
-
-					<h4>Discover our thoughts and theories about the world of Software</h4>
-				</header>
-
-				<div class="section_body">
-					<div class="books">
-						<div class="book">
-							<div class="book_inner">
-								<div class="book_image" style="background-image: url({asset path='/images/temp/book-background-1.jpg'});"></div>
-
-								<div class="book_content">
-									<div class="book_label book_label-right">n</div>
-
-									<h6 class="book_subtitle">Development</h6>
-
-									<h3 class="book_title">Mobile App Design Fundamentals: 10 Tips for an Effective Product Strategy</h3>
-
-									<p>
-										Learn more about the Newicon innnovation starter pack.
-									</p>
-
-									<h5 class="book_author">Steve O’Brien</h5>
-								</div>
-							</div>
-						</div>
-
-						<div class="book">
-							<div class="book_inner">
-								<div class="book_image" style="background-image: url({asset path='/images/temp/book-background-2.jpg'});"></div>
-
-								<div class="book_content">
-									<div class="book_label book_label-right">n</div>
-
-									<h6 class="book_subtitle">Design</h6>
-
-									<h3 class="book_title">Rapid Prototyping for your innovation strategy. </h3>
-
-									<p>
-										Learn more about the Newicon innnovation starter pack.
-									</p>
-
-									<h5 class="book_author">Steve O’Brien</h5>
-								</div>
-							</div>
-						</div>
-
-						<div class="book">
-							<div class="book_inner">
-								<div class="book_image" style="background-image: url({asset path='/images/temp/book-background-3.jpg'});"></div>
-
-								<div class="book_content">
-									<div class="book_label book_label-right">n</div>
-
-									<h6 class="book_subtitle">Technology</h6>
-
-									<h3 class="book_title">The Best Resource For Website Hosting Comparison</h3>
-
-									<p>
-										The Best Resource For Website Hosting Comparison
-									</p>
-
-									<h5 class="book_author">Steve O’Brien</h5>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
 
 		{section_contact_footer}
 	</div>

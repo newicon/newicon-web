@@ -83,14 +83,23 @@ module.exports = {
 				"6\%": "6%",
 				"full": "100%"
 			},
+			container: {
+				center: true,
+				padding: '1.5rem'
+			},
 			screens: {
 				"sm": "640px",
+				// => @media (min-width: 640px) { ... }
 				"md": "768px", // 640 + 128
+				// => @media (min-width: 768px) { ... }
 				"lg": "1024px", // 768 + 256
+				// => @media (min-width: 1024px) { ... }
 				"xl": "1280px", // 1024 + 256
+				// => @media (min-width: 1280px) { ... }
 				"2xl": "1536px", // 1280 + 256
-				"hd": "1920px",
-
+				// => @media (min-width: 1536px) { ... }
+				// "hd": "1920px",
+				// tw-ui:
 				//sm: '640px',
 				//md: '1024px', // 768 + 256
 				//lg: '1280px', // 1024 + 256
