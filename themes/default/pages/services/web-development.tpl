@@ -7,7 +7,7 @@
 
         {hero_text
 	        title="Website Development"
-	        subtitle="Invest in your future with inventive, user-focused web development."
+	       sub="Invest in your future with inventive, user-focused web development."
 	        callBtn=true
         }
 

@@ -8,7 +8,7 @@
 
             {hero_text
             title="Blog articles"
-            subtitle="Read our blog articles below or sort by topic"
+           sub="Read our blog articles below or sort by topic"
             }
 
 			<div class="shell">

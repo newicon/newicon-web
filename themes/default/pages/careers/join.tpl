@@ -9,7 +9,7 @@
         {hero_text
 	        title="Join the team"
 	        bgTitle="Join the team"
-	        subtitle="Some sort of sub headline"
+	       sub="Some sort of sub headline"
 	        body="Obviously we think we’re amazing, but here are some other reasons why Newicon should be your next choice."
         }
 

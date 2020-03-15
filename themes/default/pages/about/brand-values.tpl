@@ -8,7 +8,7 @@
         {hero_text
 	        title="Our Brand Values"
 	        bgTitle="Brand Values"
-	        subtitle="What makes us tick?"
+	        sub="What makes us tick?"
 	        body=" "
         }
 

@@ -8,7 +8,7 @@
 		{hero_text
 			title="The Architecture Process"
 			bgTitle="Architecture"
-			subtitle="Including UX Design, UI Design and Technical Design"
+			sub="Including UX Design, UI Design and Technical Design"
 			body="We have been successfully providing our clients digital solutions for over 10 years."
 		}
 

@@ -6,6 +6,7 @@
 	{css}
 		<style>
 			.sectionReview { min-height: 100vh; height:100vh; }
+			.introSecondary-dark { background: linear-gradient(black, #080e26); }
 		</style>
 	{/css}
 	<div class="main">
@@ -13,11 +14,14 @@
 
 
 
-		<div class="introSecondary introSecondary-dark m_pullIntoMenu">
+		<div class="introSecondary introSecondary-dark m_pullIntoMenu -mt-24 py-24">
             {hero_text
             title="Our work"
-            subtitle="Client stories to whet your appetite."
+            titleColor="white"
+            sub="Client stories to whet your appetite."
+            subColor="white"
             body="Every client challenge is unique. And so is our approach. <br/>Here’s a selection of our most favourate work."
+            bodyColor="white"
             }
 {*			<div class="shell">*}
 {*				<ul class="listFilters listFilters-dark">*}
@@ -31,29 +35,19 @@
 {*			</div>*}
 		</div>
 
-		<section class="sectionReview" style="background-image: url({asset path='images/temp/section-review-background-5.png);'}">
-			<div class="shell">
-				<div class="section_content">
-					<div class="section_entry" data-aos="fade-up">
-						<h6>Bristol &amp; Bath Science Park</h6>
-
-						<h3>A striking online presence for the<br>innovation hub of Bristol</h3>
-
-						<a href="{page_url nice='case-study-bbsp'}" class="btn btn-primary">Read more</a>
-					</div>
-				</div>
+		<section class="h-screen relative bg-cover" style="background-image: url({asset path='images/temp/section-review-background-5.png);'}">
+			<div class="absolute bottom-28 container px-6% sm:px-1/12 text-white" data-aos="fade-up">
+				<cite class="ni-italic text-white">Bristol &amp; Bath Science Park</cite>
+				<h2 class="mt-3 mb-8">A striking online presence for the<br>innovation hub of Bristol</h2>
+				<a href="{page_url nice='case-study-bbsp'}" class="btn btn-primary btn-fx py-4 px-14">Read more</a>
 			</div>
 		</section>
 
-		<section class="sectionReview" style="background-image: url({asset path='images/temp/section-review-background-6.png);'}">
-			<div class="shell" data-aos="fade-up">
-				<div class="section_content">
-					<div class="section_entry" data-aos="fade-up">
-						<h6>Airbus</h6>
-						<h3>A maintenance mobile app for a global<br>aviation superpower</h3>
-						<a href="#" class="btn btn-primary">Read more</a>
-					</div>
-				</div>
+		<section class="h-screen relative bg-cover" style="background-image: url({asset path='images/temp/section-review-background-6.png);'}">
+			<div class="absolute bottom-28 container px-6% sm:px-1/12 text-white" data-aos="fade-up">
+				<cite class="ni-italic text-white">Airbus</cite>
+				<h2 class="mt-3 mb-8">A maintenance mobile app for a global<br>aviation superpower</h2>
+				<a href="#" class="btn btn-primary btn-fx py-4 px-14">Read more</a>
 			</div>
 		</section>
 

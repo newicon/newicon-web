@@ -7,7 +7,7 @@
         {hero_text
         title="Technologies"
         bgTitle="Technologies"
-        subtitle="Learn about the way we do things"
+        sub="Learn about the way we do things"
         body="At our core we are pragmatists who enjoy delivering the right technology solutions to solve complex challenges. That’s why we’ve developed our own technologies to help us get the job done."
         }
 

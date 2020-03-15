@@ -28,7 +28,7 @@
 {*                {hero_text*}
 {*	                title="Culture"*}
 {*	                bgTitle=false*}
-{*	                subtitle="People focused. Future thinking. Inventive."*}
+{*	               sub="People focused. Future thinking. Inventive."*}
 {*	                callBtn=false*}
 {*	                body="Our culture and brand go hand in hand. After all, a business is what its people make it. And our people are pretty great, even if we say so ourselves."*}
 {*                }*}
@@ -47,7 +47,7 @@
 <div class="container">
 		<div class="row">
 			<div class="col-sm-12 col-md-6">
-                {hero_text title="Culture" subtitle="People focused. Future thinking. Inventive."
+                {hero_text title="Culture" sub="People focused. Future thinking. Inventive."
                     body="Our culture and brand go hand in ha nd. After all, a business is what its people make it. And our people are pretty great, even if we say so ourselves."}
 			</div>
 			<div class="col-sm-12 col-md-6">
