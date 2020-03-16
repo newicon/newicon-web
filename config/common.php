@@ -7,6 +7,10 @@ return [
 	'name' => 'Newicon',
 	'coreApps' => [
 
+		'dev' => [
+			'allowedIPs' => ['*'],
+		],
+
 		'cms' => [
 			// themeHierarchy - set the names of the themes in the theme directory
 			// in the reverse order of precedence (first overrides second etc)

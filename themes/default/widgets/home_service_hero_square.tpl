@@ -12,9 +12,9 @@
 	}
 }
 *}
-<a class="shadow-xl hover:shadow-2xl rounded block no-underline group hover:bg-blue-900 relative transform transition duration-150  hover:scale-105" href="{page_url id=$link}" >
+<a class="shadow-xl hover:shadow-2xl rounded block no-underline group hover:bg-blue-950 relative transform transition duration-150  hover:scale-105" href="{page_url id=$link}" >
 	<div class="p-14 pt-20">
-		<h3 class="text-3xl text-blue-900 group-hover:text-white pb-4">{$title}</h3>
+		<h3 class="text-3xl text-blue-950 group-hover:text-white pb-4">{$title}</h3>
 		<div class="text-lg text-gray-700 group-hover:text-white pb-56">{$body}</div>
 		<b class="block absolute bottom-0 pb-6 mb-48 text-lg text-blue-500 font-bold group-hover:text-white">
 			Learn more

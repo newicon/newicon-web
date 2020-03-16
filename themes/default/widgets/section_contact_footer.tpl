@@ -1,5 +1,5 @@
-<section class="bg-blue-900 px-6% sm:px-1/12">
-	<div class="bg-blue-900 max-w-screen-xl mx-auto py-12 lg:py-32 flex flex-wrap ">
+<section class="bg-blue-950 px-6% sm:px-1/12">
+	<div class="bg-blue-950 max-w-screen-xl mx-auto py-12 lg:py-32 flex flex-wrap ">
 		<header class="w-full md:w-2/5 section_head md:pr-1/12">
 			<div class="section_head-inner">
 				<h1 class="text-white text-5xl font-extrabold">{$title|default:'Get in touch'}</h1>

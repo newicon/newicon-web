@@ -77,7 +77,7 @@
 			<div class="px-6% sm:px-1/12 flex flex-col lg:flex-row xl:max-w-screen-2xl w-screen pt-15 lg:pt-20 lg:pb-24 pb-5">
 				<div class="mt-10 pr-10 lg:mt-auto lg:mb-auto portfolio-text text-center lg:text-left my-auto flex-shrink lg:w-1/3 order-1 lg:order-0">
 					<b class="text-xs uppercase text-gray-500 font-bold block mb-4">Case Study</b>
-					<h3 class="text-3xl text-blue-900">{$item['title']}</h3>
+					<h3 class="text-3xl text-blue-950">{$item['title']}</h3>
 					<p class="text-lg text-gray-700">{$item['body']}</p>
 					<a class="mt-5 px-16 btn btn-outline-primary btn-fx btn-lg" href="{page_url id=$item['link']}">Explore</a>
 				</div>

@@ -1,4 +1,4 @@
-<section class="bg-blue-900">
+<section class="bg-blue-950">
 	<div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 ">
 
         {section_header_center title="Trusted by great brands" inverse=true}

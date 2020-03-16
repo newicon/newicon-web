@@ -86,7 +86,7 @@
 						</div>
 						<div class="flex bg-white z-10">
 							<div class="px-1/12 py-1/12 md:px-2/12 md:py-20 bg-white self-center">
-								<h2 class="text-3xl sm:text-4xl md:text-5xl text-blue-900 pr-10">{$card.title}</h2>
+								<h2 class="text-3xl sm:text-4xl md:text-5xl text-blue-950 pr-10">{$card.title}</h2>
 								<h6 class="pt-0 text-blue-500 uppercase text-xs font-bold md:pl-15 md:text-sm md:font-extrabold">{$card.label}</h6>
 								<p class="md:pl-15 text-gray-700 text-justify">{$card.body}</p>
 							</div>
@@ -105,7 +105,7 @@
 							<img class="w-full h-full object-cover {cycle values="md:order-0,md:order-1"}" src="{asset path=$card.image}" alt="{$card.title} image" class="w-full">
 							<div class="flex">
 								<div class="px-1/12 py-1/12 md:px-2/12 md:py-20 bg-white self-center">
-									<h2 class="text-3xl sm:text-4xl md:text-5xl text-blue-900 pr-10">{$card.title}</h2>
+									<h2 class="text-3xl sm:text-4xl md:text-5xl text-blue-950 pr-10">{$card.title}</h2>
 									<h6 class="pt-0 md:pl-15 text-blue-500 uppercase text-xs md:text-sm font-bold md:font-extrabold">{$card.label}</h6>
 									<p class="md:pl-15 text-gray-700 text-justify">{$card.body}</p>
 								</div>
@@ -123,7 +123,7 @@
 					</div>
 					<div class="flex ">
 						<div class="px-1/12 py-1/12 md:px-2/12 md:py-20 bg-white self-center bg-white self-center shadow-2xl rounded-b-lg lg:rounded-lg  lg:-ml-10 lg:-mt-10 ">
-							<h2 class="text-3xl sm:text-4xl md:text-5xl text-blue-900 pr-10">A people-centric design process</h2>
+							<h2 class="text-3xl sm:text-4xl md:text-5xl text-blue-950 pr-10">A people-centric design process</h2>
 							<h6 class="pt-0 md:pl-15 text-blue-500 uppercase text-xs md:text-sm font-bold md:font-extrabold">User experience Design</h6>
 							<p class="md:pl-15 text-gray-700 text-justify">Great UX design captures the attention, sticks in the memory, and compels users to take action. It results in products that are so intuitive that users don't give a second thought to the design. We create digital products that do all that, and more.</p>
 						</div>
@@ -141,7 +141,7 @@
 {*					</div>*}
 {*					<div class="relative z-20 px-6% py-1/12 shadow-2xl bg-white rounded-md flex" style="width:52.5%; margin-left:47.5%">*}
 {*						<div class="self-center">*}
-{*							<h2 class="text-5xl text-blue-900 pr-10">Turn your ideas into a reality</h2>*}
+{*							<h2 class="text-5xl text-blue-950 pr-10">Turn your ideas into a reality</h2>*}
 {*							<h6 class="pl-15 pt-0 text-blue-500 uppercase font-extrabold text-sm">Workshops</h6>*}
 {*							<p class="pl-15 text-gray-700 text-justify">Workshops are at the heart of our Architecture & Design process. We get up on a white board with you and think visually about what you're trying to achive. We scribble. We explore. We create. From there, we design and build your prototype.</p>*}
 {*						</div>*}
@@ -154,7 +154,7 @@
 {*					<img src="{asset path='/images/temp/article-image-1.jpg'}" alt="" width="675" height="457">*}
 {*				</div>*}
 {*				<div class="relative z-20 mr-6/12 w-6/12 pl-20 pr-20 py-20 shadow-lg bg-white rounded-md">*}
-{*					<h2 class="text-5xl text-blue-900 pr-10">Turn your ideas into a reality</h2>*}
+{*					<h2 class="text-5xl text-blue-950 pr-10">Turn your ideas into a reality</h2>*}
 {*					<div class="pl-15 pt-0">*}
 {*						<h6 class="text-blue-500 uppercase font-extrabold text-sm">Workshops</h6>*}
 {*						<p class="text-gray-700 text-justify">Workshops are at the heart of our Architecture & Design process. We get up on a white board with you and think visually about what you're trying to achive. We scribble. We explore. We create. From there, we design and build your prototype.</p>*}
@@ -202,7 +202,7 @@
 		</section>
         {/section_block}
 
-		<section class="px-6% sm:px-1/12 bg-blue-900 text-white pt-40 py-16 sm:py-20 md:py-28 lg:py-32 relative">
+		<section class="px-6% sm:px-1/12 bg-blue-950 text-white pt-40 py-16 sm:py-20 md:py-28 lg:py-32 relative">
 			<div class="max-w-screen-xl mx-auto" >
 				<img class="absolute top-0 -mt-10 left-0" src="{asset path='/images/temp/callout-image-1.svg'}" alt="" width="277" height="209">
 				<h2 class="text-5xl mb-10">Got a specific project in mind?</h2>
@@ -224,9 +224,9 @@
 		<section class="px-6% sm:px-1/12 bg-gray-300 py-20 relative">
 			<div class="max-w-screen-xl mx-auto flex justify-between" >
 				<div class="w-6/12 mr-1/12">
-					<h2 class="text-3xl text-blue-900">Need some advice?</h2>
-					<p class="text-xl font-light text-blue-900">Looking to utilise digital technology to streamline your operations or launch new products and services, contact our digital strategy director Mark for a free consultation.</p>
-					<button class="mt-5 btn btn-outline-primary px-12 py-4 btn-fx border-blue-900 text-blue-900">Book a call</button>
+					<h2 class="text-3xl text-blue-950">Need some advice?</h2>
+					<p class="text-xl font-light text-blue-950">Looking to utilise digital technology to streamline your operations or launch new products and services, contact our digital strategy director Mark for a free consultation.</p>
+					<button class="mt-5 btn btn-outline-primary px-12 py-4 btn-fx border-blue-950 text-blue-950">Book a call</button>
 				</div>
 				<div>
 					<img class="border-8 border-white rounded-full " src="{asset path='/images/temp/callout-image-2.png'}" alt="" width="250" height="250">

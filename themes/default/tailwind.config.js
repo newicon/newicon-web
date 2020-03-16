@@ -117,49 +117,139 @@ module.exports = {
 				black: colors.black,
 				white: colors.white,
 				transparent: colors.transparent,
+				// lightGray: {
+				// '50': '#F7F8F9',
+				// '100': '#E9ECEF',
+				// '200': '#D4D9DF',
+				// '300': '#B8BFCA',
+				// '400': '#949FB0',
+				// '500': '#718096',
+				// '600': '#606C7F',
+				// '700': '#4E5968',
+				// '800': '#3E4652',
+				// '900': '#2D333C',
+				// '950': '#1A1D22',
+				// }
 				gray: {
-					...colors.gray,
-					'100': '#F7FAFC',
-					'200': '#F3F5F9',
-					'300': '#E2E8F0',
-					'400': '#8f9aaf',
-					'500': '#718096',
-					'600': '#5e6a86',
-					'700': '#4F5F84',
-					'800': '#2D3748',
-					'900': '#1A202C'
+					//...colors.gray,
+					// '50': 'hsl(240, 13%, 97%)' // #f6f6f8
+					'100': 'hsl(218, 17%, 91%)', // #E4E7EC,
+					'200': 'hsl(221, 18%, 82%)', // #CACFDA,
+					'300': 'hsl(222, 17%, 71%)',
+					'400': 'hsl(222, 17%, 56%)',
+					'500': 'hsl(222, 25%, 41%)',
+					'600': 'hsl(223, 25%, 35%)',
+					'700': 'hsl(222, 25%, 29%)',
+					'800': 'hsl(221, 25%, 23%)',
+					'900': 'hsl(220, 25%, 16%)',
+					'950': 'hsl(225, 25%, 9%)',
 				},
 				blue: {
-					'100': '#eff7fc',
-					'200': '#dce3f3',
-					'300': '#81cbff',
-					//'400': '#0096ff',
-					'400': '#2b81ff',
+					// '50': '#F2F7FF',
+					'100': '#D9E8FF',
+					'200': '#B3D1FF',
+					'300': '#80B2FF',
+					'400': '#408CFF',
 					'500': 'hsl(216, 100%, 50%)',
-					'600': '#1254cc',
-					'700': '#1c4ea7',
-					'800': '#03296e',
-					'900': '#00153d'
+					'600': '#0056D9',
+					'700': '#0047B2',
+					'800': '#00388C',
+					'900': '#002866',
+					'950': '#00173B'
 				},
 				purple: {
-					...colors.purple,
-					'500': '#9147C6'
+					//'50': '#1A1D22',
+					'100': '#EEE3F6',
+					'200': '#DEC8EE',
+					'300': '#C8A3E2',
+					'400': '#AC75D4',
+					'500': '#9147C6',
+					'600': '#7B3CA8',
+					'700': '#65318A',
+					'800': '#4F266C',
+					'900': '#3A1C4F',
+					//'950': '#21102D',
 				},
 				pink: {
-					...colors.pink,
-					'500': '#FF4374'
+					//'50': '#FFF5F7',
+					'100': '#FFE2EA',
+					'200': '#FFC6D5',
+					'300': '#FFA1B9',
+					'400': '#FF7296',
+					'500': '#FF4374',
+					'600': '#D93962',
+					'700': '#B22E50',
+					'800': '#8C243F',
+					'900': '#661A2E',
+					//'950': '#3B0F1A',
+					//...colors.pink,
+					//'500': '#FF4374'
 				},
-				red: colors.red,
+				red: {
+					'50': '#FEF4F4',
+					'100': '#FDDFE1',
+					'200': '#FCBFC4',
+					'300': '#FB949C',
+					'400': '#F95E6B',
+					'500': '#F7293A',
+					'600': '#D22231',
+					'700': '#AC1C28',
+					'800': '#87161F',
+					'900': '#621017',
+					//'950': '#39090D',
+				},
 				orange: {
-					...colors.orange,
-					'500': '#FF8C08'
+					'50': '#39090D',
+					'100': '#FFEDDA',
+					'200': '#FFDCB5',
+					'300': '#FFC583',
+					'400': '#FFA845',
+					'500': '#FF8C08',
+					'600': '#D97706',
+					'700': '#B26105',
+					'800': '#8C4C04',
+					'900': '#663803',
+					//'950': '#3B2001',
 				},
-				//yellow: colors.yellow,
+				// yellow: {
+				// '50': '#FFFCF3',
+				// '100': '#FFF6DE',
+				// '200': '#FFEEBE',
+				// '300': '#FFE392',
+				// '400': '#FFD55B',
+				// '500': '#FFC825',
+				// '600': '#D9AA1F',
+				// '700': '#B28B19',
+				// '800': '#8C6D14',
+				// '900': '#66500E',
+				// '950': '#3B2E08',
+				// },
 				green: {
-					...colors.green,
-					'500': '#14C17B'
+					//'50': '#F3FBF8',
+					'100': '#DBF5EB',
+					'200': '#B8ECD7',
+					'300': '#89E0BD',
+					'400': '#4ED09C',
+					'500': '#14C17B',
+					'600': '#11A468',
+					'700': '#0D8655',
+					'800': '#0A6943',
+					'900': '#084D31',
+					//'950': '#042C1C',
 				},
-				//teal: colors.teal,
+				//teal: {
+				// '50': '#F2FBFC',
+				// '100': '#D9F5F7',
+				// '200': '#B3ECEF',
+				// '300': '#80DFE5',
+				// '400': '#40CFD8',
+				// '500': '#00C0CC',
+				// '600': '#00A3AD',
+				// '700': '#00868E',
+				// '800': '#006970',
+				// '900': '#004C51',
+				// '950': '#002C2F',
+				// },
 			},
 			cursor: {
 				...cursor,
@@ -188,24 +278,24 @@ module.exports = {
 		require('postcss-custom-properties'), // for IE11 support of css custom properties
 		require('autoprefixer'), // automatically prefix things with vendor prefixes - again IE11 etc
 		require('@tailwindcss/ui'),
-		...process.env.NODE_ENV === 'production' ? [purgeCss({
-			// Specify the paths to all of the template files in your project
-			content: [
-				'./pages/home.tpl',
-			],
-			css: ['assets/css/app.css'],
-			defaultExtractor: (content) => { var matches = content.match(/[A-Za-z0-9-_:/]+/g); console.log(matches); return matches || [] },
-			// Include any special characters you're using in this regular expression
-			// defaultExtractor: content => content.match(/[\w-\/:]+(?<!:)/g) || []
-		})] : [],
+		// ...process.env.NODE_ENV === 'production' ? [purgeCss({
+		// 	// Specify the paths to all of the template files in your project
+		// 	content: [
+		// 		'./pages/home.tpl',
+		// 	],
+		// 	css: ['assets/css/app.css'],
+		// 	defaultExtractor: (content) => { var matches = content.match(/[A-Za-z0-9-_:/]+/g); console.log(matches); return matches || [] },
+		// 	// Include any special characters you're using in this regular expression
+		// 	// defaultExtractor: content => content.match(/[\w-\/:]+(?<!:)/g) || []
+		// })] : [],
 
-		// plugin(function({ addBase, config }) {
-		// 	const styles = config('theme');
-		// 	var json = JSON.stringify(styles, null, '\t');
-		// 	var fs = require('fs');
-		// 	fs.writeFile('styles.json', json, 'utf8', function() {
-		// 		console.log('done')
-		// 	});
-		// }),
+		plugin(function({ addBase, config }) {
+			const styles = config('theme');
+			var json = JSON.stringify(styles, null, '\t');
+			var fs = require('fs');
+			fs.writeFile('styles.json', json, 'utf8', function() {
+				console.log('done')
+			});
+		}),
 	],
-}
+};
