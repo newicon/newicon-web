@@ -8,7 +8,7 @@
         {hero_text
 	        title="Digital Marketing"
 	        bgTitle=false
-	        subtitle="Make your mark online with data-driven digital marketing"
+	       sub="Make your mark online with data-driven digital marketing"
 	        callBtn=true
         }
 			<div class="mt-4 lg:-mt-5 xl:-mt-15 mx-4%" data-aos="fade-up" data-aos-delay="300">

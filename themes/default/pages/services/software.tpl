@@ -9,7 +9,7 @@
         {hero_text
         title="Software Development"
         bgTitle=false
-        subtitle="You dream it, we build it"
+       sub="You dream it, we build it"
         callBtn=true
         }
 

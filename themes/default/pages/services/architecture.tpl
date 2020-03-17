@@ -9,7 +9,7 @@
         {hero_text
 	        title="Architecture &amp; UX Design"
 	        bgTitle=false
-	        subtitle="In a perfect world, how would it work?"
+	       sub="In a perfect world, how would it work?"
 	        callBtn=true
         }
 
@@ -98,7 +98,7 @@
 
 
 
-			<div class="my-40">
+			<div class="p-40">
 				<div class=" shadow-2xl rounded-md rounded-lg overflow-hidden bg-white max-w-screen-xl mx-auto">
                     {foreach $featureCards as $card}
                         <div class="grid grid-cols-1 grid-rows-2 md:grid-rows-1 md:grid-cols-2 ">
@@ -115,23 +115,42 @@
 				</div>
 			</div>
 
-
-			<div class="min-h-screen">
-				<div class="grid grid-cols-1 lg:grid-cols-2  max-w-screen-xl mx-auto">
-					<div class="order-0 lg:-mb-10 shadow-2xl rounded-t-lg lg:rounded-lg overflow-hidden">
+            {foreach $featureCards as $card}
+			<div class="min-h-screen flex">
+				<div class="grid grid-cols-1 lg:grid-cols-2  max-w-screen-xl mx-auto self-center">
+					<div class="{cycle values="order-0,lg:order-1 lg:-ml-14"} lg:-mb-14 shadow-2xl rounded-t-lg lg:rounded-lg overflow-hidden">
 						<img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1583475969042-4cd769e2999b?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80" alt="A people-centric design process image">
 					</div>
-					<div class="flex ">
-						<div class="px-1/12 py-1/12 md:px-2/12 md:py-20 bg-white self-center bg-white self-center shadow-2xl rounded-b-lg lg:rounded-lg  lg:-ml-10 lg:-mt-10 ">
-							<h2 class="text-3xl sm:text-4xl md:text-5xl text-blue-950 pr-10">A people-centric design process</h2>
+					<div class="flex z-10 ">
+						<div class=" px-1/12 py-1/12 md:px-2/12 md:py-20 bg-white self-center bg-white self-center shadow-2xl rounded-b-lg lg:rounded-lg  lg:-mt-14 ">
+							<h2 class="text-3xl sm:text-4xl md:text-5xl text-blue-900 pr-10">{$card.title}</h2>
 							<h6 class="pt-0 md:pl-15 text-blue-500 uppercase text-xs md:text-sm font-bold md:font-extrabold">User experience Design</h6>
 							<p class="md:pl-15 text-gray-700 text-justify">Great UX design captures the attention, sticks in the memory, and compels users to take action. It results in products that are so intuitive that users don't give a second thought to the design. We create digital products that do all that, and more.</p>
 						</div>
 					</div>
 				</div>
 			</div>
+            {/foreach}
 
-
+			<div class="min-h-screen flex">
+				<div class="grid grid-cols-1 lg:grid-cols-2  max-w-screen-xl mx-auto self-center">
+					<div class="order-0 lg:-mb-14 shadow-2xl rounded-t-lg lg:rounded-lg overflow-hidden">
+						<img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1583475969042-4cd769e2999b?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80" alt="A people-centric design process image">
+					</div>
+					<div class="flex ">
+<<<<<<< HEAD
+						<div class="px-1/12 py-1/12 md:px-2/12 md:py-20 bg-white self-center bg-white self-center shadow-2xl rounded-b-lg lg:rounded-lg  lg:-ml-10 lg:-mt-10 ">
+							<h2 class="text-3xl sm:text-4xl md:text-5xl text-blue-950 pr-10">A people-centric design process</h2>
+=======
+						<div class="px-1/12 py-1/12 md:px-2/12 md:py-20 bg-white self-center bg-white self-center shadow-2xl rounded-b-lg lg:rounded-lg  lg:-ml-14 lg:-mt-14 ">
+							<h2 class="text-3xl sm:text-4xl md:text-5xl text-blue-900 pr-10">A people-centric design process</h2>
+>>>>>>> f33600cad27a9a553cf86b6af5b9968ff4442c56
+							<h6 class="pt-0 md:pl-15 text-blue-500 uppercase text-xs md:text-sm font-bold md:font-extrabold">User experience Design</h6>
+							<p class="md:pl-15 text-gray-700 text-justify">Great UX design captures the attention, sticks in the memory, and compels users to take action. It results in products that are so intuitive that users don't give a second thought to the design. We create digital products that do all that, and more.</p>
+						</div>
+					</div>
+				</div>
+			</div>
 
 
 {*			<div class="min-h-screen">*}

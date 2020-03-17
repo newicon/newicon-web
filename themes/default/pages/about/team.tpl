@@ -8,7 +8,7 @@
         {hero_text
         title="The team"
         bgTitle="The Team"
-        subtitle="The people delivering the magic"
+        sub="The people delivering the magic"
         body="We have essembled one heck of a team, made up of people who love solving problems."
         }
 
