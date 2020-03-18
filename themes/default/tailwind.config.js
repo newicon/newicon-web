@@ -1,6 +1,6 @@
 const plugin = require('tailwindcss/plugin');
 const { colors, cursor, shadows, fontSize, spacing } = require('tailwindcss/defaultTheme');
-const purgeCss = require('@fullhuman/postcss-purgecss');
+// const purgeCss = require('@fullhuman/postcss-purgecss');
 module.exports = {
 	prefix: '',
 	theme: {
@@ -290,13 +290,13 @@ module.exports = {
 		// 	// defaultExtractor: content => content.match(/[\w-\/:]+(?<!:)/g) || []
 		// })] : [],
 
-		plugin(function({ addBase, config }) {
-			const styles = config('theme');
-			var json = JSON.stringify(styles, null, '\t');
-			var fs = require('fs');
-			fs.writeFile('styles.json', json, 'utf8', function() {
-				console.log('done')
-			});
-		}),
+		// plugin(function({ addBase, config }) {
+		// 	const styles = config('theme');
+		// 	var json = JSON.stringify(styles, null, '\t');
+		// 	var fs = require('fs');
+		// 	fs.writeFile('styles.json', json, 'utf8', function() {
+		// 		console.log('done')
+		// 	});
+		// }),
 	],
 };

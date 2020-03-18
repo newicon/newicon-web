@@ -39,25 +39,25 @@
 			[
 				'bg' => 'images/temp/section-review-background-5.png',
 				'company' => 'Bristol &amp; Bath Science Park',
-				'title' => 'A striking online presence for the<br>innovation hub of Bristol',
+				'title' => 'A striking online presence for the innovation hub of Bristol',
 				'link' => 'case-study-bbsp'
 			],
 			[
 				'bg' => 'images/temp/section-review-background-6.png',
 				'company' => 'Airbus',
-				'title' => 'A maintenance mobile app for a global<br>aviation superpower',
+				'title' => 'A maintenance mobile app for a global aviation superpower',
 				'link' => ''
 			],
 			[
 				'bg' => 'images/temp/section-review-background-7.png',
 				'company' => 'TEDxBristol',
-				'title' => 'A face-lift for one of Europe’s biggest<br>TEDx Events',
+				'title' => 'A face-lift for one of Europe’s biggest TEDx Events',
 				'link' => ''
 			],
 			[
 				'bg' => 'images/temp/section-review-background-8.png',
 				'company' => 'Lovell Stone Group',
-				'title' => 'Working with the south west’s finest<br>marble product suppliers',
+				'title' => 'Working with the south west’s finest marble product suppliers',
 				'link' => ''
 			]
 		]}
@@ -66,12 +66,10 @@
 
 			{layout_section style="background-image: url({asset path=$work.bg})"}
 				<section class="h-screen relative flex" style="">
-					<div class=" container self-end mx-auto relative px-6% sm:px-1/12 bottom-28 text-white" data-aos="fade-up">
-						<div class=" left-1/12 w-4/12 ">
-							<cite class="ni-italic text-white">{$work.company}</cite>
-							<h2 class="mt-3 mb-8">{$work.title}</h2>
-							<a href="{page_url nice=$work.link}" title="Read about the work Newicon did for {$work.company}" class="btn btn-primary btn-fx py-4 px-14">Read more</a>
-						</div>
+					<div class=" self-end relative w-4/12 bottom-28 text-white" data-aos="fade-up">
+						<cite class="ni-italic text-white">{$work.company}</cite>
+						<h2 class="mt-3 mb-8">{$work.title}</h2>
+						<a href="{page_url nice=$work.link}" title="Read about the work Newicon did for {$work.company}" class="btn btn-primary btn-fx py-4 px-14">Read more</a>
 					</div>
 				</section>
             {/layout_section}
