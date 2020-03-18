@@ -1,5 +1,8 @@
-<section class="bg-blue-950 px-6% sm:px-1/12">
-	<div class="bg-blue-950 max-w-screen-xl mx-auto py-12 lg:py-32 flex flex-wrap ">
+{layout_section class="bg-blue-950"}
+	{* px-6% sm:px-1/12 *}
+	{*  *}
+{*<section class="bg-blue-950 px-6% sm:px-1/12">*}
+	<div class="bg-blue-950 py-12 lg:py-32 flex flex-wrap ">
 		<header class="w-full md:w-2/5 section_head md:pr-1/12">
 			<div class="section_head-inner">
 				<h1 class="text-white text-5xl font-extrabold">{$title|default:'Get in touch'}</h1>
@@ -70,59 +73,11 @@
 					</div>
 					<button type="submit" class="btn btn-secondary btn-fx md:w-4/12 w-full md:mt-0 mt-4">Send message</button>
 				</div>
-{*				<div class="form_body">*}
-{*					<div class="form_cols">*}
-{*						<div class="form_col form_col-1of2">*}
-{*							<div class="form_row">*}
-{*								<div class="form_controls">*}
-{*									<input type="text" class="field" name="name" placeholder="Name*">*}
-{*								</div>*}
-{*							</div>*}
-{*							<div class="form_row">*}
-{*								<div class="form_controls">*}
-{*									<input type="email" class="field" name="email" placeholder="Email address*">*}
-{*								</div>*}
-{*							</div>*}
-{*							<div class="form_row">*}
-{*								<div class="form_controls">*}
-{*									<input type="tel" class="field" name="tel" placeholder="Telephone">*}
-{*								</div>*}
-{*							</div>*}
-{*							<div class="form_row">*}
-{*								<p>Subscribe to our email list and get up-to-date industry news. We never share your details with third parties - <a href={page_url id="privacy-policy"}#">privacy policy</a>.</p>*}
-{*								<ul class="list-radios">*}
-{*									<li>*}
-{*										<div class="radio">*}
-{*											<input type="radio" name="subscribe" id="yes">*}
-{*											<label for="yes">Yes</label>*}
-{*										</div>*}
-{*									</li>*}
-{*									<li>*}
-{*										<div class="radio">*}
-{*											<input type="radio" name="subscribe" id="no">*}
-{*											<label for="no">No</label>*}
-{*										</div>*}
-{*									</li>*}
-{*								</ul>*}
-{*							</div>*}
-{*						</div>*}
-{*						<div class="form_col form_col-1of2">*}
-{*							<div class="form_row">*}
-{*								<div class="form_controls">*}
-{*									<textarea class="field field--textarea" name="message" placeholder="Tell us about your project"></textarea>*}
-{*								</div>*}
-{*							</div>*}
-{*						</div>*}
-{*					</div>*}
-{*					<div class="form_inner">*}
-{*									<div class="g-recaptcha" data-sitekey="6LfR87gUAAAAAIjH66eKulII2h-dhRyJHxIDGilO"></div>*}
-{*					</div>*}
-{*				</div>*}
-
 			</form>
 		</div>
 	</div>
-</section>
+{*</section>*}
+{/layout_section}
 
 
 <img class="_2zEKz"

@@ -1,5 +1,6 @@
-<section class="px-6% sm:px-1/12">
-	<footer class="max-w-screen-xl mx-auto py-12 lg:py-16">
+{layout_section}
+{*<section class="px-6% sm:px-1/12">*}
+	<footer class="py-12 lg:py-16">
 		<div class="grid gap-8 grid-cols-2 md:grid-cols-4 ">
 			<div>
 				<h5 class="pt-2 text-sm leading-5 font-semibold tracking-wider text-gray-600 uppercase">Services</h5>
@@ -56,7 +57,7 @@
 		<div class="pt-12 flex flex-wrap">
 			<div class="w-full text-center md:w-8/12 md:text-left ">
 				<a href="{page_url id="home"}" class="mb-0 md:mb-2 inline-block">
-					<img src="{asset path='images/logo-secondary@2x.png'}" alt="newicon" width="88" height="15">
+					<img src="{asset path='images/newicon.svg'}" alt="newicon" width="88" height="15">
 				</a>
 				<p class="mb-0">Designed and built by Newicon using Neon in Bristol </p>
 			</div>
@@ -97,9 +98,9 @@
 				</div>
 			</div>
 		</div>
-		<div class="flex justify-between mt-4 md:mt-0">
-			<div class="text-left text-gray-600 text-sm">&copy; Newicon Ltd. Registered in England and Wales. Company Number: 5904359 | VAT: GB 993768447.</div>
-			<ul class="flex mb-0 text-sm">
+		<div class="flex flex-col mt-4">
+			<div class="text-center text-gray-600 text-sm ">&copy; Newicon Ltd. Registered in England and Wales. Company No: 5904359 | VAT: GB 993768447.</div>
+			<ul class="flex self-center mb-0 text-sm">
 				<li class="ml-2 "><a class="text-gray-700 no-underline font-normal" href="#">Terms of Use</a></li>
 				<li class="ml-2 ">|</li>
 				<li class="ml-2 "><a class="text-gray-700 no-underline font-normal" href="{page_url nice='privacy-policy'}">Privacy Policy</a></li>
@@ -108,4 +109,5 @@
 			</ul>
 		</div>
 	</footer>
-</section>
+{*</section>*}
+{/layout_section}

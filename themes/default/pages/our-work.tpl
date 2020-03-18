@@ -64,17 +64,20 @@
 
 		{foreach $caseStudies as $work}
 
-			<section class="h-screen bg-cover relative flex" style="background-image: url({asset path=$work.bg})">
-				<div class=" container self-end mx-auto relative px-6% sm:px-1/12 bottom-28 text-white" data-aos="fade-up">
-					<div class=" left-1/12 w-4/12 ">
-						<cite class="ni-italic text-white">{$work.company}</cite>
-						<h2 class="mt-3 mb-8">{$work.title}</h2>
-						<a href="{page_url nice=$work.link}" title="Read about the work Newicon did for {$work.company}" class="btn btn-primary btn-fx py-4 px-14">Read more</a>
+			{layout_section style="background-image: url({asset path=$work.bg})"}
+				<section class="h-screen relative flex" style="">
+					<div class=" container self-end mx-auto relative px-6% sm:px-1/12 bottom-28 text-white" data-aos="fade-up">
+						<div class=" left-1/12 w-4/12 ">
+							<cite class="ni-italic text-white">{$work.company}</cite>
+							<h2 class="mt-3 mb-8">{$work.title}</h2>
+							<a href="{page_url nice=$work.link}" title="Read about the work Newicon did for {$work.company}" class="btn btn-primary btn-fx py-4 px-14">Read more</a>
+						</div>
 					</div>
-				</div>
-			</section>
+				</section>
+            {/layout_section}
 
         {/foreach}
+
 
 
 {*		<section class="sectionContacts">*}

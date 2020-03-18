@@ -19,8 +19,15 @@
 
 			{section_testimonials}
 
+
 			{section_contact_footer}
-{*		{/editor}*}
+
+
+        {layout_section}
+			<div class="bg-gray-300 h-screen w-full  border border-blue-900">
+				HERE
+			</div>
+        {/layout_section}
 
         {jsFile src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v1.11.1/dist/alpine.js" attributes=['async'=>'', 'defer'=>'']}
 		<div x-data="{ show: false }"
