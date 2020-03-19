@@ -47,7 +47,7 @@
 				]}
 {*				<img src="{asset path='/images/temp/service-image-text.png'}" alt="" width="266" height="157">*}
 			</div>
-		</div>
+		</div> 
         {/layout_section}
 
 
