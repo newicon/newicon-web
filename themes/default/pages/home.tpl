@@ -22,11 +22,15 @@
 
 			{section_contact_footer}
 
+		<layout-section>
+			<layout-container class="">
 
+			</layout-container>
+		</layout-section>
         {layout_section}
-			<div class="bg-gray-300 h-screen w-full  border border-blue-900">
-				HERE
-			</div>
+			{layout_container class="h-screen"}
+				<div class="bg-gray-300  w-full border border-blue-900"></div>
+			{/layout_container}
         {/layout_section}
 
         {jsFile src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v1.11.1/dist/alpine.js" attributes=['async'=>'', 'defer'=>'']}

@@ -1,8 +1,5 @@
 {layout_section class="bg-blue-950"}
-	{* px-6% sm:px-1/12 *}
-	{*  *}
-{*<section class="bg-blue-950 px-6% sm:px-1/12">*}
-	<div class="bg-blue-950 py-12 lg:py-32 flex flex-wrap ">
+	{layout_container class="flex flex-wrap"}
 		<header class="w-full md:w-2/5 section_head md:pr-1/12">
 			<div class="section_head-inner">
 				<h1 class="text-white text-5xl font-extrabold">{$title|default:'Get in touch'}</h1>
@@ -75,8 +72,7 @@
 				</div>
 			</form>
 		</div>
-	</div>
-{*</section>*}
+	{/layout_container}
 {/layout_section}
 
 

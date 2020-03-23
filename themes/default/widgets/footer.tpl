@@ -1,4 +1,5 @@
 {layout_section}
+    {layout_container}
 {*<section class="px-6% sm:px-1/12">*}
 	<footer class="py-12 lg:py-16">
 		<div class="grid gap-8 grid-cols-2 md:grid-cols-4 ">
@@ -11,7 +12,7 @@
 					<li class="mt-2 "><a href="#" class="text-gray-700 no-underline">Mobile Development</a></li>
 					<li class="mt-2 "><a href="{page_url id="web-development"}" class="text-gray-700 no-underline font-normal">Web Development</a></li>
 					<li class="mt-2 "><a href="{page_url id="digital-marketing"}" class="text-gray-700 no-underline font-normal">Digital Marketing</a></li>
-	                {*						<li><a href="#">SEO & PPC</a></li>*}
+	                {* <li><a href="#">SEO & PPC</a></li> *}
 					<li class="mt-2 "><a href="#" class="text-gray-600 no-underline">Hosting</a></li>
 					<li class="mt-2 "><a href="#" class="text-gray-600 no-underline">Support</a></li>
 				</ul>
@@ -109,5 +110,6 @@
 			</ul>
 		</div>
 	</footer>
+	{/layout_container}
 {*</section>*}
 {/layout_section}
