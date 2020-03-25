@@ -5,94 +5,47 @@
 {block "content"}
 	<div class="main">
 
-
-        {hero_text
-        title="Software Development"
-        bgTitle=false
-       sub="You dream it, we build it"
-        callBtn=true
-        }
+		{hero_text
+			title="Software Development"
+			bgTitle=false
+			sub="You dream it, we build it"
+			callBtn=true
+		}
 
 		<div class="mt-4 lg:-mt-5 xl:-mt-15 mx-4%" data-aos="fade-up" data-aos-delay="300">
 	        <img src="{asset path='images/illustrations/Software Dev Illustration.svg'}" alt="Software development illustration" >
 	    </div>
 
-		<section class="section section-secondary">
-			<div class="shell">
-
-                {section_header_center
-	                title="Software development starts with the dream."
-	                hr=true
-	                body="We’ve worked with companies of every shape and size — from one-person start-ups through to multinational corporations. Whether you’re creating a new, disruptive app or a powerful database solution, there’s really only one thing that matters. Defining the right problem for the right person."
-                }
-
-				<div class="section_body">
-					<div class="section_entry">
-						<p></p>
-					</div>
-
-					<div class="servicesSecondary">
-						<div class="serviceSecondary">
-							<div class="service_inner">
-								<div class="service_image">
-									<img src="{asset path='/images/temp/service-image-5.png'}" alt="" width="132" height="106">
-								</div>
-
-								<div class="service_content">
-									<h3>User-Centered Design</h3>
-
-									<h5>Some sub-title here</h5>
-
-									<p>
-										Sign-off on a usable prototype, before agreeing to development. No wasted time, no wasted money.
-									</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="serviceSecondary">
-							<div class="service_inner">
-								<div class="service_image">
-									<img src="{asset path='/images/temp/service-image-6.png'}" alt="" width="132" height="106">
-								</div>
-
-								<div class="service_content">
-									<h3>Technology for People</h3>
-
-									<h5>Some sub-title here</h5>
-
-									<p>
-										Bespoke software offers solutions to your business’s unique challenges. No need to compromise.
-									</p>
-								</div>
-
-								<div class="service_imageText">
-									<img src="{asset path='/images/temp/service-image-text.png'}" alt="" width="266" height="157">
-								</div>
-							</div>
-						</div>
-
-						<div class="serviceSecondary">
-							<div class="service_inner">
-								<div class="service_image">
-									<img src="{asset path='/images/temp/service-image-7.png'}" alt="" width="132" height="106">
-								</div>
-
-								<div class="service_content">
-									<h3>Measure real results</h3>
-
-									<h5>Some sub-title here</h5>
-
-									<p>
-										With our agile methodology, knowledge is always fed back into the end product, resulting in the best possible end-result.
-									</p>
-								</div>
-							</div>
-						</div>
+		{layout_section}
+			{layout_container}
+				<div class="min-h-screen flex" data-aos="fade" data-aos-duration="900" data-aos-delay="200">
+					<div class="self-center">
+						{section_header_center
+						title="Software development starts with the dream."
+						hr=true
+						body="We’ve worked with companies of every shape and size — from one-person start-ups through to multinational corporations. Whether you’re creating a new, disruptive app or a powerful database solution, there’s really only one thing that matters. Defining the right problem for the right person."
+						}
+                        {include file='../../widgets/feature_grid.tpl' features=[
+                        ['icon' => 'images/icons/mid/clickable-prototype.svg','title' => 'Rapid prototyping','sub' => 'Reducing your risk','body' => 'Because we rapidly prototype your project, you quickly get a hands-on experience of your digital product.'],
+                        ['icon' => 'images/icons/mid/designed-for-your-user.svg','title' => 'Designed for real People','sub' => 'People over technology','body' => 'Wihtout people technology is irrelevant. Our UX design team work hard to create products that stick in people’s minds. Easy to use, beautiful to look at.'],
+                        ['icon' => '/images/icons/mid/reliable-results.svg','title' => 'Real, reliable results','sub' => 'Instant stakeholder feedback','body' => 'With our visual, usable prototypes, it’s easy to get everyone on the same page and ready to move forward.']
+                        ]}
 					</div>
 				</div>
-			</div>
-		</section>
+			{/layout_container}
+		{/layout_section}
+
+
+        {layout_section style="background: #F3F5F9;"}
+        {layout_container}
+        {$featureCards = [
+        ['image' => 'images/photos/ipad-user-screenshot.jpg','title' => 'If you can dream it, we can build it!','label' => 'Web Applications','body' => 'Web software can power your whole business. We utilise innovative web technology to improve all aspects of business, from customer facing portals, through to back-office system. Got an innovative idea you would like to us to build? Let us know!']
+        ]}
+        {foreach $featureCards as $card}
+            {include file="../_cmps/feature/card/skewed.tpl" flip={cycle values="left,right"} title=$card.title body=$card.body label=$card.label image=$card.image}
+        {/foreach}
+        {/layout_container}
+        {/layout_section}
 
 		<section class="sectionArticles">
 			<div class="shell">

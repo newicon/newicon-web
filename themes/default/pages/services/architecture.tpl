@@ -1,6 +1,6 @@
 {extends "layouts/layout.tpl"}
 {block "header"}
-    {navigation}
+	{navigation}
 {/block}
 {block "content"}
         {*		<div class="introServiceTertiary">*}
@@ -12,8 +12,7 @@
 		}
 
 		<div class="mt-4 lg:-mt-5 xl:-mt-15 mx-4%" data-aos="fade-up" data-aos-delay="0">
-			<img src="{asset path='/images/illustrations/Architecture UX Illustration.svg'}"
-				 alt="Architecture user experience design illustration">
+			<img src="{asset path='/images/illustrations/Architecture UX Illustration.svg'}" alt="Architecture user experience design illustration">
 		</div>
 
 		{layout_section}
