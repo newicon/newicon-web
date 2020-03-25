@@ -9,29 +9,17 @@
 
 			{section_services_grid}
 
-			{* {section_come_talk_to_us}*}
+{*		 {section_come_talk_to_us}*}
 
 	        {section_portfolio}
 
-{*			{section_port_big}*}
+			{section_port_big}
 
 			{section_trusted_by_brands}
 
 			{section_testimonials}
 
-
 			{section_contact_footer}
-
-		<layout-section>
-			<layout-container class="">
-
-			</layout-container>
-		</layout-section>
-        {layout_section}
-			{layout_container class="h-screen"}
-				<div class="bg-gray-300  w-full border border-blue-900"></div>
-			{/layout_container}
-        {/layout_section}
 
         {jsFile src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v1.11.1/dist/alpine.js" attributes=['async'=>'', 'defer'=>'']}
 		<div x-data="{ show: false }"

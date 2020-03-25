@@ -64,7 +64,6 @@
 		.screenshot { opacity: 0; transform:scale(0.9) rotate(-10deg); box-shadow:none; }
 		.is-selected .screenshot { opacity: 1; transform:scale(1) rotate(-3deg); box-shadow: 35px 70px 125px -25px rgba(80,102,144,.1), 16px 40px 75px -40px rgba(0,0,0,.2), 0px 0px 99px 0px rgba(0, 0, 0, 0.2); }
 	}
-
 	</style>
 {/css}
 
@@ -112,7 +111,6 @@
 					"friction": 0.8,
 					"prevNextButtons": false,
 					"pageDots": true,
-					adaptiveHeight: true,
 				});
 				flick.on('select', function () {
 					$navButtons.removeClass('is-selected');

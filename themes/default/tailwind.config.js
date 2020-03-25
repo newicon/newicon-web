@@ -118,22 +118,21 @@ module.exports = {
 				black: colors.black,
 				white: colors.white,
 				transparent: colors.transparent,
-				// lightGray: {
-				// '50': '#F7F8F9',
-				// '100': '#E9ECEF',
-				// '200': '#D4D9DF',
-				// '300': '#B8BFCA',
-				// '400': '#949FB0',
-				// '500': '#718096',
-				// '600': '#606C7F',
-				// '700': '#4E5968',
-				// '800': '#3E4652',
-				// '900': '#2D333C',
-				// '950': '#1A1D22',
-				// }
+				lightGray: {
+					'50': '#F7F8F9',
+					'100': '#E9ECEF',
+					'200': '#D4D9DF',
+					'300': '#B8BFCA',
+					'400': '#949FB0',
+					'500': '#718096',
+					'600': '#606C7F',
+					'700': '#4E5968',
+					'800': '#3E4652',
+					'900': '#2D333C',
+					'950': '#1A1D22',
+				},
 				gray: {
-					//...colors.gray,
-					// '50': 'hsl(240, 13%, 97%)' // #f6f6f8
+					'50': 'hsl(240, 13%, 97%)', // #f6f6f8
 					'100': 'hsl(218, 17%, 91%)', // #E4E7EC,
 					'200': 'hsl(221, 18%, 82%)', // #CACFDA,
 					'300': 'hsl(222, 17%, 71%)',
@@ -146,7 +145,7 @@ module.exports = {
 					'950': 'hsl(225, 25%, 9%)',
 				},
 				blue: {
-					// '50': '#F2F7FF',
+					'50': '#F2F7FF',
 					'100': '#D9E8FF',
 					'200': '#B3D1FF',
 					'300': '#80B2FF',
@@ -156,10 +155,10 @@ module.exports = {
 					'700': '#0047B2',
 					'800': '#00388C',
 					'900': '#002866',
-					'950': '#00173B'
+					'950': '#00173B',
 				},
 				purple: {
-					//'50': '#1A1D22',
+					'50': '#F9F5FC',
 					'100': '#EEE3F6',
 					'200': '#DEC8EE',
 					'300': '#C8A3E2',
@@ -169,7 +168,7 @@ module.exports = {
 					'700': '#65318A',
 					'800': '#4F266C',
 					'900': '#3A1C4F',
-					//'950': '#21102D',
+					'950': '#21102D',
 				},
 				// pink: {
 				// 	//'50': '#FFF5F7',
@@ -280,13 +279,13 @@ module.exports = {
 		require('autoprefixer'), // automatically prefix things with vendor prefixes - again IE11 etc
 		require('@tailwindcss/ui'),
 
-		// plugin(function({ addBase, config }) {
-		// 	const styles = config('theme');
-		// 	var json = JSON.stringify(styles, null, '\t');
-		// 	var fs = require('fs');
-		// 	fs.writeFile('styles.json', json, 'utf8', function() {
-		// 		console.log('done')
-		// 	});
-		// }),
+		plugin(function({ addBase, config }) {
+			const styles = config('theme');
+			var json = JSON.stringify(styles, null, '\t');
+			var fs = require('fs');
+			fs.writeFile('styles.json', json, 'utf8', function() {
+				console.log('done')
+			});
+		}),
 	],
 };

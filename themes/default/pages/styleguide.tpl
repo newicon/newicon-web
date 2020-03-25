@@ -56,18 +56,34 @@
 				<div class="flex-1 overflow-y-scroll">
                     {include file="./_styleguide/typography.tpl" class="bg-black" hex="000000"}
 					<hr />
+
+
 					<section class="container m-auto max-w-screen-lg px-10">
 						<h2 id="colors">Colors</h2>
-
-                        {foreach ['gray', 'cool-gray', 'blue', 'purple', 'pink', 'red', 'orange', 'yellow', 'green', 'teal'] as $color}
-                            {if isset($styles.colors.$color)}
-								<div class="flex">
-                                    {foreach $styles.colors.$color as $name => $hex}
-										<div class="h-16 w-16 bg-{$color}-{$name}"></div>
+						<div class="flex">
+							<div class="w-20 pt-8">white +</div>
+							<div class="">
+								<div class="flex mb-6">
+                                    {foreach [[50, 95], [100,85], [200,70], [300, 50], [400,25], [500,''], [600,15], [700,30], [800, 45], [900,60], [950,77]] as $number}
+										<div class="h-16 w-16 text-center ">
+											<b class="block h-8 font-extrabold text-xl">{$number[0]}</b>
+											<b class="block h-8">{$number[1]}%</b>
+										</div>
                                     {/foreach}
 								</div>
-                            {/if}
-                        {/foreach}
+                                {foreach ['lightGray', 'gray', 'blue', 'purple', 'pink', 'red', 'orange', 'yellow', 'green', 'teal'] as $color}
+                                    {if isset($styles.colors.$color)}
+										<div class="flex">
+                                            {foreach $styles.colors.$color as $name => $hex}
+												<div class="h-16 w-16 bg-{$color}-{$name}"></div>
+                                            {/foreach}
+										</div>
+                                    {/if}
+                                {/foreach}
+							</div>
+							<div class="w-20 pt-8 text-right">+ black</div>
+						</div>
+
 
 						<div class="flex flex-wrap -mx-2 mt-0">
 							<div class="px-2 w-full relative">
@@ -82,6 +98,8 @@
                                     {include file="./_styleguide/_color.tpl" class="bg-transparent" hex=$styles.colors.transparent}
 								</div>
 							</div>
+
+
 	                        {foreach ['gray', 'gun-gray', 'blue', 'purple', 'pink', 'red', 'orange', 'yellow', 'green', 'teal'] as $color}
 		                        {if isset($styles.colors[$color])}
 									<div class="w-1/2 px-2 md:w-full relative mt-4">
@@ -160,6 +178,73 @@
 
 					</section>
 
+                    {$featureCards = [
+                    [
+                    'image' => 'https://images.unsplash.com/photo-1583475969042-4cd769e2999b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80',
+                    'title' => 'Turn your ideas into a reality',
+                    'label' => 'Workshops',
+                    'body' => 'Workshops are at the heart of our Architecture & Design process. We get up on a white board with you and think visually about what you\'re trying to achive. We scribble. We explore. We create. From there, we design and build your prototype.'
+                    ],
+                    [
+                    'image' => 'https://images.unsplash.com/photo-1583475969042-4cd769e2999b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80',
+                    'title' => 'Rapid progress & visual results',
+                    'label' => 'Prototypes',
+                    'body' => 'As digital engineers, we know that prototypes are invaluable to any software or web project. Prototypes are a quick way to get the product in your hands, offering you a true feel for how it\'ll function. Not only does this mean quicker sign-off from important stakeholders, it also means we can iron out any issues before a single line of code is written.'
+                    ],
+                    [
+                    'image' => 'https://images.unsplash.com/photo-1583475969042-4cd769e2999b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80',
+                    'title' => 'A people-centric design process',
+                    'label' => 'User experience Design',
+                    'body' => 'Great UX design captures the attention, sticks in the memory, and compels users to take action. It results in products that are so intuitive that users don\'t give a second thought to the design. We create digital products that do all that, and more.'
+                    ],
+                    [
+                    'image' => 'https://images.unsplash.com/photo-1583475969042-4cd769e2999b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80',
+                    'title' => 'Beautiful visual design',
+                    'label' => 'User Interface Design',
+                    'body' => 'We design user interfaces that are as intuitive as they are beautiful. And we think both are equally important. Ease-of-use is integral to a smooth user experience, while carefully-crafted aesthetics make your project stand-out from the crowd and stick in the mind.'
+                    ]
+                    ]}
+
+                    {layout_section style="background:#F3F5F9;"}
+                    {layout_container}
+						<h1>simple cards</h1>
+                    {foreach $featureCards as $card}
+						<div class="my-20">
+                            {include file="./_cmps/feature/card/simple.tpl" flip={cycle values="left,right"} title=$card.title body=$card.body label=$card.label image=$card.image}
+						</div>
+                    {/foreach}
+                    {/layout_container}
+                    {/layout_section}
+
+                    {layout_section style="background:#F3F5F9;"}
+                    {layout_container}
+						<h1>Feature cards - borderless</h1>
+						<p>A borderless feature card expands to its container and has no default border - this can be determined by its parent template</p>
+                    {/layout_container}
+                    {/layout_section}
+                    {foreach $featureCards as $card}
+                        {include file="./_cmps/feature/card/borderless.tpl" flip={cycle values="left,right"} title=$card.title body=$card.body label=$card.label image=$card.image}
+                    {/foreach}
+
+                    {layout_section style="background:#F3F5F9;"}
+                    {layout_container}
+						<h1>Feature cards - borderless inside a container</h1>
+						<div class=" shadow-2xl rounded-md rounded-lg overflow-hidden bg-white max-w-screen-xl mx-auto">
+                            {foreach $featureCards as $card}
+                                {include file="./_cmps/feature/card/borderless.tpl" flip={cycle values="left,right"} title=$card.title body=$card.body label=$card.label image=$card.image}
+                            {/foreach}
+						</div>
+                    {/layout_container}
+                    {/layout_section}
+
+                    {layout_section style="background:#F3F5F9;"}
+                    {layout_container}
+						<h1>Feature Skewed cards</h1>
+                    {foreach $featureCards as $card}
+                        {include file="./_cmps/feature/card/skewed.tpl" flip={cycle values="left,right"} title=$card.title body=$card.body label=$card.label image=$card.image}
+                    {/foreach}
+                    {/layout_container}
+                    {/layout_section}
 
 
 
@@ -206,6 +291,7 @@
 				</section>
 
 
+					{$styles.spacing|dp}
 
 				<section>
 					Spacing
@@ -219,14 +305,18 @@
 						</tr>
 						</thead>
 						<tbody>
-						<tr>
-							<td>0</td>
-							<td>0</td>
-							<td>0px</td>
-							<td class="hidden sm:table-cell">
-								<div class="h-4 bg-gray-400 w-0"></div>
-							</td>
-						</tr>
+						{foreach $styles.spacing as $name => $value}
+							<tr>
+								<td>{$name}</td>
+								<td>{$value}</td>
+								<td>0px</td>
+								<td class="hidden sm:table-cell">
+									<div class="h-4 bg-gray-400 w-{$name}"></div>
+								</td>
+							</tr>
+
+						{/foreach}
+
 						<tr>
 							<td>px</td>
 							<td>1px</td>
@@ -374,8 +464,6 @@
 						</tbody>
 					</table>
 				</section>
-
-
 			</div>
 			<div class="col-span-3 bg-gray-500 col-end-12 w-3/12"></div>
 
