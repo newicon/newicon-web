@@ -1,5 +1,5 @@
-<div class="lg:min-h-screen flex my-16 sm:my-20">
-	<div class="grid grid-cols-1 lg:grid-cols-2 max-w-screen-xl mx-auto self-center group">
+<div class="lg:my-96  my-16 sm:my-20">
+	<div class="grid grid-cols-1 lg:grid-cols-2 group">
 		<div class="{($flip=='left') ? 'order-0 lg:-mr-14' : 'lg:order-1 lg:-ml-14'} lg:-mb-14 shadow-2xl rounded-t-lg lg:rounded-lg overflow-hidden">
 			<img src="{asset path=$image|default:''}" alt="{$title} image" class="w-full h-full object-cover group-hover:scale-110 transform duration-1000 ease-out" >
 		</div>

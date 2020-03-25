@@ -1,6 +1,5 @@
 {layout_section}
     {layout_container}
-{*<section class="px-6% sm:px-1/12">*}
 	<footer class="py-12 lg:py-16">
 		<div class="grid gap-8 grid-cols-2 md:grid-cols-4 ">
 			<div>
@@ -102,8 +101,6 @@
 		<div class="flex flex-col mt-4">
 			<div class="text-center text-gray-600 text-sm ">&copy; Newicon Ltd. Registered in England and Wales. Company No: 5904359 | VAT: GB 993768447.</div>
 			<ul class="flex self-center mb-0 text-sm">
-				<li class="ml-2 "><a class="text-gray-700 no-underline font-normal" href="#">Terms of Use</a></li>
-				<li class="ml-2 ">|</li>
 				<li class="ml-2 "><a class="text-gray-700 no-underline font-normal" href="{page_url nice='privacy-policy'}">Privacy Policy</a></li>
 				<li class="ml-2 ">|</li>
 				<li class="ml-2 "><a class="text-gray-700 no-underline font-normal" href="#">Site map</a></li>
@@ -111,5 +108,4 @@
 		</div>
 	</footer>
 	{/layout_container}
-{*</section>*}
 {/layout_section}

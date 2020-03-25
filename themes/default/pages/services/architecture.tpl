@@ -21,29 +21,14 @@
 			<div class="min-h-screen flex" data-aos="fade" data-aos-duration="900" data-aos-delay="200">
 				<div class="self-center">
                     {section_header_center
-                    title="Build a blueprint for your digital project"
-                    hr=true
-                    body="You wouldn’t build a house without having an architect sign off on the structure, features, design and cost. And when it comes to building software, apps and websites, neither would we. Our Architecture & Design process involves working closely with you to rapidly generate solutions to your challenges. The result? A visual and technical blueprint for your project, including an interactive, fully-functioning prototype. After all, wouldn't you like to experience what a house feels like to live in, before you buy the thing?"
+                        title="Build a blueprint for your digital project"
+                        hr=true
+                        body="You wouldn’t build a house without having an architect sign off on the structure, features, design and cost. And when it comes to building software, apps and websites, neither would we. Our Architecture & Design process involves working closely with you to rapidly generate solutions to your challenges. The result? A visual and technical blueprint for your project, including an interactive, fully-functioning prototype. After all, wouldn't you like to experience what a house feels like to live in, before you buy the thing?"
                     }
                     {include file='../../widgets/feature_grid.tpl' features=[
-                    [
-                    'icon' => 'images/icons/mid/clickable-prototype.svg',
-                    'title' => 'Rapid prototyping',
-                    'sub' => 'Reducing your risk',
-                    'body' => 'Because we rapidly prototype your project, you quickly get a hands-on experience of your digital product.'
-                    ],
-                    [
-                    'icon' => 'images/icons/mid/designed-for-your-user.svg',
-                    'title' => 'Designed for real People',
-                    'sub' => 'People over technology',
-                    'body' => 'Wihtout people technology is irrelevant. Our UX design team work hard to create products that stick in people’s minds. Easy to use, beautiful to look at.'
-                    ],
-                    [
-                    'icon' => '/images/icons/mid/reliable-results.svg',
-                    'title' => 'Real, reliable results',
-                    'sub' => 'Instant stakeholder feedback',
-                    'body' => 'With our visual, usable prototypes, it’s easy to get everyone on the same page and ready to move forward.'
-                    ]
+                    ['icon' => 'images/icons/mid/clickable-prototype.svg','title' => 'Rapid prototyping','sub' => 'Reducing your risk','body' => 'Because we rapidly prototype your project, you quickly get a hands-on experience of your digital product.'],
+                    ['icon' => 'images/icons/mid/designed-for-your-user.svg','title' => 'Designed for real People','sub' => 'People over technology','body' => 'Wihtout people technology is irrelevant. Our UX design team work hard to create products that stick in people’s minds. Easy to use, beautiful to look at.'],
+                    ['icon' => '/images/icons/mid/reliable-results.svg','title' => 'Real, reliable results','sub' => 'Instant stakeholder feedback','body' => 'With our visual, usable prototypes, it’s easy to get everyone on the same page and ready to move forward.']
                     ]}
 				</div>
 			</div>
@@ -51,13 +36,13 @@
         {/layout_section}
 
 
-        {layout_section style="background:#F3F5F9;"}
+        {layout_section style="background: #F3F5F9;"}
             {layout_container}
 	            {$featureCards = [
 	            ['image' => 'images/photos/mark-n-joe.jpg','title' => 'Turn your ideas into a reality','label' => 'Workshops','body' => 'Workshops are at the heart of our Architecture & Design process. We get up on a white board with you and think visually about what you\'re trying to achive. We scribble. We explore. We create. From there, we design and build your prototype.'],
 	            ['image' => 'images/photos/iphone-wireframe.jpg','title' => 'Rapid progress & visual results','label' => 'Prototypes','body' => 'As digital engineers, we know that prototypes are invaluable to any software or web project. Prototypes are a quick way to get the product in your hands, offering you a true feel for how it\'ll function. Not only does this mean quicker sign-off from important stakeholders, it also means we can iron out any issues before a single line of code is written.'],
-	            ['image' => 'https://images.unsplash.com/photo-1583475969042-4cd769e2999b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80','title' => 'A people-centric design process','label' => 'User experience Design','body' => 'Great UX design captures the attention, sticks in the memory, and compels users to take action. It results in products that are so intuitive that users don\'t give a second thought to the design. We create digital products that do all that, and more.'],
-	            ['image' => 'https://images.unsplash.com/photo-1583475969042-4cd769e2999b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80','title' => 'Beautiful visual design','label' => 'User Interface Design','body' => 'We design user interfaces that are as intuitive as they are beautiful. And we think both are equally important. Ease-of-use is integral to a smooth user experience, while carefully-crafted aesthetics make your project stand-out from the crowd and stick in the mind.']
+	            ['image' => 'images/photos/whiteboarding.jpg','title' => 'A people-centric design process','label' => 'User experience Design','body' => 'Great UX design captures the attention, sticks in the memory, and compels users to take action. It results in products that are so intuitive that users don\'t give a second thought to the design. We create digital products that do all that, and more.'],
+	            ['image' => 'images/photos/screen-watchers.jpg','title' => 'Beautiful visual design','label' => 'User Interface Design','body' => 'We design user interfaces that are as intuitive as they are beautiful. And we think both are equally important. Ease-of-use is integral to a smooth user experience, while carefully-crafted aesthetics make your project stand-out from the crowd and stick in the mind.']
 	            ]}
 		        {foreach $featureCards as $card}
 		            {include file="../_cmps/feature/card/skewed.tpl" flip={cycle values="left,right"} title=$card.title body=$card.body label=$card.label image=$card.image}
@@ -65,33 +50,10 @@
 			{/layout_container}
 		{/layout_section}
 
-{$image1 = {asset path="images/photos/mark-n-joe.jpg"}}
-{$image2 = "http://localhost/newicon-website/public/firefly/file/img?id=N4DDQmcxfGC0XPMs9QmyH0"}
-        {layout_section style="background-image:url('$image1')" class="bg-cover min-h-screen"}
-	        <div class="flex mt-96 ml-6/12 mr-1/12 bg-white z-10 shadow-2xl max-w-2xl mx-auto rounded-md rounded-lg overflow-hidden bg-white group">
-		        <div class="px-1/12 py-1/12 md:px-2/12 md:py-20 bg-white self-center">
-			        <h2 class="text-3xl sm:text-4xl md:text-5xl text-blue-950 pr-10">{$card.title}</h2>
-			        <h6 class="pt-0 text-blue-500 uppercase text-xs font-bold md:pl-15 md:text-sm md:font-extrabold">{$card.label}</h6>
-			        <p class="md:pl-15 text-gray-700 text-justify">{$card.body}</p>
-		        </div>
-	        </div>
-		{/layout_section}
-		{layout_section style="background-image:url('$image2')" class="bg-cover min-h-screen"}
-	        <div class="flex mt-96 ml-1/12 mr-6/12 bg-white z-10 shadow-2xl max-w-2xl rounded-md rounded-lg overflow-hidden bg-white group">
-		        <div class="px-1/12 py-1/12 md:px-2/12 md:py-20 bg-white self-center">
-			        <h2 class="text-3xl sm:text-4xl md:text-5xl text-blue-950 pr-10">{$card.title}</h2>
-			        <h6 class="pt-0 text-blue-500 uppercase text-xs font-bold md:pl-15 md:text-sm md:font-extrabold">{$card.label}</h6>
-			        <p class="md:pl-15 text-gray-700 text-justify">{$card.body}</p>
-		        </div>
-	        </div>
-		{/layout_section}
-
-
 
         {layout_section}
         {layout_container}
 			<div class="min-h-screen flex">
-
 				<div class="self-center">
                     {section_header_center title="Design" sub="Cant see what you are looking for?"}
 					<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 text-center gap-3 ">
@@ -168,8 +130,11 @@
 			</div>
         {/layout_container}
 	{/layout_section}
+
+
+
     {layout_section class="bg-blue-950 text-white"}
-    {layout_container}
+    {layout_container class="my-20"}
 		<img class="absolute top-0 -mt-10 left-0" src="{asset path='/images/temp/callout-image-1.svg'}"
 		     alt=""
 		     width="277" height="209">
@@ -195,7 +160,7 @@
     {/layout_section}
 
 
-    {layout_section class="bg-gray-100 "}
+    {layout_section class="bg-gray-100 py-5"}
     {layout_container}
 		<div class="flex justify-between">
 			<div class="w-6/12 mr-1/12">
@@ -206,13 +171,11 @@
 					Mark for a
 					free consultation.</p>
 				<button class="mt-5 btn btn-outline-primary px-12 py-4 btn-fx border-blue-950 text-blue-950">
-					Book a
-					call
+					Book a call
 				</button>
 			</div>
 			<div>
-				<img class="border-8 border-white rounded-full "
-				     src="{asset path='/images/temp/callout-image-2.png'}" alt="" width="250" height="250">
+				<img class="border-8 border-white rounded-full " src="{asset path='/images/temp/callout-image-2.png'}" alt="" width="250" height="250">
 			</div>
 		</div>
     {/layout_container}
@@ -222,5 +185,5 @@
 
     {section_testimonials}
 
-    {section_contact_footer}
+    {section_contact_footer title="Start your future, today"}
 {/block}

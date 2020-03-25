@@ -23,20 +23,20 @@
 					<div class="w-1/2">
 						<label class="sr-only" for="contact-name">Name</label>
 						<input type="text"
-						       class="form-input rounded-b-none rounded-r-none relative focus:z-10 bg-transparent appearance-none w-full px-5 py-5 border text-white text-xl border-gray-600 leading-6 rounded-md placeholder-gray-500 focus:outline-none focus:placeholder-gray-300 focus:border-blue-500 transition duration-150 ease-in-out"
+						       class="form-input rounded-b-none rounded-r-none relative focus:z-10 bg-transparent appearance-none w-full px-5 py-5 border text-white text-xl border-gray-600 leading-6 rounded-md placeholder-gray-300 focus:outline-none focus:placeholder-gray-200 focus:border-blue-500 transition duration-150 ease-in-out"
 						       name="contact[name]" id="contact-name" placeholder="Name">
 					</div>
 					<div class="w-1/2 -ml-px">
 						<label class="sr-only" for="contact-email">Name</label>
 						<input type="text" required
-						       class="form-input rounded-b-none rounded-l-none relative  focus:z-10 bg-transparent appearance-none w-full px-5 py-5 border text-white text-xl border-gray-600 leading-6 rounded-md placeholder-gray-500 focus:outline-none focus:placeholder-gray-300 focus:border-blue-500 transition duration-150 ease-in-out"
+						       class="form-input rounded-b-none rounded-l-none relative  focus:z-10 bg-transparent appearance-none w-full px-5 py-5 border text-white text-xl border-gray-600 leading-6 rounded-md placeholder-gray-300 focus:outline-none focus:placeholder-gray-200 focus:border-blue-500 transition duration-150 ease-in-out"
 						       name="contact[email]" id="contact-email" placeholder="Email address*">
 					</div>
 				</div>
 				<div class="w-full -mt-px pr-px">
 					<label class="sr-only" for="contact-message">Name</label>
 					<textarea oninput="autoExpand(this)"
-					          class="form-input h-48 pr-px rounded-t-none relative focus:z-10 bg-transparent appearance-none w-full px-5 py-5 border text-white text-xl border-gray-600 leading-6 rounded-md placeholder-gray-500 focus:outline-none focus:placeholder-gray-300 focus:border-blue-500 transition duration-150 ease-in-out"
+					          class="form-input h-48 pr-px rounded-t-none relative focus:z-10 bg-transparent appearance-none w-full px-5 py-5 border text-white text-xl border-gray-600 leading-6 rounded-md placeholder-gray-300 focus:outline-none focus:placeholder-gray-200 focus:border-blue-500 transition duration-150 ease-in-out"
 					          name="contact[message]" id="contact-message" placeholder="Tell us about your project"></textarea>
 					{js}
 						var autoExpand = function (field) {
@@ -57,8 +57,8 @@
 				</div>
 				<div class="mt-3 flex flex-wrap">
 					<div class="md:w-8/12 w-full md:pr-10 ">
-						<p class="mb-0 text-gray-300 text-lg font-normal">Subscribe to our newsletter?</p>
-						<div class="text-gray-300">We keep your data safe - <a href="{page_url id="privacy-policy"}">privacy</a>.</div>
+						<p class="mb-0 mt-2 text-gray-300 text-lg font-normal">Subscribe to our newsletter?</p>
+						<div class="text-gray-300 mb-4">We keep your data safe - <a href="{page_url id="privacy-policy"}">privacy</a>.</div>
 						<input id="contact-subscribe-yes" name="subscribe" type="radio" class="-mt-1 form-radio bg-transparent h-5 w-5 text-blue-500 transition duration-150 ease-in-out" value="yes" required>
 						<label for="contact-subscribe-yes" class="ml-3">
 							<span class=" text-lg leading-5 font-medium text-gray-300">Yes</span>
@@ -68,58 +68,9 @@
 							<span class=" text-lg leading-5 font-medium text-gray-300">No</span>
 						</label>
 					</div>
-					<button type="submit" class="btn btn-secondary btn-fx md:w-4/12 w-full md:mt-0 mt-4">Send message</button>
+					<button type="submit" class="mt-6 btn btn-lg bg-white btn-secondary btn-fx md:w-4/12 w-full md:mt-0 mt-4">Send message</button>
 				</div>
 			</form>
 		</div>
 	{/layout_container}
 {/layout_section}
-
-
-<img class="_2zEKz"
-     sizes="
-	     (max-width: 767px) 100vw,
-	     (max-width: 366px) 334px,
-	     (max-height: 676px) 334px,
-	     (min-aspect-ratio: 5584/8368) calc((calc(100vh - 175px)) * 0.667304),
-	     calc(100vw - 32px)"
-     srcset="
-	     https://images.unsplash.com/photo?fit=crop&w=334&q=80 334w,
-	     https://images.unsplash.com/photo?fit=crop&w=634&q=80 634w,
-	     https://images.unsplash.com/photo?fit=crop&w=668&q=80 668w,
-	     https://images.unsplash.com/photo?fit=crop&w=934&q=80 934w,
-	     https://images.unsplash.com/photo?fit=crop&w=1234&q=80 1234w,
-	     https://images.unsplash.com/photo?fit=crop&w=1268&q=80 1268w,
-	     https://images.unsplash.com/photo?fit=crop&w=1534&q=80 1534w,
-	     https://images.unsplash.com/photo?fit=crop&w=1834&q=80 1834w,
-	     https://images.unsplash.com/photo?fit=crop&w=1868&q=80 1868w,
-	     https://images.unsplash.com/photo?fit=crop&w=2134&q=80 2134w,
-	     https://images.unsplash.com/photo?fit=crop&w=2434&q=80 2434w,
-	     https://images.unsplash.com/photo?fit=crop&w=2468&q=80 2468w,
-	     https://images.unsplash.com/photo?fit=crop&w=2734&q=80 2734w,
-	     https://images.unsplash.com/photo?fit=crop&w=3034&q=80 3034w,
-	     https://images.unsplash.com/photo?fit=crop&w=3068&q=80 3068w,
-	     https://images.unsplash.com/photo?fit=crop&w=3334&q=80 3334w,
-	     https://images.unsplash.com/photo?fit=crop&w=3634&q=80 3634w,
-	     https://images.unsplash.com/photo?fit=crop&w=3668&q=80 3668w,
-	     https://images.unsplash.com/photo?fit=crop&w=3934&q=80 3934w,
-	     https://images.unsplash.com/photo?fit=crop&w=4234&q=80 4234w,
-	     https://images.unsplash.com/photo?fit=crop&w=4268&q=80 4268w,
-	     https://images.unsplash.com/photo?fit=crop&w=4534&q=80 4534w,
-	     https://images.unsplash.com/photo?fit=crop&w=4834&q=80 4834w,
-	     https://images.unsplash.com/photo?fit=crop&w=4868&q=80 4868w,
-	     https://images.unsplash.com/photo?fit=crop&w=5134&q=80 5134w,
-	     https://images.unsplash.com/photo?fit=crop&w=5434&q=80 5434w,
-	     https://images.unsplash.com/photo?fit=crop&w=5468&q=80 5468w,
-	     https://images.unsplash.com/photo?fit=crop&w=5584&q=80 5584w,
-	     https://images.unsplash.com/photo?fit=crop&w=5584&q=80 5584w,
-	     https://images.unsplash.com/photo?fit=crop&w=5584&q=80 5584w,
-	     https://images.unsplash.com/photo?fit=crop&w=5584&q=80 5584w,
-	     https://images.unsplash.com/photo?fit=crop&w=5584&q=80 5584w,
-	     https://images.unsplash.com/photo?fit=crop&w=5584&q=80 5584w,
-	     https://images.unsplash.com/photo?fit=crop&w=5584&q=80 5584w,
-	     https://images.unsplash.com/photo?fit=crop&w=5584&q=80 5584w,
-	     https://images.unsplash.com/photo?fit=crop&w=5584&q=80 5584w,
-	     https://images.unsplash.com/photo?fit=crop&w=5584&q=80 5584w,
-	     https://images.unsplash.com/photo?fit=crop&w=5584&q=80 5584w"
-    src="https://images.unsplash.com/photo?fit=crop&w=1000&q=80" alt="brown button up long sleeve shirt">

@@ -247,6 +247,28 @@
                     {/layout_section}
 
 
+                    {$image1 = {asset path="images/photos/mark-n-joe.jpg"}}
+                    {$image2 = "http://localhost/newicon-website/public/firefly/file/img?id=N4DDQmcxfGC0XPMs9QmyH0"}
+                    {layout_section style="background-image:url('$image1')" class="bg-cover min-h-screen"}
+						<div class="flex mt-96 ml-6/12 mr-1/12 bg-white z-10 shadow-2xl max-w-2xl mx-auto rounded-md rounded-lg overflow-hidden bg-white group">
+							<div class="px-1/12 py-1/12 md:px-2/12 md:py-20 bg-white self-center">
+								<h2 class="text-3xl sm:text-4xl md:text-5xl text-blue-950 pr-10">{$card.title}</h2>
+								<h6 class="pt-0 text-blue-500 uppercase text-xs font-bold md:pl-15 md:text-sm md:font-extrabold">{$card.label}</h6>
+								<p class="md:pl-15 text-gray-700 text-justify">{$card.body}</p>
+							</div>
+						</div>
+                    {/layout_section}
+                    {layout_section style="background-image:url('$image2')" class="bg-cover min-h-screen"}
+						<div class="flex mt-96 ml-1/12 mr-6/12 bg-white z-10 shadow-2xl max-w-2xl rounded-md rounded-lg overflow-hidden bg-white group">
+							<div class="px-1/12 py-1/12 md:px-2/12 md:py-20 bg-white self-center">
+								<h2 class="text-3xl sm:text-4xl md:text-5xl text-blue-950 pr-10">{$card.title}</h2>
+								<h6 class="pt-0 text-blue-500 uppercase text-xs font-bold md:pl-15 md:text-sm md:font-extrabold">{$card.label}</h6>
+								<p class="md:pl-15 text-gray-700 text-justify">{$card.body}</p>
+							</div>
+						</div>
+                    {/layout_section}
+
+
 
 				<section class="container m-auto max-w-screen-lg px-10">
 
