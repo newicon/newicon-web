@@ -3,1012 +3,142 @@
 	{navigation}
 {/block}
 {block "content"}
-	<div class="main">
+{*
+	[
+		{
+			"cmp": "hero/illustration",
+			"title": ""
+		},
+		{
+			"cmp": "feature/grid",
+			"features": [
+				{icon: '', title: ''},
+				{icon: '', title: ''},
+			]
+		},
+		{}
+	]
+*}
+	{include file='../_cmps/hero/illustration.tpl' title="Software Development" sub="You dream it, we build it" callBtn=true illustration="images/illustrations/Software Dev Illustration.svg"}
 
-		{hero_text
-			title="Software Development"
-			bgTitle=false
-			sub="You dream it, we build it"
-			callBtn=true
-		}
+	{include file='../_cmps/section/feature/grid.tpl'
+		title="Software development starts with the dream." hr=true
+		body="We’ve worked with companies of every shape and size — from one-person start-ups through to multinational corporations. Whether you’re creating a new, disruptive app or a powerful database solution, there’s really only one thing that matters. Defining the right problem for the right person."
+		features=[
+			['icon' => 'images/icons/mid/designed-for-your-user.svg','title' => 'User-Centered Design','sub' => 'Putting you first','body' => 'Sign-off on a usable prototype, before agreeing to development. No wasted time, no wasted money.'],
+			['icon' => 'images/icons/mid/custom-software.svg','title' => 'Custom software','sub' => 'Tailored to you','body' => 'Bespoke software offers solutions to your business’s unique challenges. No need to compromise.'],
+			['icon' => 'images/icons/mid/agile-development.svg','title' => 'Agile development','sub' => 'Evolving through collaboration','body' => 'With our agile methodology, knowledge is always fed back into the end product, resulting in the best possible end-result.']
+		]
+	}
 
-		<div class="mt-4 lg:-mt-5 xl:-mt-15 mx-4%" data-aos="fade-up" data-aos-delay="300">
-	        <img src="{asset path='images/illustrations/Software Dev Illustration.svg'}" alt="Software development illustration" >
-	    </div>
+	{include file="../_cmps/section/feature/cards.tpl" type=skewed  cards=[
+		['image' => 'images/photos/ipad-user-screenshot.jpg','title' => 'If you can dream it, we can build it!','label' => 'Web Applications','body' => 'Web software can power your whole business. We utilise innovative web technology to improve all aspects of business, from customer facing portals, through to back-office system. Got an innovative idea you would like to us to build? Let us know!'],
+		['image' => 'images/photos/iphone-user-screenshot.jpg','title' => 'Access your business from anywhere','label' => 'Mobile apps','body' => 'Mobile plays an ever increasing role in business today. From allowing your customers to interact with your business and their data, through to managing your staff and back office operations. We integrate mobile solutions with our bespoke web-apps and also provide integration with third party systems.'],
+		['image' => 'images/photos/switchee.jpg','title' => 'Connect to the physical world','label' => 'Internet of Things (IoT)','body' => 'We design and develop customer led controller apps for mobile, and the web-applications that manage and control these devices. Our expertise has allowed us to work with electronic firms and entrepeneurs to develop applications for innovative products. Do you have an IoT challenge for us?'],
+		['image' => 'images/photos/macbook-user.jpg','title' => 'Connect your business, customers & data','label' => 'Backend systems & Client portals','body' => 'Get your back-end system streamlined and optimised, then create access to it with an easy-to-use portal. Completing those two tasks could be the most transformative action your business takes this year. Modern businesses are built on data; take control of yours today.']
+	]}
 
-		{layout_section}
-			{layout_container}
-				<div class="min-h-screen flex" data-aos="fade" data-aos-duration="900" data-aos-delay="200">
-					<div class="self-center">
-						{section_header_center
-						title="Software development starts with the dream."
-						hr=true
-						body="We’ve worked with companies of every shape and size — from one-person start-ups through to multinational corporations. Whether you’re creating a new, disruptive app or a powerful database solution, there’s really only one thing that matters. Defining the right problem for the right person."
-						}
-                        {include file='../../widgets/feature_grid.tpl' features=[
-                        ['icon' => 'images/icons/mid/clickable-prototype.svg','title' => 'Rapid prototyping','sub' => 'Reducing your risk','body' => 'Because we rapidly prototype your project, you quickly get a hands-on experience of your digital product.'],
-                        ['icon' => 'images/icons/mid/designed-for-your-user.svg','title' => 'Designed for real People','sub' => 'People over technology','body' => 'Wihtout people technology is irrelevant. Our UX design team work hard to create products that stick in people’s minds. Easy to use, beautiful to look at.'],
-                        ['icon' => '/images/icons/mid/reliable-results.svg','title' => 'Real, reliable results','sub' => 'Instant stakeholder feedback','body' => 'With our visual, usable prototypes, it’s easy to get everyone on the same page and ready to move forward.']
-                        ]}
+
+
+
+
+    {layout_section}
+    {layout_container}
+		<div class="min-h-screen flex">
+			<div class="self-center">
+                {header_center title="Cutting-edge technology to solve your challenges" sub="Our consultancy services help you find the right technology for your challenges."}
+				<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 text-center gap-3 ">
+					<div class="shadow-xl hover:shadow-2xl transition duration-200 ease-out rounded-md p-10 transform hover:-translate-y-1">
+						<img class="mx-auto my-8 w-full"  src="{asset path="images/icons/micro/micro-icon-ai.svg"}">
+						<h2 class="text-2xl font-light">AI & Machine Learning</h2>
+						<p>
+							Want to know how AI and machine learning could benefit your business? Talk to us today!
+						</p>
 					</div>
-				</div>
-			{/layout_container}
-		{/layout_section}
-
-
-        {layout_section style="background: #F3F5F9;"}
-        {layout_container}
-        {$featureCards = [
-        ['image' => 'images/photos/ipad-user-screenshot.jpg','title' => 'If you can dream it, we can build it!','label' => 'Web Applications','body' => 'Web software can power your whole business. We utilise innovative web technology to improve all aspects of business, from customer facing portals, through to back-office system. Got an innovative idea you would like to us to build? Let us know!']
-        ]}
-        {foreach $featureCards as $card}
-            {include file="../_cmps/feature/card/skewed.tpl" flip={cycle values="left,right"} title=$card.title body=$card.body label=$card.label image=$card.image}
-        {/foreach}
-        {/layout_container}
-        {/layout_section}
-
-		<section class="sectionArticles">
-			<div class="shell">
-				<div class="sectionContent">
-					<div class="articlesSmall">
-						<div class="articleSmall">
-							<div class="article_inner">
-								<div class="article_image">
-									<img src="{asset path='/images/temp/article-image-1.jpg'}" alt="" width="675" height="457">
-								</div>
-
-								<div class="article_content">
-									<h2>If you can dream it, we can build it!</h2>
-
-									<div class="article_entry">
-										<h6>Web Applications</h6>
-
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="articleSmall">
-							<div class="article_inner">
-								<div class="article_image">
-									<img src="{asset path='/images/temp/article-image-2.jpg'}" alt="" width="675" height="457">
-								</div>
-
-								<div class="article_content">
-									<h2>Access your business from anywhere</h2>
-
-									<div class="article_entry">
-										<h6>Mobile apps</h6>
-
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="articleSmall">
-							<div class="article_inner">
-								<div class="article_image">
-									<img src="{asset path='/images/temp/article-image-3.jpg'}" alt="" width="675" height="457">
-								</div>
-
-								<div class="article_content">
-									<h2>Connect to the physical world</h2>
-
-									<div class="article_entry">
-										<h6>Internet of Things (IoT)</h6>
-
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="articleSmall">
-							<div class="article_inner">
-								<div class="article_image">
-									<img src="{asset path='/images/temp/article-image-4.jpg'}" alt="" width="675" height="457">
-								</div>
-
-								<div class="article_content">
-									<h2>Connect your business, customers &amp; data</h2>
-
-									<div class="article_entry">
-										<h6>Backend systems &amp; Client portals</h6>
-
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
+					<div class="shadow-xl hover:shadow-2xl transition duration-200 ease-out rounded-md transform hover:-translate-y-1  p-10">
+						<img class="mx-auto my-8 w-full"  src="{asset path="images/icons/micro/micro-icon-arvr.svg"}">
+						<h2 class="text-2xl font-light">AR, VR & Visual Recognision</h2>
+						<p>
+							We're dedicated to keeping up to date with the latest innovations in the tech world.
+						</p>
 					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="sectionSecondary">
-			<div class="shell">
-				<header class="section_head">
-					<h2>Cutting-edge technology to solve your challanges</h2>
-
-					<h4>Our consultancy services help you find the right technology for your challanges.</h4>
-
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat rud exercitation ullamco laboris nisi ut aliquip ex.
-					</p>
-				</header>
-
-				<div class="section_body">
-					<div class="slider slider-cards">
-						<div class="slider_clip">
-							<div class="slider_slides cards">
-								<div class="slider_slide card">
-									<div class="card_inner">
-										<div class="card_image">
-											<i class="ico-technologies"></i>
-										</div>
-
-										<div class="card_content">
-											<h4>AI &amp; Machine Learning</h4>
-
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-											</p>
-										</div>
-									</div>
-
-									<div class="card_imageText card_imageText-position2">
-										<img src="{asset path='/images/temp/card-image-text-5.png'}" alt="" width="184" height="100">
-									</div>
-								</div>
-
-								<div class="slider_slide card">
-									<div class="card_inner">
-										<div class="card_image">
-											<i class="ico-team"></i>
-										</div>
-
-										<div class="card_content">
-											<h4>AR, VR &amp; Visual Recognision</h4>
-
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-											</p>
-										</div>
-									</div>
-
-									<div class="card_imageText card_imageText-position3">
-										<img src="{asset path='/images/temp/card-image-text-2.png'}" alt="" width="205" height="97">
-									</div>
-								</div>
-
-								<div class="slider_slide card">
-									<div class="card_inner">
-										<div class="card_image">
-											<i class="ico-framework"></i>
-										</div>
-
-										<div class="card_content">
-											<h4>Connected Cloud Computing</h4>
-
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-											</p>
-										</div>
-									</div>
-
-									<div class="card_imageText card_imageText-position4">
-										<img src="{asset path='/images/temp/card-image-text-3.png'}" alt="" width="148" height="111">
-									</div>
-								</div>
-
-								<div class="slider_slide card">
-									<div class="card_inner">
-										<div class="card_image">
-											<i class="ico-peak"></i>
-										</div>
-
-										<div class="card_content">
-											<h4>Software-as-a Service (startups)</h4>
-
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-											</p>
-										</div>
-									</div>
-
-									<div class="card_imageText card_imageText-position5">
-										<img src="{asset path='/images/temp/card-image-text-4.png'}" alt="" width="133" height="124">
-									</div>
-								</div>
-
-								<div class="slider_slide card">
-									<div class="card_inner">
-										<div class="card_image">
-											<i class="ico-peak"></i>
-										</div>
-
-										<div class="card_content">
-											<h4>Software-as-a Service (startups)</h4>
-
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-											</p>
-										</div>
-									</div>
-
-									<div class="card_imageText card_imageText-position5">
-										<img src="{asset path='images/temp/card-image-text-4.png'}" alt="" width="133" height="124">
-									</div>
-								</div>
-
-								<div class="slider_slide card">
-									<div class="card_inner">
-										<div class="card_image">
-											<i class="ico-peak"></i>
-										</div>
-
-										<div class="card_content">
-											<h4>Software-as-a Service (startups)</h4>
-
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-											</p>
-										</div>
-									</div>
-
-									<div class="card_imageText card_imageText-position5">
-										<img src="{asset path='images/temp/card-image-text-4.png'}" alt="" width="133" height="124">
-									</div>
-								</div>
-
-								<div class="slider_slide card">
-									<div class="card_inner">
-										<div class="card_image">
-											<i class="ico-peak"></i>
-										</div>
-
-										<div class="card_content">
-											<h4>Software-as-a Service (startups)</h4>
-
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-											</p>
-										</div>
-									</div>
-
-									<div class="card_imageText card_imageText-position5">
-										<img src="{asset path='images/temp/card-image-text-4.png'}" alt="" width="133" height="124">
-									</div>
-								</div>
-
-								<div class="slider_slide card">
-									<div class="card_inner">
-										<div class="card_image">
-											<i class="ico-peak"></i>
-										</div>
-
-										<div class="card_content">
-											<h4>Software-as-a Service (startups)</h4>
-
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-											</p>
-										</div>
-									</div>
-
-									<div class="card_imageText card_imageText-position5">
-										<img src="{asset path='images/temp/card-image-text-4.png'}" alt="" width="133" height="124">
-									</div>
-								</div>
-							</div>
-						</div>
+					<div class="shadow-xl hover:shadow-2xl transition duration-200 ease-out p-10 rounded-md transform hover:-translate-y-1">
+						<svg class="mx-auto my-8" width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+							<g fill-rule="nonzero" fill="none">
+								<path d="M16.57 6.555l-.1-.087v-.049h-.56a.299.299 0 00-.13 0v.049l-.1.087-8.81 12.218.26.369c0 .048 3.21 4.713 3.21 9.377v2.822c0 .364.304.659.68.659a.67.67 0 00.68-.66V28.52v-.272h8.62V31.341c0 .364.304.659.68.659a.67.67 0 00.68-.66V28.52c0-4.664 3.18-9.329 3.21-9.377l.26-.369-8.58-12.218zM20.4 26.92h-8.8a21.324 21.324 0 00-3.1-8.136l6.82-9.697v6.07c0 .365.304.66.68.66a.67.67 0 00.68-.66V9.047l6.82 9.697a21.322 21.322 0 00-3.1 8.184v-.01z"
+								      fill="#A8C5DD"/>
+								<path d="M16 19.52c-1.254 0-2.27-.986-2.27-2.201 0-1.216 1.016-2.201 2.27-2.201s2.27.985 2.27 2.2c0 1.216-1.016 2.202-2.27 2.202zm0-3.093c-.508 0-.92.4-.92.892s.412.892.92.892.92-.4.92-.892c0-.493-.412-.892-.92-.892z"
+								      fill="#032663"/>
+								<path d="M27.47.97v1.542h-9.32a2.092 2.092 0 00-.55-.902c-.424-.412-1-.644-1.6-.644-.6 0-1.176.232-1.6.644a2.064 2.064 0 00-.55.892H4.53V.97H0v4.392h4.53V3.821h9.32c.102.34.291.65.55.901.555.551 1.37.776 2.141.59a2.211 2.211 0 001.609-1.491h9.32v1.541H32V.97h-4.53zM3.19 4.063H1.34V2.269h1.85v1.794zm13.46-.262a.94.94 0 01-1.3 0 .882.882 0 01-.195-.973.925.925 0 011.495-.297c.36.352.36.919 0 1.27zm14 .262h-1.84V2.269h1.85l-.01 1.794z"
+								      fill="#2969F6"/>
+							</g>
+						</svg>
+						<h2 class="text-2xl font-light">Connected Cloud Computing</h2>
+						<p>
+							How we save and store data has completely changed. Don't get left behind, ask about cloud computing.
+						</p>
+					</div>
+					<div class="shadow-xl hover:shadow-2xl transition duration-200 ease-out p-10 rounded-md transform hover:-translate-y-1">
+						<svg class="mx-auto my-8" width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+							<g fill-rule="nonzero" fill="none">
+								<path d="M5.818 13.42a6.255 6.255 0 01-2.996-1.018 5.818 5.818 0 01-.97-.795 6.233 6.233 0 119.503-8 6.196 6.196 0 011.115 2.977.663.663 0 11-1.318.136 4.848 4.848 0 00-.873-2.356 4.752 4.752 0 00-.582-.64 4.916 4.916 0 10-6.167 7.583 4.965 4.965 0 002.356.805.66.66 0 010 1.309h-.068z"
+								      fill="#032663"/>
+								<path d="M11.016 22.38a.737.737 0 01-.204 0 8.32 8.32 0 01-3.336-2.036 8.393 8.393 0 1111.84-11.898c.358.333.683.7.97 1.096a8.398 8.398 0 011.154 2.346.66.66 0 11-1.26.388 6.953 6.953 0 00-.97-1.939 8.67 8.67 0 00-.776-.921 7.07 7.07 0 10-7.176 11.723.66.66 0 01-.203 1.28l-.04-.038z"
+								      fill="#A8C5DD"/>
+								<path d="M20.732 32a10.241 10.241 0 01-5.644-1.687 10.987 10.987 0 01-1.61-1.32c-4.016-4.016-4.016-10.528 0-14.545 4.017-4.016 10.53-4.016 14.546 0A10.27 10.27 0 0120.732 32zm0-19.258a8.98 8.98 0 00-6.332 15.38c.43.428.901.814 1.406 1.153a8.98 8.98 0 0012.315-12.732 8.61 8.61 0 00-.97-1.164 8.94 8.94 0 00-6.419-2.637z"
+								      fill="#2969F6"/>
+								<path d="M27.52 8.562v-.077a.97.97 0 010-.097l.61-4.276a.66.66 0 00-.552-.747.67.67 0 00-.746.562l-.427 2.91C19.869.212 15.97 1.938 15.796 1.938a.66.66 0 00.543 1.203s3.24-1.203 8.95 4.402l-2.637-.136a.67.67 0 00-.688.621.66.66 0 00.62.689l4.306.232a.67.67 0 00.262-.048h.067a.65.65 0 00.136-.087l.049-.059.087-.116s.029-.068.029-.078z"
+								      fill="#032663"/>
+							</g>
+						</svg>
+						<h2 class="text-2xl font-light">Database Sesign and Management</h2>
+						<p>
+							With edge computing, we can reduce latency and bandwidth use; bringing data closer to you.
+						</p>
+					</div>
+					<div class="shadow-xl hover:shadow-2xl transition duration-200 ease-out p-10 rounded-md transform hover:-translate-y-1">
+						<svg class="mx-auto my-8" width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+							<g fill-rule="nonzero" fill="none">
+								<path d="M5.818 13.42a6.255 6.255 0 01-2.996-1.018 5.818 5.818 0 01-.97-.795 6.233 6.233 0 119.503-8 6.196 6.196 0 011.115 2.977.663.663 0 11-1.318.136 4.848 4.848 0 00-.873-2.356 4.752 4.752 0 00-.582-.64 4.916 4.916 0 10-6.167 7.583 4.965 4.965 0 002.356.805.66.66 0 010 1.309h-.068z"
+								      fill="#032663"/>
+								<path d="M11.016 22.38a.737.737 0 01-.204 0 8.32 8.32 0 01-3.336-2.036 8.393 8.393 0 1111.84-11.898c.358.333.683.7.97 1.096a8.398 8.398 0 011.154 2.346.66.66 0 11-1.26.388 6.953 6.953 0 00-.97-1.939 8.67 8.67 0 00-.776-.921 7.07 7.07 0 10-7.176 11.723.66.66 0 01-.203 1.28l-.04-.038z"
+								      fill="#A8C5DD"/>
+								<path d="M20.732 32a10.241 10.241 0 01-5.644-1.687 10.987 10.987 0 01-1.61-1.32c-4.016-4.016-4.016-10.528 0-14.545 4.017-4.016 10.53-4.016 14.546 0A10.27 10.27 0 0120.732 32zm0-19.258a8.98 8.98 0 00-6.332 15.38c.43.428.901.814 1.406 1.153a8.98 8.98 0 0012.315-12.732 8.61 8.61 0 00-.97-1.164 8.94 8.94 0 00-6.419-2.637z"
+								      fill="#2969F6"/>
+								<path d="M27.52 8.562v-.077a.97.97 0 010-.097l.61-4.276a.66.66 0 00-.552-.747.67.67 0 00-.746.562l-.427 2.91C19.869.212 15.97 1.938 15.796 1.938a.66.66 0 00.543 1.203s3.24-1.203 8.95 4.402l-2.637-.136a.67.67 0 00-.688.621.66.66 0 00.62.689l4.306.232a.67.67 0 00.262-.048h.067a.65.65 0 00.136-.087l.049-.059.087-.116s.029-.068.029-.078z"
+								      fill="#032663"/>
+							</g>
+						</svg>
+						<h2 class="text-2xl font-light">Database Sesign and Management</h2>
+						<p>
+							With edge computing, we can reduce latency and bandwidth use; bringing data closer to you.
+						</p>
+					</div>
+					<div class="shadow-xl hover:shadow-2xl transition duration-200 ease-out p-10 rounded-md transform hover:-translate-y-1">
+						<svg class="mx-auto my-8" width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+							<g fill-rule="nonzero" fill="none">
+								<path d="M5.818 13.42a6.255 6.255 0 01-2.996-1.018 5.818 5.818 0 01-.97-.795 6.233 6.233 0 119.503-8 6.196 6.196 0 011.115 2.977.663.663 0 11-1.318.136 4.848 4.848 0 00-.873-2.356 4.752 4.752 0 00-.582-.64 4.916 4.916 0 10-6.167 7.583 4.965 4.965 0 002.356.805.66.66 0 010 1.309h-.068z"
+								      fill="#032663"/>
+								<path d="M11.016 22.38a.737.737 0 01-.204 0 8.32 8.32 0 01-3.336-2.036 8.393 8.393 0 1111.84-11.898c.358.333.683.7.97 1.096a8.398 8.398 0 011.154 2.346.66.66 0 11-1.26.388 6.953 6.953 0 00-.97-1.939 8.67 8.67 0 00-.776-.921 7.07 7.07 0 10-7.176 11.723.66.66 0 01-.203 1.28l-.04-.038z"
+								      fill="#A8C5DD"/>
+								<path d="M20.732 32a10.241 10.241 0 01-5.644-1.687 10.987 10.987 0 01-1.61-1.32c-4.016-4.016-4.016-10.528 0-14.545 4.017-4.016 10.53-4.016 14.546 0A10.27 10.27 0 0120.732 32zm0-19.258a8.98 8.98 0 00-6.332 15.38c.43.428.901.814 1.406 1.153a8.98 8.98 0 0012.315-12.732 8.61 8.61 0 00-.97-1.164 8.94 8.94 0 00-6.419-2.637z"
+								      fill="#2969F6"/>
+								<path d="M27.52 8.562v-.077a.97.97 0 010-.097l.61-4.276a.66.66 0 00-.552-.747.67.67 0 00-.746.562l-.427 2.91C19.869.212 15.97 1.938 15.796 1.938a.66.66 0 00.543 1.203s3.24-1.203 8.95 4.402l-2.637-.136a.67.67 0 00-.688.621.66.66 0 00.62.689l4.306.232a.67.67 0 00.262-.048h.067a.65.65 0 00.136-.087l.049-.059.087-.116s.029-.068.029-.078z"
+								      fill="#032663"/>
+							</g>
+						</svg>
+						<h2 class="text-2xl font-light">Database Sesign and Management</h2>
+						<p>
+							With edge computing, we can reduce latency and bandwidth use; bringing data closer to you.
+						</p>
 					</div>
 				</div>
 			</div>
-		</section>
+		</div>
+    {/layout_container}
+    {/layout_section}
 
-		<section class="callout">
-			<div class="callout_images">
-				<div class="callout_image">
-					<img src="{asset path='images/temp/callout-image-1.svg'}" alt="" width="277" height="209">
-				</div>
 
-				<div class="callout_image">
-					<img src="{asset path='images/temp/callout-image-2.png'}" alt="" width="222" height="222">
-				</div>
-
-				<div class="callout_image">
-					<img src="{asset path='images/temp/callout-image-3.png'}" alt="" width="145" height="68">
-				</div>
-			</div>
-
-			<div class="callout_content">
-				<div class="shell">
-					<div class="callout_inner">
-						<div class="callout_head">
-							<h1 class="callout_title">Not sure exactly what you’re looking for?</h1>
-
-							<h4 class="callout_subtitle">Don’t worry. We’ll help you define exactly what you need.</h4>
-
-							<a href="#" class="btn btn-gray btn-outline">Start a conversation</a>
-						</div>
-
-						<div class="callout_body">
-							<div class="callout_entry">
-								<p>
-									We solve challenges for organisations and businesses of all shape, size and industry.
-								</p>
-
-								<p>
-									Whatever your challenge, a brief conversation with one of our team will soon enable us to advise you and your business exactly what you need.
-								</p>
-
-								<a href="#" class="btn btn-gray btn-outline">Start a conversation</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="sectionSecondary sectionSecondary-reasons">
-			<div class="shell">
-				<header class="section_head">
-					<h2>Why choose Newicon?</h2>
-
-					<h4>6 reasons to choose us for your next software project</h4>
-				</header>
-
-				<div class="section_body">
-					<div class="cardsSimple">
-						<div class="cardSimple">
-							<div class="card_inner">
-								<div class="card_image">
-									<img src="{asset path='images/temp/service-image-8.png'}" alt="" width="190" height="130">
-								</div>
-
-								<div class="card_content">
-									<h3>1. Everything under one roof</h3>
-
-									<h5>Design, development and digital marketing</h5>
-
-									<p>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-									</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="cardSimple">
-							<div class="card_inner">
-								<div class="card_image">
-									<img src="{asset path='images/temp/service-image-9.png'}" alt="" width="190" height="130">
-								</div>
-
-								<div class="card_content">
-									<h3>2. Lean, robust &amp; scalable</h3>
-
-									<h5>Software, built to your exact needs</h5>
-
-									<p>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-									</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="cardSimple">
-							<div class="card_inner">
-								<div class="card_image">
-									<img src="{asset path='images/temp/service-image-10.png'}" alt="" width="190" height="130">
-								</div>
-
-								<div class="card_content">
-									<h3>3. Five Star customer reviews</h3>
-
-									<h5>Google review and high customer retention</h5>
-
-									<p>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-									</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="cardSimple">
-							<div class="card_inner">
-								<div class="card_image">
-									<img src="{asset path='images/temp/service-image-9.png'}" alt="" width="190" height="130">
-								</div>
-
-								<div class="card_content">
-									<h3>4. Test-driven development</h3>
-
-									<h5>TDD ensures the highest quality code over time</h5>
-
-									<p>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-									</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="cardSimple">
-							<div class="card_inner">
-								<div class="card_image">
-									<img src="{asset path='images/temp/service-image-11.png'}" alt="" width="190" height="130">
-								</div>
-
-								<div class="card_content">
-									<h3>5. Dedicated hosting &amp; support</h3>
-
-									<h5>Our support boasts a 95% Satisfaction</h5>
-
-									<p>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-									</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="cardSimple">
-							<div class="card_inner">
-								<div class="card_image">
-									<img src="{asset path='images/temp/service-image-12.png'}" alt="" width="190" height="130">
-								</div>
-
-								<div class="card_content">
-									<h3>6. Our innovative framework</h3>
-
-									<h5>With Neon Our starting point isn’t Zero</h5>
-
-									<p>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-									</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="cardSimple">
-							<div class="card_inner">
-								<div class="card_image">
-									<img src="{asset path='images/temp/service-image-9.png'}" alt="" width="190" height="130">
-								</div>
-
-								<div class="card_content">
-									<h3>7. Get ahead with rapid prototyping</h3>
-
-									<h5>We use working prototypes to show real results</h5>
-
-									<p>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-									</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="cardSimple">
-							<div class="card_inner">
-								<div class="card_image">
-									<img src="{asset path='images/temp/service-image-13.png'}" alt="" width="190" height="130">
-								</div>
-
-								<div class="card_content">
-									<h3>8. Adaptable to technologies</h3>
-
-									<h5>We use the best technology for the job</h5>
-
-									<p>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-									</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="cardSimple">
-							<div class="card_inner">
-								<div class="card_image">
-									<img src="{asset path='images/temp/service-image-14.png'}" alt="" width="190" height="130">
-								</div>
-
-								<div class="card_content">
-									<h3>9. User-centred design</h3>
-
-									<h5>We always build tech for real people</h5>
-
-									<p>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="section_actions">
-					<a href="#" class="link link-primary link-lg link-underline">Learn more ></a>
-				</div>
-			</div>
-		</section>
-
-		<section class="section section-portfolio">
-			<header class="section_head">
-				<div class="shell">
-					<h2 class="section_title">Our work</h2>
-
-					<h4 class="section_subtitle">Some of our most best clients and projects</h4>
-				</div>
-			</header>
-
-			<div class="section_body">
-				<div class="shell shell-fluid">
-					<div class="slider slider-portfolio">
-						<div class="slider_clip">
-							<div class="slider_slides">
-								<div class="slider_slide">
-									<div class="slider_slideImage">
-										<img src="{asset path='images/temp/slider-image-1.png'}" alt="" width="1052" height="1145">
-									</div>
-
-									<div class="slider_slideContent">
-										<div class="slider_slideEntry">
-											<h6 class="slider_subtitle">Case Study</h6>
-
-											<h3 class="slider_title">A bespoke mobile application for a recycling startup</h3>
-
-											<p>
-												We designed and built a bespoke mobile appliction that improved both efﬁciency and reliability of the weekly recycle bin collection.
-											</p>
-
-											<a href="#" class="btn btn-primary btn-outline">Explore</a>
-										</div>
-									</div>
-								</div>
-
-								<div class="slider_slide">
-									<div class="slider_slideImage">
-										<img src="{asset path='images/temp/slider-image-1.png'}" alt="" width="1052" height="1145">
-									</div>
-
-									<div class="slider_slideContent">
-										<div class="slider_slideEntry">
-											<h6 class="slider_subtitle">Case Study</h6>
-
-											<h3 class="slider_title">A bespoke mobile application for a recycling startup</h3>
-
-											<p>
-												We designed and built a bespoke mobile appliction that improved both efﬁciency and reliability of the weekly recycle bin collection.
-											</p>
-
-											<a href="#" class="btn btn-primary btn-outline">Explore</a>
-										</div>
-									</div>
-								</div>
-
-								<div class="slider_slide">
-									<div class="slider_slideImage">
-										<img src="{asset path='images/temp/slider-image-1.png'}" alt="" width="1052" height="1145">
-									</div>
-
-									<div class="slider_slideContent">
-										<div class="slider_slideEntry">
-											<h6 class="slider_subtitle">Case Study</h6>
-
-											<h3 class="slider_title">A bespoke mobile application for a recycling startup</h3>
-
-											<p>
-												We designed and built a bespoke mobile appliction that improved both efﬁciency and reliability of the weekly recycle bin collection.
-											</p>
-
-											<a href="#" class="btn btn-primary btn-outline">Explore</a>
-										</div>
-									</div>
-								</div>
-
-								<div class="slider_slide">
-									<div class="slider_slideImage">
-										<img src="{asset path='images/temp/slider-image-1.png'}" alt="" width="1052" height="1145">
-									</div>
-
-									<div class="slider_slideContent">
-										<div class="slider_slideEntry">
-											<h6 class="slider_subtitle">Case Study</h6>
-
-											<h3 class="slider_title">A bespoke mobile application for a recycling startup</h3>
-
-											<p>
-												We designed and built a bespoke mobile appliction that improved both efﬁciency and reliability of the weekly recycle bin collection.
-											</p>
-
-											<a href="#" class="btn btn-primary btn-outline">Explore</a>
-										</div>
-									</div>
-								</div>
-
-								<div class="slider_slide">
-									<div class="slider_slideImage">
-										<img src="{asset path='images/temp/slider-image-1.png'}" alt="" width="1052" height="1145">
-									</div>
-
-									<div class="slider_slideContent">
-										<div class="slider_slideEntry">
-											<h6 class="slider_subtitle">Case Study</h6>
-
-											<h3 class="slider_title">A bespoke mobile application for a recycling startup</h3>
-
-											<p>
-												We designed and built a bespoke mobile appliction that improved both efﬁciency and reliability of the weekly recycle bin collection.
-											</p>
-
-											<a href="#" class="btn btn-primary btn-outline">Explore</a>
-										</div>
-									</div>
-								</div>
-
-								<div class="slider_slide">
-									<div class="slider_slideImage">
-										<img src="{asset path='images/temp/slider-image-1.png'}" alt="" width="1052" height="1145">
-									</div>
-
-									<div class="slider_slideContent">
-										<div class="slider_slideEntry">
-											<h6 class="slider_subtitle">Case Study</h6>
-
-											<h3 class="slider_title">A bespoke mobile application for a recycling startup</h3>
-
-											<p>
-												We designed and built a bespoke mobile appliction that improved both efﬁciency and reliability of the weekly recycle bin collection.
-											</p>
-
-											<a href="#" class="btn btn-primary btn-outline">Explore</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="sliderNav">
-						<ul>
-							<li class="current">
-								<img src="{asset path='images/temp/slider-nav-image-1.png'}" alt="" class="hiddenOnHover" width="101" height="32">
-
-								<img src="{asset path='images/temp/slider-nav-image-1-white.png'}" alt="" class="visibleOnHover" width="101" height="32">
-							</li>
-
-							<li>
-								<img src="{asset path='images/temp/slider-nav-image-2.png'}" alt="" class="hiddenOnHover" width="101" height="32">
-
-								<img src="{asset path='images/temp/slider-nav-image-2-white.png'}" alt="" class="visibleOnHover" width="101" height="32">
-							</li>
-
-							<li>
-								<img src="{asset path='images/temp/slider-nav-image-3.png'}" alt="" class="hiddenOnHover" width="101" height="32">
-
-								<img src="{asset path='images/temp/slider-nav-image-3-white.png'}" alt="" class="visibleOnHover" width="101" height="32">
-							</li>
-
-							<li>
-								<img src="{asset path='images/temp/slider-nav-image-4.png'}" alt="" class="hiddenOnHover" width="101" height="32">
-
-								<img src="{asset path='images/temp/slider-nav-image-4-white.png'}" alt="" class="visibleOnHover" width="101" height="32">
-							</li>
-
-							<li>
-								<img src="{asset path='images/temp/slider-nav-image-5.png'}" alt="" class="hiddenOnHover" width="101" height="32">
-
-								<img src="{asset path='images/temp/slider-nav-image-5-white.png'}" alt="" class="visibleOnHover" width="101" height="32">
-							</li>
-
-							<li>
-								<img src="{asset path='images/temp/slider-nav-image-6.png'}" alt="" class="hiddenOnHover" width="101" height="32">
-
-								<img src="{asset path='images/temp/slider-nav-image-6-white.png'}" alt="" class="visibleOnHover" width="101" height="32">
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="section section-testimonials">
-			<header class="section_head">
-				<div class="shell">
-					<h2 class="section_title">Testimonals</h2>
-
-					<h4 class="section_subtitle">Listen to what our customers say about us</h4>
-				</div>
-			</header>
-
-			<div class="section_body">
-				<div class="sliderTestimonials sliderTestimonials-secondary">
-					<div class="slider_clip">
-						<div class="slider_slides testimonials">
-							<div class="slider_slide testimonial">
-								<div class="testimonial_inner">
-									<div class="testimonial_image">
-										<div class="video">
-											<img src="{asset path='images/temp/testimonial-image-1.jpg'}" alt="" width="684" height="405">
-
-											<a href="https://www.youtube.com/watch?v=SrAzkFIYjFA" class="video_btn link-popup">
-												<svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M1 2V23L20 12.5L1 2Z" fill="#0067FF" stroke="#0067FF" stroke-width="2"></path>
-												</svg>
-											</a>
-										</div>
-									</div>
-
-									<div class="testimonial_content">
-										<div class="testimonial_entry">
-											<blockquote>
-												From the outset, Newicon really understood what we were trying to achieve.
-											</blockquote>
-
-											<div class="testimonial_entryInner">
-												<cite>Tom Beasley</cite>
-
-												<p>
-													Head of Bristol &amp; Bath Science Park
-												</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="slider_slide testimonial">
-								<div class="testimonial_inner">
-									<div class="testimonial_image">
-										<div class="video">
-											<img src="{asset path='images/temp/testimonial-image-1.jpg'}" alt="" width="684" height="405">
-
-											<a href="https://www.youtube.com/watch?v=SrAzkFIYjFA" class="video_btn link-popup">
-												<svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M1 2V23L20 12.5L1 2Z" fill="#0067FF" stroke="#0067FF" stroke-width="2"></path>
-												</svg>
-											</a>
-										</div>
-									</div>
-
-									<div class="testimonial_content">
-										<div class="testimonial_entry">
-											<blockquote>
-												From the outset, Newicon really understood what we were trying to achieve.
-											</blockquote>
-
-											<div class="testimonial_entryInner">
-												<cite>Tom Beasley</cite>
-
-												<p>
-													Head of Bristol &amp; Bath Science Park
-												</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="slider_slide testimonial">
-								<div class="testimonial_inner">
-									<div class="testimonial_image">
-										<div class="video">
-											<img src="{asset path='images/temp/testimonial-image-1.jpg'}" alt="" width="684" height="405">
-
-											<a href="https://www.youtube.com/watch?v=SrAzkFIYjFA" class="video_btn link-popup">
-												<svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M1 2V23L20 12.5L1 2Z" fill="#0067FF" stroke="#0067FF" stroke-width="2"></path>
-												</svg>
-											</a>
-										</div>
-									</div>
-
-									<div class="testimonial_content">
-										<div class="testimonial_entry">
-											<blockquote>
-												From the outset, Newicon really understood what we were trying to achieve.
-											</blockquote>
-
-											<div class="testimonial_entryInner">
-												<cite>Tom Beasley</cite>
-
-												<p>
-													Head of Bristol &amp; Bath Science Park
-												</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="slider_slide testimonial">
-								<div class="testimonial_inner">
-									<div class="testimonial_image">
-										<div class="video">
-											<img src="{asset path='images/temp/testimonial-image-1.jpg'}" alt="" width="684" height="405">
-
-											<a href="https://www.youtube.com/watch?v=SrAzkFIYjFA" class="video_btn link-popup">
-												<svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M1 2V23L20 12.5L1 2Z" fill="#0067FF" stroke="#0067FF" stroke-width="2"></path>
-												</svg>
-											</a>
-										</div>
-									</div>
-
-									<div class="testimonial_content">
-										<div class="testimonial_entry">
-											<blockquote>
-												From the outset, Newicon really understood what we were trying to achieve.
-											</blockquote>
-
-											<div class="testimonial_entryInner">
-												<cite>Tom Beasley</cite>
-
-												<p>
-													Head of Bristol &amp; Bath Science Park
-												</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="slider_slide testimonial">
-								<div class="testimonial_inner">
-									<div class="testimonial_image">
-										<div class="video">
-											<img src="{asset path='images/temp/testimonial-image-1.jpg'}" alt="" width="684" height="405">
-
-											<a href="https://www.youtube.com/watch?v=SrAzkFIYjFA" class="video_btn link-popup">
-												<svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M1 2V23L20 12.5L1 2Z" fill="#0067FF" stroke="#0067FF" stroke-width="2"></path>
-												</svg>
-											</a>
-										</div>
-									</div>
-
-									<div class="testimonial_content">
-										<div class="testimonial_entry">
-											<blockquote>
-												From the outset, Newicon really understood what we were trying to achieve.
-											</blockquote>
-
-											<div class="testimonial_entryInner">
-												<cite>Tom Beasley</cite>
-
-												<p>
-													Head of Bristol &amp; Bath Science Park
-												</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="slider_slide testimonial">
-								<div class="testimonial_inner">
-									<div class="testimonial_image">
-										<div class="video">
-											<img src="{asset path='images/temp/testimonial-image-1.jpg'}" alt="" width="684" height="405">
-
-											<a href="https://www.youtube.com/watch?v=SrAzkFIYjFA" class="video_btn link-popup">
-												<svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M1 2V23L20 12.5L1 2Z" fill="#0067FF" stroke="#0067FF" stroke-width="2"></path>
-												</svg>
-											</a>
-										</div>
-									</div>
-
-									<div class="testimonial_content">
-										<div class="testimonial_entry">
-											<blockquote>
-												From the outset, Newicon really understood what we were trying to achieve.
-											</blockquote>
-
-											<div class="testimonial_entryInner">
-												<cite>Tom Beasley</cite>
-
-												<p>
-													Head of Bristol &amp; Bath Science Park
-												</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="slider_nav">
-						<div class="slider_dots"></div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="sectionSecondary sectionSecondary-books">
-			<div class="shell">
-				<header class="section_head">
-					<h2>Learn more about Software Development</h2>
-
-					<h4>Discover our thoughts and theories about the world of Software</h4>
-				</header>
-
-				<div class="section_body">
-					<div class="books">
-						<div class="book">
-							<div class="book_inner">
-								<div class="book_image" style="background-image: url({asset path='images/temp/book-background-1.jpg);'}"></div>
-
-								<div class="book_content">
-									<div class="book_label book_label-right">n</div>
-
-									<h6 class="book_subtitle">Development</h6>
-
-									<h3 class="book_title">Mobile App Design Fundamentals: 10 Tips for an Effective Product Strategy</h3>
-
-									<p>
-										Learn more about the Newicon innnovation starter pack.
-									</p>
-
-									<h5 class="book_author">Steve O’Brien</h5>
-								</div>
-							</div>
-						</div>
-
-						<div class="book">
-							<div class="book_inner">
-								<div class="book_image" style="background-image: url({asset path='images/temp/book-background-2.jpg);'}"></div>
-
-								<div class="book_content">
-									<div class="book_label book_label-right">n</div>
-
-									<h6 class="book_subtitle">Design</h6>
-
-									<h3 class="book_title">Rapid Prototyping for your innovation strategy. </h3>
-
-									<p>
-										Learn more about the Newicon innnovation starter pack.
-									</p>
-
-									<h5 class="book_author">Steve O’Brien</h5>
-								</div>
-							</div>
-						</div>
-
-						<div class="book">
-							<div class="book_inner">
-								<div class="book_image" style="background-image: url({asset path='images/temp/book-background-3.jpg);'}"></div>
-
-								<div class="book_content">
-									<div class="book_label book_label-right">n</div>
-
-									<h6 class="book_subtitle">Technology</h6>
-
-									<h3 class="book_title">The Best Resource For Website Hosting Comparison</h3>
-
-									<p>
-										The Best Resource For Website Hosting Comparison
-									</p>
-
-									<h5 class="book_author">Steve O’Brien</h5>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
 
         {section_contact_footer}
-	</div>
 {/block}

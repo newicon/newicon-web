@@ -1,5 +1,5 @@
 {layout_section}
-    {include file="section_header_center.tpl"
+    {header_center
 	    title="Testimonals"
 	    sub="Listen to what our customers say about us"
     }

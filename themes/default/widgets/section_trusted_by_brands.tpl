@@ -1,8 +1,6 @@
-<section class="bg-blue-950">
-	<div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 ">
-
-        {section_header_center title="Trusted by great brands" inverse=true}
-
+{layout_section class="bg-blue-950"}
+	{layout_container}
+        {header_center title="Trusted by great brands" inverse=true}
 		{$brands = [
 			['company' => 'Palladium', 'logo' => 'images/temp/brand-logo-1.png'],
 			['company' => 'TEDx Bristol','logo' => 'images/temp/brand-logo-2.png'],
@@ -27,5 +25,5 @@
 	            {/foreach}
 			</ul>
 		</div>
-	</div>
-</section>
+	{/layout_container}
+{/layout_section}

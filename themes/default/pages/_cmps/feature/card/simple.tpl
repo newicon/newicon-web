@@ -5,9 +5,9 @@
 	</div>
 	<div class="flex bg-white z-10">
 		<div class="px-1/12 py-1/12 md:px-2/12 md:py-20 bg-white self-center">
-			<h2 class="text-3xl sm:text-4xl md:text-5xl text-blue-950 pr-10">{$card.title}</h2>
-			<h6 class="pt-0 text-blue-500 uppercase text-xs font-bold md:pl-15 md:text-sm md:font-extrabold">{$card.label}</h6>
-			<p class="md:pl-15 text-gray-700 text-justify">{$card.body}</p>
+			<h2 class="text-3xl sm:text-4xl lg:text-5xl text-blue-950 lg:pr-10">{$card.title}</h2>
+			<h6 class="pt-0 text-blue-500 uppercase text-xs font-bold lg:pl-15 md:text-sm md:font-extrabold">{$card.label}</h6>
+			<p class="lg:pl-15 text-gray-700 text-justify">{$card.body}</p>
 		</div>
 	</div>
 </div>

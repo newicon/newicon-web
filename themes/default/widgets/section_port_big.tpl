@@ -51,7 +51,7 @@
 {/css}
 
 <section class="section py-24 slider-portfolio">
-    {include file="section_header_center.tpl" title="Our Work" sub="Projects we're proud of :-)"}
+    {header_center title="Our Work" sub="Projects we're proud of :-)"}
 
 	<div data-flickity='{ "wrapAround": true,  "contain": true, "selectedAttraction": 0.1, "friction": 0.8, "prevNextButtons": false }'>
 	    {foreach $folio as $item}

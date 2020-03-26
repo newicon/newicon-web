@@ -17,7 +17,7 @@
 
 		<section class="section section-tertiary section-tertiaryAlt">
 
-			    {section_header_center
+	            {header_center
 				    title="With the right website, the sky is the limit"
 				    hr=true
 					body="Get it right, and your website will transform the way you work. It'll grab the attention of the people that matter and turn them into paying customers. It'll take your internal processes, and re-shape them into something altogther more streamlined and efficient. How do you get it right? That's where we come in."

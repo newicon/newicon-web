@@ -173,9 +173,6 @@
 							<button class="btn btn-primary btn-fx active:bg-blue-600 focus:outline-none">Primary button</button>
 						</div>
 
-
-
-
 					</section>
 
                     {$featureCards = [

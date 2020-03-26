@@ -7,7 +7,7 @@
 			<nav class="nav" >
 				<ul>
 					<li class="navBrand navBrand hidden lg:block pt-1 {(in_array('newicon', $white)||$inverse) ? 'textLight' : ''}">
-						<a aria-label="Newicon home page" href="{page_url nice="home"}"><img src="{(in_array('newicon', $white)||$inverse) ? {asset path='/images/logo-white-secondary@2x.png'}:{asset path='/images/newicon.svg'}}" alt="Newicon logo" width="70" height="15"></a>
+						<a aria-label="Newicon home page" href="{page_url nice="home"}"><img src="{(in_array('newicon', $white)||$inverse) ? {asset path='/images/newicon-white.svg'}:{asset path='/images/newicon.svg'}}" alt="Newicon logo" width="70" height="15"></a>
 					</li>
 					<li class="navServices has_dropdown
 						{(in_array('services', $white)||$inverse) ? 'textLight' : ''}

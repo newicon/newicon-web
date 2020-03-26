@@ -15,7 +15,7 @@
 {*<script async defer type="text/javascript" href="{asset path='/js/app.js'}"></script>*}
 
 {assign var="fav" value="blue"}
-<link rel="shortcut icon" type="image/x-icon" href="{asset path="/images/$fav/favicon.ico"}">
+<link rel="shortcut icon" type="image/x-icon" href="{asset path="/images/fav/$fav/favicon.ico"}">
 <link rel="apple-touch-icon" sizes="57x57" href="{asset path="/images/fav/$fav/apple-icon-57x57.png"}">
 <link rel="apple-touch-icon" sizes="60x60" href="{asset path="/images/fav/$fav/apple-icon-60x60.png"}">
 <link rel="apple-touch-icon" sizes="72x72" href="{asset path="/images/fav/$fav/apple-icon-72x72.png"}">

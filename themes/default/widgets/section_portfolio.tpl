@@ -69,7 +69,7 @@
 
 <section id="{$id}" class="py-24" style="background:linear-gradient(180deg, rgba(243,245,249,1) 0%, rgba(255,255,255,1) 100%)">
 
-	{section_header_center title="Our Work" sub="Projects we're proud of :-)"}
+	{header_center title="Our Work" sub="Projects we're proud of :-)"}
 
 	<div class="" data-flick-slides class="-mt-10">
         {foreach $folio as $item}
