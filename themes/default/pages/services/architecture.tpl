@@ -20,7 +20,7 @@
 	    ]
     }
 
-    {include file="../_cmps/section/feature/cards.tpl" type=skewed  cards=[
+    {include file="../_cmps/section/feature/image-cards.tpl" type=skewed  cards=[
 	    ['image' => 'images/photos/mark-n-joe.jpg','title' => 'Turn your ideas into a reality','label' => 'Workshops','body' => 'Workshops are at the heart of our Architecture & Design process. We get up on a white board with you and think visually about what you\'re trying to achive. We scribble. We explore. We create. From there, we design and build your prototype.'],
 	    ['image' => 'images/photos/iphone-wireframe.jpg','title' => 'Rapid progress & visual results','label' => 'Prototypes','body' => 'As digital engineers, we know that prototypes are invaluable to any software or web project. Prototypes are a quick way to get the product in your hands, offering you a true feel for how it\'ll function. Not only does this mean quicker sign-off from important stakeholders, it also means we can iron out any issues before a single line of code is written.'],
 	    ['image' => 'images/photos/whiteboarding.jpg','title' => 'A people-centric design process','label' => 'User experience Design','body' => 'Great UX design captures the attention, sticks in the memory, and compels users to take action. It results in products that are so intuitive that users don\'t give a second thought to the design. We create digital products that do all that, and more.'],

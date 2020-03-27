@@ -31,7 +31,7 @@
 		]
 	}
 
-	{include file="../_cmps/section/feature/cards.tpl" type=skewed  cards=[
+	{include file="../_cmps/section/feature/image-cards.tpl" type=skewed  cards=[
 		['image' => 'images/photos/ipad-user-screenshot.jpg','title' => 'If you can dream it, we can build it!','label' => 'Web Applications','body' => 'Web software can power your whole business. We utilise innovative web technology to improve all aspects of business, from customer facing portals, through to back-office system. Got an innovative idea you would like to us to build? Let us know!'],
 		['image' => 'images/photos/iphone-user-screenshot.jpg','title' => 'Access your business from anywhere','label' => 'Mobile apps','body' => 'Mobile plays an ever increasing role in business today. From allowing your customers to interact with your business and their data, through to managing your staff and back office operations. We integrate mobile solutions with our bespoke web-apps and also provide integration with third party systems.'],
 		['image' => 'images/photos/switchee.jpg','title' => 'Connect to the physical world','label' => 'Internet of Things (IoT)','body' => 'We design and develop customer led controller apps for mobile, and the web-applications that manage and control these devices. Our expertise has allowed us to work with electronic firms and entrepeneurs to develop applications for innovative products. Do you have an IoT challenge for us?'],

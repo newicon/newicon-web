@@ -1,6 +1,7 @@
-<div class="grid grid-cols-1 lg:grid-cols-2 group {$class|default:''}">
+<div class="grid grid-cols-1 lg:grid-cols-2 group {$class|default:''} wow fadeIn">
 	<div class="{($flip=='left') ? 'order-0 lg:-mr-14' : 'lg:order-1 lg:-ml-14'} lg:-mb-14 shadow-2xl rounded-t-lg lg:rounded-lg overflow-hidden">
-		<img src="{asset path=$image|default:''}" alt="{$alt|default:"$title image"}" class="w-full h-full object-cover group-hover:scale-110 transform duration-1000 ease-out" >
+		<img src="{asset path=$image}" alt="{$alt|default:"$title image"}" class="w-full h-full object-cover group-hover:scale-110 transform duration-1000 ease-out" >
+{*        {image_srcset firefly_id=$image alt=$alt|default:"$title image" class="w-full h-full object-cover group-hover:scale-110 transform duration-1000 ease-out" }*}
 	</div>
 	<div class="flex z-10 ">
 		<div class=" px-1/12 py-1/12 md:px-2/12 md:py-20 bg-white self-center bg-white self-center shadow-2xl rounded-b-lg lg:rounded-lg  lg:-mt-14 ">

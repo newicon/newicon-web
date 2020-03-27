@@ -52,16 +52,15 @@
 		.is-selected .portfolio-btn__light { opacity: 1; }
 		.is-selected .portfolio-btn__dark { opacity: 0; }
 
-		.portfolio-text { opacity: 0; transition: opacity 0.4s ease-in }
+		.portfolio-text { opacity: 0; transition: opacity .4s ease-in }
 		.is-selected .portfolio-text { opacity: 1 }
 
-		.screenshot { transition: transform 0.4s ease-out; opacity: 0.5;transform: scale(0.9) rotate(-6deg);transition-property: opacity, transform, shadow; }
-		.screenshot { opacity: 1; transform:scale(0.9) rotate(-3deg); box-shadow:none; }
-		.is-selected .screenshot { opacity: 1; transform:scale(1) rotate(0deg); box-shadow: 35px 70px 125px -25px rgba(80,102,144,.1), 16px 40px 75px -40px rgba(0,0,0,.2), 0px 0px 99px 0px rgba(0, 0, 0, 0.2); }
+		.screenshot { opacity: 1; transition: transform .4s ease-out;  transform: scale(0.9) rotate(-3deg); box-shadow:none; }
+		.is-selected .screenshot { transition-property: opacity, transform, shadow; opacity: 1; transform:scale(1) rotate(0deg); box-shadow: 35px 70px 125px -25px rgba(80,102,144,.1), 16px 40px 75px -40px rgba(0,0,0,.2), 0px 0px 99px 0px rgba(0, 0, 0, 0.2); }
 		#{$id} .flickity-page-dots { display:block; }
 		@media (min-width: 1024px) {
-		#{$id} .flickity-page-dots { display:none; }
-			.screenshot { opacity: 0; transform:scale(0.9) rotate(-10deg); box-shadow:none; }
+			#{$id} .flickity-page-dots { display:none; }
+			.screenshot { transition: opacity .4s ease-out; opacity: 0; transform:scale(0.9) rotate(-10deg); box-shadow:none; }
 			.is-selected .screenshot { opacity: 1; transform:scale(1) rotate(-3deg); box-shadow: 35px 70px 125px -25px rgba(80,102,144,.1), 16px 40px 75px -40px rgba(0,0,0,.2), 0px 0px 99px 0px rgba(0, 0, 0, 0.2); }
 		}
 	</style>
