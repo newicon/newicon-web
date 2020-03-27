@@ -12,6 +12,16 @@
         body="We have essembled one heck of a team, made up of people who love solving problems."
         }
 
+
+        {layout_section class="grid grid-cols-1 md:grid-cols-2 gap-4 mx-4"}
+			<img src="{asset path="images/photos/ipad-user-screenshot.jpg"}" >
+			<img src="{asset path="images/photos/iphone-user-screenshot.jpg"}" >
+			<img src="{asset path="images/photos/ipad-user-screenshot.jpg"}" >
+			<img src="{asset path="images/photos/ipad-user-screenshot.jpg"}" >
+			<img src="{asset path="images/photos/ipad-user-screenshot.jpg"}" >
+			<img src="{asset path="images/photos/macbook-user.jpg"}" >
+        {/layout_section}
+
 		<section class="sectionTeam">
 			<div class="shell">
 				<div class="section_content">

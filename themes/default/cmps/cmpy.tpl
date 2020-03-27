@@ -1,1 +1,0 @@
-MY slot is: {$slot}

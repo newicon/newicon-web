@@ -44,7 +44,3 @@
 
 {neon_head}
 {*<script src="https://www.google.com/recaptcha/api.js" async defer></script>*}
-
-<style>
-	[data-aos="fade-up"] { opacity:0 }
-</style>
