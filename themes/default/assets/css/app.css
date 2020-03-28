@@ -72,7 +72,7 @@ html.noScroll, html.noScroll body {
 
 .dropdown { position: absolute; z-index: 100000; top: 100%; left: -162px; transform: scale(0.95); opacity: 0; pointer-events: none;
   transition: opacity .35s cubic-bezier(.2, 1, .22, 1), transform .35s cubic-bezier(.2, 1, .22, 1);
-  transform-origin: top center; will-change:opacity, transform; width: 485px; padding: 0; border-radius: 8px; background-color: #fff; box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.25), 0 30px 60px -30px rgba(0, 0, 0, 0.3), 0 -18px 60px -10px rgba(0, 0, 0, 0.025);
+  transform-origin: top center; width: 485px; padding: 0; border-radius: 8px; background-color: #fff; box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.25), 0 30px 60px -30px rgba(0, 0, 0, 0.3), 0 -18px 60px -10px rgba(0, 0, 0, 0.025);
 }
 
 .dropdown_hasTwoColumn {
@@ -157,7 +157,7 @@ html.noScroll, html.noScroll body {
 	Nav
 \* ------------------------------------------------------------ */
 
-.nav { font-weight: 300; font-size: 15px; color: #000;
+.nav { font-weight: 300; font-size: 15px; color: #000;  transition: opacity .3s cubic-bezier(.2, 1, .22, 1) .02s, transform .3s cubic-bezier(.2, 1, .22, 1) .02s;
 }
 
 .nav > ul { display: flex; justify-content: space-around; padding: 0 14px 0 5px; margin-left:0;
@@ -215,19 +215,13 @@ html.noScroll, html.noScroll body {
   .dropdown_hasTwoColumn { left: 0;
   }
 
-  .dropdown_hasTwoColumn .dropdown_grou.navp {
+  .dropdown_hasTwoColumn .dropdown_group.nav {
     display:block;
   }
 
-  .nav {
-    padding: 0 20px 0;
+  .nav {  padding: 0 20px 0;
     background-color: #fff;
-    opacity: 0;
-    pointer-events: none;
-    transform-origin: top center;
-    transform: scale(0.95);
-    will-change: opacity, transform;
-    border-radius: 0;
+    opacity: 0; pointer-events: none; visibility:hidden; transform-origin: top left;  transform: scale(0.95); border-radius: 0;
     -webkit-overflow-scrolling: touch;
     overflow-y: auto;
     box-shadow:none;
@@ -254,7 +248,7 @@ html.noScroll, html.noScroll body {
   .nav .textLight { color: inherit;
   }
 
-  .open .nav { opacity: 1; transform: translateY(0); pointer-events: all;
+  .open .nav { visibility: visible; opacity: 1; transform: scale(1); pointer-events: all;
     height:100vh;
   }
 
@@ -304,8 +298,8 @@ html.noScroll, html.noScroll body {
 .navTrigger { position: relative; display: none; width: 24px; height: 12px;
 }
 
-.navTrigger span { position: absolute; display: block; height: 2px; width: 100%; border-radius: 4px; background: #00163D; transition: top .2s .25s, opacity .2s .25s, transform .2s 0s;
-}
+.navTrigger span { position: absolute; display: block; height: 2px; width: 100%; border-radius: 4px; background: #00163D; transition: opacity .2s .25s, transform .2s 0s;
+} /* top .2s .25s, */
 
 .navTrigger span:nth-child(1) { top: 0;
 }
@@ -313,8 +307,8 @@ html.noScroll, html.noScroll body {
 .navTrigger span:nth-child(2) { top: 10px;
 }
 
-.open .navTrigger span { transition: top .2s, opacity .2s, transform .2s .25s;
-}
+.open .navTrigger span { transition: opacity .2s, transform .2s .25s;
+} /* top .2s, */
 
 .open .navTrigger span:nth-child(1),
 .open .navTrigger span:nth-child(2) { top: 6px;
@@ -324,162 +318,106 @@ html.noScroll, html.noScroll body {
 }
 
 .open .navTrigger span:nth-child(2) { transform: rotate(-45deg);
-}.ico-angle-arrow-left-secondary { background: url(../images/sprite/ico-angle-arrow-left-secondary.png) no-repeat 0 0; background-size: 100% 100%; width: 10px; height: 14px; display: inline-block; vertical-align: middle; font-size: 0px;
+}.ico-about-us { background: url(../images/icons/micro/about-us.svg) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
 }
 
-.ico-angle-arrow-left { background: url(../images/sprite/ico-angle-arrow-left.png) no-repeat 0 0; background-size: 100% 100%; width: 11px; height: 19px; display: inline-block; vertical-align: middle; font-size: 0px;
+.ico-ai { background: url(../images/icons/micro/ai.svg) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
 }
 
-.ico-angle-arrow-right-blue { background: url(../images/sprite/ico-angle-arrow-right-blue.png) no-repeat 0 0; background-size: 100% 100%; width: 20px; height: 35px; display: inline-block; vertical-align: middle; font-size: 0px;
+.ico-approach { background: url(../images/icons/micro/approach.svg) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
 }
 
-.ico-angle-arrow-right-secondary { background: url(../images/sprite/ico-angle-arrow-right-secondary.png) no-repeat 0 0; background-size: 100% 100%; width: 10px; height: 14px; display: inline-block; vertical-align: middle; font-size: 0px;
+.ico-architecture { background: url(../images/icons/micro/architecture.svg) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
 }
 
-.ico-angle-arrow-right { background: url(../images/sprite/ico-angle-arrow-right.png) no-repeat 0 0; background-size: 100% 100%; width: 11px; height: 19px; display: inline-block; vertical-align: middle; font-size: 0px;
+.ico-process { background: url(../images/icons/micro/process.svg) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
 }
 
-.ico-approach { background: url(../images/sprite/ico-approach.png) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
+.ico-arvr { background: url(../images/icons/micro/arvr.svg) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
 }
 
-.ico-arrow-right-blue { background: url(../images/sprite/ico-arrow-right-blue.png) no-repeat 0 0; background-size: 100% 100%; width: 17px; height: 13px; display: inline-block; vertical-align: middle; font-size: 0px;
+.ico-blog { background: url(../images/icons/micro/blog.svg) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
 }
 
-.ico-arrow-right-secondary { background: url(../images/sprite/ico-arrow-right-secondary.png) no-repeat 0 0; background-size: 100% 100%; width: 16px; height: 16px; display: inline-block; vertical-align: middle; font-size: 0px;
+.ico-branding { background: url(../images/icons/micro/branding.svg) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
 }
 
-.ico-arrow-right { background: url(../images/sprite/ico-arrow-right.png) no-repeat 0 0; background-size: 100% 100%; width: 22px; height: 22px; display: inline-block; vertical-align: middle; font-size: 0px;
+.ico-cloud-compute { background: url(../images/icons/micro/cloud-compute.svg) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
 }
 
-.ico-chart { background: url(../images/sprite/ico-chart.png) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
+.ico-cloud-database { background: url(../images/icons/micro/cloud-database.svg) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
 }
 
-.ico-blog { background: url(../images/sprite/ico-blog.svg) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
+.ico-contact { background: url(../images/icons/micro/contact.svg) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
 }
 
-.ico-dna { background: url(../images/sprite/ico-dna.png) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
+.ico-culture { background: url(../images/icons/micro/culture.svg) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
 }
 
-.ico-draw { background: url(../images/sprite/ico-draw.png) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
+.ico-digital-marketing { background: url(../images/icons/micro/digital-marketing.svg) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
 }
 
-.ico-framework { background: url(../images/sprite/ico-framework.png) no-repeat 0 0; background-size: 100% 100%; width: 35px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
+.ico-digital-transformation { background: url(../images/icons/micro/digital-transformation.svg) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
 }
 
-.ico-history { background: url(../images/sprite/ico-history.png) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
+.ico-dna { background: url(../images/icons/micro/dna.svg) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
 }
 
-.ico-idea { background: url(../images/sprite/ico-idea.png) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
+.ico-ecommerce { background: url(../images/icons/micro/ecommerce.svg) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
 }
 
-.ico-layers { background: url(../images/sprite/ico-layers.png) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
+.ico-enterprise { background: url(../images/icons/micro/enterprise.svg) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
 }
 
-.ico-peak { background: url(../images/sprite/ico-peak.png) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
+.ico-history { background: url(../images/icons/micro/history.svg) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
 }
 
-.ico-piece-pizza { background: url(../images/sprite/ico-piece-pizza.png) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
+.ico-illustration { background: url(../images/icons/micro/illustration.svg) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
 }
 
-.ico-process { background: url(../images/sprite/ico-process.png) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
+.ico-join { background: url(../images/icons/micro/join.svg) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
 }
 
-.ico-puzzle { background: url(../images/sprite/ico-puzzle.png) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
+.ico-neon { background: url(../images/icons/micro/neon.svg) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
 }
 
-.ico-social-circle { background: url(../images/sprite/ico-social-circle.png) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
+.ico-pitchdecks { background: url(../images/icons/micro/pitchdecks.svg) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
 }
 
-.ico-team { background: url(../images/sprite/ico-team.png) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
+.ico-pizza { background: url(../images/icons/micro/pizza.svg) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
 }
 
-.ico-technologies { background: url(../images/sprite/ico-technologies.png) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
+.ico-sme { background: url(../images/icons/micro/sme.svg) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
 }
 
-.ico-website { background: url(../images/sprite/ico-website.png) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
+.ico-social-media { background: url(../images/icons/micro/social-media.svg) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
+}
+
+.ico-software-dev { background: url(../images/icons/micro/software-dev.svg) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
+}
+
+.ico-startup { background: url(../images/icons/micro/startup.svg) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
+}
+
+.ico-support { background: url(../images/icons/micro/support.svg) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
+}
+
+.ico-team { background: url(../images/icons/micro/team.svg) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
+}
+
+.ico-technologies { background: url(../images/icons/micro/technologies.svg) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
+}
+
+.ico-tick { background: url(../images/icons/micro/tick.svg) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
+}
+
+.ico-web-dev { background: url(../images/icons/micro/web-dev.svg) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
 }
 
 .ico-work { background: url(../images/sprite/ico-work.svg) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
 }
 
-.ico-contact { background: url(../images/sprite/ico-contact.svg) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
-}
-
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  .ico-angle-arrow-left-secondary { background: url(../images/sprite/ico-angle-arrow-left-secondary@2x.png) no-repeat 0 0; background-size: 100% 100%; width: 9px; height: 13px; display: inline-block; vertical-align: middle; font-size: 0px;
-  }
-
-  .ico-angle-arrow-left { background: url(../images/sprite/ico-angle-arrow-left@2x.png) no-repeat 0 0; background-size: 100% 100%; width: 10.5px; height: 18.5px; display: inline-block; vertical-align: middle; font-size: 0px;
-  }
-
-  .ico-angle-arrow-right-blue { background: url(../images/sprite/ico-angle-arrow-right-blue@2x.png) no-repeat 0 0; background-size: 100% 100%; width: 20px; height: 35px; display: inline-block; vertical-align: middle; font-size: 0px;
-  }
-
-  .ico-angle-arrow-right-secondary { background: url(../images/sprite/ico-angle-arrow-right-secondary@2x.png) no-repeat 0 0; background-size: 100% 100%; width: 9px; height: 13px; display: inline-block; vertical-align: middle; font-size: 0px;
-  }
-
-  .ico-angle-arrow-right { background: url(../images/sprite/ico-angle-arrow-right@2x.png) no-repeat 0 0; background-size: 100% 100%; width: 10.5px; height: 18.5px; display: inline-block; vertical-align: middle; font-size: 0px;
-  }
-
-  .ico-approach { background: url(../images/sprite/ico-approach@2x.png) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
-  }
-
-  .ico-arrow-right-blue { background: url(../images/sprite/ico-arrow-right-blue@2x.png) no-repeat 0 0; background-size: 100% 100%; width: 16.5px; height: 13px; display: inline-block; vertical-align: middle; font-size: 0px;
-  }
-
-  .ico-arrow-right-secondary { background: url(../images/sprite/ico-arrow-right-secondary@2x.png) no-repeat 0 0; background-size: 100% 100%; width: 16px; height: 16px; display: inline-block; vertical-align: middle; font-size: 0px;
-  }
-
-  .ico-arrow-right { background: url(../images/sprite/ico-arrow-right@2x.png) no-repeat 0 0; background-size: 100% 100%; width: 22px; height: 22px; display: inline-block; vertical-align: middle; font-size: 0px;
-  }
-
-  .ico-chart { background: url(../images/sprite/ico-chart@2x.png) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
-  }
-
-  .ico-dna { background: url(../images/sprite/ico-dna@2x.png) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
-  }
-
-  .ico-draw { background: url(../images/sprite/ico-draw@2x.png) no-repeat 0 0; background-size: 100% 100%; width: 33.5px; height: 33.5px; display: inline-block; vertical-align: middle; font-size: 0px;
-  }
-
-  .ico-framework { background: url(../images/sprite/ico-framework@2x.png) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
-  }
-
-  .ico-history { background: url(../images/sprite/ico-history@2x.png) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
-  }
-
-  .ico-idea { background: url(../images/sprite/ico-idea@2x.png) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
-  }
-
-  .ico-layers { background: url(../images/sprite/ico-layers@2x.png) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
-  }
-
-  .ico-peak { background: url(../images/sprite/ico-peak@2x.png) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
-  }
-
-  .ico-piece-pizza { background: url(../images/sprite/ico-piece-pizza@2x.png) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
-  }
-
-  .ico-process { background: url(../images/sprite/ico-process@2x.png) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
-  }
-
-  .ico-puzzle { background: url(../images/sprite/ico-puzzle@2x.png) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
-  }
-
-  .ico-social-circle { background: url(../images/sprite/ico-social-circle@2x.png) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
-  }
-
-  .ico-team { background: url(../images/sprite/ico-team@2x.png) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
-  }
-
-  .ico-technologies { background: url(../images/sprite/ico-technologies@2x.png) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
-  }
-
-  .ico-website { background: url(../images/sprite/ico-website@2x.png) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
-  }
-
-  .ico-blog { background: url(../images/sprite/ico-blog.svg) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
-  }
+.ico-writing { background: url(../images/icons/micro/writing.svg) no-repeat 0 0; background-size: 100% 100%; width: 34px; height: 34px; display: inline-block; vertical-align: middle; font-size: 0px;
 }.ni-italic { font-family: Volkhov, Georgia, Cambria, Times New Roman, Times, serif; color: hsl(222, 25%, 41%); font-style: italic; font-weight: 200;
 }
 
@@ -550,12 +488,9 @@ h4 { font-size: 1.25rem;
 a { color: hsl(216, 100%, 50%); text-decoration: underline;
 }
 
-body { font-family: Nunito Sans, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-weight: 300; color: hsl(220, 25%, 16%);  min-width: 320px; -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/*body { @apply font-sans font-light text-gray-900;  min-width: 320px; -webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale; }*/
 
-* { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
-}
+/** { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }*/
 
 a { color: inherit; text-decoration: underline;
 }
@@ -24073,17 +24008,10 @@ h3 { font-size: 1.5rem;
 h4 { font-size: 1.25rem;
 }
 
-a { color: hsl(216, 100%, 50%); text-decoration: underline;
+a { color: hsl(216, 100%, 50%); text-decoration: underline; color: inherit;
 }
 
-body { font-family: Nunito Sans, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-weight: 300; color: hsl(220, 25%, 16%); min-width: 320px; -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-* { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
-}
-
-a { color: inherit; text-decoration: underline;
+body { font-family: Nunito Sans, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-weight: 300; color: hsl(220, 25%, 16%); min-width: 320px;
 }
 
 a:hover { text-decoration: none; color: hsl(216, 100%, 50%);
@@ -24098,16 +24026,19 @@ p, ul, ol, dl, hr, table, blockquote { margin-bottom: 1.2rem;
 li { padding-bottom: 0.5rem;
 }
 
-.debug { background:transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAFElEQVR4AWPAC97/9x0eCsAEPgwAVLshdpENIxcAAAAASUVORK5CYII=) repeat top left;
-}
+/*.debug { background:transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAFElEQVR4AWPAC97/9x0eCsAEPgwAVLshdpENIxcAAAAASUVORK5CYII=) repeat top left; }*/
 
-.debug-16 { background:transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAMklEQVR4AWOgCLz/b0epAa6UGuBOqQHOQHLUgFEDnAbcBZ4UGwDOkiCnkIhdgNgNxAYAiYlD+8sEuo8AAAAASUVORK5CYII=) repeat top left;
-}
+/*.debug-16 { background:transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAMklEQVR4AWOgCLz/b0epAa6UGuBOqQHOQHLUgFEDnAbcBZ4UGwDOkiCnkIhdgNgNxAYAiYlD+8sEuo8AAAAASUVORK5CYII=) repeat top left; }*/
 
-.debug-8-solid { background:white url(data:image/gif;base64,R0lGODdhCAAIAPEAAADw/wDx/////wAAACwAAAAACAAIAAACDZQvgaeb/lxbAIKA8y0AOw==) repeat top left;
-}
+/*.debug-8-solid { background:white url(data:image/gif;base64,R0lGODdhCAAIAPEAAADw/wDx/////wAAACwAAAAACAAIAAACDZQvgaeb/lxbAIKA8y0AOw==) repeat top left; }*/
 
-.debug-16-solid { background:white url(data:image/gif;base64,R0lGODdhEAAQAPEAAADw/wDx/xXy/////ywAAAAAEAAQAAACIZyPKckYDQFsb6ZqD85jZ2+BkwiRFKehhqQCQgDHcgwEBQA7) repeat top left;
+/*.debug-16-solid { background:white url(data:image/gif;base64,R0lGODdhEAAQAPEAAADw/wDx/xXy/////ywAAAAAEAAQAAACIZyPKckYDQFsb6ZqD85jZ2+BkwiRFKehhqQCQgDHcgwEBQA7) repeat top left; }*/
+
+/*h1,h2,h3,h4,h5,h6,p,a { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }*/
+
+/* * { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }*/
+
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
 }
 
 @media (min-width: 640px){

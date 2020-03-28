@@ -1,4 +1,4 @@
-{layout_section class=" md:py-16"}
+{layout_section class=" md:py-16 border-t border-gray-100 bg-gray-50"}
 	<div class="border-b border-gray-100 pb-10">
 		{layout_container class="flex flex-wrap"}
 			<div class="w-full text-center md:w-8/12 md:text-left ">

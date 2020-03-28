@@ -5,7 +5,7 @@
 	}
 }
 *}
-<div class="intro ptn" >
+<div class="intro ptn {$class|default:''}" >
 	<div class="flex flex-col md:flex-row-reverse md:flex-row">
 		<div class="w-full md:w-3/5">
 			<img src="{assets path='images/illustrations/telescope-future-static.svg'}" alt="Newicon see the future image" />

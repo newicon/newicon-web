@@ -38,7 +38,7 @@ html.noScroll, html.noScroll body {overflow:hidden !important; height: 100% !imp
 
 .dropdown { position: absolute; z-index: 100000; top: 100%; left: -162px; transform: scale(0.95); opacity: 0; pointer-events: none;
 	transition: opacity .35s cubic-bezier(.2, 1, .22, 1), transform .35s cubic-bezier(.2, 1, .22, 1);
-	transform-origin: top center; will-change:opacity, transform; width: 485px; padding: 0; border-radius: 8px; background-color: #fff; box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.25), 0 30px 60px -30px rgba(0, 0, 0, 0.3), 0 -18px 60px -10px rgba(0, 0, 0, 0.025);}
+	transform-origin: top center; width: 485px; padding: 0; border-radius: 8px; background-color: #fff; box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.25), 0 30px 60px -30px rgba(0, 0, 0, 0.3), 0 -18px 60px -10px rgba(0, 0, 0, 0.025);}
 .dropdown_hasTwoColumn {width:600px; left:calc(-600px/2 + 50%)}
 .dropdown_col {flex:1}
 .dropdown_hasTwoColumn .dropdown_group { display:flex; }
@@ -77,11 +77,11 @@ html.noScroll, html.noScroll body {overflow:hidden !important; height: 100% !imp
 	Nav
 \* ------------------------------------------------------------ */
 
-.nav { font-weight: 300; font-size: 15px; color: #000; }
+.nav { font-weight: 300; font-size: 15px; color: #000;  transition: opacity .3s cubic-bezier(.2, 1, .22, 1) .02s, transform .3s cubic-bezier(.2, 1, .22, 1) .02s; }
 .nav > ul { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; padding: 0 14px 0 5px; margin-left:0; }
 .nav > ul > li { position: relative; }
 .nav > ul > li > a { position: relative; display: inline-block; padding: 20px 50px 30px; text-decoration: none; white-space: nowrap; }
-.nav > ul > li > a:after { content: ''; position: absolute; bottom: 25px; left: 50%; width: 50%; height: 1px; background-color: currentColor; -webkit-transform: translateX(-50%) scaleX(0); -ms-transform: translateX(-50%) scaleX(0); transform: translateX(-50%) scaleX(0); -webkit-transition: -webkit-transform .4s; transition: -webkit-transform .4s; -o-transition: transform .4s; transition: transform .4s; transition: transform .4s, -webkit-transform .4s; }
+.nav > ul > li > a:after { content: ''; position: absolute; bottom: 25px; left: 50%; width: 50%; height: 1px; background-color: currentColor; -webkit-transform: translateX(-50%) scaleX(0); -ms-transform: translateX(-50%) scaleX(0); transform: translateX(-50%) scaleX(0); transition: transform .4s; }
 /* does the underlines */
 .nav > ul > li:hover { color: #004FFE;}
 .nav > ul > li.navBrand > a {padding: 19px 50px 30px;}
@@ -99,8 +99,8 @@ html.noScroll, html.noScroll body {overflow:hidden !important; height: 100% !imp
 @media (max-width: 1023px) {
 	.dropdown .dropdown_group .dropdown_item { margin: 14px 0; }
 	.dropdown_hasTwoColumn { left: 0; }
-	.dropdown_hasTwoColumn .dropdown_grou.navp {display:block;}
-	.nav {padding: 0 20px 0;background-color: #fff;opacity: 0;pointer-events: none;transform-origin: top center;-webkit-transform: scale(0.95);-ms-transform: scale(0.95);transform: scale(0.95);will-change: opacity, transform;border-radius: 0;-webkit-overflow-scrolling: touch;overflow-y: auto;box-shadow:none;}
+	.dropdown_hasTwoColumn .dropdown_group.nav {display:block;}
+	.nav {  padding: 0 20px 0;background-color: #fff;opacity: 0; pointer-events: none; visibility:hidden; transform-origin: top left;  transform: scale(0.95); border-radius: 0;-webkit-overflow-scrolling: touch;overflow-y: auto;box-shadow:none;}
 	.nav > ul { position: relative; z-index: 5; display: block; padding: 0; font-weight: 600; font-size: 14px; letter-spacing: .1em; color: #798192; text-transform: uppercase; }
 	.nav > ul > li:last-of-type > a { border-bottom: 0 solid #E3E3E3; }
 	.nav > ul > li > a { display: inline-block; width: 100%; padding: 25px 19px 20px; border-top: 1px solid #E3E3E3; }
@@ -108,7 +108,7 @@ html.noScroll, html.noScroll body {overflow:hidden !important; height: 100% !imp
 	.nav .dropdown { position: relative; top: 0; left: 0; display: block; transform: none; opacity: 0; pointer-events: all; }
 	.nav > ul > li:nth-child(2) .dropdown { left: 0; transform: none; }
 	.nav .textLight { color: inherit; }
-	.open .nav { opacity: 1; transform: translateY(0); pointer-events: all;height:100vh; }
+	.open .nav { visibility: visible; opacity: 1; transform: scale(1); pointer-events: all;height:100vh; }
 	.open .nav > ul { opacity: 1; transition: opacity .4s .4s; }
 	.open .nav .dropdown { position: relative; top: 0; left: 0; display: block; transform: none; opacity: 1; pointer-events: all; }
 }
@@ -127,10 +127,10 @@ html.noScroll, html.noScroll body {overflow:hidden !important; height: 100% !imp
 	Nav Trigger
 \* ------------------------------------------------------------ */
 .navTrigger { position: relative; display: none; width: 24px; height: 12px; }
-.navTrigger span { position: absolute; display: block; height: 2px; width: 100%; border-radius: 4px; background: #00163D; transition: top .2s .25s, opacity .2s .25s, transform .2s 0s; }
+.navTrigger span { position: absolute; display: block; height: 2px; width: 100%; border-radius: 4px; background: #00163D; transition: opacity .2s .25s, transform .2s 0s; } /* top .2s .25s, */
 .navTrigger span:nth-child(1) { top: 0; }
 .navTrigger span:nth-child(2) { top: 10px; }
-.open .navTrigger span { transition: top .2s, opacity .2s, transform .2s .25s; }
+.open .navTrigger span { transition: opacity .2s, transform .2s .25s; } /* top .2s, */
 .open .navTrigger span:nth-child(1),
 .open .navTrigger span:nth-child(2) { top: 6px; }
 .open .navTrigger span:nth-child(1) { transform: rotate(45deg); }

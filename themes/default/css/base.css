@@ -3,8 +3,8 @@ h2 { @apply text-3xl; }
 h3 { @apply text-2xl; }
 h4 { @apply text-xl; }
 a { @apply text-blue-500 underline; }
-body { @apply font-sans font-light text-gray-900;  min-width: 320px; -webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale; }
-* { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+/*body { @apply font-sans font-light text-gray-900;  min-width: 320px; -webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale; }*/
+/** { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }*/
 a { color: inherit; text-decoration: underline; }
 a:hover { text-decoration: none; @apply text-blue-500; }
 h1, h2, h3, h4, h5, h6 { margin-bottom: 1.2rem; font-weight: 700; line-height: 1.2; }

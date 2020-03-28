@@ -1,4 +1,5 @@
-<section class="mx-auto px-5 md:px-10 lg:px-20 pt-10 max-w-screen-2xl" data-aos="fade-up">
+{layout_section}
+	{layout_container}
 	{header_center
 		title="Our expertise"
 		sub="The things we do for our clients and their people"
@@ -39,4 +40,5 @@
             attrs=["data-aos" =>'fade-up-left']
         }
 	</div>
-</section>
+	{/layout_container}
+{/layout_section}

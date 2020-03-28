@@ -31,17 +31,16 @@
 	    title="Additional Design Services"
 	    sub="Our nifty team deliver many design services, all as part of a cohesive whole"
 	    features=[
-	        ['icon' => 'images/icons/micro/micro-icon-branding.svg','alt' => 'Newion icon branding illustration','title' => 'Branding','body' => 'Our designers work hard to create innovative branding that helps you stand out from the crowd.'],
-	        ['icon' => 'images/icons/micro/micro-icon-pitchdecks.svg','alt' => '','title' => 'Pitch Decks','body' => 'Need help pitching your project? Our compelling pitch decks to take you to the next level.'],
-	        ['icon' => 'images/icons/micro/micro-icon-illustration.svg','alt' => '','title' => 'Icons &amp; Illustration','body' => 'Is your project visually stunning? Our beautiful, bespoke icons and illustrations enhance your aesthetics.'],
-	        ['icon' => 'images/icons/micro/micro-icon-interaction.svg','alt' => '','title' => 'Interaction design','body' => 'Is your project visually stunning? Our beautiful, bespoke icons and illustrations enhance your aesthetics.']
+	        ['icon' => 'images/icons/micro/branding.svg','alt' => 'Newion icon branding illustration','title' => 'Branding','body' => 'Our designers work hard to create innovative branding that helps you stand out from the crowd.'],
+	        ['icon' => 'images/icons/micro/pitchdecks.svg','alt' => '','title' => 'Pitch Decks','body' => 'Need help pitching your project? Our compelling pitch decks to take you to the next level.'],
+	        ['icon' => 'images/icons/micro/illustration.svg','alt' => '','title' => 'Icons &amp; Illustration','body' => 'Is your project visually stunning? Our beautiful, bespoke icons and illustrations enhance your aesthetics.'],
+	        ['icon' => 'images/icons/micro/interaction.svg','alt' => '','title' => 'Interaction design','body' => 'Is your project visually stunning? Our beautiful, bespoke icons and illustrations enhance your aesthetics.']
 	    ]
     }
 
 	{include file='../_cmps/section/contact/got-a-project.tpl'}
 	{include file='../_cmps/section/contact/book-meeting.tpl'}
-
-    {include file='../_cmps/section/slider/portfolio-twister.tpl' category='architecture'}
-    {include file='../_cmps/section/slider/testimonials.tpl'}
-    {include file='../_cmps/section/contact/footer.tpl' title="Start your future, today"}
+	{include file='../_cmps/section/slider/portfolio-old.tpl' category='architecture'}
+	{include file='../_cmps/section/slider/testimonials.tpl'}
+	{include file='../_cmps/section/contact/footer.tpl' title="Start your future, today"}
 {/block}

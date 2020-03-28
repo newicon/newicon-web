@@ -1,8 +1,8 @@
-{* Is this necessary in smarty? :puke: *}
-{if (!isset($inverse ))} {$inverse=false} {/if}
-{if (!isset($white ))} {$white=[]} {/if}
+{* Is this necessary in smarty? 🤮 *}
+{if (!isset($inverse))} {$inverse=false} {/if}
+{if (!isset($white))} {$white=[]} {/if}
 <header class="header" style="{$style|default}">
-	<div x-data="{ isOpen: false }" :class="isOpen ? 'open' : ''">
+	<div x-data="{ isOpen: false }" :class="isOpen ? 'open' : ''" >
 		<div class="header_inner">
 			<nav class="nav" >
 				<ul>
@@ -16,10 +16,10 @@
 						<div class="dropdown">
 							<div class="dropdown_group">
 								<ul>
-                                    {include file="nav_menu_item.tpl" link="architecture" title="Architecture &amp; UX Design" note="Rapid prototyping, design, and user experience services." icon='ico-draw'}
-                                    {include file="nav_menu_item.tpl" link="software" title="Software Development" note="Software for desktop, mobile and everything in between." icon='ico-layers'}
-                                    {include file="nav_menu_item.tpl" link="web-development" title="Web Development" note="Websites, e-commerce and CMSs to boost your business." icon='ico-website'}
-                                    {include file="nav_menu_item.tpl" link="digital-marketing" title="Digital Marketing" note="Grow your business with SEO, PPC and Social media." icon='ico-chart'}
+                                    {include file="nav_menu_item.tpl" link="architecture" title="Architecture &amp; UX Design" note="Rapid prototyping, design, and user experience services." icon='ico-architecture'}
+                                    {include file="nav_menu_item.tpl" link="software" title="Software Development" note="Software for desktop, mobile and everything in between." icon='ico-software-dev'}
+                                    {include file="nav_menu_item.tpl" link="web-development" title="Web Development" note="Websites, e-commerce and CMSs to boost your business." icon='ico-web-dev'}
+                                    {include file="nav_menu_item.tpl" link="digital-marketing" title="Digital Marketing" note="Grow your business with SEO, PPC and Social media." icon='ico-digital-marketing'}
 								</ul>
 							</div>
 						</div>
@@ -43,8 +43,8 @@
 							<div class="dropdown_group" >
 								<div class="dropdown_col">
 									<ul>
-										{include file="nav_menu_item.tpl" link="about" title="About us" note="Our mission, vision and mantra." icon='ico-peak'}
-										{include file="nav_menu_item.tpl" link="culture" title="Culture" note="Learn about the way we do things around here." icon='ico-social-circle'}
+										{include file="nav_menu_item.tpl" link="about" title="About us" note="Our mission, vision and mantra." icon='ico-about-us'}
+										{include file="nav_menu_item.tpl" link="culture" title="Culture" note="Learn about the way we do things around here." icon='ico-culture'}
 										{include file="nav_menu_item.tpl" link="history" title="History" note="See where we started and how we’ve grown." icon='ico-history'}
 										{include file="nav_menu_item.tpl" link="team" title="The Team" note="Meet the people that make it all happen." icon='ico-team'}
 									</ul>
@@ -52,8 +52,8 @@
 								<div class="dropdown_col">
 									<ul>
 										{include file="nav_menu_item.tpl" link="brand-values" title="Brand Values" note="Values that dirve our business" icon='ico-dna'}
-										{include file="nav_menu_item.tpl" link="join" title="Join the team" note="Open job opportunities in Newicon" icon='ico-puzzle'}
-										{include file="nav_menu_item.tpl" link="why-join" title="Why join us?" note="Why choose Newicon to grow your career" icon='ico-piece-pizza'}
+										{include file="nav_menu_item.tpl" link="join" title="Join the team" note="Open job opportunities in Newicon" icon='ico-join'}
+										{include file="nav_menu_item.tpl" link="why-join" title="Why join us?" note="Why choose Newicon to grow your career" icon='ico-pizza'}
 										{include file="nav_menu_item.tpl" link="blog" title="Blog" note="News, thoughts and feelings" icon='ico-blog'}
 									</ul>
 								</div>
@@ -72,7 +72,7 @@
                                     {include file="nav_menu_item.tpl" link="approach" title="Our Approach" note="How we build innovative digital products and services." icon='ico-approach'}
                                     {include file="nav_menu_item.tpl" link="architecture-process" title="Architecture process" note="Our unique process for visual and technical design." icon='ico-process'}
                                     {include file="nav_menu_item.tpl" link="technologies" title="Technologies" note="Our philosophies and most used technologies." icon='ico-technologies'}
-                                    {include file="nav_menu_item.tpl" link="neon" title="Neon Framework" note="Our innovative framework, helping to create the future." icon='ico-framework'}
+                                    {include file="nav_menu_item.tpl" link="neon" title="Neon Framework" note="Our innovative framework, helping to create the future." icon='ico-neon'}
 								</ul>
 							</div>
 						</div>
@@ -96,7 +96,8 @@
 				<img src="{asset path='/images/newicon.svg'}" alt="Newicon logo" width="80">
 			</a>
 
-			<a href="#" class="navTrigger" @click.prevent="isOpen = !isOpen; isOpen ? document.documentElement.classList.add('noScroll') : document.documentElement.classList.remove('noScroll');">
+			<a href="#" class="navTrigger" @click.prevent="isOpen = !isOpen; ">
+{*				isOpen ? document.documentElement.classList.add('noScroll') : document.documentElement.classList.remove('noScroll');*}
 				<span></span>
 				<span></span>
 			</a>
