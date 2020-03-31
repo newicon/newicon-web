@@ -32,7 +32,7 @@
     }
 
     {include file="../_cmps/section/feature/image-cards.tpl" type=skewed  cards=[
-	    ['image' => 'eGjEL46deeya2E1M4BYmS0', 'alt'=>'Mark from Newicon holding an ipad pointing at an imac screen with Dougall from Newicon',
+	    ['image' => 'images/photos/mark-pointing-at-screen.jpg', 'alt'=>'Mark from Newicon holding an ipad pointing at an imac screen with Dougall from Newicon',
             'title' => 'Define your purpose. Go beyond a brief', 'label' => 'Consultation',
             'body' => 'Before the build even begins, we start with the most important part of stage of your project: consultation. Consultation involves workshops, taking technical requirements and rearching your market. It can help you to define, or even create, a brand. We\'ll go beyond the brief to define your purpose. And from there, the next steps are to start designing your website or e-commerce store. Get in touch to begin your journey.'],
 	    ['image' => 'images/photos/ahmina-joe-rim-using-ipad.jpg', 'alt'=>'Joe, Ahmina and Rim from Newicon testing a website on an iPad', 'title' => 'Engage with responsive, beautiful web design','label' => 'Responsive Websites','body' => 'The web is a little crowded nowadays. So what does it take to stand out? Three things. Search engines need to like your site. Users need a fantastic experience. You might need a shop or a booking engine. Plus, it has to look outstanding. Speak to us today to find out how we can build you a responsive, SEO-optimised,  beautiful website.'],

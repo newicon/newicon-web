@@ -9,31 +9,20 @@
 			.introSecondary-dark { background: linear-gradient(black, #080e26); }
 		</style>
 	{/css}
-	<div class="main">
 
 
 
-
-		<div class="introSecondary introSecondary-dark m_pullIntoMenu -mt-24 py-24">
+		<div class="introSecondary introSecondary-dark m_pullIntoMenu -mt-25 py-24">
             {hero_text
-            title="Our work"
-            titleColor="white"
-            sub="Client stories to whet your appetite."
-            subColor="white"
-            body="Every client challenge is unique. And so is our approach. <br/>Here’s a selection of our most favourate work."
-            bodyColor="white"
+	            title="Our work"
+	            titleColor="white"
+	            sub="Client stories to whet your appetite."
+	            subColor="white"
+	            body="Every client challenge is unique. And so is our approach. <br/>Here’s a selection of our most favourate work."
+	            bodyColor="white"
             }
-{*			<div class="shell">*}
-{*				<ul class="listFilters listFilters-dark">*}
-{*					<li class="current"><a href="#">All work</a></li>*}
-{*					<li><a href="#">Web Apps</a></li>*}
-{*					<li><a href="#">Websites</a></li>*}
-{*					<li><a href="#">E-commerce</a></li>*}
-{*					<li><a href="#">Mobile App</a></li>*}
-{*					<li><a href="#">Software</a></li>*}
-{*				</ul>*}
-{*			</div>*}
 		</div>
+
 
 		{$caseStudies = [
 			[
@@ -65,13 +54,13 @@
 		{foreach $caseStudies as $work}
 
 			{layout_section style="background-image: url({asset path=$work.bg})"}
-				<section class="h-screen relative flex" style="">
-					<div class=" self-end relative w-4/12 bottom-28 text-white" data-aos="fade-up">
+				{layout_container class="h-screen relative flex"}
+					<div class="self-end relative w-full md:w-4/12 bottom-28 text-white" data-aos="fade-up">
 						<cite class="ni-italic text-white">{$work.company}</cite>
 						<h2 class="mt-3 mb-8">{$work.title}</h2>
 						<a href="{page_url nice=$work.link}" title="Read about the work Newicon did for {$work.company}" class="btn btn-primary btn-fx py-4 px-14">Read more</a>
 					</div>
-				</section>
+				{/layout_container}
             {/layout_section}
 
         {/foreach}
@@ -175,5 +164,4 @@
 {*				</div>*}
 {*			</div>*}
 {*		</section>*}
-	</div>
 {/block}

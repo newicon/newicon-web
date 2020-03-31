@@ -44,7 +44,7 @@
 		.img-fluid { width: 100%; height: auto; }
 		.portfolio-text2 { opacity: 0; transform: translateY(10px) }
 		.is-selected .portfolio-text2 { transition: transform .5s cubic-bezier(.19,1,.22,1) .35s, opacity .5s cubic-bezier(.19,1,.22,1) .35s; transform: translateY(0px); opacity:1;  }
-		.carousel-cell { width: 68%; margin:0 2%; min-height:100vh; }
+		.carousel-cell { width: 75%; margin:0 2%; min-height:100vh; }
 		.carousel-cell:not(.is-selected) img { transform: scale(.9); }
 		.carousel-cell img { will-change:transform; transition: transform .5s cubic-bezier(.19,1,.22,1); transform: scale(1); border-radius: 8px; }
 		.screenshot-shadow { box-shadow: 15px 20px 80px -15px rgba(80,102,144,.1), 16px 40px 75px -40px rgba(0,0,0,.2), 0px 0px 50px 0px rgba(0, 0, 0, 0.2); }
@@ -57,7 +57,7 @@
 	<div data-flickity='{ "wrapAround": true,  "contain": true, "prevNextButtons": false, "imagesLoaded": true, "dragThreshold": 2, "friction":0.5, "selectedAttraction":0.08 }'>
         {foreach $folio as $item}
 			<div class="carousel-cell py-20" data-index="{$item@index}">
-				<img class="screenshot-shadow img-fluid ease-out mb-2" src="{asset path=$item['screenshot']}" alt="{$item['title']} Screenshot">
+				{image_srcset firefly_id="{asset path=$item['screenshot']}" sizes="75vw" alt="{$item['title']} Screenshot" class="screenshot-shadow img-fluid ease-out mb-2"}
 				<div class="portfolio-text2 mt-16 px-4 flex-shrink md:w-2/3 mx-auto text-center">
 					<h6 class="text-xs uppercase text-gray-500">Case Study</h6>
 					<h3>{$item['title']}</h3>
@@ -67,6 +67,5 @@
 			</div>
         {/foreach}
 	</div>
-
     {jsFile src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js" attributes=[ 'defer'=>'']}
 </section>
