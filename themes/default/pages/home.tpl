@@ -3,30 +3,23 @@
 	{navigation white=['about','approach','contact'] }
 {/block}
 {block "content"}
-{*		{editor id=home123 }*}
-			{home_hero class="lg:-mt-25"}
+	{home_hero class="lg:-mt-25"}
 
-			{section_services_grid}
+	{section_services_grid}
 
     {include file='./_cmps/section/contact/got-a-project.tpl'}
     {include file='./_cmps/section/contact/book-meeting.tpl'}
+    {include file="./_cmps/section/slider/portfolio-twister.tpl"}
+    {include file="./_cmps/section/slider/portfolio-big.tpl"}
 
-{*            {include file="./_cmps/section/slider/portfolio-twister.tpl"}*}
-            {include file="./_cmps/section/slider/portfolio-old.tpl"}
+{*	{section_port_big}*}
 
+	{section_trusted_by_brands}
 
-            {include file="./_cmps/section/slider/portfolio-big.tpl"}
+    {include file='./_cmps/section/slider/testimonials.tpl'}
+    {include file='./_cmps/section/contact/footer.tpl'}
 
-{*			{section_port_big}*}
-
-
-
-		{section_trusted_by_brands}
-
-	    {include file='./_cmps/section/slider/testimonials.tpl'}
-	    {include file='./_cmps/section/contact/footer.tpl'}
-
-        {jsFile src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v1.11.1/dist/alpine.js" attributes=['async'=>'', 'defer'=>'']}
+    {jsFile src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v1.11.1/dist/alpine.js" attributes=['async'=>'', 'defer'=>'']}
 {*		<div x-data="{ show: false }"*}
 {*		     x-show="show"*}
 {*		     x-init="localStorage.getItem('hideBanner') === null ? (setTimeout(() => show = true, 500)) : (show = false)"*}

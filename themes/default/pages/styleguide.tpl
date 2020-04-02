@@ -1,6 +1,6 @@
 {extends "layouts/styleguide.tpl"}
 {block "content"}
-{js}
+{js pos=end}
 	<script>
 		(function(u) {
 			var s = document.createElement('script'); s.async = true; s.src = u;
@@ -8,11 +8,6 @@
 		})('//updatemybrowser.org/umb.js');
 	</script>
 {/js}
-<style>
-	.caveat { font-family: caveat   color: #0067FF; }
-	.trashhand { font-family: TrashHand, Arial ; color: #0067FF; }
-	.trashhand { font-family: TrashHand, Arial ; color: #0067FF; font-size:24px; line-height: 32px; }
-</style>
 {literal}
 	<style>
 		.card {margin-bottom: 30px;box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);border: 0;}

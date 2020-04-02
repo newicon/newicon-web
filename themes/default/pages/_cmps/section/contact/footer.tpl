@@ -19,39 +19,39 @@
 	<div class="w-full md:w-3/5 pt-4">
 		<form action="?" method="post">
 
-			<div class="flex ">
-				<div class="w-1/2">
+			<div class="flex flex-col sm:flex-row ">
+				<div class="sm:w-1/2">
 					<label class="sr-only" for="contact-name">Name</label>
 					<input type="text"
-					       class="form-input rounded-b-none rounded-r-none relative focus:z-10 bg-transparent appearance-none w-full px-5 py-5 border text-white text-xl border-gray-600 leading-6 rounded-md placeholder-gray-300 focus:outline-none focus:placeholder-gray-200 focus:border-blue-500 transition duration-150 ease-in-out"
+					       class="form-input rounded-none rounded-t-md sm:rounded-tr-none relative focus:z-10 bg-transparent appearance-none w-full px-5 py-5 border text-white text-xl border-gray-600 leading-6 placeholder-gray-300 focus:outline-none focus:placeholder-gray-200 focus:border-blue-500 transition duration-150 ease-in-out"
 					       name="contact[name]" id="contact-name" placeholder="Name">
 				</div>
-				<div class="w-1/2 -ml-px">
-					<label class="sr-only" for="contact-email">Name</label>
+				<div class="sm:w-1/2 -mt-px sm:mt-0 sm:-ml-px">
+					<label class="sr-only" for="contact-email">Email</label>
 					<input type="text" required
-					       class="form-input rounded-b-none rounded-l-none relative  focus:z-10 bg-transparent appearance-none w-full px-5 py-5 border text-white text-xl border-gray-600 leading-6 rounded-md placeholder-gray-300 focus:outline-none focus:placeholder-gray-200 focus:border-blue-500 transition duration-150 ease-in-out"
+					       class="form-input rounded-none sm:rounded-tr-md  relative  focus:z-10 bg-transparent appearance-none w-full px-5 py-5 border text-white text-xl border-gray-600 leading-6 placeholder-gray-300 focus:outline-none focus:placeholder-gray-200 focus:border-blue-500 transition duration-150 ease-in-out"
 					       name="contact[email]" id="contact-email" placeholder="Email address*">
 				</div>
 			</div>
-			<div class="w-full -mt-px pr-px">
-				<label class="sr-only" for="contact-message">Name</label>
+			<div class="w-full -mt-px -mt-px pr-px">
+				<label class="sr-only" for="contact-message">Message</label>
 				<textarea oninput="autoExpand(this)"
 				          class="form-input h-48 pr-px rounded-t-none relative focus:z-10 bg-transparent appearance-none w-full px-5 py-5 border text-white text-xl border-gray-600 leading-6 rounded-md placeholder-gray-300 focus:outline-none focus:placeholder-gray-200 focus:border-blue-500 transition duration-150 ease-in-out"
 				          name="contact[message]" id="contact-message" placeholder="Tell us about your project"></textarea>
-                {js}
+                {js position='end'}
 					var autoExpand = function (field) {
-					// Reset field height
-					field.style.height = 'inherit';
-					// Get the computed styles for the element
-					var computed = window.getComputedStyle(field);
-					// Calculate the height
-					var height = parseInt(computed.getPropertyValue('border-top-width'), 10)
-					+ parseInt(computed.getPropertyValue('padding-top'), 10)
-					+ field.scrollHeight
-					+ parseInt(computed.getPropertyValue('padding-bottom'), 10)
-					+ parseInt(computed.getPropertyValue('border-bottom-width'), 10);
-					field.style.height = height + 'px';
-					window.localStorage.setItem('contactFormMessage', field.value);
+						// Reset field height
+						field.style.height = 'inherit';
+						// Get the computed styles for the element
+						var computed = window.getComputedStyle(field);
+						// Calculate the height
+						var height = parseInt(computed.getPropertyValue('border-top-width'), 10)
+						+ parseInt(computed.getPropertyValue('padding-top'), 10)
+						+ field.scrollHeight
+						+ parseInt(computed.getPropertyValue('padding-bottom'), 10)
+						+ parseInt(computed.getPropertyValue('border-bottom-width'), 10);
+						field.style.height = height + 'px';
+						window.localStorage.setItem('contactFormMessage', field.value);
 					};
                 {/js}
 			</div>

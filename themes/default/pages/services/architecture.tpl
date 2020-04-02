@@ -40,7 +40,7 @@
 
 	{include file='../_cmps/section/contact/got-a-project.tpl'}
 	{include file='../_cmps/section/contact/book-meeting.tpl'}
-	{include file='../_cmps/section/slider/portfolio-old.tpl' category='architecture'}
+	{include file='../_cmps/section/slider/portfolio-twister.tpl' category='architecture'}
 	{include file='../_cmps/section/slider/testimonials.tpl'}
 	{include file='../_cmps/section/contact/footer.tpl' title="Start your future, today"}
 

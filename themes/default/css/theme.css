@@ -1,4 +1,6 @@
+/* Typography helpers */
 .ni-italic { @apply font-serif text-gray-500 italic font-thin; }
+.ni-freehand { font-family: TrashHand, Arial ; color: #0067FF; }
 
 /* COMPLETE CSS */
 /****************/

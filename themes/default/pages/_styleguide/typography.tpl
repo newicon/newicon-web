@@ -38,4 +38,8 @@
 		<li>Bread</li>
 		<li>Booze</li>
 	</ol>
+
+	<h2>Italic Callouts</h2>
+	<pre>{htmlExample}<b class="ni-italic text-2xl">Hey, This is really nice to look at!</b>{/htmlExample}</pre>
+	<pre>{htmlExample}<b class="ni-freehand text-2xl">Hey, This is really nice to look at!</b>{/htmlExample}</pre>
 </section>

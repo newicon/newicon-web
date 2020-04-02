@@ -67,5 +67,5 @@
 			</div>
         {/foreach}
 	</div>
-    {jsFile src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js" attributes=[ 'defer'=>'']}
+    {jsFile src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.pkgd.min.js"}
 </section>
