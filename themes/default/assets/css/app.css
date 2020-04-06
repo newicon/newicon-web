@@ -298,8 +298,8 @@ html.noScroll, html.noScroll body {
 .navTrigger { position: relative; display: none; width: 24px; height: 12px;
 }
 
-.navTrigger span { position: absolute; display: block; height: 2px; width: 100%; border-radius: 4px; background: #00163D; transition: opacity .2s .25s, transform .2s 0s;
-} /* top .2s .25s, */
+.navTrigger span { position: absolute; display: block; height: 2px; width: 100%; border-radius: 4px; background: #00163D; transition: opacity .2s .25s, transform .2s 0s, top .2s .25s;
+} /*  */
 
 .navTrigger span:nth-child(1) { top: 0;
 }
@@ -307,7 +307,7 @@ html.noScroll, html.noScroll body {
 .navTrigger span:nth-child(2) { top: 10px;
 }
 
-.open .navTrigger span { transition: opacity .2s, transform .2s .25s;
+.open .navTrigger span { transition: opacity .2s, transform .2s .25s, top .2s;
 } /* top .2s, */
 
 .open .navTrigger span:nth-child(1),

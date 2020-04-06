@@ -1,6 +1,7 @@
 {extends "layouts/layout.tpl"}
 {block "header"}
 	{navigation}
+{*    {navigation_original}*}
 {/block}
 {block "content"}
 

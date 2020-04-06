@@ -69,5 +69,6 @@ return [
 			'rememberMeDuration' => 3600 * 24 * 30,
 			'enableAutoLogin' => true,
 		],
+
 	]
 ];

@@ -32,5 +32,9 @@
 		"postcss-cli": "^7.1.0",
 		"tailwindcss": "^1.2.0",
 		"vue": "^2.6.11"
-	}
+	},
+	"browserslist": [
+		"defaults",
+		"IE 11"
+	]
 }
