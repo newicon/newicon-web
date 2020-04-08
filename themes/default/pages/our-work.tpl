@@ -51,7 +51,7 @@
 
 		{foreach $caseStudies as $work}
 
-			{layout_section style="background-image: url({asset path=$work.bg})"}
+			{layout_section class="bg-cover bg-center" style="background-image: url({asset path=$work.bg})"}
 				{layout_container class="h-screen relative flex"}
 					<div class="self-end relative w-full md:w-4/12 bottom-28 text-white" data-aos="fade-up">
 						<cite class="ni-italic text-white">{$work.company}</cite>

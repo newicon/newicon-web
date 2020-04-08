@@ -1,6 +1,5 @@
 const plugin = require('tailwindcss/plugin');
 const { colors, cursor, shadows, fontSize, spacing } = require('tailwindcss/defaultTheme');
-
 module.exports = {
 	prefix: '',
 	theme: {
@@ -110,9 +109,9 @@ module.exports = {
 				current: 'currentColor',
 				//'blue': theme('colors.blue.500'),
 			},
-			shadows: {
+			boxShadow: {
 				...shadows,
-				'2xl': '0 13px 27px -5px rgba(50,50,93,.25), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,.025)',
+				'3xl': '0 50px 100px -20px rgba(50, 50, 93, 0.25), 0 30px 60px -30px rgba(0, 0, 0, 0.3), 0 -18px 60px -10px rgba(0, 0, 0, 0.025)'
 			},
 			colors: {
 				black: colors.black,
@@ -263,6 +262,10 @@ module.exports = {
 		translate: ['responsive', 'hover', 'focus', 'group-hover'],
 		borderColor: ['responsive', 'hover', 'focus', 'active'],
 		scale: ['responsive', 'hover', 'focus', 'group-hover'],
+		fontWeight: ['responsive', 'hover', 'focus', 'group-hover'],
+		opacity: ['responsive', 'hover', 'focus', 'group-hover'],
+		visibility: ['responsive', 'hover', 'focus', 'group-hover'],
+		pointerEvents: ['responsive', 'group-hover'],
 	},
 	plugins: [
 		plugin(function({ addBase, config }) {
@@ -275,8 +278,6 @@ module.exports = {
 		}),
 		require('postcss-import'),
 		require('tailwindcss'),
-		require('postcss-custom-properties'), // for IE11 support of css custom properties
-		require('autoprefixer'), // automatically prefix things with vendor prefixes - again IE11 etc
 		require('@tailwindcss/ui'),
 
 		plugin(function({ addBase, config }) {

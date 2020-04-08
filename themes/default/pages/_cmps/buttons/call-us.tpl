@@ -7,7 +7,7 @@
 		<div x-show="open" x-transition:enter="ease-out duration-300" x-transition:enter-start="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95" x-transition:enter-end="opacity-100 translate-y-0 sm:scale-100" x-transition:leave="ease-in duration-200" x-transition:leave-start="opacity-100 translate-y-0 sm:scale-100" x-transition:leave-end="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
 		     class="relative bg-white rounded-lg pt-5 pb-4 overflow-hidden shadow-2xl transform transition-all max-w-2xl w-full">
 			<div class=" absolute top-0 right-0 pt-4 pr-4">
-				<button @click="open = false; setTimeout(() => open = true, 1000)" type="button" class="text-blue-400 hover:text-blue-500 focus:outline-none focus:text-blue-500 transition ease-in-out duration-150">
+				<button @click="open = false" type="button" class="text-blue-400 hover:text-blue-500 focus:outline-none focus:text-blue-500 transition ease-in-out duration-150">
 					<svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
 						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
 					</svg>

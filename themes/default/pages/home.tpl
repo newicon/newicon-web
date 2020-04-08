@@ -1,9 +1,9 @@
 {extends "layouts/layout.tpl"}
 {block "header"}
-	{navigation white=['about','approach','contact'] }
+	{navigation white=['about','approach','contact'] inactiveClass="text-black" activeClass="text-blue-500" }
 {/block}
 {block "content"}
-	{home_hero class="lg:-mt-25"}
+	{home_hero class="md:-mt-25"}
 
 	{section_services_grid}
 

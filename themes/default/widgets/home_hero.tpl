@@ -16,7 +16,7 @@
 			<p class="text-gray-700 font-medium text-xl">Design thinking. Software engineering. <br/> Turning ideas into reality</p>
 			<div class="intro_actions mt-16">
 				<a  class="btn btn-primary btn-lg btn-shadow btn-fx" href="#">Start a conversation</a>
-				<a  class="ml-2 btn btn-outline-primary btn-lg hidden lg:inline-block btn-fx" href="{page_url nice='work'}">See our work</a>
+				<a  class="ml-2 btn btn-outline-primary btn-lg hidden xl:inline-block btn-fx bg-white" href="{page_url nice='work'}">See our work</a>
 			</div>
 		</div>
 	</div>

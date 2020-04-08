@@ -9,4 +9,4 @@ a { color: inherit; text-decoration: underline; }
 a:hover { text-decoration: none; @apply text-blue-500; }
 h1, h2, h3, h4, h5, h6 { margin-bottom: 1.2rem; font-weight: 700; line-height: 1.2; }
 p, ul, ol, dl, hr, table, blockquote { margin-bottom: 1.2rem; }
-li { @apply pb-2; }
+li { @apply mb-2; }

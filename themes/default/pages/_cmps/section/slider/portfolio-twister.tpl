@@ -117,6 +117,7 @@
 			},
 			mounted: function() {
 				this.flick = new Flickity(this.$refs.flick, {
+					adaptiveHieght: false,
 					wrapAround: true, contain: true, prevNextButtons: false, pageDots: true, imagesLoaded: true,
 					friction:.5, selectedAttraction:.08,
 				});

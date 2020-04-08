@@ -24,8 +24,8 @@
 
 		{* Calendly link widget begin *}
         {* -------------------------- *}
-		{cssFile src="https://assets.calendly.com/assets/external/widget.css"}
-		{jsFile src="https://assets.calendly.com/assets/external/widget.js" attributes=['async'=>'', 'defer'=>'']}
+{*		{cssFile src="https://assets.calendly.com/assets/external/widget.css"}*}
+{*		{jsFile src="https://assets.calendly.com/assets/external/widget.js" attributes=['async'=>'', 'defer'=>'']}*}
 
         {* Aos: website scroll in animations *}
         {* --------------------------------- *}

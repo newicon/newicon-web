@@ -1,7 +1,7 @@
 {extends "layouts/layout.tpl"}
 {block "header"}
 	{navigation}
-{*    {navigation_original}*}
+    {navigation_original}
 {/block}
 {block "content"}
 
@@ -41,8 +41,8 @@
 
 	{include file='../_cmps/section/contact/got-a-project.tpl'}
 	{include file='../_cmps/section/contact/book-meeting.tpl'}
-	{include file='../_cmps/section/slider/portfolio-twister.tpl' category='architecture'}
-	{include file='../_cmps/section/slider/testimonials.tpl'}
+{*	{include file='../_cmps/section/slider/portfolio-twister.tpl' category='architecture'}*}
+{*	{include file='../_cmps/section/slider/testimonials.tpl'}*}
 	{include file='../_cmps/section/contact/footer.tpl' title="Start your future, today"}
 
 	<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.0.1/dist/alpine.js" defer></script>

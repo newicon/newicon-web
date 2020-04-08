@@ -67,5 +67,6 @@
 			</div>
         {/foreach}
 	</div>
+    {cssFile src="https://unpkg.com/flickity@2/dist/flickity.min.css"}
     {jsFile src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.pkgd.min.js"}
 </section>
