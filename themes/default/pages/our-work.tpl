@@ -1,16 +1,17 @@
 {extends "layouts/layout.tpl"}
+{* get colour *}
+
 {block "header"}
-    {navigation inverse=true }
+    {navigation inverse=true class="bg-black" }
 {/block}
 {block "content"}
-	{css}
+{css}
 		<style>
 			.introSecondary-dark { background: linear-gradient(black, #080e26); }
 		</style>
 	{/css}
 
-
-		<div class="introSecondary introSecondary-dark m_pullIntoMenu -mt-25 py-24">
+		<div class="introSecondary-dark py-24">
             {include file="./_cmps/hero/text.tpl"
 	            title="Our work"
 	            titleColor="white"
@@ -33,7 +34,7 @@
 				'bg' => 'images/temp/section-review-background-6.png',
 				'company' => 'Airbus',
 				'title' => 'A maintenance mobile app for a global aviation superpower',
-				'link' => ''
+				'link' => 'case-study-airbus-app'
 			],
 			[
 				'bg' => 'images/temp/section-review-background-7.png',

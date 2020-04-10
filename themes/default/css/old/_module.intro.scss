@@ -358,8 +358,6 @@
 
 /*  Intro Quaternary Alt  */
 
-.bgTextTitle { position: relative; }
-.bgTextTitle:before { content: attr(data-title); position: absolute; top: 250px; left: 0; z-index: -5; font-weight: 800; font-size: 331px; line-height: 1; color: $blue14; white-space: nowrap; pointer-events: none; opacity: .5; transform: translateY(-50%); }
 
 
 

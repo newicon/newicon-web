@@ -24,7 +24,7 @@ sub="Listen to what our customers say about us"
 'job_title' => 'Commercial Director',
 'company' => 'Centreline Aviation',
 'image' => 'images/testimonials/phil-brockwell.jpg',
-'quote' => 'Newicon give us more than a creative input, they also add state of the art technology to steer our business in directions we had not even considered.'
+'quote' => 'Newicon give us more than creative input, they also add state of the art technology to steer our business in directions we had not even considered.'
 ],
 'permagard' => [
 'name' => 'Steve Wookey',

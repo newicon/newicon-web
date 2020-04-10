@@ -88,6 +88,7 @@ module.exports = {
 				padding: '1.5rem'
 			},
 			screens: {
+				//"xs": "375px",
 				"sm": "640px",
 				// => @media (min-width: 640px) { ... }
 				"md": "768px", // 640 + 128
@@ -111,7 +112,8 @@ module.exports = {
 			},
 			boxShadow: {
 				...shadows,
-				'3xl': '0 50px 100px -20px rgba(50, 50, 93, 0.25), 0 30px 60px -30px rgba(0, 0, 0, 0.3), 0 -18px 60px -10px rgba(0, 0, 0, 0.025)'
+				'3xl': '0 50px 100px -20px rgba(50, 50, 93, 0.25), 0 30px 60px -30px rgba(0, 0, 0, 0.3), 0 -18px 60px -10px rgba(0, 0, 0, 0.025)',
+				'4xl': '0 100px 100px -20px rgba(50, 50, 93, 0.25), 0 30px 60px -30px rgba(0, 0, 0, 0.4)',
 			},
 			colors: {
 				black: colors.black,

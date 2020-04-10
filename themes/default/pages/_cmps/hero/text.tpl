@@ -1,4 +1,4 @@
-<div class="{if (isset($bgTitle))}bgTextTitle{/if}" data-title="{$bgTitle|default:''}" >
+<div class="{if (isset($bgTitle) and $bgTitle)}ni-bg-title{/if}" data-title="{$bgTitle|default:''}" >
 	<div class="px-1/12 pt-28 pb-0 text-center md:text-left">
 		<div class="px-0 md:px-15">
 			<h1 class="text-3xl md:text-4xl lg:text-5xl text-{$titleColor|default:'gray-800'}">{$title}</h1>

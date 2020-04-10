@@ -3,48 +3,47 @@
     {navigation}
 {/block}
 {block "content"}
-	<div class="main">
-		<section class="sectionInfo">
-			<div class="shell shell-xs">
-				<div class="section_head">
-					<h6 class="section_subtitle">Privacy &amp; Security</h6>
-					<h1 class="section_title">Newicon Security</h1>
-					<p>Newicon takes the security of your data and our infrastructure very seriously. We are committed to providing and environment that is safe, secure, and available to all of our customers.</p>
+	{layout_section}
+		<div class="text-center grid grid-cols-12 gap-4 mx-auto max-w-screen-xl">
+			<div class="col-span-10 col-start-2 md:col-span-8 md:col-start-3 lg:col-span-6 lg:col-start-4 mb-20">
+				<div class="uppercase font-bold text-gray-400 text-xs tracking-wider mb-4">Privacy &amp; Security</div>
+				<h1 class="font-extrabold text-5xl  mb-6">Newicon Security</h1>
+				<p class="text-xl text-gray-700">Newicon takes the security of your data and our infrastructure very seriously. We are committed to providing an environment that is safe, secure, and available to all of our customers. Without these basics we would not have a company.</p>
+			</div>
+			<div class="row-span-2 col-span-10 col-start-2 lg:col-span-8 lg:col-start-3">
+				<div class="sm:hidden">
+					<select class="form-select block w-full">
+						<option>My Account</option>
+						<option>Company</option>
+						<option selected>Team Members</option>
+						<option>Billing</option>
+					</select>
 				</div>
-
-				<div class="section_body">
-					<nav class="navQuaternary">
-						<ul>
-							<li class="current">
-								<a href="#">Data Security</a>
-							</li>
-
-							<li>
-								<a href="#">Compliance</a>
-							</li>
-
-							<li>
-								<a href="#">GDPR</a>
-							</li>
-
-							<li>
-								<a href="#">Privacy</a>
-							</li>
-
-							<li>
-								<a href="#">Privacy Shield</a>
-							</li>
-
-							<li>
-								<a href="#">Contact Security</a>
-							</li>
-						</ul>
-					</nav>
-
-					<div class="section_entry">
+				<div class="hidden sm:block">
+					<div class="border-b border-gray-200">
+						<nav class="-mb-px flex">
+							<a href="#" class="w-1/4 py-4 no-underline px-1 text-center border-b-2 border-blue-500 font-medium tex-md leading-5 text-blue-600 focus:outline-none focus:text-indigo-800 focus:border-indigo-700">
+								Privacy
+							</a>
+							<a href="#" class="w-1/4 py-4 no-underline px-1 text-center border-b-2 border-transparent font-medium tex-md leading-5 text-gray-500 hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300">
+								Data Security
+							</a>
+							<a href="#" class="w-1/4 py-4 no-underline px-1 text-center border-b-2 border-transparent font-medium tex-md leading-5 text-gray-500 hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300">
+								Compliance
+							</a>
+							<a href="#" class="w-1/4 py-4 no-underline px-1 text-center border-b-2 border-transparent font-medium tex-md leading-5 text-gray-500 hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300">
+								GDPR
+							</a>
+							<a href="#" class="w-1/4 py-4 no-underline px-1 text-center border-b-2 border-transparent font-medium tex-md leading-5 text-gray-500 hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300">
+								Privacy Sec
+							</a>
+						</nav>
+					</div>
+				</div>
+				<div class="mt-10">
+					<div id="privacy" class="text-left">
 						<p><strong>Your privacy is important to you and to us. So we’ll protect the information you
-								share with us.<br>
-							</strong><strong>We can promise that we will never sell or give away your name, mail
+								share with us.<br></strong><strong>We can promise that we will never sell or give away your name, mail
 								address, phone number, email address or any other information to anyone.</strong></p>
 						<p>Newicon ltd. (“we”, “us”) are committed to protecting and respecting your privacy. This
 							policy sets out the basis on which any personal data we collect from you, or that you
@@ -53,7 +52,6 @@
 							purposes of the Data Protection Act 1998 (the Act), the data controller is Newicon Ltd, The
 							Waterfront, Welsh Back, Bristol, BS1 4SB. Our nominated representative for the purpose of
 							the Act is Steven O’Brien.</p>
-						<p>&nbsp;</p>
 						<h3>Information We May Collect From You</h3>
 						<p><strong>We may collect and process the following data about you:</strong></p>
 						<ul>
@@ -297,12 +295,11 @@
 						<p>If you have any queries, questions or comments about our privacy policy, you can contact us
 							at any time by emailing theteam@newicon.net – we aim to respond within 7 business days. If
 							we are unable to resolve your complaint, you may refer your complaint to the Information
-							Commissioner’s Office by clicking here: <a
-									href="http://CONTACTING SYMEC If you have any queries, questions or comments about our privacy policy, you can contact us at any time by emailing customer@symec.co.uk – we aim to respond within 7 business days. If we are unable to resolve your complaint, you may refer your complaint to the Information Commissioner’s Office by clicking here: https://ico.org.uk/concerns/.">https://ico.org.uk/concerns/</a>
+							Commissioner’s Office by going to <a href="https://ico.org.uk/concerns/">https://ico.org.uk/concerns/</a>
 						</p>
 					</div>
 				</div>
 			</div>
-		</section>
-	</div>
+		</div>
+	{/layout_section}
 {/block}

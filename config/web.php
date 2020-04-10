@@ -21,7 +21,7 @@ return [
 			// applies to css blocks and only to concatenated file
 			'cssMinify' => true,
 			// Whether to concatenate js files
-			'jsConcatenate' => true,
+			'jsConcatenate' => false,
 		]
 	]
 ];

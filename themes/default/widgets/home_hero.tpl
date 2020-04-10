@@ -6,7 +6,7 @@
 }
 *}
 <section class="flex flex-col md:flex-row-reverse md:flex-row ptn {$class|default:''}">
-	<div class="w-full md:w-3/5 text-right">
+	<div class="w-full md:w-3/5 text-right pl-8 md:pl-0">
 {*		inline-block max-h-full*}
 		<img src="{assets path='images/illustrations/telescope-future-static.svg'}" class="" alt="Newicon see the future image" />
 	</div>
