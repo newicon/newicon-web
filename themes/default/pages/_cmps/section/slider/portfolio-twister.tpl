@@ -84,8 +84,30 @@
 					<a class="mt-5 px-16 btn btn-outline-primary btn-fx btn-lg" href="{page_url id=$item['link']}">Explore</a>
 				</div>
 				<div class="flex-grow order-0 lg:order-1 self-center lg:-mr-40">
-					{* shadow-2xl rounded-lg border-white border-8  *}
-					{image_srcset firefly_id="{asset path=$item['screenshot']}" sizes="(min-width:1048) 1048, 100vw" class="screenshot lg:rotate-3 img-fluid" alt="{$item['title']} Screenshot"}
+					{*
+					 * There is currently two ways of generating the correct image here - note in order to lazy load images
+					 * the src and srcset tags must be defined with 'data-flickity-lazyload-' prefix.
+					 * Two options:
+					 * 1) break down the image tag into seperate responsibilities
+					 * 2) include srcset-name & src-name params to the image_srcset function
+					 * option 1, I think, creates more testable and easier to reason about code
+					 * furthermore the current sizes implemntation inside the image_srcset does not seem to generate
+					 * responsive loaded images. sizes is a complex property specifc to the use case and may be better
+					 * to force the developer to define.
+					 * - another improvement would be to NOT have to prefix paths with {asset} (in progress)
+					 * perhaps a new plugin to manage this - {image_url src="fireflyId|path"}
+					 *}
+					<img data-flickity-lazyload-src="{image_src src=$item['screenshot'] w=200 q=90}"
+					     data-flickity-lazyload-srcset="{image_srcset src=$item['screenshot']}"
+					     sizes="(min-width:1048) 1048, 100vw" class="screenshot lg:rotate-3 img-fluid"
+					     alt="{$item['title']} Screenshot">
+{*					{image *}
+{*					src="path=$item['screenshot']"*}
+{*					srcset-name="data-flickity-lazyload-srcset"*}
+{*					src-name="data-flickity-lazyload-src"*}
+{*					sizes="(min-width:1048) 1048, 100vw"*}
+{*					class="screenshot lg:rotate-3 img-fluid"*}
+{*					alt="{$item['title']} Screenshot"}*}
 				</div>
 			</div>
         {/foreach}
@@ -93,7 +115,7 @@
 
 	<div class="flex justify-center sliderNav slide_foot self-end hidden lg:block text-center" data-flick-nav>
         {foreach $folio as $item}
-			<button role="button" aria-label="Select the {$item.company} Case Study" class=" outline-none portfolio-btn mx-2 w-24" :class="{ 'is-selected': index=={$item@index}}" @click="select({$item@index})" >
+			<button role="button" aria-label="Select the {$item.company} Case Study" class="outline-none portfolio-btn mx-2 w-24" :class="{ 'is-selected': index=={$item@index}}" @click="select({$item@index})" >
 				<img src="{asset path=$item.logo_dark}" alt="{$item.company}" class="portfolio-btn__dark" width="101" height="32">
 				<img src="{asset path=$item.logo_light}" alt="{$item.company}" class="portfolio-btn__light" width="101" height="32">
 			</button>
@@ -119,7 +141,7 @@
 				this.flick = new Flickity(this.$refs.flick, {
 					adaptiveHieght: false,
 					wrapAround: true, contain: true, prevNextButtons: false, pageDots: true, imagesLoaded: true,
-					friction:.5, selectedAttraction:.08,
+					friction:.5, selectedAttraction:.08, lazyLoad: true
 				});
 				var vm = this;
 				this.flick.on('select', function (e) {

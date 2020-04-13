@@ -12,7 +12,7 @@ return [
 		'view' => [
 			'class' => 'neon\core\web\View',
 			// Whether css files should be concatenated
-			'cssConcatenate' => true,
+			'cssConcatenate' => false,
 			// Whether to process the css for variables using the registered css renderer
 			// currently only applicable id cssConcatenate is true
 			'cssProcess' => false,

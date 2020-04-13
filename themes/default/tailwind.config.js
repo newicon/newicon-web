@@ -1,5 +1,5 @@
 const plugin = require('tailwindcss/plugin');
-const { colors, cursor, shadows, fontSize, spacing } = require('tailwindcss/defaultTheme');
+const { colors, cursor, shadows, fontSize, spacing, transitionProperty } = require('tailwindcss/defaultTheme');
 module.exports = {
 	prefix: '',
 	theme: {
@@ -112,8 +112,19 @@ module.exports = {
 			},
 			boxShadow: {
 				...shadows,
+				// xs: '0 0 0 1px rgba(0, 0, 0, 0.05)',
+				// sm: '0 1px 2px 0 rgba(0, 0, 0, 0.05)',
+				// default: '0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)',
+				// md: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)',
+				// lg: '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
+				// xl: '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)',
+				// '2xl': '0 25px 50px -12px rgba(0, 0, 0, 0.25)',
 				'3xl': '0 50px 100px -20px rgba(50, 50, 93, 0.25), 0 30px 60px -30px rgba(0, 0, 0, 0.3), 0 -18px 60px -10px rgba(0, 0, 0, 0.025)',
 				'4xl': '0 100px 100px -20px rgba(50, 50, 93, 0.25), 0 30px 60px -30px rgba(0, 0, 0, 0.4)',
+				//   inner: 'inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)',
+				'inner-md': 'inset 0 5px 5px 0 rgba(0, 0, 0, 0.2)',
+				// outline: '0 0 0 3px rgba(66, 153, 225, 0.5)',
+				// none: 'none',
 			},
 			colors: {
 				black: colors.black,
@@ -146,6 +157,19 @@ module.exports = {
 					'950': 'hsl(225, 25%, 9%)',
 				},
 				blue: {
+					'50': '#F2F7FF',
+					'100': '#D9E8FF',
+					'200': '#B3D1FF',
+					'300': '#80B2FF',
+					'400': '#408CFF',
+					'500': 'hsl(216, 100%, 50%)',
+					'600': '#0056D9',
+					'700': '#0047B2',
+					'800': '#00388C',
+					'900': '#002866',
+					'950': '#00173B',
+				},
+				indigo: {
 					'50': '#F2F7FF',
 					'100': '#D9E8FF',
 					'200': '#B3D1FF',
@@ -199,19 +223,19 @@ module.exports = {
 					'900': '#621017',
 				// 	//'950': '#39090D',
 				},
-				// orange: {
-				// 	'50': '#39090D',
-				// 	'100': '#FFEDDA',
-				// 	'200': '#FFDCB5',
-				// 	'300': '#FFC583',
-				// 	'400': '#FFA845',
-				// 	'500': '#FF8C08',
-				// 	'600': '#D97706',
-				// 	'700': '#B26105',
-				// 	'800': '#8C4C04',
-				// 	'900': '#663803',
-				// 	//'950': '#3B2001',
-				// },
+				orange: {
+					'50': '#39090D',
+					'100': '#FFEDDA',
+					'200': '#FFDCB5',
+					'300': '#FFC583',
+					'400': '#FFA845',
+					'500': '#FF8C08',
+					'600': '#D97706',
+					'700': '#B26105',
+					'800': '#8C4C04',
+					'900': '#663803',
+					'950': '#3B2001',
+				},
 				// // yellow: {
 				// // '50': '#FFFCF3',
 				// // '100': '#FFF6DE',
@@ -255,7 +279,36 @@ module.exports = {
 			cursor: {
 				...cursor,
 				grab: 'grab'
-			}
+			},
+			transitionProperty: {
+				...transitionProperty,
+				none: 'none',
+				all: 'all',
+				default: 'background-color, border-color, color, fill, stroke, opacity, box-shadow, transform',
+				colors: 'background-color, border-color, color, fill, stroke',
+				opacity: 'opacity',
+				shadow: 'box-shadow',
+				transform: 'transform',
+				// typically used for modals and drop downs - For e.g: fade in and grow and fade out and shrink
+				trop: 'scale, opacity'
+			  },
+			  transitionTimingFunction: {
+				linear: 'linear',
+				in: 'cubic-bezier(0.4, 0, 1, 1)',
+				out: 'cubic-bezier(0, 0, 0.2, 1)',
+				// 'in-out': 'cubic-bezier(0.4, 0, 0.2, 1)',
+				'in-out': 'cubic-bezier(.2, 1, .22, 1)',
+			  },
+			  transitionDuration: {
+				'75': '75ms',
+				'100': '100ms',
+				'150': '150ms',
+				'200': '200ms',
+				'300': '300ms',
+				'500': '500ms',
+				'700': '700ms',
+				'1000': '1000ms',
+			  },
 		},
 	},
 	variants: {
@@ -265,7 +318,7 @@ module.exports = {
 		borderColor: ['responsive', 'hover', 'focus', 'active'],
 		scale: ['responsive', 'hover', 'focus', 'group-hover'],
 		fontWeight: ['responsive', 'hover', 'focus', 'group-hover'],
-		opacity: ['responsive', 'hover', 'focus', 'group-hover'],
+		opacity: ['responsive', 'hover', 'focus', 'group-hover', 'focus', 'focus-within'],
 		visibility: ['responsive', 'hover', 'focus', 'group-hover'],
 		pointerEvents: ['responsive', 'group-hover'],
 	},
@@ -278,9 +331,9 @@ module.exports = {
 				'h4': { fontSize: config('theme.fontSize.xl') },
 			})
 		}),
-		require('postcss-import'),
 		require('tailwindcss'),
 		require('@tailwindcss/ui'),
+		// require('postcss-import'),
 
 		plugin(function({ addBase, config }) {
 			const styles = config('theme');

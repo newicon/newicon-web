@@ -5,7 +5,7 @@
 {block "content"}
 
 	<div class="h-screen relative bg-blue-950">
-        {image_srcset firefly_id={asset path='images/temp/section-review-background-5.png'} class="absolute object-cover w-full h-full" sizes="100vw"}
+        {image src={asset path='images/temp/section-review-background-5.png'} class="absolute object-cover w-full h-full" sizes="100vw"}
         {layout_container class="absolute inset-0 flex items-center"}
 	        <div>
 				<cite class="ni-italic text-white text-lg">Bristol & Bath Science Park</cite>
@@ -41,7 +41,7 @@
 		{/capture}
 		{capture name="image"}
 			<div class="px-8 md:px-16 lg:px-28">
-				{image_srcset firefly_id={asset path='images/work/bbsp/screenshot-1.png'} class="shadow-4xl w-full col-span-10 mx-auto" sizes="100vw"}
+				{image src={asset path='images/work/bbsp/screenshot-1.png'} class="shadow-4xl w-full col-span-10 mx-auto" sizes="100vw"}
 			</div>
 		{/capture}
 	{/layout_casestudy_section}
@@ -53,7 +53,7 @@
 			<p class="text-xl text-lightGray-600">Our knowledge of the park enabled us to portray an image which we and the BBSP management team thought would take the park into its second phase. Enabling the park as a whole to fill plots and increase occupancy of the innovation centre.</p>
 		{/capture}
 		{capture name="image"}
-			{image_srcset firefly_id={asset path='images/work/bbsp/screenshot-2.png'} class="w-full" sizes="100vw" width="1366" height="1379"}
+			{image src={asset path='images/work/bbsp/screenshot-2.png'} class="w-full" sizes="100vw" width="1366" height="1379"}
 		{/capture}
 	{/layout_casestudy_section}
 
@@ -64,7 +64,7 @@
 			<p class="text-xl text-lightGray-600">Whilst a fresh new image and design architecture was essential, the park also wanted to generate more news and social media awareness, so we created a Parklife wall, which pulls in the best of Twitter, Instagram and YouTube, along with news and events to create a stunning visual overview of life at the park.</p>
 		{/capture}
 		{capture name="image"}
-			{image_srcset firefly_id={asset path='images/work/bbsp/screenshot-3.png'} class="w-full" sizes="100vw" width="1366" height="1379"}
+			{image src={asset path='images/work/bbsp/screenshot-3.png'} class="w-full" sizes="100vw" width="1366" height="1379"}
 		{/capture}
 	{/layout_casestudy_section}
 
@@ -76,7 +76,7 @@
 			<p class="text-xl text-lightGray-600">With routes that let users find their way to all of the key facilities, meeting areas and office spaces users are able to see things for themself before visiting.</p>
 		{/capture}
 		{capture name="image"}
-			{image_srcset firefly_id={asset path='images/work/bbsp/screenshot-4.png'} class="w-full" sizes="100vw" width="1366" height="1379"}
+			{image src={asset path='images/work/bbsp/screenshot-4.png'} class="w-full" sizes="100vw" width="1366" height="1379"}
 		{/capture}
 	{/layout_casestudy_section}
 
@@ -88,7 +88,7 @@
 			<p class="text-xl text-lightGray-600">We introduced a brand new tenant directory and job board with a smart filter that enables users to search for companies and jobs they are interested in by filtering on	 certain criteria.</p>
 		{/capture}
 		{capture name="image"}
-			{image_srcset firefly_id={asset path='images/work/bbsp/screenshot-5.png'} class="w-full" sizes="100vw" width="1366" height="1379"}
+			{image src={asset path='images/work/bbsp/screenshot-5.png'} class="w-full" sizes="100vw" width="1366" height="1379"}
 		{/capture}
 	{/layout_casestudy_section}
 

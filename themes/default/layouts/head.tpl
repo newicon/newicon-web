@@ -11,7 +11,7 @@
 
 <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900|Volkhov:400,400i&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" type="text/css" href="{asset path='/css/app.css'}">
+<link rel="stylesheet" type="text/css" href="{asset path={(env('NEON_ENV')=='prod') ? '/css/app.min.css': '/css/app.css'}}">
 {*<script async defer type="text/javascript" href="{asset path='/js/app.js'}"></script>*}
 
 {assign var="fav" value="blue"}

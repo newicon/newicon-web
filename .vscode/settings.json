@@ -1,0 +1,9 @@
+{
+    "editor.fontSize": 14,
+    "workbench.fontAliasing": "antialiased",
+    "workbench.tree.indent": 16,
+    "smarty.highlightColor": {
+        "dark": "#FFFFFF10",
+        "light": "#FFFA0040"
+      }
+}

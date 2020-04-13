@@ -5,7 +5,7 @@
 {block "content"}
 
 	<div class="h-screen relative bg-blue-950">
-        {image_srcset firefly_id={asset path='images/temp/section-review-background-2.png'} class="absolute object-cover w-full h-full" sizes="100vw"}
+        {image src={asset path='images/temp/section-review-background-2.png'} class="absolute object-cover w-full h-full" sizes="100vw"}
         {layout_container class="absolute inset-0 flex items-center"}
 	        <div>
 				<cite class="ni-italic text-white text-lg">Airbus & Meggitt</cite>
@@ -45,13 +45,10 @@
 		{/capture}
 		{capture name="image"}
 			<div class="px-8 md:px-16 lg:px-28">
-				{image_srcset firefly_id={asset path='images/work/bbsp/screenshot-1.png'} class="shadow-4xl w-full col-span-10 mx-auto" sizes="100vw"}
+				{image src={asset path='images/work/bbsp/screenshot-1.png'} class="shadow-4xl w-full col-span-10 mx-auto" sizes="100vw"}
 			</div>
 		{/capture}
 	{/layout_casestudy_section}
-
-
-
 
 	{include file='../_cmps/section/slider/testimonials.tpl'}
 	{include file='../_cmps/section/contact/footer.tpl' title="Start your future, today"}

@@ -5,7 +5,7 @@
 'body' => 'We designed and built a bespoke mobile appliction that improved both efﬁciency and reliability of the weekly recycle bin collection.',
 'link' => 'case-study-bbsp',
 'screenshot' => 'images/work/folio/bbsp-no-border.svg',
-'screenshot' => 'images/photos/iphone-user-screenshot.jpg',
+'screenshot' => 'images/photos/coding-screen.jpg',
 'logo_light' => 'images/temp/slider-nav-image-2-white.png',
 'logo_dark' => 'images/temp/slider-nav-image-2.png'
 ],
@@ -32,7 +32,7 @@
 'body' => 'We designed and built a bespoke mobile appliction that improved both efﬁciency and reliability of the weekly recycle bin collection.',
 'link' => 'case-study-bbsp',
 'screenshot' => 'images/work/folio/bbsp-no-border.svg',
-'screenshot' => 'images/photos/iphone-user-screenshot.jpg',
+'screenshot' => 'images/photos/ipad-postits-on-table.jpg',
 'logo_light' => 'images/temp/slider-nav-image-3-white.png',
 'logo_dark' => 'images/temp/slider-nav-image-3.png'
 ]
@@ -54,10 +54,10 @@
 
 <section class="section my-24 slider-portfolio relative">
     {header_center title="Our Work" sub="Some projects we're proud of :-)"}
-	<div data-flickity='{ "wrapAround": true,  "contain": true, "prevNextButtons": false, "imagesLoaded": true, "dragThreshold": 2, "friction":0.5, "selectedAttraction":0.08 }'>
+	<div data-flickity='{ "wrapAround": true,  "contain": true, "prevNextButtons": false, "imagesLoaded": true, "dragThreshold": 2, "friction":0.5, "selectedAttraction":0.08, "lazyLoad": true }'>
         {foreach $folio as $item}
 			<div class="carousel-cell py-20" data-index="{$item@index}">
-				{image_srcset firefly_id="{asset path=$item['screenshot']}" sizes="75vw" alt="{$item['title']} Screenshot" class="screenshot-shadow img-fluid ease-out mb-2"}
+				{image src="{asset path=$item['screenshot']}" sizes="75vw" alt="{$item['title']} Screenshot" class="screenshot-shadow img-fluid ease-out mb-2"}
 				<div class="portfolio-text2 mt-16 px-4 flex-shrink md:w-2/3 mx-auto text-center">
 					<h6 class="text-xs uppercase text-gray-500">Case Study</h6>
 					<h3>{$item['title']}</h3>
