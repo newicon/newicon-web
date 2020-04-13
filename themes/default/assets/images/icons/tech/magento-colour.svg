@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="64px" height="75px" viewBox="0 0 64 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: sketchtool 59 (101010) - https://sketch.com -->
-    <title>49A80C9C-5A81-4FF2-A7AD-4CC00F4CE31A</title>
-    <desc>Created with sketchtool.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Icons" transform="translate(-612.000000, -4379.000000)" fill-rule="nonzero">
-            <g id="mid-icon-magento-colour" transform="translate(612.000000, 4379.000000)">
-                <path d="M36.28,22.5 L36.28,65.22 L32.08,67.79 L27.88,65.2 L27.88,22.53 L17,29.23 L17,65.77 L32.08,75 L47.3,65.7 L47.3,29.21 L36.28,22.5 Z M32.08,0 L0.34,19.23 L0.34,55.77 L8.58,60.63 L8.58,24.08 L32.09,9.79 L55.61,24.06 L55.71,24.11 L55.71,60.57 L63.88,55.77 L63.88,19.23 L32.08,0 Z" id="Shape" fill="#F37B20"></path>
-                <path d="M63.86,19.23 L32.08,0 L0.34,19.23 L8.58,24.08 L32.08,9.79 L55.71,24.12 L63.86,19.23 Z M36.28,22.49 L36.28,36 L47.28,29.24 L36.28,22.49 Z M17,29.23 L27.88,35.88 L27.88,22.53 L17,29.23 Z" id="Shape" fill="#FAB37C"></path>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="75" version="1.1" viewBox="0 0 64 75"><title>49A80C9C-5A81-4FF2-A7AD-4CC00F4CE31A</title><desc>Created with sketchtool.</desc><g id="Page-1" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1"><g id="Icons" fill-rule="nonzero" transform="translate(-612.000000, -4379.000000)"><g id="mid-icon-magento-colour" transform="translate(612.000000, 4379.000000)"><path id="Shape" fill="#F37B20" d="M36.28,22.5 L36.28,65.22 L32.08,67.79 L27.88,65.2 L27.88,22.53 L17,29.23 L17,65.77 L32.08,75 L47.3,65.7 L47.3,29.21 L36.28,22.5 Z M32.08,0 L0.34,19.23 L0.34,55.77 L8.58,60.63 L8.58,24.08 L32.09,9.79 L55.61,24.06 L55.71,24.11 L55.71,60.57 L63.88,55.77 L63.88,19.23 L32.08,0 Z"/><path id="Shape" fill="#FAB37C" d="M63.86,19.23 L32.08,0 L0.34,19.23 L8.58,24.08 L32.08,9.79 L55.71,24.12 L63.86,19.23 Z M36.28,22.49 L36.28,36 L47.28,29.24 L36.28,22.49 Z M17,29.23 L27.88,35.88 L27.88,22.53 L17,29.23 Z"/></g></g></g></svg>
