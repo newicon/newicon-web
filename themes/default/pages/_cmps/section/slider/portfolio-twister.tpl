@@ -72,7 +72,7 @@
 
 <section id="{$id}" class="py-24 portfolio-gradient ">
 
-    {header_center title="Our Work" sub="Projects we're proud of :-)"}
+    {include file="../../headers/center.tpl" title="Our Work" sub="Projects we're proud of :-)"}
 
 	<div ref="flick" class="" data-flick-slides class="-mt-10">
         {foreach $folio as $item}
@@ -81,7 +81,7 @@
 					<b class="text-xs uppercase text-gray-500 font-bold block mb-4">Case Study</b>
 					<h3 class="text-3xl text-blue-950">{$item['title']}</h3>
 					<p class="text-lg text-gray-700">{$item['body']}</p>
-					<a class="mt-5 px-16 btn btn-outline-primary btn-fx btn-lg" href="{page_url id=$item['link']}">Explore</a>
+					<a class="mt-5 px-16 btn btn-outline-primary btn-fx btn-xl" href="{page_url id=$item['link']}">Explore</a>
 				</div>
 				<div class="flex-grow order-0 lg:order-1 self-center lg:-mr-40">
 					{*

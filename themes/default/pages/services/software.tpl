@@ -19,7 +19,7 @@
 		{}
 	]
 *}
-	{include file='../_cmps/hero/illustration.tpl' title="Software Development" sub="You dream it, we build it" callBtn=true illustration="images/illustrations/Software Dev Illustration.svg"}
+	{include file='../_cmps/section/hero/illustration.tpl' title="Software Development" sub="You dream it, we build it" callBtn=true illustration="images/illustrations/Software Dev Illustration.svg"}
 
 	{include file='../_cmps/section/feature/grid-primary.tpl'
 		title="Software development starts with the dream." hr=true

@@ -1,6 +1,6 @@
 {layout_section}
 	{layout_container}
-	{header_center
+	{include file="../pages/_cmps/headers/center.tpl"
 		title="Our expertise"
 		sub="The things we do for our clients and their people"
 		body="Our software design and development focuses on the things that matter, the insights, interactions, integrations and innovations that make extraordinary things happen for brands, businesses and customers"

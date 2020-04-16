@@ -53,7 +53,7 @@
 {/css}
 
 <section class="section my-24 slider-portfolio relative">
-    {header_center title="Our Work" sub="Some projects we're proud of :-)"}
+    {include file="../../headers/center.tpl" title="Our Work" sub="Some projects we're proud of :-)"}
 	<div data-flickity='{ "wrapAround": true,  "contain": true, "prevNextButtons": false, "imagesLoaded": true, "dragThreshold": 2, "friction":0.5, "selectedAttraction":0.08, "lazyLoad": true }'>
         {foreach $folio as $item}
 			<div class="carousel-cell py-20" data-index="{$item@index}">
@@ -62,7 +62,7 @@
 					<h6 class="text-xs uppercase text-gray-500">Case Study</h6>
 					<h3>{$item['title']}</h3>
 					<p>{$item['body']}</p>
-					<a class="mt-10 btn btn-outline-primary px-16 btn-fx btn-lg" href="{page_url id=$item['link']}">Explore</a>
+					<a class="mt-10 btn btn-outline-primary px-16 btn-fx btn-xl" href="{page_url id=$item['link']}">Explore</a>
 				</div>
 			</div>
         {/foreach}

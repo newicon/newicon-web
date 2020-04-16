@@ -1,6 +1,6 @@
 {layout_section class="bg-blue-950"}
 	{layout_container}
-        {header_center title="Trusted by great brands" inverse=true}
+        {include file="../pages/_cmps/headers/center.tpl" title="Trusted by great brands" inverse=true}
 		{$brands = [
 			['company' => 'Palladium', 'logo' => 'images/temp/brand-logo-1.png'],
 			['company' => 'TEDx Bristol','logo' => 'images/temp/brand-logo-2.png'],

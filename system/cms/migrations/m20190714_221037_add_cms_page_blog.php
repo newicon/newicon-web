@@ -17,7 +17,7 @@ class m20190714_221037_add_cms_page_blog extends Migration
 			'keywords' => '',
 			'description' => ''
 		]);
-		$this->insert('cms_url', ['url' => '/insights', 'nice_id' => 'blog']);
+		$this->insert('cms_url', ['url' => '/blog', 'nice_id' => 'blog']);
 	}
 
 	public function safeDown()

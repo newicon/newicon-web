@@ -1,4 +1,4 @@
-<div class="grid grid-cols-1 lg:grid-cols-2 group {$class|default:''} wow fadeIn">
+<div class="grid grid-cols-1 lg:grid-cols-2 group {$class|default:''} " data-aos="fade">
 	<div class="{($flip=='left') ? 'order-0 lg:-mr-14' : 'lg:order-1 lg:-ml-14'} lg:-mb-14 shadow-2xl rounded-t-lg lg:rounded-lg overflow-hidden">
 {*		<img src="{asset path=$image}" alt="{$alt|default:"$title image"}" class="w-full h-full object-cover group-hover:scale-110 transform duration-1000 ease-out" >*}
         {image src={asset path=$image} alt=$alt|default:"$title image" sizes="(min-width: 728px) 728px, 100vw" class="w-full h-full object-cover group-hover:scale-110 transform duration-1000 ease-out" }

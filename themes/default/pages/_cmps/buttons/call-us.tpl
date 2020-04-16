@@ -1,6 +1,5 @@
 <div>
-	<button @click="open = true" href="#" class="btn btn-primary btn-lg btn-fx px-10 relative z-10">Give us a call</button>
-	
+	<button @click="open = true" href="#" class="btn btn-primary btn-xl btn-fx px-10 relative z-10">Give us a call</button>
 	<div x-show="open" class="fixed bottom-0 inset-x-0 px-4 pb-4 sm:inset-0 sm:flex sm:items-center sm:justify-center z-20">
 		<div x-show="open" x-transition:enter="ease-in-out" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="ease-in-out" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0" class="fixed inset-0 transition-opacity duration-300">
 			<div class="absolute inset-0 bg-gray-950 opacity-75"></div>
@@ -116,6 +115,7 @@
 
 			</div>
 			
+		</div>
 		</div>
 	</div>
 </div>

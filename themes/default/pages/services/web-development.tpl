@@ -4,7 +4,7 @@
 {/block}
 {block "content"}
 
-    {include file='../_cmps/hero/illustration.tpl'
+    {include file='../_cmps/section/hero/illustration.tpl'
         title="Website Development"
         sub="Invest in your future with inventive, user-focused web development."
         callBtn=true

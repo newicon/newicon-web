@@ -4,7 +4,7 @@
 {/block}
 {block "content"}
 
-	{include file='../_cmps/hero/illustration.tpl'
+	{include file='../_cmps/section/hero/illustration.tpl'
 		title="Digital Marketing"
 		sub="Make your mark online with data-driven digital marketing" callBtn=true
 		illustration="/images/illustrations/Digital Marketing Illustration.svg"

@@ -16,24 +16,11 @@ return [
 			// in the reverse order of precedence (first overrides second etc)
 			'themeHierarchy' => [ 'default', 'base' ],
 			'siteData' => [
-				'domain' => 'DOMAIN_NAME',
-				'name' => 'SITE NAME',
+				'contact' => [
+					'email' => 'getstarted@newicon.co',
+					'phone' => '0117 205 0425'
+				],
 				'languages' => 'en',
-				'favicon' => [
-					'favicon' => '',
-					'thumbnail' => ''
-				],
-				// example public menu items
-				'menu' => [
-					'items' => [
-						['label'=>'ITEM_1', 'url'=>'URL_1'],
-						['label' => 'ITEM_2', 'url' => 'URL_2', 'items' => [
-							['label' => 'ITEM_3', 'url' => 'URL_3'],
-						]],
-					],
-					'navClass' => 'menu__list',
-					'containerClass' => 'menu menu--main-nav',
-				],
 			],
 		],
 		'user'=> [

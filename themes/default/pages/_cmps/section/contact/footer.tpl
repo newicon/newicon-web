@@ -68,7 +68,7 @@
 						<span class=" text-lg leading-5 font-medium text-gray-300">No</span>
 					</label>
 				</div>
-				<button type="submit" class="mt-6 btn btn-lg bg-white btn-secondary btn-fx md:w-4/12 w-full md:mt-0 mt-4">Send message</button>
+				<button type="submit" class="mt-6 btn btn-xl bg-white btn-secondary btn-fx md:w-4/12 w-full md:mt-0 mt-4">Send message</button>
 			</div>
 		</form>
 	</div>

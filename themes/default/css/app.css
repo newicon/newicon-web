@@ -1,8 +1,5 @@
 @import "vars.css";
 @import "tailwindcss/base";
-@import 'icons.css';
-@import "tailwindcss/components";
-@import "theme.css";
 
 /* Base styles */
 /***************/
@@ -11,6 +8,12 @@ a:hover { text-decoration: none; @apply text-blue-500; }
 h1, h2, h3, h4, h5, h6 { margin-bottom: 1.2rem; font-weight: 700; line-height: 1.2; }
 p, ol, dl, hr, table, blockquote { margin-bottom: 1.2rem; }
 .no-scroll { overflow: hidden !important; height: 100% !important; }
+
+@import 'icons.css';
+@import "tailwindcss/components";
+@import "theme.css";
+
+
 
 @import "tailwindcss/utilities";
 

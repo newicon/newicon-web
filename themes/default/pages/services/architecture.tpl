@@ -4,7 +4,7 @@
 {/block}
 {block "content"}
 
-    {include file='../_cmps/hero/illustration.tpl'
+    {include file='../_cmps/section/hero/illustration.tpl'
         title="Architecture &amp; UX Design"
         sub="In a perfect world, how would it work?" callBtn=true
         illustration="/images/illustrations/Architecture UX Illustration.svg"

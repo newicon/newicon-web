@@ -5,23 +5,16 @@
     {navigation inverse=true class="bg-black" }
 {/block}
 {block "content"}
-{css}
-		<style>
-			.introSecondary-dark { background: linear-gradient(black, #080e26); }
-		</style>
-	{/css}
 
-		<div class="introSecondary-dark py-24">
-            {include file="./_cmps/hero/text.tpl"
-	            title="Our work"
-	            titleColor="white"
-	            sub="Client stories to whet your appetite."
-	            subColor="white"
-	            body="Every client challenge is unique. And so is our approach. <br/>Here’s a selection of our most favourate work."
-	            bodyColor="white"
-            }
-		</div>
-
+		{include file="./_cmps/section/hero/text.tpl"
+			style="background: linear-gradient(black, #080e26);"
+			title="Our work"
+			titleClass="text-white"
+			sub="Client stories to whet your appetite."
+			subClass="text-white"
+			body="Every client challenge is unique. And so is our approach. <br/>Here’s a selection of our most favourate work."
+			bodyClass="text-white"
+		}
 
 		{$caseStudies = [
 			[
