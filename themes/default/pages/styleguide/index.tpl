@@ -27,7 +27,6 @@
 	</style>
 {/literal}
 
-	{* <div id="app"><Hello></Hello></div>*}
 	{* Load in the styles *}
 	{styles}
 

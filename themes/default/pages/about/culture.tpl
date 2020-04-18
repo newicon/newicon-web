@@ -26,18 +26,20 @@
     {layout_container}
 	<header class="text-center w-10/12 lg:w-8/12 mx-auto mb-16">
 		<h2 class="text-4xl mx-auto w-full text-blue-900">Our Culture</h2>
-		<p class="text-3xl leading-10 text-blue-900">Our mission is to produce world class digital platforms and technologies that enable people to achieve great things. </p>
+		<p class="text-3xl leading-10 text-blue-900">
+			Our mission is to produce world class digital platforms and technologies that enable people to achieve great things.
+		</p>
 	</header>
     {/layout_container}
     {/layout_section}
 
     {include file='../_cmps/section/feature/grid-primary.tpl'
     title="Why we do it"
-    body="We want to work with likeminded people and organisations who challenge, invent, and create."
+    body="We want to work with likeminded people and organisations who challenge, invent, and create. We have built our business on these three pillars that support everything we do."
     features=[
-    ['icon' => 'images/icons/mid/clickable-prototype.svg','title' => 'Future','sub' => '','body' => 'We don’t want to walk blindly into the future, we want to forge ahead and shape it. And we believe that people-centric technology is the key to achieving that.'],
-    ['icon' => 'images/icons/mid/designed-for-your-user.svg','title' => 'People','sub' => '','body' => 'Technology exists to serve people, and people need to be considered from the very creation of an idea, right through to a product being brought to market.'],
-    ['icon' => '/images/icons/mid/reliable-results.svg','title' => 'Invention','sub' => '','body' => 'Necessity is the mother of all invention. But that’s far from the whole family tree. Curiosity. Creativity. Courage. They’re all part of the invention gene pool.']
+    ['icon' => 'images/icons/mid/future.svg','title' => 'Future','sub' => '','body' => 'We don’t want to walk blindly into the future, we want to forge ahead and shape it. And we believe that people-centric technology is the key to achieving that.'],
+    ['icon' => 'images/icons/mid/people.svg','title' => 'People','sub' => '','body' => 'Technology exists to serve people, and people need to be considered from the very creation of an idea, right through to a product being brought to market.'],
+    ['icon' => '/images/icons/mid/invent.svg','title' => 'Invention','sub' => '','body' => 'Necessity is the mother of all invention. But that’s far from the whole family tree. Curiosity. Creativity. Courage. They’re all part of the invention gene pool.']
     ]
     }
 
