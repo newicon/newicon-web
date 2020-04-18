@@ -105,7 +105,7 @@
 
 /**********************/
 
-.ni-italic { font-family: Volkhov, Georgia, Cambria, Times New Roman, Times, serif; color: hsl(222, 25%, 41%); font-style: italic; font-weight: 200;
+.ni-italic { font-family: Volkhov, Georgia, Cambria, Times New Roman, Times, serif; color: hsl(222, 25%, 41%); font-style: italic; font-weight: 200; letter-spacing: 0.025em;
 }
 
 .ni-freehand { font-family: TrashHand, Arial, sans-serif ; color: #0067FF;

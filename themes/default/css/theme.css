@@ -1,6 +1,6 @@
 /* Typography helpers */
 /**********************/
-.ni-italic { @apply font-serif text-gray-500 italic font-thin; }
+.ni-italic { @apply font-serif text-gray-500 italic font-thin tracking-wide; }
 .ni-freehand { font-family: TrashHand, Arial, sans-serif ; color: #0067FF; }
 .ni-bg-title { position: relative; }
 .ni-bg-title:after { content: attr(data-title); @apply text-gray-100; position: absolute; top: -100px; left: -20px; z-index: -5; font-weight: 800; font-size: 331px; line-height: 1; white-space: nowrap; pointer-events: none; opacity: .5; }
