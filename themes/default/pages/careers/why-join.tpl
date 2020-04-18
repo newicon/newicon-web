@@ -6,10 +6,10 @@
 	<div class="main">
 
 
-		{hero_text
+        {include file="../_cmps/section/hero/text.tpl"
 			title="Why join us?"
 			bgTitle="Why join us?"
-			subtitle="Some sort of sub headline"
+			sub="Some sort of sub headline"
 			body="Obviously we think we’re amazing, but here are some other reasons why Newicon should be your next choice."}
 
 

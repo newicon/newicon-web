@@ -5,7 +5,7 @@
 {block "content"}
 	<div class="main">
 
-        {hero_text
+        {include file="../_cmps/section/hero/text.tpl"
 	        title="Our Brand Values"
 	        bgTitle="Brand Values"
 	        sub="What makes us tick?"

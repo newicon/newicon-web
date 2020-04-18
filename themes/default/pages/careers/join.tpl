@@ -6,7 +6,7 @@
 	<div class="main">
 
 
-        {hero_text
+        {include file="../_cmps/section/hero/text.tpl"
 	        title="Join the team"
 	        bgTitle="Join the team"
 	       sub="Some sort of sub headline"

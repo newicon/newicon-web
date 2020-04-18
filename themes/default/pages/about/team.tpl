@@ -13,6 +13,7 @@
 		sub="The people delivering the magic"
 		body="We have essembled one heck of a team, made up of people who love solving problems."
 		bodyClass=""
+		pb="pb-0"
 	}
 
 	{layout_section}

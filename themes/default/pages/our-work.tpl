@@ -7,7 +7,7 @@
 {block "content"}
 
 		{include file="./_cmps/section/hero/text.tpl"
-			style="background: linear-gradient(black, #080e26);"
+			style="background: linear-gradient(black, #02061c);"
 			title="Our work"
 			titleClass="text-white"
 			sub="Client stories to whet your appetite."
