@@ -6,8 +6,9 @@
 .ni-bg-title:after { content: attr(data-title); @apply text-gray-100; position: absolute; top: -100px; left: -20px; z-index: -5; font-weight: 800; font-size: 331px; line-height: 1; white-space: nowrap; pointer-events: none; opacity: .5; }
 
 /* Buttons */
-/***********/
+/*---------*/
 .btn { @apply inline-flex items-center justify-center rounded font-bold border border-transparent px-5 py-2.5 text-base font-semibold text-center no-underline appearance-none;}
+.btn[disabled] {@apply opacity-75;}
 .btn:focus { outline: none; }
 /* outline buttons http://localhost/newicon-website/public/styleguide#button-primary */
 .btn-primary { @apply bg-blue-500 text-white; }
@@ -38,12 +39,6 @@
 .btn-md { @apply px-5 py-2.5  text-base  font-semibold  }
 .btn-lg { @apply px-6 py-3    text-base  font-bold      }
 .btn-xl { @apply px-8 py-4    text-base  font-bold      }
-
-
-
-/* 
-.navTrigger.textLight span { background:white; }
-.open .navTrigger.textLight span { background:black; } */
 
 /* ------------------------------------------------------------ *\
 	Nav Trigger

@@ -14,6 +14,13 @@ class App extends \neon\core\BaseApp
 	public function setup()
 	{
 		// e.g. url rules
+		neon()->urlManager->addRules([
+			[
+				'pattern' => '/blog/category/<cat>',
+				'route' => '/cms/render/page',
+				'defaults' => ['nice_id' => 'blog'],
+			]
+		]);
 	}
 
 	/**

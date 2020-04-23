@@ -2,6 +2,7 @@
 <html lang="en">
 	<head>
 		{include "./head.tpl"}
+		{block "head"}{/block}
 	</head>
 	<body>
 		{neon_body_begin}

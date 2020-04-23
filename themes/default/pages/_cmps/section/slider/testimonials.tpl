@@ -83,7 +83,7 @@ sub="Listen to what our customers say about us"
 
 					<div class="flex-shrink mx-auto flex-shrink mx-auto pr-10 pl-16 pb-20 pt-28 md:w-1/2">
 						<blockquote itemprop="comment" class="testimonial ">
-							<p class="ni-italic text-2xl md:text-3xl lg:text-4xl text-blue-950">{$test.quote}</p>
+							<p class="ni-italic text-2xl md:text-3xl lg:text-4xl text-blue-950 mb-5">{$test.quote}</p>
 							{if isset($test.detail)}
 								<p class="text-gray-700 font-normal text-lg" itemprop="reviewBody">{$test.detail}</p>
 							{/if}

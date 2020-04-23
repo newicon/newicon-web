@@ -83,7 +83,7 @@
 		}
 
 		/* Sticky headers on mobile scrolling menu */
-		.sticky { position: -webkit-sticky; position: -moz-sticky; position: -o-sticky; position: -ms-sticky; position: sticky; top: 0; left: 0; right: 0; display: block; z-index: 1; }
+{*		.sticky { position: -webkit-sticky; position: -moz-sticky; position: -o-sticky; position: -ms-sticky; position: sticky; top: 0; left: 0; right: 0; display: block; z-index: 1; }*}
 
 		.ni-nav-dd_about ul {
 			/* @apply('grid-template-columns'); */
@@ -91,15 +91,10 @@
 			width: 30rem;
 		}
 
-{*		.ni-nav-menu:focus-within .ni-nav-dd {*}
-{*			opacity:100;*}
-{*			--transform-scale-x: 1;*}
-{*			--transform-scale-y: 1;*}
-{*		}*}
-
 		.group:focus-within .group-focus-within\:opacity-100 {
 			opacity:100;
 		}
+
 		.group:focus-within .group-focus-within\:scale-100 {
 			--transform-scale-x: 1;
 			--transform-scale-y: 1;
@@ -119,7 +114,7 @@
         {$inactiveTitleClass = ($inverse) ? 'text-blue-100' : 'text-blue-950'}
         {$subColor = ($inverse) ? 'text-gray-300' : 'text-gray-700'}
 		<li class="{$class|default:''} {($inverse)?'border-gray-800':'border-gray-100'}">
-			<a class="group block no-underline flex items-center {($onUrl) ? $activeTitleClass : $inactiveTitleClass}" href="{page_url nice=$link}">
+			<a class="group block focus:text-blue-500 outline-none no-underline flex items-center {($onUrl) ? $activeTitleClass : $inactiveTitleClass}" href="{page_url nice=$link}">
 				<i class="block flex-none w-18 {$icon} mr-6"></i>
 				<div class="flex-grow">
 					<h5 class="m-0 text-md font-semibold leading-6">{$title}</h5>
@@ -146,7 +141,7 @@
 					{else}
 						{$active = on_url({page_url nice=$link.link|default:''})}
 					{/if}
-					<a tabindex="0" class="{$aClass} {$active} group-hover:text-blue-500 {(isset($link.children)) ? 'cursor-default' : ''} lowercase {(in_array($key, $white)||$inverse) ? 'text-white' : ''}" href="{page_url nice=$link.link|default:'#'}" >{$link.title}</a>
+					<a tabindex="0" class="{$aClass} {$active} outline-none focus:text-blue-500 group-hover:text-blue-500 {(isset($link.children)) ? 'cursor-default' : ''} lowercase {(in_array($key, $white)||$inverse) ? 'text-white' : ''}" href="{page_url nice=$link.link|default:'#'}" >{$link.title}</a>
 					{if isset($link.children)}
 						<div class="ni-nav-dd_{$key} group-focus-within:opacity-100 group-focus-within:scale-100
 						 transform ease-in-out -translate-x-1/2 left-1/2 pointer-top absolute z-50 shadow-3xl bg-white md:p-8 lg:p-9 rounded-md origin-top transition-opacity-transform duration-300 pointer-events-none group-hover:pointer-events-auto opacity-0 group-hover:opacity-100 transform scale-90 group-hover:scale-100">
@@ -183,8 +178,8 @@
 					<div class="absolute inset-0 top-0 overflow-y-scroll mt-14">
 						<div class="grid grid-cols-1 gap-0 pb-32">
 						{foreach $menu as $key => $link}
-							<div class="sticky {($inverse) ? 'bg-blue-950' : 'bg-white'} py-1 border-b border-t {($inverse)?'border-gray-800':'border-gray-100'}">
-								<h3 class="text-sm px-5 font-semibold leading-6 text-gray-400 m-0 ">{$link.title}</h3>
+							<div class="sticky top-0 {($inverse) ? 'bg-blue-950' : 'bg-gray-50'} py-1 border-b border-t {($inverse)?'border-gray-800':'border-gray-100'}">
+								<h3 class="text-sm px-5 font-semibold leading-6 text-gray-500 m-0 ">{$link.title}</h3>
 							</div>
 							<ul class="grid grid-cols-1 gap-0 m-0 px-0">
 								{if isset($link.children)}

@@ -1,11 +1,11 @@
 <svg class="absolute w-full h-full object-cover" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1366" height="749" viewBox="0 0 1366 749">
    <style>
-       .star { animation: blinker 1.9s ease-in-out infinite 0.2s; backface-visibility: hidden; perspective: 1000; transform: translateZ(0) }
-       .star-1 { animation: blinker 2s ease-in-out infinite 0.4s; backface-visibility: hidden; perspective: 1000; transform: translateZ(0)}
-       .star-2 { animation: blinker 3s linear infinite 0.6s; backface-visibility: hidden; perspective: 1000; transform: translateZ(0)}
-       .star-3 { animation: blinker 4s linear infinite 0.8s; backface-visibility: hidden; perspective: 1000; transform: translateZ(0)}
-       .star-4 { animation: blinker 4s linear infinite 1s; backface-visibility: hidden; perspective: 1000; transform: translateZ(0)}
-       @keyframes blinker { 50% { opacity: 0.1; } }
+<!--       .star { animation: blinker 1.9s ease-in-out infinite 0.2s; backface-visibility: hidden; perspective: 1000; transform: translateZ(0) }-->
+<!--       .star-1 { animation: blinker 2s ease-in-out infinite 0.4s; backface-visibility: hidden; perspective: 1000; transform: translateZ(0)}-->
+<!--       .star-2 { animation: blinker 3s linear infinite 0.6s; backface-visibility: hidden; perspective: 1000; transform: translateZ(0)}-->
+<!--       .star-3 { animation: blinker 4s linear infinite 0.8s; backface-visibility: hidden; perspective: 1000; transform: translateZ(0)}-->
+<!--       .star-4 { animation: blinker 4s linear infinite 1s; backface-visibility: hidden; perspective: 1000; transform: translateZ(0)}-->
+<!--       @keyframes blinker { 50% { opacity: 0.1; } }-->
    </style>
     <defs><linearGradient x1="23.94%" y1="34.741%" x2="26.352%" y2="63.711%" id="a"><stop stop-color="#002866" offset="0%"/><stop stop-color="#00173B" offset="100%"/></linearGradient><linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="f"><stop stop-color="#FFF" offset="0%"/><stop stop-color="#FFF" stop-opacity=".321" offset="56.147%"/><stop stop-color="#FFF" stop-opacity="0" offset="100%"/></linearGradient><linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="g"><stop stop-color="#031C50" stop-opacity=".148" offset="0%"/><stop stop-color="#041D52" stop-opacity="0" offset="100%"/></linearGradient><filter x="-316.6%" y="-146.9%" width="733.2%" height="396.4%" filterUnits="objectBoundingBox" id="b">
         <feMorphology radius="15.45" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"/>

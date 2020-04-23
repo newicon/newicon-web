@@ -3,7 +3,7 @@
 	<div class="flex justify-between">
 		<div class="w-full md:w-6/12 md:mr-10">
 			<h2 class="text-3xl text-blue-950">{$title|default:'Need some advice?'}</h2>
-			<p class="text-xl font-light text-blue-950">{$sub|default:'Looking to utilise digital technology to streamline your operations or launch new products and services, contact our digital strategy director Mark for afree consultation.'}</p>
+			<p class="text-xl font-light text-blue-950 mb-5">{$sub|default:'Looking to utilise digital technology to streamline your operations or launch new products and services, contact our digital strategy director Mark for afree consultation.'}</p>
 			<button onclick="Calendly.initPopupWidget({ 'url': 'https://calendly.com/mark-probert/30-mins-call' });return false;" class="mt-5 btn btn-outline-primary px-12 py-4 btn-fx border-blue-950 text-blue-950">
 				Book a call
 			</button>

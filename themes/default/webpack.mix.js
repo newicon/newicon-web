@@ -7,6 +7,7 @@ const purgeCss = require('@fullhuman/postcss-purgecss')({
 		'./**/*.html',
 		'./**/*.vue',
 		'./**/*.tpl',
+		'./**/*.php',
 		// etc.
 	],
 	// Include any special characters you're using in this regular expression
@@ -23,4 +24,3 @@ mix.postCss('css/app.css', `assets/css/app${min}.css`, [
 .options({
 	processCssUrls: false,
 })
-.sourceMaps()

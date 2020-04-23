@@ -80,7 +80,7 @@
 				<div class="w-full lg:w-4/12 mt-10 lg:pr-20 lg:mt-auto lg:mb-auto portfolio-text text-center lg:text-left my-auto flex-shrink order-1 lg:order-0">
 					<b class="text-xs uppercase text-gray-500 font-bold block mb-4">Case Study</b>
 					<h3 class="text-3xl text-blue-950">{$item['title']}</h3>
-					<p class="text-lg text-gray-700">{$item['body']}</p>
+					<p class="text-lg text-gray-700 mb-5">{$item['body']}</p>
 					<a class="mt-5 px-16 btn btn-outline-primary btn-fx btn-xl" href="{page_url id=$item['link']}">Explore</a>
 				</div>
 				<div class="flex-grow order-0 lg:order-1 self-center lg:-mr-40">
