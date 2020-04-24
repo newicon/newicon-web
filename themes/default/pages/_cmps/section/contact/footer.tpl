@@ -35,9 +35,9 @@
 			</div>
 			<div class="w-full -mt-px -mt-px pr-px">
 				<label class="sr-only" for="contact-message">Message</label>
-				<textarea oninput="autoExpand(this)"
+				<textarea required oninput="autoExpand(this)"
 				          class="form-input h-48 pr-px rounded-t-none relative focus:z-10 bg-transparent appearance-none w-full px-5 py-5 border text-white text-xl border-gray-600 leading-6 rounded-md placeholder-gray-300 focus:outline-none focus:placeholder-gray-200 focus:border-blue-500 transition duration-150 ease-in-out"
-				          name="contact[message]" id="contact-message" placeholder="Tell us about your project"></textarea>
+				          name="contact[message]" id="contact-message" placeholder="Tell us about your project*"></textarea>
                 {js position='end'}
 					var autoExpand = function (field) {
 						// Reset field height
@@ -56,19 +56,36 @@
                 {/js}
 			</div>
 			<div class="mt-3 flex flex-wrap">
-				<div class="md:w-8/12 w-full md:pr-10 ">
-					<p class="mb-0 mt-2 text-gray-300 text-lg font-normal">Subscribe to our newsletter?</p>
-					<div class="text-gray-300 mb-4">We keep your data safe - <a href="{page_url id="privacy-policy"}">privacy</a>.</div>
-					<input id="contact-subscribe-yes" name="subscribe" type="radio" class="-mt-1 form-radio bg-transparent h-5 w-5 text-blue-500 transition duration-150 ease-in-out" value="yes" required>
-					<label for="contact-subscribe-yes" class="ml-3">
-						<span class=" text-lg leading-5 font-medium text-gray-300">Yes</span>
-					</label>
-					<input id="contact-subscribe-no" name="subscribe" type="radio" class="-mt-1 ml-5 form-radio bg-transparent h-5 w-5 text-blue-500 transition duration-150 ease-in-out" value="no">
-					<label for="contact-subscribe-no" class="ml-3">
-						<span class=" text-lg leading-5 font-medium text-gray-300">No</span>
-					</label>
+				<div class="flex w-full items-center justify- xl:w-1/2 lg:flex-wrap ">
+					<div class="mr-4">
+						<p class="mb-0 text-gray-100 text-lg font-normal">Subscribe to our newsletter?</p>
+						<div class="text-gray-300">We keep your data safe - <a href="{page_url id="privacy-policy"}">privacy</a>.</div>
+					</div>
+					<div class="">
+						<span x-data="{ on: false }" role="checkbox" tabindex="0" @click="on = !on" @keydown.space.prevent="on = !on" :aria-checked="on.toString()" aria-checked="true" :class="{ 'bg-gray-200': !on, 'bg-blue-600': on }" class="relative inline-block flex-shrink-0 h-8 w-16 border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:outline-none focus:shadow-outline bg-blue-600">
+							<span aria-hidden="true" :class="{ 'translate-x-7': on, 'translate-x-0': !on }" class="relative inline-block h-7 w-8 rounded-full bg-white shadow transform transition ease-in-out duration-200 translate-x-7">
+								<span :class="{ 'opacity-0 ease-out duration-100': on, 'opacity-100 ease-in duration-200': !on }" class="absolute inset-0 h-full w-full flex items-center justify-center transition-opacity opacity-0 ease-out duration-100">
+									<svg class="h-3 w-3 text-gray-400" fill="none" viewBox="0 0 12 12"><path d="M4 8l2-2m0 0l2-2M6 6L4 4m2 2l2 2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+								</span>
+								<span :class="{ 'opacity-100 ease-in duration-200': on, 'opacity-0 ease-out duration-100': !on }" class="absolute inset-0 h-full w-full flex items-center justify-center transition-opacity opacity-100 ease-in duration-200">
+									<svg class="h-3 w-3 text-blue-600" fill="currentColor" viewBox="0 0 12 12"><path d="M3.707 5.293a1 1 0 00-1.414 1.414l1.414-1.414zM5 8l-.707.707a1 1 0 001.414 0L5 8zm4.707-3.293a1 1 0 00-1.414-1.414l1.414 1.414zm-7.414 2l2 2 1.414-1.414-2-2-1.414 1.414zm3.414 2l4-4-1.414-1.414-4 4 1.414 1.414z"></path></svg>
+								</span>
+							</span>
+						</span>
+
+{*						<label for="contact-subscribe-yes" class="whitespace-no-wrap">*}
+{*							<input id="contact-subscribe-yes" name="subscribe" type="radio" class="-mt-1 form-radio bg-transparent h-5 w-5 text-blue-500 transition duration-150 ease-in-out" value="yes" required>*}
+{*							<span class=" text-lg leading-5 font-medium text-gray-300 ml-3">Yes</span>*}
+{*						</label>*}
+{*						<label for="contact-subscribe-no" class="whitespace-no-wrap">*}
+{*							<input id="contact-subscribe-no" name="subscribe" type="radio" class="-mt-1 ml-5 form-radio bg-transparent h-5 w-5 text-blue-500 transition duration-150 ease-in-out" value="no">*}
+{*							<span class=" text-lg leading-5 font-medium text-gray-300 ml-3">No</span>*}
+{*						</label>*}
+					</div>
 				</div>
-				<button type="submit" class="mt-6 btn btn-xl bg-white btn-secondary btn-fx md:w-4/12 w-full md:mt-0 mt-4">Send message</button>
+				<div class="mt-4 w-full xl:w-1/2 xl:mt-0 xl:pl-4">
+					<button type="submit" class="btn btn-xl bg-white btn-secondary btn-fx w-full ">Send message</button>
+				</div>
 			</div>
 		</form>
 	</div>

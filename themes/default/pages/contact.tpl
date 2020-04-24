@@ -1,18 +1,24 @@
 {extends "layouts/layout.tpl"}
 {block "header"}
-	<div class="h-screen">
+	<div class="h-screen ">
 		<div class="absolute inset-0 h-screen">
-			<img class="absolute w-full h-full object-cover" src="{asset path='images/illustrations/Make-contact-doorway.svg'}" />
+			<img class="absolute w-full h-full object-cover" src="{asset path='images/illustrations/stars.svg'}" />
+		</div>
+		<div class="absolute inset-0 h-screen">
+			<img class="absolute w-full h-full bottom-0 -mb-64" src="{asset path='images/illustrations/doorway.svg'}" />
 		</div>
 	    {navigation inverse=true class="z-10"}
-        {include file="./_cmps/section/hero/text.tpl"
-	        title="Make first contact"
-	        titleClass="text-white"
-	        sub="Get in touch. Lets get creating, innovating and making!"
-	        subClass="text-white"
-	        body="Get in touch with Mark to get started<br><a href='mailto:getstarted@newicon.co'>getstarted@newicon.co</a> | <a href='tel:0117 205 0425'>0117 205 0425</a>"
-	        bodyClass="text-white"
-        }
+        {layout_section}
+        {layout_container}
+		<div class="pt-10 pb-0 text-center">
+			<h1 class="text-3xl md:text-4xl lg:text-5xl text-white">Make first contact</h1>
+			<h4 class="ni-italic mb-10 text-xl md:text-2xl text-white">Get in touch. Lets get creating, innovating and making!</h4>
+	        <p class="text-lg md:text-xl md:font-normal leading-8 text-white">
+		        Get in touch with Mark to get started<br><a href='mailto:getstarted@newicon.co'>getstarted@newicon.co</a> | <a href='tel:0117 205 0425'>0117 205 0425</a>
+	        </p>
+		</div>
+        {/layout_container}
+        {/layout_section}
 	</div>
 {/block}
 {block "content"}

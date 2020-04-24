@@ -17,7 +17,7 @@
 	}
 
 	{layout_section}
-		<div class="grid grid-col-1 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-24 mx-24 row-gap-20">
+		<div class="max-w-screen-2xl px-2/12 sm:px-1/12 2xl:px-24 mx-auto  grid grid-col-1 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-24 mx-24 row-gap-20">
 			{foreach $team['data'] as $member }
 				<figure>
 					{if $member.profile_image}

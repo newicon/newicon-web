@@ -49,6 +49,8 @@
 				</div>
 			</div>
         {/layout_container}
+
+
         {layout_container class="border-b border-gray-100 pt-3 pb-5"}
 	        <footer class="">
 		        <div class="grid gap-8 grid-cols-2 md:grid-cols-4 ">
@@ -104,30 +106,6 @@
 				        </ul>
 			        </div>
 		        </div>
-{*		        <div class="mt-10">*}
-{*			        <h4 class="text-sm leading-5 font-semibold tracking-wider text-gray-500 uppercase mb-0">*}
-{*				        Subscribe to our newsletter*}
-{*			        </h4>*}
-{*			        <p class="mt-2 text-gray-600 text-base leading-6 mb-0">*}
-{*				        The latest news, articles, and resources, sent to your inbox weekly.*}
-{*			        </p>*}
-{*			        <form class="mt-2 sm:flex sm:max-w-md">*}
-{*				        <input aria-label="Email address" type="email" required="" class="appearance-none w-full px-5 py-3 border border-gray-300 text-base leading-6 rounded-md text-gray-900 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:border-blue-300 focus:shadow-outline transition duration-150 ease-in-out" placeholder="Enter your email">*}
-{*				        <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3 sm:flex-shrink-0">*}
-{*					        <button class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">*}
-{*						        Subscribe*}
-{*					        </button>*}
-{*				        </div>*}
-{*			        </form>*}
-{*		        </div>*}
-                {*		<div class="flex flex-col mt-4">*}
-                {*			<div class="text-center text-gray-600 text-sm ">&copy; Newicon Ltd. Registered in England and Wales. Company No: 5904359 | VAT: GB 993768447.</div>*}
-                {*			<ul class="flex self-center mb-0 text-sm">*}
-                {*				<li class="ml-2 "><a class="text-gray-700 no-underline font-normal" href="{page_url nice='privacy-policy'}">Privacy Policy</a></li>*}
-                {*				<li class="ml-2 ">|</li>*}
-                {*				<li class="ml-2 "><a class="text-gray-700 no-underline font-normal" href="#">Site map</a></li>*}
-                {*			</ul>*}
-                {*		</div>*}
 	        </footer>
         {/layout_container}
 		{layout_container class="flex flex-col lg:flex-row py-5"}
