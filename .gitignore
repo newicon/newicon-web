@@ -2,3 +2,4 @@
 .idea
 /newicon
 node_modules
+/config/env.ini
