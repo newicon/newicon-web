@@ -40,12 +40,12 @@ module.exports = function(nido, env){
 		staging: {
 			env: 'prod',
 			debug: false,
-			domain:'staging.WEBSITE',
+			domain:'newicon.io',
 			server: 'STAGING_SERVER',
 			db: {
-				database: 'NAMESPACE_staging',
-				username: 'STAGING_USER',
-				password: 'STAGING_PASSWORD'
+				database: 'newicon',
+				username: 'newicon',
+				password: 'SBqDaaK9AvYHMtLSzLPGbC'
 			},
 			gitBranch: "staging",
 			siteName: 'SITE TITLE - Staging',

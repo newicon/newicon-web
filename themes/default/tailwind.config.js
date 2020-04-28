@@ -1,10 +1,10 @@
 const plugin = require('tailwindcss/plugin');
-const { colors, cursor, shadows, fontSize, spacing, transitionProperty } = require('tailwindcss/defaultTheme');
+const defaultTheme = require('tailwindcss/defaultTheme');
 module.exports = {
 	prefix: '',
 	theme: {
 		fontFamily: {
-			'sans': ['Nunito Sans', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'],
+			'sans': ['Nunito Sans', ...defaultTheme.fontFamily.sans],
 			'serif': ['Volkhov', 'Georgia', 'Cambria', 'Times New Roman', 'Times', 'serif'],
 			'code': ['Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', 'monospace'],
 		},
@@ -13,7 +13,7 @@ module.exports = {
 		},
 		extend: {
 			"fontSize": {
-				...fontSize,
+				...defaultTheme.fontSize,
 				"4xl": "2.5rem",
 			},
 			spacing: {
@@ -111,7 +111,7 @@ module.exports = {
 				//'blue': theme('colors.blue.500'),
 			},
 			boxShadow: {
-				...shadows,
+				...defaultTheme.shadows,
 				// xs: '0 0 0 1px rgba(0, 0, 0, 0.05)',
 				// sm: '0 1px 2px 0 rgba(0, 0, 0, 0.05)',
 				// default: '0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)',
@@ -127,9 +127,9 @@ module.exports = {
 				// none: 'none',
 			},
 			colors: {
-				black: colors.black,
-				white: colors.white,
-				transparent: colors.transparent,
+				black: defaultTheme.colors.black,
+				white: defaultTheme.colors.white,
+				transparent: defaultTheme.colors.transparent,
 				lightGray: {
 					'50': '#F7F8F9',
 					'100': '#E9ECEF',
@@ -275,11 +275,11 @@ module.exports = {
 				// },
 			},
 			cursor: {
-				...cursor,
+				...defaultTheme.cursor,
 				grab: 'grab'
 			},
 			transitionProperty: {
-				...transitionProperty,
+				...defaultTheme.transitionProperty,
 				none: 'none',
 				all: 'all',
 				default: 'background-color, border-color, color, fill, stroke, opacity, box-shadow, transform',

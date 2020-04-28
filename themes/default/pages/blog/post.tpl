@@ -33,8 +33,7 @@
 	    {image src=$post.image_main class="w-full -mt-28 rounded-lg" width="200"}
     </div>
     <div class="max-w-3xl px-10 md:px-10  mx-auto wysiwyg text-xl font-normal leading-8 pb-20 ">
-        {$post.content}
-
+	    {$post.content}
 		<hr>
         {include file="../_cmps/avatar/avatar.tpl" class="mt-10"
 	        name="I'm {$post.author.display_name}"
@@ -70,9 +69,10 @@
 {/block}
 
 {css}
-
 	.wysiwyg h1, .wysiwyg h2, .wysiwyg h3, .wysiwyg h4, .wysiwyg h5 { margin-top: 4rem }
-	.wysiwyg a { color: var(--primary) }
+	.wysiwyg a { color: #0047B2 }
+	.wysiwyg a:active { color: #408CFF }
+	.wysiwyg a:visited { color: #65318A }
 	hr { margin-top: 3rem; margin-bottom:3rem }
 	.wysiwyg ul { margin-left: -0.6rem;  margin-bottom: 1.25rem; }
 	.wysiwyg li { list-style-type: disc; padding-left: 0.6rem; }

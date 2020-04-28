@@ -1,3 +1,9 @@
+{*{$this->props([*}
+{*	'class'=>'',*}
+{*	'avatar' => '',*}
+{*	'name',*}
+{*	''*}
+{*])}*}
 <div class="flex items-center {$class|default:''}">
 	<div class="flex-shrink-0">
 		<a href="#">

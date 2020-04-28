@@ -83,7 +83,7 @@
 		    <div class="sm:hidden">
 			    <select class="form-select block w-full" onchange="location = this.options[this.selectedIndex].value;">
                     {foreach $categories as $cat}
-	                    <option selected="{$page.url}" value="{url($cat.slug)}" >{$cat.title}</option>
+	                    <option {if (url($page.url) == url($cat.slug))}selected="selected"{/if} value="{url($cat.slug)}" >{$cat.title}</option>
                     {/foreach}
 			    </select>
 		    </div>

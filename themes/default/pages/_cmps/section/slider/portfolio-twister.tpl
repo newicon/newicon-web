@@ -3,7 +3,7 @@
 'title' => 'Bristol and Bath Science Park',
 'body' => 'We designed and built a bespoke mobile appliction that improved both efﬁciency and reliability of the weekly recycle bin collection.',
 'link' => 'case-study-bbsp',
-'screenshot' => 'images/photos/rich-and-george-ipad.jpg',
+'screenshot' => 'images/work/bbsp/slider-screenshot.png',
 'company' => 'Bristol and Bath Science Park',
 'logo_light' => 'images/temp/slider-nav-image-2-white.png',
 'logo_dark' => 'images/temp/slider-nav-image-2.png'
@@ -12,12 +12,12 @@
 'title' => 'Renewable Exchange',
 'body' => 'Renewable engery is awesome :thumsup:',
 'link' => '#',
-'screenshot' => 'images/photos/rich-and-george-ipad.jpg',
+'screenshot' => 'images/work/renex/renex.png',
 'company' => 'Renewable Exchange',
 'logo_light' => 'images/temp/slider-nav-image-3-white.png',
 'logo_dark' => 'images/temp/slider-nav-image-3.png'
 ],
-'renex2' => [
+'tedx' => [
 'title' => 'TEDxBristol',
 'body' => 'Renewable engery is awesome :thumsup:',
 'link' => '#',
@@ -26,11 +26,11 @@
 'logo_light' => 'images/temp/slider-nav-image-3-white.png',
 'logo_dark' => 'images/temp/slider-nav-image-3.png'
 ],
-'bbsp1' => [
-'title' => 'Bristol and Bath Science Park',
+'palladium' => [
+'title' => 'Palladium project',
 'body' => 'We designed and built a bespoke mobile appliction that improved both efﬁciency and reliability of the weekly recycle bin collection.',
 'link' => 'case-study-bbsp',
-'screenshot' => 'images/photos/rich-and-george-ipad.jpg',
+'screenshot' => 'images/work/palladium/dashboard.png',
 'company' => 'Bristol and bath science park',
 'logo_light' => 'images/temp/slider-nav-image-3-white.png',
 'logo_dark' => 'images/temp/slider-nav-image-3.png'
@@ -40,7 +40,7 @@
 {* inline the core glide styles to avoid further network request *}
 {css id=glide}
 	<style>
-		.portfolio-btn { border:0; width: 177px; height: 68px; position: relative; border-radius: 2px; background-color: var(--blue-500); text-align: center; cursor: pointer; outline:none; }
+		.portfolio-btn { text-align: center; cursor: pointer; outline:none; }
 		.portfolio-btn:after { content: ''; position: absolute; bottom: 100%; left: 50%; width: 0; height: 0; margin-bottom: -1px; border-style: solid; border-color: transparent transparent #0067FF; transparent; transform: translate(-50%); z-index:2; border-width:0; }
 		.portfolio-btn img { position: absolute; top: 50%; transform: translate(-50%, -50%); left: 50%; }
 		.portfolio-btn .portfolio-btn__dark  { opacity: 0.5; }
@@ -56,13 +56,13 @@
 		.is-selected .portfolio-text { opacity: 1 }
 
 		.screenshot { transition: transform 0.4s ease-out .01s, opacity 0.3s ease-out; opacity: 0.5;transform: scale(0.9) rotate(-6deg); }
-		.screenshot { opacity: 1; transform:scale(0.9) rotate(-3deg); box-shadow:none; }
+		.screenshot { opacity: 1; transform:scale(0.9) rotate(-3deg); }
 		/*box-shadow: 35px 70px 125px -25px rgba(80,102,144,.1), 16px 40px 75px -40px rgba(0,0,0,.2), 0px 0px 99px 0px rgba(0, 0, 0, 0.2);*/
-		.is-selected .screenshot { opacity: 1; transform:scale(1) rotate(0deg);  }
+		.is-selected .screenshot { opacity: 1; transform:scale(1) rotate(0deg); border:5px solid white;  }
 		#{$id} .flickity-page-dots { display:block; }
 		@media (min-width: 1024px) {
 			#{$id} .flickity-page-dots { display:none; }
-			.screenshot { opacity: 0.1; transform:scale(0.9) rotate(-10deg); box-shadow:none; }
+			.screenshot { opacity: 0.1; transform:scale(0.9) rotate(-10deg); }
 			.is-selected .screenshot { opacity: 1; transform:scale(1) rotate(-3deg);  }
 		}
 		/*box-shadow: 35px 70px 125px -25px rgba(80,102,144,.1), 16px 40px 75px -40px rgba(0,0,0,.2), 0px 0px 99px 0px rgba(0, 0, 0, 0.2);*/
@@ -99,7 +99,7 @@
 					 *}
 					<img data-flickity-lazyload-src="{image_src src=$item['screenshot'] w=200 q=90}"
 					     data-flickity-lazyload-srcset="{image_srcset src=$item['screenshot']}"
-					     sizes="(min-width:1048) 1048, 100vw" class="screenshot lg:rotate-3 img-fluid"
+					     sizes="(min-width:1048) 1048, 100vw" class="screenshot lg:rotate-3 img-fluid shadow-2xl rounded-md"
 					     alt="{$item['title']} Screenshot">
 				</div>
 			</div>
@@ -108,7 +108,9 @@
 
 	<div class="flex justify-center sliderNav slide_foot self-end hidden lg:block text-center" data-flick-nav>
         {foreach $folio as $item}
-			<button role="button" aria-label="Select the {$item.company} Case Study" class="outline-none portfolio-btn mx-2 w-24" :class="{ 'is-selected': index=={$item@index}}" @click="select({$item@index})" >
+			<button role="button" aria-label="Select the {$item.company} Case Study"
+					class="outline-none w-40 h-16 relative rounded-sm portfolio-btn mx-2 border-0 "
+					:class="{ 'bg-blue-500 is-selected': index=={$item@index}}" @click="select({$item@index})" >
 				<img src="{asset path=$item.logo_dark}" alt="{$item.company}" class="portfolio-btn__dark" width="101" height="32">
 				<img src="{asset path=$item.logo_light}" alt="{$item.company}" class="portfolio-btn__light" width="101" height="32">
 			</button>
@@ -116,7 +118,6 @@
 	</div>
 
 </section>
-
 {cssFile src="https://unpkg.com/flickity@2/dist/flickity.min.css"}
 {jsFile src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.pkgd.min.js"}
 {jsFile src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js"}

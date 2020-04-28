@@ -7,7 +7,7 @@
 		<div class=" px-1/12 py-1/12 md:px-2/12 md:py-20 bg-white self-center bg-white self-center shadow-2xl rounded-b-lg lg:rounded-lg  lg:-mt-14 ">
 			<h2 class="text-3xl sm:text-4xl lg:text-5xl text-blue-900 lg:pr-10">{$title}</h2>
 			<h6 class="pt-0 lg:pl-15 text-blue-500 uppercase text-xs md:text-sm font-bold md:font-extrabold">{$label|default:''}</h6>
-			<p class="lg:pl-15 text-gray-700 text-justify">{$body|default:''}</p>
+			<p class="lg:pl-15 text-gray-700 text-md md:text-lg text-justify">{$body|default:''}</p>
 		</div>
 	</div>
 </div>
