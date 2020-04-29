@@ -40,6 +40,30 @@
 				'company' => 'Lovell Stone Group',
 				'title' => 'Working with the south west’s finest marble product suppliers',
 				'link' => ''
+			],
+			[
+				'bg' => 'images/work/wesley.jpg',
+				'company' => 'Lovell Stone Group',
+				'title' => 'Working with the south west’s finest marble product suppliers',
+				'link' => ''
+			],
+			[
+				'bg' => 'images/work/renex.jpg',
+				'company' => 'Lovell Stone Group',
+				'title' => 'Working with the south west’s finest marble product suppliers',
+				'link' => ''
+			],
+			[
+				'bg' => 'images/work/lovell.jpg',
+				'company' => 'Lovell Stone Group',
+				'title' => 'Working with the south west’s finest marble product suppliers',
+				'link' => ''
+			],
+			[
+				'bg' => 'images/work/palladium.jpg',
+				'company' => 'Lovell Stone Group',
+				'title' => 'Working with the south west’s finest marble product suppliers',
+				'link' => ''
 			]
 		]}
 

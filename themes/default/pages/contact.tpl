@@ -2,10 +2,10 @@
 {block "header"}
 	<div class="h-screen ">
 		<div class="absolute inset-0 h-screen">
-			<img class="absolute w-full h-full object-cover" src="{asset path='images/illustrations/stars.svg'}" />
+			<img class="absolute w-full h-full object-cover" alt="Dark blue space background image with illustrated stars" src="{asset path='images/illustrations/stars.svg'}" />
 		</div>
 		<div class="absolute inset-0 h-screen">
-			<img class="absolute w-full h-full bottom-0 -mb-64" src="{asset path='images/illustrations/doorway.svg'}" />
+			<img class="absolute w-full h-full bottom-0 -mb-64" alt="A silhouette of a lady walking through a doorway made of light" src="{asset path='images/illustrations/doorway.svg'}" />
 		</div>
 	    {navigation inverse=true class="z-10"}
         {layout_section}
@@ -67,6 +67,6 @@
     {/layout_section}
 
 
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.4019005114783!2d-2.5946991835320476!3d51.450777079625695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48719ab841e0037b%3A0x332366b36b21e7a1!2sNewicon!5e0!3m2!1sen!2suk!4v1563201206667!5m2!1sen!2suk" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	<iframe title="Google Map showing Newicon's office" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.4019005114783!2d-2.5946991835320476!3d51.450777079625695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48719ab841e0037b%3A0x332366b36b21e7a1!2sNewicon!5e0!3m2!1sen!2suk!4v1563201206667!5m2!1sen!2suk" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
     {include file='./_cmps/section/contact/footer.tpl'}
 {/block}
