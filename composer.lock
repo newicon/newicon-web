@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "6f1bd4e854c71b54c3ff0d571442eb0f",
@@ -875,7 +875,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:newicon/neon.git",
-                "reference": "ed9c4d5c22dfdcd13956dce227f0cd45be616a0d"
+                "reference": "437e16ba3e853c9ed85601b4d2cfcb5c183901e7"
             },
             "require": {
                 "donatj/phpuseragentparser": "0.9.0",
@@ -924,7 +924,7 @@
                 }
             ],
             "description": "Neon framework",
-            "time": "2020-04-28 16:32:26"
+            "time": "2020-04-29T17:50:24+00:00"
         },
         {
             "name": "opis/closure",
@@ -2266,5 +2266,6 @@
         "ext-mbstring": "*",
         "ext-openssl": "*"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
