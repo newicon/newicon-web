@@ -6,7 +6,7 @@
 	<div class="h-screen flex items-center justify-center">
 		<div class="bg-white  py-20 px-10 relative rounded-lg" style="width:80%;">
 			<h1 class="mt-18 ni-bg-title z-10" data-title="404">Page not found</h1>
-			<p class="mt-40 letting-10 text-xl">Whoops this page does not exist! If you think this is an error please <a class="text-blue-500" href="{url('contact-us')}">contact us</a></p>
+			<p class="mt-40 letting-10 text-xl">Whoops this page does not exist! If you think this is an error please <a class="text-blue-500" href="{url('contact')}">contact us</a></p>
 			<p class="text-xl">
 				<a class="text-blue-500 inline-flex border btn-xl btn btn-fx border-gray-200 " href="{url('/')}">
 					<svg class="w-7 h-7 mr-2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24"><path d="M7 16l-4-4m0 0l4-4m-4 4h18"></path></svg>
