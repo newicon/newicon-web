@@ -44,8 +44,6 @@
     }
 
 
-
-
     {$image1 = {asset path="images/photos/mark-n-joe.jpg"}}
     {layout_section style="background-image:url('$image1')" class="bg-cover min-h-screen"}
 		<div class="flex mt-96 ml-6/12 mr-1/12 bg-white z-10 shadow-2xl max-w-2xl mx-auto rounded-md rounded-lg overflow-hidden bg-white group">

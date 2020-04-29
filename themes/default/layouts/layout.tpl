@@ -7,7 +7,7 @@
 	<body>
 		{neon_body_begin}
 		{block "header"}
-			{navigation}
+			{include file="../widgets/navigation.tpl"}
 		{/block}
 
 		{block "content"}
@@ -16,7 +16,7 @@
 
 {*		<div class="border-t">*}
 			{block "footer"}
-				{footer}
+                {include file="../widgets/footer.tpl"}
 			{/block}
 {*		</div>*}
         {* Compiled front end scripts *}
