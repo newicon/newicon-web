@@ -45,7 +45,7 @@ module.exports = function(nido, env){
 			db: {
 				database: 'newicon',
 				username: 'newicon',
-				password: 'SBqDaaK9AvYHMtLSzLPGbC'
+				password: ''
 			},
 			gitBranch: "staging",
 			siteName: 'SITE TITLE - Staging',
